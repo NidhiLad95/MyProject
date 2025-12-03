@@ -112,7 +112,7 @@ namespace GenxAi_Solutions_V1.Api
                         Title = string.IsNullOrWhiteSpace(titleSeed) ? "New chat" : titleSeed
                     })).Data;
 
-                    var sysPrompt = GetPrompt(companyId, chosenService);
+                    var sysPrompt = await GetPromptAsync(companyId, chosenService);
                     var rules = string.Equals(chosenService, "FileAnalytics", StringComparison.OrdinalIgnoreCase)
                         ? sysPrompt + "/n/n" + " You are a helpful assistant. Use prior messages as context." + "/n/n" + PromptService.Pdfrule
                         : sysPrompt + "/n/n" + PromptService.Rules;
@@ -124,6 +124,8 @@ namespace GenxAi_Solutions_V1.Api
                         SenderId = null,
                         Text = rules
                     });
+
+                    InvalidateHistoryCache(convId);
                 }
 
                 // Persist user message (+ metadata)
@@ -143,6 +145,8 @@ namespace GenxAi_Solutions_V1.Api
                         ["service"] = chosenService,
                         ["wantsChart"] = wantsChart ? "1" : "0"
                     });
+
+                    InvalidateHistoryCache(convId);
                 }
 
                 //// ==================== FileAnalytics ====================
@@ -227,6 +231,8 @@ bool wantsChart, bool sqlGreets, long userMsgId, CancellationToken ct)
                     Text = $"{badVerb} operations are not allowed. I can only run safe SELECT queries."
 
                 });
+
+                InvalidateHistoryCache(convId);
 
                 return new
 
@@ -1443,6 +1449,8 @@ private static HashSet<string> ExtractCandidateNames(string text)
                     {
                         newTitle = await TryUpdateTitleAsync(convId, message, replyTextForTitle, null, ct);
                     }
+
+                    InvalidateHistoryCache(convId);
                 }
 
                 return new
@@ -1600,6 +1608,8 @@ private static HashSet<string> ExtractCandidateNames(string text)
                     {
                         newTitle = await TryUpdateTitleAsync(convId, message, replyTextForTitle, null, ct);
                     }
+
+                    InvalidateHistoryCache(convId);
                 }
 
                 return new
@@ -1647,7 +1657,7 @@ private static HashSet<string> ExtractCandidateNames(string text)
         {
             var chatHistory = new List<ChatMessage>();
 
-            var sysPrompt = GetPrompt(Convert.ToInt32(User.FindFirstValue("CompanyId")), chosenService);
+            var sysPrompt = await GetPromptAsync(Convert.ToInt32(User.FindFirstValue("CompanyId")), chosenService);
 
             // Build the complete system prompt with context
             var systemPromptBuilder = new System.Text.StringBuilder();
@@ -1711,6 +1721,16 @@ private static HashSet<string> ExtractCandidateNames(string text)
         //    SizeLimit = 1024
         //});
         private static readonly MemoryCache _historyCache = new(new MemoryCacheOptions());
+
+        private static string GetHistoryCacheKey(long conversationId) => $"history_{conversationId}";
+
+        private static void InvalidateHistoryCache(long conversationId)
+        {
+            if (conversationId > 0)
+            {
+                _historyCache.Remove(GetHistoryCacheKey(conversationId));
+            }
+        }
         private async Task<List<ChatMessage>> GetLimitedHistoryAsync_up(
    long conversationId,
    int maxHistory,
@@ -1720,16 +1740,7 @@ private static HashSet<string> ExtractCandidateNames(string text)
    string? context = null, // Generic context parameter (schema for SQL, document for PDF)
    CancellationToken ct = default)
         {
-            var cacheKey = $"history_{conversationId}_{maxHistory}";
-
-            if (_historyCache.TryGetValue(cacheKey, out List<ChatMessage> cachedHistory))
-            {
-                return cachedHistory;
-            }
-
-            var chatHistory = new List<ChatMessage>();
-
-            var sysPrompt = GetPrompt(Convert.ToInt32(User.FindFirstValue("CompanyId")), chosenService);
+            var sysPrompt = await GetPromptAsync(Convert.ToInt32(User.FindFirstValue("CompanyId")), chosenService);
 
             // Build the complete system prompt with context
             var systemPromptBuilder = new System.Text.StringBuilder();
@@ -1758,42 +1769,67 @@ private static HashSet<string> ExtractCandidateNames(string text)
                 }
             }
 
-            chatHistory.Add(new ChatMessage(ChatRole.System, systemPromptBuilder.ToString()));
+            var systemMessage = new ChatMessage(ChatRole.System, systemPromptBuilder.ToString());
 
-            // Pull last N messages for THIS conversation from your chat store
-            if (_chat != null && conversationId > 0)
+            var cacheKey = GetHistoryCacheKey(conversationId);
+            if (!_historyCache.TryGetValue(cacheKey, out List<ChatMessage> persistedMessages))
             {
-                var resp = await _chat.GetConversationMessagesAsync(
-                    new GetConversationMessages { ConversationId = conversationId });
+                persistedMessages = new List<ChatMessage>();
 
-                var msgs = resp?.Data ?? new List<ChatMessageVm>();
-
-                // Keep only the most recent 'maxHistory' messages
-                foreach (var m in msgs.Skip(Math.Max(0, msgs.Count - maxHistory)))
+                if (_chat != null && conversationId > 0)
                 {
-                    var sender = (m.SenderType ?? "").Trim().ToLowerInvariant();
-                    var text = m.MessageText ?? string.Empty;
+                    var resp = await _chat.GetConversationMessagesAsync(
+                        new GetConversationMessages { ConversationId = conversationId });
 
-                    // Only add user/assistant to LLM context
-                    if (sender == "user") chatHistory.Add(new ChatMessage(ChatRole.User, text));
-                    else if (sender == "assistant") chatHistory.Add(new ChatMessage(ChatRole.Assistant, text));
+                    var msgs = resp?.Data ?? new List<ChatMessageVm>();
+
+                    foreach (var m in msgs)
+                    {
+                        var sender = (m.SenderType ?? "").Trim().ToLowerInvariant();
+                        var text = m.MessageText ?? string.Empty;
+
+                        // Only add user/assistant to LLM context
+                        if (sender == "user") persistedMessages.Add(new ChatMessage(ChatRole.User, text));
+                        else if (sender == "assistant") persistedMessages.Add(new ChatMessage(ChatRole.Assistant, text));
+                    }
                 }
+
+                _historyCache.Set(cacheKey, persistedMessages, TimeSpan.FromMinutes(5));
+            }
+
+            var history = new List<ChatMessage>(capacity: 1 + Math.Min(maxHistory, persistedMessages.Count) +
+                (string.IsNullOrWhiteSpace(userMessage) ? 0 : 1) +
+                (string.IsNullOrWhiteSpace(assistantMessage) ? 0 : 1));
+
+            history.Add(systemMessage);
+
+            foreach (var m in persistedMessages.Skip(Math.Max(0, persistedMessages.Count - maxHistory)))
+            {
+                history.Add(m);
             }
 
             // Optionally append transient messages for this turn
-            if (!string.IsNullOrWhiteSpace(userMessage)) chatHistory.Add(new ChatMessage(ChatRole.User, userMessage));
-            if (!string.IsNullOrWhiteSpace(assistantMessage)) chatHistory.Add(new ChatMessage(ChatRole.Assistant, assistantMessage));
+            if (!string.IsNullOrWhiteSpace(userMessage)) history.Add(new ChatMessage(ChatRole.User, userMessage));
+            if (!string.IsNullOrWhiteSpace(assistantMessage)) history.Add(new ChatMessage(ChatRole.Assistant, assistantMessage));
 
-            // Cache for 5 minutes
-            _historyCache.Set(cacheKey, chatHistory, TimeSpan.FromMinutes(5));
-
-            return chatHistory;
+            return history;
         }
-        private string GetPrompt(int companyId, string chosenServices)
+        private static readonly MemoryCache _promptCache = new(new MemoryCacheOptions());
+
+        private async Task<string> GetPromptAsync(int companyId, string chosenServices)
         {
+            var cacheKey = $"prompt_{companyId}_{chosenServices}";
+            if (_promptCache.TryGetValue(cacheKey, out string cachedPrompt))
+            {
+                return cachedPrompt;
+            }
+
             var svc = (!string.IsNullOrEmpty(chosenServices) && chosenServices == "SQLAnalytics") ? 1 : 2;
-            var strData = _repo.GetPromptCompany(new GetPromptCompanyId { CompanyId = companyId, SvcType = svc });
-            return strData.Result.Data;
+            var strData = await _repo.GetPromptCompany(new GetPromptCompanyId { CompanyId = companyId, SvcType = svc });
+            var prompt = strData.Data ?? string.Empty;
+
+            _promptCache.Set(cacheKey, prompt, TimeSpan.FromMinutes(10));
+            return prompt;
         }
        
         // Generic method to handle assistant responses for both services
@@ -1821,6 +1857,8 @@ private static HashSet<string> ExtractCandidateNames(string text)
 
                 await _chat.IncrementConversationTokensAsync(new IncrementConversationTokens { ConversationId = convId, Tokens = tokensUsed });
                 await _chat.IncrementCompanyTokensAsync(new IncrementCompanyTokens { companyId = companyId, Tokens = tokensUsed });
+
+                InvalidateHistoryCache(convId);
             }
         }
 
@@ -2078,6 +2116,8 @@ private static HashSet<string> ExtractCandidateNames(string text)
                 if (_chat != null && convId > 0)
                     await _chat.AppendMessageAsync(new AppendMessage { ConversationId = convId, SenderType = "assistant", SenderId = null, Text = sql +" : "+err });
 
+                InvalidateHistoryCache(convId);
+
                 var replyTextForTitle = err;
                 string? newTitle = null;
                 if (_chat != null && convId > 0)
@@ -2122,19 +2162,21 @@ private static HashSet<string> ExtractCandidateNames(string text)
                     var asstMsgId = asstResp.Data;
 
                     var colJson = System.Text.Json.JsonSerializer.Serialize(table.Columns.Cast<DataColumn>().Select(c => c.ColumnName));
-                    await _chat.AddMetadataBulkAsync(asstMsgId, new Dictionary<string, string>
-                    {
-                        ["mode"] = "chart",
-                        ["rowCount"] = table.Rows.Count.ToString(),
+                      await _chat.AddMetadataBulkAsync(asstMsgId, new Dictionary<string, string>
+                      {
+                          ["mode"] = "chart",
+                          ["rowCount"] = table.Rows.Count.ToString(),
                         ["columns"] = colJson,
                         ["chartSpec"] = specJson,
                         ["chartData"] = chartDataJson,
                         ["tokensUsed"] = tokensUsed.ToString()
                     });
 
-                    await _chat.IncrementConversationTokensAsync(new IncrementConversationTokens { ConversationId = convId, Tokens = tokensUsed });
-                    await _chat.IncrementCompanyTokensAsync(new IncrementCompanyTokens { companyId = companyId, Tokens = tokensUsed });
-                }
+                      await _chat.IncrementConversationTokensAsync(new IncrementConversationTokens { ConversationId = convId, Tokens = tokensUsed });
+                      await _chat.IncrementCompanyTokensAsync(new IncrementCompanyTokens { companyId = companyId, Tokens = tokensUsed });
+
+                    InvalidateHistoryCache(convId);
+                  }
 
                 var replyTextForTitle = $"Chart for {table.Rows.Count} rows";
                 string? newTitle = null;
@@ -2168,11 +2210,11 @@ private static HashSet<string> ExtractCandidateNames(string text)
                         ).ToArray()
                     }
                 };
-                var tableJsonForMessage = System.Text.Json.JsonSerializer.Serialize(tablePayload);
+                  var tableJsonForMessage = System.Text.Json.JsonSerializer.Serialize(tablePayload);
 
-                var asstResp = await _chat.AppendMessageAsync(new AppendMessage
-                {
-                    ConversationId = convId,
+                  var asstResp = await _chat.AppendMessageAsync(new AppendMessage
+                  {
+                      ConversationId = convId,
                     SenderType = "assistant",
                     SenderId = null,
                     Text = sql,
@@ -2180,19 +2222,21 @@ private static HashSet<string> ExtractCandidateNames(string text)
                 });
                 var asstMsgId = asstResp.Data;
 
-                var colJson = System.Text.Json.JsonSerializer.Serialize(table.Columns.Cast<DataColumn>().Select(c => c.ColumnName));
-                await _chat.AddMetadataBulkAsync(asstMsgId, new Dictionary<string, string>
-                {
-                    ["mode"] = "table",
+                  var colJson = System.Text.Json.JsonSerializer.Serialize(table.Columns.Cast<DataColumn>().Select(c => c.ColumnName));
+                  await _chat.AddMetadataBulkAsync(asstMsgId, new Dictionary<string, string>
+                  {
+                      ["mode"] = "table",
                     ["rowCount"] = table.Rows.Count.ToString(),
                     ["columns"] = colJson,
                     ["tableData"] = rowsJson,
                     ["tokensUsed"] = tokensUsed.ToString()
                 });
 
-                await _chat.IncrementConversationTokensAsync(new IncrementConversationTokens { ConversationId = convId, Tokens = tokensUsed });
-                await _chat.IncrementCompanyTokensAsync(new IncrementCompanyTokens { companyId = companyId, Tokens = tokensUsed });
-            }
+                  await _chat.IncrementConversationTokensAsync(new IncrementConversationTokens { ConversationId = convId, Tokens = tokensUsed });
+                  await _chat.IncrementCompanyTokensAsync(new IncrementCompanyTokens { companyId = companyId, Tokens = tokensUsed });
+
+                InvalidateHistoryCache(convId);
+              }
 
             var replyText = rows.Count == 0 ? okMsg :
                 $"Table result: {rows.Count} rows";
