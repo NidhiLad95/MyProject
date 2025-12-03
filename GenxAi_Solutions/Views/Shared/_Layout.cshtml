@@ -1,0 +1,554 @@
+﻿
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>GexAI - Index</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/simple-datatables@7.1.2/dist/style.min.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet" />
+    <link href="~/css/styles.css" rel="stylesheet" />
+    <link href="~/css/styles_custom.css" rel="stylesheet" />
+    <link href="~/css/table-card.css" rel="stylesheet" />
+    
+    <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+    @* <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> *@
+    <script src="~/js/bootstrap4.min.js"></script>
+    @* <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script> *@
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    @* <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> *@
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/microsoft-signalr/7.0.12/signalr.min.js" referrerpolicy="no-referrer"></script>
+    <script src="~/js/scripts.js"></script>
+    <script src="~/js/custom.js"></script>
+    @* <script src="~/js/site.js"></script> *@
+    <script src="~/js/JwtJS.js"></script>
+
+    <script>
+
+                $(document).ready(function () {
+          const groupId = localStorage.getItem("groupId"); // keep whatever you already do
+          var data = { GroupId: parseInt(groupId) };
+          const nel=document.getElementById("notification");
+              const mainElement = $('#mainBodyTag');
+        const divElementmain = $('#afterMain');
+          if(groupId==='1'){
+
+            nel.classList.add("d-none");
+                mainElement.addClass('h-100');
+        divElementmain.addClass('h-100');
+          }
+          else{
+              nel.classList.remove("d-none");
+              mainElement.removeClass();
+              divElementmain.removeClass();
+
+          }
+
+
+
+          $.ajax({
+            url: "/api/auth/getmenu",
+            type: "POST",
+            contentType: "application/json",
+            data: JSON.stringify(data),
+            success: function (menus) {
+              $("#GroupId").val(groupId);
+              let sideHtml = "";
+              // let navHtml = ""; // you’re not using it right now
+
+              menus.forEach(function (menu, idx) {
+                const hasChildren = menu.childMenus && menu.childMenus.length > 0;
+                const parentId = "collapse_" + idx;
+
+                // if it has children, don't navigate; just toggle the collapse
+                const parentHref = hasChildren
+                  ? "javascript:void(0);"
+                  : (menu.parentMenu?.screenURL || "javascript:void(0);");
+
+                sideHtml += `
+        <a class="nav-link ${hasChildren ? "collapsed" : ""}"
+           href="${parentHref}"
+           ${hasChildren ? `data-bs-toggle="collapse" data-bs-target="#${parentId}" aria-expanded="false" aria-controls="${parentId}"` : ""}>
+          <div class="sb-nav-link-icon">${menu.parentMenu?.menuIcon || ""}</div>
+          ${menu.parentMenu?.screenname || ""}
+          ${hasChildren ? `<div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>` : ""}
+        </a>`;
+
+                if (hasChildren) {
+                  sideHtml += `
+        <div class="collapse" id="${parentId}" data-bs-parent="#sidenavAccordion">
+          <nav class="sb-sidenav-menu-nested nav">`;
+
+                  menu.childMenus.forEach(function (child) {
+                    sideHtml += `
+            <a class="nav-link" href="${child.screenURL || 'javascript:void(0);'}">
+            <div class="sb-nav-link-icon">${child?.menuIcon || ""}</div>
+              ${child.screenname || ""}
+            </a>`;
+                  });
+
+                  // CLOSE the nested nav + collapse for THIS parent
+                  sideHtml += `
+          </nav>
+        </div>`;
+                }
+              });
+
+              // Build History (only when groupId == 1)
+              let history = "";
+              if (Number(groupId) === 1) {
+                history = `
+        <div class="collapse" id="collapsehistory" aria-labelledby="headingTwo" data-bs-parent="#sidenavAccordionh1">
+
+          <nav class="sb-sidenav-menu-nested nav accordion" id="sidenavAccordionh1">
+
+          </nav>
+        </div>`;
+            const el = document.getElementById("historyPan");
+        if (el) el.classList.remove("d-none");
+              }
+
+
+
+              // Inject the built HTML
+              $("#sideMenu").html(sideHtml);       // your menu items
+              $("#chatbotHistory").html(history);  // ONLY the collapsible body for History
+            },
+            error: function (xhr, status, error) {
+              console.error("❌ Failed to load menu:", error, xhr?.responseText);
+            }
+          });
+
+          // $(document).on('click', '.js-logout', function (e) {
+
+          //         e.preventDefault();
+
+          //     // $('#loader').show();
+          //     //fetch('/api/auth/logout', { method: 'POST', headers: { 'Accept': 'application/json' } })
+          //     debugger;
+
+
+          // });
+        });
+
+              // status: "SUCCESS" | "FAIL"
+        function pushNotif({ title, message, status = "SUCCESS", timeText = null, link = null, autoHide = true, delayMs = 8000 }) {
+          const root = document.getElementById('notifRoot');
+          if (!root) return;
+
+          const id = 't' + Date.now() + Math.floor(Math.random()*1e6);
+          const cls = (status === 'FAIL') ? 'toast-fail' : 'toast-success';
+          const now  = timeText || new Date().toLocaleString();
+
+          const html = `
+            <div id="${id}" class="toast ${cls}" role="alert" aria-live="assertive" aria-atomic="true" data-bs-autohide="${autoHide}" data-bs-delay="${delayMs}">
+              <div class="toast-header">
+                <span class="me-2">${status === 'FAIL' ? '❌' : '✅'}</span>
+                <strong class="me-auto notif-title">${title || status}</strong>
+                <small class="notif-time ms-2">${now}</small>
+                <button type="button" class="btn-close ms-2 mb-1" data-bs-dismiss="toast" aria-label="Close"></button>
+              </div>
+              <div class="toast-body notif-body">
+                ${message ? message : ''}
+                ${link ? `<div class="mt-2"><a href="${link}" class="link-primary" target="_blank" rel="noopener">View details</a></div>` : ''}
+              </div>
+            </div>`;
+
+          const wrapper = document.createElement('div');
+          wrapper.innerHTML = html.trim();
+          const toastEl = wrapper.firstElementChild;
+          root.prepend(toastEl); // newest first
+
+          // Bootstrap toast init
+          const toast = new bootstrap.Toast(toastEl);
+          toast.show();
+
+          // Optional: remove from DOM when hidden
+          toastEl.addEventListener('hidden.bs.toast', () => toastEl.remove());
+        }
+
+        function jslogout()
+        {
+             $.ajax({
+                url: "/api/auth/logout",  // ✅ Your API endpoint
+                type: "POST",
+                contentType: "application/json",
+                success: function (res)
+                         {
+                            jwtLogout();
+                            window.location.href = "/User/Login";
+                         }
+              });
+
+        }
+
+    </script>
+
+    <script>
+        const gId = localStorage.getItem("groupId");
+        (function () {
+          // --- state ---
+          const $badge = document.getElementById('notifyBadge');
+                  const $list = $('#notifList');
+        const $btnMarkread = $('#markAllBtn');
+          const unreadIds = new Set();    // ids we haven't sent to /read yet
+          let lastSeenId = 0;             // watermark for incremental fetch
+
+                  // --- render no updates message ---
+        function renderNoUpdates() {
+          const el = document.createElement('div');
+          el.className = 'list-group-item text-center text-muted';
+          el.innerHTML = `
+            <div class="d-flex w-100 justify-content-between">
+              <h6 class="mb-1 w-100">No new updates</h6>
+            </div>
+            <p class="mb-1">There are no new notifications at this time.</p>
+          `;
+          if($list.html()==='')
+          {
+               $list.html('');
+        $btnMarkread.addClass('d-none');
+        $list.prepend(el);
+          }
+
+        }
+
+          // --- render ---
+          function renderItem(n, asUnread) {
+            const el = document.createElement('a');
+            el.className = 'list-group-item list-group-item-action notif' + (asUnread ? ' unread' : '');
+            el.dataset.id = n.id;
+
+            el.innerHTML = `
+              <div class="d-flex w-100 justify-content-between">
+                <h6 class="mb-1">${escapeHtml(n.title ?? '')}</h6>
+                <small class="text-muted">${new Date(n.createdAtUtc).toLocaleString()}</small>
+              </div>
+              <p class="mb-1">${escapeHtml(n.message ?? '')}</p>
+              ${n.linkUrl ? `<small><u>Open</u></small>` : ``}
+            `;
+
+            if (n.linkUrl) {
+              el.addEventListener('click', (e) => {
+                // mark single item read on click
+                markRead([n.id]).then(() => {
+                  unreadIds.delete(n.id);
+                  el.classList.remove('unread');
+                  updateBadge();
+                  window.location.href = n.linkUrl;
+                });
+              });
+            }
+            $btnMarkread.removeClass('d-none');
+            $list.prepend(el);
+          }
+
+          function escapeHtml(s) {
+            return String(s).replace(/[&<>"']/g, m => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'}[m]));
+          }
+
+          // --- badge ---
+          function updateBadge() {
+            const count = unreadIds.size;
+            if (count > 0) {
+              $badge.textContent = String(count);
+              $badge.classList.remove('d-none');
+            } else {
+              $badge.textContent = '';
+              $badge.classList.add('d-none');
+            }
+          }
+
+          // --- API helpers (uses your existing endpoints) ---
+          async function loadUnread(initial=false) {
+            const url = '/api/notifications/unread' + (lastSeenId ? `?afterId=${lastSeenId}` : '');
+            const r = await fetch(url, { headers: {'Accept':'application/json'}});
+            if (!r.ok) return;
+            const items = await r.json();
+            if (!Array.isArray(items) || !(items.length>=1))
+            {
+                renderNoUpdates();
+                return;
+            }
+
+             $list.html('');
+
+            for (const n of items) {
+              // treat anything new as unread until user opens/marks
+              lastSeenId = Math.max(lastSeenId, Number(n.id || 0));
+              unreadIds.add(Number(n.id));
+              renderItem(n, /*asUnread*/ true);
+            }
+            updateBadge();
+          }
+
+          async function markRead(ids) {
+            if (!ids || ids.length === 0) return { updated: 0 };
+            const r = await fetch('/api/notifications/read', {
+              method: 'POST',
+              headers: {'Content-Type':'application/json', 'Accept':'application/json'},
+              body: JSON.stringify(ids)
+            });
+            if (!r.ok) return { updated: 0 };
+            return r.json();
+          }
+
+          // --- UX: mark-as-read behaviors ---
+          // 1) When the dropdown is opened, mark everything currently unread as read
+          document.getElementById('notifButton')?.addEventListener('show.bs.dropdown', async () => {
+            const ids = Array.from(unreadIds);
+            if (ids.length === 0) return;
+            const { updated } = await markRead(ids);
+            if (updated > 0) {
+              unreadIds.clear();
+              updateBadge();
+              // Remove unread class from rendered items
+              document.querySelectorAll('#notifList .notif.unread').forEach(el => el.classList.remove('unread'));
+            }
+          });
+
+          // 2) Optional explicit "Mark all read" button
+          document.getElementById('markAllBtn')?.addEventListener('click', async () => {
+            const ids = Array.from(unreadIds);
+            if (ids.length === 0) return;
+            const { updated } = await markRead(ids);
+            if (updated > 0) {
+              unreadIds.clear();
+              updateBadge();
+              document.querySelectorAll('#notifList .notif.unread').forEach(el => el.classList.remove('unread'));
+            }
+          });
+
+          // --- SignalR live push (uses your existing hub + watcher/notifier) ---
+          if (window.signalR) {
+            const hub = new signalR.HubConnectionBuilder().withUrl('/hubs/notifications',{ accessTokenFactory: () => localStorage.getItem("accessToken") }).withAutomaticReconnect().build();
+            hub.on('notify', (n) => {
+              // Every push is "new" -> add to unread and bump badge
+              lastSeenId = Math.max(lastSeenId, Number(n.id || 0));
+              unreadIds.add(Number(n.id));
+              renderItem(n, true);
+              updateBadge();
+            });
+            hub.start().catch(console.error);
+          }
+
+
+
+
+        //   if(gId==='2'){
+
+        //       // --- initial fetch on page load (get unread backlog) ---
+        //   loadUnread(true);
+        //           // --- Periodic refresh every 10 seconds if admin user ---
+
+        //    setInterval(() => {
+        //   loadUnread(true);
+        // }, 10000); // 10 seconds
+        //   }
+
+
+
+
+        })();
+    </script>
+
+    <!--Notification-->
+    <style>
+        #notifRoot .toast {
+            width: 360px;
+            box-shadow: 0 0.5rem 1rem rgba(0,0,0,.15);
+        }
+
+            #notifRoot .toast + .toast {
+                margin-top: .5rem;
+            }
+        /* stack spacing */
+        .notif-body {
+            white-space: normal;
+            word-wrap: break-word;
+        }
+
+        .notif-title {
+            font-weight: 600;
+        }
+
+        .notif-time {
+            font-size: .775rem;
+            opacity: .8;
+        }
+        /* Success & Fail themes (uses Bootstrap 5 “-subtle” utilities if available) */
+        .toast-success .toast-header {
+            background: var(--bs-success-bg-subtle, #d1e7dd);
+            color: var(--bs-success-text, #0f5132);
+        }
+
+        .toast-fail .toast-header {
+            background: var(--bs-danger-bg-subtle, #f8d7da);
+            color: var(--bs-danger-text, #842029);
+        }
+
+       #notifyBell {
+            line-height: 1;
+        }
+
+        #notifyBadge {
+            min-width: 1.2rem;
+        }
+    
+    </style>
+    <style>
+        .notif.unread {
+            background: rgba(13,110,253,.05);
+            border-left: 3px solid #0d6efd;
+        }
+    </style>
+   
+</head>
+
+<body class="sb-nav-fixed">
+    
+
+    <nav class="sb-topnav navbar navbar-expand navbar-dark bg-dark">
+        <!-- Navbar Brand-->
+        <a class="navbar-brand ps-3" asp-controller="Home" asp-action="Index">
+            <img width="120" src="~/assets/img/GenXAILatest.png" />
+            <button class="tg-btn btn btn-link btn-sm order-1 order-lg-0 me-4 me-lg-0 text-white toggle-nav-btn"
+                    id="sidebarToggle" href="#!">
+                <i class="fas fa-bars"></i>
+            </button>
+        </a>
+        <!-- Sidebar Toggle-->
+        <!-- <button class="btn btn-link btn-sm order-1 order-lg-0 me-4 me-lg-0" id="sidebarToggle" href="#!"><i class="fas fa-bars"></i></button> -->
+        <!-- Navbar mega menu-->
+        <!-- <div class="top-nav-header container d-flex flex-column flex-md-row justify-content-between">
+          <a class="py-2 d-none d-md-inline-block" href="#">Admin</a>
+        </div> -->
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-dark p-0">
+                <!-- Nav Toggle Button -->         
+                <button class="navbar-toggler my-2" type="button" data-bs-toggle="collapse" data-bs-target="#main_nav"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                
+            </nav>
+        </div><!-- /.nav-collapse -->
+        <ul class="navbar-nav ms-auto ms-md-0 me-3 me-lg-4 right-btn-user">
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="fas fa-user fa-fw"></i></a>
+                <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+                    <li><a id="change-theme-btn" class="dropdown-item" href="javascript:void(0);">Dark Theme</a></li>
+                    <li><a class="dropdown-item" href="javascript:void(0);">Profile</a></li>
+                    <li><a class="dropdown-item" asp-area="" asp-controller="User" asp-action="ChangePassword">Change Password</a></li>
+                    <li><a class="dropdown-item js-logout" href="#" onclick="return jslogout();">Logout</a></li>
+
+                </ul>
+            </li>
+        </ul>
+        <ul id="notification" class="navbar-nav ms-auto ms-md-0 me-3 me-lg-4 right-btn-user">
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" id="notifyBell" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <i class="fa fa-bell"></i>
+                    <span id="notifyBadge"
+                          class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger d-none">0</span>
+
+                </a>
+                <div class="dropdown-menu dropdown-menu-end p-0" aria-labelledby="notifButton" style="min-width: 360px;">
+                    <div id="notifList" class="list-group list-group-flush"></div>
+                    <div class="p-2 text-end">
+                        <button id="markAllBtn" type="button" class="btn btn-sm btn-outline-secondary">Mark all read</button>
+                    </div>
+                </div>
+                
+            </li>
+        </ul>
+       
+    </nav>
+    <div id="layoutSidenav">
+        <div class="two hover" id="layoutSidenav_nav">
+            <nav class="nav-side-new sb-sidenav accordion sb-sidenav-dark collapsed" id="sidenavAccordion">
+                <div class="sb-sidenav-menu">
+                    <div class="nav">
+                        <!-- Dynamic menu will be injected here -->
+                        <a class="main-link nav-link new-chat-link d-none" href="javascript:void(0);" id="btnNewChat">
+                            <div class="sb-nav-link-icon">
+                                <!--<svg b-lu5et9t2at="" width="22" height="22" viewBox="0 0 512 512" fill="black" xmlns="http://www.w3.org/2000/svg" class="svg-inline--fa fa-folder" aria-hidden="true" focusable="false" data-prefix="fas" role="img">
+                                <path d="M2.6687 11.333V8.66699C2.6687 7.74455 2.66841 7.01205 2.71655 6.42285C2.76533 5.82612 2.86699 5.31731 3.10425 4.85156L3.25854 4.57617C3.64272 3.94975 4.19392 3.43995 4.85229 3.10449L5.02905 3.02149C5.44666 2.84233 5.90133 2.75849 6.42358 2.71582C7.01272 2.66769 7.74445 2.66797 8.66675 2.66797H9.16675C9.53393 2.66797 9.83165 2.96586 9.83179 3.33301C9.83179 3.70028 9.53402 3.99805 9.16675 3.99805H8.66675C7.7226 3.99805 7.05438 3.99834 6.53198 4.04102C6.14611 4.07254 5.87277 4.12568 5.65601 4.20313L5.45581 4.28906C5.01645 4.51293 4.64872 4.85345 4.39233 5.27149L4.28979 5.45508C4.16388 5.7022 4.08381 6.01663 4.04175 6.53125C3.99906 7.05373 3.99878 7.7226 3.99878 8.66699V11.333C3.99878 12.2774 3.99906 12.9463 4.04175 13.4688C4.08381 13.9833 4.16389 14.2978 4.28979 14.5449L4.39233 14.7285C4.64871 15.1465 5.01648 15.4871 5.45581 15.7109L5.65601 15.7969C5.87276 15.8743 6.14614 15.9265 6.53198 15.958C7.05439 16.0007 7.72256 16.002 8.66675 16.002H11.3337C12.2779 16.002 12.9461 16.0007 13.4685 15.958C13.9829 15.916 14.2976 15.8367 14.5447 15.7109L14.7292 15.6074C15.147 15.3511 15.4879 14.9841 15.7117 14.5449L15.7976 14.3447C15.8751 14.128 15.9272 13.8546 15.9587 13.4688C16.0014 12.9463 16.0017 12.2774 16.0017 11.333V10.833C16.0018 10.466 16.2997 10.1681 16.6667 10.168C17.0339 10.168 17.3316 10.4659 17.3318 10.833V11.333C17.3318 12.2555 17.3331 12.9879 17.2849 13.5771C17.2422 14.0993 17.1584 14.5541 16.9792 14.9717L16.8962 15.1484C16.5609 15.8066 16.0507 16.3571 15.4246 16.7412L15.1492 16.8955C14.6833 17.1329 14.1739 17.2354 13.5769 17.2842C12.9878 17.3323 12.256 17.332 11.3337 17.332H8.66675C7.74446 17.332 7.01271 17.3323 6.42358 17.2842C5.90135 17.2415 5.44665 17.1577 5.02905 16.9785L4.85229 16.8955C4.19396 16.5601 3.64271 16.0502 3.25854 15.4238L3.10425 15.1484C2.86697 14.6827 2.76534 14.1739 2.71655 13.5771C2.66841 12.9879 2.6687 12.2555 2.6687 11.333ZM13.4646 3.11328C14.4201 2.334 15.8288 2.38969 16.7195 3.28027L16.8865 3.46485C17.6141 4.35685 17.6143 5.64423 16.8865 6.53613L16.7195 6.7207L11.6726 11.7686C11.1373 12.3039 10.4624 12.6746 9.72827 12.8408L9.41089 12.8994L7.59351 13.1582C7.38637 13.1877 7.17701 13.1187 7.02905 12.9707C6.88112 12.8227 6.81199 12.6134 6.84155 12.4063L7.10132 10.5898L7.15991 10.2715C7.3262 9.53749 7.69692 8.86241 8.23218 8.32715L13.2791 3.28027L13.4646 3.11328ZM15.7791 4.2207C15.3753 3.81702 14.7366 3.79124 14.3035 4.14453L14.2195 4.2207L9.17261 9.26856C8.81541 9.62578 8.56774 10.0756 8.45679 10.5654L8.41772 10.7773L8.28296 11.7158L9.22241 11.582L9.43433 11.543C9.92426 11.432 10.3749 11.1844 10.7322 10.8271L15.7791 5.78027L15.8552 5.69629C16.185 5.29194 16.1852 4.708 15.8552 4.30371L15.7791 4.2207Z"></path>
+                                </svg> -->
+                                <!--<i class="fas fa-message"></i>-->
+                                <i class="fa-regular fa-pen-to-square"></i>
+                            </div>
+                            New Chat
+                        </a>
+                        <div id="sideMenu"></div>
+                       
+
+                        <!-- Static History toggle (keep yours here) -->
+                        
+                        <a class="main-link nav-link d-none" href="javascript:void(0);" data-bs-toggle="collapse" id="historyPan"
+                           data-bs-target="#collapsehistory" aria-expanded="true" aria-controls="collapsehistory">
+                            <div class="sb-nav-link-icon">
+                                <!-- your history icon svg -->
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path d="M496 224c-79.6 0-144 64.4-144 144s64.4 144 144 144 144-64.4 144-144-64.4-144-144-144zm64 150.3c0 5.3-4.4 9.7-9.7 9.7h-60.6c-5.3 0-9.7-4.4-9.7-9.7v-76.6c0-5.3 4.4-9.7 9.7-9.7h12.6c5.3 0 9.7 4.4 9.7 9.7V352h38.3c5.3 0 9.7 4.4 9.7 9.7v12.6zM320 368c0-27.8 6.7-54.1 18.2-77.5-8-1.5-16.2-2.5-24.6-2.5h-16.7c-22.2 10.2-46.9 16-72.9 16s-50.6-5.8-72.9-16h-16.7C60.2 288 0 348.2 0 422.4V464c0 26.5 21.5 48 48 48h347.1c-45.3-31.9-75.1-84.5-75.1-144zm-96-112c70.7 0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128z" /></svg>
+                            </div>
+                            History
+                            @* <div class="sb-sidenav-collapse-arrow">
+                                <i class="fas fa-angle-down"></i>
+                            </div> *@
+                            <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+                        </a>
+
+                        <!-- 🔽 Add this placeholder exactly here -->
+                        <div id="chatbotHistory"></div>
+                        <!-- JS will inject the full <div id="collapsehistory">...</div> here -->
+
+
+                    </div>
+                </div>
+            </nav>
+            
+        </div>
+        
+        <div id="layoutSidenav_content">
+            <main id="mainBodyTag">
+                <div id="afterMain">
+                    @RenderBody()
+                </div>
+            </main>
+            <div id="notifRoot" class="position-fixed top-0 end-0 p-3" style="z-index:1080;"></div>
+            <footer class="py-3 bg-light mt-auto">
+                <div class="container-fluid px-4">
+                    <div class="d-flex align-items-center justify-content-between small">
+                        <div class="text-muted">
+                            <p class="m-0 text-dark text-bold">
+                                Developed and Maintained By<a href="javascript:void(0);"
+                                                              class="px-2 d-inline-block text-decoration-none font-bold text-white">
+                                    GenXAI
+                                    Analytics Pvt
+                                    Ltd
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </div>
+    
+
+    
+
+    
+    
+    @RenderSection("Scripts", required: false)
+
+</body>
+
+</html>

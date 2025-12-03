@@ -1,0 +1,565 @@
+﻿[2025-12-01 10:27:35.084] [AUDIT]
+Event: General Audit
+Details: QueuedWorker started.
+------------------------------------------------------------
+[2025-12-01 10:27:35.322] [AUDIT]
+Event: ListeningOnAddress
+Details: Now listening on: https://localhost:7282
+------------------------------------------------------------
+[2025-12-01 10:27:35.323] [AUDIT]
+Event: ListeningOnAddress
+Details: Now listening on: http://localhost:5072
+------------------------------------------------------------
+[2025-12-01 10:27:35.424] [AUDIT]
+Event: General Audit
+Details: Application started. Press Ctrl+C to shut down.
+------------------------------------------------------------
+[2025-12-01 10:27:35.425] [AUDIT]
+Event: General Audit
+Details: Hosting environment: Development
+------------------------------------------------------------
+[2025-12-01 10:27:35.427] [AUDIT]
+Event: General Audit
+Details: Content root path: D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions_V1
+------------------------------------------------------------
+[2025-12-01 10:27:37.845] [AUDIT]
+Event: General Audit
+Details: No JWT present on /
+------------------------------------------------------------
+[2025-12-01 11:43:10.649] [AUDIT]
+Event: General Audit
+Details: QueuedWorker started.
+------------------------------------------------------------
+[2025-12-01 11:43:10.904] [AUDIT]
+Event: ListeningOnAddress
+Details: Now listening on: https://localhost:7282
+------------------------------------------------------------
+[2025-12-01 11:43:10.905] [AUDIT]
+Event: ListeningOnAddress
+Details: Now listening on: http://localhost:5072
+------------------------------------------------------------
+[2025-12-01 11:43:11.062] [AUDIT]
+Event: General Audit
+Details: Application started. Press Ctrl+C to shut down.
+------------------------------------------------------------
+[2025-12-01 11:43:11.073] [AUDIT]
+Event: General Audit
+Details: Hosting environment: Development
+------------------------------------------------------------
+[2025-12-01 11:43:11.075] [AUDIT]
+Event: General Audit
+Details: Content root path: D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions_V1
+------------------------------------------------------------
+[2025-12-01 11:43:12.680] [AUDIT]
+Event: General Audit
+Details: No JWT present on /
+------------------------------------------------------------
+[2025-12-01 11:43:57.296] [AUDIT]
+Event: General Audit
+Details: SECURITY_EVENT: Type: JWT_MISSING, User: anonymous, IP: ::1, Details: No Authorization: Bearer header on API request; /api/auth/login
+------------------------------------------------------------
+[2025-12-01 11:43:57.307] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: POST /api/auth/login, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-12-01 11:43:57.374] [AUDIT]
+Event: General Audit
+Details: No JWT present on /api/auth/login
+------------------------------------------------------------
+[2025-12-01 11:44:04.705] [AUDIT]
+Event: General Audit
+Details: No JWT present on /CompanyOnboard/Chatbot
+------------------------------------------------------------
+[2025-12-01 11:44:05.011] [AUDIT]
+Event: General Audit
+Details: SECURITY_EVENT: Type: JWT_PRESENT, User: anonymous, IP: ::1, Details: Bearer token found; masked=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIyIiwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvbmFtZWlkZW50aWZpZXIiOlsiMiIsIjIiXSwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvbmFtZSI6WyJuaWRoaS5sYWRAZ2VueGFpLmNvbSIsIm5pZGhpLmxhZEBnZW54YWkuY29tIl0sImp0aSI6IjhkYWU5YmIyLTA0ZTAtNGFhZC04NmU2LWUwZjkyYmYzMmRlZSIsIkNvbXBhbnlJZCI6IjYyNTgiLCJjb21wYW5pZXMiOiIwIiwiRGF0YWJhc2VOYW1lIjoiQWR2ZW50dXJlV29ya3MiLCJTUUxpdGVkYk5hbWUiOiJkYl9haV9jb21wYW55XzYyNTguZGIiLCJTUUxpdGVkYk5hbWVfRmlsZSI6IiIsIkNvbm5zdHIiOiJTZXJ2ZXI9MTg1LjEwMC4yMTIuNDc7SW5pdGlhbCBDYXRhbG9nPW1hc3RlcjtQZXJzaXN0IFNlY3VyaXR5IEluZm89RmFsc2U7VXNlciBJZD1kZXZlbG9wZXIyO1Bhc3N3b3JkPURldiMyMDI1O1Bvb2xpbmc9RmFsc2U7TXVsdGlwbGUgQWN0aXZlIFJlc3VsdCBTZXRzPUZhbHNlO0VuY3J5cHQ9VHJ1ZTtUcnVzdCBTZXJ2ZXIgQ2VydGlmaWNhdGU9VHJ1ZTsiLCJkYlR5cGUiOiJTUUwgU2VydmVyIiwiZ3JvdXBJZCI6IjEiLCJuYmYiOjE3NjQ1Njk2NDQsImV4cCI6MTc2NDU3MDU0NCwiaXNzIjoiR2VueEFpIiwiYXVkIjoiR2VueEFpLkNsaWVudHMifQ.IGBdxUrBcIIVzjJ4S5-JJ8Og5g4nq3J0IdMPXod3cy7C3qcK8Gh5kG9RUjJcBT08_bBsEiEVYsOUDelE70X81g , /api/CompanyOnboard/History/me
+------------------------------------------------------------
+[2025-12-01 11:44:05.013] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/CompanyOnboard/History/me, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-12-01 11:44:05.022] [AUDIT]
+Event: General Audit
+Details: JWT received on /api/CompanyOnboard/History/me. TokenHash=EE6DCBA7886D3CE28909C69FE880C0FFEE6C2486D9C70B626D2668DD588EF0F3
+------------------------------------------------------------
+[2025-12-01 11:44:05.027] [AUDIT]
+Event: General Audit
+Details: JWT received on /hubs/notifications/negotiate. TokenHash=EE6DCBA7886D3CE28909C69FE880C0FFEE6C2486D9C70B626D2668DD588EF0F3
+------------------------------------------------------------
+[2025-12-01 11:44:05.044] [AUDIT]
+Event: General Audit
+Details: SECURITY_EVENT: Type: JWT_PRESENT, User: anonymous, IP: ::1, Details: Bearer token found; masked=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIyIiwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvbmFtZWlkZW50aWZpZXIiOlsiMiIsIjIiXSwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvbmFtZSI6WyJuaWRoaS5sYWRAZ2VueGFpLmNvbSIsIm5pZGhpLmxhZEBnZW54YWkuY29tIl0sImp0aSI6IjhkYWU5YmIyLTA0ZTAtNGFhZC04NmU2LWUwZjkyYmYzMmRlZSIsIkNvbXBhbnlJZCI6IjYyNTgiLCJjb21wYW5pZXMiOiIwIiwiRGF0YWJhc2VOYW1lIjoiQWR2ZW50dXJlV29ya3MiLCJTUUxpdGVkYk5hbWUiOiJkYl9haV9jb21wYW55XzYyNTguZGIiLCJTUUxpdGVkYk5hbWVfRmlsZSI6IiIsIkNvbm5zdHIiOiJTZXJ2ZXI9MTg1LjEwMC4yMTIuNDc7SW5pdGlhbCBDYXRhbG9nPW1hc3RlcjtQZXJzaXN0IFNlY3VyaXR5IEluZm89RmFsc2U7VXNlciBJZD1kZXZlbG9wZXIyO1Bhc3N3b3JkPURldiMyMDI1O1Bvb2xpbmc9RmFsc2U7TXVsdGlwbGUgQWN0aXZlIFJlc3VsdCBTZXRzPUZhbHNlO0VuY3J5cHQ9VHJ1ZTtUcnVzdCBTZXJ2ZXIgQ2VydGlmaWNhdGU9VHJ1ZTsiLCJkYlR5cGUiOiJTUUwgU2VydmVyIiwiZ3JvdXBJZCI6IjEiLCJuYmYiOjE3NjQ1Njk2NDQsImV4cCI6MTc2NDU3MDU0NCwiaXNzIjoiR2VueEFpIiwiYXVkIjoiR2VueEFpLkNsaWVudHMifQ.IGBdxUrBcIIVzjJ4S5-JJ8Og5g4nq3J0IdMPXod3cy7C3qcK8Gh5kG9RUjJcBT08_bBsEiEVYsOUDelE70X81g , /api/auth/getmenu
+------------------------------------------------------------
+[2025-12-01 11:44:05.048] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: POST /api/auth/getmenu, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-12-01 11:44:05.071] [AUDIT]
+Event: General Audit
+Details: JWT received on /api/auth/getmenu. TokenHash=EE6DCBA7886D3CE28909C69FE880C0FFEE6C2486D9C70B626D2668DD588EF0F3
+------------------------------------------------------------
+[2025-12-01 11:44:05.168] [AUDIT]
+Event: General Audit
+Details: JWT validated. sub=2 jti=8dae9bb2-04e0-4aad-86e6-e0f92bf32dee exp=(null)
+------------------------------------------------------------
+[2025-12-01 11:44:05.170] [AUDIT]
+Event: General Audit
+Details: JWT validated. sub=2 jti=8dae9bb2-04e0-4aad-86e6-e0f92bf32dee exp=(null)
+------------------------------------------------------------
+[2025-12-01 11:44:05.171] [AUDIT]
+Event: General Audit
+Details: JWT validated. sub=2 jti=8dae9bb2-04e0-4aad-86e6-e0f92bf32dee exp=(null)
+------------------------------------------------------------
+[2025-12-01 11:44:05.220] [AUDIT]
+Event: General Audit
+Details: JWT received on /hubs/notifications. TokenHash=EE6DCBA7886D3CE28909C69FE880C0FFEE6C2486D9C70B626D2668DD588EF0F3
+------------------------------------------------------------
+[2025-12-01 11:44:05.243] [AUDIT]
+Event: General Audit
+Details: JWT validated. sub=2 jti=8dae9bb2-04e0-4aad-86e6-e0f92bf32dee exp=(null)
+------------------------------------------------------------
+[2025-12-01 11:44:23.135] [AUDIT]
+Event: General Audit
+Details: SECURITY_EVENT: Type: JWT_PRESENT, User: anonymous, IP: ::1, Details: Bearer token found; masked=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIyIiwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvbmFtZWlkZW50aWZpZXIiOlsiMiIsIjIiXSwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvbmFtZSI6WyJuaWRoaS5sYWRAZ2VueGFpLmNvbSIsIm5pZGhpLmxhZEBnZW54YWkuY29tIl0sImp0aSI6IjhkYWU5YmIyLTA0ZTAtNGFhZC04NmU2LWUwZjkyYmYzMmRlZSIsIkNvbXBhbnlJZCI6IjYyNTgiLCJjb21wYW5pZXMiOiIwIiwiRGF0YWJhc2VOYW1lIjoiQWR2ZW50dXJlV29ya3MiLCJTUUxpdGVkYk5hbWUiOiJkYl9haV9jb21wYW55XzYyNTguZGIiLCJTUUxpdGVkYk5hbWVfRmlsZSI6IiIsIkNvbm5zdHIiOiJTZXJ2ZXI9MTg1LjEwMC4yMTIuNDc7SW5pdGlhbCBDYXRhbG9nPW1hc3RlcjtQZXJzaXN0IFNlY3VyaXR5IEluZm89RmFsc2U7VXNlciBJZD1kZXZlbG9wZXIyO1Bhc3N3b3JkPURldiMyMDI1O1Bvb2xpbmc9RmFsc2U7TXVsdGlwbGUgQWN0aXZlIFJlc3VsdCBTZXRzPUZhbHNlO0VuY3J5cHQ9VHJ1ZTtUcnVzdCBTZXJ2ZXIgQ2VydGlmaWNhdGU9VHJ1ZTsiLCJkYlR5cGUiOiJTUUwgU2VydmVyIiwiZ3JvdXBJZCI6IjEiLCJuYmYiOjE3NjQ1Njk2NDQsImV4cCI6MTc2NDU3MDU0NCwiaXNzIjoiR2VueEFpIiwiYXVkIjoiR2VueEFpLkNsaWVudHMifQ.IGBdxUrBcIIVzjJ4S5-JJ8Og5g4nq3J0IdMPXod3cy7C3qcK8Gh5kG9RUjJcBT08_bBsEiEVYsOUDelE70X81g , /api/chat/AskAgent
+------------------------------------------------------------
+[2025-12-01 11:44:23.147] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: POST /api/chat/AskAgent, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-12-01 11:44:23.150] [AUDIT]
+Event: General Audit
+Details: JWT received on /api/chat/AskAgent. TokenHash=EE6DCBA7886D3CE28909C69FE880C0FFEE6C2486D9C70B626D2668DD588EF0F3
+------------------------------------------------------------
+[2025-12-01 11:44:23.155] [AUDIT]
+Event: General Audit
+Details: JWT validated. sub=2 jti=8dae9bb2-04e0-4aad-86e6-e0f92bf32dee exp=(null)
+------------------------------------------------------------
+[2025-12-01 11:44:23.460] [AUDIT]
+Event: General Audit
+Details: Unhandled exception POST /api/chat/AskAgent ce7e0e8a-4c3c-436e-b7c9-5e8c7ba57524. Exception Details: System.InvalidOperationException - Unable to resolve service for type 'GenxAi_Solutions_V1.Services.Interfaces.ISqlChatService' while attempting to activate 'GenxAi_Solutions_V1.Api.ChatBotController'. Stack Trace:    at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method60(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at GenxAi_Solutions_V1.Utils.Middleware.ErrorHandlingMiddleware.Invoke(HttpContext context) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions_V1\Utils\Middleware\ErrorHandlingMiddleware.cs:line 139
+------------------------------------------------------------
+[2025-12-01 11:44:59.181] [AUDIT]
+Event: General Audit
+Details: SECURITY_EVENT: Type: JWT_PRESENT, User: anonymous, IP: ::1, Details: Bearer token found; masked=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIyIiwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvbmFtZWlkZW50aWZpZXIiOlsiMiIsIjIiXSwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvbmFtZSI6WyJuaWRoaS5sYWRAZ2VueGFpLmNvbSIsIm5pZGhpLmxhZEBnZW54YWkuY29tIl0sImp0aSI6IjhkYWU5YmIyLTA0ZTAtNGFhZC04NmU2LWUwZjkyYmYzMmRlZSIsIkNvbXBhbnlJZCI6IjYyNTgiLCJjb21wYW5pZXMiOiIwIiwiRGF0YWJhc2VOYW1lIjoiQWR2ZW50dXJlV29ya3MiLCJTUUxpdGVkYk5hbWUiOiJkYl9haV9jb21wYW55XzYyNTguZGIiLCJTUUxpdGVkYk5hbWVfRmlsZSI6IiIsIkNvbm5zdHIiOiJTZXJ2ZXI9MTg1LjEwMC4yMTIuNDc7SW5pdGlhbCBDYXRhbG9nPW1hc3RlcjtQZXJzaXN0IFNlY3VyaXR5IEluZm89RmFsc2U7VXNlciBJZD1kZXZlbG9wZXIyO1Bhc3N3b3JkPURldiMyMDI1O1Bvb2xpbmc9RmFsc2U7TXVsdGlwbGUgQWN0aXZlIFJlc3VsdCBTZXRzPUZhbHNlO0VuY3J5cHQ9VHJ1ZTtUcnVzdCBTZXJ2ZXIgQ2VydGlmaWNhdGU9VHJ1ZTsiLCJkYlR5cGUiOiJTUUwgU2VydmVyIiwiZ3JvdXBJZCI6IjEiLCJuYmYiOjE3NjQ1Njk2NDQsImV4cCI6MTc2NDU3MDU0NCwiaXNzIjoiR2VueEFpIiwiYXVkIjoiR2VueEFpLkNsaWVudHMifQ.IGBdxUrBcIIVzjJ4S5-JJ8Og5g4nq3J0IdMPXod3cy7C3qcK8Gh5kG9RUjJcBT08_bBsEiEVYsOUDelE70X81g , /api/chat/AskAgent
+------------------------------------------------------------
+[2025-12-01 11:44:59.195] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: POST /api/chat/AskAgent, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-12-01 11:44:59.214] [AUDIT]
+Event: General Audit
+Details: JWT received on /api/chat/AskAgent. TokenHash=EE6DCBA7886D3CE28909C69FE880C0FFEE6C2486D9C70B626D2668DD588EF0F3
+------------------------------------------------------------
+[2025-12-01 11:44:59.225] [AUDIT]
+Event: General Audit
+Details: JWT validated. sub=2 jti=8dae9bb2-04e0-4aad-86e6-e0f92bf32dee exp=(null)
+------------------------------------------------------------
+[2025-12-01 11:44:59.327] [AUDIT]
+Event: General Audit
+Details: Unhandled exception POST /api/chat/AskAgent 9334b0b8-1dcb-4916-93c1-2c3326b9e410. Exception Details: System.InvalidOperationException - Unable to resolve service for type 'GenxAi_Solutions_V1.Services.Interfaces.ISqlChatService' while attempting to activate 'GenxAi_Solutions_V1.Api.ChatBotController'. Stack Trace:    at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method60(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at GenxAi_Solutions_V1.Utils.Middleware.ErrorHandlingMiddleware.Invoke(HttpContext context) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions_V1\Utils\Middleware\ErrorHandlingMiddleware.cs:line 139
+------------------------------------------------------------
+[2025-12-01 11:45:18.283] [AUDIT]
+Event: General Audit
+Details: No JWT present on /.well-known/appspecific/com.chrome.devtools.json
+------------------------------------------------------------
+[2025-12-01 11:45:31.690] [AUDIT]
+Event: General Audit
+Details: SECURITY_EVENT: Type: JWT_PRESENT, User: anonymous, IP: ::1, Details: Bearer token found; masked=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIyIiwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvbmFtZWlkZW50aWZpZXIiOlsiMiIsIjIiXSwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvbmFtZSI6WyJuaWRoaS5sYWRAZ2VueGFpLmNvbSIsIm5pZGhpLmxhZEBnZW54YWkuY29tIl0sImp0aSI6IjhkYWU5YmIyLTA0ZTAtNGFhZC04NmU2LWUwZjkyYmYzMmRlZSIsIkNvbXBhbnlJZCI6IjYyNTgiLCJjb21wYW5pZXMiOiIwIiwiRGF0YWJhc2VOYW1lIjoiQWR2ZW50dXJlV29ya3MiLCJTUUxpdGVkYk5hbWUiOiJkYl9haV9jb21wYW55XzYyNTguZGIiLCJTUUxpdGVkYk5hbWVfRmlsZSI6IiIsIkNvbm5zdHIiOiJTZXJ2ZXI9MTg1LjEwMC4yMTIuNDc7SW5pdGlhbCBDYXRhbG9nPW1hc3RlcjtQZXJzaXN0IFNlY3VyaXR5IEluZm89RmFsc2U7VXNlciBJZD1kZXZlbG9wZXIyO1Bhc3N3b3JkPURldiMyMDI1O1Bvb2xpbmc9RmFsc2U7TXVsdGlwbGUgQWN0aXZlIFJlc3VsdCBTZXRzPUZhbHNlO0VuY3J5cHQ9VHJ1ZTtUcnVzdCBTZXJ2ZXIgQ2VydGlmaWNhdGU9VHJ1ZTsiLCJkYlR5cGUiOiJTUUwgU2VydmVyIiwiZ3JvdXBJZCI6IjEiLCJuYmYiOjE3NjQ1Njk2NDQsImV4cCI6MTc2NDU3MDU0NCwiaXNzIjoiR2VueEFpIiwiYXVkIjoiR2VueEFpLkNsaWVudHMifQ.IGBdxUrBcIIVzjJ4S5-JJ8Og5g4nq3J0IdMPXod3cy7C3qcK8Gh5kG9RUjJcBT08_bBsEiEVYsOUDelE70X81g , /api/chat/AskAgent
+------------------------------------------------------------
+[2025-12-01 11:45:31.704] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: POST /api/chat/AskAgent, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-12-01 11:45:31.705] [AUDIT]
+Event: General Audit
+Details: JWT received on /api/chat/AskAgent. TokenHash=EE6DCBA7886D3CE28909C69FE880C0FFEE6C2486D9C70B626D2668DD588EF0F3
+------------------------------------------------------------
+[2025-12-01 11:45:31.725] [AUDIT]
+Event: General Audit
+Details: JWT validated. sub=2 jti=8dae9bb2-04e0-4aad-86e6-e0f92bf32dee exp=(null)
+------------------------------------------------------------
+[2025-12-01 11:45:31.855] [AUDIT]
+Event: General Audit
+Details: Unhandled exception POST /api/chat/AskAgent 7ba08759-2b3c-48de-b4ce-f125fc8ee891. Exception Details: System.InvalidOperationException - Unable to resolve service for type 'GenxAi_Solutions_V1.Services.Interfaces.ISqlChatService' while attempting to activate 'GenxAi_Solutions_V1.Api.ChatBotController'. Stack Trace:    at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method60(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at GenxAi_Solutions_V1.Utils.Middleware.ErrorHandlingMiddleware.Invoke(HttpContext context) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions_V1\Utils\Middleware\ErrorHandlingMiddleware.cs:line 139
+------------------------------------------------------------
+[2025-12-01 12:32:36.146] [AUDIT]
+Event: General Audit
+Details: QueuedWorker started.
+------------------------------------------------------------
+[2025-12-01 12:32:36.407] [AUDIT]
+Event: ListeningOnAddress
+Details: Now listening on: https://localhost:7282
+------------------------------------------------------------
+[2025-12-01 12:32:36.408] [AUDIT]
+Event: ListeningOnAddress
+Details: Now listening on: http://localhost:5072
+------------------------------------------------------------
+[2025-12-01 12:32:36.570] [AUDIT]
+Event: General Audit
+Details: Application started. Press Ctrl+C to shut down.
+------------------------------------------------------------
+[2025-12-01 12:32:36.578] [AUDIT]
+Event: General Audit
+Details: Hosting environment: Development
+------------------------------------------------------------
+[2025-12-01 12:32:36.579] [AUDIT]
+Event: General Audit
+Details: Content root path: D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions_V1
+------------------------------------------------------------
+[2025-12-01 12:32:37.495] [AUDIT]
+Event: General Audit
+Details: No JWT present on /
+------------------------------------------------------------
+[2025-12-01 12:32:44.118] [AUDIT]
+Event: General Audit
+Details: SECURITY_EVENT: Type: JWT_PRESENT, User: anonymous, IP: ::1, Details: Bearer token found; masked=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIyIiwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvbmFtZWlkZW50aWZpZXIiOlsiMiIsIjIiXSwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvbmFtZSI6WyJuaWRoaS5sYWRAZ2VueGFpLmNvbSIsIm5pZGhpLmxhZEBnZW54YWkuY29tIl0sImp0aSI6IjRlOTQwNTA1LThkMWMtNGY0Yy1iM2IxLWU0MjMzMTkzNDM2YyIsIkNvbXBhbnlJZCI6IjYyNTQiLCJjb21wYW5pZXMiOiIwIiwiRGF0YWJhc2VOYW1lIjoiQWR2ZW50dXJlV29ya3MiLCJTUUxpdGVkYk5hbWUiOiJkYl9haV9jb21wYW55XzYyNTQuZGIiLCJTUUxpdGVkYk5hbWVfRmlsZSI6IlBERmRiX2FpX2NvbXBhbnlfNjI1NC5kYiIsIkNvbm5zdHIiOiJTZXJ2ZXI9MTg1LjEwMC4yMTIuNDc7SW5pdGlhbCBDYXRhbG9nPW1hc3RlcjtQZXJzaXN0IFNlY3VyaXR5IEluZm89RmFsc2U7VXNlciBJZD1kZXZlbG9wZXIyO1Bhc3N3b3JkPURldiMyMDI1O1Bvb2xpbmc9RmFsc2U7TXVsdGlwbGUgQWN0aXZlIFJlc3VsdCBTZXRzPUZhbHNlO0VuY3J5cHQ9VHJ1ZTtUcnVzdCBTZXJ2ZXIgQ2VydGlmaWNhdGU9VHJ1ZTsiLCJkYlR5cGUiOiJTUUwgU2VydmVyIiwiZ3JvdXBJZCI6IjEiLCJuYmYiOjE3NjQzMjk2MzksImV4cCI6MTc2NDMzMDUzOSwiaXNzIjoiR2VueEFpIiwiYXVkIjoiR2VueEFpLkNsaWVudHMifQ.7tPoNreKttWKTOSGDe7gq7WhcJXEwb-SD59WABrpBYwuzZdAn4o7ygbYBJhdjb5f1_BF102EPGRcsqkq51OJ2w , /api/auth/login
+------------------------------------------------------------
+[2025-12-01 12:32:44.123] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: POST /api/auth/login, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-12-01 12:32:44.147] [AUDIT]
+Event: General Audit
+Details: JWT received on /api/auth/login. TokenHash=F385C290FB811E3323AFA2304D7045861A5D15133B7AE9A4391EE2FE5530BC0D
+------------------------------------------------------------
+[2025-12-01 12:32:44.337] [AUDIT]
+Event: General Audit
+Details: JWT authentication failed on /api/auth/login
+------------------------------------------------------------
+[2025-12-01 12:32:51.025] [AUDIT]
+Event: General Audit
+Details: No JWT present on /CompanyOnboard/Chatbot
+------------------------------------------------------------
+[2025-12-01 12:32:51.216] [AUDIT]
+Event: General Audit
+Details: SECURITY_EVENT: Type: JWT_PRESENT, User: anonymous, IP: ::1, Details: Bearer token found; masked=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIyIiwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvbmFtZWlkZW50aWZpZXIiOlsiMiIsIjIiXSwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvbmFtZSI6WyJuaWRoaS5sYWRAZ2VueGFpLmNvbSIsIm5pZGhpLmxhZEBnZW54YWkuY29tIl0sImp0aSI6IjY3M2U3Y2RmLTE0ODQtNDcwZi04MzE3LWFiYTFiOWMzY2E3MiIsIkNvbXBhbnlJZCI6IjYyNTkiLCJjb21wYW5pZXMiOiIwIiwiRGF0YWJhc2VOYW1lIjoiQWR2ZW50dXJlV29ya3MiLCJTUUxpdGVkYk5hbWUiOiJkYl9haV9jb21wYW55XzYyNTkuZGIiLCJTUUxpdGVkYk5hbWVfRmlsZSI6IlBERmRiX2FpX2NvbXBhbnlfNjI1OS5kYiIsIkNvbm5zdHIiOiJTZXJ2ZXI9MTg1LjEwMC4yMTIuNDc7SW5pdGlhbCBDYXRhbG9nPW1hc3RlcjtQZXJzaXN0IFNlY3VyaXR5IEluZm89RmFsc2U7VXNlciBJZD1kZXZlbG9wZXIyO1Bhc3N3b3JkPURldiMyMDI1O1Bvb2xpbmc9RmFsc2U7TXVsdGlwbGUgQWN0aXZlIFJlc3VsdCBTZXRzPUZhbHNlO0VuY3J5cHQ9VHJ1ZTtUcnVzdCBTZXJ2ZXIgQ2VydGlmaWNhdGU9VHJ1ZTsiLCJkYlR5cGUiOiJTUUwgU2VydmVyIiwiZ3JvdXBJZCI6IjEiLCJuYmYiOjE3NjQ1NzI1NzAsImV4cCI6MTc2NDU3MzQ3MCwiaXNzIjoiR2VueEFpIiwiYXVkIjoiR2VueEFpLkNsaWVudHMifQ.Gu5vKziwduELuvYOfvAz5oGAEvKTzrxjI93ispPDzs_lYBHHRSqgXlFfDXMuyOvWFwckleMONtgRnkV3QDjelg , /api/CompanyOnboard/History/me
+------------------------------------------------------------
+[2025-12-01 12:32:51.218] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/CompanyOnboard/History/me, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-12-01 12:32:51.224] [AUDIT]
+Event: General Audit
+Details: JWT received on /api/CompanyOnboard/History/me. TokenHash=19087F6A1A4D241ADA8C12449C4EF65FCAA7FA735EB1066BF1D3C1A465A7EC47
+------------------------------------------------------------
+[2025-12-01 12:32:51.230] [AUDIT]
+Event: General Audit
+Details: JWT received on /hubs/notifications/negotiate. TokenHash=19087F6A1A4D241ADA8C12449C4EF65FCAA7FA735EB1066BF1D3C1A465A7EC47
+------------------------------------------------------------
+[2025-12-01 12:32:51.248] [AUDIT]
+Event: General Audit
+Details: SECURITY_EVENT: Type: JWT_PRESENT, User: anonymous, IP: ::1, Details: Bearer token found; masked=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIyIiwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvbmFtZWlkZW50aWZpZXIiOlsiMiIsIjIiXSwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvbmFtZSI6WyJuaWRoaS5sYWRAZ2VueGFpLmNvbSIsIm5pZGhpLmxhZEBnZW54YWkuY29tIl0sImp0aSI6IjY3M2U3Y2RmLTE0ODQtNDcwZi04MzE3LWFiYTFiOWMzY2E3MiIsIkNvbXBhbnlJZCI6IjYyNTkiLCJjb21wYW5pZXMiOiIwIiwiRGF0YWJhc2VOYW1lIjoiQWR2ZW50dXJlV29ya3MiLCJTUUxpdGVkYk5hbWUiOiJkYl9haV9jb21wYW55XzYyNTkuZGIiLCJTUUxpdGVkYk5hbWVfRmlsZSI6IlBERmRiX2FpX2NvbXBhbnlfNjI1OS5kYiIsIkNvbm5zdHIiOiJTZXJ2ZXI9MTg1LjEwMC4yMTIuNDc7SW5pdGlhbCBDYXRhbG9nPW1hc3RlcjtQZXJzaXN0IFNlY3VyaXR5IEluZm89RmFsc2U7VXNlciBJZD1kZXZlbG9wZXIyO1Bhc3N3b3JkPURldiMyMDI1O1Bvb2xpbmc9RmFsc2U7TXVsdGlwbGUgQWN0aXZlIFJlc3VsdCBTZXRzPUZhbHNlO0VuY3J5cHQ9VHJ1ZTtUcnVzdCBTZXJ2ZXIgQ2VydGlmaWNhdGU9VHJ1ZTsiLCJkYlR5cGUiOiJTUUwgU2VydmVyIiwiZ3JvdXBJZCI6IjEiLCJuYmYiOjE3NjQ1NzI1NzAsImV4cCI6MTc2NDU3MzQ3MCwiaXNzIjoiR2VueEFpIiwiYXVkIjoiR2VueEFpLkNsaWVudHMifQ.Gu5vKziwduELuvYOfvAz5oGAEvKTzrxjI93ispPDzs_lYBHHRSqgXlFfDXMuyOvWFwckleMONtgRnkV3QDjelg , /api/auth/getmenu
+------------------------------------------------------------
+[2025-12-01 12:32:51.250] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: POST /api/auth/getmenu, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-12-01 12:32:51.254] [AUDIT]
+Event: General Audit
+Details: JWT validated. sub=2 jti=673e7cdf-1484-470f-8317-aba1b9c3ca72 exp=(null)
+------------------------------------------------------------
+[2025-12-01 12:32:51.256] [AUDIT]
+Event: General Audit
+Details: JWT validated. sub=2 jti=673e7cdf-1484-470f-8317-aba1b9c3ca72 exp=(null)
+------------------------------------------------------------
+[2025-12-01 12:32:51.261] [AUDIT]
+Event: General Audit
+Details: JWT received on /api/auth/getmenu. TokenHash=19087F6A1A4D241ADA8C12449C4EF65FCAA7FA735EB1066BF1D3C1A465A7EC47
+------------------------------------------------------------
+[2025-12-01 12:32:51.264] [AUDIT]
+Event: General Audit
+Details: JWT validated. sub=2 jti=673e7cdf-1484-470f-8317-aba1b9c3ca72 exp=(null)
+------------------------------------------------------------
+[2025-12-01 12:32:51.285] [AUDIT]
+Event: General Audit
+Details: JWT received on /hubs/notifications. TokenHash=19087F6A1A4D241ADA8C12449C4EF65FCAA7FA735EB1066BF1D3C1A465A7EC47
+------------------------------------------------------------
+[2025-12-01 12:32:51.288] [AUDIT]
+Event: General Audit
+Details: JWT validated. sub=2 jti=673e7cdf-1484-470f-8317-aba1b9c3ca72 exp=(null)
+------------------------------------------------------------
+[2025-12-01 12:32:58.769] [AUDIT]
+Event: General Audit
+Details: SECURITY_EVENT: Type: JWT_PRESENT, User: anonymous, IP: ::1, Details: Bearer token found; masked=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIyIiwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvbmFtZWlkZW50aWZpZXIiOlsiMiIsIjIiXSwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvbmFtZSI6WyJuaWRoaS5sYWRAZ2VueGFpLmNvbSIsIm5pZGhpLmxhZEBnZW54YWkuY29tIl0sImp0aSI6IjY3M2U3Y2RmLTE0ODQtNDcwZi04MzE3LWFiYTFiOWMzY2E3MiIsIkNvbXBhbnlJZCI6IjYyNTkiLCJjb21wYW5pZXMiOiIwIiwiRGF0YWJhc2VOYW1lIjoiQWR2ZW50dXJlV29ya3MiLCJTUUxpdGVkYk5hbWUiOiJkYl9haV9jb21wYW55XzYyNTkuZGIiLCJTUUxpdGVkYk5hbWVfRmlsZSI6IlBERmRiX2FpX2NvbXBhbnlfNjI1OS5kYiIsIkNvbm5zdHIiOiJTZXJ2ZXI9MTg1LjEwMC4yMTIuNDc7SW5pdGlhbCBDYXRhbG9nPW1hc3RlcjtQZXJzaXN0IFNlY3VyaXR5IEluZm89RmFsc2U7VXNlciBJZD1kZXZlbG9wZXIyO1Bhc3N3b3JkPURldiMyMDI1O1Bvb2xpbmc9RmFsc2U7TXVsdGlwbGUgQWN0aXZlIFJlc3VsdCBTZXRzPUZhbHNlO0VuY3J5cHQ9VHJ1ZTtUcnVzdCBTZXJ2ZXIgQ2VydGlmaWNhdGU9VHJ1ZTsiLCJkYlR5cGUiOiJTUUwgU2VydmVyIiwiZ3JvdXBJZCI6IjEiLCJuYmYiOjE3NjQ1NzI1NzAsImV4cCI6MTc2NDU3MzQ3MCwiaXNzIjoiR2VueEFpIiwiYXVkIjoiR2VueEFpLkNsaWVudHMifQ.Gu5vKziwduELuvYOfvAz5oGAEvKTzrxjI93ispPDzs_lYBHHRSqgXlFfDXMuyOvWFwckleMONtgRnkV3QDjelg , /api/chat/AskAgent
+------------------------------------------------------------
+[2025-12-01 12:32:58.770] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: POST /api/chat/AskAgent, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-12-01 12:32:58.772] [AUDIT]
+Event: General Audit
+Details: JWT received on /api/chat/AskAgent. TokenHash=19087F6A1A4D241ADA8C12449C4EF65FCAA7FA735EB1066BF1D3C1A465A7EC47
+------------------------------------------------------------
+[2025-12-01 12:32:58.774] [AUDIT]
+Event: General Audit
+Details: JWT validated. sub=2 jti=673e7cdf-1484-470f-8317-aba1b9c3ca72 exp=(null)
+------------------------------------------------------------
+[2025-12-01 12:33:27.520] [AUDIT]
+Event: General Audit
+Details: Creating SQLiteVectorStore at D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions_V1\bin\Debug\net8.0\db_ai_company_6259.db
+------------------------------------------------------------
+[2025-12-01 12:34:49.556] [AUDIT]
+Event: General Audit
+Details: SECURITY_EVENT: Type: JWT_PRESENT, User: anonymous, IP: ::1, Details: Bearer token found; masked=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIyIiwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvbmFtZWlkZW50aWZpZXIiOlsiMiIsIjIiXSwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvbmFtZSI6WyJuaWRoaS5sYWRAZ2VueGFpLmNvbSIsIm5pZGhpLmxhZEBnZW54YWkuY29tIl0sImp0aSI6IjY3M2U3Y2RmLTE0ODQtNDcwZi04MzE3LWFiYTFiOWMzY2E3MiIsIkNvbXBhbnlJZCI6IjYyNTkiLCJjb21wYW5pZXMiOiIwIiwiRGF0YWJhc2VOYW1lIjoiQWR2ZW50dXJlV29ya3MiLCJTUUxpdGVkYk5hbWUiOiJkYl9haV9jb21wYW55XzYyNTkuZGIiLCJTUUxpdGVkYk5hbWVfRmlsZSI6IlBERmRiX2FpX2NvbXBhbnlfNjI1OS5kYiIsIkNvbm5zdHIiOiJTZXJ2ZXI9MTg1LjEwMC4yMTIuNDc7SW5pdGlhbCBDYXRhbG9nPW1hc3RlcjtQZXJzaXN0IFNlY3VyaXR5IEluZm89RmFsc2U7VXNlciBJZD1kZXZlbG9wZXIyO1Bhc3N3b3JkPURldiMyMDI1O1Bvb2xpbmc9RmFsc2U7TXVsdGlwbGUgQWN0aXZlIFJlc3VsdCBTZXRzPUZhbHNlO0VuY3J5cHQ9VHJ1ZTtUcnVzdCBTZXJ2ZXIgQ2VydGlmaWNhdGU9VHJ1ZTsiLCJkYlR5cGUiOiJTUUwgU2VydmVyIiwiZ3JvdXBJZCI6IjEiLCJuYmYiOjE3NjQ1NzI1NzAsImV4cCI6MTc2NDU3MzQ3MCwiaXNzIjoiR2VueEFpIiwiYXVkIjoiR2VueEFpLkNsaWVudHMifQ.Gu5vKziwduELuvYOfvAz5oGAEvKTzrxjI93ispPDzs_lYBHHRSqgXlFfDXMuyOvWFwckleMONtgRnkV3QDjelg , /api/chat/AskAgent
+------------------------------------------------------------
+[2025-12-01 12:34:49.559] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: POST /api/chat/AskAgent, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-12-01 12:34:49.563] [AUDIT]
+Event: General Audit
+Details: JWT received on /api/chat/AskAgent. TokenHash=19087F6A1A4D241ADA8C12449C4EF65FCAA7FA735EB1066BF1D3C1A465A7EC47
+------------------------------------------------------------
+[2025-12-01 12:34:49.567] [AUDIT]
+Event: General Audit
+Details: JWT validated. sub=2 jti=673e7cdf-1484-470f-8317-aba1b9c3ca72 exp=(null)
+------------------------------------------------------------
+[2025-12-01 12:36:29.772] [AUDIT]
+Event: General Audit
+Details: SECURITY_EVENT: Type: JWT_PRESENT, User: anonymous, IP: ::1, Details: Bearer token found; masked=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIyIiwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvbmFtZWlkZW50aWZpZXIiOlsiMiIsIjIiXSwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvbmFtZSI6WyJuaWRoaS5sYWRAZ2VueGFpLmNvbSIsIm5pZGhpLmxhZEBnZW54YWkuY29tIl0sImp0aSI6IjY3M2U3Y2RmLTE0ODQtNDcwZi04MzE3LWFiYTFiOWMzY2E3MiIsIkNvbXBhbnlJZCI6IjYyNTkiLCJjb21wYW5pZXMiOiIwIiwiRGF0YWJhc2VOYW1lIjoiQWR2ZW50dXJlV29ya3MiLCJTUUxpdGVkYk5hbWUiOiJkYl9haV9jb21wYW55XzYyNTkuZGIiLCJTUUxpdGVkYk5hbWVfRmlsZSI6IlBERmRiX2FpX2NvbXBhbnlfNjI1OS5kYiIsIkNvbm5zdHIiOiJTZXJ2ZXI9MTg1LjEwMC4yMTIuNDc7SW5pdGlhbCBDYXRhbG9nPW1hc3RlcjtQZXJzaXN0IFNlY3VyaXR5IEluZm89RmFsc2U7VXNlciBJZD1kZXZlbG9wZXIyO1Bhc3N3b3JkPURldiMyMDI1O1Bvb2xpbmc9RmFsc2U7TXVsdGlwbGUgQWN0aXZlIFJlc3VsdCBTZXRzPUZhbHNlO0VuY3J5cHQ9VHJ1ZTtUcnVzdCBTZXJ2ZXIgQ2VydGlmaWNhdGU9VHJ1ZTsiLCJkYlR5cGUiOiJTUUwgU2VydmVyIiwiZ3JvdXBJZCI6IjEiLCJuYmYiOjE3NjQ1NzI1NzAsImV4cCI6MTc2NDU3MzQ3MCwiaXNzIjoiR2VueEFpIiwiYXVkIjoiR2VueEFpLkNsaWVudHMifQ.Gu5vKziwduELuvYOfvAz5oGAEvKTzrxjI93ispPDzs_lYBHHRSqgXlFfDXMuyOvWFwckleMONtgRnkV3QDjelg , /api/chat/AskAgent
+------------------------------------------------------------
+[2025-12-01 12:36:29.777] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: POST /api/chat/AskAgent, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-12-01 12:36:29.789] [AUDIT]
+Event: General Audit
+Details: JWT received on /api/chat/AskAgent. TokenHash=19087F6A1A4D241ADA8C12449C4EF65FCAA7FA735EB1066BF1D3C1A465A7EC47
+------------------------------------------------------------
+[2025-12-01 12:36:29.791] [AUDIT]
+Event: General Audit
+Details: JWT validated. sub=2 jti=673e7cdf-1484-470f-8317-aba1b9c3ca72 exp=(null)
+------------------------------------------------------------
+[2025-12-01 12:39:37.974] [AUDIT]
+Event: General Audit
+Details: QueuedWorker started.
+------------------------------------------------------------
+[2025-12-01 12:39:38.300] [AUDIT]
+Event: ListeningOnAddress
+Details: Now listening on: https://localhost:7282
+------------------------------------------------------------
+[2025-12-01 12:39:38.302] [AUDIT]
+Event: ListeningOnAddress
+Details: Now listening on: http://localhost:5072
+------------------------------------------------------------
+[2025-12-01 12:39:38.464] [AUDIT]
+Event: General Audit
+Details: Application started. Press Ctrl+C to shut down.
+------------------------------------------------------------
+[2025-12-01 12:39:38.466] [AUDIT]
+Event: General Audit
+Details: Hosting environment: Development
+------------------------------------------------------------
+[2025-12-01 12:39:38.467] [AUDIT]
+Event: General Audit
+Details: Content root path: D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions_V1
+------------------------------------------------------------
+[2025-12-01 12:39:39.132] [AUDIT]
+Event: General Audit
+Details: No JWT present on /
+------------------------------------------------------------
+[2025-12-01 12:39:47.723] [AUDIT]
+Event: General Audit
+Details: SECURITY_EVENT: Type: JWT_PRESENT, User: anonymous, IP: ::1, Details: Bearer token found; masked=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIyIiwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvbmFtZWlkZW50aWZpZXIiOlsiMiIsIjIiXSwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvbmFtZSI6WyJuaWRoaS5sYWRAZ2VueGFpLmNvbSIsIm5pZGhpLmxhZEBnZW54YWkuY29tIl0sImp0aSI6IjY3M2U3Y2RmLTE0ODQtNDcwZi04MzE3LWFiYTFiOWMzY2E3MiIsIkNvbXBhbnlJZCI6IjYyNTkiLCJjb21wYW5pZXMiOiIwIiwiRGF0YWJhc2VOYW1lIjoiQWR2ZW50dXJlV29ya3MiLCJTUUxpdGVkYk5hbWUiOiJkYl9haV9jb21wYW55XzYyNTkuZGIiLCJTUUxpdGVkYk5hbWVfRmlsZSI6IlBERmRiX2FpX2NvbXBhbnlfNjI1OS5kYiIsIkNvbm5zdHIiOiJTZXJ2ZXI9MTg1LjEwMC4yMTIuNDc7SW5pdGlhbCBDYXRhbG9nPW1hc3RlcjtQZXJzaXN0IFNlY3VyaXR5IEluZm89RmFsc2U7VXNlciBJZD1kZXZlbG9wZXIyO1Bhc3N3b3JkPURldiMyMDI1O1Bvb2xpbmc9RmFsc2U7TXVsdGlwbGUgQWN0aXZlIFJlc3VsdCBTZXRzPUZhbHNlO0VuY3J5cHQ9VHJ1ZTtUcnVzdCBTZXJ2ZXIgQ2VydGlmaWNhdGU9VHJ1ZTsiLCJkYlR5cGUiOiJTUUwgU2VydmVyIiwiZ3JvdXBJZCI6IjEiLCJuYmYiOjE3NjQ1NzI1NzAsImV4cCI6MTc2NDU3MzQ3MCwiaXNzIjoiR2VueEFpIiwiYXVkIjoiR2VueEFpLkNsaWVudHMifQ.Gu5vKziwduELuvYOfvAz5oGAEvKTzrxjI93ispPDzs_lYBHHRSqgXlFfDXMuyOvWFwckleMONtgRnkV3QDjelg , /api/auth/login
+------------------------------------------------------------
+[2025-12-01 12:39:47.728] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: POST /api/auth/login, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-12-01 12:39:47.765] [AUDIT]
+Event: General Audit
+Details: JWT received on /api/auth/login. TokenHash=19087F6A1A4D241ADA8C12449C4EF65FCAA7FA735EB1066BF1D3C1A465A7EC47
+------------------------------------------------------------
+[2025-12-01 12:39:47.974] [AUDIT]
+Event: General Audit
+Details: JWT validated. sub=2 jti=673e7cdf-1484-470f-8317-aba1b9c3ca72 exp=(null)
+------------------------------------------------------------
+[2025-12-01 12:39:54.207] [AUDIT]
+Event: General Audit
+Details: No JWT present on /CompanyOnboard/Chatbot
+------------------------------------------------------------
+[2025-12-01 12:39:54.384] [AUDIT]
+Event: General Audit
+Details: SECURITY_EVENT: Type: JWT_PRESENT, User: anonymous, IP: ::1, Details: Bearer token found; masked=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIyIiwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvbmFtZWlkZW50aWZpZXIiOlsiMiIsIjIiXSwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvbmFtZSI6WyJuaWRoaS5sYWRAZ2VueGFpLmNvbSIsIm5pZGhpLmxhZEBnZW54YWkuY29tIl0sImp0aSI6IjgzOTRjOTgxLWQ3NTItNGI0Mi04NDBlLTM3NWZlMThjNGE5NyIsIkNvbXBhbnlJZCI6IjYyNTkiLCJjb21wYW5pZXMiOiIwIiwiRGF0YWJhc2VOYW1lIjoiQWR2ZW50dXJlV29ya3MiLCJTUUxpdGVkYk5hbWUiOiJkYl9haV9jb21wYW55XzYyNTkuZGIiLCJTUUxpdGVkYk5hbWVfRmlsZSI6IlBERmRiX2FpX2NvbXBhbnlfNjI1OS5kYiIsIkNvbm5zdHIiOiJTZXJ2ZXI9MTg1LjEwMC4yMTIuNDc7SW5pdGlhbCBDYXRhbG9nPW1hc3RlcjtQZXJzaXN0IFNlY3VyaXR5IEluZm89RmFsc2U7VXNlciBJZD1kZXZlbG9wZXIyO1Bhc3N3b3JkPURldiMyMDI1O1Bvb2xpbmc9RmFsc2U7TXVsdGlwbGUgQWN0aXZlIFJlc3VsdCBTZXRzPUZhbHNlO0VuY3J5cHQ9VHJ1ZTtUcnVzdCBTZXJ2ZXIgQ2VydGlmaWNhdGU9VHJ1ZTsiLCJkYlR5cGUiOiJTUUwgU2VydmVyIiwiZ3JvdXBJZCI6IjEiLCJuYmYiOjE3NjQ1NzI5OTQsImV4cCI6MTc2NDU3Mzg5NCwiaXNzIjoiR2VueEFpIiwiYXVkIjoiR2VueEFpLkNsaWVudHMifQ.2LpKrL-jprjPhPoo_iluIKdFg_T6jtJpsTbgNJo8or196x5BjSAxDNfEEJqDWH-CDSmZm1hSnBnYXLq1ju4W1g , /api/CompanyOnboard/History/me
+------------------------------------------------------------
+[2025-12-01 12:39:54.385] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/CompanyOnboard/History/me, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-12-01 12:39:54.390] [AUDIT]
+Event: General Audit
+Details: JWT received on /api/CompanyOnboard/History/me. TokenHash=A665084D791E6F10990DB353FD737CB04DC3B2917FCB2FC45889DDE1A9658C45
+------------------------------------------------------------
+[2025-12-01 12:39:54.393] [AUDIT]
+Event: General Audit
+Details: JWT validated. sub=2 jti=8394c981-d752-4b42-840e-375fe18c4a97 exp=(null)
+------------------------------------------------------------
+[2025-12-01 12:39:54.393] [AUDIT]
+Event: General Audit
+Details: JWT received on /hubs/notifications/negotiate. TokenHash=A665084D791E6F10990DB353FD737CB04DC3B2917FCB2FC45889DDE1A9658C45
+------------------------------------------------------------
+[2025-12-01 12:39:54.395] [AUDIT]
+Event: General Audit
+Details: JWT validated. sub=2 jti=8394c981-d752-4b42-840e-375fe18c4a97 exp=(null)
+------------------------------------------------------------
+[2025-12-01 12:39:54.410] [AUDIT]
+Event: General Audit
+Details: SECURITY_EVENT: Type: JWT_PRESENT, User: anonymous, IP: ::1, Details: Bearer token found; masked=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIyIiwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvbmFtZWlkZW50aWZpZXIiOlsiMiIsIjIiXSwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvbmFtZSI6WyJuaWRoaS5sYWRAZ2VueGFpLmNvbSIsIm5pZGhpLmxhZEBnZW54YWkuY29tIl0sImp0aSI6IjgzOTRjOTgxLWQ3NTItNGI0Mi04NDBlLTM3NWZlMThjNGE5NyIsIkNvbXBhbnlJZCI6IjYyNTkiLCJjb21wYW5pZXMiOiIwIiwiRGF0YWJhc2VOYW1lIjoiQWR2ZW50dXJlV29ya3MiLCJTUUxpdGVkYk5hbWUiOiJkYl9haV9jb21wYW55XzYyNTkuZGIiLCJTUUxpdGVkYk5hbWVfRmlsZSI6IlBERmRiX2FpX2NvbXBhbnlfNjI1OS5kYiIsIkNvbm5zdHIiOiJTZXJ2ZXI9MTg1LjEwMC4yMTIuNDc7SW5pdGlhbCBDYXRhbG9nPW1hc3RlcjtQZXJzaXN0IFNlY3VyaXR5IEluZm89RmFsc2U7VXNlciBJZD1kZXZlbG9wZXIyO1Bhc3N3b3JkPURldiMyMDI1O1Bvb2xpbmc9RmFsc2U7TXVsdGlwbGUgQWN0aXZlIFJlc3VsdCBTZXRzPUZhbHNlO0VuY3J5cHQ9VHJ1ZTtUcnVzdCBTZXJ2ZXIgQ2VydGlmaWNhdGU9VHJ1ZTsiLCJkYlR5cGUiOiJTUUwgU2VydmVyIiwiZ3JvdXBJZCI6IjEiLCJuYmYiOjE3NjQ1NzI5OTQsImV4cCI6MTc2NDU3Mzg5NCwiaXNzIjoiR2VueEFpIiwiYXVkIjoiR2VueEFpLkNsaWVudHMifQ.2LpKrL-jprjPhPoo_iluIKdFg_T6jtJpsTbgNJo8or196x5BjSAxDNfEEJqDWH-CDSmZm1hSnBnYXLq1ju4W1g , /api/auth/getmenu
+------------------------------------------------------------
+[2025-12-01 12:39:54.412] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: POST /api/auth/getmenu, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-12-01 12:39:54.421] [AUDIT]
+Event: General Audit
+Details: JWT received on /api/auth/getmenu. TokenHash=A665084D791E6F10990DB353FD737CB04DC3B2917FCB2FC45889DDE1A9658C45
+------------------------------------------------------------
+[2025-12-01 12:39:54.424] [AUDIT]
+Event: General Audit
+Details: JWT received on /hubs/notifications. TokenHash=A665084D791E6F10990DB353FD737CB04DC3B2917FCB2FC45889DDE1A9658C45
+------------------------------------------------------------
+[2025-12-01 12:39:54.428] [AUDIT]
+Event: General Audit
+Details: JWT validated. sub=2 jti=8394c981-d752-4b42-840e-375fe18c4a97 exp=(null)
+------------------------------------------------------------
+[2025-12-01 12:39:54.441] [AUDIT]
+Event: General Audit
+Details: JWT validated. sub=2 jti=8394c981-d752-4b42-840e-375fe18c4a97 exp=(null)
+------------------------------------------------------------
+[2025-12-01 12:40:00.673] [AUDIT]
+Event: General Audit
+Details: SECURITY_EVENT: Type: JWT_PRESENT, User: anonymous, IP: ::1, Details: Bearer token found; masked=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIyIiwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvbmFtZWlkZW50aWZpZXIiOlsiMiIsIjIiXSwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvbmFtZSI6WyJuaWRoaS5sYWRAZ2VueGFpLmNvbSIsIm5pZGhpLmxhZEBnZW54YWkuY29tIl0sImp0aSI6IjgzOTRjOTgxLWQ3NTItNGI0Mi04NDBlLTM3NWZlMThjNGE5NyIsIkNvbXBhbnlJZCI6IjYyNTkiLCJjb21wYW5pZXMiOiIwIiwiRGF0YWJhc2VOYW1lIjoiQWR2ZW50dXJlV29ya3MiLCJTUUxpdGVkYk5hbWUiOiJkYl9haV9jb21wYW55XzYyNTkuZGIiLCJTUUxpdGVkYk5hbWVfRmlsZSI6IlBERmRiX2FpX2NvbXBhbnlfNjI1OS5kYiIsIkNvbm5zdHIiOiJTZXJ2ZXI9MTg1LjEwMC4yMTIuNDc7SW5pdGlhbCBDYXRhbG9nPW1hc3RlcjtQZXJzaXN0IFNlY3VyaXR5IEluZm89RmFsc2U7VXNlciBJZD1kZXZlbG9wZXIyO1Bhc3N3b3JkPURldiMyMDI1O1Bvb2xpbmc9RmFsc2U7TXVsdGlwbGUgQWN0aXZlIFJlc3VsdCBTZXRzPUZhbHNlO0VuY3J5cHQ9VHJ1ZTtUcnVzdCBTZXJ2ZXIgQ2VydGlmaWNhdGU9VHJ1ZTsiLCJkYlR5cGUiOiJTUUwgU2VydmVyIiwiZ3JvdXBJZCI6IjEiLCJuYmYiOjE3NjQ1NzI5OTQsImV4cCI6MTc2NDU3Mzg5NCwiaXNzIjoiR2VueEFpIiwiYXVkIjoiR2VueEFpLkNsaWVudHMifQ.2LpKrL-jprjPhPoo_iluIKdFg_T6jtJpsTbgNJo8or196x5BjSAxDNfEEJqDWH-CDSmZm1hSnBnYXLq1ju4W1g , /api/chat/AskAgent
+------------------------------------------------------------
+[2025-12-01 12:40:00.675] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: POST /api/chat/AskAgent, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-12-01 12:40:00.679] [AUDIT]
+Event: General Audit
+Details: JWT received on /api/chat/AskAgent. TokenHash=A665084D791E6F10990DB353FD737CB04DC3B2917FCB2FC45889DDE1A9658C45
+------------------------------------------------------------
+[2025-12-01 12:40:00.681] [AUDIT]
+Event: General Audit
+Details: JWT validated. sub=2 jti=8394c981-d752-4b42-840e-375fe18c4a97 exp=(null)
+------------------------------------------------------------
+[2025-12-01 12:40:26.274] [AUDIT]
+Event: General Audit
+Details: Creating SQLiteVectorStore at D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions_V1\bin\Debug\net8.0\db_ai_company_6259.db
+------------------------------------------------------------
+[2025-12-01 12:41:35.054] [AUDIT]
+Event: General Audit
+Details: SECURITY_EVENT: Type: JWT_PRESENT, User: anonymous, IP: ::1, Details: Bearer token found; masked=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIyIiwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvbmFtZWlkZW50aWZpZXIiOlsiMiIsIjIiXSwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvbmFtZSI6WyJuaWRoaS5sYWRAZ2VueGFpLmNvbSIsIm5pZGhpLmxhZEBnZW54YWkuY29tIl0sImp0aSI6IjgzOTRjOTgxLWQ3NTItNGI0Mi04NDBlLTM3NWZlMThjNGE5NyIsIkNvbXBhbnlJZCI6IjYyNTkiLCJjb21wYW5pZXMiOiIwIiwiRGF0YWJhc2VOYW1lIjoiQWR2ZW50dXJlV29ya3MiLCJTUUxpdGVkYk5hbWUiOiJkYl9haV9jb21wYW55XzYyNTkuZGIiLCJTUUxpdGVkYk5hbWVfRmlsZSI6IlBERmRiX2FpX2NvbXBhbnlfNjI1OS5kYiIsIkNvbm5zdHIiOiJTZXJ2ZXI9MTg1LjEwMC4yMTIuNDc7SW5pdGlhbCBDYXRhbG9nPW1hc3RlcjtQZXJzaXN0IFNlY3VyaXR5IEluZm89RmFsc2U7VXNlciBJZD1kZXZlbG9wZXIyO1Bhc3N3b3JkPURldiMyMDI1O1Bvb2xpbmc9RmFsc2U7TXVsdGlwbGUgQWN0aXZlIFJlc3VsdCBTZXRzPUZhbHNlO0VuY3J5cHQ9VHJ1ZTtUcnVzdCBTZXJ2ZXIgQ2VydGlmaWNhdGU9VHJ1ZTsiLCJkYlR5cGUiOiJTUUwgU2VydmVyIiwiZ3JvdXBJZCI6IjEiLCJuYmYiOjE3NjQ1NzI5OTQsImV4cCI6MTc2NDU3Mzg5NCwiaXNzIjoiR2VueEFpIiwiYXVkIjoiR2VueEFpLkNsaWVudHMifQ.2LpKrL-jprjPhPoo_iluIKdFg_T6jtJpsTbgNJo8or196x5BjSAxDNfEEJqDWH-CDSmZm1hSnBnYXLq1ju4W1g , /api/chat/AskAgent
+------------------------------------------------------------
+[2025-12-01 12:41:35.058] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: POST /api/chat/AskAgent, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-12-01 12:41:35.061] [AUDIT]
+Event: General Audit
+Details: JWT received on /api/chat/AskAgent. TokenHash=A665084D791E6F10990DB353FD737CB04DC3B2917FCB2FC45889DDE1A9658C45
+------------------------------------------------------------
+[2025-12-01 12:41:35.063] [AUDIT]
+Event: General Audit
+Details: JWT validated. sub=2 jti=8394c981-d752-4b42-840e-375fe18c4a97 exp=(null)
+------------------------------------------------------------
+[2025-12-01 12:43:58.934] [AUDIT]
+Event: General Audit
+Details: SECURITY_EVENT: Type: JWT_PRESENT, User: anonymous, IP: ::1, Details: Bearer token found; masked=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIyIiwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvbmFtZWlkZW50aWZpZXIiOlsiMiIsIjIiXSwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvbmFtZSI6WyJuaWRoaS5sYWRAZ2VueGFpLmNvbSIsIm5pZGhpLmxhZEBnZW54YWkuY29tIl0sImp0aSI6IjgzOTRjOTgxLWQ3NTItNGI0Mi04NDBlLTM3NWZlMThjNGE5NyIsIkNvbXBhbnlJZCI6IjYyNTkiLCJjb21wYW5pZXMiOiIwIiwiRGF0YWJhc2VOYW1lIjoiQWR2ZW50dXJlV29ya3MiLCJTUUxpdGVkYk5hbWUiOiJkYl9haV9jb21wYW55XzYyNTkuZGIiLCJTUUxpdGVkYk5hbWVfRmlsZSI6IlBERmRiX2FpX2NvbXBhbnlfNjI1OS5kYiIsIkNvbm5zdHIiOiJTZXJ2ZXI9MTg1LjEwMC4yMTIuNDc7SW5pdGlhbCBDYXRhbG9nPW1hc3RlcjtQZXJzaXN0IFNlY3VyaXR5IEluZm89RmFsc2U7VXNlciBJZD1kZXZlbG9wZXIyO1Bhc3N3b3JkPURldiMyMDI1O1Bvb2xpbmc9RmFsc2U7TXVsdGlwbGUgQWN0aXZlIFJlc3VsdCBTZXRzPUZhbHNlO0VuY3J5cHQ9VHJ1ZTtUcnVzdCBTZXJ2ZXIgQ2VydGlmaWNhdGU9VHJ1ZTsiLCJkYlR5cGUiOiJTUUwgU2VydmVyIiwiZ3JvdXBJZCI6IjEiLCJuYmYiOjE3NjQ1NzI5OTQsImV4cCI6MTc2NDU3Mzg5NCwiaXNzIjoiR2VueEFpIiwiYXVkIjoiR2VueEFpLkNsaWVudHMifQ.2LpKrL-jprjPhPoo_iluIKdFg_T6jtJpsTbgNJo8or196x5BjSAxDNfEEJqDWH-CDSmZm1hSnBnYXLq1ju4W1g , /api/chat/AskAgent
+------------------------------------------------------------
+[2025-12-01 12:43:58.939] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: POST /api/chat/AskAgent, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-12-01 12:43:58.947] [AUDIT]
+Event: General Audit
+Details: JWT received on /api/chat/AskAgent. TokenHash=A665084D791E6F10990DB353FD737CB04DC3B2917FCB2FC45889DDE1A9658C45
+------------------------------------------------------------
+[2025-12-01 12:43:58.950] [AUDIT]
+Event: General Audit
+Details: JWT validated. sub=2 jti=8394c981-d752-4b42-840e-375fe18c4a97 exp=(null)
+------------------------------------------------------------
+[2025-12-01 12:44:34.983] [AUDIT]
+Event: General Audit
+Details: SECURITY_EVENT: Type: JWT_PRESENT, User: anonymous, IP: ::1, Details: Bearer token found; masked=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIyIiwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvbmFtZWlkZW50aWZpZXIiOlsiMiIsIjIiXSwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvbmFtZSI6WyJuaWRoaS5sYWRAZ2VueGFpLmNvbSIsIm5pZGhpLmxhZEBnZW54YWkuY29tIl0sImp0aSI6IjgzOTRjOTgxLWQ3NTItNGI0Mi04NDBlLTM3NWZlMThjNGE5NyIsIkNvbXBhbnlJZCI6IjYyNTkiLCJjb21wYW5pZXMiOiIwIiwiRGF0YWJhc2VOYW1lIjoiQWR2ZW50dXJlV29ya3MiLCJTUUxpdGVkYk5hbWUiOiJkYl9haV9jb21wYW55XzYyNTkuZGIiLCJTUUxpdGVkYk5hbWVfRmlsZSI6IlBERmRiX2FpX2NvbXBhbnlfNjI1OS5kYiIsIkNvbm5zdHIiOiJTZXJ2ZXI9MTg1LjEwMC4yMTIuNDc7SW5pdGlhbCBDYXRhbG9nPW1hc3RlcjtQZXJzaXN0IFNlY3VyaXR5IEluZm89RmFsc2U7VXNlciBJZD1kZXZlbG9wZXIyO1Bhc3N3b3JkPURldiMyMDI1O1Bvb2xpbmc9RmFsc2U7TXVsdGlwbGUgQWN0aXZlIFJlc3VsdCBTZXRzPUZhbHNlO0VuY3J5cHQ9VHJ1ZTtUcnVzdCBTZXJ2ZXIgQ2VydGlmaWNhdGU9VHJ1ZTsiLCJkYlR5cGUiOiJTUUwgU2VydmVyIiwiZ3JvdXBJZCI6IjEiLCJuYmYiOjE3NjQ1NzI5OTQsImV4cCI6MTc2NDU3Mzg5NCwiaXNzIjoiR2VueEFpIiwiYXVkIjoiR2VueEFpLkNsaWVudHMifQ.2LpKrL-jprjPhPoo_iluIKdFg_T6jtJpsTbgNJo8or196x5BjSAxDNfEEJqDWH-CDSmZm1hSnBnYXLq1ju4W1g , /api/chat/AskAgent
+------------------------------------------------------------
+[2025-12-01 12:44:34.986] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: POST /api/chat/AskAgent, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-12-01 12:44:34.989] [AUDIT]
+Event: General Audit
+Details: JWT received on /api/chat/AskAgent. TokenHash=A665084D791E6F10990DB353FD737CB04DC3B2917FCB2FC45889DDE1A9658C45
+------------------------------------------------------------
+[2025-12-01 12:44:34.990] [AUDIT]
+Event: General Audit
+Details: JWT validated. sub=2 jti=8394c981-d752-4b42-840e-375fe18c4a97 exp=(null)
+------------------------------------------------------------
+[2025-12-01 12:46:31.339] [AUDIT]
+Event: General Audit
+Details: JWT received on /hubs/notifications/negotiate. TokenHash=A665084D791E6F10990DB353FD737CB04DC3B2917FCB2FC45889DDE1A9658C45
+------------------------------------------------------------
+[2025-12-01 12:46:31.355] [AUDIT]
+Event: General Audit
+Details: JWT validated. sub=2 jti=8394c981-d752-4b42-840e-375fe18c4a97 exp=(null)
+------------------------------------------------------------
+[2025-12-01 12:46:31.382] [AUDIT]
+Event: General Audit
+Details: JWT received on /hubs/notifications. TokenHash=A665084D791E6F10990DB353FD737CB04DC3B2917FCB2FC45889DDE1A9658C45
+------------------------------------------------------------
+[2025-12-01 12:46:31.396] [AUDIT]
+Event: General Audit
+Details: JWT validated. sub=2 jti=8394c981-d752-4b42-840e-375fe18c4a97 exp=(null)
+------------------------------------------------------------
+[2025-12-01 13:10:53.355] [AUDIT]
+Event: General Audit
+Details: JWT received on /hubs/notifications/negotiate. TokenHash=A665084D791E6F10990DB353FD737CB04DC3B2917FCB2FC45889DDE1A9658C45
+------------------------------------------------------------
+[2025-12-01 13:10:53.452] [AUDIT]
+Event: General Audit
+Details: JWT authentication failed on /hubs/notifications/negotiate
+------------------------------------------------------------

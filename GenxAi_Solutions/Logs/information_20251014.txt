@@ -1,0 +1,1297 @@
+[2025-10-14 11:57:13.045] [Information]
+Category: GenxAi_Solutions.Services.Background.QueuedWorker
+Message: QueuedWorker started.
+------------------------------------------------------------
+[2025-10-14 11:57:13.049] [Information]
+Category: GenxAi_Solutions.Services.Background.QueuedWorker
+Message: QueuedWorker started.
+--------------------------------------------------------------------------------
+[2025-10-14 11:57:13.198] [Information]
+Category: GenxAi_Solutions.Services.Background.QueuedWorker
+Message: QueuedWorker stopping.
+------------------------------------------------------------
+[2025-10-14 11:57:13.198] [Information]
+Category: GenxAi_Solutions.Services.Background.QueuedWorker
+Message: QueuedWorker stopping.
+--------------------------------------------------------------------------------
+[2025-10-14 11:57:13.231] [Information]
+Category: Microsoft.Hosting.Lifetime
+Message: Application is shutting down...
+------------------------------------------------------------
+[2025-10-14 11:57:13.233] [Information]
+Category: Microsoft.Hosting.Lifetime
+Message: Application is shutting down...
+--------------------------------------------------------------------------------
+[2025-10-14 12:05:12.111] [Information]
+Category: GenxAi_Solutions.Services.Background.QueuedWorker
+Message: QueuedWorker started.
+------------------------------------------------------------
+[2025-10-14 12:05:12.114] [Information]
+Category: GenxAi_Solutions.Services.Background.QueuedWorker
+Message: QueuedWorker started.
+--------------------------------------------------------------------------------
+[2025-10-14 12:05:12.218] [Information]
+Category: GenxAi_Solutions.Services.Background.QueuedWorker
+Message: QueuedWorker stopping.
+------------------------------------------------------------
+[2025-10-14 12:05:12.218] [Information]
+Category: GenxAi_Solutions.Services.Background.QueuedWorker
+Message: QueuedWorker stopping.
+--------------------------------------------------------------------------------
+[2025-10-14 12:15:10.407] [Information]
+Category: GenxAi_Solutions.Services.Background.QueuedWorker
+Message: QueuedWorker started.
+------------------------------------------------------------
+[2025-10-14 12:15:10.409] [Information]
+Category: GenxAi_Solutions.Services.Background.QueuedWorker
+Message: QueuedWorker started.
+--------------------------------------------------------------------------------
+[2025-10-14 12:15:10.570] [Information]
+Category: Microsoft.Hosting.Lifetime
+Message: Now listening on: https://localhost:7282
+------------------------------------------------------------
+[2025-10-14 12:15:10.570] [Information]
+Category: Microsoft.Hosting.Lifetime
+Message: Now listening on: https://localhost:7282
+--------------------------------------------------------------------------------
+[2025-10-14 12:15:10.573] [Information]
+Category: Microsoft.Hosting.Lifetime
+Message: Now listening on: http://localhost:5072
+------------------------------------------------------------
+[2025-10-14 12:15:10.574] [Information]
+Category: Microsoft.Hosting.Lifetime
+Message: Now listening on: http://localhost:5072
+--------------------------------------------------------------------------------
+[2025-10-14 12:15:10.636] [Information]
+Category: Microsoft.Hosting.Lifetime
+Message: Application started. Press Ctrl+C to shut down.
+------------------------------------------------------------
+[2025-10-14 12:15:10.637] [Information]
+Category: Microsoft.Hosting.Lifetime
+Message: Application started. Press Ctrl+C to shut down.
+--------------------------------------------------------------------------------
+[2025-10-14 12:15:10.642] [Information]
+Category: Microsoft.Hosting.Lifetime
+Message: Hosting environment: Development
+------------------------------------------------------------
+[2025-10-14 12:15:10.643] [Information]
+Category: Microsoft.Hosting.Lifetime
+Message: Hosting environment: Development
+--------------------------------------------------------------------------------
+[2025-10-14 12:15:10.646] [Information]
+Category: Microsoft.Hosting.Lifetime
+Message: Content root path: D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions
+------------------------------------------------------------
+[2025-10-14 12:15:10.647] [Information]
+Category: Microsoft.Hosting.Lifetime
+Message: Content root path: D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions
+--------------------------------------------------------------------------------
+[2025-10-14 12:15:11.750] [Information]
+Category: GenxAi_Solutions.Utils.Middleware.RequestLoggingMiddleware
+Message: HTTP GET / -> 200 in 305 ms | CorrelationId=31e8a6cb-cb57-4f9b-8cb4-be060ce0491c | Ip=::1 | User=nidhi.lad@genxai.com | Headers=[Accept, text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7], [Host, localhost:7282], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36], [Accept-Encoding, gzip, deflate, br, zstd], [Accept-Language, en-US,en;q=0.9], [Upgrade-Insecure-Requests, 1], [sec-ch-ua, "Google Chrome";v="141", "Not?A_Brand";v="8", "Chromium";v="141"], [sec-ch-ua-mobile, ?0], [sec-ch-ua-platform, "Windows"], [sec-fetch-site, none], [sec-fetch-mode, navigate], [sec-fetch-user, ?1], [sec-fetch-dest, document], [priority, u=0, i] | BodyPreview=
+------------------------------------------------------------
+[2025-10-14 12:15:11.751] [Information]
+Category: GenxAi_Solutions.Utils.Middleware.RequestLoggingMiddleware
+Message: HTTP GET / -> 200 in 305 ms | CorrelationId=31e8a6cb-cb57-4f9b-8cb4-be060ce0491c | Ip=::1 | User=nidhi.lad@genxai.com | Headers=[Accept, text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7], [Host, localhost:7282], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36], [Accept-Encoding, gzip, deflate, br, zstd], [Accept-Language, en-US,en;q=0.9], [Upgrade-Insecure-Requests, 1], [sec-ch-ua, "Google Chrome";v="141", "Not?A_Brand";v="8", "Chromium";v="141"], [sec-ch-ua-mobile, ?0], [sec-ch-ua-platform, "Windows"], [sec-fetch-site, none], [sec-fetch-mode, navigate], [sec-fetch-user, ?1], [sec-fetch-dest, document], [priority, u=0, i] | BodyPreview=
+--------------------------------------------------------------------------------
+[2025-10-14 12:15:11.781] [Information]
+Category: GenxAi_Solutions.Utils.Middleware.RequestLoggingMiddleware
+Message: HTTP GET /css/styles_custom.css -> 304 in 8 ms | CorrelationId=fd63d9d0-6cda-4cf6-8705-17756974cb52 | Ip=::1 | User=anonymous | Headers=[Accept, text/css,*/*;q=0.1], [Host, localhost:7282], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36], [Accept-Encoding, gzip, deflate, br, zstd], [Accept-Language, en-US,en;q=0.9], [If-Modified-Since, Mon, 13 Oct 2025 11:46:55 GMT], [If-None-Match, "1dc3c3712c4398c"], [Referer, https://localhost:7282/], [sec-ch-ua-platform, "Windows"], [sec-ch-ua, "Google Chrome";v="141", "Not?A_Brand";v="8", "Chromium";v="141"], [sec-ch-ua-mobile, ?0], [sec-fetch-site, same-origin], [sec-fetch-mode, no-cors], [sec-fetch-dest, style], [priority, u=0] | BodyPreview=
+------------------------------------------------------------
+[2025-10-14 12:15:11.781] [Information]
+Category: GenxAi_Solutions.Utils.Middleware.RequestLoggingMiddleware
+Message: HTTP GET /css/styles_custom.css -> 304 in 8 ms | CorrelationId=fd63d9d0-6cda-4cf6-8705-17756974cb52 | Ip=::1 | User=anonymous | Headers=[Accept, text/css,*/*;q=0.1], [Host, localhost:7282], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36], [Accept-Encoding, gzip, deflate, br, zstd], [Accept-Language, en-US,en;q=0.9], [If-Modified-Since, Mon, 13 Oct 2025 11:46:55 GMT], [If-None-Match, "1dc3c3712c4398c"], [Referer, https://localhost:7282/], [sec-ch-ua-platform, "Windows"], [sec-ch-ua, "Google Chrome";v="141", "Not?A_Brand";v="8", "Chromium";v="141"], [sec-ch-ua-mobile, ?0], [sec-fetch-site, same-origin], [sec-fetch-mode, no-cors], [sec-fetch-dest, style], [priority, u=0] | BodyPreview=
+--------------------------------------------------------------------------------
+[2025-10-14 12:15:23.062] [Information]
+Category: GenxAi_Solutions.Services.AuditLogger
+Message: GENERAL_AUDIT: Action: POST /api/auth/login, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-14 12:15:23.064] [Information]
+Category: GenxAi_Solutions.Services.AuditLogger
+Message: GENERAL_AUDIT: Action: POST /api/auth/login, User: anonymous, IP: ::1, Details: Sensitive action accessed
+--------------------------------------------------------------------------------
+[2025-10-14 12:15:23.434] [Information]
+Category: GenxAi_Solutions.Utils.Middleware.RequestLoggingMiddleware
+Message: HTTP POST /api/auth/login -> 500 in 394 ms | CorrelationId=ef8b3c74-6181-4e23-930a-e6c5676465ba | Ip=::1 | User=nidhi.lad@genxai.com | Headers=[Accept, */*], [Host, localhost:7282], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36], [Accept-Encoding, gzip, deflate, br, zstd], [Accept-Language, en-US,en;q=0.9], [Content-Type, application/json], [Origin, https://localhost:7282], [Referer, https://localhost:7282/], [Content-Length, 51], [sec-ch-ua-platform, "Windows"], [X-Requested-With, XMLHttpRequest], [sec-ch-ua, "Google Chrome";v="141", "Not?A_Brand";v="8", "Chromium";v="141"], [sec-ch-ua-mobile, ?0], [sec-fetch-site, same-origin], [sec-fetch-mode, cors], [sec-fetch-dest, empty], [priority, u=1, i] | BodyPreview={"Email":"nidhi.lad@genxai.com","Password":"12345"}
+------------------------------------------------------------
+[2025-10-14 12:15:23.436] [Information]
+Category: GenxAi_Solutions.Utils.Middleware.RequestLoggingMiddleware
+Message: HTTP POST /api/auth/login -> 500 in 394 ms | CorrelationId=ef8b3c74-6181-4e23-930a-e6c5676465ba | Ip=::1 | User=nidhi.lad@genxai.com | Headers=[Accept, */*], [Host, localhost:7282], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36], [Accept-Encoding, gzip, deflate, br, zstd], [Accept-Language, en-US,en;q=0.9], [Content-Type, application/json], [Origin, https://localhost:7282], [Referer, https://localhost:7282/], [Content-Length, 51], [sec-ch-ua-platform, "Windows"], [X-Requested-With, XMLHttpRequest], [sec-ch-ua, "Google Chrome";v="141", "Not?A_Brand";v="8", "Chromium";v="141"], [sec-ch-ua-mobile, ?0], [sec-fetch-site, same-origin], [sec-fetch-mode, cors], [sec-fetch-dest, empty], [priority, u=1, i] | BodyPreview={"Email":"nidhi.lad@genxai.com","Password":"12345"}
+--------------------------------------------------------------------------------
+[2025-10-14 12:15:35.720] [Information]
+Category: GenxAi_Solutions.Services.AuditLogger
+Message: GENERAL_AUDIT: Action: POST /api/auth/login, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-14 12:15:35.721] [Information]
+Category: GenxAi_Solutions.Services.AuditLogger
+Message: GENERAL_AUDIT: Action: POST /api/auth/login, User: anonymous, IP: ::1, Details: Sensitive action accessed
+--------------------------------------------------------------------------------
+[2025-10-14 12:15:35.819] [Information]
+Category: GenxAi_Solutions.Utils.Middleware.RequestLoggingMiddleware
+Message: HTTP POST /api/auth/login -> 500 in 105 ms | CorrelationId=047a4ff1-1c82-4637-ae22-4879263fffe3 | Ip=::1 | User=nidhi.lad@genxai.com | Headers=[Accept, */*], [Host, localhost:7282], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36], [Accept-Encoding, gzip, deflate, br, zstd], [Accept-Language, en-US,en;q=0.9], [Content-Type, application/json], [Origin, https://localhost:7282], [Referer, https://localhost:7282/], [Content-Length, 51], [sec-ch-ua-platform, "Windows"], [X-Requested-With, XMLHttpRequest], [sec-ch-ua, "Google Chrome";v="141", "Not?A_Brand";v="8", "Chromium";v="141"], [sec-ch-ua-mobile, ?0], [sec-fetch-site, same-origin], [sec-fetch-mode, cors], [sec-fetch-dest, empty], [priority, u=1, i] | BodyPreview={"Email":"nidhi.lad@genxai.com","Password":"12345"}
+------------------------------------------------------------
+[2025-10-14 12:15:35.820] [Information]
+Category: GenxAi_Solutions.Utils.Middleware.RequestLoggingMiddleware
+Message: HTTP POST /api/auth/login -> 500 in 105 ms | CorrelationId=047a4ff1-1c82-4637-ae22-4879263fffe3 | Ip=::1 | User=nidhi.lad@genxai.com | Headers=[Accept, */*], [Host, localhost:7282], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36], [Accept-Encoding, gzip, deflate, br, zstd], [Accept-Language, en-US,en;q=0.9], [Content-Type, application/json], [Origin, https://localhost:7282], [Referer, https://localhost:7282/], [Content-Length, 51], [sec-ch-ua-platform, "Windows"], [X-Requested-With, XMLHttpRequest], [sec-ch-ua, "Google Chrome";v="141", "Not?A_Brand";v="8", "Chromium";v="141"], [sec-ch-ua-mobile, ?0], [sec-fetch-site, same-origin], [sec-fetch-mode, cors], [sec-fetch-dest, empty], [priority, u=1, i] | BodyPreview={"Email":"nidhi.lad@genxai.com","Password":"12345"}
+--------------------------------------------------------------------------------
+[2025-10-14 12:15:41.529] [Information]
+Category: GenxAi_Solutions.Services.AuditLogger
+Message: GENERAL_AUDIT: Action: POST /api/auth/login, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-14 12:15:41.530] [Information]
+Category: GenxAi_Solutions.Services.AuditLogger
+Message: GENERAL_AUDIT: Action: POST /api/auth/login, User: anonymous, IP: ::1, Details: Sensitive action accessed
+--------------------------------------------------------------------------------
+[2025-10-14 12:15:41.626] [Information]
+Category: GenxAi_Solutions.Utils.Middleware.RequestLoggingMiddleware
+Message: HTTP POST /api/auth/login -> 500 in 94 ms | CorrelationId=c07c3d88-f5a4-41ea-b845-0cddb365e5f0 | Ip=::1 | User=nidhi.lad@genxai.com | Headers=[Accept, */*], [Host, localhost:7282], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36], [Accept-Encoding, gzip, deflate, br, zstd], [Accept-Language, en-US,en;q=0.9], [Content-Type, application/json], [Origin, https://localhost:7282], [Referer, https://localhost:7282/], [Content-Length, 51], [sec-ch-ua-platform, "Windows"], [X-Requested-With, XMLHttpRequest], [sec-ch-ua, "Google Chrome";v="141", "Not?A_Brand";v="8", "Chromium";v="141"], [sec-ch-ua-mobile, ?0], [sec-fetch-site, same-origin], [sec-fetch-mode, cors], [sec-fetch-dest, empty], [priority, u=1, i] | BodyPreview={"Email":"nidhi.lad@genxai.com","Password":"12345"}
+------------------------------------------------------------
+[2025-10-14 12:15:41.630] [Information]
+Category: GenxAi_Solutions.Utils.Middleware.RequestLoggingMiddleware
+Message: HTTP POST /api/auth/login -> 500 in 94 ms | CorrelationId=c07c3d88-f5a4-41ea-b845-0cddb365e5f0 | Ip=::1 | User=nidhi.lad@genxai.com | Headers=[Accept, */*], [Host, localhost:7282], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36], [Accept-Encoding, gzip, deflate, br, zstd], [Accept-Language, en-US,en;q=0.9], [Content-Type, application/json], [Origin, https://localhost:7282], [Referer, https://localhost:7282/], [Content-Length, 51], [sec-ch-ua-platform, "Windows"], [X-Requested-With, XMLHttpRequest], [sec-ch-ua, "Google Chrome";v="141", "Not?A_Brand";v="8", "Chromium";v="141"], [sec-ch-ua-mobile, ?0], [sec-fetch-site, same-origin], [sec-fetch-mode, cors], [sec-fetch-dest, empty], [priority, u=1, i] | BodyPreview={"Email":"nidhi.lad@genxai.com","Password":"12345"}
+--------------------------------------------------------------------------------
+[2025-10-14 12:15:42.778] [Information]
+Category: GenxAi_Solutions.Services.AuditLogger
+Message: GENERAL_AUDIT: Action: POST /api/auth/login, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-14 12:15:42.779] [Information]
+Category: GenxAi_Solutions.Services.AuditLogger
+Message: GENERAL_AUDIT: Action: POST /api/auth/login, User: anonymous, IP: ::1, Details: Sensitive action accessed
+--------------------------------------------------------------------------------
+[2025-10-14 12:15:42.891] [Information]
+Category: GenxAi_Solutions.Utils.Middleware.RequestLoggingMiddleware
+Message: HTTP POST /api/auth/login -> 500 in 111 ms | CorrelationId=23e4702f-10c9-4a03-a3a9-e74581d0062a | Ip=::1 | User=nidhi.lad@genxai.com | Headers=[Accept, */*], [Host, localhost:7282], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36], [Accept-Encoding, gzip, deflate, br, zstd], [Accept-Language, en-US,en;q=0.9], [Content-Type, application/json], [Origin, https://localhost:7282], [Referer, https://localhost:7282/], [Content-Length, 51], [sec-ch-ua-platform, "Windows"], [X-Requested-With, XMLHttpRequest], [sec-ch-ua, "Google Chrome";v="141", "Not?A_Brand";v="8", "Chromium";v="141"], [sec-ch-ua-mobile, ?0], [sec-fetch-site, same-origin], [sec-fetch-mode, cors], [sec-fetch-dest, empty], [priority, u=1, i] | BodyPreview={"Email":"nidhi.lad@genxai.com","Password":"12345"}
+------------------------------------------------------------
+[2025-10-14 12:15:42.891] [Information]
+Category: GenxAi_Solutions.Utils.Middleware.RequestLoggingMiddleware
+Message: HTTP POST /api/auth/login -> 500 in 111 ms | CorrelationId=23e4702f-10c9-4a03-a3a9-e74581d0062a | Ip=::1 | User=nidhi.lad@genxai.com | Headers=[Accept, */*], [Host, localhost:7282], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36], [Accept-Encoding, gzip, deflate, br, zstd], [Accept-Language, en-US,en;q=0.9], [Content-Type, application/json], [Origin, https://localhost:7282], [Referer, https://localhost:7282/], [Content-Length, 51], [sec-ch-ua-platform, "Windows"], [X-Requested-With, XMLHttpRequest], [sec-ch-ua, "Google Chrome";v="141", "Not?A_Brand";v="8", "Chromium";v="141"], [sec-ch-ua-mobile, ?0], [sec-fetch-site, same-origin], [sec-fetch-mode, cors], [sec-fetch-dest, empty], [priority, u=1, i] | BodyPreview={"Email":"nidhi.lad@genxai.com","Password":"12345"}
+--------------------------------------------------------------------------------
+[2025-10-14 12:15:43.519] [Information]
+Category: GenxAi_Solutions.Services.AuditLogger
+Message: GENERAL_AUDIT: Action: POST /api/auth/login, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-14 12:15:43.520] [Information]
+Category: GenxAi_Solutions.Services.AuditLogger
+Message: GENERAL_AUDIT: Action: POST /api/auth/login, User: anonymous, IP: ::1, Details: Sensitive action accessed
+--------------------------------------------------------------------------------
+[2025-10-14 12:15:43.616] [Information]
+Category: GenxAi_Solutions.Utils.Middleware.RequestLoggingMiddleware
+Message: HTTP POST /api/auth/login -> 500 in 96 ms | CorrelationId=4add531e-0db5-46a7-90a1-bdb4ebc063a2 | Ip=::1 | User=nidhi.lad@genxai.com | Headers=[Accept, */*], [Host, localhost:7282], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36], [Accept-Encoding, gzip, deflate, br, zstd], [Accept-Language, en-US,en;q=0.9], [Content-Type, application/json], [Origin, https://localhost:7282], [Referer, https://localhost:7282/], [Content-Length, 51], [sec-ch-ua-platform, "Windows"], [X-Requested-With, XMLHttpRequest], [sec-ch-ua, "Google Chrome";v="141", "Not?A_Brand";v="8", "Chromium";v="141"], [sec-ch-ua-mobile, ?0], [sec-fetch-site, same-origin], [sec-fetch-mode, cors], [sec-fetch-dest, empty], [priority, u=1, i] | BodyPreview={"Email":"nidhi.lad@genxai.com","Password":"12345"}
+------------------------------------------------------------
+[2025-10-14 12:15:43.617] [Information]
+Category: GenxAi_Solutions.Utils.Middleware.RequestLoggingMiddleware
+Message: HTTP POST /api/auth/login -> 500 in 96 ms | CorrelationId=4add531e-0db5-46a7-90a1-bdb4ebc063a2 | Ip=::1 | User=nidhi.lad@genxai.com | Headers=[Accept, */*], [Host, localhost:7282], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36], [Accept-Encoding, gzip, deflate, br, zstd], [Accept-Language, en-US,en;q=0.9], [Content-Type, application/json], [Origin, https://localhost:7282], [Referer, https://localhost:7282/], [Content-Length, 51], [sec-ch-ua-platform, "Windows"], [X-Requested-With, XMLHttpRequest], [sec-ch-ua, "Google Chrome";v="141", "Not?A_Brand";v="8", "Chromium";v="141"], [sec-ch-ua-mobile, ?0], [sec-fetch-site, same-origin], [sec-fetch-mode, cors], [sec-fetch-dest, empty], [priority, u=1, i] | BodyPreview={"Email":"nidhi.lad@genxai.com","Password":"12345"}
+--------------------------------------------------------------------------------
+[2025-10-14 12:15:44.110] [Information]
+Category: GenxAi_Solutions.Services.AuditLogger
+Message: GENERAL_AUDIT: Action: POST /api/auth/login, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-14 12:15:44.111] [Information]
+Category: GenxAi_Solutions.Services.AuditLogger
+Message: GENERAL_AUDIT: Action: POST /api/auth/login, User: anonymous, IP: ::1, Details: Sensitive action accessed
+--------------------------------------------------------------------------------
+[2025-10-14 12:15:44.205] [Information]
+Category: GenxAi_Solutions.Utils.Middleware.RequestLoggingMiddleware
+Message: HTTP POST /api/auth/login -> 500 in 93 ms | CorrelationId=da082959-c750-4139-830b-0a72c3081b0e | Ip=::1 | User=nidhi.lad@genxai.com | Headers=[Accept, */*], [Host, localhost:7282], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36], [Accept-Encoding, gzip, deflate, br, zstd], [Accept-Language, en-US,en;q=0.9], [Content-Type, application/json], [Origin, https://localhost:7282], [Referer, https://localhost:7282/], [Content-Length, 51], [sec-ch-ua-platform, "Windows"], [X-Requested-With, XMLHttpRequest], [sec-ch-ua, "Google Chrome";v="141", "Not?A_Brand";v="8", "Chromium";v="141"], [sec-ch-ua-mobile, ?0], [sec-fetch-site, same-origin], [sec-fetch-mode, cors], [sec-fetch-dest, empty], [priority, u=1, i] | BodyPreview={"Email":"nidhi.lad@genxai.com","Password":"12345"}
+------------------------------------------------------------
+[2025-10-14 12:15:44.206] [Information]
+Category: GenxAi_Solutions.Utils.Middleware.RequestLoggingMiddleware
+Message: HTTP POST /api/auth/login -> 500 in 93 ms | CorrelationId=da082959-c750-4139-830b-0a72c3081b0e | Ip=::1 | User=nidhi.lad@genxai.com | Headers=[Accept, */*], [Host, localhost:7282], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36], [Accept-Encoding, gzip, deflate, br, zstd], [Accept-Language, en-US,en;q=0.9], [Content-Type, application/json], [Origin, https://localhost:7282], [Referer, https://localhost:7282/], [Content-Length, 51], [sec-ch-ua-platform, "Windows"], [X-Requested-With, XMLHttpRequest], [sec-ch-ua, "Google Chrome";v="141", "Not?A_Brand";v="8", "Chromium";v="141"], [sec-ch-ua-mobile, ?0], [sec-fetch-site, same-origin], [sec-fetch-mode, cors], [sec-fetch-dest, empty], [priority, u=1, i] | BodyPreview={"Email":"nidhi.lad@genxai.com","Password":"12345"}
+--------------------------------------------------------------------------------
+[2025-10-14 12:15:44.677] [Information]
+Category: GenxAi_Solutions.Services.AuditLogger
+Message: GENERAL_AUDIT: Action: POST /api/auth/login, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-14 12:15:44.679] [Information]
+Category: GenxAi_Solutions.Services.AuditLogger
+Message: GENERAL_AUDIT: Action: POST /api/auth/login, User: anonymous, IP: ::1, Details: Sensitive action accessed
+--------------------------------------------------------------------------------
+[2025-10-14 12:15:44.769] [Information]
+Category: GenxAi_Solutions.Utils.Middleware.RequestLoggingMiddleware
+Message: HTTP POST /api/auth/login -> 500 in 90 ms | CorrelationId=c188b75f-f4bf-4098-899a-891781e2418b | Ip=::1 | User=nidhi.lad@genxai.com | Headers=[Accept, */*], [Host, localhost:7282], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36], [Accept-Encoding, gzip, deflate, br, zstd], [Accept-Language, en-US,en;q=0.9], [Content-Type, application/json], [Origin, https://localhost:7282], [Referer, https://localhost:7282/], [Content-Length, 51], [sec-ch-ua-platform, "Windows"], [X-Requested-With, XMLHttpRequest], [sec-ch-ua, "Google Chrome";v="141", "Not?A_Brand";v="8", "Chromium";v="141"], [sec-ch-ua-mobile, ?0], [sec-fetch-site, same-origin], [sec-fetch-mode, cors], [sec-fetch-dest, empty], [priority, u=1, i] | BodyPreview={"Email":"nidhi.lad@genxai.com","Password":"12345"}
+------------------------------------------------------------
+[2025-10-14 12:15:44.770] [Information]
+Category: GenxAi_Solutions.Utils.Middleware.RequestLoggingMiddleware
+Message: HTTP POST /api/auth/login -> 500 in 90 ms | CorrelationId=c188b75f-f4bf-4098-899a-891781e2418b | Ip=::1 | User=nidhi.lad@genxai.com | Headers=[Accept, */*], [Host, localhost:7282], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36], [Accept-Encoding, gzip, deflate, br, zstd], [Accept-Language, en-US,en;q=0.9], [Content-Type, application/json], [Origin, https://localhost:7282], [Referer, https://localhost:7282/], [Content-Length, 51], [sec-ch-ua-platform, "Windows"], [X-Requested-With, XMLHttpRequest], [sec-ch-ua, "Google Chrome";v="141", "Not?A_Brand";v="8", "Chromium";v="141"], [sec-ch-ua-mobile, ?0], [sec-fetch-site, same-origin], [sec-fetch-mode, cors], [sec-fetch-dest, empty], [priority, u=1, i] | BodyPreview={"Email":"nidhi.lad@genxai.com","Password":"12345"}
+--------------------------------------------------------------------------------
+[2025-10-14 15:35:33.082] [Information]
+Category: GenxAi_Solutions.Services.Background.QueuedWorker
+Message: QueuedWorker started.
+------------------------------------------------------------
+[2025-10-14 15:35:33.086] [Information]
+Category: GenxAi_Solutions.Services.Background.QueuedWorker
+Message: QueuedWorker started.
+--------------------------------------------------------------------------------
+[2025-10-14 15:35:33.245] [Information]
+Category: Microsoft.Hosting.Lifetime
+Message: Now listening on: https://localhost:7282
+------------------------------------------------------------
+[2025-10-14 15:35:33.246] [Information]
+Category: Microsoft.Hosting.Lifetime
+Message: Now listening on: https://localhost:7282
+--------------------------------------------------------------------------------
+[2025-10-14 15:35:33.249] [Information]
+Category: Microsoft.Hosting.Lifetime
+Message: Now listening on: http://localhost:5072
+------------------------------------------------------------
+[2025-10-14 15:35:33.250] [Information]
+Category: Microsoft.Hosting.Lifetime
+Message: Now listening on: http://localhost:5072
+--------------------------------------------------------------------------------
+[2025-10-14 15:35:33.325] [Information]
+Category: Microsoft.Hosting.Lifetime
+Message: Application started. Press Ctrl+C to shut down.
+------------------------------------------------------------
+[2025-10-14 15:35:33.326] [Information]
+Category: Microsoft.Hosting.Lifetime
+Message: Application started. Press Ctrl+C to shut down.
+--------------------------------------------------------------------------------
+[2025-10-14 15:35:33.328] [Information]
+Category: Microsoft.Hosting.Lifetime
+Message: Hosting environment: Development
+------------------------------------------------------------
+[2025-10-14 15:35:33.328] [Information]
+Category: Microsoft.Hosting.Lifetime
+Message: Hosting environment: Development
+--------------------------------------------------------------------------------
+[2025-10-14 15:35:33.330] [Information]
+Category: Microsoft.Hosting.Lifetime
+Message: Content root path: D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions
+------------------------------------------------------------
+[2025-10-14 15:35:33.330] [Information]
+Category: Microsoft.Hosting.Lifetime
+Message: Content root path: D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions
+--------------------------------------------------------------------------------
+[2025-10-14 15:35:34.513] [Warning]
+Category: Microsoft.AspNetCore.Session.SessionMiddleware
+Message: Error unprotecting the session cookie.
+------------------------------------------------------------
+[2025-10-14 15:35:34.513] [Warning]
+Category: Microsoft.AspNetCore.Session.SessionMiddleware
+Message: Error unprotecting the session cookie.
+Exception Type: System.Security.Cryptography.CryptographicException
+Exception Message: The payload was invalid. For more information go to https://aka.ms/aspnet/dataprotectionwarning
+Stack Trace:    at Microsoft.AspNetCore.DataProtection.Cng.CbcAuthenticatedEncryptor.DecryptImpl(Byte* pbCiphertext, UInt32 cbCiphertext, Byte* pbAdditionalAuthenticatedData, UInt32 cbAdditionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.Decrypt(ArraySegment`1 ciphertext, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+--------------------------------------------------------------------------------
+[2025-10-14 15:35:34.940] [Information]
+Category: GenxAi_Solutions.Utils.Middleware.RequestLoggingMiddleware
+Message: HTTP GET / -> 200 in 520 ms | CorrelationId=bb56bde8-f109-4157-957e-8e5db08c5827 | Ip=::1 | User=anonymous | Headers=[Accept, text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7], [Host, localhost:7282], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36], [Accept-Encoding, gzip, deflate, br, zstd], [Accept-Language, en-US,en;q=0.9], [Upgrade-Insecure-Requests, 1], [sec-ch-ua, "Google Chrome";v="141", "Not?A_Brand";v="8", "Chromium";v="141"], [sec-ch-ua-mobile, ?0], [sec-ch-ua-platform, "Windows"], [sec-fetch-site, none], [sec-fetch-mode, navigate], [sec-fetch-user, ?1], [sec-fetch-dest, document], [priority, u=0, i] | BodyPreview=
+------------------------------------------------------------
+[2025-10-14 15:35:34.941] [Information]
+Category: GenxAi_Solutions.Utils.Middleware.RequestLoggingMiddleware
+Message: HTTP GET / -> 200 in 520 ms | CorrelationId=bb56bde8-f109-4157-957e-8e5db08c5827 | Ip=::1 | User=anonymous | Headers=[Accept, text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7], [Host, localhost:7282], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36], [Accept-Encoding, gzip, deflate, br, zstd], [Accept-Language, en-US,en;q=0.9], [Upgrade-Insecure-Requests, 1], [sec-ch-ua, "Google Chrome";v="141", "Not?A_Brand";v="8", "Chromium";v="141"], [sec-ch-ua-mobile, ?0], [sec-ch-ua-platform, "Windows"], [sec-fetch-site, none], [sec-fetch-mode, navigate], [sec-fetch-user, ?1], [sec-fetch-dest, document], [priority, u=0, i] | BodyPreview=
+--------------------------------------------------------------------------------
+[2025-10-14 15:35:35.013] [Information]
+Category: GenxAi_Solutions.Utils.Middleware.RequestLoggingMiddleware
+Message: HTTP GET /css/styles_custom.css -> 200 in 49 ms | CorrelationId=95ece2e6-e6d0-4f17-a6e1-7906cbdf6bf5 | Ip=::1 | User=anonymous | Headers=[Accept, text/css,*/*;q=0.1], [Host, localhost:7282], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36], [Accept-Encoding, gzip, deflate, br, zstd], [Accept-Language, en-US,en;q=0.9], [If-Modified-Since, Tue, 14 Oct 2025 07:08:35 GMT], [If-None-Match, "1dc3cd95b340390"], [Referer, https://localhost:7282/], [sec-ch-ua-platform, "Windows"], [sec-ch-ua, "Google Chrome";v="141", "Not?A_Brand";v="8", "Chromium";v="141"], [sec-ch-ua-mobile, ?0], [sec-fetch-site, same-origin], [sec-fetch-mode, no-cors], [sec-fetch-dest, style], [priority, u=0] | BodyPreview=
+------------------------------------------------------------
+[2025-10-14 15:35:35.014] [Information]
+Category: GenxAi_Solutions.Utils.Middleware.RequestLoggingMiddleware
+Message: HTTP GET /css/styles_custom.css -> 200 in 49 ms | CorrelationId=95ece2e6-e6d0-4f17-a6e1-7906cbdf6bf5 | Ip=::1 | User=anonymous | Headers=[Accept, text/css,*/*;q=0.1], [Host, localhost:7282], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36], [Accept-Encoding, gzip, deflate, br, zstd], [Accept-Language, en-US,en;q=0.9], [If-Modified-Since, Tue, 14 Oct 2025 07:08:35 GMT], [If-None-Match, "1dc3cd95b340390"], [Referer, https://localhost:7282/], [sec-ch-ua-platform, "Windows"], [sec-ch-ua, "Google Chrome";v="141", "Not?A_Brand";v="8", "Chromium";v="141"], [sec-ch-ua-mobile, ?0], [sec-fetch-site, same-origin], [sec-fetch-mode, no-cors], [sec-fetch-dest, style], [priority, u=0] | BodyPreview=
+--------------------------------------------------------------------------------
+[2025-10-14 15:35:35.034] [Information]
+Category: GenxAi_Solutions.Utils.Middleware.RequestLoggingMiddleware
+Message: HTTP GET /css/styles.css -> 200 in 73 ms | CorrelationId=1dbe52a2-f055-43a3-9c38-a225e7a07eed | Ip=::1 | User=anonymous | Headers=[Accept, text/css,*/*;q=0.1], [Host, localhost:7282], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36], [Accept-Encoding, gzip, deflate, br, zstd], [Accept-Language, en-US,en;q=0.9], [If-Modified-Since, Tue, 14 Oct 2025 07:09:41 GMT], [If-None-Match, "1dc3cd9828f6a13"], [Referer, https://localhost:7282/], [sec-ch-ua-platform, "Windows"], [sec-ch-ua, "Google Chrome";v="141", "Not?A_Brand";v="8", "Chromium";v="141"], [sec-ch-ua-mobile, ?0], [sec-fetch-site, same-origin], [sec-fetch-mode, no-cors], [sec-fetch-dest, style], [priority, u=0] | BodyPreview=
+------------------------------------------------------------
+[2025-10-14 15:35:35.034] [Information]
+Category: GenxAi_Solutions.Utils.Middleware.RequestLoggingMiddleware
+Message: HTTP GET /css/styles.css -> 200 in 73 ms | CorrelationId=1dbe52a2-f055-43a3-9c38-a225e7a07eed | Ip=::1 | User=anonymous | Headers=[Accept, text/css,*/*;q=0.1], [Host, localhost:7282], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36], [Accept-Encoding, gzip, deflate, br, zstd], [Accept-Language, en-US,en;q=0.9], [If-Modified-Since, Tue, 14 Oct 2025 07:09:41 GMT], [If-None-Match, "1dc3cd9828f6a13"], [Referer, https://localhost:7282/], [sec-ch-ua-platform, "Windows"], [sec-ch-ua, "Google Chrome";v="141", "Not?A_Brand";v="8", "Chromium";v="141"], [sec-ch-ua-mobile, ?0], [sec-fetch-site, same-origin], [sec-fetch-mode, no-cors], [sec-fetch-dest, style], [priority, u=0] | BodyPreview=
+--------------------------------------------------------------------------------
+[2025-10-14 15:38:13.136] [Information]
+Category: GenxAi_Solutions.Services.AuditLogger
+Message: GENERAL_AUDIT: Action: POST /api/auth/login, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-14 15:38:13.137] [Information]
+Category: GenxAi_Solutions.Services.AuditLogger
+Message: GENERAL_AUDIT: Action: POST /api/auth/login, User: anonymous, IP: ::1, Details: Sensitive action accessed
+--------------------------------------------------------------------------------
+[2025-10-14 15:38:34.610] [Warning]
+Category: Microsoft.AspNetCore.Session.SessionMiddleware
+Message: Error unprotecting the session cookie.
+------------------------------------------------------------
+[2025-10-14 15:38:37.756] [Warning]
+Category: Microsoft.AspNetCore.Session.SessionMiddleware
+Message: Error unprotecting the session cookie.
+Exception Type: System.Security.Cryptography.CryptographicException
+Exception Message: The payload was invalid. For more information go to https://aka.ms/aspnet/dataprotectionwarning
+Stack Trace:    at Microsoft.AspNetCore.DataProtection.Cng.CbcAuthenticatedEncryptor.DecryptImpl(Byte* pbCiphertext, UInt32 cbCiphertext, Byte* pbAdditionalAuthenticatedData, UInt32 cbAdditionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.Decrypt(ArraySegment`1 ciphertext, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+--------------------------------------------------------------------------------
+[2025-10-14 15:49:13.443] [Information]
+Category: GenxAi_Solutions.Utils.Middleware.RequestLoggingMiddleware
+Message: HTTP POST /api/auth/login -> 500 in 769935 ms | CorrelationId=492ea0b7-01fb-4478-8d37-866ea705b564 | Ip=::1 | User=anonymous | Headers=[Accept, */*], [Host, localhost:7282], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36], [Accept-Encoding, gzip, deflate, br, zstd], [Accept-Language, en-US,en;q=0.9], [Content-Type, application/json], [Origin, https://localhost:7282], [Referer, https://localhost:7282/], [Content-Length, 54], [sec-ch-ua-platform, "Windows"], [X-Requested-With, XMLHttpRequest], [sec-ch-ua, "Google Chrome";v="141", "Not?A_Brand";v="8", "Chromium";v="141"], [sec-ch-ua-mobile, ?0], [sec-fetch-site, same-origin], [sec-fetch-mode, cors], [sec-fetch-dest, empty], [priority, u=1, i] | BodyPreview={"Email":"suchita.gome@genxai.com","Password":"12345"}
+------------------------------------------------------------
+[2025-10-14 15:49:13.443] [Information]
+Category: GenxAi_Solutions.Utils.Middleware.RequestLoggingMiddleware
+Message: HTTP POST /api/auth/login -> 500 in 769935 ms | CorrelationId=492ea0b7-01fb-4478-8d37-866ea705b564 | Ip=::1 | User=anonymous | Headers=[Accept, */*], [Host, localhost:7282], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36], [Accept-Encoding, gzip, deflate, br, zstd], [Accept-Language, en-US,en;q=0.9], [Content-Type, application/json], [Origin, https://localhost:7282], [Referer, https://localhost:7282/], [Content-Length, 54], [sec-ch-ua-platform, "Windows"], [X-Requested-With, XMLHttpRequest], [sec-ch-ua, "Google Chrome";v="141", "Not?A_Brand";v="8", "Chromium";v="141"], [sec-ch-ua-mobile, ?0], [sec-fetch-site, same-origin], [sec-fetch-mode, cors], [sec-fetch-dest, empty], [priority, u=1, i] | BodyPreview={"Email":"suchita.gome@genxai.com","Password":"12345"}
+--------------------------------------------------------------------------------
+[2025-10-14 16:07:33.707] [Information]
+Category: GenxAi_Solutions.Services.Background.QueuedWorker
+Message: QueuedWorker started.
+------------------------------------------------------------
+[2025-10-14 16:07:33.710] [Information]
+Category: GenxAi_Solutions.Services.Background.QueuedWorker
+Message: QueuedWorker started.
+--------------------------------------------------------------------------------
+[2025-10-14 16:07:33.901] [Information]
+Category: Microsoft.Hosting.Lifetime
+Message: Now listening on: https://localhost:7282
+------------------------------------------------------------
+[2025-10-14 16:07:33.902] [Information]
+Category: Microsoft.Hosting.Lifetime
+Message: Now listening on: https://localhost:7282
+--------------------------------------------------------------------------------
+[2025-10-14 16:07:33.905] [Information]
+Category: Microsoft.Hosting.Lifetime
+Message: Now listening on: http://localhost:5072
+------------------------------------------------------------
+[2025-10-14 16:07:33.905] [Information]
+Category: Microsoft.Hosting.Lifetime
+Message: Now listening on: http://localhost:5072
+--------------------------------------------------------------------------------
+[2025-10-14 16:07:34.002] [Information]
+Category: Microsoft.Hosting.Lifetime
+Message: Application started. Press Ctrl+C to shut down.
+------------------------------------------------------------
+[2025-10-14 16:07:34.003] [Information]
+Category: Microsoft.Hosting.Lifetime
+Message: Application started. Press Ctrl+C to shut down.
+--------------------------------------------------------------------------------
+[2025-10-14 16:07:34.006] [Information]
+Category: Microsoft.Hosting.Lifetime
+Message: Hosting environment: Development
+------------------------------------------------------------
+[2025-10-14 16:07:34.007] [Information]
+Category: Microsoft.Hosting.Lifetime
+Message: Hosting environment: Development
+--------------------------------------------------------------------------------
+[2025-10-14 16:07:34.013] [Information]
+Category: Microsoft.Hosting.Lifetime
+Message: Content root path: D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions
+------------------------------------------------------------
+[2025-10-14 16:07:34.014] [Information]
+Category: Microsoft.Hosting.Lifetime
+Message: Content root path: D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions
+--------------------------------------------------------------------------------
+[2025-10-14 16:07:38.240] [Warning]
+Category: Microsoft.AspNetCore.Session.SessionMiddleware
+Message: Error unprotecting the session cookie.
+------------------------------------------------------------
+[2025-10-14 16:07:38.241] [Warning]
+Category: Microsoft.AspNetCore.Session.SessionMiddleware
+Message: Error unprotecting the session cookie.
+Exception Type: System.Security.Cryptography.CryptographicException
+Exception Message: The payload was invalid. For more information go to https://aka.ms/aspnet/dataprotectionwarning
+Stack Trace:    at Microsoft.AspNetCore.DataProtection.Cng.CbcAuthenticatedEncryptor.DecryptImpl(Byte* pbCiphertext, UInt32 cbCiphertext, Byte* pbAdditionalAuthenticatedData, UInt32 cbAdditionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.Decrypt(ArraySegment`1 ciphertext, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+--------------------------------------------------------------------------------
+[2025-10-14 16:07:38.541] [Information]
+Category: GenxAi_Solutions.Utils.Middleware.RequestLoggingMiddleware
+Message: HTTP GET / -> 200 in 3641 ms | CorrelationId=3ec2c01f-b9cf-47b0-bdb4-f7143836952d | Ip=::1 | User=anonymous | Headers=[Accept, text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7], [Host, localhost:7282], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36], [Accept-Encoding, gzip, deflate, br, zstd], [Accept-Language, en-US,en;q=0.9], [Upgrade-Insecure-Requests, 1], [sec-ch-ua, "Google Chrome";v="141", "Not?A_Brand";v="8", "Chromium";v="141"], [sec-ch-ua-mobile, ?0], [sec-ch-ua-platform, "Windows"], [sec-fetch-site, none], [sec-fetch-mode, navigate], [sec-fetch-user, ?1], [sec-fetch-dest, document], [priority, u=0, i] | BodyPreview=
+------------------------------------------------------------
+[2025-10-14 16:07:38.541] [Information]
+Category: GenxAi_Solutions.Utils.Middleware.RequestLoggingMiddleware
+Message: HTTP GET / -> 200 in 3641 ms | CorrelationId=3ec2c01f-b9cf-47b0-bdb4-f7143836952d | Ip=::1 | User=anonymous | Headers=[Accept, text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7], [Host, localhost:7282], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36], [Accept-Encoding, gzip, deflate, br, zstd], [Accept-Language, en-US,en;q=0.9], [Upgrade-Insecure-Requests, 1], [sec-ch-ua, "Google Chrome";v="141", "Not?A_Brand";v="8", "Chromium";v="141"], [sec-ch-ua-mobile, ?0], [sec-ch-ua-platform, "Windows"], [sec-fetch-site, none], [sec-fetch-mode, navigate], [sec-fetch-user, ?1], [sec-fetch-dest, document], [priority, u=0, i] | BodyPreview=
+--------------------------------------------------------------------------------
+[2025-10-14 16:07:58.836] [Information]
+Category: GenxAi_Solutions.Services.AuditLogger
+Message: GENERAL_AUDIT: Action: POST /api/auth/login, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-14 16:07:58.837] [Information]
+Category: GenxAi_Solutions.Services.AuditLogger
+Message: GENERAL_AUDIT: Action: POST /api/auth/login, User: anonymous, IP: ::1, Details: Sensitive action accessed
+--------------------------------------------------------------------------------
+[2025-10-14 16:08:01.388] [Warning]
+Category: Microsoft.AspNetCore.Session.SessionMiddleware
+Message: Error unprotecting the session cookie.
+------------------------------------------------------------
+[2025-10-14 16:08:01.389] [Warning]
+Category: Microsoft.AspNetCore.Session.SessionMiddleware
+Message: Error unprotecting the session cookie.
+Exception Type: System.Security.Cryptography.CryptographicException
+Exception Message: The payload was invalid. For more information go to https://aka.ms/aspnet/dataprotectionwarning
+Stack Trace:    at Microsoft.AspNetCore.DataProtection.Cng.CbcAuthenticatedEncryptor.DecryptImpl(Byte* pbCiphertext, UInt32 cbCiphertext, Byte* pbAdditionalAuthenticatedData, UInt32 cbAdditionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.Decrypt(ArraySegment`1 ciphertext, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+--------------------------------------------------------------------------------
+[2025-10-14 16:08:01.545] [Information]
+Category: GenxAi_Solutions.Utils.Middleware.RequestLoggingMiddleware
+Message: HTTP POST /api/auth/login -> 500 in 4476 ms | CorrelationId=2d57e8dc-3b06-4ea5-8f78-4642009b67d9 | Ip=::1 | User=anonymous | Headers=[Accept, */*], [Host, localhost:7282], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36], [Accept-Encoding, gzip, deflate, br, zstd], [Accept-Language, en-US,en;q=0.9], [Content-Type, application/json], [Origin, https://localhost:7282], [Referer, https://localhost:7282/], [Content-Length, 54], [sec-ch-ua-platform, "Windows"], [X-Requested-With, XMLHttpRequest], [sec-ch-ua, "Google Chrome";v="141", "Not?A_Brand";v="8", "Chromium";v="141"], [sec-ch-ua-mobile, ?0], [sec-fetch-site, same-origin], [sec-fetch-mode, cors], [sec-fetch-dest, empty], [priority, u=1, i] | BodyPreview={"Email":"suchita.gome@genxai.com","Password":"12345"}
+------------------------------------------------------------
+[2025-10-14 16:08:01.546] [Information]
+Category: GenxAi_Solutions.Utils.Middleware.RequestLoggingMiddleware
+Message: HTTP POST /api/auth/login -> 500 in 4476 ms | CorrelationId=2d57e8dc-3b06-4ea5-8f78-4642009b67d9 | Ip=::1 | User=anonymous | Headers=[Accept, */*], [Host, localhost:7282], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36], [Accept-Encoding, gzip, deflate, br, zstd], [Accept-Language, en-US,en;q=0.9], [Content-Type, application/json], [Origin, https://localhost:7282], [Referer, https://localhost:7282/], [Content-Length, 54], [sec-ch-ua-platform, "Windows"], [X-Requested-With, XMLHttpRequest], [sec-ch-ua, "Google Chrome";v="141", "Not?A_Brand";v="8", "Chromium";v="141"], [sec-ch-ua-mobile, ?0], [sec-fetch-site, same-origin], [sec-fetch-mode, cors], [sec-fetch-dest, empty], [priority, u=1, i] | BodyPreview={"Email":"suchita.gome@genxai.com","Password":"12345"}
+--------------------------------------------------------------------------------
+[2025-10-14 16:08:34.163] [Information]
+Category: GenxAi_Solutions.Services.AuditLogger
+Message: GENERAL_AUDIT: Action: POST /api/auth/login, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-14 16:08:34.164] [Information]
+Category: GenxAi_Solutions.Services.AuditLogger
+Message: GENERAL_AUDIT: Action: POST /api/auth/login, User: anonymous, IP: ::1, Details: Sensitive action accessed
+--------------------------------------------------------------------------------
+[2025-10-14 16:09:25.462] [Warning]
+Category: Microsoft.AspNetCore.Session.SessionMiddleware
+Message: Error unprotecting the session cookie.
+------------------------------------------------------------
+[2025-10-14 16:09:33.031] [Warning]
+Category: Microsoft.AspNetCore.Session.SessionMiddleware
+Message: Error unprotecting the session cookie.
+Exception Type: System.Security.Cryptography.CryptographicException
+Exception Message: The payload was invalid. For more information go to https://aka.ms/aspnet/dataprotectionwarning
+Stack Trace:    at Microsoft.AspNetCore.DataProtection.Cng.CbcAuthenticatedEncryptor.DecryptImpl(Byte* pbCiphertext, UInt32 cbCiphertext, Byte* pbAdditionalAuthenticatedData, UInt32 cbAdditionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.Decrypt(ArraySegment`1 ciphertext, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+--------------------------------------------------------------------------------
+[2025-10-14 17:04:04.981] [Information]
+Category: GenxAi_Solutions.Services.Background.QueuedWorker
+Message: QueuedWorker started.
+------------------------------------------------------------
+[2025-10-14 17:04:04.991] [Information]
+Category: GenxAi_Solutions.Services.Background.QueuedWorker
+Message: QueuedWorker started.
+--------------------------------------------------------------------------------
+[2025-10-14 17:04:05.169] [Information]
+Category: Microsoft.Hosting.Lifetime
+Message: Now listening on: https://localhost:7282
+------------------------------------------------------------
+[2025-10-14 17:04:05.170] [Information]
+Category: Microsoft.Hosting.Lifetime
+Message: Now listening on: https://localhost:7282
+--------------------------------------------------------------------------------
+[2025-10-14 17:04:05.174] [Information]
+Category: Microsoft.Hosting.Lifetime
+Message: Now listening on: http://localhost:5072
+------------------------------------------------------------
+[2025-10-14 17:04:05.174] [Information]
+Category: Microsoft.Hosting.Lifetime
+Message: Now listening on: http://localhost:5072
+--------------------------------------------------------------------------------
+[2025-10-14 17:04:05.248] [Information]
+Category: Microsoft.Hosting.Lifetime
+Message: Application started. Press Ctrl+C to shut down.
+------------------------------------------------------------
+[2025-10-14 17:04:05.252] [Information]
+Category: Microsoft.Hosting.Lifetime
+Message: Application started. Press Ctrl+C to shut down.
+--------------------------------------------------------------------------------
+[2025-10-14 17:04:05.256] [Information]
+Category: Microsoft.Hosting.Lifetime
+Message: Hosting environment: Development
+------------------------------------------------------------
+[2025-10-14 17:04:05.256] [Information]
+Category: Microsoft.Hosting.Lifetime
+Message: Hosting environment: Development
+--------------------------------------------------------------------------------
+[2025-10-14 17:04:05.259] [Information]
+Category: Microsoft.Hosting.Lifetime
+Message: Content root path: D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions
+------------------------------------------------------------
+[2025-10-14 17:04:05.259] [Information]
+Category: Microsoft.Hosting.Lifetime
+Message: Content root path: D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions
+--------------------------------------------------------------------------------
+[2025-10-14 17:04:15.209] [Warning]
+Category: Microsoft.AspNetCore.Session.SessionMiddleware
+Message: Error unprotecting the session cookie.
+------------------------------------------------------------
+[2025-10-14 17:04:15.232] [Warning]
+Category: Microsoft.AspNetCore.Session.SessionMiddleware
+Message: Error unprotecting the session cookie.
+Exception Type: System.Security.Cryptography.CryptographicException
+Exception Message: The payload was invalid. For more information go to https://aka.ms/aspnet/dataprotectionwarning
+Stack Trace:    at Microsoft.AspNetCore.DataProtection.Cng.CbcAuthenticatedEncryptor.DecryptImpl(Byte* pbCiphertext, UInt32 cbCiphertext, Byte* pbAdditionalAuthenticatedData, UInt32 cbAdditionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.Decrypt(ArraySegment`1 ciphertext, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+--------------------------------------------------------------------------------
+[2025-10-14 17:04:16.410] [Information]
+Category: GenxAi_Solutions.Utils.Middleware.RequestLoggingMiddleware
+Message: HTTP GET / -> 200 in 10343 ms | CorrelationId=3b3ecce6-6313-463e-9fcb-85d2be5a1772 | Ip=::1 | User=anonymous | Headers=[Accept, text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7], [Host, localhost:7282], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36], [Accept-Encoding, gzip, deflate, br, zstd], [Accept-Language, en-US,en;q=0.9], [Upgrade-Insecure-Requests, 1], [sec-ch-ua, "Google Chrome";v="141", "Not?A_Brand";v="8", "Chromium";v="141"], [sec-ch-ua-mobile, ?0], [sec-ch-ua-platform, "Windows"], [sec-fetch-site, none], [sec-fetch-mode, navigate], [sec-fetch-user, ?1], [sec-fetch-dest, document], [priority, u=0, i] | BodyPreview=
+------------------------------------------------------------
+[2025-10-14 17:04:16.411] [Information]
+Category: GenxAi_Solutions.Utils.Middleware.RequestLoggingMiddleware
+Message: HTTP GET / -> 200 in 10343 ms | CorrelationId=3b3ecce6-6313-463e-9fcb-85d2be5a1772 | Ip=::1 | User=anonymous | Headers=[Accept, text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7], [Host, localhost:7282], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36], [Accept-Encoding, gzip, deflate, br, zstd], [Accept-Language, en-US,en;q=0.9], [Upgrade-Insecure-Requests, 1], [sec-ch-ua, "Google Chrome";v="141", "Not?A_Brand";v="8", "Chromium";v="141"], [sec-ch-ua-mobile, ?0], [sec-ch-ua-platform, "Windows"], [sec-fetch-site, none], [sec-fetch-mode, navigate], [sec-fetch-user, ?1], [sec-fetch-dest, document], [priority, u=0, i] | BodyPreview=
+--------------------------------------------------------------------------------
+[2025-10-14 17:04:30.896] [Information]
+Category: GenxAi_Solutions.Services.AuditLogger
+Message: GENERAL_AUDIT: Action: POST /api/auth/login, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-14 17:04:30.898] [Information]
+Category: GenxAi_Solutions.Services.AuditLogger
+Message: GENERAL_AUDIT: Action: POST /api/auth/login, User: anonymous, IP: ::1, Details: Sensitive action accessed
+--------------------------------------------------------------------------------
+[2025-10-14 17:04:32.333] [Warning]
+Category: Microsoft.AspNetCore.Session.SessionMiddleware
+Message: Error unprotecting the session cookie.
+------------------------------------------------------------
+[2025-10-14 17:04:32.342] [Warning]
+Category: Microsoft.AspNetCore.Session.SessionMiddleware
+Message: Error unprotecting the session cookie.
+Exception Type: System.Security.Cryptography.CryptographicException
+Exception Message: The payload was invalid. For more information go to https://aka.ms/aspnet/dataprotectionwarning
+Stack Trace:    at Microsoft.AspNetCore.DataProtection.Cng.CbcAuthenticatedEncryptor.DecryptImpl(Byte* pbCiphertext, UInt32 cbCiphertext, Byte* pbAdditionalAuthenticatedData, UInt32 cbAdditionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.Decrypt(ArraySegment`1 ciphertext, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+--------------------------------------------------------------------------------
+[2025-10-14 17:04:38.226] [Information]
+Category: GenxAi_Solutions.Services.AuditLogger
+Message: USER_LOGIN: User: suchita.gome@genxai.com, IP: ::1, Status: SUCCESS
+------------------------------------------------------------
+[2025-10-14 17:04:38.227] [Information]
+Category: GenxAi_Solutions.Services.AuditLogger
+Message: USER_LOGIN: User: suchita.gome@genxai.com, IP: ::1, Status: SUCCESS
+--------------------------------------------------------------------------------
+[2025-10-14 17:04:38.258] [Information]
+Category: GenxAi_Solutions.Utils.Middleware.RequestLoggingMiddleware
+Message: HTTP POST /api/auth/login -> 200 in 12382 ms | CorrelationId=5b56ddc8-92ac-4145-ba82-c3dd54447ef1 | Ip=::1 | User=anonymous | Headers=[Accept, */*], [Host, localhost:7282], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36], [Accept-Encoding, gzip, deflate, br, zstd], [Accept-Language, en-US,en;q=0.9], [Content-Type, application/json], [Origin, https://localhost:7282], [Referer, https://localhost:7282/], [Content-Length, 54], [sec-ch-ua-platform, "Windows"], [X-Requested-With, XMLHttpRequest], [sec-ch-ua, "Google Chrome";v="141", "Not?A_Brand";v="8", "Chromium";v="141"], [sec-ch-ua-mobile, ?0], [sec-fetch-site, same-origin], [sec-fetch-mode, cors], [sec-fetch-dest, empty], [priority, u=1, i] | BodyPreview={"Email":"suchita.gome@genxai.com","Password":"12345"}
+------------------------------------------------------------
+[2025-10-14 17:04:38.260] [Information]
+Category: GenxAi_Solutions.Utils.Middleware.RequestLoggingMiddleware
+Message: HTTP POST /api/auth/login -> 200 in 12382 ms | CorrelationId=5b56ddc8-92ac-4145-ba82-c3dd54447ef1 | Ip=::1 | User=anonymous | Headers=[Accept, */*], [Host, localhost:7282], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36], [Accept-Encoding, gzip, deflate, br, zstd], [Accept-Language, en-US,en;q=0.9], [Content-Type, application/json], [Origin, https://localhost:7282], [Referer, https://localhost:7282/], [Content-Length, 54], [sec-ch-ua-platform, "Windows"], [X-Requested-With, XMLHttpRequest], [sec-ch-ua, "Google Chrome";v="141", "Not?A_Brand";v="8", "Chromium";v="141"], [sec-ch-ua-mobile, ?0], [sec-fetch-site, same-origin], [sec-fetch-mode, cors], [sec-fetch-dest, empty], [priority, u=1, i] | BodyPreview={"Email":"suchita.gome@genxai.com","Password":"12345"}
+--------------------------------------------------------------------------------
+[2025-10-14 17:04:43.070] [Information]
+Category: GenxAi_Solutions.Utils.Middleware.RequestLoggingMiddleware
+Message: HTTP GET /Home/Index -> 200 in 4768 ms | CorrelationId=b0063541-4f3a-45cf-ba33-406b32edd335 | Ip=::1 | User=suchita.gome@genxai.com | Headers=[Accept, text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7], [Host, localhost:7282], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36], [Accept-Encoding, gzip, deflate, br, zstd], [Accept-Language, en-US,en;q=0.9], [Referer, https://localhost:7282/], [Upgrade-Insecure-Requests, 1], [sec-ch-ua, "Google Chrome";v="141", "Not?A_Brand";v="8", "Chromium";v="141"], [sec-ch-ua-mobile, ?0], [sec-ch-ua-platform, "Windows"], [sec-fetch-site, same-origin], [sec-fetch-mode, navigate], [sec-fetch-dest, document], [priority, u=0, i] | BodyPreview=
+------------------------------------------------------------
+[2025-10-14 17:04:43.073] [Information]
+Category: GenxAi_Solutions.Utils.Middleware.RequestLoggingMiddleware
+Message: HTTP GET /Home/Index -> 200 in 4768 ms | CorrelationId=b0063541-4f3a-45cf-ba33-406b32edd335 | Ip=::1 | User=suchita.gome@genxai.com | Headers=[Accept, text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7], [Host, localhost:7282], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36], [Accept-Encoding, gzip, deflate, br, zstd], [Accept-Language, en-US,en;q=0.9], [Referer, https://localhost:7282/], [Upgrade-Insecure-Requests, 1], [sec-ch-ua, "Google Chrome";v="141", "Not?A_Brand";v="8", "Chromium";v="141"], [sec-ch-ua-mobile, ?0], [sec-ch-ua-platform, "Windows"], [sec-fetch-site, same-origin], [sec-fetch-mode, navigate], [sec-fetch-dest, document], [priority, u=0, i] | BodyPreview=
+--------------------------------------------------------------------------------
+[2025-10-14 17:04:49.246] [Information]
+Category: GenxAi_Solutions.Services.AuditLogger
+Message: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-14 17:04:49.248] [Information]
+Category: GenxAi_Solutions.Services.AuditLogger
+Message: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+--------------------------------------------------------------------------------
+[2025-10-14 17:04:52.170] [Information]
+Category: GenxAi_Solutions.Services.AuditLogger
+Message: GENERAL_AUDIT: Action: POST /api/auth/getmenu, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-14 17:04:52.170] [Information]
+Category: GenxAi_Solutions.Services.AuditLogger
+Message: GENERAL_AUDIT: Action: POST /api/auth/getmenu, User: anonymous, IP: ::1, Details: Sensitive action accessed
+--------------------------------------------------------------------------------
+[2025-10-14 17:04:53.071] [Information]
+Category: GenxAi_Solutions.Utils.Middleware.RequestLoggingMiddleware
+Message: HTTP POST /hubs/notifications/negotiate?negotiateVersion=1 -> 200 in 9826 ms | CorrelationId=e82a8013-b23a-43a1-8f60-8330efae2438 | Ip=::1 | User=suchita.gome@genxai.com | Headers=[Accept, */*], [Host, localhost:7282], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36], [Accept-Encoding, gzip, deflate, br, zstd], [Accept-Language, en-US,en;q=0.9], [Cache-Control, max-age=0], [Origin, https://localhost:7282], [Referer, https://localhost:7282/Home/Index], [Content-Length, 0], [sec-ch-ua-platform, "Windows"], [X-Requested-With, XMLHttpRequest], [sec-ch-ua, "Google Chrome";v="141", "Not?A_Brand";v="8", "Chromium";v="141"], [sec-ch-ua-mobile, ?0], [x-signalr-user-agent, Microsoft SignalR/7.0 (7.0.12; Unknown OS; Browser; Unknown Runtime Version)], [sec-fetch-site, same-origin], [sec-fetch-mode, cors], [sec-fetch-dest, empty], [priority, u=1, i] | BodyPreview=
+------------------------------------------------------------
+[2025-10-14 17:04:53.072] [Information]
+Category: GenxAi_Solutions.Utils.Middleware.RequestLoggingMiddleware
+Message: HTTP POST /hubs/notifications/negotiate?negotiateVersion=1 -> 200 in 9826 ms | CorrelationId=e82a8013-b23a-43a1-8f60-8330efae2438 | Ip=::1 | User=suchita.gome@genxai.com | Headers=[Accept, */*], [Host, localhost:7282], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36], [Accept-Encoding, gzip, deflate, br, zstd], [Accept-Language, en-US,en;q=0.9], [Cache-Control, max-age=0], [Origin, https://localhost:7282], [Referer, https://localhost:7282/Home/Index], [Content-Length, 0], [sec-ch-ua-platform, "Windows"], [X-Requested-With, XMLHttpRequest], [sec-ch-ua, "Google Chrome";v="141", "Not?A_Brand";v="8", "Chromium";v="141"], [sec-ch-ua-mobile, ?0], [x-signalr-user-agent, Microsoft SignalR/7.0 (7.0.12; Unknown OS; Browser; Unknown Runtime Version)], [sec-fetch-site, same-origin], [sec-fetch-mode, cors], [sec-fetch-dest, empty], [priority, u=1, i] | BodyPreview=
+--------------------------------------------------------------------------------
+[2025-10-14 17:04:59.224] [Information]
+Category: GenxAi_Solutions.Utils.Middleware.RequestLoggingMiddleware
+Message: HTTP GET /api/notifications/unread -> 200 in 14112 ms | CorrelationId=b8c030a1-88a5-480f-84c3-f95a3e22d987 | Ip=::1 | User=suchita.gome@genxai.com | Headers=[Accept, application/json], [Host, localhost:7282], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36], [Accept-Encoding, gzip, deflate, br, zstd], [Accept-Language, en-US,en;q=0.9], [Referer, https://localhost:7282/Home/Index], [sec-ch-ua-platform, "Windows"], [sec-ch-ua, "Google Chrome";v="141", "Not?A_Brand";v="8", "Chromium";v="141"], [sec-ch-ua-mobile, ?0], [sec-fetch-site, same-origin], [sec-fetch-mode, cors], [sec-fetch-dest, empty], [priority, u=1, i] | BodyPreview=
+------------------------------------------------------------
+[2025-10-14 17:04:59.225] [Information]
+Category: GenxAi_Solutions.Utils.Middleware.RequestLoggingMiddleware
+Message: HTTP GET /api/notifications/unread -> 200 in 14112 ms | CorrelationId=b8c030a1-88a5-480f-84c3-f95a3e22d987 | Ip=::1 | User=suchita.gome@genxai.com | Headers=[Accept, application/json], [Host, localhost:7282], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36], [Accept-Encoding, gzip, deflate, br, zstd], [Accept-Language, en-US,en;q=0.9], [Referer, https://localhost:7282/Home/Index], [sec-ch-ua-platform, "Windows"], [sec-ch-ua, "Google Chrome";v="141", "Not?A_Brand";v="8", "Chromium";v="141"], [sec-ch-ua-mobile, ?0], [sec-fetch-site, same-origin], [sec-fetch-mode, cors], [sec-fetch-dest, empty], [priority, u=1, i] | BodyPreview=
+--------------------------------------------------------------------------------
+[2025-10-14 17:04:59.231] [Information]
+Category: GenxAi_Solutions.Utils.Middleware.RequestLoggingMiddleware
+Message: HTTP POST /api/auth/getmenu -> 200 in 8265 ms | CorrelationId=3f686283-b5cc-42a0-83d9-edf7991abf73 | Ip=::1 | User=suchita.gome@genxai.com | Headers=[Accept, */*], [Host, localhost:7282], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36], [Accept-Encoding, gzip, deflate, br, zstd], [Accept-Language, en-US,en;q=0.9], [Content-Type, application/json], [Origin, https://localhost:7282], [Referer, https://localhost:7282/Home/Index], [Content-Length, 13], [sec-ch-ua-platform, "Windows"], [X-Requested-With, XMLHttpRequest], [sec-ch-ua, "Google Chrome";v="141", "Not?A_Brand";v="8", "Chromium";v="141"], [sec-ch-ua-mobile, ?0], [sec-fetch-site, same-origin], [sec-fetch-mode, cors], [sec-fetch-dest, empty], [priority, u=1, i] | BodyPreview={"GroupId":2}
+------------------------------------------------------------
+[2025-10-14 17:04:59.232] [Information]
+Category: GenxAi_Solutions.Utils.Middleware.RequestLoggingMiddleware
+Message: HTTP POST /api/auth/getmenu -> 200 in 8265 ms | CorrelationId=3f686283-b5cc-42a0-83d9-edf7991abf73 | Ip=::1 | User=suchita.gome@genxai.com | Headers=[Accept, */*], [Host, localhost:7282], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36], [Accept-Encoding, gzip, deflate, br, zstd], [Accept-Language, en-US,en;q=0.9], [Content-Type, application/json], [Origin, https://localhost:7282], [Referer, https://localhost:7282/Home/Index], [Content-Length, 13], [sec-ch-ua-platform, "Windows"], [X-Requested-With, XMLHttpRequest], [sec-ch-ua, "Google Chrome";v="141", "Not?A_Brand";v="8", "Chromium";v="141"], [sec-ch-ua-mobile, ?0], [sec-fetch-site, same-origin], [sec-fetch-mode, cors], [sec-fetch-dest, empty], [priority, u=1, i] | BodyPreview={"GroupId":2}
+--------------------------------------------------------------------------------
+[2025-10-14 17:05:29.736] [Information]
+Category: GenxAi_Solutions.Utils.Middleware.RequestLoggingMiddleware
+Message: HTTP GET /Screen/Add -> 200 in 16966 ms | CorrelationId=d38c07fe-008d-40cf-bc2c-c6a60999bcb3 | Ip=::1 | User=suchita.gome@genxai.com | Headers=[Accept, text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7], [Host, localhost:7282], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36], [Accept-Encoding, gzip, deflate, br, zstd], [Accept-Language, en-US,en;q=0.9], [Referer, https://localhost:7282/Home/Index], [Upgrade-Insecure-Requests, 1], [sec-ch-ua, "Google Chrome";v="141", "Not?A_Brand";v="8", "Chromium";v="141"], [sec-ch-ua-mobile, ?0], [sec-ch-ua-platform, "Windows"], [sec-fetch-site, same-origin], [sec-fetch-mode, navigate], [sec-fetch-user, ?1], [sec-fetch-dest, document], [priority, u=0, i] | BodyPreview=
+------------------------------------------------------------
+[2025-10-14 17:05:29.737] [Information]
+Category: GenxAi_Solutions.Utils.Middleware.RequestLoggingMiddleware
+Message: HTTP GET /Screen/Add -> 200 in 16966 ms | CorrelationId=d38c07fe-008d-40cf-bc2c-c6a60999bcb3 | Ip=::1 | User=suchita.gome@genxai.com | Headers=[Accept, text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7], [Host, localhost:7282], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36], [Accept-Encoding, gzip, deflate, br, zstd], [Accept-Language, en-US,en;q=0.9], [Referer, https://localhost:7282/Home/Index], [Upgrade-Insecure-Requests, 1], [sec-ch-ua, "Google Chrome";v="141", "Not?A_Brand";v="8", "Chromium";v="141"], [sec-ch-ua-mobile, ?0], [sec-ch-ua-platform, "Windows"], [sec-fetch-site, same-origin], [sec-fetch-mode, navigate], [sec-fetch-user, ?1], [sec-fetch-dest, document], [priority, u=0, i] | BodyPreview=
+--------------------------------------------------------------------------------
+[2025-10-14 17:05:29.857] [Information]
+Category: GenxAi_Solutions.Utils.Middleware.RequestLoggingMiddleware
+Message: HTTP GET /Screen/css/table-card.css -> 404 in 34 ms | CorrelationId=25dff4f4-5e86-4d24-a62c-8bca9bdda011 | Ip=::1 | User=suchita.gome@genxai.com | Headers=[Accept, text/css,*/*;q=0.1], [Host, localhost:7282], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36], [Accept-Encoding, gzip, deflate, br, zstd], [Accept-Language, en-US,en;q=0.9], [Referer, https://localhost:7282/Screen/Add], [sec-ch-ua-platform, "Windows"], [sec-ch-ua, "Google Chrome";v="141", "Not?A_Brand";v="8", "Chromium";v="141"], [sec-ch-ua-mobile, ?0], [sec-fetch-site, same-origin], [sec-fetch-mode, no-cors], [sec-fetch-dest, style], [priority, u=2] | BodyPreview=
+------------------------------------------------------------
+[2025-10-14 17:05:29.859] [Information]
+Category: GenxAi_Solutions.Utils.Middleware.RequestLoggingMiddleware
+Message: HTTP GET /Screen/css/table-card.css -> 404 in 34 ms | CorrelationId=25dff4f4-5e86-4d24-a62c-8bca9bdda011 | Ip=::1 | User=suchita.gome@genxai.com | Headers=[Accept, text/css,*/*;q=0.1], [Host, localhost:7282], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36], [Accept-Encoding, gzip, deflate, br, zstd], [Accept-Language, en-US,en;q=0.9], [Referer, https://localhost:7282/Screen/Add], [sec-ch-ua-platform, "Windows"], [sec-ch-ua, "Google Chrome";v="141", "Not?A_Brand";v="8", "Chromium";v="141"], [sec-ch-ua-mobile, ?0], [sec-fetch-site, same-origin], [sec-fetch-mode, no-cors], [sec-fetch-dest, style], [priority, u=2] | BodyPreview=
+--------------------------------------------------------------------------------
+[2025-10-14 17:05:29.957] [Information]
+Category: GenxAi_Solutions.Services.AuditLogger
+Message: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-14 17:05:29.962] [Information]
+Category: GenxAi_Solutions.Services.AuditLogger
+Message: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+--------------------------------------------------------------------------------
+[2025-10-14 17:05:29.995] [Information]
+Category: GenxAi_Solutions.Utils.Middleware.RequestLoggingMiddleware
+Message: HTTP POST /hubs/notifications/negotiate?negotiateVersion=1 -> 200 in 8 ms | CorrelationId=ab636057-0a05-4910-bca2-48a6382588f9 | Ip=::1 | User=suchita.gome@genxai.com | Headers=[Accept, */*], [Host, localhost:7282], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36], [Accept-Encoding, gzip, deflate, br, zstd], [Accept-Language, en-US,en;q=0.9], [Cache-Control, max-age=0], [Origin, https://localhost:7282], [Referer, https://localhost:7282/Screen/Add], [Content-Length, 0], [sec-ch-ua-platform, "Windows"], [X-Requested-With, XMLHttpRequest], [sec-ch-ua, "Google Chrome";v="141", "Not?A_Brand";v="8", "Chromium";v="141"], [sec-ch-ua-mobile, ?0], [x-signalr-user-agent, Microsoft SignalR/7.0 (7.0.12; Unknown OS; Browser; Unknown Runtime Version)], [sec-fetch-site, same-origin], [sec-fetch-mode, cors], [sec-fetch-dest, empty], [priority, u=1, i] | BodyPreview=
+------------------------------------------------------------
+[2025-10-14 17:05:30.047] [Information]
+Category: GenxAi_Solutions.Utils.Middleware.RequestLoggingMiddleware
+Message: HTTP POST /hubs/notifications/negotiate?negotiateVersion=1 -> 200 in 8 ms | CorrelationId=ab636057-0a05-4910-bca2-48a6382588f9 | Ip=::1 | User=suchita.gome@genxai.com | Headers=[Accept, */*], [Host, localhost:7282], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36], [Accept-Encoding, gzip, deflate, br, zstd], [Accept-Language, en-US,en;q=0.9], [Cache-Control, max-age=0], [Origin, https://localhost:7282], [Referer, https://localhost:7282/Screen/Add], [Content-Length, 0], [sec-ch-ua-platform, "Windows"], [X-Requested-With, XMLHttpRequest], [sec-ch-ua, "Google Chrome";v="141", "Not?A_Brand";v="8", "Chromium";v="141"], [sec-ch-ua-mobile, ?0], [x-signalr-user-agent, Microsoft SignalR/7.0 (7.0.12; Unknown OS; Browser; Unknown Runtime Version)], [sec-fetch-site, same-origin], [sec-fetch-mode, cors], [sec-fetch-dest, empty], [priority, u=1, i] | BodyPreview=
+--------------------------------------------------------------------------------
+[2025-10-14 17:05:30.051] [Information]
+Category: GenxAi_Solutions.Utils.Middleware.RequestLoggingMiddleware
+Message: HTTP CONNECT /hubs/notifications?id=cB-zwDwREdEZ1YM0uqGdRA -> 200 in 36874 ms | CorrelationId=7e7dac48-76c1-4fe5-8380-1095dbb69b7e | Ip=::1 | User=suchita.gome@genxai.com | Headers=[Host, localhost:7282], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36], [Accept-Encoding, gzip, deflate, br, zstd], [Accept-Language, en-US,en;q=0.9], [Cache-Control, no-cache], [Origin, https://localhost:7282], [Pragma, no-cache], [Sec-WebSocket-Version, 13], [Sec-WebSocket-Extensions, permessage-deflate; client_max_window_bits] | BodyPreview=
+------------------------------------------------------------
+[2025-10-14 17:05:30.052] [Information]
+Category: GenxAi_Solutions.Utils.Middleware.RequestLoggingMiddleware
+Message: HTTP CONNECT /hubs/notifications?id=cB-zwDwREdEZ1YM0uqGdRA -> 200 in 36874 ms | CorrelationId=7e7dac48-76c1-4fe5-8380-1095dbb69b7e | Ip=::1 | User=suchita.gome@genxai.com | Headers=[Host, localhost:7282], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36], [Accept-Encoding, gzip, deflate, br, zstd], [Accept-Language, en-US,en;q=0.9], [Cache-Control, no-cache], [Origin, https://localhost:7282], [Pragma, no-cache], [Sec-WebSocket-Version, 13], [Sec-WebSocket-Extensions, permessage-deflate; client_max_window_bits] | BodyPreview=
+--------------------------------------------------------------------------------
+[2025-10-14 17:05:30.083] [Information]
+Category: GenxAi_Solutions.Services.AuditLogger
+Message: GENERAL_AUDIT: Action: POST /api/auth/getmenu, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-14 17:05:30.084] [Information]
+Category: GenxAi_Solutions.Services.AuditLogger
+Message: GENERAL_AUDIT: Action: POST /api/auth/getmenu, User: anonymous, IP: ::1, Details: Sensitive action accessed
+--------------------------------------------------------------------------------
+[2025-10-14 17:09:27.132] [Information]
+Category: GenxAi_Solutions.Services.Background.QueuedWorker
+Message: QueuedWorker started.
+------------------------------------------------------------
+[2025-10-14 17:09:27.134] [Information]
+Category: GenxAi_Solutions.Services.Background.QueuedWorker
+Message: QueuedWorker started.
+--------------------------------------------------------------------------------
+[2025-10-14 17:09:27.273] [Information]
+Category: Microsoft.Hosting.Lifetime
+Message: Now listening on: https://localhost:7282
+------------------------------------------------------------
+[2025-10-14 17:09:27.274] [Information]
+Category: Microsoft.Hosting.Lifetime
+Message: Now listening on: https://localhost:7282
+--------------------------------------------------------------------------------
+[2025-10-14 17:09:27.276] [Information]
+Category: Microsoft.Hosting.Lifetime
+Message: Now listening on: http://localhost:5072
+------------------------------------------------------------
+[2025-10-14 17:09:27.276] [Information]
+Category: Microsoft.Hosting.Lifetime
+Message: Now listening on: http://localhost:5072
+--------------------------------------------------------------------------------
+[2025-10-14 17:09:27.337] [Information]
+Category: Microsoft.Hosting.Lifetime
+Message: Application started. Press Ctrl+C to shut down.
+------------------------------------------------------------
+[2025-10-14 17:09:27.338] [Information]
+Category: Microsoft.Hosting.Lifetime
+Message: Application started. Press Ctrl+C to shut down.
+--------------------------------------------------------------------------------
+[2025-10-14 17:09:27.340] [Information]
+Category: Microsoft.Hosting.Lifetime
+Message: Hosting environment: Development
+------------------------------------------------------------
+[2025-10-14 17:09:27.341] [Information]
+Category: Microsoft.Hosting.Lifetime
+Message: Hosting environment: Development
+--------------------------------------------------------------------------------
+[2025-10-14 17:09:27.343] [Information]
+Category: Microsoft.Hosting.Lifetime
+Message: Content root path: D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions
+------------------------------------------------------------
+[2025-10-14 17:09:27.343] [Information]
+Category: Microsoft.Hosting.Lifetime
+Message: Content root path: D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions
+--------------------------------------------------------------------------------
+[2025-10-14 17:09:28.334] [Information]
+Category: GenxAi_Solutions.Utils.Middleware.RequestLoggingMiddleware
+Message: HTTP GET / -> 200 in 326 ms | CorrelationId=2c1e2085-9beb-4f03-b1da-52228f2b2f2e | Ip=::1 | User=suchita.gome@genxai.com | Headers=[Accept, text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7], [Host, localhost:7282], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36], [Accept-Encoding, gzip, deflate, br, zstd], [Accept-Language, en-US,en;q=0.9], [Upgrade-Insecure-Requests, 1], [sec-ch-ua, "Google Chrome";v="141", "Not?A_Brand";v="8", "Chromium";v="141"], [sec-ch-ua-mobile, ?0], [sec-ch-ua-platform, "Windows"], [sec-fetch-site, none], [sec-fetch-mode, navigate], [sec-fetch-user, ?1], [sec-fetch-dest, document], [priority, u=0, i] | BodyPreview=
+------------------------------------------------------------
+[2025-10-14 17:09:28.334] [Information]
+Category: GenxAi_Solutions.Utils.Middleware.RequestLoggingMiddleware
+Message: HTTP GET / -> 200 in 326 ms | CorrelationId=2c1e2085-9beb-4f03-b1da-52228f2b2f2e | Ip=::1 | User=suchita.gome@genxai.com | Headers=[Accept, text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7], [Host, localhost:7282], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36], [Accept-Encoding, gzip, deflate, br, zstd], [Accept-Language, en-US,en;q=0.9], [Upgrade-Insecure-Requests, 1], [sec-ch-ua, "Google Chrome";v="141", "Not?A_Brand";v="8", "Chromium";v="141"], [sec-ch-ua-mobile, ?0], [sec-ch-ua-platform, "Windows"], [sec-fetch-site, none], [sec-fetch-mode, navigate], [sec-fetch-user, ?1], [sec-fetch-dest, document], [priority, u=0, i] | BodyPreview=
+--------------------------------------------------------------------------------
+[2025-10-14 17:09:45.803] [Information]
+Category: GenxAi_Solutions.Services.AuditLogger
+Message: GENERAL_AUDIT: Action: POST /api/auth/login, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-14 17:09:45.804] [Information]
+Category: GenxAi_Solutions.Services.AuditLogger
+Message: GENERAL_AUDIT: Action: POST /api/auth/login, User: anonymous, IP: ::1, Details: Sensitive action accessed
+--------------------------------------------------------------------------------
+[2025-10-14 17:09:51.914] [Information]
+Category: GenxAi_Solutions.Services.AuditLogger
+Message: USER_LOGIN: User: suchita.gome@genxai.com, IP: ::1, Status: SUCCESS
+------------------------------------------------------------
+[2025-10-14 17:09:51.915] [Information]
+Category: GenxAi_Solutions.Services.AuditLogger
+Message: USER_LOGIN: User: suchita.gome@genxai.com, IP: ::1, Status: SUCCESS
+--------------------------------------------------------------------------------
+[2025-10-14 17:09:51.955] [Information]
+Category: GenxAi_Solutions.Utils.Middleware.RequestLoggingMiddleware
+Message: HTTP POST /api/auth/login -> 200 in 6228 ms | CorrelationId=3613a686-f31e-4d19-bbc4-7e6aef7e84d3 | Ip=::1 | User=suchita.gome@genxai.com | Headers=[Accept, */*], [Host, localhost:7282], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36], [Accept-Encoding, gzip, deflate, br, zstd], [Accept-Language, en-US,en;q=0.9], [Content-Type, application/json], [Origin, https://localhost:7282], [Referer, https://localhost:7282/], [Content-Length, 54], [sec-ch-ua-platform, "Windows"], [X-Requested-With, XMLHttpRequest], [sec-ch-ua, "Google Chrome";v="141", "Not?A_Brand";v="8", "Chromium";v="141"], [sec-ch-ua-mobile, ?0], [sec-fetch-site, same-origin], [sec-fetch-mode, cors], [sec-fetch-dest, empty], [priority, u=1, i] | BodyPreview={"Email":"suchita.gome@genxai.com","Password":"12345"}
+------------------------------------------------------------
+[2025-10-14 17:09:51.956] [Information]
+Category: GenxAi_Solutions.Utils.Middleware.RequestLoggingMiddleware
+Message: HTTP POST /api/auth/login -> 200 in 6228 ms | CorrelationId=3613a686-f31e-4d19-bbc4-7e6aef7e84d3 | Ip=::1 | User=suchita.gome@genxai.com | Headers=[Accept, */*], [Host, localhost:7282], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36], [Accept-Encoding, gzip, deflate, br, zstd], [Accept-Language, en-US,en;q=0.9], [Content-Type, application/json], [Origin, https://localhost:7282], [Referer, https://localhost:7282/], [Content-Length, 54], [sec-ch-ua-platform, "Windows"], [X-Requested-With, XMLHttpRequest], [sec-ch-ua, "Google Chrome";v="141", "Not?A_Brand";v="8", "Chromium";v="141"], [sec-ch-ua-mobile, ?0], [sec-fetch-site, same-origin], [sec-fetch-mode, cors], [sec-fetch-dest, empty], [priority, u=1, i] | BodyPreview={"Email":"suchita.gome@genxai.com","Password":"12345"}
+--------------------------------------------------------------------------------
+[2025-10-14 17:09:52.237] [Information]
+Category: GenxAi_Solutions.Utils.Middleware.RequestLoggingMiddleware
+Message: HTTP GET /Home/Index -> 200 in 228 ms | CorrelationId=d5868849-9fc3-4366-87e0-2f08a08a4938 | Ip=::1 | User=suchita.gome@genxai.com | Headers=[Accept, text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7], [Host, localhost:7282], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36], [Accept-Encoding, gzip, deflate, br, zstd], [Accept-Language, en-US,en;q=0.9], [Referer, https://localhost:7282/], [Upgrade-Insecure-Requests, 1], [sec-ch-ua, "Google Chrome";v="141", "Not?A_Brand";v="8", "Chromium";v="141"], [sec-ch-ua-mobile, ?0], [sec-ch-ua-platform, "Windows"], [sec-fetch-site, same-origin], [sec-fetch-mode, navigate], [sec-fetch-dest, document], [priority, u=0, i] | BodyPreview=
+------------------------------------------------------------
+[2025-10-14 17:09:52.239] [Information]
+Category: GenxAi_Solutions.Utils.Middleware.RequestLoggingMiddleware
+Message: HTTP GET /Home/Index -> 200 in 228 ms | CorrelationId=d5868849-9fc3-4366-87e0-2f08a08a4938 | Ip=::1 | User=suchita.gome@genxai.com | Headers=[Accept, text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7], [Host, localhost:7282], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36], [Accept-Encoding, gzip, deflate, br, zstd], [Accept-Language, en-US,en;q=0.9], [Referer, https://localhost:7282/], [Upgrade-Insecure-Requests, 1], [sec-ch-ua, "Google Chrome";v="141", "Not?A_Brand";v="8", "Chromium";v="141"], [sec-ch-ua-mobile, ?0], [sec-ch-ua-platform, "Windows"], [sec-fetch-site, same-origin], [sec-fetch-mode, navigate], [sec-fetch-dest, document], [priority, u=0, i] | BodyPreview=
+--------------------------------------------------------------------------------
+[2025-10-14 17:09:52.285] [Information]
+Category: GenxAi_Solutions.Services.AuditLogger
+Message: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-14 17:09:52.294] [Information]
+Category: GenxAi_Solutions.Services.AuditLogger
+Message: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+--------------------------------------------------------------------------------
+[2025-10-14 17:09:52.331] [Information]
+Category: GenxAi_Solutions.Services.AuditLogger
+Message: GENERAL_AUDIT: Action: POST /api/auth/getmenu, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-14 17:09:52.332] [Information]
+Category: GenxAi_Solutions.Services.AuditLogger
+Message: GENERAL_AUDIT: Action: POST /api/auth/getmenu, User: anonymous, IP: ::1, Details: Sensitive action accessed
+--------------------------------------------------------------------------------
+[2025-10-14 17:09:52.485] [Information]
+Category: GenxAi_Solutions.Utils.Middleware.RequestLoggingMiddleware
+Message: HTTP POST /hubs/notifications/negotiate?negotiateVersion=1 -> 200 in 199 ms | CorrelationId=e6dca024-f4d8-4a43-b105-dd839044bed9 | Ip=::1 | User=suchita.gome@genxai.com | Headers=[Accept, */*], [Host, localhost:7282], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36], [Accept-Encoding, gzip, deflate, br, zstd], [Accept-Language, en-US,en;q=0.9], [Cache-Control, max-age=0], [Origin, https://localhost:7282], [Referer, https://localhost:7282/Home/Index], [Content-Length, 0], [sec-ch-ua-platform, "Windows"], [X-Requested-With, XMLHttpRequest], [sec-ch-ua, "Google Chrome";v="141", "Not?A_Brand";v="8", "Chromium";v="141"], [sec-ch-ua-mobile, ?0], [x-signalr-user-agent, Microsoft SignalR/7.0 (7.0.12; Unknown OS; Browser; Unknown Runtime Version)], [sec-fetch-site, same-origin], [sec-fetch-mode, cors], [sec-fetch-dest, empty], [priority, u=1, i] | BodyPreview=
+------------------------------------------------------------
+[2025-10-14 17:09:52.491] [Information]
+Category: GenxAi_Solutions.Utils.Middleware.RequestLoggingMiddleware
+Message: HTTP POST /hubs/notifications/negotiate?negotiateVersion=1 -> 200 in 199 ms | CorrelationId=e6dca024-f4d8-4a43-b105-dd839044bed9 | Ip=::1 | User=suchita.gome@genxai.com | Headers=[Accept, */*], [Host, localhost:7282], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36], [Accept-Encoding, gzip, deflate, br, zstd], [Accept-Language, en-US,en;q=0.9], [Cache-Control, max-age=0], [Origin, https://localhost:7282], [Referer, https://localhost:7282/Home/Index], [Content-Length, 0], [sec-ch-ua-platform, "Windows"], [X-Requested-With, XMLHttpRequest], [sec-ch-ua, "Google Chrome";v="141", "Not?A_Brand";v="8", "Chromium";v="141"], [sec-ch-ua-mobile, ?0], [x-signalr-user-agent, Microsoft SignalR/7.0 (7.0.12; Unknown OS; Browser; Unknown Runtime Version)], [sec-fetch-site, same-origin], [sec-fetch-mode, cors], [sec-fetch-dest, empty], [priority, u=1, i] | BodyPreview=
+--------------------------------------------------------------------------------
+[2025-10-14 17:09:57.633] [Information]
+Category: GenxAi_Solutions.Utils.Middleware.RequestLoggingMiddleware
+Message: HTTP POST /api/auth/getmenu -> 200 in 5305 ms | CorrelationId=a4bc76e0-04b2-4fd0-9da6-f78a959eb7c9 | Ip=::1 | User=suchita.gome@genxai.com | Headers=[Accept, */*], [Host, localhost:7282], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36], [Accept-Encoding, gzip, deflate, br, zstd], [Accept-Language, en-US,en;q=0.9], [Content-Type, application/json], [Origin, https://localhost:7282], [Referer, https://localhost:7282/Home/Index], [Content-Length, 13], [sec-ch-ua-platform, "Windows"], [X-Requested-With, XMLHttpRequest], [sec-ch-ua, "Google Chrome";v="141", "Not?A_Brand";v="8", "Chromium";v="141"], [sec-ch-ua-mobile, ?0], [sec-fetch-site, same-origin], [sec-fetch-mode, cors], [sec-fetch-dest, empty], [priority, u=1, i] | BodyPreview={"GroupId":2}
+------------------------------------------------------------
+[2025-10-14 17:09:57.634] [Information]
+Category: GenxAi_Solutions.Utils.Middleware.RequestLoggingMiddleware
+Message: HTTP POST /api/auth/getmenu -> 200 in 5305 ms | CorrelationId=a4bc76e0-04b2-4fd0-9da6-f78a959eb7c9 | Ip=::1 | User=suchita.gome@genxai.com | Headers=[Accept, */*], [Host, localhost:7282], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36], [Accept-Encoding, gzip, deflate, br, zstd], [Accept-Language, en-US,en;q=0.9], [Content-Type, application/json], [Origin, https://localhost:7282], [Referer, https://localhost:7282/Home/Index], [Content-Length, 13], [sec-ch-ua-platform, "Windows"], [X-Requested-With, XMLHttpRequest], [sec-ch-ua, "Google Chrome";v="141", "Not?A_Brand";v="8", "Chromium";v="141"], [sec-ch-ua-mobile, ?0], [sec-fetch-site, same-origin], [sec-fetch-mode, cors], [sec-fetch-dest, empty], [priority, u=1, i] | BodyPreview={"GroupId":2}
+--------------------------------------------------------------------------------
+[2025-10-14 17:09:57.671] [Information]
+Category: GenxAi_Solutions.Utils.Middleware.RequestLoggingMiddleware
+Message: HTTP GET /api/notifications/unread -> 200 in 5394 ms | CorrelationId=f157607c-a8f2-4ecf-ad77-ac55bc8bcafa | Ip=::1 | User=suchita.gome@genxai.com | Headers=[Accept, application/json], [Host, localhost:7282], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36], [Accept-Encoding, gzip, deflate, br, zstd], [Accept-Language, en-US,en;q=0.9], [Referer, https://localhost:7282/Home/Index], [sec-ch-ua-platform, "Windows"], [sec-ch-ua, "Google Chrome";v="141", "Not?A_Brand";v="8", "Chromium";v="141"], [sec-ch-ua-mobile, ?0], [sec-fetch-site, same-origin], [sec-fetch-mode, cors], [sec-fetch-dest, empty], [priority, u=1, i] | BodyPreview=
+------------------------------------------------------------
+[2025-10-14 17:09:57.672] [Information]
+Category: GenxAi_Solutions.Utils.Middleware.RequestLoggingMiddleware
+Message: HTTP GET /api/notifications/unread -> 200 in 5394 ms | CorrelationId=f157607c-a8f2-4ecf-ad77-ac55bc8bcafa | Ip=::1 | User=suchita.gome@genxai.com | Headers=[Accept, application/json], [Host, localhost:7282], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36], [Accept-Encoding, gzip, deflate, br, zstd], [Accept-Language, en-US,en;q=0.9], [Referer, https://localhost:7282/Home/Index], [sec-ch-ua-platform, "Windows"], [sec-ch-ua, "Google Chrome";v="141", "Not?A_Brand";v="8", "Chromium";v="141"], [sec-ch-ua-mobile, ?0], [sec-fetch-site, same-origin], [sec-fetch-mode, cors], [sec-fetch-dest, empty], [priority, u=1, i] | BodyPreview=
+--------------------------------------------------------------------------------
+[2025-10-14 17:10:11.679] [Information]
+Category: GenxAi_Solutions.Utils.Middleware.RequestLoggingMiddleware
+Message: HTTP GET /Screen/Add -> 200 in 9371 ms | CorrelationId=0cb5c07f-2f90-4f5e-b6aa-2d2f0824c9a6 | Ip=::1 | User=suchita.gome@genxai.com | Headers=[Accept, text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7], [Host, localhost:7282], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36], [Accept-Encoding, gzip, deflate, br, zstd], [Accept-Language, en-US,en;q=0.9], [Referer, https://localhost:7282/Home/Index], [Upgrade-Insecure-Requests, 1], [sec-ch-ua, "Google Chrome";v="141", "Not?A_Brand";v="8", "Chromium";v="141"], [sec-ch-ua-mobile, ?0], [sec-ch-ua-platform, "Windows"], [sec-fetch-site, same-origin], [sec-fetch-mode, navigate], [sec-fetch-user, ?1], [sec-fetch-dest, document], [priority, u=0, i] | BodyPreview=
+------------------------------------------------------------
+[2025-10-14 17:10:11.693] [Information]
+Category: GenxAi_Solutions.Utils.Middleware.RequestLoggingMiddleware
+Message: HTTP GET /Screen/Add -> 200 in 9371 ms | CorrelationId=0cb5c07f-2f90-4f5e-b6aa-2d2f0824c9a6 | Ip=::1 | User=suchita.gome@genxai.com | Headers=[Accept, text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7], [Host, localhost:7282], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36], [Accept-Encoding, gzip, deflate, br, zstd], [Accept-Language, en-US,en;q=0.9], [Referer, https://localhost:7282/Home/Index], [Upgrade-Insecure-Requests, 1], [sec-ch-ua, "Google Chrome";v="141", "Not?A_Brand";v="8", "Chromium";v="141"], [sec-ch-ua-mobile, ?0], [sec-ch-ua-platform, "Windows"], [sec-fetch-site, same-origin], [sec-fetch-mode, navigate], [sec-fetch-user, ?1], [sec-fetch-dest, document], [priority, u=0, i] | BodyPreview=
+--------------------------------------------------------------------------------
+[2025-10-14 17:10:11.757] [Information]
+Category: GenxAi_Solutions.Utils.Middleware.RequestLoggingMiddleware
+Message: HTTP GET /Screen/css/table-card.css -> 404 in 13 ms | CorrelationId=37b0ac45-4f4a-4b83-8f82-704d6e7b3e82 | Ip=::1 | User=suchita.gome@genxai.com | Headers=[Accept, text/css,*/*;q=0.1], [Host, localhost:7282], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36], [Accept-Encoding, gzip, deflate, br, zstd], [Accept-Language, en-US,en;q=0.9], [Referer, https://localhost:7282/Screen/Add], [sec-ch-ua-platform, "Windows"], [sec-ch-ua, "Google Chrome";v="141", "Not?A_Brand";v="8", "Chromium";v="141"], [sec-ch-ua-mobile, ?0], [sec-fetch-site, same-origin], [sec-fetch-mode, no-cors], [sec-fetch-dest, style], [priority, u=2] | BodyPreview=
+------------------------------------------------------------
+[2025-10-14 17:10:11.807] [Information]
+Category: GenxAi_Solutions.Utils.Middleware.RequestLoggingMiddleware
+Message: HTTP CONNECT /hubs/notifications?id=5ChbsY4GrHKdBG-qM97zPg -> 200 in 19202 ms | CorrelationId=49b6186a-a1fb-40a7-885e-dea19f6befac | Ip=::1 | User=suchita.gome@genxai.com | Headers=[Host, localhost:7282], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36], [Accept-Encoding, gzip, deflate, br, zstd], [Accept-Language, en-US,en;q=0.9], [Cache-Control, no-cache], [Origin, https://localhost:7282], [Pragma, no-cache], [Sec-WebSocket-Version, 13], [Sec-WebSocket-Extensions, permessage-deflate; client_max_window_bits] | BodyPreview=
+------------------------------------------------------------
+[2025-10-14 17:10:11.812] [Information]
+Category: GenxAi_Solutions.Utils.Middleware.RequestLoggingMiddleware
+Message: HTTP CONNECT /hubs/notifications?id=5ChbsY4GrHKdBG-qM97zPg -> 200 in 19202 ms | CorrelationId=49b6186a-a1fb-40a7-885e-dea19f6befac | Ip=::1 | User=suchita.gome@genxai.com | Headers=[Host, localhost:7282], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36], [Accept-Encoding, gzip, deflate, br, zstd], [Accept-Language, en-US,en;q=0.9], [Cache-Control, no-cache], [Origin, https://localhost:7282], [Pragma, no-cache], [Sec-WebSocket-Version, 13], [Sec-WebSocket-Extensions, permessage-deflate; client_max_window_bits] | BodyPreview=
+--------------------------------------------------------------------------------
+[2025-10-14 17:10:11.813] [Information]
+Category: GenxAi_Solutions.Utils.Middleware.RequestLoggingMiddleware
+Message: HTTP GET /Screen/css/table-card.css -> 404 in 13 ms | CorrelationId=37b0ac45-4f4a-4b83-8f82-704d6e7b3e82 | Ip=::1 | User=suchita.gome@genxai.com | Headers=[Accept, text/css,*/*;q=0.1], [Host, localhost:7282], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36], [Accept-Encoding, gzip, deflate, br, zstd], [Accept-Language, en-US,en;q=0.9], [Referer, https://localhost:7282/Screen/Add], [sec-ch-ua-platform, "Windows"], [sec-ch-ua, "Google Chrome";v="141", "Not?A_Brand";v="8", "Chromium";v="141"], [sec-ch-ua-mobile, ?0], [sec-fetch-site, same-origin], [sec-fetch-mode, no-cors], [sec-fetch-dest, style], [priority, u=2] | BodyPreview=
+--------------------------------------------------------------------------------
+[2025-10-14 17:10:11.947] [Information]
+Category: GenxAi_Solutions.Services.AuditLogger
+Message: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-14 17:10:11.948] [Information]
+Category: GenxAi_Solutions.Services.AuditLogger
+Message: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+--------------------------------------------------------------------------------
+[2025-10-14 17:10:12.015] [Information]
+Category: GenxAi_Solutions.Utils.Middleware.RequestLoggingMiddleware
+Message: HTTP POST /hubs/notifications/negotiate?negotiateVersion=1 -> 200 in 8 ms | CorrelationId=0e82df3a-4daa-4456-ab69-0ec05f4f150a | Ip=::1 | User=suchita.gome@genxai.com | Headers=[Accept, */*], [Host, localhost:7282], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36], [Accept-Encoding, gzip, deflate, br, zstd], [Accept-Language, en-US,en;q=0.9], [Cache-Control, max-age=0], [Origin, https://localhost:7282], [Referer, https://localhost:7282/Screen/Add], [Content-Length, 0], [sec-ch-ua-platform, "Windows"], [X-Requested-With, XMLHttpRequest], [sec-ch-ua, "Google Chrome";v="141", "Not?A_Brand";v="8", "Chromium";v="141"], [sec-ch-ua-mobile, ?0], [x-signalr-user-agent, Microsoft SignalR/7.0 (7.0.12; Unknown OS; Browser; Unknown Runtime Version)], [sec-fetch-site, same-origin], [sec-fetch-mode, cors], [sec-fetch-dest, empty], [priority, u=1, i] | BodyPreview=
+------------------------------------------------------------
+[2025-10-14 17:10:12.056] [Information]
+Category: GenxAi_Solutions.Utils.Middleware.RequestLoggingMiddleware
+Message: HTTP POST /hubs/notifications/negotiate?negotiateVersion=1 -> 200 in 8 ms | CorrelationId=0e82df3a-4daa-4456-ab69-0ec05f4f150a | Ip=::1 | User=suchita.gome@genxai.com | Headers=[Accept, */*], [Host, localhost:7282], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36], [Accept-Encoding, gzip, deflate, br, zstd], [Accept-Language, en-US,en;q=0.9], [Cache-Control, max-age=0], [Origin, https://localhost:7282], [Referer, https://localhost:7282/Screen/Add], [Content-Length, 0], [sec-ch-ua-platform, "Windows"], [X-Requested-With, XMLHttpRequest], [sec-ch-ua, "Google Chrome";v="141", "Not?A_Brand";v="8", "Chromium";v="141"], [sec-ch-ua-mobile, ?0], [x-signalr-user-agent, Microsoft SignalR/7.0 (7.0.12; Unknown OS; Browser; Unknown Runtime Version)], [sec-fetch-site, same-origin], [sec-fetch-mode, cors], [sec-fetch-dest, empty], [priority, u=1, i] | BodyPreview=
+--------------------------------------------------------------------------------
+[2025-10-14 17:10:12.056] [Information]
+Category: GenxAi_Solutions.Services.AuditLogger
+Message: GENERAL_AUDIT: Action: POST /api/auth/getmenu, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-14 17:10:12.123] [Information]
+Category: GenxAi_Solutions.Services.AuditLogger
+Message: GENERAL_AUDIT: Action: POST /api/auth/getmenu, User: anonymous, IP: ::1, Details: Sensitive action accessed
+--------------------------------------------------------------------------------
+[2025-10-14 17:10:16.828] [Information]
+Category: GenxAi_Solutions.Utils.Middleware.RequestLoggingMiddleware
+Message: HTTP GET /api/notifications/unread -> 200 in 4880 ms | CorrelationId=b8ed7409-26b3-4c37-a939-95834ff03c4a | Ip=::1 | User=suchita.gome@genxai.com | Headers=[Accept, application/json], [Host, localhost:7282], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36], [Accept-Encoding, gzip, deflate, br, zstd], [Accept-Language, en-US,en;q=0.9], [Referer, https://localhost:7282/Screen/Add], [sec-ch-ua-platform, "Windows"], [sec-ch-ua, "Google Chrome";v="141", "Not?A_Brand";v="8", "Chromium";v="141"], [sec-ch-ua-mobile, ?0], [sec-fetch-site, same-origin], [sec-fetch-mode, cors], [sec-fetch-dest, empty], [priority, u=1, i] | BodyPreview=
+------------------------------------------------------------
+[2025-10-14 17:10:16.830] [Information]
+Category: GenxAi_Solutions.Utils.Middleware.RequestLoggingMiddleware
+Message: HTTP GET /api/notifications/unread -> 200 in 4880 ms | CorrelationId=b8ed7409-26b3-4c37-a939-95834ff03c4a | Ip=::1 | User=suchita.gome@genxai.com | Headers=[Accept, application/json], [Host, localhost:7282], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36], [Accept-Encoding, gzip, deflate, br, zstd], [Accept-Language, en-US,en;q=0.9], [Referer, https://localhost:7282/Screen/Add], [sec-ch-ua-platform, "Windows"], [sec-ch-ua, "Google Chrome";v="141", "Not?A_Brand";v="8", "Chromium";v="141"], [sec-ch-ua-mobile, ?0], [sec-fetch-site, same-origin], [sec-fetch-mode, cors], [sec-fetch-dest, empty], [priority, u=1, i] | BodyPreview=
+--------------------------------------------------------------------------------
+[2025-10-14 17:10:16.876] [Information]
+Category: GenxAi_Solutions.Utils.Middleware.RequestLoggingMiddleware
+Message: HTTP POST /api/auth/getmenu -> 200 in 4913 ms | CorrelationId=4288e40e-e1e2-40df-9b99-6aaab3879d89 | Ip=::1 | User=suchita.gome@genxai.com | Headers=[Accept, */*], [Host, localhost:7282], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36], [Accept-Encoding, gzip, deflate, br, zstd], [Accept-Language, en-US,en;q=0.9], [Content-Type, application/json], [Origin, https://localhost:7282], [Referer, https://localhost:7282/Screen/Add], [Content-Length, 13], [sec-ch-ua-platform, "Windows"], [X-Requested-With, XMLHttpRequest], [sec-ch-ua, "Google Chrome";v="141", "Not?A_Brand";v="8", "Chromium";v="141"], [sec-ch-ua-mobile, ?0], [sec-fetch-site, same-origin], [sec-fetch-mode, cors], [sec-fetch-dest, empty], [priority, u=1, i] | BodyPreview={"GroupId":2}
+------------------------------------------------------------
+[2025-10-14 17:10:16.877] [Information]
+Category: GenxAi_Solutions.Utils.Middleware.RequestLoggingMiddleware
+Message: HTTP POST /api/auth/getmenu -> 200 in 4913 ms | CorrelationId=4288e40e-e1e2-40df-9b99-6aaab3879d89 | Ip=::1 | User=suchita.gome@genxai.com | Headers=[Accept, */*], [Host, localhost:7282], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36], [Accept-Encoding, gzip, deflate, br, zstd], [Accept-Language, en-US,en;q=0.9], [Content-Type, application/json], [Origin, https://localhost:7282], [Referer, https://localhost:7282/Screen/Add], [Content-Length, 13], [sec-ch-ua-platform, "Windows"], [X-Requested-With, XMLHttpRequest], [sec-ch-ua, "Google Chrome";v="141", "Not?A_Brand";v="8", "Chromium";v="141"], [sec-ch-ua-mobile, ?0], [sec-fetch-site, same-origin], [sec-fetch-mode, cors], [sec-fetch-dest, empty], [priority, u=1, i] | BodyPreview={"GroupId":2}
+--------------------------------------------------------------------------------
+[2025-10-14 17:10:34.085] [Information]
+Category: GenxAi_Solutions.Services.AuditLogger
+Message: GENERAL_AUDIT: Action: GET /api/auth/GetScreens, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-14 17:10:34.088] [Information]
+Category: GenxAi_Solutions.Services.AuditLogger
+Message: GENERAL_AUDIT: Action: GET /api/auth/GetScreens, User: anonymous, IP: ::1, Details: Sensitive action accessed
+--------------------------------------------------------------------------------
+[2025-10-14 17:10:38.735] [Information]
+Category: GenxAi_Solutions.Utils.Middleware.RequestLoggingMiddleware
+Message: HTTP GET /api/auth/GetScreens -> 200 in 4648 ms | CorrelationId=f529925c-3927-4b16-8166-b0cd34cfb404 | Ip=::1 | User=suchita.gome@genxai.com | Headers=[Accept, */*], [Host, localhost:7282], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36], [Accept-Encoding, gzip, deflate, br, zstd], [Accept-Language, en-US,en;q=0.9], [Referer, https://localhost:7282/Screen/Add], [sec-ch-ua-platform, "Windows"], [X-Requested-With, XMLHttpRequest], [sec-ch-ua, "Google Chrome";v="141", "Not?A_Brand";v="8", "Chromium";v="141"], [sec-ch-ua-mobile, ?0], [sec-fetch-site, same-origin], [sec-fetch-mode, cors], [sec-fetch-dest, empty], [priority, u=1, i] | BodyPreview=
+------------------------------------------------------------
+[2025-10-14 17:10:38.736] [Information]
+Category: GenxAi_Solutions.Utils.Middleware.RequestLoggingMiddleware
+Message: HTTP GET /api/auth/GetScreens -> 200 in 4648 ms | CorrelationId=f529925c-3927-4b16-8166-b0cd34cfb404 | Ip=::1 | User=suchita.gome@genxai.com | Headers=[Accept, */*], [Host, localhost:7282], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36], [Accept-Encoding, gzip, deflate, br, zstd], [Accept-Language, en-US,en;q=0.9], [Referer, https://localhost:7282/Screen/Add], [sec-ch-ua-platform, "Windows"], [X-Requested-With, XMLHttpRequest], [sec-ch-ua, "Google Chrome";v="141", "Not?A_Brand";v="8", "Chromium";v="141"], [sec-ch-ua-mobile, ?0], [sec-fetch-site, same-origin], [sec-fetch-mode, cors], [sec-fetch-dest, empty], [priority, u=1, i] | BodyPreview=
+--------------------------------------------------------------------------------
+[2025-10-14 17:13:10.747] [Information]
+Category: GenxAi_Solutions.Services.Background.QueuedWorker
+Message: QueuedWorker started.
+------------------------------------------------------------
+[2025-10-14 17:13:10.750] [Information]
+Category: GenxAi_Solutions.Services.Background.QueuedWorker
+Message: QueuedWorker started.
+--------------------------------------------------------------------------------
+[2025-10-14 17:13:10.896] [Information]
+Category: Microsoft.Hosting.Lifetime
+Message: Now listening on: https://localhost:7282
+------------------------------------------------------------
+[2025-10-14 17:13:10.896] [Information]
+Category: Microsoft.Hosting.Lifetime
+Message: Now listening on: https://localhost:7282
+--------------------------------------------------------------------------------
+[2025-10-14 17:13:10.899] [Information]
+Category: Microsoft.Hosting.Lifetime
+Message: Now listening on: http://localhost:5072
+------------------------------------------------------------
+[2025-10-14 17:13:10.899] [Information]
+Category: Microsoft.Hosting.Lifetime
+Message: Now listening on: http://localhost:5072
+--------------------------------------------------------------------------------
+[2025-10-14 17:13:10.972] [Information]
+Category: Microsoft.Hosting.Lifetime
+Message: Application started. Press Ctrl+C to shut down.
+------------------------------------------------------------
+[2025-10-14 17:13:10.972] [Information]
+Category: Microsoft.Hosting.Lifetime
+Message: Application started. Press Ctrl+C to shut down.
+--------------------------------------------------------------------------------
+[2025-10-14 17:13:10.975] [Information]
+Category: Microsoft.Hosting.Lifetime
+Message: Hosting environment: Development
+------------------------------------------------------------
+[2025-10-14 17:13:10.975] [Information]
+Category: Microsoft.Hosting.Lifetime
+Message: Hosting environment: Development
+--------------------------------------------------------------------------------
+[2025-10-14 17:13:10.978] [Information]
+Category: Microsoft.Hosting.Lifetime
+Message: Content root path: D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions
+------------------------------------------------------------
+[2025-10-14 17:13:10.978] [Information]
+Category: Microsoft.Hosting.Lifetime
+Message: Content root path: D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions
+--------------------------------------------------------------------------------
+[2025-10-14 17:13:11.845] [Information]
+Category: GenxAi_Solutions.Utils.Middleware.RequestLoggingMiddleware
+Message: HTTP GET / -> 200 in 267 ms | CorrelationId=4a1b4905-559a-4cc9-87e5-51c61a90d4c2 | Ip=::1 | User=suchita.gome@genxai.com | Headers=[Accept, text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7], [Host, localhost:7282], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36], [Accept-Encoding, gzip, deflate, br, zstd], [Accept-Language, en-US,en;q=0.9], [Upgrade-Insecure-Requests, 1], [sec-ch-ua, "Google Chrome";v="141", "Not?A_Brand";v="8", "Chromium";v="141"], [sec-ch-ua-mobile, ?0], [sec-ch-ua-platform, "Windows"], [sec-fetch-site, none], [sec-fetch-mode, navigate], [sec-fetch-user, ?1], [sec-fetch-dest, document], [priority, u=0, i] | BodyPreview=
+------------------------------------------------------------
+[2025-10-14 17:13:11.846] [Information]
+Category: GenxAi_Solutions.Utils.Middleware.RequestLoggingMiddleware
+Message: HTTP GET / -> 200 in 267 ms | CorrelationId=4a1b4905-559a-4cc9-87e5-51c61a90d4c2 | Ip=::1 | User=suchita.gome@genxai.com | Headers=[Accept, text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7], [Host, localhost:7282], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36], [Accept-Encoding, gzip, deflate, br, zstd], [Accept-Language, en-US,en;q=0.9], [Upgrade-Insecure-Requests, 1], [sec-ch-ua, "Google Chrome";v="141", "Not?A_Brand";v="8", "Chromium";v="141"], [sec-ch-ua-mobile, ?0], [sec-ch-ua-platform, "Windows"], [sec-fetch-site, none], [sec-fetch-mode, navigate], [sec-fetch-user, ?1], [sec-fetch-dest, document], [priority, u=0, i] | BodyPreview=
+--------------------------------------------------------------------------------
+[2025-10-14 17:14:25.803] [Information]
+Category: GenxAi_Solutions.Services.Background.QueuedWorker
+Message: QueuedWorker started.
+------------------------------------------------------------
+[2025-10-14 17:14:25.806] [Information]
+Category: GenxAi_Solutions.Services.Background.QueuedWorker
+Message: QueuedWorker started.
+--------------------------------------------------------------------------------
+[2025-10-14 17:14:25.980] [Information]
+Category: Microsoft.Hosting.Lifetime
+Message: Now listening on: https://localhost:7282
+------------------------------------------------------------
+[2025-10-14 17:14:25.980] [Information]
+Category: Microsoft.Hosting.Lifetime
+Message: Now listening on: https://localhost:7282
+--------------------------------------------------------------------------------
+[2025-10-14 17:14:25.983] [Information]
+Category: Microsoft.Hosting.Lifetime
+Message: Now listening on: http://localhost:5072
+------------------------------------------------------------
+[2025-10-14 17:14:25.983] [Information]
+Category: Microsoft.Hosting.Lifetime
+Message: Now listening on: http://localhost:5072
+--------------------------------------------------------------------------------
+[2025-10-14 17:14:26.059] [Information]
+Category: Microsoft.Hosting.Lifetime
+Message: Application started. Press Ctrl+C to shut down.
+------------------------------------------------------------
+[2025-10-14 17:14:26.059] [Information]
+Category: Microsoft.Hosting.Lifetime
+Message: Application started. Press Ctrl+C to shut down.
+--------------------------------------------------------------------------------
+[2025-10-14 17:14:26.062] [Information]
+Category: Microsoft.Hosting.Lifetime
+Message: Hosting environment: Development
+------------------------------------------------------------
+[2025-10-14 17:14:26.063] [Information]
+Category: Microsoft.Hosting.Lifetime
+Message: Hosting environment: Development
+--------------------------------------------------------------------------------
+[2025-10-14 17:14:26.065] [Information]
+Category: Microsoft.Hosting.Lifetime
+Message: Content root path: D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions
+------------------------------------------------------------
+[2025-10-14 17:14:26.065] [Information]
+Category: Microsoft.Hosting.Lifetime
+Message: Content root path: D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions
+--------------------------------------------------------------------------------
+[2025-10-14 17:14:48.126] [Information]
+Category: GenxAi_Solutions.Services.AuditLogger
+Message: GENERAL_AUDIT: Action: POST /api/auth/login, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-14 17:14:48.130] [Information]
+Category: GenxAi_Solutions.Services.AuditLogger
+Message: GENERAL_AUDIT: Action: POST /api/auth/login, User: anonymous, IP: ::1, Details: Sensitive action accessed
+--------------------------------------------------------------------------------
+[2025-10-14 17:14:53.444] [Information]
+Category: GenxAi_Solutions.Services.AuditLogger
+Message: USER_LOGIN: User: admin@acgindia.co.in, IP: ::1, Status: SUCCESS
+------------------------------------------------------------
+[2025-10-14 17:14:53.445] [Information]
+Category: GenxAi_Solutions.Services.AuditLogger
+Message: USER_LOGIN: User: admin@acgindia.co.in, IP: ::1, Status: SUCCESS
+--------------------------------------------------------------------------------
+[2025-10-14 17:14:53.621] [Information]
+Category: GenxAi_Solutions.Services.AuditLogger
+Message: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-14 17:14:53.622] [Information]
+Category: GenxAi_Solutions.Services.AuditLogger
+Message: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+--------------------------------------------------------------------------------
+[2025-10-14 17:14:53.741] [Information]
+Category: GenxAi_Solutions.Services.AuditLogger
+Message: GENERAL_AUDIT: Action: POST /api/auth/getmenu, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-14 17:14:53.742] [Information]
+Category: GenxAi_Solutions.Services.AuditLogger
+Message: GENERAL_AUDIT: Action: POST /api/auth/getmenu, User: anonymous, IP: ::1, Details: Sensitive action accessed
+--------------------------------------------------------------------------------
+[2025-10-14 17:14:53.747] [Information]
+Category: GenxAi_Solutions.Services.AuditLogger
+Message: GENERAL_AUDIT: Action: GET /api/CompanyOnboard/History/me, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-14 17:14:53.747] [Information]
+Category: GenxAi_Solutions.Services.AuditLogger
+Message: GENERAL_AUDIT: Action: GET /api/CompanyOnboard/History/me, User: anonymous, IP: ::1, Details: Sensitive action accessed
+--------------------------------------------------------------------------------
+[2025-10-14 17:15:02.316] [Information]
+Category: GenxAi_Solutions.Services.AuditLogger
+Message: GENERAL_AUDIT: Action: POST /api/CompanyOnboard/Start1, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-14 17:15:02.317] [Information]
+Category: GenxAi_Solutions.Services.AuditLogger
+Message: GENERAL_AUDIT: Action: POST /api/CompanyOnboard/Start1, User: anonymous, IP: ::1, Details: Sensitive action accessed
+--------------------------------------------------------------------------------
+[2025-10-14 17:15:11.647] [Information]
+Category: GenxAi_Solutions.Services.AuditLogger
+Message: GENERAL_AUDIT: Action: GET /api/CompanyOnboard/History/me, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-14 17:15:11.648] [Information]
+Category: GenxAi_Solutions.Services.AuditLogger
+Message: GENERAL_AUDIT: Action: GET /api/CompanyOnboard/History/me, User: anonymous, IP: ::1, Details: Sensitive action accessed
+--------------------------------------------------------------------------------
+[2025-10-14 17:15:51.225] [Information]
+Category: GenxAi_Solutions.Services.AuditLogger
+Message: GENERAL_AUDIT: Action: POST /api/CompanyOnboard/Ask2, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-14 17:15:51.225] [Information]
+Category: GenxAi_Solutions.Services.AuditLogger
+Message: GENERAL_AUDIT: Action: POST /api/CompanyOnboard/Ask2, User: anonymous, IP: ::1, Details: Sensitive action accessed
+--------------------------------------------------------------------------------
+[2025-10-14 17:38:14.544] [Information]
+Category: GenxAi_Solutions.Services.Background.QueuedWorker
+Message: QueuedWorker started.
+------------------------------------------------------------
+[2025-10-14 17:38:14.558] [Information]
+Category: GenxAi_Solutions.Services.Background.QueuedWorker
+Message: QueuedWorker started.
+--------------------------------------------------------------------------------
+[2025-10-14 17:38:14.731] [Information]
+Category: Microsoft.Hosting.Lifetime
+Message: Now listening on: https://localhost:7282
+------------------------------------------------------------
+[2025-10-14 17:38:14.732] [Information]
+Category: Microsoft.Hosting.Lifetime
+Message: Now listening on: https://localhost:7282
+--------------------------------------------------------------------------------
+[2025-10-14 17:38:14.735] [Information]
+Category: Microsoft.Hosting.Lifetime
+Message: Now listening on: http://localhost:5072
+------------------------------------------------------------
+[2025-10-14 17:38:14.735] [Information]
+Category: Microsoft.Hosting.Lifetime
+Message: Now listening on: http://localhost:5072
+--------------------------------------------------------------------------------
+[2025-10-14 17:38:14.824] [Information]
+Category: Microsoft.Hosting.Lifetime
+Message: Application started. Press Ctrl+C to shut down.
+------------------------------------------------------------
+[2025-10-14 17:38:14.825] [Information]
+Category: Microsoft.Hosting.Lifetime
+Message: Application started. Press Ctrl+C to shut down.
+--------------------------------------------------------------------------------
+[2025-10-14 17:38:14.828] [Information]
+Category: Microsoft.Hosting.Lifetime
+Message: Hosting environment: Development
+------------------------------------------------------------
+[2025-10-14 17:38:14.829] [Information]
+Category: Microsoft.Hosting.Lifetime
+Message: Hosting environment: Development
+--------------------------------------------------------------------------------
+[2025-10-14 17:38:14.832] [Information]
+Category: Microsoft.Hosting.Lifetime
+Message: Content root path: D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions
+------------------------------------------------------------
+[2025-10-14 17:38:14.832] [Information]
+Category: Microsoft.Hosting.Lifetime
+Message: Content root path: D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions
+--------------------------------------------------------------------------------
+[2025-10-14 17:38:31.415] [Information]
+Category: GenxAi_Solutions.Services.AuditLogger
+Message: GENERAL_AUDIT: Action: POST /api/auth/login, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-14 17:38:31.416] [Information]
+Category: GenxAi_Solutions.Services.AuditLogger
+Message: GENERAL_AUDIT: Action: POST /api/auth/login, User: anonymous, IP: ::1, Details: Sensitive action accessed
+--------------------------------------------------------------------------------
+[2025-10-14 17:38:37.269] [Information]
+Category: GenxAi_Solutions.Services.AuditLogger
+Message: USER_LOGIN: User: nidhi.lad@genxai.com, IP: ::1, Status: SUCCESS
+------------------------------------------------------------
+[2025-10-14 17:38:37.270] [Information]
+Category: GenxAi_Solutions.Services.AuditLogger
+Message: USER_LOGIN: User: nidhi.lad@genxai.com, IP: ::1, Status: SUCCESS
+--------------------------------------------------------------------------------
+[2025-10-14 17:38:44.353] [Information]
+Category: GenxAi_Solutions.Services.AuditLogger
+Message: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-14 17:38:44.353] [Information]
+Category: GenxAi_Solutions.Services.AuditLogger
+Message: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+--------------------------------------------------------------------------------
+[2025-10-14 17:38:44.435] [Information]
+Category: GenxAi_Solutions.Services.AuditLogger
+Message: GENERAL_AUDIT: Action: GET /api/CompanyOnboard/History/me, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-14 17:38:44.441] [Information]
+Category: GenxAi_Solutions.Services.AuditLogger
+Message: GENERAL_AUDIT: Action: GET /api/CompanyOnboard/History/me, User: anonymous, IP: ::1, Details: Sensitive action accessed
+--------------------------------------------------------------------------------
+[2025-10-14 17:38:44.446] [Information]
+Category: GenxAi_Solutions.Services.AuditLogger
+Message: GENERAL_AUDIT: Action: POST /api/auth/getmenu, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-14 17:38:44.447] [Information]
+Category: GenxAi_Solutions.Services.AuditLogger
+Message: GENERAL_AUDIT: Action: POST /api/auth/getmenu, User: anonymous, IP: ::1, Details: Sensitive action accessed
+--------------------------------------------------------------------------------
+[2025-10-14 17:39:11.993] [Information]
+Category: GenxAi_Solutions.Services.AuditLogger
+Message: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-14 17:39:12.004] [Information]
+Category: GenxAi_Solutions.Services.AuditLogger
+Message: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+--------------------------------------------------------------------------------
+[2025-10-14 17:41:00.706] [Information]
+Category: GenxAi_Solutions.Services.AuditLogger
+Message: GENERAL_AUDIT: Action: GET /api/CompanyOnboard/History/me, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-14 17:41:00.707] [Information]
+Category: GenxAi_Solutions.Services.AuditLogger
+Message: GENERAL_AUDIT: Action: GET /api/CompanyOnboard/History/me, User: anonymous, IP: ::1, Details: Sensitive action accessed
+--------------------------------------------------------------------------------
+[2025-10-14 17:41:35.528] [Information]
+Category: GenxAi_Solutions.Services.AuditLogger
+Message: GENERAL_AUDIT: Action: POST /api/auth/getmenu, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-14 17:41:35.529] [Information]
+Category: GenxAi_Solutions.Services.AuditLogger
+Message: GENERAL_AUDIT: Action: POST /api/auth/getmenu, User: anonymous, IP: ::1, Details: Sensitive action accessed
+--------------------------------------------------------------------------------
+[2025-10-14 17:42:06.372] [Information]
+Category: GenxAi_Solutions.Services.AuditLogger
+Message: GENERAL_AUDIT: Action: POST /api/auth/login, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-14 17:42:06.378] [Information]
+Category: GenxAi_Solutions.Services.AuditLogger
+Message: GENERAL_AUDIT: Action: POST /api/auth/login, User: anonymous, IP: ::1, Details: Sensitive action accessed
+--------------------------------------------------------------------------------
+[2025-10-14 17:42:11.383] [Information]
+Category: GenxAi_Solutions.Services.AuditLogger
+Message: USER_LOGIN: User: nidhi.lad@genxai.com, IP: ::1, Status: SUCCESS
+------------------------------------------------------------
+[2025-10-14 17:42:11.385] [Information]
+Category: GenxAi_Solutions.Services.AuditLogger
+Message: USER_LOGIN: User: nidhi.lad@genxai.com, IP: ::1, Status: SUCCESS
+--------------------------------------------------------------------------------
+[2025-10-14 17:42:25.118] [Information]
+Category: GenxAi_Solutions.Services.AuditLogger
+Message: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-14 17:42:25.119] [Information]
+Category: GenxAi_Solutions.Services.AuditLogger
+Message: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+--------------------------------------------------------------------------------
+[2025-10-14 17:46:25.456] [Information]
+Category: GenxAi_Solutions.Services.AuditLogger
+Message: GENERAL_AUDIT: Action: GET /api/CompanyOnboard/History/me, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-14 17:46:25.457] [Information]
+Category: GenxAi_Solutions.Services.AuditLogger
+Message: GENERAL_AUDIT: Action: GET /api/CompanyOnboard/History/me, User: anonymous, IP: ::1, Details: Sensitive action accessed
+--------------------------------------------------------------------------------
+[2025-10-14 17:47:51.991] [Information]
+Category: GenxAi_Solutions.Services.AuditLogger
+Message: GENERAL_AUDIT: Action: POST /api/auth/getmenu, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-14 17:47:51.998] [Information]
+Category: GenxAi_Solutions.Services.AuditLogger
+Message: GENERAL_AUDIT: Action: POST /api/auth/getmenu, User: anonymous, IP: ::1, Details: Sensitive action accessed
+--------------------------------------------------------------------------------
+[2025-10-14 17:59:22.894] [Information]
+Category: GenxAi_Solutions.Services.Background.QueuedWorker
+Message: QueuedWorker started.
+------------------------------------------------------------
+[2025-10-14 17:59:22.898] [Information]
+Category: GenxAi_Solutions.Services.Background.QueuedWorker
+Message: QueuedWorker started.
+--------------------------------------------------------------------------------
+[2025-10-14 17:59:23.136] [Information]
+Category: Microsoft.Hosting.Lifetime
+Message: Now listening on: https://localhost:7282
+------------------------------------------------------------
+[2025-10-14 17:59:23.136] [Information]
+Category: Microsoft.Hosting.Lifetime
+Message: Now listening on: https://localhost:7282
+--------------------------------------------------------------------------------
+[2025-10-14 17:59:23.165] [Information]
+Category: Microsoft.Hosting.Lifetime
+Message: Now listening on: http://localhost:5072
+------------------------------------------------------------
+[2025-10-14 17:59:23.166] [Information]
+Category: Microsoft.Hosting.Lifetime
+Message: Now listening on: http://localhost:5072
+--------------------------------------------------------------------------------
+[2025-10-14 17:59:23.239] [Information]
+Category: Microsoft.Hosting.Lifetime
+Message: Application started. Press Ctrl+C to shut down.
+------------------------------------------------------------
+[2025-10-14 17:59:23.239] [Information]
+Category: Microsoft.Hosting.Lifetime
+Message: Application started. Press Ctrl+C to shut down.
+--------------------------------------------------------------------------------
+[2025-10-14 17:59:23.244] [Information]
+Category: Microsoft.Hosting.Lifetime
+Message: Hosting environment: Development
+------------------------------------------------------------
+[2025-10-14 17:59:23.244] [Information]
+Category: Microsoft.Hosting.Lifetime
+Message: Hosting environment: Development
+--------------------------------------------------------------------------------
+[2025-10-14 17:59:23.248] [Information]
+Category: Microsoft.Hosting.Lifetime
+Message: Content root path: D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions
+------------------------------------------------------------
+[2025-10-14 17:59:23.249] [Information]
+Category: Microsoft.Hosting.Lifetime
+Message: Content root path: D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions
+--------------------------------------------------------------------------------
+[2025-10-14 17:59:36.625] [Information]
+Category: GenxAi_Solutions.Services.AuditLogger
+Message: GENERAL_AUDIT: Action: POST /api/auth/login, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-14 17:59:36.626] [Information]
+Category: GenxAi_Solutions.Services.AuditLogger
+Message: GENERAL_AUDIT: Action: POST /api/auth/login, User: anonymous, IP: ::1, Details: Sensitive action accessed
+--------------------------------------------------------------------------------
+[2025-10-14 17:59:42.498] [Information]
+Category: GenxAi_Solutions.Services.AuditLogger
+Message: USER_LOGIN: User: nidhi.lad@genxai.com, IP: ::1, Status: SUCCESS
+------------------------------------------------------------
+[2025-10-14 17:59:42.499] [Information]
+Category: GenxAi_Solutions.Services.AuditLogger
+Message: USER_LOGIN: User: nidhi.lad@genxai.com, IP: ::1, Status: SUCCESS
+--------------------------------------------------------------------------------
+[2025-10-14 17:59:42.810] [Information]
+Category: GenxAi_Solutions.Services.AuditLogger
+Message: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-14 17:59:42.812] [Information]
+Category: GenxAi_Solutions.Services.AuditLogger
+Message: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+--------------------------------------------------------------------------------
+[2025-10-14 17:59:42.886] [Information]
+Category: GenxAi_Solutions.Services.AuditLogger
+Message: GENERAL_AUDIT: Action: GET /api/CompanyOnboard/History/me, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-14 17:59:42.897] [Information]
+Category: GenxAi_Solutions.Services.AuditLogger
+Message: GENERAL_AUDIT: Action: GET /api/CompanyOnboard/History/me, User: anonymous, IP: ::1, Details: Sensitive action accessed
+--------------------------------------------------------------------------------
+[2025-10-14 17:59:42.896] [Information]
+Category: GenxAi_Solutions.Services.AuditLogger
+Message: GENERAL_AUDIT: Action: POST /api/auth/getmenu, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-14 17:59:42.899] [Information]
+Category: GenxAi_Solutions.Services.AuditLogger
+Message: GENERAL_AUDIT: Action: POST /api/auth/getmenu, User: anonymous, IP: ::1, Details: Sensitive action accessed
+--------------------------------------------------------------------------------
+[2025-10-14 18:00:33.141] [Information]
+Category: GenxAi_Solutions.Services.AuditLogger
+Message: GENERAL_AUDIT: Action: POST /api/CompanyOnboard/Ask2, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-14 18:00:33.142] [Information]
+Category: GenxAi_Solutions.Services.AuditLogger
+Message: GENERAL_AUDIT: Action: POST /api/CompanyOnboard/Ask2, User: anonymous, IP: ::1, Details: Sensitive action accessed
+--------------------------------------------------------------------------------
+[2025-10-14 18:06:36.451] [Information]
+Category: GenxAi_Solutions.Services.AuditLogger
+Message: GENERAL_AUDIT: Action: POST /api/CompanyOnboard/Ask2, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-14 18:06:36.457] [Information]
+Category: GenxAi_Solutions.Services.AuditLogger
+Message: GENERAL_AUDIT: Action: POST /api/CompanyOnboard/Ask2, User: anonymous, IP: ::1, Details: Sensitive action accessed
+--------------------------------------------------------------------------------

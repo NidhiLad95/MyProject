@@ -1,0 +1,612 @@
+﻿[2025-11-05 10:09:41.025] [Error]
+Category: GenxAi_Solutions.Services.AuthEventsService
+Message: JWT authentication failed on /api/auth/login
+Exception Type: Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException
+Exception Message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '04-11-2025 01:04:18 PM', Current time (UTC): '05-11-2025 04:39:41 AM'.
+Stack Trace:    at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+--------------------------------------------------------------------------------
+[2025-11-05 10:09:41.075] [Error]
+Category: GenxAi_Solutions.Services.AuthEventsService
+Message: JWT authentication failed on /api/auth/login
+Exception Type: Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException
+Exception Message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '04-11-2025 01:04:18 PM', Current time (UTC): '05-11-2025 04:39:41 AM'.
+Stack Trace:    at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+--------------------------------------------------------------------------------
+[2025-11-05 11:20:40.539] [Error]
+Category: GenxAi_Solutions.Services.AuthEventsService
+Message: JWT authentication failed on /api/auth/login
+Exception Type: Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException
+Exception Message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '04-11-2025 01:04:18 PM', Current time (UTC): '05-11-2025 05:50:40 AM'.
+Stack Trace:    at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+--------------------------------------------------------------------------------
+[2025-11-05 11:20:40.570] [Error]
+Category: GenxAi_Solutions.Services.AuthEventsService
+Message: JWT authentication failed on /api/auth/login
+Exception Type: Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException
+Exception Message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '04-11-2025 01:04:18 PM', Current time (UTC): '05-11-2025 05:50:40 AM'.
+Stack Trace:    at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+--------------------------------------------------------------------------------
+[2025-11-05 12:06:03.909] [Error]
+Category: GenxAi_Solutions.Services.AuthEventsService
+Message: JWT authentication failed on /hubs/notifications/negotiate
+Exception Type: Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException
+Exception Message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '05-11-2025 06:05:51 AM', Current time (UTC): '05-11-2025 06:36:03 AM'.
+Stack Trace:    at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+--------------------------------------------------------------------------------
+[2025-11-05 12:06:03.942] [Error]
+Category: GenxAi_Solutions.Services.AuthEventsService
+Message: JWT authentication failed on /hubs/notifications/negotiate
+Exception Type: Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException
+Exception Message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '05-11-2025 06:05:51 AM', Current time (UTC): '05-11-2025 06:36:03 AM'.
+Stack Trace:    at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+--------------------------------------------------------------------------------
+[2025-11-05 12:06:03.949] [Error]
+Category: GenxAi_Solutions.Services.AuthEventsService
+Message: JWT authentication failed on /hubs/notifications
+Exception Type: Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException
+Exception Message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '05-11-2025 06:05:51 AM', Current time (UTC): '05-11-2025 06:36:03 AM'.
+Stack Trace:    at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+--------------------------------------------------------------------------------
+[2025-11-05 12:06:03.950] [Error]
+Category: GenxAi_Solutions.Services.AuthEventsService
+Message: JWT authentication failed on /hubs/notifications
+Exception Type: Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException
+Exception Message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '05-11-2025 06:05:51 AM', Current time (UTC): '05-11-2025 06:36:03 AM'.
+Stack Trace:    at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+--------------------------------------------------------------------------------
+[2025-11-05 12:53:10.191] [Error]
+Category: GenxAi_Solutions.Services.AuthEventsService
+Message: JWT authentication failed on /api/auth/login
+Exception Type: Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException
+Exception Message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '05-11-2025 06:05:51 AM', Current time (UTC): '05-11-2025 07:23:10 AM'.
+Stack Trace:    at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+--------------------------------------------------------------------------------
+[2025-11-05 12:53:10.233] [Error]
+Category: GenxAi_Solutions.Services.AuthEventsService
+Message: JWT authentication failed on /api/auth/login
+Exception Type: Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException
+Exception Message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '05-11-2025 06:05:51 AM', Current time (UTC): '05-11-2025 07:23:10 AM'.
+Stack Trace:    at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+--------------------------------------------------------------------------------
+[2025-11-05 13:32:05.603] [Error]
+Category: GenxAi_Solutions.Services.AuthEventsService
+Message: JWT authentication failed on /hubs/notifications/negotiate
+Exception Type: Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException
+Exception Message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '05-11-2025 07:41:31 AM', Current time (UTC): '05-11-2025 08:02:05 AM'.
+Stack Trace:    at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+--------------------------------------------------------------------------------
+[2025-11-05 13:32:05.631] [Error]
+Category: GenxAi_Solutions.Services.AuthEventsService
+Message: JWT authentication failed on /hubs/notifications/negotiate
+Exception Type: Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException
+Exception Message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '05-11-2025 07:41:31 AM', Current time (UTC): '05-11-2025 08:02:05 AM'.
+Stack Trace:    at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+--------------------------------------------------------------------------------
+[2025-11-05 13:32:05.642] [Error]
+Category: GenxAi_Solutions.Services.AuthEventsService
+Message: JWT authentication failed on /hubs/notifications
+Exception Type: Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException
+Exception Message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '05-11-2025 07:41:31 AM', Current time (UTC): '05-11-2025 08:02:05 AM'.
+Stack Trace:    at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+--------------------------------------------------------------------------------
+[2025-11-05 13:32:05.643] [Error]
+Category: GenxAi_Solutions.Services.AuthEventsService
+Message: JWT authentication failed on /hubs/notifications
+Exception Type: Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException
+Exception Message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '05-11-2025 07:41:31 AM', Current time (UTC): '05-11-2025 08:02:05 AM'.
+Stack Trace:    at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+--------------------------------------------------------------------------------
+[2025-11-05 13:33:09.789] [Error]
+Category: GenxAi_Solutions.Services.AuthEventsService
+Message: JWT authentication failed on /hubs/notifications/negotiate
+Exception Type: Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException
+Exception Message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '05-11-2025 07:41:31 AM', Current time (UTC): '05-11-2025 08:03:09 AM'.
+Stack Trace:    at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+--------------------------------------------------------------------------------
+[2025-11-05 13:33:09.790] [Error]
+Category: GenxAi_Solutions.Services.AuthEventsService
+Message: JWT authentication failed on /hubs/notifications/negotiate
+Exception Type: Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException
+Exception Message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '05-11-2025 07:41:31 AM', Current time (UTC): '05-11-2025 08:03:09 AM'.
+Stack Trace:    at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+--------------------------------------------------------------------------------
+[2025-11-05 13:33:09.800] [Error]
+Category: GenxAi_Solutions.Services.AuthEventsService
+Message: JWT authentication failed on /hubs/notifications
+Exception Type: Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException
+Exception Message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '05-11-2025 07:41:31 AM', Current time (UTC): '05-11-2025 08:03:09 AM'.
+Stack Trace:    at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+--------------------------------------------------------------------------------
+[2025-11-05 13:33:09.801] [Error]
+Category: GenxAi_Solutions.Services.AuthEventsService
+Message: JWT authentication failed on /hubs/notifications
+Exception Type: Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException
+Exception Message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '05-11-2025 07:41:31 AM', Current time (UTC): '05-11-2025 08:03:09 AM'.
+Stack Trace:    at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+--------------------------------------------------------------------------------
+[2025-11-05 14:18:18.675] [Error]
+Category: GenxAi_Solutions.Services.AuthEventsService
+Message: JWT authentication failed on /hubs/notifications/negotiate
+Exception Type: Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException
+Exception Message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '05-11-2025 07:41:31 AM', Current time (UTC): '05-11-2025 08:48:18 AM'.
+Stack Trace:    at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+--------------------------------------------------------------------------------
+[2025-11-05 14:18:18.676] [Error]
+Category: GenxAi_Solutions.Services.AuthEventsService
+Message: JWT authentication failed on /hubs/notifications/negotiate
+Exception Type: Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException
+Exception Message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '05-11-2025 07:41:31 AM', Current time (UTC): '05-11-2025 08:48:18 AM'.
+Stack Trace:    at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+--------------------------------------------------------------------------------
+[2025-11-05 14:18:19.740] [Error]
+Category: GenxAi_Solutions.Services.AuthEventsService
+Message: JWT authentication failed on /hubs/notifications
+Exception Type: Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException
+Exception Message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '05-11-2025 07:41:31 AM', Current time (UTC): '05-11-2025 08:48:19 AM'.
+Stack Trace:    at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+--------------------------------------------------------------------------------
+[2025-11-05 14:18:19.742] [Error]
+Category: GenxAi_Solutions.Services.AuthEventsService
+Message: JWT authentication failed on /hubs/notifications
+Exception Type: Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException
+Exception Message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '05-11-2025 07:41:31 AM', Current time (UTC): '05-11-2025 08:48:19 AM'.
+Stack Trace:    at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+--------------------------------------------------------------------------------
+[2025-11-05 14:27:50.230] [Error]
+Category: GenxAi_Solutions.Services.AuthEventsService
+Message: JWT authentication failed on /hubs/notifications/negotiate
+Exception Type: Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException
+Exception Message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '05-11-2025 07:41:31 AM', Current time (UTC): '05-11-2025 08:57:50 AM'.
+Stack Trace:    at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+--------------------------------------------------------------------------------
+[2025-11-05 14:27:50.236] [Error]
+Category: GenxAi_Solutions.Services.AuthEventsService
+Message: JWT authentication failed on /hubs/notifications/negotiate
+Exception Type: Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException
+Exception Message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '05-11-2025 07:41:31 AM', Current time (UTC): '05-11-2025 08:57:50 AM'.
+Stack Trace:    at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+--------------------------------------------------------------------------------
+[2025-11-05 14:27:50.323] [Error]
+Category: GenxAi_Solutions.Services.AuthEventsService
+Message: JWT authentication failed on /hubs/notifications
+Exception Type: Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException
+Exception Message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '05-11-2025 07:41:31 AM', Current time (UTC): '05-11-2025 08:57:50 AM'.
+Stack Trace:    at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+--------------------------------------------------------------------------------
+[2025-11-05 14:27:50.324] [Error]
+Category: GenxAi_Solutions.Services.AuthEventsService
+Message: JWT authentication failed on /hubs/notifications
+Exception Type: Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException
+Exception Message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '05-11-2025 07:41:31 AM', Current time (UTC): '05-11-2025 08:57:50 AM'.
+Stack Trace:    at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+--------------------------------------------------------------------------------
+[2025-11-05 14:34:33.661] [Error]
+Category: GenxAi_Solutions.Services.AuthEventsService
+Message: JWT authentication failed on /api/auth/login
+Exception Type: Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException
+Exception Message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '05-11-2025 07:41:31 AM', Current time (UTC): '05-11-2025 09:04:33 AM'.
+Stack Trace:    at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+--------------------------------------------------------------------------------
+[2025-11-05 14:34:33.685] [Error]
+Category: GenxAi_Solutions.Services.AuthEventsService
+Message: JWT authentication failed on /api/auth/login
+Exception Type: Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException
+Exception Message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '05-11-2025 07:41:31 AM', Current time (UTC): '05-11-2025 09:04:33 AM'.
+Stack Trace:    at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+--------------------------------------------------------------------------------
+[2025-11-05 15:27:08.391] [Error]
+Category: GenxAi_Solutions.Services.AuthEventsService
+Message: JWT authentication failed on /api/auth/login
+Exception Type: Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException
+Exception Message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '05-11-2025 09:47:17 AM', Current time (UTC): '05-11-2025 09:57:08 AM'.
+Stack Trace:    at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+--------------------------------------------------------------------------------
+[2025-11-05 15:27:08.416] [Error]
+Category: GenxAi_Solutions.Services.AuthEventsService
+Message: JWT authentication failed on /api/auth/login
+Exception Type: Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException
+Exception Message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '05-11-2025 09:47:17 AM', Current time (UTC): '05-11-2025 09:57:08 AM'.
+Stack Trace:    at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+--------------------------------------------------------------------------------
+[2025-11-05 16:00:30.581] [Error]
+Category: GenxAi_Solutions.Services.AuthEventsService
+Message: JWT authentication failed on /api/auth/logout
+Exception Type: Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException
+Exception Message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '05-11-2025 10:29:06 AM', Current time (UTC): '05-11-2025 10:30:30 AM'.
+Stack Trace:    at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+--------------------------------------------------------------------------------
+[2025-11-05 16:00:30.624] [Error]
+Category: GenxAi_Solutions.Services.AuthEventsService
+Message: JWT authentication failed on /api/auth/logout
+Exception Type: Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException
+Exception Message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '05-11-2025 10:29:06 AM', Current time (UTC): '05-11-2025 10:30:30 AM'.
+Stack Trace:    at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+--------------------------------------------------------------------------------
+[2025-11-05 16:29:12.671] [Error]
+Category: GenxAi_Solutions.Services.AuthEventsService
+Message: JWT authentication failed on /hubs/notifications/negotiate
+Exception Type: Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException
+Exception Message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '05-11-2025 10:46:36 AM', Current time (UTC): '05-11-2025 10:59:12 AM'.
+Stack Trace:    at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+--------------------------------------------------------------------------------
+[2025-11-05 16:29:12.675] [Error]
+Category: GenxAi_Solutions.Services.AuthEventsService
+Message: JWT authentication failed on /hubs/notifications/negotiate
+Exception Type: Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException
+Exception Message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '05-11-2025 10:46:36 AM', Current time (UTC): '05-11-2025 10:59:12 AM'.
+Stack Trace:    at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+--------------------------------------------------------------------------------
+[2025-11-05 16:29:17.730] [Error]
+Category: GenxAi_Solutions.Services.AuthEventsService
+Message: JWT authentication failed on /hubs/notifications
+Exception Type: Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException
+Exception Message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '05-11-2025 10:46:36 AM', Current time (UTC): '05-11-2025 10:59:17 AM'.
+Stack Trace:    at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+--------------------------------------------------------------------------------
+[2025-11-05 16:29:17.782] [Error]
+Category: GenxAi_Solutions.Services.AuthEventsService
+Message: JWT authentication failed on /hubs/notifications
+Exception Type: Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException
+Exception Message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '05-11-2025 10:46:36 AM', Current time (UTC): '05-11-2025 10:59:17 AM'.
+Stack Trace:    at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+--------------------------------------------------------------------------------
+[2025-11-05 16:29:17.881] [Error]
+Category: GenxAi_Solutions.Services.AuthEventsService
+Message: JWT authentication failed on /api/auth/getmenu
+Exception Type: Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException
+Exception Message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '05-11-2025 10:46:36 AM', Current time (UTC): '05-11-2025 10:59:17 AM'.
+Stack Trace:    at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+--------------------------------------------------------------------------------
+[2025-11-05 16:29:17.890] [Error]
+Category: GenxAi_Solutions.Services.AuthEventsService
+Message: JWT authentication failed on /api/auth/getmenu
+Exception Type: Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException
+Exception Message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '05-11-2025 10:46:36 AM', Current time (UTC): '05-11-2025 10:59:17 AM'.
+Stack Trace:    at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+--------------------------------------------------------------------------------
+[2025-11-05 16:47:58.587] [Error]
+Category: GenxAi_Solutions.Services.AuthEventsService
+Message: JWT authentication failed on /hubs/notifications/negotiate
+Exception Type: Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException
+Exception Message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '05-11-2025 11:14:22 AM', Current time (UTC): '05-11-2025 11:17:58 AM'.
+Stack Trace:    at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+--------------------------------------------------------------------------------
+[2025-11-05 16:47:58.588] [Error]
+Category: GenxAi_Solutions.Services.AuthEventsService
+Message: JWT authentication failed on /hubs/notifications/negotiate
+Exception Type: Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException
+Exception Message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '05-11-2025 11:14:22 AM', Current time (UTC): '05-11-2025 11:17:58 AM'.
+Stack Trace:    at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+--------------------------------------------------------------------------------
+[2025-11-05 16:47:58.611] [Error]
+Category: GenxAi_Solutions.Services.AuthEventsService
+Message: JWT authentication failed on /hubs/notifications
+Exception Type: Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException
+Exception Message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '05-11-2025 11:14:22 AM', Current time (UTC): '05-11-2025 11:17:58 AM'.
+Stack Trace:    at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+--------------------------------------------------------------------------------
+[2025-11-05 16:47:58.613] [Error]
+Category: GenxAi_Solutions.Services.AuthEventsService
+Message: JWT authentication failed on /hubs/notifications
+Exception Type: Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException
+Exception Message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '05-11-2025 11:14:22 AM', Current time (UTC): '05-11-2025 11:17:58 AM'.
+Stack Trace:    at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+--------------------------------------------------------------------------------
+[2025-11-05 17:05:26.586] [Error]
+Category: GenxAi_Solutions.Services.AuthEventsService
+Message: JWT authentication failed on /hubs/notifications/negotiate
+Exception Type: Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException
+Exception Message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '05-11-2025 11:14:22 AM', Current time (UTC): '05-11-2025 11:35:26 AM'.
+Stack Trace:    at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+--------------------------------------------------------------------------------
+[2025-11-05 17:05:26.587] [Error]
+Category: GenxAi_Solutions.Services.AuthEventsService
+Message: JWT authentication failed on /hubs/notifications/negotiate
+Exception Type: Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException
+Exception Message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '05-11-2025 11:14:22 AM', Current time (UTC): '05-11-2025 11:35:26 AM'.
+Stack Trace:    at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+--------------------------------------------------------------------------------
+[2025-11-05 17:05:26.603] [Error]
+Category: GenxAi_Solutions.Services.AuthEventsService
+Message: JWT authentication failed on /hubs/notifications
+Exception Type: Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException
+Exception Message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '05-11-2025 11:14:22 AM', Current time (UTC): '05-11-2025 11:35:26 AM'.
+Stack Trace:    at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+--------------------------------------------------------------------------------
+[2025-11-05 17:05:26.604] [Error]
+Category: GenxAi_Solutions.Services.AuthEventsService
+Message: JWT authentication failed on /hubs/notifications
+Exception Type: Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException
+Exception Message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '05-11-2025 11:14:22 AM', Current time (UTC): '05-11-2025 11:35:26 AM'.
+Stack Trace:    at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+--------------------------------------------------------------------------------
+[2025-11-05 17:09:01.313] [Error]
+Category: GenxAi_Solutions.Services.AuthEventsService
+Message: JWT authentication failed on /hubs/notifications/negotiate
+Exception Type: Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException
+Exception Message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '05-11-2025 11:14:22 AM', Current time (UTC): '05-11-2025 11:39:01 AM'.
+Stack Trace:    at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+--------------------------------------------------------------------------------
+[2025-11-05 17:09:01.319] [Error]
+Category: GenxAi_Solutions.Services.AuthEventsService
+Message: JWT authentication failed on /hubs/notifications/negotiate
+Exception Type: Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException
+Exception Message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '05-11-2025 11:14:22 AM', Current time (UTC): '05-11-2025 11:39:01 AM'.
+Stack Trace:    at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+--------------------------------------------------------------------------------
+[2025-11-05 17:09:32.581] [Error]
+Category: GenxAi_Solutions.Services.AuthEventsService
+Message: JWT authentication failed on /api/auth/getmenu
+Exception Type: Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException
+Exception Message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '05-11-2025 11:14:22 AM', Current time (UTC): '05-11-2025 11:39:32 AM'.
+Stack Trace:    at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+--------------------------------------------------------------------------------
+[2025-11-05 17:09:32.607] [Error]
+Category: GenxAi_Solutions.Services.AuthEventsService
+Message: JWT authentication failed on /api/auth/getmenu
+Exception Type: Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException
+Exception Message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '05-11-2025 11:14:22 AM', Current time (UTC): '05-11-2025 11:39:32 AM'.
+Stack Trace:    at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+--------------------------------------------------------------------------------
+[2025-11-05 17:10:14.524] [Error]
+Category: GenxAi_Solutions.Services.AuthEventsService
+Message: JWT authentication failed on /hubs/notifications
+Exception Type: Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException
+Exception Message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '05-11-2025 11:14:22 AM', Current time (UTC): '05-11-2025 11:40:14 AM'.
+Stack Trace:    at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+--------------------------------------------------------------------------------
+[2025-11-05 17:10:14.527] [Error]
+Category: GenxAi_Solutions.Services.AuthEventsService
+Message: JWT authentication failed on /hubs/notifications
+Exception Type: Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException
+Exception Message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '05-11-2025 11:14:22 AM', Current time (UTC): '05-11-2025 11:40:14 AM'.
+Stack Trace:    at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+--------------------------------------------------------------------------------
+[2025-11-05 17:11:03.655] [Error]
+Category: GenxAi_Solutions.Services.AuthEventsService
+Message: JWT authentication failed on /api/auth/logout
+Exception Type: Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException
+Exception Message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '05-11-2025 11:14:22 AM', Current time (UTC): '05-11-2025 11:41:03 AM'.
+Stack Trace:    at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+--------------------------------------------------------------------------------
+[2025-11-05 17:11:03.656] [Error]
+Category: GenxAi_Solutions.Services.AuthEventsService
+Message: JWT authentication failed on /api/auth/logout
+Exception Type: Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException
+Exception Message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '05-11-2025 11:14:22 AM', Current time (UTC): '05-11-2025 11:41:03 AM'.
+Stack Trace:    at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+--------------------------------------------------------------------------------
+[2025-11-05 17:12:22.254] [Error]
+Category: GenxAi_Solutions.Services.AuthEventsService
+Message: JWT authentication failed on /api/auth/logout
+Exception Type: Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException
+Exception Message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '05-11-2025 11:14:22 AM', Current time (UTC): '05-11-2025 11:42:22 AM'.
+Stack Trace:    at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+--------------------------------------------------------------------------------
+[2025-11-05 17:12:22.259] [Error]
+Category: GenxAi_Solutions.Services.AuthEventsService
+Message: JWT authentication failed on /api/auth/logout
+Exception Type: Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException
+Exception Message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '05-11-2025 11:14:22 AM', Current time (UTC): '05-11-2025 11:42:22 AM'.
+Stack Trace:    at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+--------------------------------------------------------------------------------
+[2025-11-05 17:12:23.746] [Error]
+Category: GenxAi_Solutions.Services.AuthEventsService
+Message: JWT authentication failed on /api/auth/logout
+Exception Type: Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException
+Exception Message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '05-11-2025 11:14:22 AM', Current time (UTC): '05-11-2025 11:42:23 AM'.
+Stack Trace:    at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+--------------------------------------------------------------------------------
+[2025-11-05 17:12:23.748] [Error]
+Category: GenxAi_Solutions.Services.AuthEventsService
+Message: JWT authentication failed on /api/auth/logout
+Exception Type: Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException
+Exception Message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '05-11-2025 11:14:22 AM', Current time (UTC): '05-11-2025 11:42:23 AM'.
+Stack Trace:    at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+--------------------------------------------------------------------------------
+[2025-11-05 17:12:23.961] [Error]
+Category: GenxAi_Solutions.Services.AuthEventsService
+Message: JWT authentication failed on /api/auth/logout
+Exception Type: Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException
+Exception Message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '05-11-2025 11:14:22 AM', Current time (UTC): '05-11-2025 11:42:23 AM'.
+Stack Trace:    at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+--------------------------------------------------------------------------------
+[2025-11-05 17:12:23.964] [Error]
+Category: GenxAi_Solutions.Services.AuthEventsService
+Message: JWT authentication failed on /api/auth/logout
+Exception Type: Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException
+Exception Message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '05-11-2025 11:14:22 AM', Current time (UTC): '05-11-2025 11:42:23 AM'.
+Stack Trace:    at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+--------------------------------------------------------------------------------
+[2025-11-05 17:14:03.377] [Error]
+Category: GenxAi_Solutions.Services.AuthEventsService
+Message: JWT authentication failed on /api/auth/login
+Exception Type: Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException
+Exception Message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '05-11-2025 11:14:22 AM', Current time (UTC): '05-11-2025 11:44:03 AM'.
+Stack Trace:    at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+--------------------------------------------------------------------------------
+[2025-11-05 17:14:03.412] [Error]
+Category: GenxAi_Solutions.Services.AuthEventsService
+Message: JWT authentication failed on /api/auth/login
+Exception Type: Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException
+Exception Message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '05-11-2025 11:14:22 AM', Current time (UTC): '05-11-2025 11:44:03 AM'.
+Stack Trace:    at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+--------------------------------------------------------------------------------
+[2025-11-05 17:47:16.189] [Error]
+Category: GenxAi_Solutions.Services.AuthEventsService
+Message: JWT authentication failed on /api/auth/login
+Exception Type: Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException
+Exception Message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '05-11-2025 12:08:10 PM', Current time (UTC): '05-11-2025 12:17:16 PM'.
+Stack Trace:    at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+--------------------------------------------------------------------------------
+[2025-11-05 17:47:16.234] [Error]
+Category: GenxAi_Solutions.Services.AuthEventsService
+Message: JWT authentication failed on /api/auth/login
+Exception Type: Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException
+Exception Message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '05-11-2025 12:08:10 PM', Current time (UTC): '05-11-2025 12:17:16 PM'.
+Stack Trace:    at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+--------------------------------------------------------------------------------

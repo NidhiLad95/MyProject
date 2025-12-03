@@ -1,0 +1,882 @@
+﻿[2025-10-27 18:27:44.090] [Error]
+Category: GenxAi_Solutions.Utils.Middleware.ErrorHandlingMiddleware
+Message: Unhandled exception GET /User/ChangePassword 7b4f96b9-ba81-44f3-ab7e-0a9bf78dea7b. Exception Details: System.InvalidOperationException - The following sections have been defined but have not been rendered by the page at '/Views/Shared/_Layout.cshtml': 'Scripts'. To ignore an unrendered section call IgnoreSection("sectionName"). Stack Trace:    at Microsoft.AspNetCore.Mvc.Razor.RazorPage.EnsureRenderedBodyOrSections()
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderLayoutAsync(ViewContext context, ViewBufferTextWriter bodyWriter)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at GenxAi_Solutions.Utils.Middleware.ErrorHandlingMiddleware.Invoke(HttpContext context) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Utils\Middleware\ErrorHandlingMiddleware.cs:line 139
+Exception Type: System.InvalidOperationException
+Exception Message: The following sections have been defined but have not been rendered by the page at '/Views/Shared/_Layout.cshtml': 'Scripts'. To ignore an unrendered section call IgnoreSection("sectionName").
+Stack Trace:    at Microsoft.AspNetCore.Mvc.Razor.RazorPage.EnsureRenderedBodyOrSections()
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderLayoutAsync(ViewContext context, ViewBufferTextWriter bodyWriter)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at GenxAi_Solutions.Utils.Middleware.ErrorHandlingMiddleware.Invoke(HttpContext context) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Utils\Middleware\ErrorHandlingMiddleware.cs:line 139
+--------------------------------------------------------------------------------
+[2025-10-27 18:27:44.094] [Error]
+Category: GenxAi_Solutions.Utils.Middleware.ErrorHandlingMiddleware
+Message: Unhandled exception GET /User/ChangePassword 7b4f96b9-ba81-44f3-ab7e-0a9bf78dea7b. Exception Details: System.InvalidOperationException - The following sections have been defined but have not been rendered by the page at '/Views/Shared/_Layout.cshtml': 'Scripts'. To ignore an unrendered section call IgnoreSection("sectionName"). Stack Trace:    at Microsoft.AspNetCore.Mvc.Razor.RazorPage.EnsureRenderedBodyOrSections()
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderLayoutAsync(ViewContext context, ViewBufferTextWriter bodyWriter)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at GenxAi_Solutions.Utils.Middleware.ErrorHandlingMiddleware.Invoke(HttpContext context) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Utils\Middleware\ErrorHandlingMiddleware.cs:line 139
+Exception Type: System.InvalidOperationException
+Exception Message: The following sections have been defined but have not been rendered by the page at '/Views/Shared/_Layout.cshtml': 'Scripts'. To ignore an unrendered section call IgnoreSection("sectionName").
+Stack Trace:    at Microsoft.AspNetCore.Mvc.Razor.RazorPage.EnsureRenderedBodyOrSections()
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderLayoutAsync(ViewContext context, ViewBufferTextWriter bodyWriter)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at GenxAi_Solutions.Utils.Middleware.ErrorHandlingMiddleware.Invoke(HttpContext context) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Utils\Middleware\ErrorHandlingMiddleware.cs:line 139
+--------------------------------------------------------------------------------
+[2025-10-27 18:27:44.262] [Error]
+Category: GenxAi_Solutions.Api.NotificationsController
+Message: GetUnread failed. afterId=(null)
+Exception Type: System.Threading.Tasks.TaskCanceledException
+Exception Message: A task was canceled.
+Stack Trace:    at GenxAi_Solutions.Services.NotificationStore.GetUnreadAfterIdAllAsync(Int32 userId, IReadOnlyList`1 companyIds, Nullable`1 afterId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Services\NotificationStore.cs:line 77
+   at GenxAi_Solutions.Services.NotificationStore.GetUnreadAfterIdAllAsync(Int32 userId, IReadOnlyList`1 companyIds, Nullable`1 afterId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Services\NotificationStore.cs:line 131
+   at GenxAi_Solutions.Api.NotificationsController.GetUnread(Nullable`1 afterId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Api\NotificationsController.cs:line 27
+--------------------------------------------------------------------------------
+[2025-10-27 18:27:44.264] [Error]
+Category: GenxAi_Solutions.Api.NotificationsController
+Message: GetUnread failed. afterId=(null)
+Exception Type: System.Threading.Tasks.TaskCanceledException
+Exception Message: A task was canceled.
+Stack Trace:    at GenxAi_Solutions.Services.NotificationStore.GetUnreadAfterIdAllAsync(Int32 userId, IReadOnlyList`1 companyIds, Nullable`1 afterId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Services\NotificationStore.cs:line 77
+   at GenxAi_Solutions.Services.NotificationStore.GetUnreadAfterIdAllAsync(Int32 userId, IReadOnlyList`1 companyIds, Nullable`1 afterId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Services\NotificationStore.cs:line 131
+   at GenxAi_Solutions.Api.NotificationsController.GetUnread(Nullable`1 afterId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Api\NotificationsController.cs:line 27
+--------------------------------------------------------------------------------
+[2025-10-27 18:46:26.959] [Error]
+Category: GenxAi_Solutions.Api.NotificationsController
+Message: GetUnread failed. afterId=20037
+Exception Type: System.Threading.Tasks.TaskCanceledException
+Exception Message: A task was canceled.
+Stack Trace:    at GenxAi_Solutions.Services.NotificationStore.GetUnreadAfterIdAllAsync(Int32 userId, IReadOnlyList`1 companyIds, Nullable`1 afterId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Services\NotificationStore.cs:line 77
+   at GenxAi_Solutions.Services.NotificationStore.GetUnreadAfterIdAllAsync(Int32 userId, IReadOnlyList`1 companyIds, Nullable`1 afterId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Services\NotificationStore.cs:line 131
+   at GenxAi_Solutions.Api.NotificationsController.GetUnread(Nullable`1 afterId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Api\NotificationsController.cs:line 27
+--------------------------------------------------------------------------------
+[2025-10-27 18:46:26.987] [Error]
+Category: GenxAi_Solutions.Api.NotificationsController
+Message: GetUnread failed. afterId=20037
+Exception Type: System.Threading.Tasks.TaskCanceledException
+Exception Message: A task was canceled.
+Stack Trace:    at GenxAi_Solutions.Services.NotificationStore.GetUnreadAfterIdAllAsync(Int32 userId, IReadOnlyList`1 companyIds, Nullable`1 afterId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Services\NotificationStore.cs:line 77
+   at GenxAi_Solutions.Services.NotificationStore.GetUnreadAfterIdAllAsync(Int32 userId, IReadOnlyList`1 companyIds, Nullable`1 afterId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Services\NotificationStore.cs:line 131
+   at GenxAi_Solutions.Api.NotificationsController.GetUnread(Nullable`1 afterId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Api\NotificationsController.cs:line 27
+--------------------------------------------------------------------------------
+[2025-10-27 19:05:41.682] [Error]
+Category: GenxAi_Solutions.Api.NotificationsController
+Message: GetUnread failed. afterId=20037
+Exception Type: System.Threading.Tasks.TaskCanceledException
+Exception Message: A task was canceled.
+Stack Trace:    at GenxAi_Solutions.Services.NotificationStore.GetUnreadAfterIdAllAsync(Int32 userId, IReadOnlyList`1 companyIds, Nullable`1 afterId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Services\NotificationStore.cs:line 77
+   at GenxAi_Solutions.Services.NotificationStore.GetUnreadAfterIdAllAsync(Int32 userId, IReadOnlyList`1 companyIds, Nullable`1 afterId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Services\NotificationStore.cs:line 131
+   at GenxAi_Solutions.Api.NotificationsController.GetUnread(Nullable`1 afterId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Api\NotificationsController.cs:line 27
+--------------------------------------------------------------------------------
+[2025-10-27 19:05:41.687] [Error]
+Category: GenxAi_Solutions.Api.NotificationsController
+Message: GetUnread failed. afterId=20037
+Exception Type: System.Threading.Tasks.TaskCanceledException
+Exception Message: A task was canceled.
+Stack Trace:    at GenxAi_Solutions.Services.NotificationStore.GetUnreadAfterIdAllAsync(Int32 userId, IReadOnlyList`1 companyIds, Nullable`1 afterId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Services\NotificationStore.cs:line 77
+   at GenxAi_Solutions.Services.NotificationStore.GetUnreadAfterIdAllAsync(Int32 userId, IReadOnlyList`1 companyIds, Nullable`1 afterId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Services\NotificationStore.cs:line 131
+   at GenxAi_Solutions.Api.NotificationsController.GetUnread(Nullable`1 afterId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Api\NotificationsController.cs:line 27
+--------------------------------------------------------------------------------
+[2025-10-27 19:10:17.098] [Error]
+Category: GenxAi_Solutions.Api.NotificationsController
+Message: GetUnread failed. afterId=20037
+Exception Type: Microsoft.Data.SqlClient.SqlException
+Exception Message: Connection Timeout Expired.  The timeout period elapsed while attempting to consume the pre-login handshake acknowledgement.  This could be because the pre-login handshake failed or the server was unable to respond back in time.  The duration spent while attempting to connect to this server was - [Pre-Login] initialization=17719; handshake=0; 
+Stack Trace:    at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, SqlCommand command, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParserStateObject.ThrowExceptionAndWarning(Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParserStateObject.ReadSniError(TdsParserStateObject stateObj, UInt32 error)
+   at Microsoft.Data.SqlClient.TdsParserStateObject.ReadSniSyncOverAsync()
+   at Microsoft.Data.SqlClient.TdsParserStateObject.TryReadNetworkPacket()
+   at Microsoft.Data.SqlClient.TdsParser.ConsumePreLoginHandshake(SqlConnectionEncryptOption encrypt, Boolean trustServerCert, Boolean integratedSecurity, Boolean& marsCapable, Boolean& fedAuthRequired, Boolean tlsFirst, String serverCertificateFilename)
+   at Microsoft.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, TimeoutTimer timeout, SqlConnectionString connectionOptions, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, IDbConnectionPool pool, Func`3 accessTokenCallback)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionPoolGroupProviderInfo poolGroupProviderInfo, IDbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.<>c__DisplayClass28_0.<CreateReplaceConnectionContinuation>b__0(Task`1 _)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at GenxAi_Solutions.Services.NotificationStore.GetUnreadAfterIdAllAsync(Int32 userId, IReadOnlyList`1 companyIds, Nullable`1 afterId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Services\NotificationStore.cs:line 77
+   at GenxAi_Solutions.Services.NotificationStore.GetUnreadAfterIdAllAsync(Int32 userId, IReadOnlyList`1 companyIds, Nullable`1 afterId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Services\NotificationStore.cs:line 131
+   at GenxAi_Solutions.Api.NotificationsController.GetUnread(Nullable`1 afterId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Api\NotificationsController.cs:line 27
+Inner Exception: System.ComponentModel.Win32Exception (258): The wait operation timed out.
+--------------------------------------------------------------------------------
+[2025-10-27 19:09:59.432] [Error]
+Category: GenxAi_Solutions.Api.NotificationsController
+Message: GetUnread failed. afterId=20037
+Exception Type: Microsoft.Data.SqlClient.SqlException
+Exception Message: Connection Timeout Expired.  The timeout period elapsed while attempting to consume the pre-login handshake acknowledgement.  This could be because the pre-login handshake failed or the server was unable to respond back in time.  The duration spent while attempting to connect to this server was - [Pre-Login] initialization=28619; handshake=19; 
+Stack Trace:    at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, SqlCommand command, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParserStateObject.ThrowExceptionAndWarning(Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParserStateObject.ReadSniError(TdsParserStateObject stateObj, UInt32 error)
+   at Microsoft.Data.SqlClient.TdsParserStateObject.ReadSniSyncOverAsync()
+   at Microsoft.Data.SqlClient.TdsParserStateObject.TryReadNetworkPacket()
+   at Microsoft.Data.SqlClient.TdsParser.ConsumePreLoginHandshake(SqlConnectionEncryptOption encrypt, Boolean trustServerCert, Boolean integratedSecurity, Boolean& marsCapable, Boolean& fedAuthRequired, Boolean tlsFirst, String serverCertificateFilename)
+   at Microsoft.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, TimeoutTimer timeout, SqlConnectionString connectionOptions, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, IDbConnectionPool pool, Func`3 accessTokenCallback)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionPoolGroupProviderInfo poolGroupProviderInfo, IDbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.<>c__DisplayClass28_0.<CreateReplaceConnectionContinuation>b__0(Task`1 _)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at GenxAi_Solutions.Services.NotificationStore.GetUnreadAfterIdAllAsync(Int32 userId, IReadOnlyList`1 companyIds, Nullable`1 afterId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Services\NotificationStore.cs:line 77
+   at GenxAi_Solutions.Services.NotificationStore.GetUnreadAfterIdAllAsync(Int32 userId, IReadOnlyList`1 companyIds, Nullable`1 afterId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Services\NotificationStore.cs:line 131
+   at GenxAi_Solutions.Api.NotificationsController.GetUnread(Nullable`1 afterId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Api\NotificationsController.cs:line 27
+Inner Exception: System.ComponentModel.Win32Exception (258): The wait operation timed out.
+--------------------------------------------------------------------------------
+[2025-10-27 19:10:17.106] [Error]
+Category: GenxAi_Solutions.Api.NotificationsController
+Message: GetUnread failed. afterId=20037
+Exception Type: Microsoft.Data.SqlClient.SqlException
+Exception Message: Connection Timeout Expired.  The timeout period elapsed while attempting to consume the pre-login handshake acknowledgement.  This could be because the pre-login handshake failed or the server was unable to respond back in time.  The duration spent while attempting to connect to this server was - [Pre-Login] initialization=17719; handshake=0; 
+Stack Trace:    at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, SqlCommand command, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParserStateObject.ThrowExceptionAndWarning(Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParserStateObject.ReadSniError(TdsParserStateObject stateObj, UInt32 error)
+   at Microsoft.Data.SqlClient.TdsParserStateObject.ReadSniSyncOverAsync()
+   at Microsoft.Data.SqlClient.TdsParserStateObject.TryReadNetworkPacket()
+   at Microsoft.Data.SqlClient.TdsParser.ConsumePreLoginHandshake(SqlConnectionEncryptOption encrypt, Boolean trustServerCert, Boolean integratedSecurity, Boolean& marsCapable, Boolean& fedAuthRequired, Boolean tlsFirst, String serverCertificateFilename)
+   at Microsoft.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, TimeoutTimer timeout, SqlConnectionString connectionOptions, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, IDbConnectionPool pool, Func`3 accessTokenCallback)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionPoolGroupProviderInfo poolGroupProviderInfo, IDbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.<>c__DisplayClass28_0.<CreateReplaceConnectionContinuation>b__0(Task`1 _)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at GenxAi_Solutions.Services.NotificationStore.GetUnreadAfterIdAllAsync(Int32 userId, IReadOnlyList`1 companyIds, Nullable`1 afterId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Services\NotificationStore.cs:line 77
+   at GenxAi_Solutions.Services.NotificationStore.GetUnreadAfterIdAllAsync(Int32 userId, IReadOnlyList`1 companyIds, Nullable`1 afterId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Services\NotificationStore.cs:line 131
+   at GenxAi_Solutions.Api.NotificationsController.GetUnread(Nullable`1 afterId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Api\NotificationsController.cs:line 27
+Inner Exception: System.ComponentModel.Win32Exception (258): The wait operation timed out.
+--------------------------------------------------------------------------------
+[2025-10-27 19:10:17.107] [Error]
+Category: GenxAi_Solutions.Api.NotificationsController
+Message: GetUnread failed. afterId=20037
+Exception Type: Microsoft.Data.SqlClient.SqlException
+Exception Message: Connection Timeout Expired.  The timeout period elapsed while attempting to consume the pre-login handshake acknowledgement.  This could be because the pre-login handshake failed or the server was unable to respond back in time.  The duration spent while attempting to connect to this server was - [Pre-Login] initialization=28619; handshake=19; 
+Stack Trace:    at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, SqlCommand command, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParserStateObject.ThrowExceptionAndWarning(Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParserStateObject.ReadSniError(TdsParserStateObject stateObj, UInt32 error)
+   at Microsoft.Data.SqlClient.TdsParserStateObject.ReadSniSyncOverAsync()
+   at Microsoft.Data.SqlClient.TdsParserStateObject.TryReadNetworkPacket()
+   at Microsoft.Data.SqlClient.TdsParser.ConsumePreLoginHandshake(SqlConnectionEncryptOption encrypt, Boolean trustServerCert, Boolean integratedSecurity, Boolean& marsCapable, Boolean& fedAuthRequired, Boolean tlsFirst, String serverCertificateFilename)
+   at Microsoft.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, TimeoutTimer timeout, SqlConnectionString connectionOptions, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, IDbConnectionPool pool, Func`3 accessTokenCallback)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionPoolGroupProviderInfo poolGroupProviderInfo, IDbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.<>c__DisplayClass28_0.<CreateReplaceConnectionContinuation>b__0(Task`1 _)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at GenxAi_Solutions.Services.NotificationStore.GetUnreadAfterIdAllAsync(Int32 userId, IReadOnlyList`1 companyIds, Nullable`1 afterId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Services\NotificationStore.cs:line 77
+   at GenxAi_Solutions.Services.NotificationStore.GetUnreadAfterIdAllAsync(Int32 userId, IReadOnlyList`1 companyIds, Nullable`1 afterId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Services\NotificationStore.cs:line 131
+   at GenxAi_Solutions.Api.NotificationsController.GetUnread(Nullable`1 afterId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Api\NotificationsController.cs:line 27
+Inner Exception: System.ComponentModel.Win32Exception (258): The wait operation timed out.
+--------------------------------------------------------------------------------
+[2025-10-27 19:10:20.507] [Error]
+Category: GenxAi_Solutions.Api.NotificationsController
+Message: GetUnread failed. afterId=20037
+Exception Type: System.Threading.Tasks.TaskCanceledException
+Exception Message: A task was canceled.
+Stack Trace:    at GenxAi_Solutions.Services.NotificationStore.GetUnreadAfterIdAllAsync(Int32 userId, IReadOnlyList`1 companyIds, Nullable`1 afterId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Services\NotificationStore.cs:line 77
+   at GenxAi_Solutions.Services.NotificationStore.GetUnreadAfterIdAllAsync(Int32 userId, IReadOnlyList`1 companyIds, Nullable`1 afterId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Services\NotificationStore.cs:line 131
+   at GenxAi_Solutions.Api.NotificationsController.GetUnread(Nullable`1 afterId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Api\NotificationsController.cs:line 27
+--------------------------------------------------------------------------------
+[2025-10-27 19:10:20.535] [Error]
+Category: GenxAi_Solutions.Api.NotificationsController
+Message: GetUnread failed. afterId=20037
+Exception Type: System.Threading.Tasks.TaskCanceledException
+Exception Message: A task was canceled.
+Stack Trace:    at GenxAi_Solutions.Services.NotificationStore.GetUnreadAfterIdAllAsync(Int32 userId, IReadOnlyList`1 companyIds, Nullable`1 afterId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Services\NotificationStore.cs:line 77
+   at GenxAi_Solutions.Services.NotificationStore.GetUnreadAfterIdAllAsync(Int32 userId, IReadOnlyList`1 companyIds, Nullable`1 afterId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Services\NotificationStore.cs:line 131
+   at GenxAi_Solutions.Api.NotificationsController.GetUnread(Nullable`1 afterId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Api\NotificationsController.cs:line 27
+--------------------------------------------------------------------------------
+[2025-10-27 19:10:20.599] [Error]
+Category: GenxAi_Solutions.Api.NotificationsController
+Message: GetUnread failed. afterId=20037
+Exception Type: System.Threading.Tasks.TaskCanceledException
+Exception Message: A task was canceled.
+Stack Trace:    at GenxAi_Solutions.Services.NotificationStore.GetUnreadAfterIdAllAsync(Int32 userId, IReadOnlyList`1 companyIds, Nullable`1 afterId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Services\NotificationStore.cs:line 77
+   at GenxAi_Solutions.Services.NotificationStore.GetUnreadAfterIdAllAsync(Int32 userId, IReadOnlyList`1 companyIds, Nullable`1 afterId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Services\NotificationStore.cs:line 131
+   at GenxAi_Solutions.Api.NotificationsController.GetUnread(Nullable`1 afterId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Api\NotificationsController.cs:line 27
+--------------------------------------------------------------------------------
+[2025-10-27 19:10:20.614] [Error]
+Category: GenxAi_Solutions.Api.NotificationsController
+Message: GetUnread failed. afterId=20037
+Exception Type: System.Threading.Tasks.TaskCanceledException
+Exception Message: A task was canceled.
+Stack Trace:    at GenxAi_Solutions.Services.NotificationStore.GetUnreadAfterIdAllAsync(Int32 userId, IReadOnlyList`1 companyIds, Nullable`1 afterId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Services\NotificationStore.cs:line 77
+   at GenxAi_Solutions.Services.NotificationStore.GetUnreadAfterIdAllAsync(Int32 userId, IReadOnlyList`1 companyIds, Nullable`1 afterId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Services\NotificationStore.cs:line 131
+   at GenxAi_Solutions.Api.NotificationsController.GetUnread(Nullable`1 afterId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Api\NotificationsController.cs:line 27
+--------------------------------------------------------------------------------
+[2025-10-27 19:13:44.444] [Error]
+Category: GenxAi_Solutions.Api.NotificationsController
+Message: GetUnread failed. afterId=20037
+Exception Type: System.Threading.Tasks.TaskCanceledException
+Exception Message: A task was canceled.
+Stack Trace:    at GenxAi_Solutions.Services.NotificationStore.GetUnreadAfterIdAllAsync(Int32 userId, IReadOnlyList`1 companyIds, Nullable`1 afterId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Services\NotificationStore.cs:line 77
+   at GenxAi_Solutions.Services.NotificationStore.GetUnreadAfterIdAllAsync(Int32 userId, IReadOnlyList`1 companyIds, Nullable`1 afterId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Services\NotificationStore.cs:line 131
+   at GenxAi_Solutions.Api.NotificationsController.GetUnread(Nullable`1 afterId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Api\NotificationsController.cs:line 27
+--------------------------------------------------------------------------------
+[2025-10-27 19:13:44.449] [Error]
+Category: GenxAi_Solutions.Api.NotificationsController
+Message: GetUnread failed. afterId=20037
+Exception Type: System.Threading.Tasks.TaskCanceledException
+Exception Message: A task was canceled.
+Stack Trace:    at GenxAi_Solutions.Services.NotificationStore.GetUnreadAfterIdAllAsync(Int32 userId, IReadOnlyList`1 companyIds, Nullable`1 afterId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Services\NotificationStore.cs:line 77
+   at GenxAi_Solutions.Services.NotificationStore.GetUnreadAfterIdAllAsync(Int32 userId, IReadOnlyList`1 companyIds, Nullable`1 afterId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Services\NotificationStore.cs:line 131
+   at GenxAi_Solutions.Api.NotificationsController.GetUnread(Nullable`1 afterId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Api\NotificationsController.cs:line 27
+--------------------------------------------------------------------------------
+[2025-10-27 19:17:56.552] [Error]
+Category: GenxAi_Solutions.Api.NotificationsController
+Message: GetUnread failed. afterId=(null)
+Exception Type: System.Threading.Tasks.TaskCanceledException
+Exception Message: A task was canceled.
+Stack Trace:    at GenxAi_Solutions.Services.NotificationStore.GetUnreadAfterIdAllAsync(Int32 userId, IReadOnlyList`1 companyIds, Nullable`1 afterId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Services\NotificationStore.cs:line 77
+   at GenxAi_Solutions.Services.NotificationStore.GetUnreadAfterIdAllAsync(Int32 userId, IReadOnlyList`1 companyIds, Nullable`1 afterId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Services\NotificationStore.cs:line 131
+   at GenxAi_Solutions.Api.NotificationsController.GetUnread(Nullable`1 afterId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Api\NotificationsController.cs:line 27
+--------------------------------------------------------------------------------
+[2025-10-27 19:17:56.587] [Error]
+Category: GenxAi_Solutions.Api.NotificationsController
+Message: GetUnread failed. afterId=(null)
+Exception Type: System.Threading.Tasks.TaskCanceledException
+Exception Message: A task was canceled.
+Stack Trace:    at GenxAi_Solutions.Services.NotificationStore.GetUnreadAfterIdAllAsync(Int32 userId, IReadOnlyList`1 companyIds, Nullable`1 afterId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Services\NotificationStore.cs:line 77
+   at GenxAi_Solutions.Services.NotificationStore.GetUnreadAfterIdAllAsync(Int32 userId, IReadOnlyList`1 companyIds, Nullable`1 afterId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Services\NotificationStore.cs:line 131
+   at GenxAi_Solutions.Api.NotificationsController.GetUnread(Nullable`1 afterId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Api\NotificationsController.cs:line 27
+--------------------------------------------------------------------------------
+[2025-10-27 19:19:06.750] [Error]
+Category: GenxAi_Solutions.Api.NotificationsController
+Message: GetUnread failed. afterId=20037
+Exception Type: Microsoft.Data.SqlClient.SqlException
+Exception Message: A connection was successfully established with the server, but then an error occurred during the pre-login handshake. (provider: SSL Provider, error: 0 - The wait operation timed out.)
+Stack Trace:    at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, SqlCommand command, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.WaitForSSLHandShakeToComplete(UInt32& error, Int32& protocolVersion)
+   at Microsoft.Data.SqlClient.TdsParser.EnableSsl(UInt32 info, SqlConnectionEncryptOption encrypt, Boolean integratedSecurity, String serverCertificateFilename)
+   at Microsoft.Data.SqlClient.TdsParser.ConsumePreLoginHandshake(SqlConnectionEncryptOption encrypt, Boolean trustServerCert, Boolean integratedSecurity, Boolean& marsCapable, Boolean& fedAuthRequired, Boolean tlsFirst, String serverCertificateFilename)
+   at Microsoft.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, TimeoutTimer timeout, SqlConnectionString connectionOptions, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, IDbConnectionPool pool, Func`3 accessTokenCallback)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionPoolGroupProviderInfo poolGroupProviderInfo, IDbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.<>c__DisplayClass28_0.<CreateReplaceConnectionContinuation>b__0(Task`1 _)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at GenxAi_Solutions.Services.NotificationStore.GetUnreadAfterIdAllAsync(Int32 userId, IReadOnlyList`1 companyIds, Nullable`1 afterId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Services\NotificationStore.cs:line 77
+   at GenxAi_Solutions.Services.NotificationStore.GetUnreadAfterIdAllAsync(Int32 userId, IReadOnlyList`1 companyIds, Nullable`1 afterId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Services\NotificationStore.cs:line 131
+   at GenxAi_Solutions.Api.NotificationsController.GetUnread(Nullable`1 afterId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Api\NotificationsController.cs:line 27
+Inner Exception: System.ComponentModel.Win32Exception (258): The wait operation timed out.
+--------------------------------------------------------------------------------
+[2025-10-27 19:19:06.752] [Error]
+Category: GenxAi_Solutions.Api.NotificationsController
+Message: GetUnread failed. afterId=20037
+Exception Type: Microsoft.Data.SqlClient.SqlException
+Exception Message: A connection was successfully established with the server, but then an error occurred during the pre-login handshake. (provider: SSL Provider, error: 0 - The wait operation timed out.)
+Stack Trace:    at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, SqlCommand command, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.WaitForSSLHandShakeToComplete(UInt32& error, Int32& protocolVersion)
+   at Microsoft.Data.SqlClient.TdsParser.EnableSsl(UInt32 info, SqlConnectionEncryptOption encrypt, Boolean integratedSecurity, String serverCertificateFilename)
+   at Microsoft.Data.SqlClient.TdsParser.ConsumePreLoginHandshake(SqlConnectionEncryptOption encrypt, Boolean trustServerCert, Boolean integratedSecurity, Boolean& marsCapable, Boolean& fedAuthRequired, Boolean tlsFirst, String serverCertificateFilename)
+   at Microsoft.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, TimeoutTimer timeout, SqlConnectionString connectionOptions, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, IDbConnectionPool pool, Func`3 accessTokenCallback)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionPoolGroupProviderInfo poolGroupProviderInfo, IDbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.<>c__DisplayClass28_0.<CreateReplaceConnectionContinuation>b__0(Task`1 _)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at GenxAi_Solutions.Services.NotificationStore.GetUnreadAfterIdAllAsync(Int32 userId, IReadOnlyList`1 companyIds, Nullable`1 afterId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Services\NotificationStore.cs:line 77
+   at GenxAi_Solutions.Services.NotificationStore.GetUnreadAfterIdAllAsync(Int32 userId, IReadOnlyList`1 companyIds, Nullable`1 afterId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Services\NotificationStore.cs:line 131
+   at GenxAi_Solutions.Api.NotificationsController.GetUnread(Nullable`1 afterId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Api\NotificationsController.cs:line 27
+Inner Exception: System.ComponentModel.Win32Exception (258): The wait operation timed out.
+--------------------------------------------------------------------------------
+[2025-10-27 19:21:36.596] [Error]
+Category: GenxAi_Solutions.Api.NotificationsController
+Message: GetUnread failed. afterId=20037
+Exception Type: System.Threading.Tasks.TaskCanceledException
+Exception Message: A task was canceled.
+Stack Trace:    at GenxAi_Solutions.Services.NotificationStore.GetUnreadAfterIdAllAsync(Int32 userId, IReadOnlyList`1 companyIds, Nullable`1 afterId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Services\NotificationStore.cs:line 77
+   at GenxAi_Solutions.Services.NotificationStore.GetUnreadAfterIdAllAsync(Int32 userId, IReadOnlyList`1 companyIds, Nullable`1 afterId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Services\NotificationStore.cs:line 131
+   at GenxAi_Solutions.Api.NotificationsController.GetUnread(Nullable`1 afterId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Api\NotificationsController.cs:line 27
+--------------------------------------------------------------------------------
+[2025-10-27 19:21:36.612] [Error]
+Category: GenxAi_Solutions.Api.NotificationsController
+Message: GetUnread failed. afterId=20037
+Exception Type: System.Threading.Tasks.TaskCanceledException
+Exception Message: A task was canceled.
+Stack Trace:    at GenxAi_Solutions.Services.NotificationStore.GetUnreadAfterIdAllAsync(Int32 userId, IReadOnlyList`1 companyIds, Nullable`1 afterId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Services\NotificationStore.cs:line 77
+   at GenxAi_Solutions.Services.NotificationStore.GetUnreadAfterIdAllAsync(Int32 userId, IReadOnlyList`1 companyIds, Nullable`1 afterId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Services\NotificationStore.cs:line 131
+   at GenxAi_Solutions.Api.NotificationsController.GetUnread(Nullable`1 afterId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Api\NotificationsController.cs:line 27
+--------------------------------------------------------------------------------
+[2025-10-27 19:21:37.363] [Error]
+Category: GenxAi_Solutions.Api.NotificationsController
+Message: GetUnread failed. afterId=20037
+Exception Type: System.Threading.Tasks.TaskCanceledException
+Exception Message: A task was canceled.
+Stack Trace:    at GenxAi_Solutions.Services.NotificationStore.GetUnreadAfterIdAllAsync(Int32 userId, IReadOnlyList`1 companyIds, Nullable`1 afterId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Services\NotificationStore.cs:line 77
+   at GenxAi_Solutions.Services.NotificationStore.GetUnreadAfterIdAllAsync(Int32 userId, IReadOnlyList`1 companyIds, Nullable`1 afterId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Services\NotificationStore.cs:line 131
+   at GenxAi_Solutions.Api.NotificationsController.GetUnread(Nullable`1 afterId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Api\NotificationsController.cs:line 27
+--------------------------------------------------------------------------------
+[2025-10-27 19:21:37.365] [Error]
+Category: GenxAi_Solutions.Api.NotificationsController
+Message: GetUnread failed. afterId=20037
+Exception Type: System.Threading.Tasks.TaskCanceledException
+Exception Message: A task was canceled.
+Stack Trace:    at GenxAi_Solutions.Services.NotificationStore.GetUnreadAfterIdAllAsync(Int32 userId, IReadOnlyList`1 companyIds, Nullable`1 afterId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Services\NotificationStore.cs:line 77
+   at GenxAi_Solutions.Services.NotificationStore.GetUnreadAfterIdAllAsync(Int32 userId, IReadOnlyList`1 companyIds, Nullable`1 afterId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Services\NotificationStore.cs:line 131
+   at GenxAi_Solutions.Api.NotificationsController.GetUnread(Nullable`1 afterId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Api\NotificationsController.cs:line 27
+--------------------------------------------------------------------------------
+[2025-10-27 19:21:52.742] [Error]
+Category: GenxAi_Solutions.Api.NotificationsController
+Message: GetUnread failed. afterId=(null)
+Exception Type: System.Threading.Tasks.TaskCanceledException
+Exception Message: A task was canceled.
+Stack Trace:    at GenxAi_Solutions.Services.NotificationStore.GetUnreadAfterIdAllAsync(Int32 userId, IReadOnlyList`1 companyIds, Nullable`1 afterId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Services\NotificationStore.cs:line 77
+   at GenxAi_Solutions.Services.NotificationStore.GetUnreadAfterIdAllAsync(Int32 userId, IReadOnlyList`1 companyIds, Nullable`1 afterId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Services\NotificationStore.cs:line 131
+   at GenxAi_Solutions.Api.NotificationsController.GetUnread(Nullable`1 afterId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Api\NotificationsController.cs:line 27
+--------------------------------------------------------------------------------
+[2025-10-27 19:21:52.745] [Error]
+Category: GenxAi_Solutions.Api.NotificationsController
+Message: GetUnread failed. afterId=(null)
+Exception Type: System.Threading.Tasks.TaskCanceledException
+Exception Message: A task was canceled.
+Stack Trace:    at GenxAi_Solutions.Services.NotificationStore.GetUnreadAfterIdAllAsync(Int32 userId, IReadOnlyList`1 companyIds, Nullable`1 afterId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Services\NotificationStore.cs:line 77
+   at GenxAi_Solutions.Services.NotificationStore.GetUnreadAfterIdAllAsync(Int32 userId, IReadOnlyList`1 companyIds, Nullable`1 afterId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Services\NotificationStore.cs:line 131
+   at GenxAi_Solutions.Api.NotificationsController.GetUnread(Nullable`1 afterId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Api\NotificationsController.cs:line 27
+--------------------------------------------------------------------------------
+[2025-10-27 19:23:36.230] [Error]
+Category: GenxAi_Solutions.Api.NotificationsController
+Message: GetUnread failed. afterId=20037
+Exception Type: System.Threading.Tasks.TaskCanceledException
+Exception Message: A task was canceled.
+Stack Trace:    at GenxAi_Solutions.Services.NotificationStore.GetUnreadAfterIdAllAsync(Int32 userId, IReadOnlyList`1 companyIds, Nullable`1 afterId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Services\NotificationStore.cs:line 77
+   at GenxAi_Solutions.Services.NotificationStore.GetUnreadAfterIdAllAsync(Int32 userId, IReadOnlyList`1 companyIds, Nullable`1 afterId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Services\NotificationStore.cs:line 131
+   at GenxAi_Solutions.Api.NotificationsController.GetUnread(Nullable`1 afterId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Api\NotificationsController.cs:line 27
+--------------------------------------------------------------------------------
+[2025-10-27 19:23:36.232] [Error]
+Category: GenxAi_Solutions.Api.NotificationsController
+Message: GetUnread failed. afterId=20037
+Exception Type: System.Threading.Tasks.TaskCanceledException
+Exception Message: A task was canceled.
+Stack Trace:    at GenxAi_Solutions.Services.NotificationStore.GetUnreadAfterIdAllAsync(Int32 userId, IReadOnlyList`1 companyIds, Nullable`1 afterId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Services\NotificationStore.cs:line 77
+   at GenxAi_Solutions.Services.NotificationStore.GetUnreadAfterIdAllAsync(Int32 userId, IReadOnlyList`1 companyIds, Nullable`1 afterId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Services\NotificationStore.cs:line 131
+   at GenxAi_Solutions.Api.NotificationsController.GetUnread(Nullable`1 afterId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Api\NotificationsController.cs:line 27
+--------------------------------------------------------------------------------
+[2025-10-27 19:23:39.701] [Error]
+Category: GenxAi_Solutions.Api.NotificationsController
+Message: GetUnread failed. afterId=20037
+Exception Type: System.Threading.Tasks.TaskCanceledException
+Exception Message: A task was canceled.
+Stack Trace:    at GenxAi_Solutions.Services.NotificationStore.GetUnreadAfterIdAllAsync(Int32 userId, IReadOnlyList`1 companyIds, Nullable`1 afterId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Services\NotificationStore.cs:line 77
+   at GenxAi_Solutions.Services.NotificationStore.GetUnreadAfterIdAllAsync(Int32 userId, IReadOnlyList`1 companyIds, Nullable`1 afterId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Services\NotificationStore.cs:line 131
+   at GenxAi_Solutions.Api.NotificationsController.GetUnread(Nullable`1 afterId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Api\NotificationsController.cs:line 27
+--------------------------------------------------------------------------------
+[2025-10-27 19:23:39.702] [Error]
+Category: GenxAi_Solutions.Api.NotificationsController
+Message: GetUnread failed. afterId=20037
+Exception Type: System.Threading.Tasks.TaskCanceledException
+Exception Message: A task was canceled.
+Stack Trace:    at GenxAi_Solutions.Services.NotificationStore.GetUnreadAfterIdAllAsync(Int32 userId, IReadOnlyList`1 companyIds, Nullable`1 afterId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Services\NotificationStore.cs:line 77
+   at GenxAi_Solutions.Services.NotificationStore.GetUnreadAfterIdAllAsync(Int32 userId, IReadOnlyList`1 companyIds, Nullable`1 afterId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Services\NotificationStore.cs:line 131
+   at GenxAi_Solutions.Api.NotificationsController.GetUnread(Nullable`1 afterId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Api\NotificationsController.cs:line 27
+--------------------------------------------------------------------------------
+[2025-10-27 19:24:59.352] [Error]
+Category: GenxAi_Solutions.Api.NotificationsController
+Message: GetUnread failed. afterId=20037
+Exception Type: Microsoft.Data.SqlClient.SqlException
+Exception Message: Connection Timeout Expired.  The timeout period elapsed while attempting to consume the pre-login handshake acknowledgement.  This could be because the pre-login handshake failed or the server was unable to respond back in time.  The duration spent while attempting to connect to this server was - [Pre-Login] initialization=57337; handshake=76; 
+Stack Trace:    at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, SqlCommand command, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParserStateObject.ThrowExceptionAndWarning(Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParserStateObject.ReadSniError(TdsParserStateObject stateObj, UInt32 error)
+   at Microsoft.Data.SqlClient.TdsParserStateObject.ReadSniSyncOverAsync()
+   at Microsoft.Data.SqlClient.TdsParserStateObject.TryReadNetworkPacket()
+   at Microsoft.Data.SqlClient.TdsParser.ConsumePreLoginHandshake(SqlConnectionEncryptOption encrypt, Boolean trustServerCert, Boolean integratedSecurity, Boolean& marsCapable, Boolean& fedAuthRequired, Boolean tlsFirst, String serverCertificateFilename)
+   at Microsoft.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, TimeoutTimer timeout, SqlConnectionString connectionOptions, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, IDbConnectionPool pool, Func`3 accessTokenCallback)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionPoolGroupProviderInfo poolGroupProviderInfo, IDbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.<>c__DisplayClass28_0.<CreateReplaceConnectionContinuation>b__0(Task`1 _)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at GenxAi_Solutions.Services.NotificationStore.GetUnreadAfterIdAllAsync(Int32 userId, IReadOnlyList`1 companyIds, Nullable`1 afterId, CancellationToken ct)
+   at GenxAi_Solutions.Services.NotificationStore.GetUnreadAfterIdAllAsync(Int32 userId, IReadOnlyList`1 companyIds, Nullable`1 afterId, CancellationToken ct)
+   at GenxAi_Solutions.Api.NotificationsController.GetUnread(Nullable`1 afterId, CancellationToken ct)
+Inner Exception: System.ComponentModel.Win32Exception (258): The wait operation timed out.
+--------------------------------------------------------------------------------
+[2025-10-27 19:24:59.894] [Error]
+Category: GenxAi_Solutions.Api.NotificationsController
+Message: GetUnread failed. afterId=20037
+Exception Type: Microsoft.Data.SqlClient.SqlException
+Exception Message: Connection Timeout Expired.  The timeout period elapsed while attempting to consume the pre-login handshake acknowledgement.  This could be because the pre-login handshake failed or the server was unable to respond back in time.  The duration spent while attempting to connect to this server was - [Pre-Login] initialization=57337; handshake=76; 
+Stack Trace:    at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, SqlCommand command, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParserStateObject.ThrowExceptionAndWarning(Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParserStateObject.ReadSniError(TdsParserStateObject stateObj, UInt32 error)
+   at Microsoft.Data.SqlClient.TdsParserStateObject.ReadSniSyncOverAsync()
+   at Microsoft.Data.SqlClient.TdsParserStateObject.TryReadNetworkPacket()
+   at Microsoft.Data.SqlClient.TdsParser.ConsumePreLoginHandshake(SqlConnectionEncryptOption encrypt, Boolean trustServerCert, Boolean integratedSecurity, Boolean& marsCapable, Boolean& fedAuthRequired, Boolean tlsFirst, String serverCertificateFilename)
+   at Microsoft.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, TimeoutTimer timeout, SqlConnectionString connectionOptions, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, IDbConnectionPool pool, Func`3 accessTokenCallback)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionPoolGroupProviderInfo poolGroupProviderInfo, IDbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.<>c__DisplayClass28_0.<CreateReplaceConnectionContinuation>b__0(Task`1 _)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at GenxAi_Solutions.Services.NotificationStore.GetUnreadAfterIdAllAsync(Int32 userId, IReadOnlyList`1 companyIds, Nullable`1 afterId, CancellationToken ct)
+   at GenxAi_Solutions.Services.NotificationStore.GetUnreadAfterIdAllAsync(Int32 userId, IReadOnlyList`1 companyIds, Nullable`1 afterId, CancellationToken ct)
+   at GenxAi_Solutions.Api.NotificationsController.GetUnread(Nullable`1 afterId, CancellationToken ct)
+Inner Exception: System.ComponentModel.Win32Exception (258): The wait operation timed out.
+--------------------------------------------------------------------------------
+[2025-10-27 19:25:00.474] [Error]
+Category: GenxAi_Solutions.Api.NotificationsController
+Message: GetUnread failed. afterId=20037
+Exception Type: System.Threading.Tasks.TaskCanceledException
+Exception Message: A task was canceled.
+Stack Trace:    at GenxAi_Solutions.Services.NotificationStore.GetUnreadAfterIdAllAsync(Int32 userId, IReadOnlyList`1 companyIds, Nullable`1 afterId, CancellationToken ct)
+   at GenxAi_Solutions.Services.NotificationStore.GetUnreadAfterIdAllAsync(Int32 userId, IReadOnlyList`1 companyIds, Nullable`1 afterId, CancellationToken ct)
+   at GenxAi_Solutions.Api.NotificationsController.GetUnread(Nullable`1 afterId, CancellationToken ct)
+--------------------------------------------------------------------------------
+[2025-10-27 19:25:00.483] [Error]
+Category: GenxAi_Solutions.Api.NotificationsController
+Message: GetUnread failed. afterId=20037
+Exception Type: System.Threading.Tasks.TaskCanceledException
+Exception Message: A task was canceled.
+Stack Trace:    at GenxAi_Solutions.Services.NotificationStore.GetUnreadAfterIdAllAsync(Int32 userId, IReadOnlyList`1 companyIds, Nullable`1 afterId, CancellationToken ct)
+   at GenxAi_Solutions.Services.NotificationStore.GetUnreadAfterIdAllAsync(Int32 userId, IReadOnlyList`1 companyIds, Nullable`1 afterId, CancellationToken ct)
+   at GenxAi_Solutions.Api.NotificationsController.GetUnread(Nullable`1 afterId, CancellationToken ct)
+--------------------------------------------------------------------------------
+[2025-10-27 19:25:02.652] [Error]
+Category: GenxAi_Solutions.Api.NotificationsController
+Message: GetUnread failed. afterId=20037
+Exception Type: System.Threading.Tasks.TaskCanceledException
+Exception Message: A task was canceled.
+Stack Trace:    at GenxAi_Solutions.Services.NotificationStore.GetUnreadAfterIdAllAsync(Int32 userId, IReadOnlyList`1 companyIds, Nullable`1 afterId, CancellationToken ct)
+   at GenxAi_Solutions.Services.NotificationStore.GetUnreadAfterIdAllAsync(Int32 userId, IReadOnlyList`1 companyIds, Nullable`1 afterId, CancellationToken ct)
+   at GenxAi_Solutions.Api.NotificationsController.GetUnread(Nullable`1 afterId, CancellationToken ct)
+--------------------------------------------------------------------------------
+[2025-10-27 19:25:02.665] [Error]
+Category: GenxAi_Solutions.Api.NotificationsController
+Message: GetUnread failed. afterId=20037
+Exception Type: System.Threading.Tasks.TaskCanceledException
+Exception Message: A task was canceled.
+Stack Trace:    at GenxAi_Solutions.Services.NotificationStore.GetUnreadAfterIdAllAsync(Int32 userId, IReadOnlyList`1 companyIds, Nullable`1 afterId, CancellationToken ct)
+   at GenxAi_Solutions.Services.NotificationStore.GetUnreadAfterIdAllAsync(Int32 userId, IReadOnlyList`1 companyIds, Nullable`1 afterId, CancellationToken ct)
+   at GenxAi_Solutions.Api.NotificationsController.GetUnread(Nullable`1 afterId, CancellationToken ct)
+--------------------------------------------------------------------------------
+[2025-10-27 19:39:38.724] [Error]
+Category: GenxAi_Solutions.Api.NotificationsController
+Message: GetUnread failed. afterId=20037
+Exception Type: Microsoft.Data.SqlClient.SqlException
+Exception Message: Connection Timeout Expired.  The timeout period elapsed while attempting to consume the pre-login handshake acknowledgement.  This could be because the pre-login handshake failed or the server was unable to respond back in time.  The duration spent while attempting to connect to this server was - [Pre-Login] initialization=20026; handshake=18; 
+Stack Trace:    at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, SqlCommand command, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParserStateObject.ThrowExceptionAndWarning(Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParserStateObject.ReadSniError(TdsParserStateObject stateObj, UInt32 error)
+   at Microsoft.Data.SqlClient.TdsParserStateObject.ReadSniSyncOverAsync()
+   at Microsoft.Data.SqlClient.TdsParserStateObject.TryReadNetworkPacket()
+   at Microsoft.Data.SqlClient.TdsParser.ConsumePreLoginHandshake(SqlConnectionEncryptOption encrypt, Boolean trustServerCert, Boolean integratedSecurity, Boolean& marsCapable, Boolean& fedAuthRequired, Boolean tlsFirst, String serverCertificateFilename)
+   at Microsoft.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, TimeoutTimer timeout, SqlConnectionString connectionOptions, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, IDbConnectionPool pool, Func`3 accessTokenCallback)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionPoolGroupProviderInfo poolGroupProviderInfo, IDbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.<>c__DisplayClass28_0.<CreateReplaceConnectionContinuation>b__0(Task`1 _)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at GenxAi_Solutions.Services.NotificationStore.GetUnreadAfterIdAllAsync(Int32 userId, IReadOnlyList`1 companyIds, Nullable`1 afterId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Services\NotificationStore.cs:line 77
+   at GenxAi_Solutions.Services.NotificationStore.GetUnreadAfterIdAllAsync(Int32 userId, IReadOnlyList`1 companyIds, Nullable`1 afterId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Services\NotificationStore.cs:line 131
+   at GenxAi_Solutions.Api.NotificationsController.GetUnread(Nullable`1 afterId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Api\NotificationsController.cs:line 27
+Inner Exception: System.ComponentModel.Win32Exception (258): The wait operation timed out.
+--------------------------------------------------------------------------------
+[2025-10-27 19:39:39.393] [Error]
+Category: GenxAi_Solutions.Api.NotificationsController
+Message: GetUnread failed. afterId=20037
+Exception Type: Microsoft.Data.SqlClient.SqlException
+Exception Message: Connection Timeout Expired.  The timeout period elapsed while attempting to consume the pre-login handshake acknowledgement.  This could be because the pre-login handshake failed or the server was unable to respond back in time.  The duration spent while attempting to connect to this server was - [Pre-Login] initialization=20026; handshake=18; 
+Stack Trace:    at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, SqlCommand command, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParserStateObject.ThrowExceptionAndWarning(Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParserStateObject.ReadSniError(TdsParserStateObject stateObj, UInt32 error)
+   at Microsoft.Data.SqlClient.TdsParserStateObject.ReadSniSyncOverAsync()
+   at Microsoft.Data.SqlClient.TdsParserStateObject.TryReadNetworkPacket()
+   at Microsoft.Data.SqlClient.TdsParser.ConsumePreLoginHandshake(SqlConnectionEncryptOption encrypt, Boolean trustServerCert, Boolean integratedSecurity, Boolean& marsCapable, Boolean& fedAuthRequired, Boolean tlsFirst, String serverCertificateFilename)
+   at Microsoft.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, TimeoutTimer timeout, SqlConnectionString connectionOptions, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, IDbConnectionPool pool, Func`3 accessTokenCallback)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionPoolGroupProviderInfo poolGroupProviderInfo, IDbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.<>c__DisplayClass28_0.<CreateReplaceConnectionContinuation>b__0(Task`1 _)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at GenxAi_Solutions.Services.NotificationStore.GetUnreadAfterIdAllAsync(Int32 userId, IReadOnlyList`1 companyIds, Nullable`1 afterId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Services\NotificationStore.cs:line 77
+   at GenxAi_Solutions.Services.NotificationStore.GetUnreadAfterIdAllAsync(Int32 userId, IReadOnlyList`1 companyIds, Nullable`1 afterId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Services\NotificationStore.cs:line 131
+   at GenxAi_Solutions.Api.NotificationsController.GetUnread(Nullable`1 afterId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Api\NotificationsController.cs:line 27
+Inner Exception: System.ComponentModel.Win32Exception (258): The wait operation timed out.
+--------------------------------------------------------------------------------
+[2025-10-27 19:45:12.698] [Error]
+Category: GenxAi_Solutions.Api.NotificationsController
+Message: GetUnread failed. afterId=20037
+Exception Type: System.Threading.Tasks.TaskCanceledException
+Exception Message: A task was canceled.
+Stack Trace:    at GenxAi_Solutions.Services.NotificationStore.GetUnreadAfterIdAllAsync(Int32 userId, IReadOnlyList`1 companyIds, Nullable`1 afterId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Services\NotificationStore.cs:line 77
+   at GenxAi_Solutions.Services.NotificationStore.GetUnreadAfterIdAllAsync(Int32 userId, IReadOnlyList`1 companyIds, Nullable`1 afterId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Services\NotificationStore.cs:line 131
+   at GenxAi_Solutions.Api.NotificationsController.GetUnread(Nullable`1 afterId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Api\NotificationsController.cs:line 27
+--------------------------------------------------------------------------------
+[2025-10-27 19:45:12.708] [Error]
+Category: GenxAi_Solutions.Api.NotificationsController
+Message: GetUnread failed. afterId=20037
+Exception Type: System.Threading.Tasks.TaskCanceledException
+Exception Message: A task was canceled.
+Stack Trace:    at GenxAi_Solutions.Services.NotificationStore.GetUnreadAfterIdAllAsync(Int32 userId, IReadOnlyList`1 companyIds, Nullable`1 afterId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Services\NotificationStore.cs:line 77
+   at GenxAi_Solutions.Services.NotificationStore.GetUnreadAfterIdAllAsync(Int32 userId, IReadOnlyList`1 companyIds, Nullable`1 afterId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Services\NotificationStore.cs:line 131
+   at GenxAi_Solutions.Api.NotificationsController.GetUnread(Nullable`1 afterId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Api\NotificationsController.cs:line 27
+--------------------------------------------------------------------------------
+[2025-10-27 19:47:08.409] [Error]
+Category: GenxAi_Solutions.Api.NotificationsController
+Message: GetUnread failed. afterId=20037
+Exception Type: Microsoft.Data.SqlClient.SqlException
+Exception Message: Connection Timeout Expired.  The timeout period elapsed while attempting to consume the pre-login handshake acknowledgement.  This could be because the pre-login handshake failed or the server was unable to respond back in time.  The duration spent while attempting to connect to this server was - [Pre-Login] initialization=27844; handshake=709; 
+Stack Trace:    at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, SqlCommand command, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParserStateObject.ThrowExceptionAndWarning(Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParserStateObject.ReadSniError(TdsParserStateObject stateObj, UInt32 error)
+   at Microsoft.Data.SqlClient.TdsParserStateObject.ReadSniSyncOverAsync()
+   at Microsoft.Data.SqlClient.TdsParserStateObject.TryReadNetworkPacket()
+   at Microsoft.Data.SqlClient.TdsParser.ConsumePreLoginHandshake(SqlConnectionEncryptOption encrypt, Boolean trustServerCert, Boolean integratedSecurity, Boolean& marsCapable, Boolean& fedAuthRequired, Boolean tlsFirst, String serverCertificateFilename)
+   at Microsoft.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, TimeoutTimer timeout, SqlConnectionString connectionOptions, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, IDbConnectionPool pool, Func`3 accessTokenCallback)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionPoolGroupProviderInfo poolGroupProviderInfo, IDbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.<>c__DisplayClass28_0.<CreateReplaceConnectionContinuation>b__0(Task`1 _)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at GenxAi_Solutions.Services.NotificationStore.GetUnreadAfterIdAllAsync(Int32 userId, IReadOnlyList`1 companyIds, Nullable`1 afterId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Services\NotificationStore.cs:line 77
+   at GenxAi_Solutions.Services.NotificationStore.GetUnreadAfterIdAllAsync(Int32 userId, IReadOnlyList`1 companyIds, Nullable`1 afterId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Services\NotificationStore.cs:line 131
+   at GenxAi_Solutions.Api.NotificationsController.GetUnread(Nullable`1 afterId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Api\NotificationsController.cs:line 27
+Inner Exception: System.ComponentModel.Win32Exception (258): The wait operation timed out.
+--------------------------------------------------------------------------------
+[2025-10-27 19:47:10.472] [Error]
+Category: GenxAi_Solutions.Api.NotificationsController
+Message: GetUnread failed. afterId=20037
+Exception Type: Microsoft.Data.SqlClient.SqlException
+Exception Message: Connection Timeout Expired.  The timeout period elapsed while attempting to consume the pre-login handshake acknowledgement.  This could be because the pre-login handshake failed or the server was unable to respond back in time.  The duration spent while attempting to connect to this server was - [Pre-Login] initialization=27844; handshake=709; 
+Stack Trace:    at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, SqlCommand command, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParserStateObject.ThrowExceptionAndWarning(Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParserStateObject.ReadSniError(TdsParserStateObject stateObj, UInt32 error)
+   at Microsoft.Data.SqlClient.TdsParserStateObject.ReadSniSyncOverAsync()
+   at Microsoft.Data.SqlClient.TdsParserStateObject.TryReadNetworkPacket()
+   at Microsoft.Data.SqlClient.TdsParser.ConsumePreLoginHandshake(SqlConnectionEncryptOption encrypt, Boolean trustServerCert, Boolean integratedSecurity, Boolean& marsCapable, Boolean& fedAuthRequired, Boolean tlsFirst, String serverCertificateFilename)
+   at Microsoft.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, TimeoutTimer timeout, SqlConnectionString connectionOptions, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, IDbConnectionPool pool, Func`3 accessTokenCallback)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionPoolGroupProviderInfo poolGroupProviderInfo, IDbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.<>c__DisplayClass28_0.<CreateReplaceConnectionContinuation>b__0(Task`1 _)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at GenxAi_Solutions.Services.NotificationStore.GetUnreadAfterIdAllAsync(Int32 userId, IReadOnlyList`1 companyIds, Nullable`1 afterId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Services\NotificationStore.cs:line 77
+   at GenxAi_Solutions.Services.NotificationStore.GetUnreadAfterIdAllAsync(Int32 userId, IReadOnlyList`1 companyIds, Nullable`1 afterId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Services\NotificationStore.cs:line 131
+   at GenxAi_Solutions.Api.NotificationsController.GetUnread(Nullable`1 afterId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Api\NotificationsController.cs:line 27
+Inner Exception: System.ComponentModel.Win32Exception (258): The wait operation timed out.
+--------------------------------------------------------------------------------
+[2025-10-27 19:47:27.166] [Error]
+Category: GenxAi_Solutions.Api.NotificationsController
+Message: GetUnread failed. afterId=20037
+Exception Type: Microsoft.Data.SqlClient.SqlException
+Exception Message: Connection Timeout Expired.  The timeout period elapsed while attempting to consume the pre-login handshake acknowledgement.  This could be because the pre-login handshake failed or the server was unable to respond back in time.  The duration spent while attempting to connect to this server was - [Pre-Login] initialization=19493; handshake=0; 
+Stack Trace:    at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, SqlCommand command, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParserStateObject.ThrowExceptionAndWarning(Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParserStateObject.ReadSniError(TdsParserStateObject stateObj, UInt32 error)
+   at Microsoft.Data.SqlClient.TdsParserStateObject.ReadSniSyncOverAsync()
+   at Microsoft.Data.SqlClient.TdsParserStateObject.TryReadNetworkPacket()
+   at Microsoft.Data.SqlClient.TdsParser.ConsumePreLoginHandshake(SqlConnectionEncryptOption encrypt, Boolean trustServerCert, Boolean integratedSecurity, Boolean& marsCapable, Boolean& fedAuthRequired, Boolean tlsFirst, String serverCertificateFilename)
+   at Microsoft.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, TimeoutTimer timeout, SqlConnectionString connectionOptions, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, IDbConnectionPool pool, Func`3 accessTokenCallback)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionPoolGroupProviderInfo poolGroupProviderInfo, IDbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.<>c__DisplayClass28_0.<CreateReplaceConnectionContinuation>b__0(Task`1 _)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at GenxAi_Solutions.Services.NotificationStore.GetUnreadAfterIdAllAsync(Int32 userId, IReadOnlyList`1 companyIds, Nullable`1 afterId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Services\NotificationStore.cs:line 77
+   at GenxAi_Solutions.Services.NotificationStore.GetUnreadAfterIdAllAsync(Int32 userId, IReadOnlyList`1 companyIds, Nullable`1 afterId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Services\NotificationStore.cs:line 131
+   at GenxAi_Solutions.Api.NotificationsController.GetUnread(Nullable`1 afterId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Api\NotificationsController.cs:line 27
+Inner Exception: System.ComponentModel.Win32Exception (258): The wait operation timed out.
+--------------------------------------------------------------------------------
+[2025-10-27 19:47:27.177] [Error]
+Category: GenxAi_Solutions.Api.NotificationsController
+Message: GetUnread failed. afterId=20037
+Exception Type: Microsoft.Data.SqlClient.SqlException
+Exception Message: Connection Timeout Expired.  The timeout period elapsed while attempting to consume the pre-login handshake acknowledgement.  This could be because the pre-login handshake failed or the server was unable to respond back in time.  The duration spent while attempting to connect to this server was - [Pre-Login] initialization=19493; handshake=0; 
+Stack Trace:    at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, SqlCommand command, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParserStateObject.ThrowExceptionAndWarning(Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParserStateObject.ReadSniError(TdsParserStateObject stateObj, UInt32 error)
+   at Microsoft.Data.SqlClient.TdsParserStateObject.ReadSniSyncOverAsync()
+   at Microsoft.Data.SqlClient.TdsParserStateObject.TryReadNetworkPacket()
+   at Microsoft.Data.SqlClient.TdsParser.ConsumePreLoginHandshake(SqlConnectionEncryptOption encrypt, Boolean trustServerCert, Boolean integratedSecurity, Boolean& marsCapable, Boolean& fedAuthRequired, Boolean tlsFirst, String serverCertificateFilename)
+   at Microsoft.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, TimeoutTimer timeout, SqlConnectionString connectionOptions, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, IDbConnectionPool pool, Func`3 accessTokenCallback)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionPoolGroupProviderInfo poolGroupProviderInfo, IDbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.<>c__DisplayClass28_0.<CreateReplaceConnectionContinuation>b__0(Task`1 _)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at GenxAi_Solutions.Services.NotificationStore.GetUnreadAfterIdAllAsync(Int32 userId, IReadOnlyList`1 companyIds, Nullable`1 afterId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Services\NotificationStore.cs:line 77
+   at GenxAi_Solutions.Services.NotificationStore.GetUnreadAfterIdAllAsync(Int32 userId, IReadOnlyList`1 companyIds, Nullable`1 afterId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Services\NotificationStore.cs:line 131
+   at GenxAi_Solutions.Api.NotificationsController.GetUnread(Nullable`1 afterId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Api\NotificationsController.cs:line 27
+Inner Exception: System.ComponentModel.Win32Exception (258): The wait operation timed out.
+--------------------------------------------------------------------------------
+[2025-10-27 19:48:04.818] [Error]
+Category: GenxAi_Solutions.Api.NotificationsController
+Message: GetUnread failed. afterId=20037
+Exception Type: System.Threading.Tasks.TaskCanceledException
+Exception Message: A task was canceled.
+Stack Trace:    at GenxAi_Solutions.Services.NotificationStore.GetUnreadAfterIdAllAsync(Int32 userId, IReadOnlyList`1 companyIds, Nullable`1 afterId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Services\NotificationStore.cs:line 77
+   at GenxAi_Solutions.Services.NotificationStore.GetUnreadAfterIdAllAsync(Int32 userId, IReadOnlyList`1 companyIds, Nullable`1 afterId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Services\NotificationStore.cs:line 131
+   at GenxAi_Solutions.Api.NotificationsController.GetUnread(Nullable`1 afterId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Api\NotificationsController.cs:line 27
+--------------------------------------------------------------------------------
+[2025-10-27 19:48:04.823] [Error]
+Category: GenxAi_Solutions.Api.NotificationsController
+Message: GetUnread failed. afterId=20037
+Exception Type: System.Threading.Tasks.TaskCanceledException
+Exception Message: A task was canceled.
+Stack Trace:    at GenxAi_Solutions.Services.NotificationStore.GetUnreadAfterIdAllAsync(Int32 userId, IReadOnlyList`1 companyIds, Nullable`1 afterId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Services\NotificationStore.cs:line 77
+   at GenxAi_Solutions.Services.NotificationStore.GetUnreadAfterIdAllAsync(Int32 userId, IReadOnlyList`1 companyIds, Nullable`1 afterId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Services\NotificationStore.cs:line 131
+   at GenxAi_Solutions.Api.NotificationsController.GetUnread(Nullable`1 afterId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Api\NotificationsController.cs:line 27
+--------------------------------------------------------------------------------
+[2025-10-27 19:48:20.563] [Error]
+Category: GenxAi_Solutions.Api.NotificationsController
+Message: GetUnread failed. afterId=(null)
+Exception Type: System.Threading.Tasks.TaskCanceledException
+Exception Message: A task was canceled.
+Stack Trace:    at GenxAi_Solutions.Services.NotificationStore.GetUnreadAfterIdAllAsync(Int32 userId, IReadOnlyList`1 companyIds, Nullable`1 afterId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Services\NotificationStore.cs:line 77
+   at GenxAi_Solutions.Services.NotificationStore.GetUnreadAfterIdAllAsync(Int32 userId, IReadOnlyList`1 companyIds, Nullable`1 afterId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Services\NotificationStore.cs:line 131
+   at GenxAi_Solutions.Api.NotificationsController.GetUnread(Nullable`1 afterId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Api\NotificationsController.cs:line 27
+--------------------------------------------------------------------------------
+[2025-10-27 19:48:20.574] [Error]
+Category: GenxAi_Solutions.Api.NotificationsController
+Message: GetUnread failed. afterId=(null)
+Exception Type: System.Threading.Tasks.TaskCanceledException
+Exception Message: A task was canceled.
+Stack Trace:    at GenxAi_Solutions.Services.NotificationStore.GetUnreadAfterIdAllAsync(Int32 userId, IReadOnlyList`1 companyIds, Nullable`1 afterId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Services\NotificationStore.cs:line 77
+   at GenxAi_Solutions.Services.NotificationStore.GetUnreadAfterIdAllAsync(Int32 userId, IReadOnlyList`1 companyIds, Nullable`1 afterId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Services\NotificationStore.cs:line 131
+   at GenxAi_Solutions.Api.NotificationsController.GetUnread(Nullable`1 afterId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Api\NotificationsController.cs:line 27
+--------------------------------------------------------------------------------
+[2025-10-27 19:53:26.762] [Error]
+Category: GenxAi_Solutions.Api.NotificationsController
+Message: GetUnread failed. afterId=20037
+Exception Type: System.Threading.Tasks.TaskCanceledException
+Exception Message: A task was canceled.
+Stack Trace:    at GenxAi_Solutions.Services.NotificationStore.GetUnreadAfterIdAllAsync(Int32 userId, IReadOnlyList`1 companyIds, Nullable`1 afterId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Services\NotificationStore.cs:line 77
+   at GenxAi_Solutions.Services.NotificationStore.GetUnreadAfterIdAllAsync(Int32 userId, IReadOnlyList`1 companyIds, Nullable`1 afterId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Services\NotificationStore.cs:line 131
+   at GenxAi_Solutions.Api.NotificationsController.GetUnread(Nullable`1 afterId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Api\NotificationsController.cs:line 27
+--------------------------------------------------------------------------------
+[2025-10-27 19:53:26.776] [Error]
+Category: GenxAi_Solutions.Api.NotificationsController
+Message: GetUnread failed. afterId=20037
+Exception Type: System.Threading.Tasks.TaskCanceledException
+Exception Message: A task was canceled.
+Stack Trace:    at GenxAi_Solutions.Services.NotificationStore.GetUnreadAfterIdAllAsync(Int32 userId, IReadOnlyList`1 companyIds, Nullable`1 afterId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Services\NotificationStore.cs:line 77
+   at GenxAi_Solutions.Services.NotificationStore.GetUnreadAfterIdAllAsync(Int32 userId, IReadOnlyList`1 companyIds, Nullable`1 afterId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Services\NotificationStore.cs:line 131
+   at GenxAi_Solutions.Api.NotificationsController.GetUnread(Nullable`1 afterId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Api\NotificationsController.cs:line 27
+--------------------------------------------------------------------------------
+[2025-10-27 19:55:30.923] [Error]
+Category: GenxAi_Solutions.Api.NotificationsController
+Message: GetUnread failed. afterId=20037
+Exception Type: System.Threading.Tasks.TaskCanceledException
+Exception Message: A task was canceled.
+Stack Trace:    at GenxAi_Solutions.Services.NotificationStore.GetUnreadAfterIdAllAsync(Int32 userId, IReadOnlyList`1 companyIds, Nullable`1 afterId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Services\NotificationStore.cs:line 77
+   at GenxAi_Solutions.Services.NotificationStore.GetUnreadAfterIdAllAsync(Int32 userId, IReadOnlyList`1 companyIds, Nullable`1 afterId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Services\NotificationStore.cs:line 131
+   at GenxAi_Solutions.Api.NotificationsController.GetUnread(Nullable`1 afterId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Api\NotificationsController.cs:line 27
+--------------------------------------------------------------------------------
+[2025-10-27 19:55:30.925] [Error]
+Category: GenxAi_Solutions.Api.NotificationsController
+Message: GetUnread failed. afterId=20037
+Exception Type: System.Threading.Tasks.TaskCanceledException
+Exception Message: A task was canceled.
+Stack Trace:    at GenxAi_Solutions.Services.NotificationStore.GetUnreadAfterIdAllAsync(Int32 userId, IReadOnlyList`1 companyIds, Nullable`1 afterId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Services\NotificationStore.cs:line 77
+   at GenxAi_Solutions.Services.NotificationStore.GetUnreadAfterIdAllAsync(Int32 userId, IReadOnlyList`1 companyIds, Nullable`1 afterId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Services\NotificationStore.cs:line 131
+   at GenxAi_Solutions.Api.NotificationsController.GetUnread(Nullable`1 afterId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Api\NotificationsController.cs:line 27
+--------------------------------------------------------------------------------

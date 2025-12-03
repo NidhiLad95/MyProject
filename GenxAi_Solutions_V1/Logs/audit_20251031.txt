@@ -1,0 +1,160 @@
+﻿[2025-10-31 13:09:23.375] [AUDIT]
+Event: General Audit
+Details: QueuedWorker started.
+------------------------------------------------------------
+[2025-10-31 13:09:23.546] [AUDIT]
+Event: ListeningOnAddress
+Details: Now listening on: https://localhost:7282
+------------------------------------------------------------
+[2025-10-31 13:09:23.546] [AUDIT]
+Event: ListeningOnAddress
+Details: Now listening on: http://localhost:5072
+------------------------------------------------------------
+[2025-10-31 13:09:23.597] [AUDIT]
+Event: General Audit
+Details: Application started. Press Ctrl+C to shut down.
+------------------------------------------------------------
+[2025-10-31 13:09:23.598] [AUDIT]
+Event: General Audit
+Details: Hosting environment: Development
+------------------------------------------------------------
+[2025-10-31 13:09:23.598] [AUDIT]
+Event: General Audit
+Details: Content root path: D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions
+------------------------------------------------------------
+[2025-10-31 13:09:35.539] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: POST /api/auth/login, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-31 13:09:44.198] [AUDIT]
+Event: General Audit
+Details: SECURITY_EVENT: Type: UNAUTHORIZED_ACCESS, User: anonymous, IP: ::1, Details: Attempted to access POST /api/auth/login, Status: 401
+------------------------------------------------------------
+[2025-10-31 13:09:58.752] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: POST /api/auth/login, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-31 13:10:05.674] [AUDIT]
+Event: General Audit
+Details: USER_LOGIN: User: nidhi.lad@genxai.com, IP: ::1, Status: SUCCESS
+------------------------------------------------------------
+[2025-10-31 13:10:05.892] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-31 13:10:05.910] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/CompanyOnboard/History/me, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-31 13:10:05.917] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: POST /api/auth/getmenu, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-31 13:10:06.145] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=2 companies=0 afterId=(null)
+------------------------------------------------------------
+[2025-10-31 13:10:10.805] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-31 18:26:42.831] [AUDIT]
+Event: General Audit
+Details: QueuedWorker started.
+------------------------------------------------------------
+[2025-10-31 18:26:43.326] [AUDIT]
+Event: ListeningOnAddress
+Details: Now listening on: https://localhost:7282
+------------------------------------------------------------
+[2025-10-31 18:26:43.328] [AUDIT]
+Event: ListeningOnAddress
+Details: Now listening on: http://localhost:5072
+------------------------------------------------------------
+[2025-10-31 18:26:43.538] [AUDIT]
+Event: General Audit
+Details: Application started. Press Ctrl+C to shut down.
+------------------------------------------------------------
+[2025-10-31 18:26:43.556] [AUDIT]
+Event: General Audit
+Details: Hosting environment: Development
+------------------------------------------------------------
+[2025-10-31 18:26:43.564] [AUDIT]
+Event: General Audit
+Details: Content root path: D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions
+------------------------------------------------------------
+[2025-10-31 18:27:01.779] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: POST /api/auth/login, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-31 18:27:10.432] [AUDIT]
+Event: General Audit
+Details: USER_LOGIN: User: suchita.gome@genxai.com, IP: ::1, Status: SUCCESS
+------------------------------------------------------------
+[2025-10-31 18:27:10.681] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-31 18:27:10.738] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: POST /api/auth/getmenu, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-31 18:27:10.921] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=1 companies=1125,1127,1131,2120,2120,4,3120,3120,5,3128,3128,4,3135,3135,9,3157,3157,3169,3169,3,3178,3179,3180,3181,3181,3180,3180,2,2,3182,3182,3183,3186,3186,3187,3188,3188,3187,3189,3189,2,2,3190,3189,3189,3191,3191 afterId=(null)
+------------------------------------------------------------
+[2025-10-31 18:27:15.560] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync returned 9 items
+------------------------------------------------------------
+[2025-10-31 18:27:20.695] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-31 18:27:20.759] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=1 companies=1125,1127,1131,2120,2120,4,3120,3120,5,3128,3128,4,3135,3135,9,3157,3157,3169,3169,3,3178,3179,3180,3181,3181,3180,3180,2,2,3182,3182,3183,3186,3186,3187,3188,3188,3187,3189,3189,2,2,3190,3189,3189,3191,3191 afterId=20044
+------------------------------------------------------------
+[2025-10-31 18:27:21.888] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: POST /api/auth/getmenu, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-31 18:27:21.897] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-31 18:27:21.979] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=1 companies=1125,1127,1131,2120,2120,4,3120,3120,5,3128,3128,4,3135,3135,9,3157,3157,3169,3169,3,3178,3179,3180,3181,3181,3180,3180,2,2,3182,3182,3183,3186,3186,3187,3188,3188,3187,3189,3189,2,2,3190,3189,3189,3191,3191 afterId=(null)
+------------------------------------------------------------
+[2025-10-31 18:27:22.063] [AUDIT]
+Event: General Audit
+Details: GetUnread failed. afterId=20044
+------------------------------------------------------------
+[2025-10-31 18:27:26.623] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync returned 9 items
+------------------------------------------------------------
+[2025-10-31 18:27:31.870] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-31 18:27:31.920] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=1 companies=1125,1127,1131,2120,2120,4,3120,3120,5,3128,3128,4,3135,3135,9,3157,3157,3169,3169,3,3178,3179,3180,3181,3181,3180,3180,2,2,3182,3182,3183,3186,3186,3187,3188,3188,3187,3189,3189,2,2,3190,3189,3189,3191,3191 afterId=20044
+------------------------------------------------------------
+[2025-10-31 18:27:36.541] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-31 18:27:41.853] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-31 18:27:41.908] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=1 companies=1125,1127,1131,2120,2120,4,3120,3120,5,3128,3128,4,3135,3135,9,3157,3157,3169,3169,3,3178,3179,3180,3181,3181,3180,3180,2,2,3182,3182,3183,3186,3186,3187,3188,3188,3187,3189,3189,2,2,3190,3189,3189,3191,3191 afterId=20044
+------------------------------------------------------------
+[2025-10-31 18:27:44.083] [AUDIT]
+Event: General Audit
+Details: GetUnread failed. afterId=20044
+------------------------------------------------------------

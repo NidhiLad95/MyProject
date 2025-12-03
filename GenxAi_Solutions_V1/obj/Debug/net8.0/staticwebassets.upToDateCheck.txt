@@ -1,0 +1,245 @@
+wwwroot\assets\demo\chart-area-demo.js
+wwwroot\assets\demo\chart-bar-demo.js
+wwwroot\assets\demo\chart-pie-demo.js
+wwwroot\assets\demo\datatables-demo.js
+wwwroot\assets\img\error-404-monochrome.svg
+wwwroot\assets\img\Future-of-AI.jpg
+wwwroot\assets\img\GenXAILatest.png
+wwwroot\assets\img\user.png
+wwwroot\css\site.css
+wwwroot\css\styles.css
+wwwroot\css\styles_custom.css
+wwwroot\css\table-card.css
+wwwroot\favicon.ico
+wwwroot\js\bootstrap4.min.js
+wwwroot\js\changePassword.js
+wwwroot\js\custom.js
+wwwroot\js\datatables-simple-demo.js
+wwwroot\js\JwtJS.js
+wwwroot\js\scripts.js
+wwwroot\js\site.js
+wwwroot\js\user-validation.js
+wwwroot\lib\bootstrap\dist\css\bootstrap.css
+wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css
+wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css.map
+wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js
+wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js.map
+wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js
+wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map
+wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js
+wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js.map
+wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js
+wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js.map
+wwwroot\lib\bootstrap\dist\js\bootstrap.js
+wwwroot\lib\bootstrap\dist\js\bootstrap.js.map
+wwwroot\lib\bootstrap\dist\js\bootstrap.min.js
+wwwroot\lib\bootstrap\dist\js\bootstrap.min.js.map
+wwwroot\lib\bootstrap\LICENSE
+wwwroot\lib\jquery\dist\jquery.js
+wwwroot\lib\jquery\dist\jquery.min.js
+wwwroot\lib\jquery\dist\jquery.min.map
+wwwroot\lib\jquery\LICENSE.txt
+wwwroot\lib\jquery-validation\dist\additional-methods.js
+wwwroot\lib\jquery-validation\dist\additional-methods.min.js
+wwwroot\lib\jquery-validation\dist\jquery.validate.js
+wwwroot\lib\jquery-validation\dist\jquery.validate.min.js
+wwwroot\lib\jquery-validation\LICENSE.md
+wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js
+wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js
+wwwroot\lib\jquery-validation-unobtrusive\LICENSE.txt
+wwwroot\Uploads\1f1676d4-ba77-4fd0-9391-990ea80e0008_flower.jpg
+wwwroot\Uploads\4e7dc9f6-da76-429e-88a8-a588c5c6d5ad_flower.jpg
+wwwroot\Uploads\6183f947-b266-4122-b86c-73b47ad81f1c_flower.jpg
+wwwroot\Uploads\d504cfa4-d058-4e4d-88ef-c94ab5f89b53_flower.jpg
+wwwroot\Uploads\de6f410e-b020-4502-a9d9-adffff68a4b7_flower.jpg
+wwwroot\Uploads\flower.jpg
+wwwroot\Uploads\GFR-I.pdf
+wwwroot\Uploads\GFR-II.pdf
+wwwroot\Uploads\GXP_EMP_051.pdf
+wwwroot\Uploads\PDF\123 Db Test\input.pdf
+wwwroot\Uploads\PDF\123456789\638936808243370386_Think-And-Grow-Rich_2011-06 (1).pdf
+wwwroot\Uploads\PDF\123456789\GFR-III.pdf
+wwwroot\Uploads\PDF\12345abcdeAdAEF\638935261852428305_PDFGallery_20250711_124842.pdf
+wwwroot\Uploads\PDF\12345abcdeAdAEF\638935262188259428_Think-And-Grow-Rich_2011-06 (1).pdf
+wwwroot\Uploads\PDF\27NovDemo\GFR-III.pdf
+wwwroot\Uploads\PDF\300\input.pdf
+wwwroot\Uploads\PDF\ABCDEF\638935223529681850_rich_dad_poor_dad_by_robert_t-_kiyosaki.pdf
+wwwroot\Uploads\PDF\ACG India\GFR-I.pdf
+wwwroot\Uploads\PDF\ACG India\GFR-II.pdf
+wwwroot\Uploads\PDF\ACG India\GFR-III.pdf
+wwwroot\Uploads\PDF\ACG India\vol2.pdf
+wwwroot\Uploads\PDF\ACG India2\GFR-II.pdf
+wwwroot\Uploads\PDF\ACG India3\GFR-II.pdf
+wwwroot\Uploads\PDF\AgentFreedemo\GFR-III.pdf
+wwwroot\Uploads\PDF\AI Genx\638936166557426819_Think-And-Grow-Rich_2011-06.pdf
+wwwroot\Uploads\PDF\Aigiri nandini\638936786851026698_Think-And-Grow-Rich_2011-06 (1).pdf
+wwwroot\Uploads\PDF\Amit Trial test\rich_dad_poor_dad_by_robert_t-_kiyosaki.pdf
+wwwroot\Uploads\PDF\anaplan\638935255799054772_Think-And-Grow-Rich_2011-06 (1).pdf
+wwwroot\Uploads\PDF\anaplan\638935257267833661_Help Desk - Ticket Raise.pdf
+wwwroot\Uploads\PDF\anaplan\638935258075606066_PDFGallery_20250711_124842.pdf
+wwwroot\Uploads\PDF\AS\GFR-II.pdf
+wwwroot\Uploads\PDF\AS\GFR-III.pdf
+wwwroot\Uploads\PDF\AS\vol2.pdf
+wwwroot\Uploads\PDF\asdjhaedyfewtd\638936154973253707_Think-And-Grow-Rich_2011-06 (1).pdf
+wwwroot\Uploads\PDF\asdsa\GFR-III.pdf
+wwwroot\Uploads\PDF\asdsdfsdf\GFR-II.pdf
+wwwroot\Uploads\PDF\BackGround\input_detailed.pdf
+wwwroot\Uploads\PDF\Bajaj\GFR-I.pdf
+wwwroot\Uploads\PDF\Chat Company\HumanResourcePolicy.pdf
+wwwroot\Uploads\PDF\Chat Company\Information security.pdf
+wwwroot\Uploads\PDF\Chat Company\IT Asset Management Policy 2.3.pdf
+wwwroot\Uploads\PDF\Check agent\textbook.pdf
+wwwroot\Uploads\PDF\Check data\638936421737965733_Think-And-Grow-Rich_2011-06.pdf
+wwwroot\Uploads\PDF\Check data\GFR-II.pdf
+wwwroot\Uploads\PDF\Check status\Think-And-Grow-Rich_2011-06 (1).pdf
+wwwroot\Uploads\PDF\cpmpant 123 test\GFR-III.pdf
+wwwroot\Uploads\PDF\cyber link\638936427557016599_Think-And-Grow-Rich_2011-06 (1).pdf
+wwwroot\Uploads\PDF\cyber link\GFR-I.pdf
+wwwroot\Uploads\PDF\data analytics\638936395756535325_rich_dad_poor_dad_by_robert_t-_kiyosaki.pdf
+wwwroot\Uploads\PDF\data analytics\GFR-I.pdf
+wwwroot\Uploads\PDF\data analytics\GFR-II.pdf
+wwwroot\Uploads\PDF\data analytics\GFR-III.pdf
+wwwroot\Uploads\PDF\DB Test genxai VR\input_detailed.pdf
+wwwroot\Uploads\PDF\DB Test genxai VR123\input_detailed.pdf
+wwwroot\Uploads\PDF\DB Test genxai\rich_dad_poor_dad_by_robert_t-_kiyosaki.pdf
+wwwroot\Uploads\PDF\DB Test Nidhi\638936817625931357_Help Desk - Ticket Raise.pdf
+wwwroot\Uploads\PDF\DB Test\638936815326973012_Help Desk - Ticket Raise.pdf
+wwwroot\Uploads\PDF\ddddddddddddddd\Think-And-Grow-Rich_2011-06 (1).pdf
+wwwroot\Uploads\PDF\ddfdnfsk\vol2.pdf
+wwwroot\Uploads\PDF\ddkkfn\GFR-I.pdf
+wwwroot\Uploads\PDF\ddkkfn\GFR-III.pdf
+wwwroot\Uploads\PDF\Demo Note\Think-And-Grow-Rich_2011-06 (1).pdf
+wwwroot\Uploads\PDF\Demo test\rich_dad_poor_dad_by_robert_t-_kiyosaki.pdf
+wwwroot\Uploads\PDF\demo\638935499902454990_Think-And-Grow-Rich_2011-06 (1).pdf
+wwwroot\Uploads\PDF\demo\638936747409701646_Think-And-Grow-Rich_2011-06 (1).pdf
+wwwroot\Uploads\PDF\demoDummy\GFR-II.pdf
+wwwroot\Uploads\PDF\demoDummy\vol2.pdf
+wwwroot\Uploads\PDF\erererererererere\input_detailed.pdf
+wwwroot\Uploads\PDF\erew\GFR-III.pdf
+wwwroot\Uploads\PDF\ertrr\GFR-I.pdf
+wwwroot\Uploads\PDF\euryeu\GFR-II.pdf
+wwwroot\Uploads\PDF\euryeu\GFR-III.pdf
+wwwroot\Uploads\PDF\ewff\GFR-III.pdf
+wwwroot\Uploads\PDF\ff\GFR-I.pdf
+wwwroot\Uploads\PDF\ff\GFR-II.pdf
+wwwroot\Uploads\PDF\ff\GFR-III.pdf
+wwwroot\Uploads\PDF\ff\vol2.pdf
+wwwroot\Uploads\PDF\ffee\GFR-II.pdf
+wwwroot\Uploads\PDF\File Agent Frame 1\textbook.pdf
+wwwroot\Uploads\PDF\File Agent Frame check\textbook.pdf
+wwwroot\Uploads\PDF\Frameworkdemo\vol2.pdf
+wwwroot\Uploads\PDF\Genx AI Solution\638936160562896357_rich_dad_poor_dad_by_robert_t-_kiyosaki.pdf
+wwwroot\Uploads\PDF\GenxAI 12334\638936184998264587_rich_dad_poor_dad_by_robert_t-_kiyosaki.pdf
+wwwroot\Uploads\PDF\GenxAI 12334\638936184998384896_Think-And-Grow-Rich_2011-06 (1).pdf
+wwwroot\Uploads\PDF\GenxAI 12334\638936184998465576_Think-And-Grow-Rich_2011-06.pdf
+wwwroot\Uploads\PDF\GenxAI 12334\GFR-III.pdf
+wwwroot\Uploads\PDF\GenxAI 12334\vol2.pdf
+wwwroot\Uploads\PDF\GenXAI gggggggggggggggggggggggg\input_detailed.pdf
+wwwroot\Uploads\PDF\GenxAI VR\Think-And-Grow-Rich_2011-06 (1).pdf
+wwwroot\Uploads\PDF\genxai.com 123456\input_detailed.pdf
+wwwroot\Uploads\PDF\genxai.com gggggggg\vol2.pdf
+wwwroot\Uploads\PDF\genxai.com Nidhi 1231212\GFR-III.pdf
+wwwroot\Uploads\PDF\genxai.com wwwwwwwwwww fff\GFR-II.pdf
+wwwroot\Uploads\PDF\genxai.com wwwwwwwwwww\GFR-III.pdf
+wwwroot\Uploads\PDF\genxai.com\GFR-III.pdf
+wwwroot\Uploads\PDF\GenxAI\638936174795110783_rich_dad_poor_dad_by_robert_t-_kiyosaki.pdf
+wwwroot\Uploads\PDF\GenxAI\638936178179196230_rich_dad_poor_dad_by_robert_t-_kiyosaki.pdf
+wwwroot\Uploads\PDF\GenxAI\GFR-II.pdf
+wwwroot\Uploads\PDF\ggggggggggggyyyyyyyyyyyyyyyyyyy\GFR-II.pdf
+wwwroot\Uploads\PDF\hhj\GFR-III.pdf
+wwwroot\Uploads\PDF\Invoicing.com\IND0020_HERO_LAPJUL25_07_18092025045232.pdf
+wwwroot\Uploads\PDF\ireioet\vol2.pdf
+wwwroot\Uploads\PDF\jj\GFR-III.pdf
+wwwroot\Uploads\PDF\kernelRohitDemo\GFR-III.pdf
+wwwroot\Uploads\PDF\kjk\GFR-II.pdf
+wwwroot\Uploads\PDF\kjk\GFR-III.pdf
+wwwroot\Uploads\PDF\kkjdfjk\GFR-I.pdf
+wwwroot\Uploads\PDF\lkjioj\GFR-II.pdf
+wwwroot\Uploads\PDF\Microsoft\vol2.pdf
+wwwroot\Uploads\PDF\My test DB\GFR-I.pdf
+wwwroot\Uploads\PDF\My test DB\GFR-III.pdf
+wwwroot\Uploads\PDF\My test DB\input.pdf
+wwwroot\Uploads\PDF\My test DB\vol2.pdf
+wwwroot\Uploads\PDF\New Agent Framework\textbook.pdf
+wwwroot\Uploads\PDF\Nidhi Company 12345\vol2.pdf
+wwwroot\Uploads\PDF\Nidhi Data\GFR-III.pdf
+wwwroot\Uploads\PDF\Nidhi Db Test\Think-And-Grow-Rich_2011-06 (1).pdf
+wwwroot\Uploads\PDF\Nidhi Notification\GFR-I.pdf
+wwwroot\Uploads\PDF\Nidhi Test 16\GFR-I.pdf
+wwwroot\Uploads\PDF\Nidhi Test 16\GFR-II.pdf
+wwwroot\Uploads\PDF\Nidhi Test 16\GFR-III.pdf
+wwwroot\Uploads\PDF\nk\GFR-III.pdf
+wwwroot\Uploads\PDF\nk\vol2.pdf
+wwwroot\Uploads\PDF\note\rich_dad_poor_dad_by_robert_t-_kiyosaki.pdf
+wwwroot\Uploads\PDF\otrjoit\GFR-III.pdf
+wwwroot\Uploads\PDF\pdf test\rich_dad_poor_dad_by_robert_t-_kiyosaki.pdf
+wwwroot\Uploads\PDF\Pratik & Co\Think-And-Grow-Rich_2011-06 (1).pdf
+wwwroot\Uploads\PDF\pratik fundings\638936404728031328_rich_dad_poor_dad_by_robert_t-_kiyosaki.pdf
+wwwroot\Uploads\PDF\RA01\123456.pdf
+wwwroot\Uploads\PDF\rajiv\638936762611146687_Think-And-Grow-Rich_2011-06 (1).pdf
+wwwroot\Uploads\PDF\RAK\1234567.pdf
+wwwroot\Uploads\PDF\RandomServerTest\123456.pdf
+wwwroot\Uploads\PDF\Raz\GFR-II.pdf
+wwwroot\Uploads\PDF\rtrtrtertry\vol2.pdf
+wwwroot\Uploads\PDF\rutire\GFR-I.pdf
+wwwroot\Uploads\PDF\Sanghavi and Sons\638936390866622376_Think-And-Grow-Rich_2011-06 (1).pdf
+wwwroot\Uploads\PDF\Sanghavi and Sons\GFR-III.pdf
+wwwroot\Uploads\PDF\Sanghavi and Sons\vol2.pdf
+wwwroot\Uploads\PDF\Schema Test\rich_dad_poor_dad_by_robert_t-_kiyosaki.pdf
+wwwroot\Uploads\PDF\Sql Analytics\638936417292689838_rich_dad_poor_dad_by_robert_t-_kiyosaki.pdf
+wwwroot\Uploads\PDF\Sql Analytics\GFR-I.pdf
+wwwroot\Uploads\PDF\Suchita\638935229210130581_Think-And-Grow-Rich_2011-06.pdf
+wwwroot\Uploads\PDF\test 123\rich_dad_poor_dad_by_robert_t-_kiyosaki.pdf
+wwwroot\Uploads\PDF\Test Charu Ganga\638936756540782877_Think-And-Grow-Rich_2011-06 (1).pdf
+wwwroot\Uploads\PDF\test comp\Think-And-Grow-Rich_2011-06.pdf
+wwwroot\Uploads\PDF\test demo nidhi\Help Desk - Ticket Raise.pdf
+wwwroot\Uploads\PDF\test demo\638936750269173090_Help Desk - Ticket Raise.pdf
+wwwroot\Uploads\PDF\test\638936736978673896_Think-And-Grow-Rich_2011-06.pdf
+wwwroot\Uploads\PDF\test12\638936740537193237_Think-And-Grow-Rich_2011-06 (1).pdf
+wwwroot\Uploads\PDF\testing fow\GFR-III.pdf
+wwwroot\Uploads\PDF\This My trest\GFR-I.pdf
+wwwroot\Uploads\PDF\This My trest\GFR-II.pdf
+wwwroot\Uploads\PDF\This My trest\GFR-III.pdf
+wwwroot\Uploads\PDF\This My trest\vol2.pdf
+wwwroot\Uploads\PDF\this note\Think-And-Grow-Rich_2011-06 (1).pdf
+wwwroot\Uploads\PDF\tset company\GFR-II.pdf
+wwwroot\Uploads\PDF\uouomb\GFR-III.pdf
+wwwroot\Uploads\PDF\VR Genx AI Det ttt\rich_dad_poor_dad_by_robert_t-_kiyosaki.pdf
+wwwroot\Uploads\PDF\VR Genx\input_detailed.pdf
+wwwroot\Uploads\PDF\weriuu\GFR-III.pdf
+wwwroot\Uploads\PDF\west side\638936431200410576_rich_dad_poor_dad_by_robert_t-_kiyosaki.pdf
+wwwroot\Uploads\PDF\west side\GFR-I.pdf
+wwwroot\Uploads\PDF\Working Agent\textbook.pdf
+wwwroot\Uploads\PDF\XYZ\638936386499654623_Think-And-Grow-Rich_2011-06.pdf
+wwwroot\Uploads\PDF\YouMe\GFR-I.pdf
+wwwroot\Uploads\PDF\yuh\GFR-II.pdf
+wwwroot\Uploads\vol2.pdf

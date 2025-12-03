@@ -1,0 +1,51 @@
+﻿@model IEnumerable<GenxAi_Solutions.Models.UserGroup>
+
+<div class="content-header">
+    <h3>Group</h3>
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="/Home/Index">Masters</a></li>
+        <li class="breadcrumb-item active">Group</li>
+    </ol>
+</div>
+
+<div class="mb-3">
+    <a asp-action="Add" class="btn btn-primary">Add New</a>
+</div>
+
+<table class="table table-bordered table-striped">
+    <thead>
+        <tr>
+            <th>Sr. No.</th>
+            <th>Group Name</th>
+            <th>Action</th>
+        </tr>
+    </thead>
+    <tbody>
+        @if (Model.Any())
+        {
+            var i = 1;
+            foreach (var item in Model)
+            {
+                <tr>
+                    <td>@i</td>
+                    <td>@item.GroupName</td>
+                    @* <td>
+                        <a asp-action="Edit" asp-route-id="@item.GroupID" class="btn btn-sm btn-info">Edit</a>
+                        <form asp-action="Delete" asp-route-id="@item.GroupID" method="post" style="display:inline;">
+                            <button type="submit" class="btn btn-sm @(item.IsActive ? "btn-danger" : "btn-success")">
+                                @(item.IsActive ? "Delete" : "Activate")
+                            </button>
+                        </form>
+                    </td> *@
+                </tr>
+                i++;
+            }
+        }
+        else
+        {
+            <tr>
+                <td colspan="3" class="text-center">No Record Found</td>
+            </tr>
+        }
+    </tbody>
+</table>

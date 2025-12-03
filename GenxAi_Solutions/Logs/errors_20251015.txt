@@ -1,0 +1,90 @@
+﻿[2025-10-15 21:20:42.547] [Error]
+Category: GenxAi_Solutions.Api.NotificationsController
+Message: GetUnread failed. afterId=(null)
+Exception Type: System.Threading.Tasks.TaskCanceledException
+Exception Message: A task was canceled.
+Stack Trace:    at GenxAi_Solutions.Services.NotificationStore.GetUnreadAfterIdAllAsync(Int32 userId, IReadOnlyList`1 companyIds, Nullable`1 afterId, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Services\NotificationStore.cs:line 77
+   at GenxAi_Solutions.Services.NotificationStore.GetUnreadAfterIdAllAsync(Int32 userId, IReadOnlyList`1 companyIds, Nullable`1 afterId, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Services\NotificationStore.cs:line 131
+   at GenxAi_Solutions.Api.NotificationsController.GetUnread(Nullable`1 afterId, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Api\NotificationsController.cs:line 27
+--------------------------------------------------------------------------------
+[2025-10-15 21:20:42.669] [Error]
+Category: GenxAi_Solutions.Api.NotificationsController
+Message: GetUnread failed. afterId=(null)
+Exception Type: System.Threading.Tasks.TaskCanceledException
+Exception Message: A task was canceled.
+Stack Trace:    at GenxAi_Solutions.Services.NotificationStore.GetUnreadAfterIdAllAsync(Int32 userId, IReadOnlyList`1 companyIds, Nullable`1 afterId, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Services\NotificationStore.cs:line 77
+   at GenxAi_Solutions.Services.NotificationStore.GetUnreadAfterIdAllAsync(Int32 userId, IReadOnlyList`1 companyIds, Nullable`1 afterId, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Services\NotificationStore.cs:line 131
+   at GenxAi_Solutions.Api.NotificationsController.GetUnread(Nullable`1 afterId, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Api\NotificationsController.cs:line 27
+--------------------------------------------------------------------------------
+[2025-10-15 21:33:12.983] [Error]
+Category: GenxAi_Solutions.Api.NotificationsController
+Message: GetUnread failed. afterId=(null)
+Exception Type: System.Threading.Tasks.TaskCanceledException
+Exception Message: A task was canceled.
+Stack Trace:    at GenxAi_Solutions.Services.NotificationStore.GetUnreadAfterIdAllAsync(Int32 userId, IReadOnlyList`1 companyIds, Nullable`1 afterId, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Services\NotificationStore.cs:line 77
+   at GenxAi_Solutions.Services.NotificationStore.GetUnreadAfterIdAllAsync(Int32 userId, IReadOnlyList`1 companyIds, Nullable`1 afterId, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Services\NotificationStore.cs:line 131
+   at GenxAi_Solutions.Api.NotificationsController.GetUnread(Nullable`1 afterId, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Api\NotificationsController.cs:line 27
+--------------------------------------------------------------------------------
+[2025-10-15 21:33:13.061] [Error]
+Category: GenxAi_Solutions.Api.NotificationsController
+Message: GetUnread failed. afterId=(null)
+Exception Type: System.Threading.Tasks.TaskCanceledException
+Exception Message: A task was canceled.
+Stack Trace:    at GenxAi_Solutions.Services.NotificationStore.GetUnreadAfterIdAllAsync(Int32 userId, IReadOnlyList`1 companyIds, Nullable`1 afterId, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Services\NotificationStore.cs:line 77
+   at GenxAi_Solutions.Services.NotificationStore.GetUnreadAfterIdAllAsync(Int32 userId, IReadOnlyList`1 companyIds, Nullable`1 afterId, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Services\NotificationStore.cs:line 131
+   at GenxAi_Solutions.Api.NotificationsController.GetUnread(Nullable`1 afterId, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Api\NotificationsController.cs:line 27
+--------------------------------------------------------------------------------
+[2025-10-15 22:52:30.262] [Error]
+Category: GenxAi_Solutions.Api.NotificationsController
+Message: GetUnread failed. afterId=(null)
+Exception Type: System.Threading.Tasks.TaskCanceledException
+Exception Message: A task was canceled.
+Stack Trace:    at GenxAi_Solutions.Services.NotificationStore.GetUnreadAfterIdAllAsync(Int32 userId, IReadOnlyList`1 companyIds, Nullable`1 afterId, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Services\NotificationStore.cs:line 77
+   at GenxAi_Solutions.Services.NotificationStore.GetUnreadAfterIdAllAsync(Int32 userId, IReadOnlyList`1 companyIds, Nullable`1 afterId, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Services\NotificationStore.cs:line 131
+   at GenxAi_Solutions.Api.NotificationsController.GetUnread(Nullable`1 afterId, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Api\NotificationsController.cs:line 27
+--------------------------------------------------------------------------------
+[2025-10-15 22:52:30.370] [Error]
+Category: GenxAi_Solutions.Api.NotificationsController
+Message: GetUnread failed. afterId=(null)
+Exception Type: System.Threading.Tasks.TaskCanceledException
+Exception Message: A task was canceled.
+Stack Trace:    at GenxAi_Solutions.Services.NotificationStore.GetUnreadAfterIdAllAsync(Int32 userId, IReadOnlyList`1 companyIds, Nullable`1 afterId, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Services\NotificationStore.cs:line 77
+   at GenxAi_Solutions.Services.NotificationStore.GetUnreadAfterIdAllAsync(Int32 userId, IReadOnlyList`1 companyIds, Nullable`1 afterId, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Services\NotificationStore.cs:line 131
+   at GenxAi_Solutions.Api.NotificationsController.GetUnread(Nullable`1 afterId, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Api\NotificationsController.cs:line 27
+--------------------------------------------------------------------------------
+[2025-10-15 23:18:28.692] [Error]
+Category: GenxAi_Solutions.Api.NotificationsController
+Message: GetUnread failed. afterId=(null)
+Exception Type: System.Threading.Tasks.TaskCanceledException
+Exception Message: A task was canceled.
+Stack Trace:    at GenxAi_Solutions.Services.NotificationStore.GetUnreadAfterIdAllAsync(Int32 userId, IReadOnlyList`1 companyIds, Nullable`1 afterId, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Services\NotificationStore.cs:line 77
+   at GenxAi_Solutions.Services.NotificationStore.GetUnreadAfterIdAllAsync(Int32 userId, IReadOnlyList`1 companyIds, Nullable`1 afterId, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Services\NotificationStore.cs:line 131
+   at GenxAi_Solutions.Api.NotificationsController.GetUnread(Nullable`1 afterId, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Api\NotificationsController.cs:line 27
+--------------------------------------------------------------------------------
+[2025-10-15 23:18:28.735] [Error]
+Category: GenxAi_Solutions.Api.NotificationsController
+Message: GetUnread failed. afterId=(null)
+Exception Type: System.Threading.Tasks.TaskCanceledException
+Exception Message: A task was canceled.
+Stack Trace:    at GenxAi_Solutions.Services.NotificationStore.GetUnreadAfterIdAllAsync(Int32 userId, IReadOnlyList`1 companyIds, Nullable`1 afterId, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Services\NotificationStore.cs:line 77
+   at GenxAi_Solutions.Services.NotificationStore.GetUnreadAfterIdAllAsync(Int32 userId, IReadOnlyList`1 companyIds, Nullable`1 afterId, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Services\NotificationStore.cs:line 131
+   at GenxAi_Solutions.Api.NotificationsController.GetUnread(Nullable`1 afterId, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Api\NotificationsController.cs:line 27
+--------------------------------------------------------------------------------
+[2025-10-15 23:24:54.732] [Error]
+Category: GenxAi_Solutions.Api.NotificationsController
+Message: GetUnread failed. afterId=(null)
+Exception Type: System.Threading.Tasks.TaskCanceledException
+Exception Message: A task was canceled.
+Stack Trace:    at GenxAi_Solutions.Services.NotificationStore.GetUnreadAfterIdAllAsync(Int32 userId, IReadOnlyList`1 companyIds, Nullable`1 afterId, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Services\NotificationStore.cs:line 77
+   at GenxAi_Solutions.Services.NotificationStore.GetUnreadAfterIdAllAsync(Int32 userId, IReadOnlyList`1 companyIds, Nullable`1 afterId, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Services\NotificationStore.cs:line 131
+   at GenxAi_Solutions.Api.NotificationsController.GetUnread(Nullable`1 afterId, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Api\NotificationsController.cs:line 27
+--------------------------------------------------------------------------------
+[2025-10-15 23:24:54.733] [Error]
+Category: GenxAi_Solutions.Api.NotificationsController
+Message: GetUnread failed. afterId=(null)
+Exception Type: System.Threading.Tasks.TaskCanceledException
+Exception Message: A task was canceled.
+Stack Trace:    at GenxAi_Solutions.Services.NotificationStore.GetUnreadAfterIdAllAsync(Int32 userId, IReadOnlyList`1 companyIds, Nullable`1 afterId, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Services\NotificationStore.cs:line 77
+   at GenxAi_Solutions.Services.NotificationStore.GetUnreadAfterIdAllAsync(Int32 userId, IReadOnlyList`1 companyIds, Nullable`1 afterId, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Services\NotificationStore.cs:line 131
+   at GenxAi_Solutions.Api.NotificationsController.GetUnread(Nullable`1 afterId, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Api\NotificationsController.cs:line 27
+--------------------------------------------------------------------------------

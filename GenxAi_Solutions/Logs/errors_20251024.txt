@@ -1,0 +1,1186 @@
+﻿[2025-10-24 11:21:30.909] [Error]
+Category: GenxAi_Solutions.Api.NotificationsController
+Message: GetUnread failed. afterId=(null)
+Exception Type: System.Threading.Tasks.TaskCanceledException
+Exception Message: A task was canceled.
+Stack Trace:    at GenxAi_Solutions.Services.NotificationStore.GetUnreadAfterIdAllAsync(Int32 userId, IReadOnlyList`1 companyIds, Nullable`1 afterId, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Services\NotificationStore.cs:line 77
+   at GenxAi_Solutions.Services.NotificationStore.GetUnreadAfterIdAllAsync(Int32 userId, IReadOnlyList`1 companyIds, Nullable`1 afterId, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Services\NotificationStore.cs:line 131
+   at GenxAi_Solutions.Api.NotificationsController.GetUnread(Nullable`1 afterId, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Api\NotificationsController.cs:line 27
+--------------------------------------------------------------------------------
+[2025-10-24 11:21:31.232] [Error]
+Category: GenxAi_Solutions.Api.NotificationsController
+Message: GetUnread failed. afterId=(null)
+Exception Type: System.Threading.Tasks.TaskCanceledException
+Exception Message: A task was canceled.
+Stack Trace:    at GenxAi_Solutions.Services.NotificationStore.GetUnreadAfterIdAllAsync(Int32 userId, IReadOnlyList`1 companyIds, Nullable`1 afterId, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Services\NotificationStore.cs:line 77
+   at GenxAi_Solutions.Services.NotificationStore.GetUnreadAfterIdAllAsync(Int32 userId, IReadOnlyList`1 companyIds, Nullable`1 afterId, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Services\NotificationStore.cs:line 131
+   at GenxAi_Solutions.Api.NotificationsController.GetUnread(Nullable`1 afterId, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Api\NotificationsController.cs:line 27
+--------------------------------------------------------------------------------
+[2025-10-24 11:22:38.275] [Error]
+Category: GenxAi_Solutions.Utils.Middleware.ErrorHandlingMiddleware
+Message: Unhandled exception POST /api/CompanyOnboard/databaseinfo 9282e553-ba4b-497d-b20c-0c9a9b912765. Exception Details: Microsoft.Data.SqlClient.SqlException - Database 'Please Select' does not exist. Make sure that the name is entered correctly. Stack Trace:    at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, SqlCommand command, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.ChangeDatabaseInternal(String database)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.ChangeDatabase(String database)
+   at Microsoft.Data.SqlClient.SqlConnection.ChangeDatabase(String database)
+   at GenxAi_Solutions.Utils.DatabaseReading.GetDatabseInfoAsync(String connectionString, String databaseName) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Utils\DatabaseReading.cs:line 183
+   at GenxAi_Solutions.Api.CompanyOnboardController.DatabaseInfo(ConnectionDto dto) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Api\CompanyOnboardController.cs:line 525
+   at lambda_method179(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at GenxAi_Solutions.Utils.Middleware.ErrorHandlingMiddleware.Invoke(HttpContext context) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Utils\Middleware\ErrorHandlingMiddleware.cs:line 139
+Exception Type: Microsoft.Data.SqlClient.SqlException
+Exception Message: Database 'Please Select' does not exist. Make sure that the name is entered correctly.
+Stack Trace:    at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, SqlCommand command, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.ChangeDatabaseInternal(String database)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.ChangeDatabase(String database)
+   at Microsoft.Data.SqlClient.SqlConnection.ChangeDatabase(String database)
+   at GenxAi_Solutions.Utils.DatabaseReading.GetDatabseInfoAsync(String connectionString, String databaseName) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Utils\DatabaseReading.cs:line 183
+   at GenxAi_Solutions.Api.CompanyOnboardController.DatabaseInfo(ConnectionDto dto) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Api\CompanyOnboardController.cs:line 525
+   at lambda_method179(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at GenxAi_Solutions.Utils.Middleware.ErrorHandlingMiddleware.Invoke(HttpContext context) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Utils\Middleware\ErrorHandlingMiddleware.cs:line 139
+--------------------------------------------------------------------------------
+[2025-10-24 11:22:38.280] [Error]
+Category: GenxAi_Solutions.Utils.Middleware.ErrorHandlingMiddleware
+Message: Unhandled exception POST /api/CompanyOnboard/databaseinfo 9282e553-ba4b-497d-b20c-0c9a9b912765. Exception Details: Microsoft.Data.SqlClient.SqlException - Database 'Please Select' does not exist. Make sure that the name is entered correctly. Stack Trace:    at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, SqlCommand command, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.ChangeDatabaseInternal(String database)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.ChangeDatabase(String database)
+   at Microsoft.Data.SqlClient.SqlConnection.ChangeDatabase(String database)
+   at GenxAi_Solutions.Utils.DatabaseReading.GetDatabseInfoAsync(String connectionString, String databaseName) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Utils\DatabaseReading.cs:line 183
+   at GenxAi_Solutions.Api.CompanyOnboardController.DatabaseInfo(ConnectionDto dto) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Api\CompanyOnboardController.cs:line 525
+   at lambda_method179(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at GenxAi_Solutions.Utils.Middleware.ErrorHandlingMiddleware.Invoke(HttpContext context) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Utils\Middleware\ErrorHandlingMiddleware.cs:line 139
+Exception Type: Microsoft.Data.SqlClient.SqlException
+Exception Message: Database 'Please Select' does not exist. Make sure that the name is entered correctly.
+Stack Trace:    at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, SqlCommand command, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.ChangeDatabaseInternal(String database)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.ChangeDatabase(String database)
+   at Microsoft.Data.SqlClient.SqlConnection.ChangeDatabase(String database)
+   at GenxAi_Solutions.Utils.DatabaseReading.GetDatabseInfoAsync(String connectionString, String databaseName) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Utils\DatabaseReading.cs:line 183
+   at GenxAi_Solutions.Api.CompanyOnboardController.DatabaseInfo(ConnectionDto dto) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Api\CompanyOnboardController.cs:line 525
+   at lambda_method179(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at GenxAi_Solutions.Utils.Middleware.ErrorHandlingMiddleware.Invoke(HttpContext context) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Utils\Middleware\ErrorHandlingMiddleware.cs:line 139
+--------------------------------------------------------------------------------
+[2025-10-24 11:22:38.648] [Error]
+Category: GenxAi_Solutions.Utils.Middleware.ErrorHandlingMiddleware
+Message: Unhandled exception POST /api/CompanyOnboard/databaseinfo b3b59541-23f0-41f8-8f47-838831a4c65b. Exception Details: Microsoft.Data.SqlClient.SqlException - Database 'Please Select' does not exist. Make sure that the name is entered correctly. Stack Trace:    at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, SqlCommand command, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.ChangeDatabaseInternal(String database)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.ChangeDatabase(String database)
+   at Microsoft.Data.SqlClient.SqlConnection.ChangeDatabase(String database)
+   at GenxAi_Solutions.Utils.DatabaseReading.GetDatabseInfoAsync(String connectionString, String databaseName) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Utils\DatabaseReading.cs:line 183
+   at GenxAi_Solutions.Api.CompanyOnboardController.DatabaseInfo(ConnectionDto dto) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Api\CompanyOnboardController.cs:line 525
+   at lambda_method179(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at GenxAi_Solutions.Utils.Middleware.ErrorHandlingMiddleware.Invoke(HttpContext context) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Utils\Middleware\ErrorHandlingMiddleware.cs:line 139
+Exception Type: Microsoft.Data.SqlClient.SqlException
+Exception Message: Database 'Please Select' does not exist. Make sure that the name is entered correctly.
+Stack Trace:    at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, SqlCommand command, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.ChangeDatabaseInternal(String database)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.ChangeDatabase(String database)
+   at Microsoft.Data.SqlClient.SqlConnection.ChangeDatabase(String database)
+   at GenxAi_Solutions.Utils.DatabaseReading.GetDatabseInfoAsync(String connectionString, String databaseName) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Utils\DatabaseReading.cs:line 183
+   at GenxAi_Solutions.Api.CompanyOnboardController.DatabaseInfo(ConnectionDto dto) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Api\CompanyOnboardController.cs:line 525
+   at lambda_method179(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at GenxAi_Solutions.Utils.Middleware.ErrorHandlingMiddleware.Invoke(HttpContext context) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Utils\Middleware\ErrorHandlingMiddleware.cs:line 139
+--------------------------------------------------------------------------------
+[2025-10-24 11:22:38.652] [Error]
+Category: GenxAi_Solutions.Utils.Middleware.ErrorHandlingMiddleware
+Message: Unhandled exception POST /api/CompanyOnboard/databaseinfo b3b59541-23f0-41f8-8f47-838831a4c65b. Exception Details: Microsoft.Data.SqlClient.SqlException - Database 'Please Select' does not exist. Make sure that the name is entered correctly. Stack Trace:    at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, SqlCommand command, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.ChangeDatabaseInternal(String database)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.ChangeDatabase(String database)
+   at Microsoft.Data.SqlClient.SqlConnection.ChangeDatabase(String database)
+   at GenxAi_Solutions.Utils.DatabaseReading.GetDatabseInfoAsync(String connectionString, String databaseName) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Utils\DatabaseReading.cs:line 183
+   at GenxAi_Solutions.Api.CompanyOnboardController.DatabaseInfo(ConnectionDto dto) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Api\CompanyOnboardController.cs:line 525
+   at lambda_method179(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at GenxAi_Solutions.Utils.Middleware.ErrorHandlingMiddleware.Invoke(HttpContext context) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Utils\Middleware\ErrorHandlingMiddleware.cs:line 139
+Exception Type: Microsoft.Data.SqlClient.SqlException
+Exception Message: Database 'Please Select' does not exist. Make sure that the name is entered correctly.
+Stack Trace:    at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, SqlCommand command, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.ChangeDatabaseInternal(String database)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.ChangeDatabase(String database)
+   at Microsoft.Data.SqlClient.SqlConnection.ChangeDatabase(String database)
+   at GenxAi_Solutions.Utils.DatabaseReading.GetDatabseInfoAsync(String connectionString, String databaseName) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Utils\DatabaseReading.cs:line 183
+   at GenxAi_Solutions.Api.CompanyOnboardController.DatabaseInfo(ConnectionDto dto) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Api\CompanyOnboardController.cs:line 525
+   at lambda_method179(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at GenxAi_Solutions.Utils.Middleware.ErrorHandlingMiddleware.Invoke(HttpContext context) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Utils\Middleware\ErrorHandlingMiddleware.cs:line 139
+--------------------------------------------------------------------------------
+[2025-10-24 11:27:10.928] [Error]
+Category: GenxAi_Solutions.Api.NotificationsController
+Message: GetUnread failed. afterId=(null)
+Exception Type: System.Threading.Tasks.TaskCanceledException
+Exception Message: A task was canceled.
+Stack Trace:    at GenxAi_Solutions.Services.NotificationStore.GetUnreadAfterIdAllAsync(Int32 userId, IReadOnlyList`1 companyIds, Nullable`1 afterId, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Services\NotificationStore.cs:line 77
+   at GenxAi_Solutions.Services.NotificationStore.GetUnreadAfterIdAllAsync(Int32 userId, IReadOnlyList`1 companyIds, Nullable`1 afterId, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Services\NotificationStore.cs:line 131
+   at GenxAi_Solutions.Api.NotificationsController.GetUnread(Nullable`1 afterId, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Api\NotificationsController.cs:line 27
+--------------------------------------------------------------------------------
+[2025-10-24 11:27:10.932] [Error]
+Category: GenxAi_Solutions.Api.NotificationsController
+Message: GetUnread failed. afterId=(null)
+Exception Type: System.Threading.Tasks.TaskCanceledException
+Exception Message: A task was canceled.
+Stack Trace:    at GenxAi_Solutions.Services.NotificationStore.GetUnreadAfterIdAllAsync(Int32 userId, IReadOnlyList`1 companyIds, Nullable`1 afterId, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Services\NotificationStore.cs:line 77
+   at GenxAi_Solutions.Services.NotificationStore.GetUnreadAfterIdAllAsync(Int32 userId, IReadOnlyList`1 companyIds, Nullable`1 afterId, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Services\NotificationStore.cs:line 131
+   at GenxAi_Solutions.Api.NotificationsController.GetUnread(Nullable`1 afterId, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Api\NotificationsController.cs:line 27
+--------------------------------------------------------------------------------
+[2025-10-24 11:28:17.661] [Error]
+Category: GenxAi_Solutions.Api.SemanticController
+Message: StartAllSeed queued work failed for company 2
+Exception Type: System.IO.FileNotFoundException
+Exception Message: PDF not found
+Stack Trace:    at GenxAi_Solutions.Services.VectorStoreSeedService.IngestPdfAsync(String filePath, String sqliteDbPath, String collectionPrefix) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Services\VectorStoreSeedService.cs:line 291
+   at GenxAi_Solutions.Services.SemanticSeeder.RunSeedPDFAsync(Int32 companyId, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Services\SemanticSeeder.cs:line 168
+   at GenxAi_Solutions.Services.SemanticSeeder.RunSeedPDFAsync(Int32 companyId, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Services\SemanticSeeder.cs:line 231
+   at GenxAi_Solutions.Api.SemanticController.<>c__DisplayClass7_0.<<StartAllSeed>b__0>d.MoveNext() in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Api\SemanticController.cs:line 78
+File: VectorStoreSeedService.cs
+Line: 291
+--------------------------------------------------------------------------------
+[2025-10-24 11:28:17.663] [Error]
+Category: GenxAi_Solutions.Api.SemanticController
+Message: StartAllSeed queued work failed for company 2
+Exception Type: System.IO.FileNotFoundException
+Exception Message: PDF not found
+Stack Trace:    at GenxAi_Solutions.Services.VectorStoreSeedService.IngestPdfAsync(String filePath, String sqliteDbPath, String collectionPrefix) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Services\VectorStoreSeedService.cs:line 291
+   at GenxAi_Solutions.Services.SemanticSeeder.RunSeedPDFAsync(Int32 companyId, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Services\SemanticSeeder.cs:line 168
+   at GenxAi_Solutions.Services.SemanticSeeder.RunSeedPDFAsync(Int32 companyId, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Services\SemanticSeeder.cs:line 231
+   at GenxAi_Solutions.Api.SemanticController.<>c__DisplayClass7_0.<<StartAllSeed>b__0>d.MoveNext() in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Api\SemanticController.cs:line 78
+File: VectorStoreSeedService.cs
+Line: 291
+--------------------------------------------------------------------------------
+[2025-10-24 11:28:17.741] [Error]
+Category: GenxAi_Solutions.Services.Background.QueuedWorker
+Message: Job dcb4bd52-d262-43c7-aa05-acaf66309491 failed for company 2.
+Exception Type: System.IO.FileNotFoundException
+Exception Message: PDF not found
+Stack Trace:    at GenxAi_Solutions.Services.VectorStoreSeedService.IngestPdfAsync(String filePath, String sqliteDbPath, String collectionPrefix) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Services\VectorStoreSeedService.cs:line 291
+   at GenxAi_Solutions.Services.SemanticSeeder.RunSeedPDFAsync(Int32 companyId, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Services\SemanticSeeder.cs:line 168
+   at GenxAi_Solutions.Services.SemanticSeeder.RunSeedPDFAsync(Int32 companyId, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Services\SemanticSeeder.cs:line 231
+   at GenxAi_Solutions.Api.SemanticController.<>c__DisplayClass7_0.<<StartAllSeed>b__0>d.MoveNext() in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Api\SemanticController.cs:line 78
+--- End of stack trace from previous location ---
+   at GenxAi_Solutions.Services.Background.QueuedWorker.ExecuteAsync(CancellationToken stoppingToken) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Services\Background\QueuedWorker.cs:line 201
+File: VectorStoreSeedService.cs
+Line: 291
+--------------------------------------------------------------------------------
+[2025-10-24 11:28:17.745] [Error]
+Category: GenxAi_Solutions.Services.Background.QueuedWorker
+Message: Job dcb4bd52-d262-43c7-aa05-acaf66309491 failed for company 2.
+Exception Type: System.IO.FileNotFoundException
+Exception Message: PDF not found
+Stack Trace:    at GenxAi_Solutions.Services.VectorStoreSeedService.IngestPdfAsync(String filePath, String sqliteDbPath, String collectionPrefix) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Services\VectorStoreSeedService.cs:line 291
+   at GenxAi_Solutions.Services.SemanticSeeder.RunSeedPDFAsync(Int32 companyId, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Services\SemanticSeeder.cs:line 168
+   at GenxAi_Solutions.Services.SemanticSeeder.RunSeedPDFAsync(Int32 companyId, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Services\SemanticSeeder.cs:line 231
+   at GenxAi_Solutions.Api.SemanticController.<>c__DisplayClass7_0.<<StartAllSeed>b__0>d.MoveNext() in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Api\SemanticController.cs:line 78
+--- End of stack trace from previous location ---
+   at GenxAi_Solutions.Services.Background.QueuedWorker.ExecuteAsync(CancellationToken stoppingToken) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Services\Background\QueuedWorker.cs:line 201
+File: VectorStoreSeedService.cs
+Line: 291
+--------------------------------------------------------------------------------
+[2025-10-24 11:41:24.871] [Error]
+Category: GenxAi_Solutions.Api.NotificationsController
+Message: GetUnread failed. afterId=(null)
+Exception Type: System.Threading.Tasks.TaskCanceledException
+Exception Message: A task was canceled.
+Stack Trace:    at GenxAi_Solutions.Services.NotificationStore.GetUnreadAfterIdAllAsync(Int32 userId, IReadOnlyList`1 companyIds, Nullable`1 afterId, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Services\NotificationStore.cs:line 77
+   at GenxAi_Solutions.Services.NotificationStore.GetUnreadAfterIdAllAsync(Int32 userId, IReadOnlyList`1 companyIds, Nullable`1 afterId, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Services\NotificationStore.cs:line 131
+   at GenxAi_Solutions.Api.NotificationsController.GetUnread(Nullable`1 afterId, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Api\NotificationsController.cs:line 27
+--------------------------------------------------------------------------------
+[2025-10-24 11:41:24.947] [Error]
+Category: GenxAi_Solutions.Api.NotificationsController
+Message: GetUnread failed. afterId=(null)
+Exception Type: System.Threading.Tasks.TaskCanceledException
+Exception Message: A task was canceled.
+Stack Trace:    at GenxAi_Solutions.Services.NotificationStore.GetUnreadAfterIdAllAsync(Int32 userId, IReadOnlyList`1 companyIds, Nullable`1 afterId, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Services\NotificationStore.cs:line 77
+   at GenxAi_Solutions.Services.NotificationStore.GetUnreadAfterIdAllAsync(Int32 userId, IReadOnlyList`1 companyIds, Nullable`1 afterId, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Services\NotificationStore.cs:line 131
+   at GenxAi_Solutions.Api.NotificationsController.GetUnread(Nullable`1 afterId, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Api\NotificationsController.cs:line 27
+--------------------------------------------------------------------------------
+[2025-10-24 15:58:15.963] [Error]
+Category: GenxAi_Solutions.Api.CompanyOnboardController
+Message: Error in AskChat_up API - User: nidhi.lad@genxai.com, Service: FileAnalytics, Message: hi this is nidhi here, CorrelationId: a1a266ce-3024-416b-a66b-da4047ba2de1, Error: Call to vector store failed.
+Exception Type: Microsoft.Extensions.VectorData.VectorStoreException
+Exception Message: Call to vector store failed.
+Stack Trace:    at Microsoft.Extensions.VectorData.VectorStoreErrorHandler.ExecuteWithErrorHandlingAsync[TResult](DbConnection connection, VectorStoreCollectionMetadata metadata, String operationName, Func`1 operation, CancellationToken cancellationToken)
+   at Microsoft.SemanticKernel.Connectors.SqliteVec.SqliteCollection`2.EnumerateAndMapSearchResultsAsync(List`1 conditions, String extraWhereFilter, Dictionary`2 extraParameters, VectorSearchOptions`1 searchOptions, CancellationToken cancellationToken)+MoveNext()
+   at Microsoft.SemanticKernel.Connectors.SqliteVec.SqliteCollection`2.EnumerateAndMapSearchResultsAsync(List`1 conditions, String extraWhereFilter, Dictionary`2 extraParameters, VectorSearchOptions`1 searchOptions, CancellationToken cancellationToken)+System.Threading.Tasks.Sources.IValueTaskSource<System.Boolean>.GetResult()
+   at Microsoft.SemanticKernel.Connectors.SqliteVec.SqliteCollection`2.SearchAsync[TInput](TInput searchValue, Int32 top, VectorSearchOptions`1 options, CancellationToken cancellationToken)+MoveNext()
+   at Microsoft.SemanticKernel.Connectors.SqliteVec.SqliteCollection`2.SearchAsync[TInput](TInput searchValue, Int32 top, VectorSearchOptions`1 options, CancellationToken cancellationToken)+MoveNext()
+   at Microsoft.SemanticKernel.Connectors.SqliteVec.SqliteCollection`2.SearchAsync[TInput](TInput searchValue, Int32 top, VectorSearchOptions`1 options, CancellationToken cancellationToken)+System.Threading.Tasks.Sources.IValueTaskSource<System.Boolean>.GetResult()
+   at GenxAi_Solutions.Services.VectorStoreSeedService.QueryAsync(String question, String sqliteDbPath, Int32 topSections, Int32 topChunks) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Services\VectorStoreSeedService.cs:line 375
+   at GenxAi_Solutions.Services.VectorStoreSeedService.QueryAsync(String question, String sqliteDbPath, Int32 topSections, Int32 topChunks) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Services\VectorStoreSeedService.cs:line 375
+   at GenxAi_Solutions.Api.CompanyOnboardController.AskChat_up(String message, String service, Nullable`1 conversationId, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Api\CompanyOnboardController.cs:line 1164
+Inner Exception: Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 1: 'no such table: vec_chapter_index'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.PrepareAndEnumerateStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.GetStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Extensions.VectorData.VectorStoreErrorHandler.ExecuteWithErrorHandlingAsync[TResult](DbConnection connection, VectorStoreCollectionMetadata metadata, String operationName, Func`1 operation, CancellationToken cancellationToken)
+--------------------------------------------------------------------------------
+[2025-10-24 15:58:16.007] [Error]
+Category: GenxAi_Solutions.Api.CompanyOnboardController
+Message: Error in AskChat_up API - User: nidhi.lad@genxai.com, Service: FileAnalytics, Message: hi this is nidhi here, CorrelationId: a1a266ce-3024-416b-a66b-da4047ba2de1, Error: Call to vector store failed.
+Exception Type: Microsoft.Extensions.VectorData.VectorStoreException
+Exception Message: Call to vector store failed.
+Stack Trace:    at Microsoft.Extensions.VectorData.VectorStoreErrorHandler.ExecuteWithErrorHandlingAsync[TResult](DbConnection connection, VectorStoreCollectionMetadata metadata, String operationName, Func`1 operation, CancellationToken cancellationToken)
+   at Microsoft.SemanticKernel.Connectors.SqliteVec.SqliteCollection`2.EnumerateAndMapSearchResultsAsync(List`1 conditions, String extraWhereFilter, Dictionary`2 extraParameters, VectorSearchOptions`1 searchOptions, CancellationToken cancellationToken)+MoveNext()
+   at Microsoft.SemanticKernel.Connectors.SqliteVec.SqliteCollection`2.EnumerateAndMapSearchResultsAsync(List`1 conditions, String extraWhereFilter, Dictionary`2 extraParameters, VectorSearchOptions`1 searchOptions, CancellationToken cancellationToken)+System.Threading.Tasks.Sources.IValueTaskSource<System.Boolean>.GetResult()
+   at Microsoft.SemanticKernel.Connectors.SqliteVec.SqliteCollection`2.SearchAsync[TInput](TInput searchValue, Int32 top, VectorSearchOptions`1 options, CancellationToken cancellationToken)+MoveNext()
+   at Microsoft.SemanticKernel.Connectors.SqliteVec.SqliteCollection`2.SearchAsync[TInput](TInput searchValue, Int32 top, VectorSearchOptions`1 options, CancellationToken cancellationToken)+MoveNext()
+   at Microsoft.SemanticKernel.Connectors.SqliteVec.SqliteCollection`2.SearchAsync[TInput](TInput searchValue, Int32 top, VectorSearchOptions`1 options, CancellationToken cancellationToken)+System.Threading.Tasks.Sources.IValueTaskSource<System.Boolean>.GetResult()
+   at GenxAi_Solutions.Services.VectorStoreSeedService.QueryAsync(String question, String sqliteDbPath, Int32 topSections, Int32 topChunks) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Services\VectorStoreSeedService.cs:line 375
+   at GenxAi_Solutions.Services.VectorStoreSeedService.QueryAsync(String question, String sqliteDbPath, Int32 topSections, Int32 topChunks) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Services\VectorStoreSeedService.cs:line 375
+   at GenxAi_Solutions.Api.CompanyOnboardController.AskChat_up(String message, String service, Nullable`1 conversationId, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Api\CompanyOnboardController.cs:line 1164
+Inner Exception: Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 1: 'no such table: vec_chapter_index'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.PrepareAndEnumerateStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.GetStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Extensions.VectorData.VectorStoreErrorHandler.ExecuteWithErrorHandlingAsync[TResult](DbConnection connection, VectorStoreCollectionMetadata metadata, String operationName, Func`1 operation, CancellationToken cancellationToken)
+--------------------------------------------------------------------------------
+[2025-10-24 15:58:16.138] [Error]
+Category: GenxAi_Solutions.Utils.Middleware.ErrorHandlingMiddleware
+Message: Unhandled exception POST /api/CompanyOnboard/Ask2 a1a266ce-3024-416b-a66b-da4047ba2de1. Exception Details: Microsoft.Extensions.VectorData.VectorStoreException - Call to vector store failed. Stack Trace:    at Microsoft.Extensions.VectorData.VectorStoreErrorHandler.ExecuteWithErrorHandlingAsync[TResult](DbConnection connection, VectorStoreCollectionMetadata metadata, String operationName, Func`1 operation, CancellationToken cancellationToken)
+   at Microsoft.SemanticKernel.Connectors.SqliteVec.SqliteCollection`2.EnumerateAndMapSearchResultsAsync(List`1 conditions, String extraWhereFilter, Dictionary`2 extraParameters, VectorSearchOptions`1 searchOptions, CancellationToken cancellationToken)+MoveNext()
+   at Microsoft.SemanticKernel.Connectors.SqliteVec.SqliteCollection`2.EnumerateAndMapSearchResultsAsync(List`1 conditions, String extraWhereFilter, Dictionary`2 extraParameters, VectorSearchOptions`1 searchOptions, CancellationToken cancellationToken)+System.Threading.Tasks.Sources.IValueTaskSource<System.Boolean>.GetResult()
+   at Microsoft.SemanticKernel.Connectors.SqliteVec.SqliteCollection`2.SearchAsync[TInput](TInput searchValue, Int32 top, VectorSearchOptions`1 options, CancellationToken cancellationToken)+MoveNext()
+   at Microsoft.SemanticKernel.Connectors.SqliteVec.SqliteCollection`2.SearchAsync[TInput](TInput searchValue, Int32 top, VectorSearchOptions`1 options, CancellationToken cancellationToken)+MoveNext()
+   at Microsoft.SemanticKernel.Connectors.SqliteVec.SqliteCollection`2.SearchAsync[TInput](TInput searchValue, Int32 top, VectorSearchOptions`1 options, CancellationToken cancellationToken)+System.Threading.Tasks.Sources.IValueTaskSource<System.Boolean>.GetResult()
+   at GenxAi_Solutions.Services.VectorStoreSeedService.QueryAsync(String question, String sqliteDbPath, Int32 topSections, Int32 topChunks) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Services\VectorStoreSeedService.cs:line 375
+   at GenxAi_Solutions.Services.VectorStoreSeedService.QueryAsync(String question, String sqliteDbPath, Int32 topSections, Int32 topChunks) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Services\VectorStoreSeedService.cs:line 375
+   at GenxAi_Solutions.Api.CompanyOnboardController.AskChat_up(String message, String service, Nullable`1 conversationId, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Api\CompanyOnboardController.cs:line 1164
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at GenxAi_Solutions.Utils.Middleware.ErrorHandlingMiddleware.Invoke(HttpContext context) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Utils\Middleware\ErrorHandlingMiddleware.cs:line 139
+Exception Type: Microsoft.Extensions.VectorData.VectorStoreException
+Exception Message: Call to vector store failed.
+Stack Trace:    at Microsoft.Extensions.VectorData.VectorStoreErrorHandler.ExecuteWithErrorHandlingAsync[TResult](DbConnection connection, VectorStoreCollectionMetadata metadata, String operationName, Func`1 operation, CancellationToken cancellationToken)
+   at Microsoft.SemanticKernel.Connectors.SqliteVec.SqliteCollection`2.EnumerateAndMapSearchResultsAsync(List`1 conditions, String extraWhereFilter, Dictionary`2 extraParameters, VectorSearchOptions`1 searchOptions, CancellationToken cancellationToken)+MoveNext()
+   at Microsoft.SemanticKernel.Connectors.SqliteVec.SqliteCollection`2.EnumerateAndMapSearchResultsAsync(List`1 conditions, String extraWhereFilter, Dictionary`2 extraParameters, VectorSearchOptions`1 searchOptions, CancellationToken cancellationToken)+System.Threading.Tasks.Sources.IValueTaskSource<System.Boolean>.GetResult()
+   at Microsoft.SemanticKernel.Connectors.SqliteVec.SqliteCollection`2.SearchAsync[TInput](TInput searchValue, Int32 top, VectorSearchOptions`1 options, CancellationToken cancellationToken)+MoveNext()
+   at Microsoft.SemanticKernel.Connectors.SqliteVec.SqliteCollection`2.SearchAsync[TInput](TInput searchValue, Int32 top, VectorSearchOptions`1 options, CancellationToken cancellationToken)+MoveNext()
+   at Microsoft.SemanticKernel.Connectors.SqliteVec.SqliteCollection`2.SearchAsync[TInput](TInput searchValue, Int32 top, VectorSearchOptions`1 options, CancellationToken cancellationToken)+System.Threading.Tasks.Sources.IValueTaskSource<System.Boolean>.GetResult()
+   at GenxAi_Solutions.Services.VectorStoreSeedService.QueryAsync(String question, String sqliteDbPath, Int32 topSections, Int32 topChunks) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Services\VectorStoreSeedService.cs:line 375
+   at GenxAi_Solutions.Services.VectorStoreSeedService.QueryAsync(String question, String sqliteDbPath, Int32 topSections, Int32 topChunks) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Services\VectorStoreSeedService.cs:line 375
+   at GenxAi_Solutions.Api.CompanyOnboardController.AskChat_up(String message, String service, Nullable`1 conversationId, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Api\CompanyOnboardController.cs:line 1164
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at GenxAi_Solutions.Utils.Middleware.ErrorHandlingMiddleware.Invoke(HttpContext context) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Utils\Middleware\ErrorHandlingMiddleware.cs:line 139
+Inner Exception: Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 1: 'no such table: vec_chapter_index'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.PrepareAndEnumerateStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.GetStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Extensions.VectorData.VectorStoreErrorHandler.ExecuteWithErrorHandlingAsync[TResult](DbConnection connection, VectorStoreCollectionMetadata metadata, String operationName, Func`1 operation, CancellationToken cancellationToken)
+--------------------------------------------------------------------------------
+[2025-10-24 15:58:16.140] [Error]
+Category: GenxAi_Solutions.Utils.Middleware.ErrorHandlingMiddleware
+Message: Unhandled exception POST /api/CompanyOnboard/Ask2 a1a266ce-3024-416b-a66b-da4047ba2de1. Exception Details: Microsoft.Extensions.VectorData.VectorStoreException - Call to vector store failed. Stack Trace:    at Microsoft.Extensions.VectorData.VectorStoreErrorHandler.ExecuteWithErrorHandlingAsync[TResult](DbConnection connection, VectorStoreCollectionMetadata metadata, String operationName, Func`1 operation, CancellationToken cancellationToken)
+   at Microsoft.SemanticKernel.Connectors.SqliteVec.SqliteCollection`2.EnumerateAndMapSearchResultsAsync(List`1 conditions, String extraWhereFilter, Dictionary`2 extraParameters, VectorSearchOptions`1 searchOptions, CancellationToken cancellationToken)+MoveNext()
+   at Microsoft.SemanticKernel.Connectors.SqliteVec.SqliteCollection`2.EnumerateAndMapSearchResultsAsync(List`1 conditions, String extraWhereFilter, Dictionary`2 extraParameters, VectorSearchOptions`1 searchOptions, CancellationToken cancellationToken)+System.Threading.Tasks.Sources.IValueTaskSource<System.Boolean>.GetResult()
+   at Microsoft.SemanticKernel.Connectors.SqliteVec.SqliteCollection`2.SearchAsync[TInput](TInput searchValue, Int32 top, VectorSearchOptions`1 options, CancellationToken cancellationToken)+MoveNext()
+   at Microsoft.SemanticKernel.Connectors.SqliteVec.SqliteCollection`2.SearchAsync[TInput](TInput searchValue, Int32 top, VectorSearchOptions`1 options, CancellationToken cancellationToken)+MoveNext()
+   at Microsoft.SemanticKernel.Connectors.SqliteVec.SqliteCollection`2.SearchAsync[TInput](TInput searchValue, Int32 top, VectorSearchOptions`1 options, CancellationToken cancellationToken)+System.Threading.Tasks.Sources.IValueTaskSource<System.Boolean>.GetResult()
+   at GenxAi_Solutions.Services.VectorStoreSeedService.QueryAsync(String question, String sqliteDbPath, Int32 topSections, Int32 topChunks) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Services\VectorStoreSeedService.cs:line 375
+   at GenxAi_Solutions.Services.VectorStoreSeedService.QueryAsync(String question, String sqliteDbPath, Int32 topSections, Int32 topChunks) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Services\VectorStoreSeedService.cs:line 375
+   at GenxAi_Solutions.Api.CompanyOnboardController.AskChat_up(String message, String service, Nullable`1 conversationId, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Api\CompanyOnboardController.cs:line 1164
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at GenxAi_Solutions.Utils.Middleware.ErrorHandlingMiddleware.Invoke(HttpContext context) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Utils\Middleware\ErrorHandlingMiddleware.cs:line 139
+Exception Type: Microsoft.Extensions.VectorData.VectorStoreException
+Exception Message: Call to vector store failed.
+Stack Trace:    at Microsoft.Extensions.VectorData.VectorStoreErrorHandler.ExecuteWithErrorHandlingAsync[TResult](DbConnection connection, VectorStoreCollectionMetadata metadata, String operationName, Func`1 operation, CancellationToken cancellationToken)
+   at Microsoft.SemanticKernel.Connectors.SqliteVec.SqliteCollection`2.EnumerateAndMapSearchResultsAsync(List`1 conditions, String extraWhereFilter, Dictionary`2 extraParameters, VectorSearchOptions`1 searchOptions, CancellationToken cancellationToken)+MoveNext()
+   at Microsoft.SemanticKernel.Connectors.SqliteVec.SqliteCollection`2.EnumerateAndMapSearchResultsAsync(List`1 conditions, String extraWhereFilter, Dictionary`2 extraParameters, VectorSearchOptions`1 searchOptions, CancellationToken cancellationToken)+System.Threading.Tasks.Sources.IValueTaskSource<System.Boolean>.GetResult()
+   at Microsoft.SemanticKernel.Connectors.SqliteVec.SqliteCollection`2.SearchAsync[TInput](TInput searchValue, Int32 top, VectorSearchOptions`1 options, CancellationToken cancellationToken)+MoveNext()
+   at Microsoft.SemanticKernel.Connectors.SqliteVec.SqliteCollection`2.SearchAsync[TInput](TInput searchValue, Int32 top, VectorSearchOptions`1 options, CancellationToken cancellationToken)+MoveNext()
+   at Microsoft.SemanticKernel.Connectors.SqliteVec.SqliteCollection`2.SearchAsync[TInput](TInput searchValue, Int32 top, VectorSearchOptions`1 options, CancellationToken cancellationToken)+System.Threading.Tasks.Sources.IValueTaskSource<System.Boolean>.GetResult()
+   at GenxAi_Solutions.Services.VectorStoreSeedService.QueryAsync(String question, String sqliteDbPath, Int32 topSections, Int32 topChunks) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Services\VectorStoreSeedService.cs:line 375
+   at GenxAi_Solutions.Services.VectorStoreSeedService.QueryAsync(String question, String sqliteDbPath, Int32 topSections, Int32 topChunks) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Services\VectorStoreSeedService.cs:line 375
+   at GenxAi_Solutions.Api.CompanyOnboardController.AskChat_up(String message, String service, Nullable`1 conversationId, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Api\CompanyOnboardController.cs:line 1164
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at GenxAi_Solutions.Utils.Middleware.ErrorHandlingMiddleware.Invoke(HttpContext context) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Utils\Middleware\ErrorHandlingMiddleware.cs:line 139
+Inner Exception: Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 1: 'no such table: vec_chapter_index'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.PrepareAndEnumerateStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.GetStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Extensions.VectorData.VectorStoreErrorHandler.ExecuteWithErrorHandlingAsync[TResult](DbConnection connection, VectorStoreCollectionMetadata metadata, String operationName, Func`1 operation, CancellationToken cancellationToken)
+--------------------------------------------------------------------------------
+[2025-10-24 15:58:50.923] [Error]
+Category: GenxAi_Solutions.Api.CompanyOnboardController
+Message: Error in AskChat_up API - User: nidhi.lad@genxai.com, Service: FileAnalytics, Message: hi, CorrelationId: 829447cb-0721-45b7-81ff-eba6360271c8, Error: Call to vector store failed.
+Exception Type: Microsoft.Extensions.VectorData.VectorStoreException
+Exception Message: Call to vector store failed.
+Stack Trace:    at Microsoft.Extensions.VectorData.VectorStoreErrorHandler.ExecuteWithErrorHandlingAsync[TResult](DbConnection connection, VectorStoreCollectionMetadata metadata, String operationName, Func`1 operation, CancellationToken cancellationToken)
+   at Microsoft.SemanticKernel.Connectors.SqliteVec.SqliteCollection`2.EnumerateAndMapSearchResultsAsync(List`1 conditions, String extraWhereFilter, Dictionary`2 extraParameters, VectorSearchOptions`1 searchOptions, CancellationToken cancellationToken)+MoveNext()
+   at Microsoft.SemanticKernel.Connectors.SqliteVec.SqliteCollection`2.EnumerateAndMapSearchResultsAsync(List`1 conditions, String extraWhereFilter, Dictionary`2 extraParameters, VectorSearchOptions`1 searchOptions, CancellationToken cancellationToken)+System.Threading.Tasks.Sources.IValueTaskSource<System.Boolean>.GetResult()
+   at Microsoft.SemanticKernel.Connectors.SqliteVec.SqliteCollection`2.SearchAsync[TInput](TInput searchValue, Int32 top, VectorSearchOptions`1 options, CancellationToken cancellationToken)+MoveNext()
+   at Microsoft.SemanticKernel.Connectors.SqliteVec.SqliteCollection`2.SearchAsync[TInput](TInput searchValue, Int32 top, VectorSearchOptions`1 options, CancellationToken cancellationToken)+MoveNext()
+   at Microsoft.SemanticKernel.Connectors.SqliteVec.SqliteCollection`2.SearchAsync[TInput](TInput searchValue, Int32 top, VectorSearchOptions`1 options, CancellationToken cancellationToken)+System.Threading.Tasks.Sources.IValueTaskSource<System.Boolean>.GetResult()
+   at GenxAi_Solutions.Services.VectorStoreSeedService.QueryAsync(String question, String sqliteDbPath, Int32 topSections, Int32 topChunks) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Services\VectorStoreSeedService.cs:line 375
+   at GenxAi_Solutions.Services.VectorStoreSeedService.QueryAsync(String question, String sqliteDbPath, Int32 topSections, Int32 topChunks) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Services\VectorStoreSeedService.cs:line 375
+   at GenxAi_Solutions.Api.CompanyOnboardController.AskChat_up(String message, String service, Nullable`1 conversationId, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Api\CompanyOnboardController.cs:line 1164
+Inner Exception: Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 1: 'no such table: vec_chapter_index'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.PrepareAndEnumerateStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.GetStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Extensions.VectorData.VectorStoreErrorHandler.ExecuteWithErrorHandlingAsync[TResult](DbConnection connection, VectorStoreCollectionMetadata metadata, String operationName, Func`1 operation, CancellationToken cancellationToken)
+--------------------------------------------------------------------------------
+[2025-10-24 15:58:50.925] [Error]
+Category: GenxAi_Solutions.Api.CompanyOnboardController
+Message: Error in AskChat_up API - User: nidhi.lad@genxai.com, Service: FileAnalytics, Message: hi, CorrelationId: 829447cb-0721-45b7-81ff-eba6360271c8, Error: Call to vector store failed.
+Exception Type: Microsoft.Extensions.VectorData.VectorStoreException
+Exception Message: Call to vector store failed.
+Stack Trace:    at Microsoft.Extensions.VectorData.VectorStoreErrorHandler.ExecuteWithErrorHandlingAsync[TResult](DbConnection connection, VectorStoreCollectionMetadata metadata, String operationName, Func`1 operation, CancellationToken cancellationToken)
+   at Microsoft.SemanticKernel.Connectors.SqliteVec.SqliteCollection`2.EnumerateAndMapSearchResultsAsync(List`1 conditions, String extraWhereFilter, Dictionary`2 extraParameters, VectorSearchOptions`1 searchOptions, CancellationToken cancellationToken)+MoveNext()
+   at Microsoft.SemanticKernel.Connectors.SqliteVec.SqliteCollection`2.EnumerateAndMapSearchResultsAsync(List`1 conditions, String extraWhereFilter, Dictionary`2 extraParameters, VectorSearchOptions`1 searchOptions, CancellationToken cancellationToken)+System.Threading.Tasks.Sources.IValueTaskSource<System.Boolean>.GetResult()
+   at Microsoft.SemanticKernel.Connectors.SqliteVec.SqliteCollection`2.SearchAsync[TInput](TInput searchValue, Int32 top, VectorSearchOptions`1 options, CancellationToken cancellationToken)+MoveNext()
+   at Microsoft.SemanticKernel.Connectors.SqliteVec.SqliteCollection`2.SearchAsync[TInput](TInput searchValue, Int32 top, VectorSearchOptions`1 options, CancellationToken cancellationToken)+MoveNext()
+   at Microsoft.SemanticKernel.Connectors.SqliteVec.SqliteCollection`2.SearchAsync[TInput](TInput searchValue, Int32 top, VectorSearchOptions`1 options, CancellationToken cancellationToken)+System.Threading.Tasks.Sources.IValueTaskSource<System.Boolean>.GetResult()
+   at GenxAi_Solutions.Services.VectorStoreSeedService.QueryAsync(String question, String sqliteDbPath, Int32 topSections, Int32 topChunks) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Services\VectorStoreSeedService.cs:line 375
+   at GenxAi_Solutions.Services.VectorStoreSeedService.QueryAsync(String question, String sqliteDbPath, Int32 topSections, Int32 topChunks) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Services\VectorStoreSeedService.cs:line 375
+   at GenxAi_Solutions.Api.CompanyOnboardController.AskChat_up(String message, String service, Nullable`1 conversationId, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Api\CompanyOnboardController.cs:line 1164
+Inner Exception: Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 1: 'no such table: vec_chapter_index'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.PrepareAndEnumerateStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.GetStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Extensions.VectorData.VectorStoreErrorHandler.ExecuteWithErrorHandlingAsync[TResult](DbConnection connection, VectorStoreCollectionMetadata metadata, String operationName, Func`1 operation, CancellationToken cancellationToken)
+--------------------------------------------------------------------------------
+[2025-10-24 15:58:51.051] [Error]
+Category: GenxAi_Solutions.Utils.Middleware.ErrorHandlingMiddleware
+Message: Unhandled exception POST /api/CompanyOnboard/Ask2 829447cb-0721-45b7-81ff-eba6360271c8. Exception Details: Microsoft.Extensions.VectorData.VectorStoreException - Call to vector store failed. Stack Trace:    at Microsoft.Extensions.VectorData.VectorStoreErrorHandler.ExecuteWithErrorHandlingAsync[TResult](DbConnection connection, VectorStoreCollectionMetadata metadata, String operationName, Func`1 operation, CancellationToken cancellationToken)
+   at Microsoft.SemanticKernel.Connectors.SqliteVec.SqliteCollection`2.EnumerateAndMapSearchResultsAsync(List`1 conditions, String extraWhereFilter, Dictionary`2 extraParameters, VectorSearchOptions`1 searchOptions, CancellationToken cancellationToken)+MoveNext()
+   at Microsoft.SemanticKernel.Connectors.SqliteVec.SqliteCollection`2.EnumerateAndMapSearchResultsAsync(List`1 conditions, String extraWhereFilter, Dictionary`2 extraParameters, VectorSearchOptions`1 searchOptions, CancellationToken cancellationToken)+System.Threading.Tasks.Sources.IValueTaskSource<System.Boolean>.GetResult()
+   at Microsoft.SemanticKernel.Connectors.SqliteVec.SqliteCollection`2.SearchAsync[TInput](TInput searchValue, Int32 top, VectorSearchOptions`1 options, CancellationToken cancellationToken)+MoveNext()
+   at Microsoft.SemanticKernel.Connectors.SqliteVec.SqliteCollection`2.SearchAsync[TInput](TInput searchValue, Int32 top, VectorSearchOptions`1 options, CancellationToken cancellationToken)+MoveNext()
+   at Microsoft.SemanticKernel.Connectors.SqliteVec.SqliteCollection`2.SearchAsync[TInput](TInput searchValue, Int32 top, VectorSearchOptions`1 options, CancellationToken cancellationToken)+System.Threading.Tasks.Sources.IValueTaskSource<System.Boolean>.GetResult()
+   at GenxAi_Solutions.Services.VectorStoreSeedService.QueryAsync(String question, String sqliteDbPath, Int32 topSections, Int32 topChunks) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Services\VectorStoreSeedService.cs:line 375
+   at GenxAi_Solutions.Services.VectorStoreSeedService.QueryAsync(String question, String sqliteDbPath, Int32 topSections, Int32 topChunks) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Services\VectorStoreSeedService.cs:line 375
+   at GenxAi_Solutions.Api.CompanyOnboardController.AskChat_up(String message, String service, Nullable`1 conversationId, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Api\CompanyOnboardController.cs:line 1164
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at GenxAi_Solutions.Utils.Middleware.ErrorHandlingMiddleware.Invoke(HttpContext context) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Utils\Middleware\ErrorHandlingMiddleware.cs:line 139
+Exception Type: Microsoft.Extensions.VectorData.VectorStoreException
+Exception Message: Call to vector store failed.
+Stack Trace:    at Microsoft.Extensions.VectorData.VectorStoreErrorHandler.ExecuteWithErrorHandlingAsync[TResult](DbConnection connection, VectorStoreCollectionMetadata metadata, String operationName, Func`1 operation, CancellationToken cancellationToken)
+   at Microsoft.SemanticKernel.Connectors.SqliteVec.SqliteCollection`2.EnumerateAndMapSearchResultsAsync(List`1 conditions, String extraWhereFilter, Dictionary`2 extraParameters, VectorSearchOptions`1 searchOptions, CancellationToken cancellationToken)+MoveNext()
+   at Microsoft.SemanticKernel.Connectors.SqliteVec.SqliteCollection`2.EnumerateAndMapSearchResultsAsync(List`1 conditions, String extraWhereFilter, Dictionary`2 extraParameters, VectorSearchOptions`1 searchOptions, CancellationToken cancellationToken)+System.Threading.Tasks.Sources.IValueTaskSource<System.Boolean>.GetResult()
+   at Microsoft.SemanticKernel.Connectors.SqliteVec.SqliteCollection`2.SearchAsync[TInput](TInput searchValue, Int32 top, VectorSearchOptions`1 options, CancellationToken cancellationToken)+MoveNext()
+   at Microsoft.SemanticKernel.Connectors.SqliteVec.SqliteCollection`2.SearchAsync[TInput](TInput searchValue, Int32 top, VectorSearchOptions`1 options, CancellationToken cancellationToken)+MoveNext()
+   at Microsoft.SemanticKernel.Connectors.SqliteVec.SqliteCollection`2.SearchAsync[TInput](TInput searchValue, Int32 top, VectorSearchOptions`1 options, CancellationToken cancellationToken)+System.Threading.Tasks.Sources.IValueTaskSource<System.Boolean>.GetResult()
+   at GenxAi_Solutions.Services.VectorStoreSeedService.QueryAsync(String question, String sqliteDbPath, Int32 topSections, Int32 topChunks) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Services\VectorStoreSeedService.cs:line 375
+   at GenxAi_Solutions.Services.VectorStoreSeedService.QueryAsync(String question, String sqliteDbPath, Int32 topSections, Int32 topChunks) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Services\VectorStoreSeedService.cs:line 375
+   at GenxAi_Solutions.Api.CompanyOnboardController.AskChat_up(String message, String service, Nullable`1 conversationId, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Api\CompanyOnboardController.cs:line 1164
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at GenxAi_Solutions.Utils.Middleware.ErrorHandlingMiddleware.Invoke(HttpContext context) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Utils\Middleware\ErrorHandlingMiddleware.cs:line 139
+Inner Exception: Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 1: 'no such table: vec_chapter_index'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.PrepareAndEnumerateStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.GetStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Extensions.VectorData.VectorStoreErrorHandler.ExecuteWithErrorHandlingAsync[TResult](DbConnection connection, VectorStoreCollectionMetadata metadata, String operationName, Func`1 operation, CancellationToken cancellationToken)
+--------------------------------------------------------------------------------
+[2025-10-24 15:58:51.053] [Error]
+Category: GenxAi_Solutions.Utils.Middleware.ErrorHandlingMiddleware
+Message: Unhandled exception POST /api/CompanyOnboard/Ask2 829447cb-0721-45b7-81ff-eba6360271c8. Exception Details: Microsoft.Extensions.VectorData.VectorStoreException - Call to vector store failed. Stack Trace:    at Microsoft.Extensions.VectorData.VectorStoreErrorHandler.ExecuteWithErrorHandlingAsync[TResult](DbConnection connection, VectorStoreCollectionMetadata metadata, String operationName, Func`1 operation, CancellationToken cancellationToken)
+   at Microsoft.SemanticKernel.Connectors.SqliteVec.SqliteCollection`2.EnumerateAndMapSearchResultsAsync(List`1 conditions, String extraWhereFilter, Dictionary`2 extraParameters, VectorSearchOptions`1 searchOptions, CancellationToken cancellationToken)+MoveNext()
+   at Microsoft.SemanticKernel.Connectors.SqliteVec.SqliteCollection`2.EnumerateAndMapSearchResultsAsync(List`1 conditions, String extraWhereFilter, Dictionary`2 extraParameters, VectorSearchOptions`1 searchOptions, CancellationToken cancellationToken)+System.Threading.Tasks.Sources.IValueTaskSource<System.Boolean>.GetResult()
+   at Microsoft.SemanticKernel.Connectors.SqliteVec.SqliteCollection`2.SearchAsync[TInput](TInput searchValue, Int32 top, VectorSearchOptions`1 options, CancellationToken cancellationToken)+MoveNext()
+   at Microsoft.SemanticKernel.Connectors.SqliteVec.SqliteCollection`2.SearchAsync[TInput](TInput searchValue, Int32 top, VectorSearchOptions`1 options, CancellationToken cancellationToken)+MoveNext()
+   at Microsoft.SemanticKernel.Connectors.SqliteVec.SqliteCollection`2.SearchAsync[TInput](TInput searchValue, Int32 top, VectorSearchOptions`1 options, CancellationToken cancellationToken)+System.Threading.Tasks.Sources.IValueTaskSource<System.Boolean>.GetResult()
+   at GenxAi_Solutions.Services.VectorStoreSeedService.QueryAsync(String question, String sqliteDbPath, Int32 topSections, Int32 topChunks) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Services\VectorStoreSeedService.cs:line 375
+   at GenxAi_Solutions.Services.VectorStoreSeedService.QueryAsync(String question, String sqliteDbPath, Int32 topSections, Int32 topChunks) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Services\VectorStoreSeedService.cs:line 375
+   at GenxAi_Solutions.Api.CompanyOnboardController.AskChat_up(String message, String service, Nullable`1 conversationId, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Api\CompanyOnboardController.cs:line 1164
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at GenxAi_Solutions.Utils.Middleware.ErrorHandlingMiddleware.Invoke(HttpContext context) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Utils\Middleware\ErrorHandlingMiddleware.cs:line 139
+Exception Type: Microsoft.Extensions.VectorData.VectorStoreException
+Exception Message: Call to vector store failed.
+Stack Trace:    at Microsoft.Extensions.VectorData.VectorStoreErrorHandler.ExecuteWithErrorHandlingAsync[TResult](DbConnection connection, VectorStoreCollectionMetadata metadata, String operationName, Func`1 operation, CancellationToken cancellationToken)
+   at Microsoft.SemanticKernel.Connectors.SqliteVec.SqliteCollection`2.EnumerateAndMapSearchResultsAsync(List`1 conditions, String extraWhereFilter, Dictionary`2 extraParameters, VectorSearchOptions`1 searchOptions, CancellationToken cancellationToken)+MoveNext()
+   at Microsoft.SemanticKernel.Connectors.SqliteVec.SqliteCollection`2.EnumerateAndMapSearchResultsAsync(List`1 conditions, String extraWhereFilter, Dictionary`2 extraParameters, VectorSearchOptions`1 searchOptions, CancellationToken cancellationToken)+System.Threading.Tasks.Sources.IValueTaskSource<System.Boolean>.GetResult()
+   at Microsoft.SemanticKernel.Connectors.SqliteVec.SqliteCollection`2.SearchAsync[TInput](TInput searchValue, Int32 top, VectorSearchOptions`1 options, CancellationToken cancellationToken)+MoveNext()
+   at Microsoft.SemanticKernel.Connectors.SqliteVec.SqliteCollection`2.SearchAsync[TInput](TInput searchValue, Int32 top, VectorSearchOptions`1 options, CancellationToken cancellationToken)+MoveNext()
+   at Microsoft.SemanticKernel.Connectors.SqliteVec.SqliteCollection`2.SearchAsync[TInput](TInput searchValue, Int32 top, VectorSearchOptions`1 options, CancellationToken cancellationToken)+System.Threading.Tasks.Sources.IValueTaskSource<System.Boolean>.GetResult()
+   at GenxAi_Solutions.Services.VectorStoreSeedService.QueryAsync(String question, String sqliteDbPath, Int32 topSections, Int32 topChunks) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Services\VectorStoreSeedService.cs:line 375
+   at GenxAi_Solutions.Services.VectorStoreSeedService.QueryAsync(String question, String sqliteDbPath, Int32 topSections, Int32 topChunks) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Services\VectorStoreSeedService.cs:line 375
+   at GenxAi_Solutions.Api.CompanyOnboardController.AskChat_up(String message, String service, Nullable`1 conversationId, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Api\CompanyOnboardController.cs:line 1164
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at GenxAi_Solutions.Utils.Middleware.ErrorHandlingMiddleware.Invoke(HttpContext context) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Utils\Middleware\ErrorHandlingMiddleware.cs:line 139
+Inner Exception: Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 1: 'no such table: vec_chapter_index'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.PrepareAndEnumerateStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.GetStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Extensions.VectorData.VectorStoreErrorHandler.ExecuteWithErrorHandlingAsync[TResult](DbConnection connection, VectorStoreCollectionMetadata metadata, String operationName, Func`1 operation, CancellationToken cancellationToken)
+--------------------------------------------------------------------------------
+[2025-10-24 16:05:13.547] [Error]
+Category: GenxAi_Solutions.Api.CompanyOnboardController
+Message: Error in AskChat_up API - User: nidhi.lad@genxai.com, Service: FileAnalytics, Message: hi, CorrelationId: c308c64f-9f2e-4e66-ae05-df25fb8b922a, Error: Call to vector store failed.
+Exception Type: Microsoft.Extensions.VectorData.VectorStoreException
+Exception Message: Call to vector store failed.
+Stack Trace:    at Microsoft.Extensions.VectorData.VectorStoreErrorHandler.ExecuteWithErrorHandlingAsync[TResult](DbConnection connection, VectorStoreCollectionMetadata metadata, String operationName, Func`1 operation, CancellationToken cancellationToken)
+   at Microsoft.SemanticKernel.Connectors.SqliteVec.SqliteCollection`2.EnumerateAndMapSearchResultsAsync(List`1 conditions, String extraWhereFilter, Dictionary`2 extraParameters, VectorSearchOptions`1 searchOptions, CancellationToken cancellationToken)+MoveNext()
+   at Microsoft.SemanticKernel.Connectors.SqliteVec.SqliteCollection`2.EnumerateAndMapSearchResultsAsync(List`1 conditions, String extraWhereFilter, Dictionary`2 extraParameters, VectorSearchOptions`1 searchOptions, CancellationToken cancellationToken)+System.Threading.Tasks.Sources.IValueTaskSource<System.Boolean>.GetResult()
+   at Microsoft.SemanticKernel.Connectors.SqliteVec.SqliteCollection`2.SearchAsync[TInput](TInput searchValue, Int32 top, VectorSearchOptions`1 options, CancellationToken cancellationToken)+MoveNext()
+   at Microsoft.SemanticKernel.Connectors.SqliteVec.SqliteCollection`2.SearchAsync[TInput](TInput searchValue, Int32 top, VectorSearchOptions`1 options, CancellationToken cancellationToken)+MoveNext()
+   at Microsoft.SemanticKernel.Connectors.SqliteVec.SqliteCollection`2.SearchAsync[TInput](TInput searchValue, Int32 top, VectorSearchOptions`1 options, CancellationToken cancellationToken)+System.Threading.Tasks.Sources.IValueTaskSource<System.Boolean>.GetResult()
+   at GenxAi_Solutions.Services.VectorStoreSeedService.QueryAsync(String question, String sqliteDbPath, Int32 topSections, Int32 topChunks) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Services\VectorStoreSeedService.cs:line 375
+   at GenxAi_Solutions.Services.VectorStoreSeedService.QueryAsync(String question, String sqliteDbPath, Int32 topSections, Int32 topChunks) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Services\VectorStoreSeedService.cs:line 375
+   at GenxAi_Solutions.Api.CompanyOnboardController.AskChat_up(String message, String service, Nullable`1 conversationId, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Api\CompanyOnboardController.cs:line 1164
+Inner Exception: Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 1: 'no such table: vec_chapter_index'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.PrepareAndEnumerateStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.GetStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Extensions.VectorData.VectorStoreErrorHandler.ExecuteWithErrorHandlingAsync[TResult](DbConnection connection, VectorStoreCollectionMetadata metadata, String operationName, Func`1 operation, CancellationToken cancellationToken)
+--------------------------------------------------------------------------------
+[2025-10-24 16:05:13.550] [Error]
+Category: GenxAi_Solutions.Api.CompanyOnboardController
+Message: Error in AskChat_up API - User: nidhi.lad@genxai.com, Service: FileAnalytics, Message: hi, CorrelationId: c308c64f-9f2e-4e66-ae05-df25fb8b922a, Error: Call to vector store failed.
+Exception Type: Microsoft.Extensions.VectorData.VectorStoreException
+Exception Message: Call to vector store failed.
+Stack Trace:    at Microsoft.Extensions.VectorData.VectorStoreErrorHandler.ExecuteWithErrorHandlingAsync[TResult](DbConnection connection, VectorStoreCollectionMetadata metadata, String operationName, Func`1 operation, CancellationToken cancellationToken)
+   at Microsoft.SemanticKernel.Connectors.SqliteVec.SqliteCollection`2.EnumerateAndMapSearchResultsAsync(List`1 conditions, String extraWhereFilter, Dictionary`2 extraParameters, VectorSearchOptions`1 searchOptions, CancellationToken cancellationToken)+MoveNext()
+   at Microsoft.SemanticKernel.Connectors.SqliteVec.SqliteCollection`2.EnumerateAndMapSearchResultsAsync(List`1 conditions, String extraWhereFilter, Dictionary`2 extraParameters, VectorSearchOptions`1 searchOptions, CancellationToken cancellationToken)+System.Threading.Tasks.Sources.IValueTaskSource<System.Boolean>.GetResult()
+   at Microsoft.SemanticKernel.Connectors.SqliteVec.SqliteCollection`2.SearchAsync[TInput](TInput searchValue, Int32 top, VectorSearchOptions`1 options, CancellationToken cancellationToken)+MoveNext()
+   at Microsoft.SemanticKernel.Connectors.SqliteVec.SqliteCollection`2.SearchAsync[TInput](TInput searchValue, Int32 top, VectorSearchOptions`1 options, CancellationToken cancellationToken)+MoveNext()
+   at Microsoft.SemanticKernel.Connectors.SqliteVec.SqliteCollection`2.SearchAsync[TInput](TInput searchValue, Int32 top, VectorSearchOptions`1 options, CancellationToken cancellationToken)+System.Threading.Tasks.Sources.IValueTaskSource<System.Boolean>.GetResult()
+   at GenxAi_Solutions.Services.VectorStoreSeedService.QueryAsync(String question, String sqliteDbPath, Int32 topSections, Int32 topChunks) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Services\VectorStoreSeedService.cs:line 375
+   at GenxAi_Solutions.Services.VectorStoreSeedService.QueryAsync(String question, String sqliteDbPath, Int32 topSections, Int32 topChunks) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Services\VectorStoreSeedService.cs:line 375
+   at GenxAi_Solutions.Api.CompanyOnboardController.AskChat_up(String message, String service, Nullable`1 conversationId, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Api\CompanyOnboardController.cs:line 1164
+Inner Exception: Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 1: 'no such table: vec_chapter_index'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.PrepareAndEnumerateStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.GetStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Extensions.VectorData.VectorStoreErrorHandler.ExecuteWithErrorHandlingAsync[TResult](DbConnection connection, VectorStoreCollectionMetadata metadata, String operationName, Func`1 operation, CancellationToken cancellationToken)
+--------------------------------------------------------------------------------
+[2025-10-24 16:05:13.662] [Error]
+Category: GenxAi_Solutions.Utils.Middleware.ErrorHandlingMiddleware
+Message: Unhandled exception POST /api/CompanyOnboard/Ask2 c308c64f-9f2e-4e66-ae05-df25fb8b922a. Exception Details: Microsoft.Extensions.VectorData.VectorStoreException - Call to vector store failed. Stack Trace:    at Microsoft.Extensions.VectorData.VectorStoreErrorHandler.ExecuteWithErrorHandlingAsync[TResult](DbConnection connection, VectorStoreCollectionMetadata metadata, String operationName, Func`1 operation, CancellationToken cancellationToken)
+   at Microsoft.SemanticKernel.Connectors.SqliteVec.SqliteCollection`2.EnumerateAndMapSearchResultsAsync(List`1 conditions, String extraWhereFilter, Dictionary`2 extraParameters, VectorSearchOptions`1 searchOptions, CancellationToken cancellationToken)+MoveNext()
+   at Microsoft.SemanticKernel.Connectors.SqliteVec.SqliteCollection`2.EnumerateAndMapSearchResultsAsync(List`1 conditions, String extraWhereFilter, Dictionary`2 extraParameters, VectorSearchOptions`1 searchOptions, CancellationToken cancellationToken)+System.Threading.Tasks.Sources.IValueTaskSource<System.Boolean>.GetResult()
+   at Microsoft.SemanticKernel.Connectors.SqliteVec.SqliteCollection`2.SearchAsync[TInput](TInput searchValue, Int32 top, VectorSearchOptions`1 options, CancellationToken cancellationToken)+MoveNext()
+   at Microsoft.SemanticKernel.Connectors.SqliteVec.SqliteCollection`2.SearchAsync[TInput](TInput searchValue, Int32 top, VectorSearchOptions`1 options, CancellationToken cancellationToken)+MoveNext()
+   at Microsoft.SemanticKernel.Connectors.SqliteVec.SqliteCollection`2.SearchAsync[TInput](TInput searchValue, Int32 top, VectorSearchOptions`1 options, CancellationToken cancellationToken)+System.Threading.Tasks.Sources.IValueTaskSource<System.Boolean>.GetResult()
+   at GenxAi_Solutions.Services.VectorStoreSeedService.QueryAsync(String question, String sqliteDbPath, Int32 topSections, Int32 topChunks) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Services\VectorStoreSeedService.cs:line 375
+   at GenxAi_Solutions.Services.VectorStoreSeedService.QueryAsync(String question, String sqliteDbPath, Int32 topSections, Int32 topChunks) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Services\VectorStoreSeedService.cs:line 375
+   at GenxAi_Solutions.Api.CompanyOnboardController.AskChat_up(String message, String service, Nullable`1 conversationId, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Api\CompanyOnboardController.cs:line 1164
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at GenxAi_Solutions.Utils.Middleware.ErrorHandlingMiddleware.Invoke(HttpContext context) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Utils\Middleware\ErrorHandlingMiddleware.cs:line 139
+Exception Type: Microsoft.Extensions.VectorData.VectorStoreException
+Exception Message: Call to vector store failed.
+Stack Trace:    at Microsoft.Extensions.VectorData.VectorStoreErrorHandler.ExecuteWithErrorHandlingAsync[TResult](DbConnection connection, VectorStoreCollectionMetadata metadata, String operationName, Func`1 operation, CancellationToken cancellationToken)
+   at Microsoft.SemanticKernel.Connectors.SqliteVec.SqliteCollection`2.EnumerateAndMapSearchResultsAsync(List`1 conditions, String extraWhereFilter, Dictionary`2 extraParameters, VectorSearchOptions`1 searchOptions, CancellationToken cancellationToken)+MoveNext()
+   at Microsoft.SemanticKernel.Connectors.SqliteVec.SqliteCollection`2.EnumerateAndMapSearchResultsAsync(List`1 conditions, String extraWhereFilter, Dictionary`2 extraParameters, VectorSearchOptions`1 searchOptions, CancellationToken cancellationToken)+System.Threading.Tasks.Sources.IValueTaskSource<System.Boolean>.GetResult()
+   at Microsoft.SemanticKernel.Connectors.SqliteVec.SqliteCollection`2.SearchAsync[TInput](TInput searchValue, Int32 top, VectorSearchOptions`1 options, CancellationToken cancellationToken)+MoveNext()
+   at Microsoft.SemanticKernel.Connectors.SqliteVec.SqliteCollection`2.SearchAsync[TInput](TInput searchValue, Int32 top, VectorSearchOptions`1 options, CancellationToken cancellationToken)+MoveNext()
+   at Microsoft.SemanticKernel.Connectors.SqliteVec.SqliteCollection`2.SearchAsync[TInput](TInput searchValue, Int32 top, VectorSearchOptions`1 options, CancellationToken cancellationToken)+System.Threading.Tasks.Sources.IValueTaskSource<System.Boolean>.GetResult()
+   at GenxAi_Solutions.Services.VectorStoreSeedService.QueryAsync(String question, String sqliteDbPath, Int32 topSections, Int32 topChunks) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Services\VectorStoreSeedService.cs:line 375
+   at GenxAi_Solutions.Services.VectorStoreSeedService.QueryAsync(String question, String sqliteDbPath, Int32 topSections, Int32 topChunks) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Services\VectorStoreSeedService.cs:line 375
+   at GenxAi_Solutions.Api.CompanyOnboardController.AskChat_up(String message, String service, Nullable`1 conversationId, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Api\CompanyOnboardController.cs:line 1164
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at GenxAi_Solutions.Utils.Middleware.ErrorHandlingMiddleware.Invoke(HttpContext context) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Utils\Middleware\ErrorHandlingMiddleware.cs:line 139
+Inner Exception: Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 1: 'no such table: vec_chapter_index'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.PrepareAndEnumerateStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.GetStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Extensions.VectorData.VectorStoreErrorHandler.ExecuteWithErrorHandlingAsync[TResult](DbConnection connection, VectorStoreCollectionMetadata metadata, String operationName, Func`1 operation, CancellationToken cancellationToken)
+--------------------------------------------------------------------------------
+[2025-10-24 16:05:13.664] [Error]
+Category: GenxAi_Solutions.Utils.Middleware.ErrorHandlingMiddleware
+Message: Unhandled exception POST /api/CompanyOnboard/Ask2 c308c64f-9f2e-4e66-ae05-df25fb8b922a. Exception Details: Microsoft.Extensions.VectorData.VectorStoreException - Call to vector store failed. Stack Trace:    at Microsoft.Extensions.VectorData.VectorStoreErrorHandler.ExecuteWithErrorHandlingAsync[TResult](DbConnection connection, VectorStoreCollectionMetadata metadata, String operationName, Func`1 operation, CancellationToken cancellationToken)
+   at Microsoft.SemanticKernel.Connectors.SqliteVec.SqliteCollection`2.EnumerateAndMapSearchResultsAsync(List`1 conditions, String extraWhereFilter, Dictionary`2 extraParameters, VectorSearchOptions`1 searchOptions, CancellationToken cancellationToken)+MoveNext()
+   at Microsoft.SemanticKernel.Connectors.SqliteVec.SqliteCollection`2.EnumerateAndMapSearchResultsAsync(List`1 conditions, String extraWhereFilter, Dictionary`2 extraParameters, VectorSearchOptions`1 searchOptions, CancellationToken cancellationToken)+System.Threading.Tasks.Sources.IValueTaskSource<System.Boolean>.GetResult()
+   at Microsoft.SemanticKernel.Connectors.SqliteVec.SqliteCollection`2.SearchAsync[TInput](TInput searchValue, Int32 top, VectorSearchOptions`1 options, CancellationToken cancellationToken)+MoveNext()
+   at Microsoft.SemanticKernel.Connectors.SqliteVec.SqliteCollection`2.SearchAsync[TInput](TInput searchValue, Int32 top, VectorSearchOptions`1 options, CancellationToken cancellationToken)+MoveNext()
+   at Microsoft.SemanticKernel.Connectors.SqliteVec.SqliteCollection`2.SearchAsync[TInput](TInput searchValue, Int32 top, VectorSearchOptions`1 options, CancellationToken cancellationToken)+System.Threading.Tasks.Sources.IValueTaskSource<System.Boolean>.GetResult()
+   at GenxAi_Solutions.Services.VectorStoreSeedService.QueryAsync(String question, String sqliteDbPath, Int32 topSections, Int32 topChunks) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Services\VectorStoreSeedService.cs:line 375
+   at GenxAi_Solutions.Services.VectorStoreSeedService.QueryAsync(String question, String sqliteDbPath, Int32 topSections, Int32 topChunks) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Services\VectorStoreSeedService.cs:line 375
+   at GenxAi_Solutions.Api.CompanyOnboardController.AskChat_up(String message, String service, Nullable`1 conversationId, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Api\CompanyOnboardController.cs:line 1164
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at GenxAi_Solutions.Utils.Middleware.ErrorHandlingMiddleware.Invoke(HttpContext context) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Utils\Middleware\ErrorHandlingMiddleware.cs:line 139
+Exception Type: Microsoft.Extensions.VectorData.VectorStoreException
+Exception Message: Call to vector store failed.
+Stack Trace:    at Microsoft.Extensions.VectorData.VectorStoreErrorHandler.ExecuteWithErrorHandlingAsync[TResult](DbConnection connection, VectorStoreCollectionMetadata metadata, String operationName, Func`1 operation, CancellationToken cancellationToken)
+   at Microsoft.SemanticKernel.Connectors.SqliteVec.SqliteCollection`2.EnumerateAndMapSearchResultsAsync(List`1 conditions, String extraWhereFilter, Dictionary`2 extraParameters, VectorSearchOptions`1 searchOptions, CancellationToken cancellationToken)+MoveNext()
+   at Microsoft.SemanticKernel.Connectors.SqliteVec.SqliteCollection`2.EnumerateAndMapSearchResultsAsync(List`1 conditions, String extraWhereFilter, Dictionary`2 extraParameters, VectorSearchOptions`1 searchOptions, CancellationToken cancellationToken)+System.Threading.Tasks.Sources.IValueTaskSource<System.Boolean>.GetResult()
+   at Microsoft.SemanticKernel.Connectors.SqliteVec.SqliteCollection`2.SearchAsync[TInput](TInput searchValue, Int32 top, VectorSearchOptions`1 options, CancellationToken cancellationToken)+MoveNext()
+   at Microsoft.SemanticKernel.Connectors.SqliteVec.SqliteCollection`2.SearchAsync[TInput](TInput searchValue, Int32 top, VectorSearchOptions`1 options, CancellationToken cancellationToken)+MoveNext()
+   at Microsoft.SemanticKernel.Connectors.SqliteVec.SqliteCollection`2.SearchAsync[TInput](TInput searchValue, Int32 top, VectorSearchOptions`1 options, CancellationToken cancellationToken)+System.Threading.Tasks.Sources.IValueTaskSource<System.Boolean>.GetResult()
+   at GenxAi_Solutions.Services.VectorStoreSeedService.QueryAsync(String question, String sqliteDbPath, Int32 topSections, Int32 topChunks) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Services\VectorStoreSeedService.cs:line 375
+   at GenxAi_Solutions.Services.VectorStoreSeedService.QueryAsync(String question, String sqliteDbPath, Int32 topSections, Int32 topChunks) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Services\VectorStoreSeedService.cs:line 375
+   at GenxAi_Solutions.Api.CompanyOnboardController.AskChat_up(String message, String service, Nullable`1 conversationId, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Api\CompanyOnboardController.cs:line 1164
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at GenxAi_Solutions.Utils.Middleware.ErrorHandlingMiddleware.Invoke(HttpContext context) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Utils\Middleware\ErrorHandlingMiddleware.cs:line 139
+Inner Exception: Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 1: 'no such table: vec_chapter_index'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.PrepareAndEnumerateStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.GetStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Extensions.VectorData.VectorStoreErrorHandler.ExecuteWithErrorHandlingAsync[TResult](DbConnection connection, VectorStoreCollectionMetadata metadata, String operationName, Func`1 operation, CancellationToken cancellationToken)
+--------------------------------------------------------------------------------
+[2025-10-24 16:09:51.964] [Error]
+Category: GenxAi_Solutions.Api.NotificationsController
+Message: GetUnread failed. afterId=20031
+Exception Type: System.Threading.Tasks.TaskCanceledException
+Exception Message: A task was canceled.
+Stack Trace:    at GenxAi_Solutions.Services.NotificationStore.GetUnreadAfterIdAllAsync(Int32 userId, IReadOnlyList`1 companyIds, Nullable`1 afterId, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Services\NotificationStore.cs:line 77
+   at GenxAi_Solutions.Services.NotificationStore.GetUnreadAfterIdAllAsync(Int32 userId, IReadOnlyList`1 companyIds, Nullable`1 afterId, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Services\NotificationStore.cs:line 131
+   at GenxAi_Solutions.Api.NotificationsController.GetUnread(Nullable`1 afterId, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Api\NotificationsController.cs:line 27
+--------------------------------------------------------------------------------
+[2025-10-24 16:09:51.968] [Error]
+Category: GenxAi_Solutions.Api.NotificationsController
+Message: GetUnread failed. afterId=20031
+Exception Type: System.Threading.Tasks.TaskCanceledException
+Exception Message: A task was canceled.
+Stack Trace:    at GenxAi_Solutions.Services.NotificationStore.GetUnreadAfterIdAllAsync(Int32 userId, IReadOnlyList`1 companyIds, Nullable`1 afterId, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Services\NotificationStore.cs:line 77
+   at GenxAi_Solutions.Services.NotificationStore.GetUnreadAfterIdAllAsync(Int32 userId, IReadOnlyList`1 companyIds, Nullable`1 afterId, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Services\NotificationStore.cs:line 131
+   at GenxAi_Solutions.Api.NotificationsController.GetUnread(Nullable`1 afterId, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Api\NotificationsController.cs:line 27
+--------------------------------------------------------------------------------
+[2025-10-24 16:15:56.977] [Error]
+Category: GenxAi_Solutions.Api.NotificationsController
+Message: GetUnread failed. afterId=20031
+Exception Type: System.Threading.Tasks.TaskCanceledException
+Exception Message: A task was canceled.
+Stack Trace:    at GenxAi_Solutions.Services.NotificationStore.GetUnreadAfterIdAllAsync(Int32 userId, IReadOnlyList`1 companyIds, Nullable`1 afterId, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Services\NotificationStore.cs:line 77
+   at GenxAi_Solutions.Services.NotificationStore.GetUnreadAfterIdAllAsync(Int32 userId, IReadOnlyList`1 companyIds, Nullable`1 afterId, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Services\NotificationStore.cs:line 131
+   at GenxAi_Solutions.Api.NotificationsController.GetUnread(Nullable`1 afterId, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Api\NotificationsController.cs:line 27
+--------------------------------------------------------------------------------
+[2025-10-24 16:15:56.982] [Error]
+Category: GenxAi_Solutions.Api.NotificationsController
+Message: GetUnread failed. afterId=20031
+Exception Type: System.Threading.Tasks.TaskCanceledException
+Exception Message: A task was canceled.
+Stack Trace:    at GenxAi_Solutions.Services.NotificationStore.GetUnreadAfterIdAllAsync(Int32 userId, IReadOnlyList`1 companyIds, Nullable`1 afterId, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Services\NotificationStore.cs:line 77
+   at GenxAi_Solutions.Services.NotificationStore.GetUnreadAfterIdAllAsync(Int32 userId, IReadOnlyList`1 companyIds, Nullable`1 afterId, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Services\NotificationStore.cs:line 131
+   at GenxAi_Solutions.Api.NotificationsController.GetUnread(Nullable`1 afterId, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Api\NotificationsController.cs:line 27
+--------------------------------------------------------------------------------
+[2025-10-24 17:52:30.046] [Error]
+Category: GenxAi_Solutions.Api.CompanyOnboardController
+Message: Error in AskChat_up API - User: nidhi.lad@genxai.com, Service: SQLAnalytics, Message: hi, CorrelationId: a1f3b434-f9a2-40a0-a06f-e610a0d4505f, Error: The operation was canceled.
+Exception Type: System.Threading.Tasks.TaskCanceledException
+Exception Message: The operation was canceled.
+Stack Trace:    at System.ClientModel.Internal.CancellationHelper.ThrowOperationCanceledException(Exception innerException, CancellationToken cancellationToken)
+   at System.ClientModel.Internal.CancellationHelper.ThrowIfCancellationRequested(CancellationToken cancellationToken, Exception innerException)
+   at System.ClientModel.Internal.CancellationHelper.ThrowIfCancellationRequestedOrTimeout(CancellationToken messageToken, CancellationToken timeoutToken, Exception innerException, TimeSpan timeout)
+   at System.ClientModel.Primitives.PipelineTransport.ProcessSyncOrAsync(PipelineMessage message, Boolean async)
+   at System.ClientModel.Primitives.PipelineTransport.ProcessAsync(PipelineMessage message)
+   at System.ClientModel.Primitives.PipelineTransport.ProcessAsync(PipelineMessage message, IReadOnlyList`1 pipeline, Int32 currentIndex)
+   at System.ClientModel.Primitives.PipelinePolicy.ProcessNextAsync(PipelineMessage message, IReadOnlyList`1 pipeline, Int32 currentIndex)
+   at System.ClientModel.Primitives.MessageLoggingPolicy.ProcessSyncOrAsync(PipelineMessage message, IReadOnlyList`1 pipeline, Int32 currentIndex, Boolean async)
+   at System.ClientModel.Primitives.MessageLoggingPolicy.ProcessAsync(PipelineMessage message, IReadOnlyList`1 pipeline, Int32 currentIndex)
+   at System.ClientModel.Primitives.PipelinePolicy.ProcessNextAsync(PipelineMessage message, IReadOnlyList`1 pipeline, Int32 currentIndex)
+   at System.ClientModel.Primitives.ApiKeyAuthenticationPolicy.ProcessAsync(PipelineMessage message, IReadOnlyList`1 pipeline, Int32 currentIndex)
+   at System.ClientModel.Primitives.PipelinePolicy.ProcessNextAsync(PipelineMessage message, IReadOnlyList`1 pipeline, Int32 currentIndex)
+   at System.ClientModel.Primitives.ClientRetryPolicy.ProcessSyncOrAsync(PipelineMessage message, IReadOnlyList`1 pipeline, Int32 currentIndex, Boolean async)
+   at System.ClientModel.Primitives.ClientRetryPolicy.ProcessSyncOrAsync(PipelineMessage message, IReadOnlyList`1 pipeline, Int32 currentIndex, Boolean async)
+   at System.ClientModel.Primitives.ClientRetryPolicy.ProcessAsync(PipelineMessage message, IReadOnlyList`1 pipeline, Int32 currentIndex)
+   at GenericActionPipelinePolicy.ProcessAsync(PipelineMessage message, IReadOnlyList`1 pipeline, Int32 currentIndex)
+   at OpenAI.GenericActionPipelinePolicy.ProcessAsync(PipelineMessage message, IReadOnlyList`1 pipeline, Int32 currentIndex)
+   at System.ClientModel.Primitives.ClientPipeline.SendAsync(PipelineMessage message)
+   at OpenAI.ClientPipelineExtensions.ProcessMessageAsync(ClientPipeline pipeline, PipelineMessage message, RequestOptions options)
+   at OpenAI.Chat.ChatClient.CompleteChatAsync(BinaryContent content, RequestOptions options)
+   at OpenAI.Chat.ChatClient.CompleteChatAsync(IEnumerable`1 messages, ChatCompletionOptions options, CancellationToken cancellationToken)
+   at Microsoft.SemanticKernel.Connectors.OpenAI.ClientCore.RunRequestAsync[T](Func`1 request)
+   at Microsoft.SemanticKernel.Connectors.OpenAI.ClientCore.GetChatMessageContentsAsync(String targetModel, ChatHistory chatHistory, PromptExecutionSettings executionSettings, Kernel kernel, CancellationToken cancellationToken)
+   at GenxAi_Solutions.Api.CompanyOnboardController.AskChat_up(String message, String service, Nullable`1 conversationId, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Api\CompanyOnboardController.cs:line 1333
+Inner Exception: System.Threading.Tasks.TaskCanceledException: The operation was canceled.
+ ---> System.Threading.Tasks.TaskCanceledException: The operation was canceled.
+ ---> System.IO.IOException: Unable to read data from the transport connection: The I/O operation has been aborted because of either a thread exit or an application request..
+ ---> System.Net.Sockets.SocketException (995): The I/O operation has been aborted because of either a thread exit or an application request.
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource<System.Int32>.GetResult(Int16 token)
+   at System.Net.Security.SslStream.EnsureFullTlsFrameAsync[TIOAdapter](CancellationToken cancellationToken, Int32 estimatedSize)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Net.Security.SslStream.ReadAsyncInternal[TIOAdapter](Memory`1 buffer, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Net.Http.HttpConnection.<EnsureReadAheadTaskHasStarted>g__ReadAheadWithZeroByteReadAsync|40_0()
+   at System.Net.Http.HttpConnection.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnection.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpClient.HandleFailure(Exception e, Boolean telemetryStarted, HttpResponseMessage response, CancellationTokenSource cts, CancellationToken cancellationToken, CancellationTokenSource pendingRequestsCts)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at System.ClientModel.Primitives.HttpClientPipelineTransport.ProcessSyncOrAsync(PipelineMessage message, Boolean async)
+   at System.ClientModel.Primitives.HttpClientPipelineTransport.ProcessCoreAsync(PipelineMessage message)
+   at System.ClientModel.Primitives.PipelineTransport.ProcessSyncOrAsync(PipelineMessage message, Boolean async)
+--------------------------------------------------------------------------------
+[2025-10-24 17:52:32.174] [Error]
+Category: GenxAi_Solutions.Api.CompanyOnboardController
+Message: Error in AskChat_up API - User: nidhi.lad@genxai.com, Service: SQLAnalytics, Message: hi, CorrelationId: a1f3b434-f9a2-40a0-a06f-e610a0d4505f, Error: The operation was canceled.
+Exception Type: System.Threading.Tasks.TaskCanceledException
+Exception Message: The operation was canceled.
+Stack Trace:    at System.ClientModel.Internal.CancellationHelper.ThrowOperationCanceledException(Exception innerException, CancellationToken cancellationToken)
+   at System.ClientModel.Internal.CancellationHelper.ThrowIfCancellationRequested(CancellationToken cancellationToken, Exception innerException)
+   at System.ClientModel.Internal.CancellationHelper.ThrowIfCancellationRequestedOrTimeout(CancellationToken messageToken, CancellationToken timeoutToken, Exception innerException, TimeSpan timeout)
+   at System.ClientModel.Primitives.PipelineTransport.ProcessSyncOrAsync(PipelineMessage message, Boolean async)
+   at System.ClientModel.Primitives.PipelineTransport.ProcessAsync(PipelineMessage message)
+   at System.ClientModel.Primitives.PipelineTransport.ProcessAsync(PipelineMessage message, IReadOnlyList`1 pipeline, Int32 currentIndex)
+   at System.ClientModel.Primitives.PipelinePolicy.ProcessNextAsync(PipelineMessage message, IReadOnlyList`1 pipeline, Int32 currentIndex)
+   at System.ClientModel.Primitives.MessageLoggingPolicy.ProcessSyncOrAsync(PipelineMessage message, IReadOnlyList`1 pipeline, Int32 currentIndex, Boolean async)
+   at System.ClientModel.Primitives.MessageLoggingPolicy.ProcessAsync(PipelineMessage message, IReadOnlyList`1 pipeline, Int32 currentIndex)
+   at System.ClientModel.Primitives.PipelinePolicy.ProcessNextAsync(PipelineMessage message, IReadOnlyList`1 pipeline, Int32 currentIndex)
+   at System.ClientModel.Primitives.ApiKeyAuthenticationPolicy.ProcessAsync(PipelineMessage message, IReadOnlyList`1 pipeline, Int32 currentIndex)
+   at System.ClientModel.Primitives.PipelinePolicy.ProcessNextAsync(PipelineMessage message, IReadOnlyList`1 pipeline, Int32 currentIndex)
+   at System.ClientModel.Primitives.ClientRetryPolicy.ProcessSyncOrAsync(PipelineMessage message, IReadOnlyList`1 pipeline, Int32 currentIndex, Boolean async)
+   at System.ClientModel.Primitives.ClientRetryPolicy.ProcessSyncOrAsync(PipelineMessage message, IReadOnlyList`1 pipeline, Int32 currentIndex, Boolean async)
+   at System.ClientModel.Primitives.ClientRetryPolicy.ProcessAsync(PipelineMessage message, IReadOnlyList`1 pipeline, Int32 currentIndex)
+   at GenericActionPipelinePolicy.ProcessAsync(PipelineMessage message, IReadOnlyList`1 pipeline, Int32 currentIndex)
+   at OpenAI.GenericActionPipelinePolicy.ProcessAsync(PipelineMessage message, IReadOnlyList`1 pipeline, Int32 currentIndex)
+   at System.ClientModel.Primitives.ClientPipeline.SendAsync(PipelineMessage message)
+   at OpenAI.ClientPipelineExtensions.ProcessMessageAsync(ClientPipeline pipeline, PipelineMessage message, RequestOptions options)
+   at OpenAI.Chat.ChatClient.CompleteChatAsync(BinaryContent content, RequestOptions options)
+   at OpenAI.Chat.ChatClient.CompleteChatAsync(IEnumerable`1 messages, ChatCompletionOptions options, CancellationToken cancellationToken)
+   at Microsoft.SemanticKernel.Connectors.OpenAI.ClientCore.RunRequestAsync[T](Func`1 request)
+   at Microsoft.SemanticKernel.Connectors.OpenAI.ClientCore.GetChatMessageContentsAsync(String targetModel, ChatHistory chatHistory, PromptExecutionSettings executionSettings, Kernel kernel, CancellationToken cancellationToken)
+   at GenxAi_Solutions.Api.CompanyOnboardController.AskChat_up(String message, String service, Nullable`1 conversationId, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Api\CompanyOnboardController.cs:line 1333
+Inner Exception: System.Threading.Tasks.TaskCanceledException: The operation was canceled.
+ ---> System.Threading.Tasks.TaskCanceledException: The operation was canceled.
+ ---> System.IO.IOException: Unable to read data from the transport connection: The I/O operation has been aborted because of either a thread exit or an application request..
+ ---> System.Net.Sockets.SocketException (995): The I/O operation has been aborted because of either a thread exit or an application request.
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource<System.Int32>.GetResult(Int16 token)
+   at System.Net.Security.SslStream.EnsureFullTlsFrameAsync[TIOAdapter](CancellationToken cancellationToken, Int32 estimatedSize)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Net.Security.SslStream.ReadAsyncInternal[TIOAdapter](Memory`1 buffer, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Net.Http.HttpConnection.<EnsureReadAheadTaskHasStarted>g__ReadAheadWithZeroByteReadAsync|40_0()
+   at System.Net.Http.HttpConnection.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnection.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpClient.HandleFailure(Exception e, Boolean telemetryStarted, HttpResponseMessage response, CancellationTokenSource cts, CancellationToken cancellationToken, CancellationTokenSource pendingRequestsCts)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at System.ClientModel.Primitives.HttpClientPipelineTransport.ProcessSyncOrAsync(PipelineMessage message, Boolean async)
+   at System.ClientModel.Primitives.HttpClientPipelineTransport.ProcessCoreAsync(PipelineMessage message)
+   at System.ClientModel.Primitives.PipelineTransport.ProcessSyncOrAsync(PipelineMessage message, Boolean async)
+--------------------------------------------------------------------------------
+[2025-10-24 17:59:12.800] [Error]
+Category: GenxAi_Solutions.Api.CompanyOnboardController
+Message: Error in AskChat_up API - User: nidhi.lad@genxai.com, Service: SQLAnalytics, Message: delete all the team, CorrelationId: a4dab9ca-442d-4d45-a06b-b4eb5e9124bf, Error: The operation was canceled.
+Exception Type: System.Threading.Tasks.TaskCanceledException
+Exception Message: The operation was canceled.
+Stack Trace:    at System.ClientModel.Internal.CancellationHelper.ThrowOperationCanceledException(Exception innerException, CancellationToken cancellationToken)
+   at System.ClientModel.Internal.CancellationHelper.ThrowIfCancellationRequested(CancellationToken cancellationToken, Exception innerException)
+   at System.ClientModel.Internal.CancellationHelper.ThrowIfCancellationRequestedOrTimeout(CancellationToken messageToken, CancellationToken timeoutToken, Exception innerException, TimeSpan timeout)
+   at System.ClientModel.Primitives.PipelineTransport.ProcessSyncOrAsync(PipelineMessage message, Boolean async)
+   at System.ClientModel.Primitives.PipelineTransport.ProcessAsync(PipelineMessage message)
+   at System.ClientModel.Primitives.PipelineTransport.ProcessAsync(PipelineMessage message, IReadOnlyList`1 pipeline, Int32 currentIndex)
+   at System.ClientModel.Primitives.PipelinePolicy.ProcessNextAsync(PipelineMessage message, IReadOnlyList`1 pipeline, Int32 currentIndex)
+   at System.ClientModel.Primitives.MessageLoggingPolicy.ProcessSyncOrAsync(PipelineMessage message, IReadOnlyList`1 pipeline, Int32 currentIndex, Boolean async)
+   at System.ClientModel.Primitives.MessageLoggingPolicy.ProcessAsync(PipelineMessage message, IReadOnlyList`1 pipeline, Int32 currentIndex)
+   at System.ClientModel.Primitives.PipelinePolicy.ProcessNextAsync(PipelineMessage message, IReadOnlyList`1 pipeline, Int32 currentIndex)
+   at System.ClientModel.Primitives.ApiKeyAuthenticationPolicy.ProcessAsync(PipelineMessage message, IReadOnlyList`1 pipeline, Int32 currentIndex)
+   at System.ClientModel.Primitives.PipelinePolicy.ProcessNextAsync(PipelineMessage message, IReadOnlyList`1 pipeline, Int32 currentIndex)
+   at System.ClientModel.Primitives.ClientRetryPolicy.ProcessSyncOrAsync(PipelineMessage message, IReadOnlyList`1 pipeline, Int32 currentIndex, Boolean async)
+   at System.ClientModel.Primitives.ClientRetryPolicy.ProcessSyncOrAsync(PipelineMessage message, IReadOnlyList`1 pipeline, Int32 currentIndex, Boolean async)
+   at System.ClientModel.Primitives.ClientRetryPolicy.ProcessAsync(PipelineMessage message, IReadOnlyList`1 pipeline, Int32 currentIndex)
+   at GenericActionPipelinePolicy.ProcessAsync(PipelineMessage message, IReadOnlyList`1 pipeline, Int32 currentIndex)
+   at OpenAI.GenericActionPipelinePolicy.ProcessAsync(PipelineMessage message, IReadOnlyList`1 pipeline, Int32 currentIndex)
+   at System.ClientModel.Primitives.ClientPipeline.SendAsync(PipelineMessage message)
+   at OpenAI.ClientPipelineExtensions.ProcessMessageAsync(ClientPipeline pipeline, PipelineMessage message, RequestOptions options)
+   at OpenAI.Chat.ChatClient.CompleteChatAsync(BinaryContent content, RequestOptions options)
+   at OpenAI.Chat.ChatClient.CompleteChatAsync(IEnumerable`1 messages, ChatCompletionOptions options, CancellationToken cancellationToken)
+   at Microsoft.SemanticKernel.Connectors.OpenAI.ClientCore.RunRequestAsync[T](Func`1 request)
+   at Microsoft.SemanticKernel.Connectors.OpenAI.ClientCore.GetChatMessageContentsAsync(String targetModel, ChatHistory chatHistory, PromptExecutionSettings executionSettings, Kernel kernel, CancellationToken cancellationToken)
+   at GenxAi_Solutions.Api.CompanyOnboardController.AskChat_up(String message, String service, Nullable`1 conversationId, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Api\CompanyOnboardController.cs:line 1333
+Inner Exception: System.Threading.Tasks.TaskCanceledException: A task was canceled.
+ ---> System.Threading.Tasks.TaskCanceledException: A task was canceled.
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpClient.HandleFailure(Exception e, Boolean telemetryStarted, HttpResponseMessage response, CancellationTokenSource cts, CancellationToken cancellationToken, CancellationTokenSource pendingRequestsCts)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at System.ClientModel.Primitives.HttpClientPipelineTransport.ProcessSyncOrAsync(PipelineMessage message, Boolean async)
+   at System.ClientModel.Primitives.HttpClientPipelineTransport.ProcessCoreAsync(PipelineMessage message)
+   at System.ClientModel.Primitives.PipelineTransport.ProcessSyncOrAsync(PipelineMessage message, Boolean async)
+--------------------------------------------------------------------------------
+[2025-10-24 17:59:12.816] [Error]
+Category: GenxAi_Solutions.Api.CompanyOnboardController
+Message: Error in AskChat_up API - User: nidhi.lad@genxai.com, Service: SQLAnalytics, Message: delete all the team, CorrelationId: a4dab9ca-442d-4d45-a06b-b4eb5e9124bf, Error: The operation was canceled.
+Exception Type: System.Threading.Tasks.TaskCanceledException
+Exception Message: The operation was canceled.
+Stack Trace:    at System.ClientModel.Internal.CancellationHelper.ThrowOperationCanceledException(Exception innerException, CancellationToken cancellationToken)
+   at System.ClientModel.Internal.CancellationHelper.ThrowIfCancellationRequested(CancellationToken cancellationToken, Exception innerException)
+   at System.ClientModel.Internal.CancellationHelper.ThrowIfCancellationRequestedOrTimeout(CancellationToken messageToken, CancellationToken timeoutToken, Exception innerException, TimeSpan timeout)
+   at System.ClientModel.Primitives.PipelineTransport.ProcessSyncOrAsync(PipelineMessage message, Boolean async)
+   at System.ClientModel.Primitives.PipelineTransport.ProcessAsync(PipelineMessage message)
+   at System.ClientModel.Primitives.PipelineTransport.ProcessAsync(PipelineMessage message, IReadOnlyList`1 pipeline, Int32 currentIndex)
+   at System.ClientModel.Primitives.PipelinePolicy.ProcessNextAsync(PipelineMessage message, IReadOnlyList`1 pipeline, Int32 currentIndex)
+   at System.ClientModel.Primitives.MessageLoggingPolicy.ProcessSyncOrAsync(PipelineMessage message, IReadOnlyList`1 pipeline, Int32 currentIndex, Boolean async)
+   at System.ClientModel.Primitives.MessageLoggingPolicy.ProcessAsync(PipelineMessage message, IReadOnlyList`1 pipeline, Int32 currentIndex)
+   at System.ClientModel.Primitives.PipelinePolicy.ProcessNextAsync(PipelineMessage message, IReadOnlyList`1 pipeline, Int32 currentIndex)
+   at System.ClientModel.Primitives.ApiKeyAuthenticationPolicy.ProcessAsync(PipelineMessage message, IReadOnlyList`1 pipeline, Int32 currentIndex)
+   at System.ClientModel.Primitives.PipelinePolicy.ProcessNextAsync(PipelineMessage message, IReadOnlyList`1 pipeline, Int32 currentIndex)
+   at System.ClientModel.Primitives.ClientRetryPolicy.ProcessSyncOrAsync(PipelineMessage message, IReadOnlyList`1 pipeline, Int32 currentIndex, Boolean async)
+   at System.ClientModel.Primitives.ClientRetryPolicy.ProcessSyncOrAsync(PipelineMessage message, IReadOnlyList`1 pipeline, Int32 currentIndex, Boolean async)
+   at System.ClientModel.Primitives.ClientRetryPolicy.ProcessAsync(PipelineMessage message, IReadOnlyList`1 pipeline, Int32 currentIndex)
+   at GenericActionPipelinePolicy.ProcessAsync(PipelineMessage message, IReadOnlyList`1 pipeline, Int32 currentIndex)
+   at OpenAI.GenericActionPipelinePolicy.ProcessAsync(PipelineMessage message, IReadOnlyList`1 pipeline, Int32 currentIndex)
+   at System.ClientModel.Primitives.ClientPipeline.SendAsync(PipelineMessage message)
+   at OpenAI.ClientPipelineExtensions.ProcessMessageAsync(ClientPipeline pipeline, PipelineMessage message, RequestOptions options)
+   at OpenAI.Chat.ChatClient.CompleteChatAsync(BinaryContent content, RequestOptions options)
+   at OpenAI.Chat.ChatClient.CompleteChatAsync(IEnumerable`1 messages, ChatCompletionOptions options, CancellationToken cancellationToken)
+   at Microsoft.SemanticKernel.Connectors.OpenAI.ClientCore.RunRequestAsync[T](Func`1 request)
+   at Microsoft.SemanticKernel.Connectors.OpenAI.ClientCore.GetChatMessageContentsAsync(String targetModel, ChatHistory chatHistory, PromptExecutionSettings executionSettings, Kernel kernel, CancellationToken cancellationToken)
+   at GenxAi_Solutions.Api.CompanyOnboardController.AskChat_up(String message, String service, Nullable`1 conversationId, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Api\CompanyOnboardController.cs:line 1333
+Inner Exception: System.Threading.Tasks.TaskCanceledException: A task was canceled.
+ ---> System.Threading.Tasks.TaskCanceledException: A task was canceled.
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpClient.HandleFailure(Exception e, Boolean telemetryStarted, HttpResponseMessage response, CancellationTokenSource cts, CancellationToken cancellationToken, CancellationTokenSource pendingRequestsCts)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at System.ClientModel.Primitives.HttpClientPipelineTransport.ProcessSyncOrAsync(PipelineMessage message, Boolean async)
+   at System.ClientModel.Primitives.HttpClientPipelineTransport.ProcessCoreAsync(PipelineMessage message)
+   at System.ClientModel.Primitives.PipelineTransport.ProcessSyncOrAsync(PipelineMessage message, Boolean async)
+--------------------------------------------------------------------------------
+[2025-10-24 20:21:48.100] [Error]
+Category: GenxAi_Solutions.Api.NotificationsController
+Message: GetUnread failed. afterId=20034
+Exception Type: System.Threading.Tasks.TaskCanceledException
+Exception Message: A task was canceled.
+Stack Trace:    at GenxAi_Solutions.Services.NotificationStore.GetUnreadAfterIdAllAsync(Int32 userId, IReadOnlyList`1 companyIds, Nullable`1 afterId, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Services\NotificationStore.cs:line 77
+   at GenxAi_Solutions.Services.NotificationStore.GetUnreadAfterIdAllAsync(Int32 userId, IReadOnlyList`1 companyIds, Nullable`1 afterId, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Services\NotificationStore.cs:line 131
+   at GenxAi_Solutions.Api.NotificationsController.GetUnread(Nullable`1 afterId, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Api\NotificationsController.cs:line 27
+--------------------------------------------------------------------------------
+[2025-10-24 20:21:48.393] [Error]
+Category: GenxAi_Solutions.Api.NotificationsController
+Message: GetUnread failed. afterId=20034
+Exception Type: System.Threading.Tasks.TaskCanceledException
+Exception Message: A task was canceled.
+Stack Trace:    at GenxAi_Solutions.Services.NotificationStore.GetUnreadAfterIdAllAsync(Int32 userId, IReadOnlyList`1 companyIds, Nullable`1 afterId, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Services\NotificationStore.cs:line 77
+   at GenxAi_Solutions.Services.NotificationStore.GetUnreadAfterIdAllAsync(Int32 userId, IReadOnlyList`1 companyIds, Nullable`1 afterId, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Services\NotificationStore.cs:line 131
+   at GenxAi_Solutions.Api.NotificationsController.GetUnread(Nullable`1 afterId, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Api\NotificationsController.cs:line 27
+--------------------------------------------------------------------------------
+[2025-10-24 20:22:31.658] [Error]
+Category: GenxAi_Solutions.Api.NotificationsController
+Message: GetUnread failed. afterId=20034
+Exception Type: System.Threading.Tasks.TaskCanceledException
+Exception Message: A task was canceled.
+Stack Trace:    at GenxAi_Solutions.Services.NotificationStore.GetUnreadAfterIdAllAsync(Int32 userId, IReadOnlyList`1 companyIds, Nullable`1 afterId, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Services\NotificationStore.cs:line 77
+   at GenxAi_Solutions.Services.NotificationStore.GetUnreadAfterIdAllAsync(Int32 userId, IReadOnlyList`1 companyIds, Nullable`1 afterId, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Services\NotificationStore.cs:line 131
+   at GenxAi_Solutions.Api.NotificationsController.GetUnread(Nullable`1 afterId, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Api\NotificationsController.cs:line 27
+--------------------------------------------------------------------------------
+[2025-10-24 20:22:31.667] [Error]
+Category: GenxAi_Solutions.Api.NotificationsController
+Message: GetUnread failed. afterId=20034
+Exception Type: System.Threading.Tasks.TaskCanceledException
+Exception Message: A task was canceled.
+Stack Trace:    at GenxAi_Solutions.Services.NotificationStore.GetUnreadAfterIdAllAsync(Int32 userId, IReadOnlyList`1 companyIds, Nullable`1 afterId, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Services\NotificationStore.cs:line 77
+   at GenxAi_Solutions.Services.NotificationStore.GetUnreadAfterIdAllAsync(Int32 userId, IReadOnlyList`1 companyIds, Nullable`1 afterId, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Services\NotificationStore.cs:line 131
+   at GenxAi_Solutions.Api.NotificationsController.GetUnread(Nullable`1 afterId, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Api\NotificationsController.cs:line 27
+--------------------------------------------------------------------------------
+[2025-10-24 20:23:35.874] [Error]
+Category: GenxAi_Solutions.Api.NotificationsController
+Message: GetUnread failed. afterId=20034
+Exception Type: System.Threading.Tasks.TaskCanceledException
+Exception Message: A task was canceled.
+Stack Trace:    at GenxAi_Solutions.Services.NotificationStore.GetUnreadAfterIdAllAsync(Int32 userId, IReadOnlyList`1 companyIds, Nullable`1 afterId, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Services\NotificationStore.cs:line 77
+   at GenxAi_Solutions.Services.NotificationStore.GetUnreadAfterIdAllAsync(Int32 userId, IReadOnlyList`1 companyIds, Nullable`1 afterId, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Services\NotificationStore.cs:line 131
+   at GenxAi_Solutions.Api.NotificationsController.GetUnread(Nullable`1 afterId, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Api\NotificationsController.cs:line 27
+--------------------------------------------------------------------------------
+[2025-10-24 20:23:35.900] [Error]
+Category: GenxAi_Solutions.Api.NotificationsController
+Message: GetUnread failed. afterId=20034
+Exception Type: System.Threading.Tasks.TaskCanceledException
+Exception Message: A task was canceled.
+Stack Trace:    at GenxAi_Solutions.Services.NotificationStore.GetUnreadAfterIdAllAsync(Int32 userId, IReadOnlyList`1 companyIds, Nullable`1 afterId, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Services\NotificationStore.cs:line 77
+   at GenxAi_Solutions.Services.NotificationStore.GetUnreadAfterIdAllAsync(Int32 userId, IReadOnlyList`1 companyIds, Nullable`1 afterId, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Services\NotificationStore.cs:line 131
+   at GenxAi_Solutions.Api.NotificationsController.GetUnread(Nullable`1 afterId, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Api\NotificationsController.cs:line 27
+--------------------------------------------------------------------------------
+[2025-10-24 20:33:13.043] [Error]
+Category: GenxAi_Solutions.Api.NotificationsController
+Message: GetUnread failed. afterId=20035
+Exception Type: System.Threading.Tasks.TaskCanceledException
+Exception Message: A task was canceled.
+Stack Trace:    at GenxAi_Solutions.Services.NotificationStore.GetUnreadAfterIdAllAsync(Int32 userId, IReadOnlyList`1 companyIds, Nullable`1 afterId, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Services\NotificationStore.cs:line 77
+   at GenxAi_Solutions.Services.NotificationStore.GetUnreadAfterIdAllAsync(Int32 userId, IReadOnlyList`1 companyIds, Nullable`1 afterId, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Services\NotificationStore.cs:line 131
+   at GenxAi_Solutions.Api.NotificationsController.GetUnread(Nullable`1 afterId, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Api\NotificationsController.cs:line 27
+--------------------------------------------------------------------------------
+[2025-10-24 20:33:13.044] [Error]
+Category: GenxAi_Solutions.Api.NotificationsController
+Message: GetUnread failed. afterId=20035
+Exception Type: System.Threading.Tasks.TaskCanceledException
+Exception Message: A task was canceled.
+Stack Trace:    at GenxAi_Solutions.Services.NotificationStore.GetUnreadAfterIdAllAsync(Int32 userId, IReadOnlyList`1 companyIds, Nullable`1 afterId, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Services\NotificationStore.cs:line 77
+   at GenxAi_Solutions.Services.NotificationStore.GetUnreadAfterIdAllAsync(Int32 userId, IReadOnlyList`1 companyIds, Nullable`1 afterId, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Services\NotificationStore.cs:line 131
+   at GenxAi_Solutions.Api.NotificationsController.GetUnread(Nullable`1 afterId, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Api\NotificationsController.cs:line 27
+--------------------------------------------------------------------------------

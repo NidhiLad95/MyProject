@@ -1,0 +1,3272 @@
+﻿[2025-10-15 15:49:11.535] [AUDIT]
+Event: General Audit
+Details: QueuedWorker started.
+------------------------------------------------------------
+[2025-10-15 15:49:11.693] [AUDIT]
+Event: ListeningOnAddress
+Details: Now listening on: https://localhost:7282
+------------------------------------------------------------
+[2025-10-15 15:49:11.697] [AUDIT]
+Event: ListeningOnAddress
+Details: Now listening on: http://localhost:5072
+------------------------------------------------------------
+[2025-10-15 15:49:11.803] [AUDIT]
+Event: General Audit
+Details: Application started. Press Ctrl+C to shut down.
+------------------------------------------------------------
+[2025-10-15 15:49:11.811] [AUDIT]
+Event: General Audit
+Details: Hosting environment: Development
+------------------------------------------------------------
+[2025-10-15 15:49:11.821] [AUDIT]
+Event: General Audit
+Details: Content root path: D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions
+------------------------------------------------------------
+[2025-10-15 15:49:12.384] [AUDIT]
+Event: ErrorUnprotectingCookie
+Details: Error unprotecting the session cookie.
+------------------------------------------------------------
+[2025-10-15 15:49:40.677] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: POST /api/auth/login, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 15:49:40.703] [AUDIT]
+Event: ErrorUnprotectingCookie
+Details: Error unprotecting the session cookie.
+------------------------------------------------------------
+[2025-10-15 15:49:45.856] [AUDIT]
+Event: General Audit
+Details: USER_LOGIN: User: suchita.gome@genxai.com, IP: ::1, Status: SUCCESS
+------------------------------------------------------------
+[2025-10-15 15:49:46.003] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 15:49:46.037] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: POST /api/auth/getmenu, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 16:08:58.319] [AUDIT]
+Event: General Audit
+Details: QueuedWorker started.
+------------------------------------------------------------
+[2025-10-15 16:08:58.517] [AUDIT]
+Event: ListeningOnAddress
+Details: Now listening on: https://localhost:7282
+------------------------------------------------------------
+[2025-10-15 16:08:58.518] [AUDIT]
+Event: ListeningOnAddress
+Details: Now listening on: http://localhost:5072
+------------------------------------------------------------
+[2025-10-15 16:08:58.573] [AUDIT]
+Event: General Audit
+Details: Application started. Press Ctrl+C to shut down.
+------------------------------------------------------------
+[2025-10-15 16:08:58.574] [AUDIT]
+Event: General Audit
+Details: Hosting environment: Development
+------------------------------------------------------------
+[2025-10-15 16:08:58.575] [AUDIT]
+Event: General Audit
+Details: Content root path: D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions
+------------------------------------------------------------
+[2025-10-15 17:42:00.391] [AUDIT]
+Event: General Audit
+Details: QueuedWorker started.
+------------------------------------------------------------
+[2025-10-15 17:42:00.566] [AUDIT]
+Event: ListeningOnAddress
+Details: Now listening on: https://localhost:7282
+------------------------------------------------------------
+[2025-10-15 17:42:00.568] [AUDIT]
+Event: ListeningOnAddress
+Details: Now listening on: http://localhost:5072
+------------------------------------------------------------
+[2025-10-15 17:42:00.621] [AUDIT]
+Event: General Audit
+Details: Application started. Press Ctrl+C to shut down.
+------------------------------------------------------------
+[2025-10-15 17:42:00.623] [AUDIT]
+Event: General Audit
+Details: Hosting environment: Development
+------------------------------------------------------------
+[2025-10-15 17:42:00.625] [AUDIT]
+Event: General Audit
+Details: Content root path: D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions
+------------------------------------------------------------
+[2025-10-15 18:55:16.770] [AUDIT]
+Event: General Audit
+Details: QueuedWorker started.
+------------------------------------------------------------
+[2025-10-15 18:55:16.949] [AUDIT]
+Event: ListeningOnAddress
+Details: Now listening on: https://localhost:7282
+------------------------------------------------------------
+[2025-10-15 18:55:16.950] [AUDIT]
+Event: ListeningOnAddress
+Details: Now listening on: http://localhost:5072
+------------------------------------------------------------
+[2025-10-15 18:55:17.011] [AUDIT]
+Event: General Audit
+Details: Application started. Press Ctrl+C to shut down.
+------------------------------------------------------------
+[2025-10-15 18:55:17.013] [AUDIT]
+Event: General Audit
+Details: Hosting environment: Development
+------------------------------------------------------------
+[2025-10-15 18:55:17.014] [AUDIT]
+Event: General Audit
+Details: Content root path: D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions
+------------------------------------------------------------
+[2025-10-15 18:55:25.078] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: POST /api/auth/login, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 18:55:31.051] [AUDIT]
+Event: General Audit
+Details: USER_LOGIN: User: suchita.gome@genxai.com, IP: ::1, Status: SUCCESS
+------------------------------------------------------------
+[2025-10-15 18:55:31.366] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 18:55:31.393] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: POST /api/auth/getmenu, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 18:55:47.289] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 18:55:47.367] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: POST /api/auth/getmenu, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 18:55:54.363] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: POST /api/CompanyOnboard/CreateProfile, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 18:55:54.845] [AUDIT]
+Event: General Audit
+Details: CreateProfile API called - User: suchita.gome@genxai.com, CompanyName: euryeu, CorrelationId: 6bb5a191-2ffa-4f35-ad15-14c4f1c7a78d
+------------------------------------------------------------
+[2025-10-15 18:55:59.432] [AUDIT]
+Event: General Audit
+Details: Company profile created successfully -  CompanyId: 3163, User: suchita.gome@genxai.com, CorrelationId: 6bb5a191-2ffa-4f35-ad15-14c4f1c7a78d
+------------------------------------------------------------
+[2025-10-15 18:55:59.436] [AUDIT]
+Event: General Audit
+Details: DATA_ACCESS: User: suchita.gome@genxai.com, Action: CREATE, Entity: CompanyProfile, ID: 3163, Details: Company profile created - Name: euryeu, CorrelationId: 6bb5a191-2ffa-4f35-ad15-14c4f1c7a78d
+------------------------------------------------------------
+[2025-10-15 18:55:59.480] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/CompanyOnboard/databasetype, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 18:56:14.714] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: POST /api/CompanyOnboard/UpdateCompanyList, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 18:56:14.756] [AUDIT]
+Event: General Audit
+Details: UpdateCompanyList API called - User: suchita.gome@genxai.com, CompanyId: 3163, CorrelationId: e3a7c621-79f4-49f9-86e8-6421cbd70980
+------------------------------------------------------------
+[2025-10-15 18:56:19.346] [AUDIT]
+Event: General Audit
+Details: Company list updated successfully - CompanyId: 3163, User: suchita.gome@genxai.com, CorrelationId: e3a7c621-79f4-49f9-86e8-6421cbd70980
+------------------------------------------------------------
+[2025-10-15 18:56:19.348] [AUDIT]
+Event: General Audit
+Details: DATA_ACCESS: User: suchita.gome@genxai.com, Action: UPDATE, Entity: CompanyList, ID: 3163, Details: Company list updated, CorrelationId: e3a7c621-79f4-49f9-86e8-6421cbd70980
+------------------------------------------------------------
+[2025-10-15 18:56:19.363] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/CompanyOnboard/databasetype, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 18:56:34.646] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: POST /api/CompanyOnboard/getdatabase, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 18:56:43.429] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: POST /api/CompanyOnboard/databaseinfo, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 18:57:04.091] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: POST /api/CompanyOnboard/SQLAnalytics, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 18:57:04.143] [AUDIT]
+Event: General Audit
+Details: SaveSqlConfig API called - User: suchita.gome@genxai.com, CorrelationId: 031b92c5-0bec-4b35-aed0-4911673c8367
+------------------------------------------------------------
+[2025-10-15 18:57:08.760] [AUDIT]
+Event: General Audit
+Details: SQL Analytics config saved successfully - ConfigId: 3110, User: suchita.gome@genxai.com, CorrelationId: 031b92c5-0bec-4b35-aed0-4911673c8367
+------------------------------------------------------------
+[2025-10-15 18:57:08.764] [AUDIT]
+Event: General Audit
+Details: DATA_ACCESS: User: suchita.gome@genxai.com, Action: CREATE, Entity: SQLAnalytics, ID: 3110, Details: SQL Analytics configuration created, CorrelationId: 031b92c5-0bec-4b35-aed0-4911673c8367
+------------------------------------------------------------
+[2025-10-15 18:57:08.767] [AUDIT]
+Event: General Audit
+Details: SQL Analytics config save failed - Message: Data Inserted Successfully., User: suchita.gome@genxai.com, CorrelationId: 031b92c5-0bec-4b35-aed0-4911673c8367
+------------------------------------------------------------
+[2025-10-15 18:57:28.374] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: POST /api/CompanyOnboard/UpdateSQLAnalyticsConfiguration, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 18:57:47.389] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: POST /api/CompanyOnboard/FileAnalytics, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 18:57:47.585] [AUDIT]
+Event: General Audit
+Details: SaveFileConfig API called - User: suchita.gome@genxai.com, FileCount: 1, CompanyID: 3163, CorrelationId: 18835c2d-7a8a-4f45-8b0e-fde05549f30d
+------------------------------------------------------------
+[2025-10-15 18:57:47.588] [AUDIT]
+Event: General Audit
+Details: Upload directory created/verified: D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\wwwroot\Uploads/PDF/euryeu, CorrelationId: 18835c2d-7a8a-4f45-8b0e-fde05549f30d
+------------------------------------------------------------
+[2025-10-15 18:57:52.311] [AUDIT]
+Event: General Audit
+Details: File Analytics config saved successfully - ConfigId: 1, User: suchita.gome@genxai.com, FilesProcessed: 1, CorrelationId: 18835c2d-7a8a-4f45-8b0e-fde05549f30d
+------------------------------------------------------------
+[2025-10-15 18:57:52.313] [AUDIT]
+Event: General Audit
+Details: DATA_ACCESS: User: suchita.gome@genxai.com, Action: CREATE, Entity: FileAnalytics, ID: 1, Details: File Analytics configuration created with 1 files, CorrelationId: 18835c2d-7a8a-4f45-8b0e-fde05549f30d
+------------------------------------------------------------
+[2025-10-15 18:58:17.847] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: POST /api/CompanyOnboard/SavePermanent, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 18:58:17.868] [AUDIT]
+Event: General Audit
+Details: SaveProfilePermanent API called - User: suchita.gome@genxai.com, CorrelationId: 0ff4d9a4-1ec9-41d1-b207-5dc007f0d9ed
+------------------------------------------------------------
+[2025-10-15 18:58:22.485] [AUDIT]
+Event: General Audit
+Details: Profile saved permanently - CompanyId: 3163, User: suchita.gome@genxai.com, CorrelationId: 0ff4d9a4-1ec9-41d1-b207-5dc007f0d9ed
+------------------------------------------------------------
+[2025-10-15 18:58:22.488] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: PROFILE_SAVE_PERMANENT, User: suchita.gome@genxai.com, IP: ::1, Details: Company profile saved permanently - CompanyId: 3163, CorrelationId: 0ff4d9a4-1ec9-41d1-b207-5dc007f0d9ed
+------------------------------------------------------------
+[2025-10-15 18:58:43.403] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 18:58:43.525] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: POST /api/auth/getmenu, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 18:58:43.529] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/CompanyOnboard/GetAllCompanyList, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 18:58:43.608] [AUDIT]
+Event: General Audit
+Details: GetAllCompanyList API called - User: suchita.gome@genxai.com, CorrelationId: db7aec55-9118-4c0b-ac31-cfa3cf2cdb34
+------------------------------------------------------------
+[2025-10-15 18:58:48.207] [AUDIT]
+Event: General Audit
+Details: GetAllCompanyList completed - Count: 171, User: suchita.gome@genxai.com, CorrelationId: db7aec55-9118-4c0b-ac31-cfa3cf2cdb34
+------------------------------------------------------------
+[2025-10-15 18:58:48.209] [AUDIT]
+Event: General Audit
+Details: DATA_ACCESS: User: suchita.gome@genxai.com, Action: READ, Entity: CompanyList, ID: ALL, Details: Retrieved all company lists, CorrelationId: db7aec55-9118-4c0b-ac31-cfa3cf2cdb34
+------------------------------------------------------------
+[2025-10-15 18:59:11.278] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 18:59:11.403] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: POST /api/auth/getmenu, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 18:59:36.226] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 18:59:36.325] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: POST /api/auth/getmenu, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 18:59:50.774] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: POST /api/CompanyOnboard/UpdateCompanyList, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 18:59:50.779] [AUDIT]
+Event: General Audit
+Details: UpdateCompanyList API called - User: suchita.gome@genxai.com, CompanyId: 3163, CorrelationId: e556da89-7724-462f-83b6-ac7d6874da28
+------------------------------------------------------------
+[2025-10-15 18:59:55.391] [AUDIT]
+Event: General Audit
+Details: Company list updated successfully - CompanyId: 3163, User: suchita.gome@genxai.com, CorrelationId: e556da89-7724-462f-83b6-ac7d6874da28
+------------------------------------------------------------
+[2025-10-15 18:59:55.391] [AUDIT]
+Event: General Audit
+Details: DATA_ACCESS: User: suchita.gome@genxai.com, Action: UPDATE, Entity: CompanyList, ID: 3163, Details: Company list updated, CorrelationId: e556da89-7724-462f-83b6-ac7d6874da28
+------------------------------------------------------------
+[2025-10-15 18:59:55.397] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/CompanyOnboard/databasetype, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 19:00:01.338] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: POST /api/CompanyOnboard/getdatabase, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 19:00:06.170] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: POST /api/CompanyOnboard/databaseinfo, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 19:00:06.683] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: POST /api/CompanyOnboard/databaseinfo, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 19:00:23.160] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: POST /api/CompanyOnboard/UpdateSQLAnalyticsConfiguration, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 19:00:35.357] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/CompanyOnboard/databasetype, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 19:00:41.294] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: POST /api/CompanyOnboard/getdatabase, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 19:00:46.129] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: POST /api/CompanyOnboard/databaseinfo, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 19:00:46.646] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: POST /api/CompanyOnboard/databaseinfo, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 19:00:46.672] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: POST /api/CompanyOnboard/UpdateSQLAnalyticsConfiguration, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 19:00:53.126] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/CompanyOnboard/databasetype, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 19:00:59.080] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: POST /api/CompanyOnboard/getdatabase, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 19:01:03.934] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: POST /api/CompanyOnboard/databaseinfo, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 19:01:04.445] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: POST /api/CompanyOnboard/databaseinfo, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 19:01:41.781] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: POST /api/CompanyOnboard/UpdateSQLAnalyticsConfiguration, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 19:02:03.040] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: PUT /api/CompanyOnboard/FileAnalyticsUpdate, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 19:02:27.248] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: POST /api/CompanyOnboard/SavePermanent, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 19:02:27.252] [AUDIT]
+Event: General Audit
+Details: SaveProfilePermanent API called - User: suchita.gome@genxai.com, CorrelationId: 895f8429-b3ee-4197-ba6d-560948b33cf3
+------------------------------------------------------------
+[2025-10-15 19:02:31.850] [AUDIT]
+Event: General Audit
+Details: Profile saved permanently - CompanyId: 3163, User: suchita.gome@genxai.com, CorrelationId: 895f8429-b3ee-4197-ba6d-560948b33cf3
+------------------------------------------------------------
+[2025-10-15 19:02:31.851] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: PROFILE_SAVE_PERMANENT, User: suchita.gome@genxai.com, IP: ::1, Details: Company profile saved permanently - CompanyId: 3163, CorrelationId: 895f8429-b3ee-4197-ba6d-560948b33cf3
+------------------------------------------------------------
+[2025-10-15 19:02:31.860] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: POST /api/semantic/start-all-seed, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 19:02:32.035] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 19:02:32.129] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/CompanyOnboard/GetAllCompanyList, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 19:02:32.132] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: POST /api/auth/getmenu, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 19:02:32.147] [AUDIT]
+Event: General Audit
+Details: GetAllCompanyList API called - User: suchita.gome@genxai.com, CorrelationId: 83f5378c-422d-4802-9842-a8d3c5345590
+------------------------------------------------------------
+[2025-10-15 19:02:36.857] [AUDIT]
+Event: General Audit
+Details: GetAllCompanyList completed - Count: 171, User: suchita.gome@genxai.com, CorrelationId: 83f5378c-422d-4802-9842-a8d3c5345590
+------------------------------------------------------------
+[2025-10-15 19:02:36.859] [AUDIT]
+Event: General Audit
+Details: DATA_ACCESS: User: suchita.gome@genxai.com, Action: READ, Entity: CompanyList, ID: ALL, Details: Retrieved all company lists, CorrelationId: 83f5378c-422d-4802-9842-a8d3c5345590
+------------------------------------------------------------
+[2025-10-15 19:58:35.449] [AUDIT]
+Event: General Audit
+Details: QueuedWorker started.
+------------------------------------------------------------
+[2025-10-15 19:58:35.712] [AUDIT]
+Event: ListeningOnAddress
+Details: Now listening on: https://localhost:7282
+------------------------------------------------------------
+[2025-10-15 19:58:35.713] [AUDIT]
+Event: ListeningOnAddress
+Details: Now listening on: http://localhost:5072
+------------------------------------------------------------
+[2025-10-15 19:58:35.812] [AUDIT]
+Event: General Audit
+Details: Application started. Press Ctrl+C to shut down.
+------------------------------------------------------------
+[2025-10-15 19:58:35.813] [AUDIT]
+Event: General Audit
+Details: Hosting environment: Development
+------------------------------------------------------------
+[2025-10-15 19:58:35.814] [AUDIT]
+Event: General Audit
+Details: Content root path: D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions
+------------------------------------------------------------
+[2025-10-15 19:58:46.946] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: POST /api/auth/login, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 19:58:53.489] [AUDIT]
+Event: General Audit
+Details: USER_LOGIN: User: suchita.gome@genxai.com, IP: ::1, Status: SUCCESS
+------------------------------------------------------------
+[2025-10-15 19:58:53.896] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 19:58:53.981] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: POST /api/auth/getmenu, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 19:59:03.865] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 19:59:13.856] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 19:59:23.865] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 19:59:34.814] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 19:59:44.814] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 19:59:54.829] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 20:00:04.820] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 20:00:14.811] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 20:00:24.825] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 20:01:15.827] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 20:02:15.854] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 20:03:15.828] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 20:03:59.843] [AUDIT]
+Event: General Audit
+Details: QueuedWorker started.
+------------------------------------------------------------
+[2025-10-15 20:03:59.974] [AUDIT]
+Event: ListeningOnAddress
+Details: Now listening on: https://localhost:7282
+------------------------------------------------------------
+[2025-10-15 20:03:59.975] [AUDIT]
+Event: ListeningOnAddress
+Details: Now listening on: http://localhost:5072
+------------------------------------------------------------
+[2025-10-15 20:04:00.029] [AUDIT]
+Event: General Audit
+Details: Application started. Press Ctrl+C to shut down.
+------------------------------------------------------------
+[2025-10-15 20:04:00.031] [AUDIT]
+Event: General Audit
+Details: Hosting environment: Development
+------------------------------------------------------------
+[2025-10-15 20:04:00.032] [AUDIT]
+Event: General Audit
+Details: Content root path: D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions
+------------------------------------------------------------
+[2025-10-15 20:04:21.487] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: POST /api/auth/login, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 20:04:27.362] [AUDIT]
+Event: General Audit
+Details: USER_LOGIN: User: suchita.gome@genxai.com, IP: ::1, Status: SUCCESS
+------------------------------------------------------------
+[2025-10-15 20:04:27.786] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 20:04:27.844] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: POST /api/auth/getmenu, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 20:04:37.759] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 20:04:47.745] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 20:04:57.746] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 20:05:07.828] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 20:05:17.830] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 20:05:27.826] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 20:05:37.836] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 20:05:47.825] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 20:05:57.852] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 20:06:15.825] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 20:07:15.842] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 20:08:15.834] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 20:09:05.942] [AUDIT]
+Event: General Audit
+Details: QueuedWorker started.
+------------------------------------------------------------
+[2025-10-15 20:09:06.134] [AUDIT]
+Event: ListeningOnAddress
+Details: Now listening on: https://localhost:7282
+------------------------------------------------------------
+[2025-10-15 20:09:06.135] [AUDIT]
+Event: ListeningOnAddress
+Details: Now listening on: http://localhost:5072
+------------------------------------------------------------
+[2025-10-15 20:09:06.259] [AUDIT]
+Event: General Audit
+Details: Application started. Press Ctrl+C to shut down.
+------------------------------------------------------------
+[2025-10-15 20:09:06.262] [AUDIT]
+Event: General Audit
+Details: Hosting environment: Development
+------------------------------------------------------------
+[2025-10-15 20:09:06.264] [AUDIT]
+Event: General Audit
+Details: Content root path: D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions
+------------------------------------------------------------
+[2025-10-15 20:09:14.938] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: POST /api/auth/login, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 20:09:20.897] [AUDIT]
+Event: General Audit
+Details: USER_LOGIN: User: suchita.gome@genxai.com, IP: ::1, Status: SUCCESS
+------------------------------------------------------------
+[2025-10-15 20:09:21.253] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 20:09:21.471] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: POST /api/auth/getmenu, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 20:09:31.140] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 20:09:41.150] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 20:09:51.143] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 20:10:01.830] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 20:10:11.830] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 21:20:04.906] [AUDIT]
+Event: General Audit
+Details: QueuedWorker started.
+------------------------------------------------------------
+[2025-10-15 21:20:05.193] [AUDIT]
+Event: ListeningOnAddress
+Details: Now listening on: https://localhost:7282
+------------------------------------------------------------
+[2025-10-15 21:20:05.194] [AUDIT]
+Event: ListeningOnAddress
+Details: Now listening on: http://localhost:5072
+------------------------------------------------------------
+[2025-10-15 21:20:05.293] [AUDIT]
+Event: General Audit
+Details: Application started. Press Ctrl+C to shut down.
+------------------------------------------------------------
+[2025-10-15 21:20:05.294] [AUDIT]
+Event: General Audit
+Details: Hosting environment: Development
+------------------------------------------------------------
+[2025-10-15 21:20:05.295] [AUDIT]
+Event: General Audit
+Details: Content root path: D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions
+------------------------------------------------------------
+[2025-10-15 21:20:15.111] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: POST /api/auth/login, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 21:20:21.085] [AUDIT]
+Event: General Audit
+Details: USER_LOGIN: User: suchita.gome@genxai.com, IP: ::1, Status: SUCCESS
+------------------------------------------------------------
+[2025-10-15 21:20:21.828] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 21:20:21.842] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: POST /api/auth/getmenu, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 21:20:22.276] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=1 companies=1125,1127,1131,2120,2120,4,3120,3120,5,3128,3128,4,3135,3135,9,3157,3157 afterId=(null)
+------------------------------------------------------------
+[2025-10-15 21:20:26.903] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-15 21:20:31.852] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 21:20:31.905] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=1 companies=1125,1127,1131,2120,2120,4,3120,3120,5,3128,3128,4,3135,3135,9,3157,3157 afterId=(null)
+------------------------------------------------------------
+[2025-10-15 21:20:36.576] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-15 21:20:41.784] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 21:20:41.839] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=1 companies=1125,1127,1131,2120,2120,4,3120,3120,5,3128,3128,4,3135,3135,9,3157,3157 afterId=(null)
+------------------------------------------------------------
+[2025-10-15 21:20:42.683] [AUDIT]
+Event: General Audit
+Details: GetUnread failed. afterId=(null)
+------------------------------------------------------------
+[2025-10-15 21:20:54.435] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: POST /api/auth/login, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 21:20:59.506] [AUDIT]
+Event: General Audit
+Details: USER_LOGIN: User: nidhi.lad@genxai.com, IP: ::1, Status: SUCCESS
+------------------------------------------------------------
+[2025-10-15 21:20:59.720] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 21:20:59.864] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/CompanyOnboard/History/me, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 21:20:59.866] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: POST /api/auth/getmenu, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 21:20:59.895] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=2 companies=0 afterId=(null)
+------------------------------------------------------------
+[2025-10-15 21:21:04.521] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-15 21:26:53.549] [AUDIT]
+Event: General Audit
+Details: QueuedWorker started.
+------------------------------------------------------------
+[2025-10-15 21:26:53.824] [AUDIT]
+Event: ListeningOnAddress
+Details: Now listening on: https://localhost:7282
+------------------------------------------------------------
+[2025-10-15 21:26:53.825] [AUDIT]
+Event: ListeningOnAddress
+Details: Now listening on: http://localhost:5072
+------------------------------------------------------------
+[2025-10-15 21:26:53.922] [AUDIT]
+Event: General Audit
+Details: Application started. Press Ctrl+C to shut down.
+------------------------------------------------------------
+[2025-10-15 21:26:53.924] [AUDIT]
+Event: General Audit
+Details: Hosting environment: Development
+------------------------------------------------------------
+[2025-10-15 21:26:53.926] [AUDIT]
+Event: General Audit
+Details: Content root path: D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions
+------------------------------------------------------------
+[2025-10-15 21:27:05.894] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: POST /api/auth/login, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 21:27:13.066] [AUDIT]
+Event: General Audit
+Details: USER_LOGIN: User: suchita.gome@genxai.com, IP: ::1, Status: SUCCESS
+------------------------------------------------------------
+[2025-10-15 21:27:13.446] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 21:27:13.558] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: POST /api/auth/getmenu, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 21:27:14.270] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=1 companies=1125,1127,1131,2120,2120,4,3120,3120,5,3128,3128,4,3135,3135,9,3157,3157 afterId=(null)
+------------------------------------------------------------
+[2025-10-15 21:27:18.989] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-15 21:27:23.329] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 21:27:23.380] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=1 companies=1125,1127,1131,2120,2120,4,3120,3120,5,3128,3128,4,3135,3135,9,3157,3157 afterId=(null)
+------------------------------------------------------------
+[2025-10-15 21:27:27.988] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-15 21:27:33.340] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 21:27:33.394] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=1 companies=1125,1127,1131,2120,2120,4,3120,3120,5,3128,3128,4,3135,3135,9,3157,3157 afterId=(null)
+------------------------------------------------------------
+[2025-10-15 21:27:38.041] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-15 21:27:43.342] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 21:27:43.393] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=1 companies=1125,1127,1131,2120,2120,4,3120,3120,5,3128,3128,4,3135,3135,9,3157,3157 afterId=(null)
+------------------------------------------------------------
+[2025-10-15 21:27:48.025] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-15 21:27:53.358] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 21:27:53.426] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=1 companies=1125,1127,1131,2120,2120,4,3120,3120,5,3128,3128,4,3135,3135,9,3157,3157 afterId=(null)
+------------------------------------------------------------
+[2025-10-15 21:27:58.288] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-15 21:28:03.341] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 21:28:03.401] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=1 companies=1125,1127,1131,2120,2120,4,3120,3120,5,3128,3128,4,3135,3135,9,3157,3157 afterId=(null)
+------------------------------------------------------------
+[2025-10-15 21:28:08.072] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-15 21:28:13.367] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 21:28:13.527] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=1 companies=1125,1127,1131,2120,2120,4,3120,3120,5,3128,3128,4,3135,3135,9,3157,3157 afterId=(null)
+------------------------------------------------------------
+[2025-10-15 21:28:18.179] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-15 21:28:23.359] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 21:28:23.418] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=1 companies=1125,1127,1131,2120,2120,4,3120,3120,5,3128,3128,4,3135,3135,9,3157,3157 afterId=(null)
+------------------------------------------------------------
+[2025-10-15 21:28:28.023] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-15 21:28:33.341] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 21:28:33.400] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=1 companies=1125,1127,1131,2120,2120,4,3120,3120,5,3128,3128,4,3135,3135,9,3157,3157 afterId=(null)
+------------------------------------------------------------
+[2025-10-15 21:28:38.025] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-15 21:28:43.346] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 21:28:43.401] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=1 companies=1125,1127,1131,2120,2120,4,3120,3120,5,3128,3128,4,3135,3135,9,3157,3157 afterId=(null)
+------------------------------------------------------------
+[2025-10-15 21:28:48.031] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-15 21:28:53.346] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 21:28:53.496] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=1 companies=1125,1127,1131,2120,2120,4,3120,3120,5,3128,3128,4,3135,3135,9,3157,3157 afterId=(null)
+------------------------------------------------------------
+[2025-10-15 21:28:58.292] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-15 21:29:03.339] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 21:29:03.386] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=1 companies=1125,1127,1131,2120,2120,4,3120,3120,5,3128,3128,4,3135,3135,9,3157,3157 afterId=(null)
+------------------------------------------------------------
+[2025-10-15 21:29:08.015] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-15 21:29:13.348] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 21:29:13.404] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=1 companies=1125,1127,1131,2120,2120,4,3120,3120,5,3128,3128,4,3135,3135,9,3157,3157 afterId=(null)
+------------------------------------------------------------
+[2025-10-15 21:29:18.016] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-15 21:29:23.336] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 21:29:23.390] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=1 companies=1125,1127,1131,2120,2120,4,3120,3120,5,3128,3128,4,3135,3135,9,3157,3157 afterId=(null)
+------------------------------------------------------------
+[2025-10-15 21:29:28.079] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-15 21:29:33.815] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 21:29:33.867] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=1 companies=1125,1127,1131,2120,2120,4,3120,3120,5,3128,3128,4,3135,3135,9,3157,3157 afterId=(null)
+------------------------------------------------------------
+[2025-10-15 21:29:38.497] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-15 21:29:43.821] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 21:29:43.869] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=1 companies=1125,1127,1131,2120,2120,4,3120,3120,5,3128,3128,4,3135,3135,9,3157,3157 afterId=(null)
+------------------------------------------------------------
+[2025-10-15 21:29:48.558] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-15 21:29:53.807] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 21:29:53.853] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=1 companies=1125,1127,1131,2120,2120,4,3120,3120,5,3128,3128,4,3135,3135,9,3157,3157 afterId=(null)
+------------------------------------------------------------
+[2025-10-15 21:29:58.583] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-15 21:30:03.812] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 21:30:03.858] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=1 companies=1125,1127,1131,2120,2120,4,3120,3120,5,3128,3128,4,3135,3135,9,3157,3157 afterId=(null)
+------------------------------------------------------------
+[2025-10-15 21:30:08.461] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-15 21:30:13.819] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 21:30:13.862] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=1 companies=1125,1127,1131,2120,2120,4,3120,3120,5,3128,3128,4,3135,3135,9,3157,3157 afterId=(null)
+------------------------------------------------------------
+[2025-10-15 21:30:18.472] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-15 21:30:23.822] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 21:30:23.869] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=1 companies=1125,1127,1131,2120,2120,4,3120,3120,5,3128,3128,4,3135,3135,9,3157,3157 afterId=(null)
+------------------------------------------------------------
+[2025-10-15 21:30:28.511] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-15 21:30:33.842] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 21:30:33.895] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=1 companies=1125,1127,1131,2120,2120,4,3120,3120,5,3128,3128,4,3135,3135,9,3157,3157 afterId=(null)
+------------------------------------------------------------
+[2025-10-15 21:30:38.512] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-15 21:30:43.345] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 21:30:43.398] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=1 companies=1125,1127,1131,2120,2120,4,3120,3120,5,3128,3128,4,3135,3135,9,3157,3157 afterId=(null)
+------------------------------------------------------------
+[2025-10-15 21:30:48.041] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-15 21:30:53.335] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 21:30:53.388] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=1 companies=1125,1127,1131,2120,2120,4,3120,3120,5,3128,3128,4,3135,3135,9,3157,3157 afterId=(null)
+------------------------------------------------------------
+[2025-10-15 21:30:58.008] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-15 21:31:03.366] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 21:31:03.434] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=1 companies=1125,1127,1131,2120,2120,4,3120,3120,5,3128,3128,4,3135,3135,9,3157,3157 afterId=(null)
+------------------------------------------------------------
+[2025-10-15 21:31:08.048] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-15 21:31:13.331] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 21:31:13.421] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=1 companies=1125,1127,1131,2120,2120,4,3120,3120,5,3128,3128,4,3135,3135,9,3157,3157 afterId=(null)
+------------------------------------------------------------
+[2025-10-15 21:31:18.051] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-15 21:31:23.351] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 21:31:23.398] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=1 companies=1125,1127,1131,2120,2120,4,3120,3120,5,3128,3128,4,3135,3135,9,3157,3157 afterId=(null)
+------------------------------------------------------------
+[2025-10-15 21:31:27.998] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-15 21:31:33.332] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 21:31:33.393] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=1 companies=1125,1127,1131,2120,2120,4,3120,3120,5,3128,3128,4,3135,3135,9,3157,3157 afterId=(null)
+------------------------------------------------------------
+[2025-10-15 21:31:38.018] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-15 21:31:43.335] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 21:31:43.396] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=1 companies=1125,1127,1131,2120,2120,4,3120,3120,5,3128,3128,4,3135,3135,9,3157,3157 afterId=(null)
+------------------------------------------------------------
+[2025-10-15 21:31:48.065] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-15 21:31:53.338] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 21:31:53.387] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=1 companies=1125,1127,1131,2120,2120,4,3120,3120,5,3128,3128,4,3135,3135,9,3157,3157 afterId=(null)
+------------------------------------------------------------
+[2025-10-15 21:31:58.121] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-15 21:32:03.337] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 21:32:03.467] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=1 companies=1125,1127,1131,2120,2120,4,3120,3120,5,3128,3128,4,3135,3135,9,3157,3157 afterId=(null)
+------------------------------------------------------------
+[2025-10-15 21:32:08.082] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-15 21:32:13.336] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 21:32:13.390] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=1 companies=1125,1127,1131,2120,2120,4,3120,3120,5,3128,3128,4,3135,3135,9,3157,3157 afterId=(null)
+------------------------------------------------------------
+[2025-10-15 21:32:18.015] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-15 21:32:23.341] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 21:32:23.387] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=1 companies=1125,1127,1131,2120,2120,4,3120,3120,5,3128,3128,4,3135,3135,9,3157,3157 afterId=(null)
+------------------------------------------------------------
+[2025-10-15 21:32:28.035] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-15 21:32:33.342] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 21:32:33.387] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=1 companies=1125,1127,1131,2120,2120,4,3120,3120,5,3128,3128,4,3135,3135,9,3157,3157 afterId=(null)
+------------------------------------------------------------
+[2025-10-15 21:32:38.028] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-15 21:32:43.336] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 21:32:43.380] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=1 companies=1125,1127,1131,2120,2120,4,3120,3120,5,3128,3128,4,3135,3135,9,3157,3157 afterId=(null)
+------------------------------------------------------------
+[2025-10-15 21:32:47.989] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-15 21:32:49.191] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 21:32:49.275] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=1 companies=1125,1127,1131,2120,2120,4,3120,3120,5,3128,3128,4,3135,3135,9,3157,3157 afterId=(null)
+------------------------------------------------------------
+[2025-10-15 21:32:53.866] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-15 21:32:54.376] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: POST /api/auth/getmenu, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 21:32:59.199] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 21:32:59.257] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=1 companies=1125,1127,1131,2120,2120,4,3120,3120,5,3128,3128,4,3135,3135,9,3157,3157 afterId=(null)
+------------------------------------------------------------
+[2025-10-15 21:33:03.846] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-15 21:33:09.170] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 21:33:09.209] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=1 companies=1125,1127,1131,2120,2120,4,3120,3120,5,3128,3128,4,3135,3135,9,3157,3157 afterId=(null)
+------------------------------------------------------------
+[2025-10-15 21:33:12.763] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 21:33:12.935] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=1 companies=1125,1127,1131,2120,2120,4,3120,3120,5,3128,3128,4,3135,3135,9,3157,3157 afterId=(null)
+------------------------------------------------------------
+[2025-10-15 21:33:13.063] [AUDIT]
+Event: General Audit
+Details: GetUnread failed. afterId=(null)
+------------------------------------------------------------
+[2025-10-15 21:33:17.571] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-15 21:33:20.723] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: POST /api/auth/getmenu, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 21:33:23.824] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 21:33:23.885] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=1 companies=1125,1127,1131,2120,2120,4,3120,3120,5,3128,3128,4,3135,3135,9,3157,3157 afterId=(null)
+------------------------------------------------------------
+[2025-10-15 21:33:28.514] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-15 21:33:32.700] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 21:33:32.739] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=1 companies=1125,1127,1131,2120,2120,4,3120,3120,5,3128,3128,4,3135,3135,9,3157,3157 afterId=(null)
+------------------------------------------------------------
+[2025-10-15 21:33:37.370] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-15 21:33:42.822] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 21:33:42.868] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=1 companies=1125,1127,1131,2120,2120,4,3120,3120,5,3128,3128,4,3135,3135,9,3157,3157 afterId=(null)
+------------------------------------------------------------
+[2025-10-15 21:33:47.491] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-15 21:33:52.827] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 21:33:52.871] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=1 companies=1125,1127,1131,2120,2120,4,3120,3120,5,3128,3128,4,3135,3135,9,3157,3157 afterId=(null)
+------------------------------------------------------------
+[2025-10-15 21:33:57.485] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-15 21:34:02.817] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 21:34:02.861] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=1 companies=1125,1127,1131,2120,2120,4,3120,3120,5,3128,3128,4,3135,3135,9,3157,3157 afterId=(null)
+------------------------------------------------------------
+[2025-10-15 21:34:07.468] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-15 21:34:12.705] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 21:34:12.762] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=1 companies=1125,1127,1131,2120,2120,4,3120,3120,5,3128,3128,4,3135,3135,9,3157,3157 afterId=(null)
+------------------------------------------------------------
+[2025-10-15 21:34:17.405] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-15 21:34:22.696] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 21:34:22.738] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=1 companies=1125,1127,1131,2120,2120,4,3120,3120,5,3128,3128,4,3135,3135,9,3157,3157 afterId=(null)
+------------------------------------------------------------
+[2025-10-15 21:34:27.320] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-15 21:34:32.838] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 21:34:32.885] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=1 companies=1125,1127,1131,2120,2120,4,3120,3120,5,3128,3128,4,3135,3135,9,3157,3157 afterId=(null)
+------------------------------------------------------------
+[2025-10-15 22:51:37.346] [AUDIT]
+Event: General Audit
+Details: QueuedWorker started.
+------------------------------------------------------------
+[2025-10-15 22:51:37.648] [AUDIT]
+Event: ListeningOnAddress
+Details: Now listening on: https://localhost:7282
+------------------------------------------------------------
+[2025-10-15 22:51:37.650] [AUDIT]
+Event: ListeningOnAddress
+Details: Now listening on: http://localhost:5072
+------------------------------------------------------------
+[2025-10-15 22:51:37.795] [AUDIT]
+Event: General Audit
+Details: Application started. Press Ctrl+C to shut down.
+------------------------------------------------------------
+[2025-10-15 22:51:37.797] [AUDIT]
+Event: General Audit
+Details: Hosting environment: Development
+------------------------------------------------------------
+[2025-10-15 22:51:37.799] [AUDIT]
+Event: General Audit
+Details: Content root path: D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions
+------------------------------------------------------------
+[2025-10-15 22:51:48.076] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: POST /api/auth/login, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 22:51:54.013] [AUDIT]
+Event: General Audit
+Details: USER_LOGIN: User: nidhi.lad@genxai.com, IP: ::1, Status: SUCCESS
+------------------------------------------------------------
+[2025-10-15 22:51:54.364] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/CompanyOnboard/History/me, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 22:51:54.367] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 22:51:54.463] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: POST /api/auth/getmenu, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 22:51:54.717] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=2 companies=0 afterId=(null)
+------------------------------------------------------------
+[2025-10-15 22:51:59.322] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-15 22:52:12.599] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: POST /api/auth/login, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 22:52:17.589] [AUDIT]
+Event: General Audit
+Details: USER_LOGIN: User: suchita.gome@genxai.com, IP: ::1, Status: SUCCESS
+------------------------------------------------------------
+[2025-10-15 22:52:17.706] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 22:52:17.768] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=1 companies=1125,1127,1131,2120,2120,4,3120,3120,5,3128,3128,4,3135,3135,9,3157,3157 afterId=(null)
+------------------------------------------------------------
+[2025-10-15 22:52:17.775] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: POST /api/auth/getmenu, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 22:52:22.396] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-15 22:52:27.720] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 22:52:27.782] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=1 companies=1125,1127,1131,2120,2120,4,3120,3120,5,3128,3128,4,3135,3135,9,3157,3157 afterId=(null)
+------------------------------------------------------------
+[2025-10-15 22:52:30.372] [AUDIT]
+Event: General Audit
+Details: GetUnread failed. afterId=(null)
+------------------------------------------------------------
+[2025-10-15 22:52:31.138] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 22:52:31.184] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: POST /api/auth/getmenu, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 22:52:31.185] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=1 companies=1125,1127,1131,2120,2120,4,3120,3120,5,3128,3128,4,3135,3135,9,3157,3157 afterId=(null)
+------------------------------------------------------------
+[2025-10-15 22:52:35.823] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-15 22:52:41.153] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 22:52:41.218] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=1 companies=1125,1127,1131,2120,2120,4,3120,3120,5,3128,3128,4,3135,3135,9,3157,3157 afterId=(null)
+------------------------------------------------------------
+[2025-10-15 22:52:45.814] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-15 22:52:55.835] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 22:52:55.891] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=1 companies=1125,1127,1131,2120,2120,4,3120,3120,5,3128,3128,4,3135,3135,9,3157,3157 afterId=(null)
+------------------------------------------------------------
+[2025-10-15 22:53:00.544] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-15 22:53:05.151] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 22:53:05.230] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=1 companies=1125,1127,1131,2120,2120,4,3120,3120,5,3128,3128,4,3135,3135,9,3157,3157 afterId=(null)
+------------------------------------------------------------
+[2025-10-15 22:53:09.858] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-15 22:53:29.553] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 22:53:29.600] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=1 companies=1125,1127,1131,2120,2120,4,3120,3120,5,3128,3128,4,3135,3135,9,3157,3157 afterId=(null)
+------------------------------------------------------------
+[2025-10-15 22:53:34.337] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-15 22:53:34.345] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 22:53:34.386] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=1 companies=1125,1127,1131,2120,2120,4,3120,3120,5,3128,3128,4,3135,3135,9,3157,3157 afterId=(null)
+------------------------------------------------------------
+[2025-10-15 22:53:39.047] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-15 22:53:41.815] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 22:53:41.864] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=1 companies=1125,1127,1131,2120,2120,4,3120,3120,5,3128,3128,4,3135,3135,9,3157,3157 afterId=(null)
+------------------------------------------------------------
+[2025-10-15 22:53:46.473] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-15 22:53:51.141] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 22:53:51.182] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=1 companies=1125,1127,1131,2120,2120,4,3120,3120,5,3128,3128,4,3135,3135,9,3157,3157 afterId=(null)
+------------------------------------------------------------
+[2025-10-15 22:53:55.827] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-15 22:54:01.820] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 22:54:01.872] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=1 companies=1125,1127,1131,2120,2120,4,3120,3120,5,3128,3128,4,3135,3135,9,3157,3157 afterId=(null)
+------------------------------------------------------------
+[2025-10-15 22:54:06.508] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-15 22:54:11.822] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 22:54:11.873] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=1 companies=1125,1127,1131,2120,2120,4,3120,3120,5,3128,3128,4,3135,3135,9,3157,3157 afterId=(null)
+------------------------------------------------------------
+[2025-10-15 22:54:16.508] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-15 22:55:36.035] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 22:55:36.096] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=1 companies=1125,1127,1131,2120,2120,4,3120,3120,5,3128,3128,4,3135,3135,9,3157,3157 afterId=(null)
+------------------------------------------------------------
+[2025-10-15 22:55:40.685] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-15 22:55:41.817] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 22:55:41.881] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=1 companies=1125,1127,1131,2120,2120,4,3120,3120,5,3128,3128,4,3135,3135,9,3157,3157 afterId=(null)
+------------------------------------------------------------
+[2025-10-15 22:55:46.471] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-15 22:55:51.148] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 22:55:51.206] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=1 companies=1125,1127,1131,2120,2120,4,3120,3120,5,3128,3128,4,3135,3135,9,3157,3157 afterId=(null)
+------------------------------------------------------------
+[2025-10-15 22:55:55.795] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-15 22:55:57.085] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 22:55:57.145] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=1 companies=1125,1127,1131,2120,2120,4,3120,3120,5,3128,3128,4,3135,3135,9,3157,3157 afterId=(null)
+------------------------------------------------------------
+[2025-10-15 22:55:57.145] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: POST /api/auth/getmenu, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 22:56:01.717] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-15 22:56:07.085] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 22:56:07.174] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=1 companies=1125,1127,1131,2120,2120,4,3120,3120,5,3128,3128,4,3135,3135,9,3157,3157 afterId=(null)
+------------------------------------------------------------
+[2025-10-15 22:56:11.785] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-15 22:56:17.103] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 22:56:17.163] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=1 companies=1125,1127,1131,2120,2120,4,3120,3120,5,3128,3128,4,3135,3135,9,3157,3157 afterId=(null)
+------------------------------------------------------------
+[2025-10-15 22:56:21.765] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-15 22:56:27.104] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 22:56:27.179] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=1 companies=1125,1127,1131,2120,2120,4,3120,3120,5,3128,3128,4,3135,3135,9,3157,3157 afterId=(null)
+------------------------------------------------------------
+[2025-10-15 22:56:31.758] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-15 22:56:35.925] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: POST /api/CompanyOnboard/CreateProfile, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 22:56:35.991] [AUDIT]
+Event: General Audit
+Details: CreateProfile API called - User: suchita.gome@genxai.com, CompanyName: us, CorrelationId: a75f169b-137f-41d3-92e9-a0226b1ecf83
+------------------------------------------------------------
+[2025-10-15 22:56:37.081] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 22:56:37.148] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=1 companies=1125,1127,1131,2120,2120,4,3120,3120,5,3128,3128,4,3135,3135,9,3157,3157 afterId=(null)
+------------------------------------------------------------
+[2025-10-15 22:56:40.576] [AUDIT]
+Event: General Audit
+Details: Company profile created successfully -  CompanyId: 3165, User: suchita.gome@genxai.com, CorrelationId: a75f169b-137f-41d3-92e9-a0226b1ecf83
+------------------------------------------------------------
+[2025-10-15 22:56:40.581] [AUDIT]
+Event: General Audit
+Details: DATA_ACCESS: User: suchita.gome@genxai.com, Action: CREATE, Entity: CompanyProfile, ID: 3165, Details: Company profile created - Name: us, CorrelationId: a75f169b-137f-41d3-92e9-a0226b1ecf83
+------------------------------------------------------------
+[2025-10-15 22:56:40.630] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/CompanyOnboard/databasetype, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 22:56:41.719] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-15 22:56:47.812] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 22:56:47.871] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=1 companies=1125,1127,1131,2120,2120,4,3120,3120,5,3128,3128,4,3135,3135,9,3157,3157 afterId=(null)
+------------------------------------------------------------
+[2025-10-15 22:56:52.457] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-15 22:56:57.094] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 22:56:57.151] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=1 companies=1125,1127,1131,2120,2120,4,3120,3120,5,3128,3128,4,3135,3135,9,3157,3157 afterId=(null)
+------------------------------------------------------------
+[2025-10-15 22:57:01.738] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-15 22:57:08.635] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 22:57:08.740] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=1 companies=1125,1127,1131,2120,2120,4,3120,3120,5,3128,3128,4,3135,3135,9,3157,3157 afterId=(null)
+------------------------------------------------------------
+[2025-10-15 22:57:08.796] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: POST /api/auth/getmenu, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 22:57:13.355] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-15 22:57:17.073] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/auth/GetScreens, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 22:57:18.642] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 22:57:18.716] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=1 companies=1125,1127,1131,2120,2120,4,3120,3120,5,3128,3128,4,3135,3135,9,3157,3157 afterId=(null)
+------------------------------------------------------------
+[2025-10-15 22:57:23.293] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-15 22:57:28.639] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 22:57:28.695] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=1 companies=1125,1127,1131,2120,2120,4,3120,3120,5,3128,3128,4,3135,3135,9,3157,3157 afterId=(null)
+------------------------------------------------------------
+[2025-10-15 22:57:33.277] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-15 23:01:37.789] [AUDIT]
+Event: General Audit
+Details: QueuedWorker started.
+------------------------------------------------------------
+[2025-10-15 23:01:37.932] [AUDIT]
+Event: ListeningOnAddress
+Details: Now listening on: https://localhost:7282
+------------------------------------------------------------
+[2025-10-15 23:01:37.933] [AUDIT]
+Event: ListeningOnAddress
+Details: Now listening on: http://localhost:5072
+------------------------------------------------------------
+[2025-10-15 23:01:37.995] [AUDIT]
+Event: General Audit
+Details: Application started. Press Ctrl+C to shut down.
+------------------------------------------------------------
+[2025-10-15 23:01:37.997] [AUDIT]
+Event: General Audit
+Details: Hosting environment: Development
+------------------------------------------------------------
+[2025-10-15 23:01:37.997] [AUDIT]
+Event: General Audit
+Details: Content root path: D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions
+------------------------------------------------------------
+[2025-10-15 23:01:50.813] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: POST /api/auth/login, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 23:01:56.469] [AUDIT]
+Event: General Audit
+Details: USER_LOGIN: User: suchita.gome@genxai.com, IP: ::1, Status: SUCCESS
+------------------------------------------------------------
+[2025-10-15 23:01:56.724] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 23:01:56.740] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: POST /api/auth/getmenu, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 23:01:57.053] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=1 companies=1125,1127,1131,2120,2120,4,3120,3120,5,3128,3128,4,3135,3135,9,3157,3157 afterId=(null)
+------------------------------------------------------------
+[2025-10-15 23:02:01.659] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-15 23:02:05.324] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 23:02:05.403] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: POST /api/auth/getmenu, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 23:02:05.412] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=1 companies=1125,1127,1131,2120,2120,4,3120,3120,5,3128,3128,4,3135,3135,9,3157,3157 afterId=(null)
+------------------------------------------------------------
+[2025-10-15 23:02:10.007] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-15 23:02:15.330] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 23:02:15.421] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=1 companies=1125,1127,1131,2120,2120,4,3120,3120,5,3128,3128,4,3135,3135,9,3157,3157 afterId=(null)
+------------------------------------------------------------
+[2025-10-15 23:02:20.034] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-15 23:02:25.810] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 23:02:25.882] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=1 companies=1125,1127,1131,2120,2120,4,3120,3120,5,3128,3128,4,3135,3135,9,3157,3157 afterId=(null)
+------------------------------------------------------------
+[2025-10-15 23:02:30.470] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-15 23:02:35.813] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 23:02:35.905] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=1 companies=1125,1127,1131,2120,2120,4,3120,3120,5,3128,3128,4,3135,3135,9,3157,3157 afterId=(null)
+------------------------------------------------------------
+[2025-10-15 23:02:40.529] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-15 23:02:45.821] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 23:02:45.915] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=1 companies=1125,1127,1131,2120,2120,4,3120,3120,5,3128,3128,4,3135,3135,9,3157,3157 afterId=(null)
+------------------------------------------------------------
+[2025-10-15 23:02:50.542] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-15 23:02:55.338] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 23:02:55.416] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=1 companies=1125,1127,1131,2120,2120,4,3120,3120,5,3128,3128,4,3135,3135,9,3157,3157 afterId=(null)
+------------------------------------------------------------
+[2025-10-15 23:03:00.013] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-15 23:03:05.342] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 23:03:05.407] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=1 companies=1125,1127,1131,2120,2120,4,3120,3120,5,3128,3128,4,3135,3135,9,3157,3157 afterId=(null)
+------------------------------------------------------------
+[2025-10-15 23:03:10.000] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-15 23:03:15.332] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 23:03:15.396] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=1 companies=1125,1127,1131,2120,2120,4,3120,3120,5,3128,3128,4,3135,3135,9,3157,3157 afterId=(null)
+------------------------------------------------------------
+[2025-10-15 23:03:19.993] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-15 23:03:25.332] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 23:03:25.404] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=1 companies=1125,1127,1131,2120,2120,4,3120,3120,5,3128,3128,4,3135,3135,9,3157,3157 afterId=(null)
+------------------------------------------------------------
+[2025-10-15 23:03:29.993] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-15 23:03:35.325] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 23:03:35.383] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=1 companies=1125,1127,1131,2120,2120,4,3120,3120,5,3128,3128,4,3135,3135,9,3157,3157 afterId=(null)
+------------------------------------------------------------
+[2025-10-15 23:03:39.967] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-15 23:03:45.814] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 23:03:45.875] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=1 companies=1125,1127,1131,2120,2120,4,3120,3120,5,3128,3128,4,3135,3135,9,3157,3157 afterId=(null)
+------------------------------------------------------------
+[2025-10-15 23:03:50.463] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-15 23:03:55.332] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 23:03:55.390] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=1 companies=1125,1127,1131,2120,2120,4,3120,3120,5,3128,3128,4,3135,3135,9,3157,3157 afterId=(null)
+------------------------------------------------------------
+[2025-10-15 23:03:59.977] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-15 23:04:05.330] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 23:04:05.456] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=1 companies=1125,1127,1131,2120,2120,4,3120,3120,5,3128,3128,4,3135,3135,9,3157,3157 afterId=(null)
+------------------------------------------------------------
+[2025-10-15 23:04:10.069] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-15 23:04:15.331] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 23:04:15.398] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=1 companies=1125,1127,1131,2120,2120,4,3120,3120,5,3128,3128,4,3135,3135,9,3157,3157 afterId=(null)
+------------------------------------------------------------
+[2025-10-15 23:04:20.002] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-15 23:04:25.344] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 23:04:25.427] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=1 companies=1125,1127,1131,2120,2120,4,3120,3120,5,3128,3128,4,3135,3135,9,3157,3157 afterId=(null)
+------------------------------------------------------------
+[2025-10-15 23:04:30.035] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-15 23:04:35.333] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 23:04:35.398] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=1 companies=1125,1127,1131,2120,2120,4,3120,3120,5,3128,3128,4,3135,3135,9,3157,3157 afterId=(null)
+------------------------------------------------------------
+[2025-10-15 23:04:39.991] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-15 23:04:45.337] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 23:04:45.396] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=1 companies=1125,1127,1131,2120,2120,4,3120,3120,5,3128,3128,4,3135,3135,9,3157,3157 afterId=(null)
+------------------------------------------------------------
+[2025-10-15 23:04:49.988] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-15 23:04:55.332] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 23:04:55.426] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=1 companies=1125,1127,1131,2120,2120,4,3120,3120,5,3128,3128,4,3135,3135,9,3157,3157 afterId=(null)
+------------------------------------------------------------
+[2025-10-15 23:04:59.999] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-15 23:05:05.334] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 23:05:05.386] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=1 companies=1125,1127,1131,2120,2120,4,3120,3120,5,3128,3128,4,3135,3135,9,3157,3157 afterId=(null)
+------------------------------------------------------------
+[2025-10-15 23:05:09.986] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-15 23:05:15.330] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 23:05:15.387] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=1 companies=1125,1127,1131,2120,2120,4,3120,3120,5,3128,3128,4,3135,3135,9,3157,3157 afterId=(null)
+------------------------------------------------------------
+[2025-10-15 23:05:20.007] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-15 23:05:25.328] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 23:05:25.403] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=1 companies=1125,1127,1131,2120,2120,4,3120,3120,5,3128,3128,4,3135,3135,9,3157,3157 afterId=(null)
+------------------------------------------------------------
+[2025-10-15 23:05:29.980] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-15 23:05:35.343] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 23:05:35.436] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=1 companies=1125,1127,1131,2120,2120,4,3120,3120,5,3128,3128,4,3135,3135,9,3157,3157 afterId=(null)
+------------------------------------------------------------
+[2025-10-15 23:05:40.027] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-15 23:05:45.330] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 23:05:45.407] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=1 companies=1125,1127,1131,2120,2120,4,3120,3120,5,3128,3128,4,3135,3135,9,3157,3157 afterId=(null)
+------------------------------------------------------------
+[2025-10-15 23:05:49.997] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-15 23:05:55.341] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 23:05:55.417] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=1 companies=1125,1127,1131,2120,2120,4,3120,3120,5,3128,3128,4,3135,3135,9,3157,3157 afterId=(null)
+------------------------------------------------------------
+[2025-10-15 23:05:59.988] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-15 23:06:05.352] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 23:06:05.414] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=1 companies=1125,1127,1131,2120,2120,4,3120,3120,5,3128,3128,4,3135,3135,9,3157,3157 afterId=(null)
+------------------------------------------------------------
+[2025-10-15 23:06:10.008] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-15 23:06:15.338] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 23:06:15.395] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=1 companies=1125,1127,1131,2120,2120,4,3120,3120,5,3128,3128,4,3135,3135,9,3157,3157 afterId=(null)
+------------------------------------------------------------
+[2025-10-15 23:06:19.973] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-15 23:06:25.329] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 23:06:25.394] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=1 companies=1125,1127,1131,2120,2120,4,3120,3120,5,3128,3128,4,3135,3135,9,3157,3157 afterId=(null)
+------------------------------------------------------------
+[2025-10-15 23:06:29.995] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-15 23:06:35.335] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 23:06:35.408] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=1 companies=1125,1127,1131,2120,2120,4,3120,3120,5,3128,3128,4,3135,3135,9,3157,3157 afterId=(null)
+------------------------------------------------------------
+[2025-10-15 23:06:40.014] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-15 23:06:45.326] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 23:06:45.377] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=1 companies=1125,1127,1131,2120,2120,4,3120,3120,5,3128,3128,4,3135,3135,9,3157,3157 afterId=(null)
+------------------------------------------------------------
+[2025-10-15 23:06:49.982] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-15 23:06:55.336] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 23:06:55.410] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=1 companies=1125,1127,1131,2120,2120,4,3120,3120,5,3128,3128,4,3135,3135,9,3157,3157 afterId=(null)
+------------------------------------------------------------
+[2025-10-15 23:07:00.025] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-15 23:07:05.340] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 23:07:05.411] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=1 companies=1125,1127,1131,2120,2120,4,3120,3120,5,3128,3128,4,3135,3135,9,3157,3157 afterId=(null)
+------------------------------------------------------------
+[2025-10-15 23:07:09.979] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-15 23:07:15.332] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 23:07:15.387] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=1 companies=1125,1127,1131,2120,2120,4,3120,3120,5,3128,3128,4,3135,3135,9,3157,3157 afterId=(null)
+------------------------------------------------------------
+[2025-10-15 23:07:19.981] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-15 23:07:25.332] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 23:07:25.406] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=1 companies=1125,1127,1131,2120,2120,4,3120,3120,5,3128,3128,4,3135,3135,9,3157,3157 afterId=(null)
+------------------------------------------------------------
+[2025-10-15 23:07:29.996] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-15 23:07:35.329] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 23:07:35.382] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=1 companies=1125,1127,1131,2120,2120,4,3120,3120,5,3128,3128,4,3135,3135,9,3157,3157 afterId=(null)
+------------------------------------------------------------
+[2025-10-15 23:07:39.990] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-15 23:07:45.337] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 23:07:45.391] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=1 companies=1125,1127,1131,2120,2120,4,3120,3120,5,3128,3128,4,3135,3135,9,3157,3157 afterId=(null)
+------------------------------------------------------------
+[2025-10-15 23:07:49.976] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-15 23:07:55.343] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 23:07:55.403] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=1 companies=1125,1127,1131,2120,2120,4,3120,3120,5,3128,3128,4,3135,3135,9,3157,3157 afterId=(null)
+------------------------------------------------------------
+[2025-10-15 23:08:00.018] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-15 23:08:05.333] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 23:08:05.378] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=1 companies=1125,1127,1131,2120,2120,4,3120,3120,5,3128,3128,4,3135,3135,9,3157,3157 afterId=(null)
+------------------------------------------------------------
+[2025-10-15 23:08:09.991] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-15 23:08:15.354] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 23:08:15.406] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=1 companies=1125,1127,1131,2120,2120,4,3120,3120,5,3128,3128,4,3135,3135,9,3157,3157 afterId=(null)
+------------------------------------------------------------
+[2025-10-15 23:08:19.993] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-15 23:08:25.341] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 23:08:25.412] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=1 companies=1125,1127,1131,2120,2120,4,3120,3120,5,3128,3128,4,3135,3135,9,3157,3157 afterId=(null)
+------------------------------------------------------------
+[2025-10-15 23:08:29.990] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-15 23:08:35.340] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 23:08:35.425] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=1 companies=1125,1127,1131,2120,2120,4,3120,3120,5,3128,3128,4,3135,3135,9,3157,3157 afterId=(null)
+------------------------------------------------------------
+[2025-10-15 23:08:40.015] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-15 23:08:45.335] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 23:08:45.397] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=1 companies=1125,1127,1131,2120,2120,4,3120,3120,5,3128,3128,4,3135,3135,9,3157,3157 afterId=(null)
+------------------------------------------------------------
+[2025-10-15 23:08:49.995] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-15 23:08:55.339] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 23:08:55.410] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=1 companies=1125,1127,1131,2120,2120,4,3120,3120,5,3128,3128,4,3135,3135,9,3157,3157 afterId=(null)
+------------------------------------------------------------
+[2025-10-15 23:08:59.994] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-15 23:09:05.330] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 23:09:05.385] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=1 companies=1125,1127,1131,2120,2120,4,3120,3120,5,3128,3128,4,3135,3135,9,3157,3157 afterId=(null)
+------------------------------------------------------------
+[2025-10-15 23:09:09.947] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-15 23:09:15.341] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 23:09:15.410] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=1 companies=1125,1127,1131,2120,2120,4,3120,3120,5,3128,3128,4,3135,3135,9,3157,3157 afterId=(null)
+------------------------------------------------------------
+[2025-10-15 23:09:20.011] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-15 23:09:25.336] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 23:09:25.390] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=1 companies=1125,1127,1131,2120,2120,4,3120,3120,5,3128,3128,4,3135,3135,9,3157,3157 afterId=(null)
+------------------------------------------------------------
+[2025-10-15 23:09:29.987] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-15 23:09:35.338] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 23:09:35.405] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=1 companies=1125,1127,1131,2120,2120,4,3120,3120,5,3128,3128,4,3135,3135,9,3157,3157 afterId=(null)
+------------------------------------------------------------
+[2025-10-15 23:09:39.988] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-15 23:09:45.342] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 23:09:45.399] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=1 companies=1125,1127,1131,2120,2120,4,3120,3120,5,3128,3128,4,3135,3135,9,3157,3157 afterId=(null)
+------------------------------------------------------------
+[2025-10-15 23:09:49.997] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-15 23:09:55.333] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 23:09:55.390] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=1 companies=1125,1127,1131,2120,2120,4,3120,3120,5,3128,3128,4,3135,3135,9,3157,3157 afterId=(null)
+------------------------------------------------------------
+[2025-10-15 23:09:59.974] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-15 23:10:05.336] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 23:10:05.408] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=1 companies=1125,1127,1131,2120,2120,4,3120,3120,5,3128,3128,4,3135,3135,9,3157,3157 afterId=(null)
+------------------------------------------------------------
+[2025-10-15 23:10:10.001] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-15 23:10:15.330] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 23:10:15.385] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=1 companies=1125,1127,1131,2120,2120,4,3120,3120,5,3128,3128,4,3135,3135,9,3157,3157 afterId=(null)
+------------------------------------------------------------
+[2025-10-15 23:10:19.964] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-15 23:10:25.824] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 23:10:25.846] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=1 companies=1125,1127,1131,2120,2120,4,3120,3120,5,3128,3128,4,3135,3135,9,3157,3157 afterId=(null)
+------------------------------------------------------------
+[2025-10-15 23:10:30.415] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-15 23:10:35.826] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 23:10:35.861] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=1 companies=1125,1127,1131,2120,2120,4,3120,3120,5,3128,3128,4,3135,3135,9,3157,3157 afterId=(null)
+------------------------------------------------------------
+[2025-10-15 23:10:40.446] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-15 23:10:45.823] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 23:10:45.843] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=1 companies=1125,1127,1131,2120,2120,4,3120,3120,5,3128,3128,4,3135,3135,9,3157,3157 afterId=(null)
+------------------------------------------------------------
+[2025-10-15 23:10:50.412] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-15 23:10:55.823] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 23:10:55.847] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=1 companies=1125,1127,1131,2120,2120,4,3120,3120,5,3128,3128,4,3135,3135,9,3157,3157 afterId=(null)
+------------------------------------------------------------
+[2025-10-15 23:11:00.397] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-15 23:11:05.814] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 23:11:05.833] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=1 companies=1125,1127,1131,2120,2120,4,3120,3120,5,3128,3128,4,3135,3135,9,3157,3157 afterId=(null)
+------------------------------------------------------------
+[2025-10-15 23:11:10.416] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-15 23:11:15.811] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 23:11:15.850] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=1 companies=1125,1127,1131,2120,2120,4,3120,3120,5,3128,3128,4,3135,3135,9,3157,3157 afterId=(null)
+------------------------------------------------------------
+[2025-10-15 23:11:20.407] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-15 23:11:40.125] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 23:11:40.168] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=1 companies=1125,1127,1131,2120,2120,4,3120,3120,5,3128,3128,4,3135,3135,9,3157,3157 afterId=(null)
+------------------------------------------------------------
+[2025-10-15 23:11:44.772] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-15 23:11:45.329] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 23:11:45.376] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=1 companies=1125,1127,1131,2120,2120,4,3120,3120,5,3128,3128,4,3135,3135,9,3157,3157 afterId=(null)
+------------------------------------------------------------
+[2025-10-15 23:11:49.942] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-15 23:11:55.325] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 23:11:55.385] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=1 companies=1125,1127,1131,2120,2120,4,3120,3120,5,3128,3128,4,3135,3135,9,3157,3157 afterId=(null)
+------------------------------------------------------------
+[2025-10-15 23:11:59.962] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-15 23:12:05.328] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 23:12:05.388] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=1 companies=1125,1127,1131,2120,2120,4,3120,3120,5,3128,3128,4,3135,3135,9,3157,3157 afterId=(null)
+------------------------------------------------------------
+[2025-10-15 23:12:09.985] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-15 23:12:15.335] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 23:12:15.389] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=1 companies=1125,1127,1131,2120,2120,4,3120,3120,5,3128,3128,4,3135,3135,9,3157,3157 afterId=(null)
+------------------------------------------------------------
+[2025-10-15 23:12:19.990] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-15 23:12:25.339] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 23:12:25.412] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=1 companies=1125,1127,1131,2120,2120,4,3120,3120,5,3128,3128,4,3135,3135,9,3157,3157 afterId=(null)
+------------------------------------------------------------
+[2025-10-15 23:12:29.990] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-15 23:12:35.336] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 23:12:35.402] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=1 companies=1125,1127,1131,2120,2120,4,3120,3120,5,3128,3128,4,3135,3135,9,3157,3157 afterId=(null)
+------------------------------------------------------------
+[2025-10-15 23:12:39.994] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-15 23:12:45.331] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 23:12:45.409] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=1 companies=1125,1127,1131,2120,2120,4,3120,3120,5,3128,3128,4,3135,3135,9,3157,3157 afterId=(null)
+------------------------------------------------------------
+[2025-10-15 23:12:49.985] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-15 23:12:55.331] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 23:12:55.379] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=1 companies=1125,1127,1131,2120,2120,4,3120,3120,5,3128,3128,4,3135,3135,9,3157,3157 afterId=(null)
+------------------------------------------------------------
+[2025-10-15 23:12:59.969] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-15 23:13:05.326] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 23:13:05.373] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=1 companies=1125,1127,1131,2120,2120,4,3120,3120,5,3128,3128,4,3135,3135,9,3157,3157 afterId=(null)
+------------------------------------------------------------
+[2025-10-15 23:13:09.951] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-15 23:13:15.342] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 23:13:15.405] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=1 companies=1125,1127,1131,2120,2120,4,3120,3120,5,3128,3128,4,3135,3135,9,3157,3157 afterId=(null)
+------------------------------------------------------------
+[2025-10-15 23:13:19.980] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-15 23:13:25.334] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 23:13:25.393] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=1 companies=1125,1127,1131,2120,2120,4,3120,3120,5,3128,3128,4,3135,3135,9,3157,3157 afterId=(null)
+------------------------------------------------------------
+[2025-10-15 23:13:29.990] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-15 23:13:35.343] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 23:13:35.423] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=1 companies=1125,1127,1131,2120,2120,4,3120,3120,5,3128,3128,4,3135,3135,9,3157,3157 afterId=(null)
+------------------------------------------------------------
+[2025-10-15 23:13:40.022] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-15 23:13:45.328] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 23:13:45.387] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=1 companies=1125,1127,1131,2120,2120,4,3120,3120,5,3128,3128,4,3135,3135,9,3157,3157 afterId=(null)
+------------------------------------------------------------
+[2025-10-15 23:13:49.950] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-15 23:13:55.328] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 23:13:55.373] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=1 companies=1125,1127,1131,2120,2120,4,3120,3120,5,3128,3128,4,3135,3135,9,3157,3157 afterId=(null)
+------------------------------------------------------------
+[2025-10-15 23:13:59.949] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-15 23:14:05.338] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 23:14:05.381] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=1 companies=1125,1127,1131,2120,2120,4,3120,3120,5,3128,3128,4,3135,3135,9,3157,3157 afterId=(null)
+------------------------------------------------------------
+[2025-10-15 23:14:09.966] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-15 23:14:15.326] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 23:14:15.370] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=1 companies=1125,1127,1131,2120,2120,4,3120,3120,5,3128,3128,4,3135,3135,9,3157,3157 afterId=(null)
+------------------------------------------------------------
+[2025-10-15 23:14:19.918] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-15 23:14:25.811] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 23:14:25.834] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=1 companies=1125,1127,1131,2120,2120,4,3120,3120,5,3128,3128,4,3135,3135,9,3157,3157 afterId=(null)
+------------------------------------------------------------
+[2025-10-15 23:14:30.399] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-15 23:14:35.815] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 23:14:35.841] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=1 companies=1125,1127,1131,2120,2120,4,3120,3120,5,3128,3128,4,3135,3135,9,3157,3157 afterId=(null)
+------------------------------------------------------------
+[2025-10-15 23:14:40.418] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-15 23:14:45.816] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 23:14:45.836] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=1 companies=1125,1127,1131,2120,2120,4,3120,3120,5,3128,3128,4,3135,3135,9,3157,3157 afterId=(null)
+------------------------------------------------------------
+[2025-10-15 23:14:50.419] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-15 23:14:55.818] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 23:14:55.843] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=1 companies=1125,1127,1131,2120,2120,4,3120,3120,5,3128,3128,4,3135,3135,9,3157,3157 afterId=(null)
+------------------------------------------------------------
+[2025-10-15 23:15:00.411] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-15 23:15:05.824] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 23:15:05.849] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=1 companies=1125,1127,1131,2120,2120,4,3120,3120,5,3128,3128,4,3135,3135,9,3157,3157 afterId=(null)
+------------------------------------------------------------
+[2025-10-15 23:15:10.431] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-15 23:15:15.814] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 23:15:15.842] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=1 companies=1125,1127,1131,2120,2120,4,3120,3120,5,3128,3128,4,3135,3135,9,3157,3157 afterId=(null)
+------------------------------------------------------------
+[2025-10-15 23:15:20.414] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-15 23:15:39.545] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 23:15:39.575] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=1 companies=1125,1127,1131,2120,2120,4,3120,3120,5,3128,3128,4,3135,3135,9,3157,3157 afterId=(null)
+------------------------------------------------------------
+[2025-10-15 23:15:44.131] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-15 23:15:45.338] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 23:15:45.405] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=1 companies=1125,1127,1131,2120,2120,4,3120,3120,5,3128,3128,4,3135,3135,9,3157,3157 afterId=(null)
+------------------------------------------------------------
+[2025-10-15 23:15:49.992] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-15 23:15:55.329] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 23:15:55.383] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=1 companies=1125,1127,1131,2120,2120,4,3120,3120,5,3128,3128,4,3135,3135,9,3157,3157 afterId=(null)
+------------------------------------------------------------
+[2025-10-15 23:15:59.989] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-15 23:16:05.820] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 23:16:05.846] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=1 companies=1125,1127,1131,2120,2120,4,3120,3120,5,3128,3128,4,3135,3135,9,3157,3157 afterId=(null)
+------------------------------------------------------------
+[2025-10-15 23:16:10.427] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-15 23:16:15.817] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 23:16:15.841] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=1 companies=1125,1127,1131,2120,2120,4,3120,3120,5,3128,3128,4,3135,3135,9,3157,3157 afterId=(null)
+------------------------------------------------------------
+[2025-10-15 23:16:20.413] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-15 23:16:25.815] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 23:16:25.847] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=1 companies=1125,1127,1131,2120,2120,4,3120,3120,5,3128,3128,4,3135,3135,9,3157,3157 afterId=(null)
+------------------------------------------------------------
+[2025-10-15 23:16:30.440] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-15 23:16:35.814] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 23:16:35.841] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=1 companies=1125,1127,1131,2120,2120,4,3120,3120,5,3128,3128,4,3135,3135,9,3157,3157 afterId=(null)
+------------------------------------------------------------
+[2025-10-15 23:16:40.414] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-15 23:16:45.834] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 23:16:45.861] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=1 companies=1125,1127,1131,2120,2120,4,3120,3120,5,3128,3128,4,3135,3135,9,3157,3157 afterId=(null)
+------------------------------------------------------------
+[2025-10-15 23:16:50.417] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-15 23:16:55.811] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 23:16:55.838] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=1 companies=1125,1127,1131,2120,2120,4,3120,3120,5,3128,3128,4,3135,3135,9,3157,3157 afterId=(null)
+------------------------------------------------------------
+[2025-10-15 23:17:00.424] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-15 23:17:15.821] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 23:17:15.851] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=1 companies=1125,1127,1131,2120,2120,4,3120,3120,5,3128,3128,4,3135,3135,9,3157,3157 afterId=(null)
+------------------------------------------------------------
+[2025-10-15 23:17:20.445] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-15 23:18:15.817] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 23:18:15.845] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=1 companies=1125,1127,1131,2120,2120,4,3120,3120,5,3128,3128,4,3135,3135,9,3157,3157 afterId=(null)
+------------------------------------------------------------
+[2025-10-15 23:18:20.427] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-15 23:18:25.332] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 23:18:25.361] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=1 companies=1125,1127,1131,2120,2120,4,3120,3120,5,3128,3128,4,3135,3135,9,3157,3157 afterId=(null)
+------------------------------------------------------------
+[2025-10-15 23:18:28.736] [AUDIT]
+Event: General Audit
+Details: GetUnread failed. afterId=(null)
+------------------------------------------------------------
+[2025-10-15 23:18:43.875] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: POST /api/auth/login, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 23:18:48.771] [AUDIT]
+Event: General Audit
+Details: USER_LOGIN: User: suchita.gome@genxai.com, IP: ::1, Status: SUCCESS
+------------------------------------------------------------
+[2025-10-15 23:19:11.754] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 23:19:11.798] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=1 companies=1125,1127,1131,2120,2120,4,3120,3120,5,3128,3128,4,3135,3135,9,3157,3157 afterId=(null)
+------------------------------------------------------------
+[2025-10-15 23:19:11.800] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: POST /api/auth/getmenu, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 23:19:16.452] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-15 23:19:21.761] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 23:19:21.820] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=1 companies=1125,1127,1131,2120,2120,4,3120,3120,5,3128,3128,4,3135,3135,9,3157,3157 afterId=(null)
+------------------------------------------------------------
+[2025-10-15 23:19:26.432] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-15 23:19:31.823] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 23:19:31.878] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=1 companies=1125,1127,1131,2120,2120,4,3120,3120,5,3128,3128,4,3135,3135,9,3157,3157 afterId=(null)
+------------------------------------------------------------
+[2025-10-15 23:19:36.462] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-15 23:19:41.815] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 23:19:41.923] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=1 companies=1125,1127,1131,2120,2120,4,3120,3120,5,3128,3128,4,3135,3135,9,3157,3157 afterId=(null)
+------------------------------------------------------------
+[2025-10-15 23:19:46.525] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-15 23:19:51.823] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 23:19:51.898] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=1 companies=1125,1127,1131,2120,2120,4,3120,3120,5,3128,3128,4,3135,3135,9,3157,3157 afterId=(null)
+------------------------------------------------------------
+[2025-10-15 23:19:56.500] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-15 23:20:01.822] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 23:20:01.884] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=1 companies=1125,1127,1131,2120,2120,4,3120,3120,5,3128,3128,4,3135,3135,9,3157,3157 afterId=(null)
+------------------------------------------------------------
+[2025-10-15 23:20:06.567] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-15 23:20:11.824] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 23:20:11.892] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=1 companies=1125,1127,1131,2120,2120,4,3120,3120,5,3128,3128,4,3135,3135,9,3157,3157 afterId=(null)
+------------------------------------------------------------
+[2025-10-15 23:20:16.482] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-15 23:20:21.829] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 23:20:21.893] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=1 companies=1125,1127,1131,2120,2120,4,3120,3120,5,3128,3128,4,3135,3135,9,3157,3157 afterId=(null)
+------------------------------------------------------------
+[2025-10-15 23:20:26.476] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-15 23:20:37.891] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 23:20:37.944] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=1 companies=1125,1127,1131,2120,2120,4,3120,3120,5,3128,3128,4,3135,3135,9,3157,3157 afterId=(null)
+------------------------------------------------------------
+[2025-10-15 23:20:42.546] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-15 23:20:42.558] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 23:20:42.651] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=1 companies=1125,1127,1131,2120,2120,4,3120,3120,5,3128,3128,4,3135,3135,9,3157,3157 afterId=(null)
+------------------------------------------------------------
+[2025-10-15 23:20:47.249] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-15 23:20:51.777] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 23:20:51.910] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=1 companies=1125,1127,1131,2120,2120,4,3120,3120,5,3128,3128,4,3135,3135,9,3157,3157 afterId=(null)
+------------------------------------------------------------
+[2025-10-15 23:20:56.521] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-15 23:21:01.820] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 23:21:01.881] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=1 companies=1125,1127,1131,2120,2120,4,3120,3120,5,3128,3128,4,3135,3135,9,3157,3157 afterId=(null)
+------------------------------------------------------------
+[2025-10-15 23:21:06.470] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-15 23:21:11.817] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 23:21:11.892] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=1 companies=1125,1127,1131,2120,2120,4,3120,3120,5,3128,3128,4,3135,3135,9,3157,3157 afterId=(null)
+------------------------------------------------------------
+[2025-10-15 23:21:16.481] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-15 23:21:21.815] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 23:21:21.899] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=1 companies=1125,1127,1131,2120,2120,4,3120,3120,5,3128,3128,4,3135,3135,9,3157,3157 afterId=(null)
+------------------------------------------------------------
+[2025-10-15 23:21:26.482] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-15 23:21:31.817] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 23:21:31.873] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=1 companies=1125,1127,1131,2120,2120,4,3120,3120,5,3128,3128,4,3135,3135,9,3157,3157 afterId=(null)
+------------------------------------------------------------
+[2025-10-15 23:21:36.451] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-15 23:21:41.829] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 23:21:41.892] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=1 companies=1125,1127,1131,2120,2120,4,3120,3120,5,3128,3128,4,3135,3135,9,3157,3157 afterId=(null)
+------------------------------------------------------------
+[2025-10-15 23:21:46.481] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-15 23:21:51.826] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 23:21:51.893] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=1 companies=1125,1127,1131,2120,2120,4,3120,3120,5,3128,3128,4,3135,3135,9,3157,3157 afterId=(null)
+------------------------------------------------------------
+[2025-10-15 23:21:56.475] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-15 23:22:15.831] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 23:22:15.902] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=1 companies=1125,1127,1131,2120,2120,4,3120,3120,5,3128,3128,4,3135,3135,9,3157,3157 afterId=(null)
+------------------------------------------------------------
+[2025-10-15 23:22:20.480] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-15 23:22:57.568] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 23:22:57.621] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=1 companies=1125,1127,1131,2120,2120,4,3120,3120,5,3128,3128,4,3135,3135,9,3157,3157 afterId=(null)
+------------------------------------------------------------
+[2025-10-15 23:23:02.225] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-15 23:23:02.236] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 23:23:02.306] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=1 companies=1125,1127,1131,2120,2120,4,3120,3120,5,3128,3128,4,3135,3135,9,3157,3157 afterId=(null)
+------------------------------------------------------------
+[2025-10-15 23:23:06.875] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-15 23:23:11.812] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 23:23:11.861] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=1 companies=1125,1127,1131,2120,2120,4,3120,3120,5,3128,3128,4,3135,3135,9,3157,3157 afterId=(null)
+------------------------------------------------------------
+[2025-10-15 23:23:16.444] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-15 23:23:21.827] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 23:23:21.920] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=1 companies=1125,1127,1131,2120,2120,4,3120,3120,5,3128,3128,4,3135,3135,9,3157,3157 afterId=(null)
+------------------------------------------------------------
+[2025-10-15 23:23:26.502] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-15 23:23:31.815] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 23:23:31.870] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=1 companies=1125,1127,1131,2120,2120,4,3120,3120,5,3128,3128,4,3135,3135,9,3157,3157 afterId=(null)
+------------------------------------------------------------
+[2025-10-15 23:23:36.475] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-15 23:23:41.821] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 23:23:41.871] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=1 companies=1125,1127,1131,2120,2120,4,3120,3120,5,3128,3128,4,3135,3135,9,3157,3157 afterId=(null)
+------------------------------------------------------------
+[2025-10-15 23:23:46.470] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-15 23:23:51.818] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 23:23:51.886] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=1 companies=1125,1127,1131,2120,2120,4,3120,3120,5,3128,3128,4,3135,3135,9,3157,3157 afterId=(null)
+------------------------------------------------------------
+[2025-10-15 23:23:56.479] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-15 23:24:01.819] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 23:24:01.886] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=1 companies=1125,1127,1131,2120,2120,4,3120,3120,5,3128,3128,4,3135,3135,9,3157,3157 afterId=(null)
+------------------------------------------------------------
+[2025-10-15 23:24:06.465] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-15 23:24:11.816] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 23:24:11.874] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=1 companies=1125,1127,1131,2120,2120,4,3120,3120,5,3128,3128,4,3135,3135,9,3157,3157 afterId=(null)
+------------------------------------------------------------
+[2025-10-15 23:24:16.466] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-15 23:24:21.825] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 23:24:21.876] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=1 companies=1125,1127,1131,2120,2120,4,3120,3120,5,3128,3128,4,3135,3135,9,3157,3157 afterId=(null)
+------------------------------------------------------------
+[2025-10-15 23:24:26.472] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-15 23:24:31.821] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 23:24:31.867] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=1 companies=1125,1127,1131,2120,2120,4,3120,3120,5,3128,3128,4,3135,3135,9,3157,3157 afterId=(null)
+------------------------------------------------------------
+[2025-10-15 23:24:36.445] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-15 23:24:41.819] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 23:24:41.871] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=1 companies=1125,1127,1131,2120,2120,4,3120,3120,5,3128,3128,4,3135,3135,9,3157,3157 afterId=(null)
+------------------------------------------------------------
+[2025-10-15 23:24:46.481] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-15 23:24:51.824] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-15 23:24:51.885] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=1 companies=1125,1127,1131,2120,2120,4,3120,3120,5,3128,3128,4,3135,3135,9,3157,3157 afterId=(null)
+------------------------------------------------------------
+[2025-10-15 23:24:54.735] [AUDIT]
+Event: General Audit
+Details: GetUnread failed. afterId=(null)
+------------------------------------------------------------

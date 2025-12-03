@@ -1,0 +1,106 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+/* Fullscreen overlay */
+.app-loader {
+    position: fixed;
+    inset: 0;
+    display: none; /* hidden by default */
+    align-items: center;
+    justify-content: center;
+    z-index: 2147483000; /* above modals/toasts */
+    pointer-events: none; /* let clicks pass when hidden */
+    transition: opacity .15s ease;
+    opacity: 0;
+}
+
+.app-loader.is-visible {
+    display: flex;
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.app-loader__backdrop {
+    position: absolute;
+    inset: 0;
+    background: rgba(0,0,0,.28);
+    backdrop-filter: blur(1px);
+}
+
+.app-loader__content {
+    position: relative;
+    min-width: 120px;
+    min-height: 120px;
+    padding: 20px 24px;
+    border-radius: 16px;
+    background: #fff;
+    box-shadow: 0 10px 30px rgba(0,0,0,.18);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+}
+
+/* Spinner */
+.app-spinner {
+    width: 42px;
+    height: 42px;
+    border: 4px solid rgba(0,0,0,.1);
+    border-top-color: rgba(0,0,0,.6);
+    border-radius: 50%;
+    animation: app-spin .9s linear infinite;
+}
+
+@keyframes app-spin {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.app-loader__text {
+    font: 500 14px/1.2 system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+    color: #333;
+    opacity: .9;
+    text-align: center;
+}
+
+/* Optional: button-level spinner utility */
+.btn-loading {
+    position: relative !important;
+    pointer-events: none !important;
+    opacity: .8;
+}
+
+    .btn-loading::after {
+        content: "";
+        position: absolute;
+        right: 12px;
+        top: 50%;
+        width: 16px;
+        height: 16px;
+        margin-top: -8px;
+        border: 2px solid rgba(255,255,255,.6);
+        border-top-color: #fff;
+        border-radius: 50%;
+        animation: app-spin .8s linear infinite;
+    }

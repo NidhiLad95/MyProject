@@ -1,0 +1,596 @@
+﻿[2025-11-21 13:09:31.764] [Error]
+Category: GenxAi_Solutions_V1.Services.AuthEventsService
+Message: JWT authentication failed on /api/auth/login
+Exception Type: Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException
+Exception Message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '21-11-2025 06:28:53 AM', Current time (UTC): '21-11-2025 07:39:31 AM'.
+Stack Trace:    at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+--------------------------------------------------------------------------------
+[2025-11-21 13:09:31.791] [Error]
+Category: GenxAi_Solutions_V1.Services.AuthEventsService
+Message: JWT authentication failed on /api/auth/login
+Exception Type: Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException
+Exception Message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '21-11-2025 06:28:53 AM', Current time (UTC): '21-11-2025 07:39:31 AM'.
+Stack Trace:    at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+--------------------------------------------------------------------------------
+[2025-11-21 14:20:51.626] [Error]
+Category: GenxAi_Solutions_V1.Services.AuthEventsService
+Message: JWT authentication failed on /hubs/notifications/negotiate
+Exception Type: Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException
+Exception Message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '21-11-2025 07:54:38 AM', Current time (UTC): '21-11-2025 08:50:51 AM'.
+Stack Trace:    at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+--------------------------------------------------------------------------------
+[2025-11-21 14:20:51.627] [Error]
+Category: GenxAi_Solutions_V1.Services.AuthEventsService
+Message: JWT authentication failed on /hubs/notifications/negotiate
+Exception Type: Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException
+Exception Message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '21-11-2025 07:54:38 AM', Current time (UTC): '21-11-2025 08:50:51 AM'.
+Stack Trace:    at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+--------------------------------------------------------------------------------
+[2025-11-21 14:20:51.637] [Error]
+Category: GenxAi_Solutions_V1.Services.AuthEventsService
+Message: JWT authentication failed on /hubs/notifications
+Exception Type: Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException
+Exception Message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '21-11-2025 07:54:38 AM', Current time (UTC): '21-11-2025 08:50:51 AM'.
+Stack Trace:    at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+--------------------------------------------------------------------------------
+[2025-11-21 14:20:51.638] [Error]
+Category: GenxAi_Solutions_V1.Services.AuthEventsService
+Message: JWT authentication failed on /hubs/notifications
+Exception Type: Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException
+Exception Message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '21-11-2025 07:54:38 AM', Current time (UTC): '21-11-2025 08:50:51 AM'.
+Stack Trace:    at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+--------------------------------------------------------------------------------
+[2025-11-21 14:23:31.903] [Error]
+Category: GenxAi_Solutions_V1.Services.AuthEventsService
+Message: JWT authentication failed on /api/auth/login
+Exception Type: Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException
+Exception Message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '21-11-2025 07:54:38 AM', Current time (UTC): '21-11-2025 08:53:31 AM'.
+Stack Trace:    at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+--------------------------------------------------------------------------------
+[2025-11-21 14:23:31.956] [Error]
+Category: GenxAi_Solutions_V1.Services.AuthEventsService
+Message: JWT authentication failed on /api/auth/login
+Exception Type: Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException
+Exception Message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '21-11-2025 07:54:38 AM', Current time (UTC): '21-11-2025 08:53:31 AM'.
+Stack Trace:    at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+--------------------------------------------------------------------------------
+[2025-11-21 14:26:04.339] [Error]
+Category: GenxAi_Solutions_V1.Services.Background.QueuedWorker
+Message: Job 4e225f87-9d4e-4dcb-81d0-96a826410122 failed for company 6194.
+Exception Type: System.InvalidOperationException
+Exception Message: Vector property 'Embedding' has type 'string' which isn't supported by your provider, and no embedding generator is configured. Configure a generator that supports converting 'string' to vector type supported by your provider.
+Stack Trace:    at Microsoft.Extensions.VectorData.ProviderServices.CollectionModelBuilder.ValidateProperty(PropertyModel propertyModel, VectorStoreCollectionDefinition definition)
+   at Microsoft.Extensions.VectorData.ProviderServices.CollectionModelBuilder.Validate(Type type, VectorStoreCollectionDefinition definition)
+   at Microsoft.Extensions.VectorData.ProviderServices.CollectionModelBuilder.Build(Type type, VectorStoreCollectionDefinition definition, IEmbeddingGenerator defaultEmbeddingGenerator)
+   at Microsoft.SemanticKernel.Connectors.SqliteVec.SqliteCollection`2.<>c.<.ctor>b__12_0(SqliteCollectionOptions options)
+   at Microsoft.SemanticKernel.Connectors.SqliteVec.SqliteCollection`2..ctor(String connectionString, String name, Func`2 modelFactory, SqliteCollectionOptions options)
+   at Microsoft.SemanticKernel.Connectors.SqliteVec.SqliteCollection`2..ctor(String connectionString, String name, SqliteCollectionOptions options)
+   at GenxAi_Solutions_V1.Services.VectorStoreFactory.Create_New(String dbName) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions_V1\Services\VectorStoreFactory.cs:line 76
+   at GenxAi_Solutions_V1.Services.SemanticSeeder.RunSeedAsyncNew(Int32 companyId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions_V1\Services\SemanticSeeder.cs:line 271
+   at GenxAi_Solutions_V1.Services.Background.QueuedWorker.ExecuteAsync(CancellationToken stoppingToken) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions_V1\Services\Background\QueuedWorker.cs:line 201
+--------------------------------------------------------------------------------
+[2025-11-21 14:26:04.349] [Error]
+Category: GenxAi_Solutions_V1.Services.Background.QueuedWorker
+Message: Job 4e225f87-9d4e-4dcb-81d0-96a826410122 failed for company 6194.
+Exception Type: System.InvalidOperationException
+Exception Message: Vector property 'Embedding' has type 'string' which isn't supported by your provider, and no embedding generator is configured. Configure a generator that supports converting 'string' to vector type supported by your provider.
+Stack Trace:    at Microsoft.Extensions.VectorData.ProviderServices.CollectionModelBuilder.ValidateProperty(PropertyModel propertyModel, VectorStoreCollectionDefinition definition)
+   at Microsoft.Extensions.VectorData.ProviderServices.CollectionModelBuilder.Validate(Type type, VectorStoreCollectionDefinition definition)
+   at Microsoft.Extensions.VectorData.ProviderServices.CollectionModelBuilder.Build(Type type, VectorStoreCollectionDefinition definition, IEmbeddingGenerator defaultEmbeddingGenerator)
+   at Microsoft.SemanticKernel.Connectors.SqliteVec.SqliteCollection`2.<>c.<.ctor>b__12_0(SqliteCollectionOptions options)
+   at Microsoft.SemanticKernel.Connectors.SqliteVec.SqliteCollection`2..ctor(String connectionString, String name, Func`2 modelFactory, SqliteCollectionOptions options)
+   at Microsoft.SemanticKernel.Connectors.SqliteVec.SqliteCollection`2..ctor(String connectionString, String name, SqliteCollectionOptions options)
+   at GenxAi_Solutions_V1.Services.VectorStoreFactory.Create_New(String dbName) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions_V1\Services\VectorStoreFactory.cs:line 76
+   at GenxAi_Solutions_V1.Services.SemanticSeeder.RunSeedAsyncNew(Int32 companyId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions_V1\Services\SemanticSeeder.cs:line 271
+   at GenxAi_Solutions_V1.Services.Background.QueuedWorker.ExecuteAsync(CancellationToken stoppingToken) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions_V1\Services\Background\QueuedWorker.cs:line 201
+--------------------------------------------------------------------------------
+[2025-11-21 14:29:07.983] [Error]
+Category: GenxAi_Solutions_V1.Services.Background.QueuedWorker
+Message: Job 08af17e3-afb2-4248-94ef-26002d735acc failed for company 6195.
+Exception Type: System.InvalidOperationException
+Exception Message: Vector property 'Embedding' has type 'string' which isn't supported by your provider, and no embedding generator is configured. Configure a generator that supports converting 'string' to vector type supported by your provider.
+Stack Trace:    at Microsoft.Extensions.VectorData.ProviderServices.CollectionModelBuilder.ValidateProperty(PropertyModel propertyModel, VectorStoreCollectionDefinition definition)
+   at Microsoft.Extensions.VectorData.ProviderServices.CollectionModelBuilder.Validate(Type type, VectorStoreCollectionDefinition definition)
+   at Microsoft.Extensions.VectorData.ProviderServices.CollectionModelBuilder.Build(Type type, VectorStoreCollectionDefinition definition, IEmbeddingGenerator defaultEmbeddingGenerator)
+   at Microsoft.SemanticKernel.Connectors.SqliteVec.SqliteCollection`2.<>c.<.ctor>b__12_0(SqliteCollectionOptions options)
+   at Microsoft.SemanticKernel.Connectors.SqliteVec.SqliteCollection`2..ctor(String connectionString, String name, Func`2 modelFactory, SqliteCollectionOptions options)
+   at Microsoft.SemanticKernel.Connectors.SqliteVec.SqliteCollection`2..ctor(String connectionString, String name, SqliteCollectionOptions options)
+   at GenxAi_Solutions_V1.Services.VectorStoreFactory.Create_New(String dbName) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions_V1\Services\VectorStoreFactory.cs:line 76
+   at GenxAi_Solutions_V1.Services.SemanticSeeder.RunSeedAsyncNew(Int32 companyId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions_V1\Services\SemanticSeeder.cs:line 271
+   at GenxAi_Solutions_V1.Services.Background.QueuedWorker.ExecuteAsync(CancellationToken stoppingToken) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions_V1\Services\Background\QueuedWorker.cs:line 201
+--------------------------------------------------------------------------------
+[2025-11-21 14:29:07.985] [Error]
+Category: GenxAi_Solutions_V1.Services.Background.QueuedWorker
+Message: Job 08af17e3-afb2-4248-94ef-26002d735acc failed for company 6195.
+Exception Type: System.InvalidOperationException
+Exception Message: Vector property 'Embedding' has type 'string' which isn't supported by your provider, and no embedding generator is configured. Configure a generator that supports converting 'string' to vector type supported by your provider.
+Stack Trace:    at Microsoft.Extensions.VectorData.ProviderServices.CollectionModelBuilder.ValidateProperty(PropertyModel propertyModel, VectorStoreCollectionDefinition definition)
+   at Microsoft.Extensions.VectorData.ProviderServices.CollectionModelBuilder.Validate(Type type, VectorStoreCollectionDefinition definition)
+   at Microsoft.Extensions.VectorData.ProviderServices.CollectionModelBuilder.Build(Type type, VectorStoreCollectionDefinition definition, IEmbeddingGenerator defaultEmbeddingGenerator)
+   at Microsoft.SemanticKernel.Connectors.SqliteVec.SqliteCollection`2.<>c.<.ctor>b__12_0(SqliteCollectionOptions options)
+   at Microsoft.SemanticKernel.Connectors.SqliteVec.SqliteCollection`2..ctor(String connectionString, String name, Func`2 modelFactory, SqliteCollectionOptions options)
+   at Microsoft.SemanticKernel.Connectors.SqliteVec.SqliteCollection`2..ctor(String connectionString, String name, SqliteCollectionOptions options)
+   at GenxAi_Solutions_V1.Services.VectorStoreFactory.Create_New(String dbName) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions_V1\Services\VectorStoreFactory.cs:line 76
+   at GenxAi_Solutions_V1.Services.SemanticSeeder.RunSeedAsyncNew(Int32 companyId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions_V1\Services\SemanticSeeder.cs:line 271
+   at GenxAi_Solutions_V1.Services.Background.QueuedWorker.ExecuteAsync(CancellationToken stoppingToken) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions_V1\Services\Background\QueuedWorker.cs:line 201
+--------------------------------------------------------------------------------
+[2025-11-21 14:37:54.839] [Error]
+Category: GenxAi_Solutions_V1.Services.Background.QueuedWorker
+Message: Job 403693ec-a740-4901-83ea-0e205377ce17 failed for company 6197.
+Exception Type: System.InvalidOperationException
+Exception Message: Vector property 'Embedding' has type 'string' which isn't supported by your provider, and no embedding generator is configured. Configure a generator that supports converting 'string' to vector type supported by your provider.
+Stack Trace:    at Microsoft.Extensions.VectorData.ProviderServices.CollectionModelBuilder.ValidateProperty(PropertyModel propertyModel, VectorStoreCollectionDefinition definition)
+   at Microsoft.Extensions.VectorData.ProviderServices.CollectionModelBuilder.Validate(Type type, VectorStoreCollectionDefinition definition)
+   at Microsoft.Extensions.VectorData.ProviderServices.CollectionModelBuilder.Build(Type type, VectorStoreCollectionDefinition definition, IEmbeddingGenerator defaultEmbeddingGenerator)
+   at Microsoft.SemanticKernel.Connectors.SqliteVec.SqliteCollection`2.<>c.<.ctor>b__12_0(SqliteCollectionOptions options)
+   at Microsoft.SemanticKernel.Connectors.SqliteVec.SqliteCollection`2..ctor(String connectionString, String name, Func`2 modelFactory, SqliteCollectionOptions options)
+   at Microsoft.SemanticKernel.Connectors.SqliteVec.SqliteCollection`2..ctor(String connectionString, String name, SqliteCollectionOptions options)
+   at GenxAi_Solutions_V1.Services.VectorStoreFactory.Create_New(String dbName) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions_V1\Services\VectorStoreFactory.cs:line 76
+   at GenxAi_Solutions_V1.Services.SemanticSeeder.RunSeedAsyncNew(Int32 companyId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions_V1\Services\SemanticSeeder.cs:line 271
+   at GenxAi_Solutions_V1.Services.Background.QueuedWorker.ExecuteAsync(CancellationToken stoppingToken) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions_V1\Services\Background\QueuedWorker.cs:line 201
+--------------------------------------------------------------------------------
+[2025-11-21 14:37:54.872] [Error]
+Category: GenxAi_Solutions_V1.Services.Background.QueuedWorker
+Message: Job 403693ec-a740-4901-83ea-0e205377ce17 failed for company 6197.
+Exception Type: System.InvalidOperationException
+Exception Message: Vector property 'Embedding' has type 'string' which isn't supported by your provider, and no embedding generator is configured. Configure a generator that supports converting 'string' to vector type supported by your provider.
+Stack Trace:    at Microsoft.Extensions.VectorData.ProviderServices.CollectionModelBuilder.ValidateProperty(PropertyModel propertyModel, VectorStoreCollectionDefinition definition)
+   at Microsoft.Extensions.VectorData.ProviderServices.CollectionModelBuilder.Validate(Type type, VectorStoreCollectionDefinition definition)
+   at Microsoft.Extensions.VectorData.ProviderServices.CollectionModelBuilder.Build(Type type, VectorStoreCollectionDefinition definition, IEmbeddingGenerator defaultEmbeddingGenerator)
+   at Microsoft.SemanticKernel.Connectors.SqliteVec.SqliteCollection`2.<>c.<.ctor>b__12_0(SqliteCollectionOptions options)
+   at Microsoft.SemanticKernel.Connectors.SqliteVec.SqliteCollection`2..ctor(String connectionString, String name, Func`2 modelFactory, SqliteCollectionOptions options)
+   at Microsoft.SemanticKernel.Connectors.SqliteVec.SqliteCollection`2..ctor(String connectionString, String name, SqliteCollectionOptions options)
+   at GenxAi_Solutions_V1.Services.VectorStoreFactory.Create_New(String dbName) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions_V1\Services\VectorStoreFactory.cs:line 76
+   at GenxAi_Solutions_V1.Services.SemanticSeeder.RunSeedAsyncNew(Int32 companyId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions_V1\Services\SemanticSeeder.cs:line 271
+   at GenxAi_Solutions_V1.Services.Background.QueuedWorker.ExecuteAsync(CancellationToken stoppingToken) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions_V1\Services\Background\QueuedWorker.cs:line 201
+--------------------------------------------------------------------------------
+[2025-11-21 14:38:12.964] [Error]
+Category: GenxAi_Solutions_V1.Services.Background.QueuedWorker
+Message: Job 403693ec-a740-4901-83ea-0e205377ce17 failed for company 6197.
+Exception Type: System.InvalidOperationException
+Exception Message: Vector property 'Embedding' has type 'string' which isn't supported by your provider, and no embedding generator is configured. Configure a generator that supports converting 'string' to vector type supported by your provider.
+Stack Trace:    at Microsoft.Extensions.VectorData.ProviderServices.CollectionModelBuilder.ValidateProperty(PropertyModel propertyModel, VectorStoreCollectionDefinition definition)
+   at Microsoft.Extensions.VectorData.ProviderServices.CollectionModelBuilder.Validate(Type type, VectorStoreCollectionDefinition definition)
+   at Microsoft.Extensions.VectorData.ProviderServices.CollectionModelBuilder.Build(Type type, VectorStoreCollectionDefinition definition, IEmbeddingGenerator defaultEmbeddingGenerator)
+   at Microsoft.SemanticKernel.Connectors.SqliteVec.SqliteCollection`2.<>c.<.ctor>b__12_0(SqliteCollectionOptions options)
+   at Microsoft.SemanticKernel.Connectors.SqliteVec.SqliteCollection`2..ctor(String connectionString, String name, Func`2 modelFactory, SqliteCollectionOptions options)
+   at Microsoft.SemanticKernel.Connectors.SqliteVec.SqliteCollection`2..ctor(String connectionString, String name, SqliteCollectionOptions options)
+   at GenxAi_Solutions_V1.Services.VectorStoreFactory.Create_New(String dbName) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions_V1\Services\VectorStoreFactory.cs:line 76
+   at GenxAi_Solutions_V1.Services.SemanticSeeder.RunSeedAsyncNew(Int32 companyId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions_V1\Services\SemanticSeeder.cs:line 271
+   at GenxAi_Solutions_V1.Services.Background.QueuedWorker.ExecuteAsync(CancellationToken stoppingToken) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions_V1\Services\Background\QueuedWorker.cs:line 201
+--------------------------------------------------------------------------------
+[2025-11-21 14:38:12.966] [Error]
+Category: GenxAi_Solutions_V1.Services.Background.QueuedWorker
+Message: Job 403693ec-a740-4901-83ea-0e205377ce17 failed for company 6197.
+Exception Type: System.InvalidOperationException
+Exception Message: Vector property 'Embedding' has type 'string' which isn't supported by your provider, and no embedding generator is configured. Configure a generator that supports converting 'string' to vector type supported by your provider.
+Stack Trace:    at Microsoft.Extensions.VectorData.ProviderServices.CollectionModelBuilder.ValidateProperty(PropertyModel propertyModel, VectorStoreCollectionDefinition definition)
+   at Microsoft.Extensions.VectorData.ProviderServices.CollectionModelBuilder.Validate(Type type, VectorStoreCollectionDefinition definition)
+   at Microsoft.Extensions.VectorData.ProviderServices.CollectionModelBuilder.Build(Type type, VectorStoreCollectionDefinition definition, IEmbeddingGenerator defaultEmbeddingGenerator)
+   at Microsoft.SemanticKernel.Connectors.SqliteVec.SqliteCollection`2.<>c.<.ctor>b__12_0(SqliteCollectionOptions options)
+   at Microsoft.SemanticKernel.Connectors.SqliteVec.SqliteCollection`2..ctor(String connectionString, String name, Func`2 modelFactory, SqliteCollectionOptions options)
+   at Microsoft.SemanticKernel.Connectors.SqliteVec.SqliteCollection`2..ctor(String connectionString, String name, SqliteCollectionOptions options)
+   at GenxAi_Solutions_V1.Services.VectorStoreFactory.Create_New(String dbName) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions_V1\Services\VectorStoreFactory.cs:line 76
+   at GenxAi_Solutions_V1.Services.SemanticSeeder.RunSeedAsyncNew(Int32 companyId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions_V1\Services\SemanticSeeder.cs:line 271
+   at GenxAi_Solutions_V1.Services.Background.QueuedWorker.ExecuteAsync(CancellationToken stoppingToken) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions_V1\Services\Background\QueuedWorker.cs:line 201
+--------------------------------------------------------------------------------
+[2025-11-21 15:00:28.493] [Error]
+Category: GenxAi_Solutions_V1.Services.AuthEventsService
+Message: JWT authentication failed on /api/auth/login
+Exception Type: Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException
+Exception Message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '21-11-2025 09:19:35 AM', Current time (UTC): '21-11-2025 09:30:28 AM'.
+Stack Trace:    at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+--------------------------------------------------------------------------------
+[2025-11-21 15:00:28.528] [Error]
+Category: GenxAi_Solutions_V1.Services.AuthEventsService
+Message: JWT authentication failed on /api/auth/login
+Exception Type: Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException
+Exception Message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '21-11-2025 09:19:35 AM', Current time (UTC): '21-11-2025 09:30:28 AM'.
+Stack Trace:    at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+--------------------------------------------------------------------------------
+[2025-11-21 15:04:01.021] [Error]
+Category: GenxAi_Solutions_V1.Services.Background.QueuedWorker
+Message: Job 686b51b5-20dd-4d36-9529-764a00d86a97 failed for company 6198.
+Exception Type: System.InvalidOperationException
+Exception Message: Vector property 'Embedding' has type 'string' which isn't supported by your provider, and no embedding generator is configured. Configure a generator that supports converting 'string' to vector type supported by your provider.
+Stack Trace:    at Microsoft.Extensions.VectorData.ProviderServices.CollectionModelBuilder.ValidateProperty(PropertyModel propertyModel, VectorStoreCollectionDefinition definition)
+   at Microsoft.Extensions.VectorData.ProviderServices.CollectionModelBuilder.Validate(Type type, VectorStoreCollectionDefinition definition)
+   at Microsoft.Extensions.VectorData.ProviderServices.CollectionModelBuilder.Build(Type type, VectorStoreCollectionDefinition definition, IEmbeddingGenerator defaultEmbeddingGenerator)
+   at Microsoft.SemanticKernel.Connectors.SqliteVec.SqliteCollection`2.<>c.<.ctor>b__12_0(SqliteCollectionOptions options)
+   at Microsoft.SemanticKernel.Connectors.SqliteVec.SqliteCollection`2..ctor(String connectionString, String name, Func`2 modelFactory, SqliteCollectionOptions options)
+   at Microsoft.SemanticKernel.Connectors.SqliteVec.SqliteCollection`2..ctor(String connectionString, String name, SqliteCollectionOptions options)
+   at GenxAi_Solutions_V1.Services.VectorStoreFactory.Create_New(String dbName) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions_V1\Services\VectorStoreFactory.cs:line 81
+   at GenxAi_Solutions_V1.Services.SemanticSeeder.RunSeedAsyncNew(Int32 companyId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions_V1\Services\SemanticSeeder.cs:line 271
+   at GenxAi_Solutions_V1.Services.Background.QueuedWorker.ExecuteAsync(CancellationToken stoppingToken) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions_V1\Services\Background\QueuedWorker.cs:line 201
+--------------------------------------------------------------------------------
+[2025-11-21 15:04:01.032] [Error]
+Category: GenxAi_Solutions_V1.Services.Background.QueuedWorker
+Message: Job 686b51b5-20dd-4d36-9529-764a00d86a97 failed for company 6198.
+Exception Type: System.InvalidOperationException
+Exception Message: Vector property 'Embedding' has type 'string' which isn't supported by your provider, and no embedding generator is configured. Configure a generator that supports converting 'string' to vector type supported by your provider.
+Stack Trace:    at Microsoft.Extensions.VectorData.ProviderServices.CollectionModelBuilder.ValidateProperty(PropertyModel propertyModel, VectorStoreCollectionDefinition definition)
+   at Microsoft.Extensions.VectorData.ProviderServices.CollectionModelBuilder.Validate(Type type, VectorStoreCollectionDefinition definition)
+   at Microsoft.Extensions.VectorData.ProviderServices.CollectionModelBuilder.Build(Type type, VectorStoreCollectionDefinition definition, IEmbeddingGenerator defaultEmbeddingGenerator)
+   at Microsoft.SemanticKernel.Connectors.SqliteVec.SqliteCollection`2.<>c.<.ctor>b__12_0(SqliteCollectionOptions options)
+   at Microsoft.SemanticKernel.Connectors.SqliteVec.SqliteCollection`2..ctor(String connectionString, String name, Func`2 modelFactory, SqliteCollectionOptions options)
+   at Microsoft.SemanticKernel.Connectors.SqliteVec.SqliteCollection`2..ctor(String connectionString, String name, SqliteCollectionOptions options)
+   at GenxAi_Solutions_V1.Services.VectorStoreFactory.Create_New(String dbName) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions_V1\Services\VectorStoreFactory.cs:line 81
+   at GenxAi_Solutions_V1.Services.SemanticSeeder.RunSeedAsyncNew(Int32 companyId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions_V1\Services\SemanticSeeder.cs:line 271
+   at GenxAi_Solutions_V1.Services.Background.QueuedWorker.ExecuteAsync(CancellationToken stoppingToken) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions_V1\Services\Background\QueuedWorker.cs:line 201
+--------------------------------------------------------------------------------
+[2025-11-21 15:11:22.911] [Error]
+Category: GenxAi_Solutions_V1.Services.Background.QueuedWorker
+Message: Job 2f9ea531-f0f5-41b5-95c0-6537aaa926f2 failed for company 6199.
+Exception Type: Microsoft.Extensions.VectorData.VectorStoreException
+Exception Message: Call to vector store failed.
+Stack Trace:    at Microsoft.Extensions.VectorData.VectorStoreErrorHandler.ExecuteWithErrorHandlingAsync[TResult](DbConnection connection, VectorStoreCollectionMetadata metadata, String operationName, Func`1 operation, CancellationToken cancellationToken)
+   at Microsoft.SemanticKernel.Connectors.SqliteVec.SqliteCollection`2.InternalUpsertBatchAsync(SqliteConnection connection, IEnumerable`1 records, Dictionary`2 generatedEmbeddings, CancellationToken cancellationToken)
+   at Microsoft.SemanticKernel.Connectors.SqliteVec.SqliteCollection`2.UpsertAsync(TRecord record, CancellationToken cancellationToken)
+   at GenxAi_Solutions_V1.Services.VectorStoreSeedService.SeedAsyncNew(SqlVectorStores store, String connectionString, String schemaName, String TablesSelected, String ViewsSelected, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions_V1\Services\VectorStoreSeedService.cs:line 138
+   at GenxAi_Solutions_V1.Services.SemanticSeeder.RunSeedAsyncNew(Int32 companyId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions_V1\Services\SemanticSeeder.cs:line 276
+   at GenxAi_Solutions_V1.Services.SemanticSeeder.RunSeedAsyncNew(Int32 companyId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions_V1\Services\SemanticSeeder.cs:line 316
+   at GenxAi_Solutions_V1.Services.Background.QueuedWorker.ExecuteAsync(CancellationToken stoppingToken) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions_V1\Services\Background\QueuedWorker.cs:line 201
+Inner Exception: Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 1: 'no such table: vec_sql_schemas'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.PrepareAndEnumerateStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.GetStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteNonQuery()
+   at System.Data.Common.DbCommand.ExecuteNonQueryAsync(CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at Microsoft.Extensions.VectorData.VectorStoreErrorHandler.ExecuteWithErrorHandlingAsync[TResult](DbConnection connection, VectorStoreCollectionMetadata metadata, String operationName, Func`1 operation, CancellationToken cancellationToken)
+--------------------------------------------------------------------------------
+[2025-11-21 15:11:22.951] [Error]
+Category: GenxAi_Solutions_V1.Services.Background.QueuedWorker
+Message: Job 2f9ea531-f0f5-41b5-95c0-6537aaa926f2 failed for company 6199.
+Exception Type: Microsoft.Extensions.VectorData.VectorStoreException
+Exception Message: Call to vector store failed.
+Stack Trace:    at Microsoft.Extensions.VectorData.VectorStoreErrorHandler.ExecuteWithErrorHandlingAsync[TResult](DbConnection connection, VectorStoreCollectionMetadata metadata, String operationName, Func`1 operation, CancellationToken cancellationToken)
+   at Microsoft.SemanticKernel.Connectors.SqliteVec.SqliteCollection`2.InternalUpsertBatchAsync(SqliteConnection connection, IEnumerable`1 records, Dictionary`2 generatedEmbeddings, CancellationToken cancellationToken)
+   at Microsoft.SemanticKernel.Connectors.SqliteVec.SqliteCollection`2.UpsertAsync(TRecord record, CancellationToken cancellationToken)
+   at GenxAi_Solutions_V1.Services.VectorStoreSeedService.SeedAsyncNew(SqlVectorStores store, String connectionString, String schemaName, String TablesSelected, String ViewsSelected, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions_V1\Services\VectorStoreSeedService.cs:line 138
+   at GenxAi_Solutions_V1.Services.SemanticSeeder.RunSeedAsyncNew(Int32 companyId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions_V1\Services\SemanticSeeder.cs:line 276
+   at GenxAi_Solutions_V1.Services.SemanticSeeder.RunSeedAsyncNew(Int32 companyId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions_V1\Services\SemanticSeeder.cs:line 316
+   at GenxAi_Solutions_V1.Services.Background.QueuedWorker.ExecuteAsync(CancellationToken stoppingToken) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions_V1\Services\Background\QueuedWorker.cs:line 201
+Inner Exception: Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 1: 'no such table: vec_sql_schemas'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.PrepareAndEnumerateStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.GetStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteNonQuery()
+   at System.Data.Common.DbCommand.ExecuteNonQueryAsync(CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at Microsoft.Extensions.VectorData.VectorStoreErrorHandler.ExecuteWithErrorHandlingAsync[TResult](DbConnection connection, VectorStoreCollectionMetadata metadata, String operationName, Func`1 operation, CancellationToken cancellationToken)
+--------------------------------------------------------------------------------
+[2025-11-21 15:22:40.180] [Error]
+Category: GenxAi_Solutions_V1.Services.Background.QueuedWorker
+Message: Job a0e578ef-bffd-4fcd-9894-732b0a737e74 failed for company 6201.
+Exception Type: Microsoft.Data.SqlClient.SqlException
+Exception Message: Connection Timeout Expired.  The timeout period elapsed while attempting to consume the pre-login handshake acknowledgement.  This could be because the pre-login handshake failed or the server was unable to respond back in time.  The duration spent while attempting to connect to this server was - [Pre-Login] initialization=19907; handshake=983; 
+Stack Trace:    at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, SqlCommand command, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParserStateObject.ThrowExceptionAndWarning(Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParserStateObject.ReadSniError(TdsParserStateObject stateObj, UInt32 error)
+   at Microsoft.Data.SqlClient.TdsParserStateObject.ReadSniSyncOverAsync()
+   at Microsoft.Data.SqlClient.TdsParserStateObject.TryReadNetworkPacket()
+   at Microsoft.Data.SqlClient.TdsParser.ConsumePreLoginHandshake(SqlConnectionEncryptOption encrypt, Boolean trustServerCert, Boolean integratedSecurity, Boolean& marsCapable, Boolean& fedAuthRequired, Boolean tlsFirst, String serverCertificateFilename)
+   at Microsoft.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, TimeoutTimer timeout, SqlConnectionString connectionOptions, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, IDbConnectionPool pool, Func`3 accessTokenCallback)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionPoolGroupProviderInfo poolGroupProviderInfo, IDbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.<>c__DisplayClass28_0.<CreateReplaceConnectionContinuation>b__0(Task`1 _)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at GenxAi_Solutions_V1.Services.SqlConfigRepository.GetByCompanyIdAsync(Int32 companyId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions_V1\Services\SqlConfigRepository.cs:line 27
+   at GenxAi_Solutions_V1.Services.SemanticSeeder.RunSeedAsyncNew(Int32 companyId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions_V1\Services\SemanticSeeder.cs:line 247
+   at GenxAi_Solutions_V1.Services.Background.QueuedWorker.ExecuteAsync(CancellationToken stoppingToken) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions_V1\Services\Background\QueuedWorker.cs:line 201
+Inner Exception: System.ComponentModel.Win32Exception (258): The wait operation timed out.
+--------------------------------------------------------------------------------
+[2025-11-21 15:22:40.214] [Error]
+Category: GenxAi_Solutions_V1.Services.Background.QueuedWorker
+Message: Job a0e578ef-bffd-4fcd-9894-732b0a737e74 failed for company 6201.
+Exception Type: Microsoft.Data.SqlClient.SqlException
+Exception Message: Connection Timeout Expired.  The timeout period elapsed while attempting to consume the pre-login handshake acknowledgement.  This could be because the pre-login handshake failed or the server was unable to respond back in time.  The duration spent while attempting to connect to this server was - [Pre-Login] initialization=19907; handshake=983; 
+Stack Trace:    at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, SqlCommand command, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParserStateObject.ThrowExceptionAndWarning(Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParserStateObject.ReadSniError(TdsParserStateObject stateObj, UInt32 error)
+   at Microsoft.Data.SqlClient.TdsParserStateObject.ReadSniSyncOverAsync()
+   at Microsoft.Data.SqlClient.TdsParserStateObject.TryReadNetworkPacket()
+   at Microsoft.Data.SqlClient.TdsParser.ConsumePreLoginHandshake(SqlConnectionEncryptOption encrypt, Boolean trustServerCert, Boolean integratedSecurity, Boolean& marsCapable, Boolean& fedAuthRequired, Boolean tlsFirst, String serverCertificateFilename)
+   at Microsoft.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, TimeoutTimer timeout, SqlConnectionString connectionOptions, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, IDbConnectionPool pool, Func`3 accessTokenCallback)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionPoolGroupProviderInfo poolGroupProviderInfo, IDbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.<>c__DisplayClass28_0.<CreateReplaceConnectionContinuation>b__0(Task`1 _)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at GenxAi_Solutions_V1.Services.SqlConfigRepository.GetByCompanyIdAsync(Int32 companyId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions_V1\Services\SqlConfigRepository.cs:line 27
+   at GenxAi_Solutions_V1.Services.SemanticSeeder.RunSeedAsyncNew(Int32 companyId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions_V1\Services\SemanticSeeder.cs:line 247
+   at GenxAi_Solutions_V1.Services.Background.QueuedWorker.ExecuteAsync(CancellationToken stoppingToken) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions_V1\Services\Background\QueuedWorker.cs:line 201
+Inner Exception: System.ComponentModel.Win32Exception (258): The wait operation timed out.
+--------------------------------------------------------------------------------
+[2025-11-21 15:28:07.814] [Error]
+Category: GenxAi_Solutions_V1.Services.Background.QueuedWorker
+Message: Job a0e578ef-bffd-4fcd-9894-732b0a737e74 failed for company 6201.
+Exception Type: Microsoft.Extensions.VectorData.VectorStoreException
+Exception Message: Call to vector store failed.
+Stack Trace:    at Microsoft.Extensions.VectorData.VectorStoreErrorHandler.ExecuteWithErrorHandlingAsync[TResult](DbConnection connection, VectorStoreCollectionMetadata metadata, String operationName, Func`1 operation, CancellationToken cancellationToken)
+   at Microsoft.SemanticKernel.Connectors.SqliteVec.SqliteCollection`2.InternalGetBatchAsync(SqliteConnection connection, SqliteWhereCondition condition, RecordRetrievalOptions options, CancellationToken cancellationToken)+MoveNext()
+   at Microsoft.SemanticKernel.Connectors.SqliteVec.SqliteCollection`2.InternalGetBatchAsync(SqliteConnection connection, SqliteWhereCondition condition, RecordRetrievalOptions options, CancellationToken cancellationToken)+System.Threading.Tasks.Sources.IValueTaskSource<System.Boolean>.GetResult()
+   at System.Linq.AsyncEnumerable.FirstOrDefaultAsync[T](IAsyncEnumerable`1 source, CancellationToken cancellationToken)
+   at System.Linq.AsyncEnumerable.FirstOrDefaultAsync[T](IAsyncEnumerable`1 source, CancellationToken cancellationToken)
+   at Microsoft.SemanticKernel.Connectors.SqliteVec.SqliteCollection`2.GetAsync(TKey key, RecordRetrievalOptions options, CancellationToken cancellationToken)
+   at GenxAi_Solutions_V1.Services.VectorStoreSeedService.SeedPromptsAsyncNew(SqlVectorStores store, String promptstr, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions_V1\Services\VectorStoreSeedService.cs:line 174
+   at GenxAi_Solutions_V1.Services.SemanticSeeder.RunSeedAsyncNew(Int32 companyId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions_V1\Services\SemanticSeeder.cs:line 279
+   at GenxAi_Solutions_V1.Services.SemanticSeeder.RunSeedAsyncNew(Int32 companyId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions_V1\Services\SemanticSeeder.cs:line 316
+   at GenxAi_Solutions_V1.Services.Background.QueuedWorker.ExecuteAsync(CancellationToken stoppingToken) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions_V1\Services\Background\QueuedWorker.cs:line 201
+Inner Exception: Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 1: 'no such table: prompts'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.PrepareAndEnumerateStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.GetStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Extensions.VectorData.VectorStoreErrorHandler.ExecuteWithErrorHandlingAsync[TResult](DbConnection connection, VectorStoreCollectionMetadata metadata, String operationName, Func`1 operation, CancellationToken cancellationToken)
+--------------------------------------------------------------------------------
+[2025-11-21 15:28:07.823] [Error]
+Category: GenxAi_Solutions_V1.Services.Background.QueuedWorker
+Message: Job a0e578ef-bffd-4fcd-9894-732b0a737e74 failed for company 6201.
+Exception Type: Microsoft.Extensions.VectorData.VectorStoreException
+Exception Message: Call to vector store failed.
+Stack Trace:    at Microsoft.Extensions.VectorData.VectorStoreErrorHandler.ExecuteWithErrorHandlingAsync[TResult](DbConnection connection, VectorStoreCollectionMetadata metadata, String operationName, Func`1 operation, CancellationToken cancellationToken)
+   at Microsoft.SemanticKernel.Connectors.SqliteVec.SqliteCollection`2.InternalGetBatchAsync(SqliteConnection connection, SqliteWhereCondition condition, RecordRetrievalOptions options, CancellationToken cancellationToken)+MoveNext()
+   at Microsoft.SemanticKernel.Connectors.SqliteVec.SqliteCollection`2.InternalGetBatchAsync(SqliteConnection connection, SqliteWhereCondition condition, RecordRetrievalOptions options, CancellationToken cancellationToken)+System.Threading.Tasks.Sources.IValueTaskSource<System.Boolean>.GetResult()
+   at System.Linq.AsyncEnumerable.FirstOrDefaultAsync[T](IAsyncEnumerable`1 source, CancellationToken cancellationToken)
+   at System.Linq.AsyncEnumerable.FirstOrDefaultAsync[T](IAsyncEnumerable`1 source, CancellationToken cancellationToken)
+   at Microsoft.SemanticKernel.Connectors.SqliteVec.SqliteCollection`2.GetAsync(TKey key, RecordRetrievalOptions options, CancellationToken cancellationToken)
+   at GenxAi_Solutions_V1.Services.VectorStoreSeedService.SeedPromptsAsyncNew(SqlVectorStores store, String promptstr, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions_V1\Services\VectorStoreSeedService.cs:line 174
+   at GenxAi_Solutions_V1.Services.SemanticSeeder.RunSeedAsyncNew(Int32 companyId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions_V1\Services\SemanticSeeder.cs:line 279
+   at GenxAi_Solutions_V1.Services.SemanticSeeder.RunSeedAsyncNew(Int32 companyId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions_V1\Services\SemanticSeeder.cs:line 316
+   at GenxAi_Solutions_V1.Services.Background.QueuedWorker.ExecuteAsync(CancellationToken stoppingToken) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions_V1\Services\Background\QueuedWorker.cs:line 201
+Inner Exception: Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 1: 'no such table: prompts'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.PrepareAndEnumerateStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.GetStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Extensions.VectorData.VectorStoreErrorHandler.ExecuteWithErrorHandlingAsync[TResult](DbConnection connection, VectorStoreCollectionMetadata metadata, String operationName, Func`1 operation, CancellationToken cancellationToken)
+--------------------------------------------------------------------------------
+[2025-11-21 15:28:44.433] [Error]
+Category: GenxAi_Solutions_V1.Services.Background.QueuedWorker
+Message: Job a0e578ef-bffd-4fcd-9894-732b0a737e74 failed for company 6201.
+Exception Type: System.IO.IOException
+Exception Message: The process cannot access the file 'D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions_V1\bin\Debug\net8.0\db_ai_company_6201.db' because it is being used by another process.
+Stack Trace:    at System.IO.FileSystem.DeleteFile(String fullPath)
+   at GenxAi_Solutions_V1.Services.SemanticSeeder.RunSeedAsyncNew(Int32 companyId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions_V1\Services\SemanticSeeder.cs:line 266
+   at GenxAi_Solutions_V1.Services.Background.QueuedWorker.ExecuteAsync(CancellationToken stoppingToken) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions_V1\Services\Background\QueuedWorker.cs:line 201
+--------------------------------------------------------------------------------
+[2025-11-21 15:28:44.437] [Error]
+Category: GenxAi_Solutions_V1.Services.Background.QueuedWorker
+Message: Job a0e578ef-bffd-4fcd-9894-732b0a737e74 failed for company 6201.
+Exception Type: System.IO.IOException
+Exception Message: The process cannot access the file 'D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions_V1\bin\Debug\net8.0\db_ai_company_6201.db' because it is being used by another process.
+Stack Trace:    at System.IO.FileSystem.DeleteFile(String fullPath)
+   at GenxAi_Solutions_V1.Services.SemanticSeeder.RunSeedAsyncNew(Int32 companyId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions_V1\Services\SemanticSeeder.cs:line 266
+   at GenxAi_Solutions_V1.Services.Background.QueuedWorker.ExecuteAsync(CancellationToken stoppingToken) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions_V1\Services\Background\QueuedWorker.cs:line 201
+--------------------------------------------------------------------------------
+[2025-11-21 15:34:38.290] [Error]
+Category: GenxAi_Solutions_V1.Services.AuthEventsService
+Message: JWT authentication failed on /api/CompanyOnboard/getdatabase
+Exception Type: Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException
+Exception Message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '21-11-2025 10:03:46 AM', Current time (UTC): '21-11-2025 10:04:38 AM'.
+Stack Trace:    at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+--------------------------------------------------------------------------------
+[2025-11-21 15:34:38.293] [Error]
+Category: GenxAi_Solutions_V1.Services.AuthEventsService
+Message: JWT authentication failed on /api/CompanyOnboard/getdatabase
+Exception Type: Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException
+Exception Message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '21-11-2025 10:03:46 AM', Current time (UTC): '21-11-2025 10:04:38 AM'.
+Stack Trace:    at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+--------------------------------------------------------------------------------
+[2025-11-21 15:34:48.493] [Error]
+Category: GenxAi_Solutions_V1.Services.AuthEventsService
+Message: JWT authentication failed on /api/CompanyOnboard/getdatabase
+Exception Type: Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException
+Exception Message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '21-11-2025 10:03:46 AM', Current time (UTC): '21-11-2025 10:04:48 AM'.
+Stack Trace:    at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+--------------------------------------------------------------------------------
+[2025-11-21 15:34:48.494] [Error]
+Category: GenxAi_Solutions_V1.Services.AuthEventsService
+Message: JWT authentication failed on /api/CompanyOnboard/getdatabase
+Exception Type: Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException
+Exception Message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '21-11-2025 10:03:46 AM', Current time (UTC): '21-11-2025 10:04:48 AM'.
+Stack Trace:    at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+--------------------------------------------------------------------------------
+[2025-11-21 15:36:24.466] [Error]
+Category: GenxAi_Solutions_V1.Services.AuthEventsService
+Message: JWT authentication failed on /api/auth/login
+Exception Type: Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException
+Exception Message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '21-11-2025 10:03:46 AM', Current time (UTC): '21-11-2025 10:06:24 AM'.
+Stack Trace:    at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+--------------------------------------------------------------------------------
+[2025-11-21 15:36:24.500] [Error]
+Category: GenxAi_Solutions_V1.Services.AuthEventsService
+Message: JWT authentication failed on /api/auth/login
+Exception Type: Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException
+Exception Message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '21-11-2025 10:03:46 AM', Current time (UTC): '21-11-2025 10:06:24 AM'.
+Stack Trace:    at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+--------------------------------------------------------------------------------
+[2025-11-21 15:41:34.694] [Error]
+Category: GenxAi_Solutions_V1.Services.Background.QueuedWorker
+Message: Job 24f9b3ac-7459-428c-8282-72bf70941419 failed for company 6204.
+Exception Type: Microsoft.Extensions.VectorData.VectorStoreException
+Exception Message: Call to vector store failed.
+Stack Trace:    at Microsoft.Extensions.VectorData.VectorStoreErrorHandler.ExecuteWithErrorHandlingAsync[TResult](DbConnection connection, VectorStoreCollectionMetadata metadata, String operationName, Func`1 operation, CancellationToken cancellationToken)
+   at Microsoft.SemanticKernel.Connectors.SqliteVec.SqliteCollection`2.InternalUpsertBatchAsync(SqliteConnection connection, IEnumerable`1 records, Dictionary`2 generatedEmbeddings, CancellationToken cancellationToken)
+   at Microsoft.SemanticKernel.Connectors.SqliteVec.SqliteCollection`2.UpsertAsync(TRecord record, CancellationToken cancellationToken)
+   at GenxAi_Solutions_V1.Services.VectorStoreSeedService.SeedAsyncNew(SqlVectorStores store, String connectionString, String schemaName, String TablesSelected, String ViewsSelected, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions_V1\Services\VectorStoreSeedService.cs:line 138
+   at GenxAi_Solutions_V1.Services.SemanticSeeder.RunSeedAsyncNew(Int32 companyId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions_V1\Services\SemanticSeeder.cs:line 276
+   at GenxAi_Solutions_V1.Services.SemanticSeeder.RunSeedAsyncNew(Int32 companyId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions_V1\Services\SemanticSeeder.cs:line 316
+   at GenxAi_Solutions_V1.Services.Background.QueuedWorker.ExecuteAsync(CancellationToken stoppingToken) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions_V1\Services\Background\QueuedWorker.cs:line 201
+Inner Exception: Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 1: 'no such table: vec_sql_schemas'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.PrepareAndEnumerateStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.GetStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteNonQuery()
+   at System.Data.Common.DbCommand.ExecuteNonQueryAsync(CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at Microsoft.Extensions.VectorData.VectorStoreErrorHandler.ExecuteWithErrorHandlingAsync[TResult](DbConnection connection, VectorStoreCollectionMetadata metadata, String operationName, Func`1 operation, CancellationToken cancellationToken)
+--------------------------------------------------------------------------------
+[2025-11-21 15:41:34.722] [Error]
+Category: GenxAi_Solutions_V1.Services.Background.QueuedWorker
+Message: Job 24f9b3ac-7459-428c-8282-72bf70941419 failed for company 6204.
+Exception Type: Microsoft.Extensions.VectorData.VectorStoreException
+Exception Message: Call to vector store failed.
+Stack Trace:    at Microsoft.Extensions.VectorData.VectorStoreErrorHandler.ExecuteWithErrorHandlingAsync[TResult](DbConnection connection, VectorStoreCollectionMetadata metadata, String operationName, Func`1 operation, CancellationToken cancellationToken)
+   at Microsoft.SemanticKernel.Connectors.SqliteVec.SqliteCollection`2.InternalUpsertBatchAsync(SqliteConnection connection, IEnumerable`1 records, Dictionary`2 generatedEmbeddings, CancellationToken cancellationToken)
+   at Microsoft.SemanticKernel.Connectors.SqliteVec.SqliteCollection`2.UpsertAsync(TRecord record, CancellationToken cancellationToken)
+   at GenxAi_Solutions_V1.Services.VectorStoreSeedService.SeedAsyncNew(SqlVectorStores store, String connectionString, String schemaName, String TablesSelected, String ViewsSelected, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions_V1\Services\VectorStoreSeedService.cs:line 138
+   at GenxAi_Solutions_V1.Services.SemanticSeeder.RunSeedAsyncNew(Int32 companyId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions_V1\Services\SemanticSeeder.cs:line 276
+   at GenxAi_Solutions_V1.Services.SemanticSeeder.RunSeedAsyncNew(Int32 companyId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions_V1\Services\SemanticSeeder.cs:line 316
+   at GenxAi_Solutions_V1.Services.Background.QueuedWorker.ExecuteAsync(CancellationToken stoppingToken) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions_V1\Services\Background\QueuedWorker.cs:line 201
+Inner Exception: Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 1: 'no such table: vec_sql_schemas'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.PrepareAndEnumerateStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.GetStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteNonQuery()
+   at System.Data.Common.DbCommand.ExecuteNonQueryAsync(CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at Microsoft.Extensions.VectorData.VectorStoreErrorHandler.ExecuteWithErrorHandlingAsync[TResult](DbConnection connection, VectorStoreCollectionMetadata metadata, String operationName, Func`1 operation, CancellationToken cancellationToken)
+--------------------------------------------------------------------------------
+[2025-11-21 15:59:42.459] [Error]
+Category: GenxAi_Solutions_V1.Services.AuthEventsService
+Message: JWT authentication failed on /api/auth/login
+Exception Type: Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException
+Exception Message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '21-11-2025 10:21:30 AM', Current time (UTC): '21-11-2025 10:29:42 AM'.
+Stack Trace:    at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+--------------------------------------------------------------------------------
+[2025-11-21 15:59:42.512] [Error]
+Category: GenxAi_Solutions_V1.Services.AuthEventsService
+Message: JWT authentication failed on /api/auth/login
+Exception Type: Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException
+Exception Message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '21-11-2025 10:21:30 AM', Current time (UTC): '21-11-2025 10:29:42 AM'.
+Stack Trace:    at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+--------------------------------------------------------------------------------
+[2025-11-21 16:48:02.954] [Error]
+Category: GenxAi_Solutions_V1.Services.AuthEventsService
+Message: JWT authentication failed on /hubs/notifications/negotiate
+Exception Type: Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException
+Exception Message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '21-11-2025 10:52:32 AM', Current time (UTC): '21-11-2025 11:18:02 AM'.
+Stack Trace:    at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+--------------------------------------------------------------------------------
+[2025-11-21 16:48:02.956] [Error]
+Category: GenxAi_Solutions_V1.Services.AuthEventsService
+Message: JWT authentication failed on /hubs/notifications/negotiate
+Exception Type: Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException
+Exception Message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '21-11-2025 10:52:32 AM', Current time (UTC): '21-11-2025 11:18:02 AM'.
+Stack Trace:    at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+--------------------------------------------------------------------------------
+[2025-11-21 16:48:03.122] [Error]
+Category: GenxAi_Solutions_V1.Services.AuthEventsService
+Message: JWT authentication failed on /hubs/notifications
+Exception Type: Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException
+Exception Message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '21-11-2025 10:52:32 AM', Current time (UTC): '21-11-2025 11:18:03 AM'.
+Stack Trace:    at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+--------------------------------------------------------------------------------
+[2025-11-21 16:48:03.124] [Error]
+Category: GenxAi_Solutions_V1.Services.AuthEventsService
+Message: JWT authentication failed on /hubs/notifications
+Exception Type: Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException
+Exception Message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '21-11-2025 10:52:32 AM', Current time (UTC): '21-11-2025 11:18:03 AM'.
+Stack Trace:    at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+--------------------------------------------------------------------------------

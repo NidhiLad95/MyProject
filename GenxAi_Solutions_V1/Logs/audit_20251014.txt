@@ -1,0 +1,833 @@
+[2025-10-14 11:57:13.049] [AUDIT]
+Event: General Audit
+Details: QueuedWorker started.
+------------------------------------------------------------
+[2025-10-14 11:57:13.151] [AUDIT]
+Event: General Audit
+Details: Application startup exception
+------------------------------------------------------------
+[2025-10-14 11:57:13.159] [AUDIT]
+Event: HostedServiceStartupFaulted
+Details: Hosting failed to start
+------------------------------------------------------------
+[2025-10-14 11:57:13.199] [AUDIT]
+Event: General Audit
+Details: QueuedWorker stopping.
+------------------------------------------------------------
+[2025-10-14 11:57:13.217] [AUDIT]
+Event: BackgroundServiceFaulted
+Details: BackgroundService failed
+------------------------------------------------------------
+[2025-10-14 11:57:13.229] [AUDIT]
+Event: BackgroundServiceStoppingHost
+Details: The HostOptions.BackgroundServiceExceptionBehavior is configured to StopHost. A BackgroundService has thrown an unhandled exception, and the IHost instance is stopping. To avoid this behavior, configure this to Ignore; however the BackgroundService will not be restarted.
+------------------------------------------------------------
+[2025-10-14 11:57:13.233] [AUDIT]
+Event: General Audit
+Details: Application is shutting down...
+------------------------------------------------------------
+[2025-10-14 12:05:12.114] [AUDIT]
+Event: General Audit
+Details: QueuedWorker started.
+------------------------------------------------------------
+[2025-10-14 12:05:12.182] [AUDIT]
+Event: General Audit
+Details: Application startup exception
+------------------------------------------------------------
+[2025-10-14 12:05:12.189] [AUDIT]
+Event: HostedServiceStartupFaulted
+Details: Hosting failed to start
+------------------------------------------------------------
+[2025-10-14 12:05:12.219] [AUDIT]
+Event: General Audit
+Details: QueuedWorker stopping.
+------------------------------------------------------------
+[2025-10-14 12:15:10.409] [AUDIT]
+Event: General Audit
+Details: QueuedWorker started.
+------------------------------------------------------------
+[2025-10-14 12:15:10.570] [AUDIT]
+Event: ListeningOnAddress
+Details: Now listening on: https://localhost:7282
+------------------------------------------------------------
+[2025-10-14 12:15:10.575] [AUDIT]
+Event: ListeningOnAddress
+Details: Now listening on: http://localhost:5072
+------------------------------------------------------------
+[2025-10-14 12:15:10.637] [AUDIT]
+Event: General Audit
+Details: Application started. Press Ctrl+C to shut down.
+------------------------------------------------------------
+[2025-10-14 12:15:10.643] [AUDIT]
+Event: General Audit
+Details: Hosting environment: Development
+------------------------------------------------------------
+[2025-10-14 12:15:10.647] [AUDIT]
+Event: General Audit
+Details: Content root path: D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions
+------------------------------------------------------------
+[2025-10-14 12:15:11.751] [AUDIT]
+Event: General Audit
+Details: HTTP GET / -> 200 in 305 ms | CorrelationId=31e8a6cb-cb57-4f9b-8cb4-be060ce0491c | Ip=::1 | User=nidhi.lad@genxai.com | Headers=[Accept, text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7], [Host, localhost:7282], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36], [Accept-Encoding, gzip, deflate, br, zstd], [Accept-Language, en-US,en;q=0.9], [Upgrade-Insecure-Requests, 1], [sec-ch-ua, "Google Chrome";v="141", "Not?A_Brand";v="8", "Chromium";v="141"], [sec-ch-ua-mobile, ?0], [sec-ch-ua-platform, "Windows"], [sec-fetch-site, none], [sec-fetch-mode, navigate], [sec-fetch-user, ?1], [sec-fetch-dest, document], [priority, u=0, i] | BodyPreview=
+------------------------------------------------------------
+[2025-10-14 12:15:11.782] [AUDIT]
+Event: General Audit
+Details: HTTP GET /css/styles_custom.css -> 304 in 8 ms | CorrelationId=fd63d9d0-6cda-4cf6-8705-17756974cb52 | Ip=::1 | User=anonymous | Headers=[Accept, text/css,*/*;q=0.1], [Host, localhost:7282], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36], [Accept-Encoding, gzip, deflate, br, zstd], [Accept-Language, en-US,en;q=0.9], [If-Modified-Since, Mon, 13 Oct 2025 11:46:55 GMT], [If-None-Match, "1dc3c3712c4398c"], [Referer, https://localhost:7282/], [sec-ch-ua-platform, "Windows"], [sec-ch-ua, "Google Chrome";v="141", "Not?A_Brand";v="8", "Chromium";v="141"], [sec-ch-ua-mobile, ?0], [sec-fetch-site, same-origin], [sec-fetch-mode, no-cors], [sec-fetch-dest, style], [priority, u=0] | BodyPreview=
+------------------------------------------------------------
+[2025-10-14 12:15:23.066] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: POST /api/auth/login, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-14 12:15:23.360] [AUDIT]
+Event: General Audit
+Details: Unhandled exception POST /api/auth/login ef8b3c74-6181-4e23-930a-e6c5676465ba. Exception Details: System.InvalidOperationException - Unable to resolve service for type 'GenxAi_Solutions.Services.Interfaces.IEmailSender' while attempting to activate 'GenxAi_Solutions.Controllers.ApiController'. Stack Trace:    at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method25(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at GenxAi_Solutions.Utils.Middleware.ErrorHandlingMiddleware.Invoke(HttpContext context) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Utils\Middleware\ErrorHandlingMiddleware.cs:line 66
+------------------------------------------------------------
+[2025-10-14 12:15:23.437] [AUDIT]
+Event: General Audit
+Details: HTTP POST /api/auth/login -> 500 in 394 ms | CorrelationId=ef8b3c74-6181-4e23-930a-e6c5676465ba | Ip=::1 | User=nidhi.lad@genxai.com | Headers=[Accept, */*], [Host, localhost:7282], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36], [Accept-Encoding, gzip, deflate, br, zstd], [Accept-Language, en-US,en;q=0.9], [Content-Type, application/json], [Origin, https://localhost:7282], [Referer, https://localhost:7282/], [Content-Length, 51], [sec-ch-ua-platform, "Windows"], [X-Requested-With, XMLHttpRequest], [sec-ch-ua, "Google Chrome";v="141", "Not?A_Brand";v="8", "Chromium";v="141"], [sec-ch-ua-mobile, ?0], [sec-fetch-site, same-origin], [sec-fetch-mode, cors], [sec-fetch-dest, empty], [priority, u=1, i] | BodyPreview={"Email":"nidhi.lad@genxai.com","Password":"12345"}
+------------------------------------------------------------
+[2025-10-14 12:15:35.722] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: POST /api/auth/login, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-14 12:15:35.810] [AUDIT]
+Event: General Audit
+Details: Unhandled exception POST /api/auth/login 047a4ff1-1c82-4637-ae22-4879263fffe3. Exception Details: System.InvalidOperationException - Unable to resolve service for type 'GenxAi_Solutions.Services.Interfaces.IEmailSender' while attempting to activate 'GenxAi_Solutions.Controllers.ApiController'. Stack Trace:    at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method25(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at GenxAi_Solutions.Utils.Middleware.ErrorHandlingMiddleware.Invoke(HttpContext context) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Utils\Middleware\ErrorHandlingMiddleware.cs:line 66
+------------------------------------------------------------
+[2025-10-14 12:15:35.821] [AUDIT]
+Event: General Audit
+Details: HTTP POST /api/auth/login -> 500 in 105 ms | CorrelationId=047a4ff1-1c82-4637-ae22-4879263fffe3 | Ip=::1 | User=nidhi.lad@genxai.com | Headers=[Accept, */*], [Host, localhost:7282], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36], [Accept-Encoding, gzip, deflate, br, zstd], [Accept-Language, en-US,en;q=0.9], [Content-Type, application/json], [Origin, https://localhost:7282], [Referer, https://localhost:7282/], [Content-Length, 51], [sec-ch-ua-platform, "Windows"], [X-Requested-With, XMLHttpRequest], [sec-ch-ua, "Google Chrome";v="141", "Not?A_Brand";v="8", "Chromium";v="141"], [sec-ch-ua-mobile, ?0], [sec-fetch-site, same-origin], [sec-fetch-mode, cors], [sec-fetch-dest, empty], [priority, u=1, i] | BodyPreview={"Email":"nidhi.lad@genxai.com","Password":"12345"}
+------------------------------------------------------------
+[2025-10-14 12:15:41.531] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: POST /api/auth/login, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-14 12:15:41.615] [AUDIT]
+Event: General Audit
+Details: Unhandled exception POST /api/auth/login c07c3d88-f5a4-41ea-b845-0cddb365e5f0. Exception Details: System.InvalidOperationException - Unable to resolve service for type 'GenxAi_Solutions.Services.Interfaces.IEmailSender' while attempting to activate 'GenxAi_Solutions.Controllers.ApiController'. Stack Trace:    at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method25(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at GenxAi_Solutions.Utils.Middleware.ErrorHandlingMiddleware.Invoke(HttpContext context) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Utils\Middleware\ErrorHandlingMiddleware.cs:line 66
+------------------------------------------------------------
+[2025-10-14 12:15:41.632] [AUDIT]
+Event: General Audit
+Details: HTTP POST /api/auth/login -> 500 in 94 ms | CorrelationId=c07c3d88-f5a4-41ea-b845-0cddb365e5f0 | Ip=::1 | User=nidhi.lad@genxai.com | Headers=[Accept, */*], [Host, localhost:7282], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36], [Accept-Encoding, gzip, deflate, br, zstd], [Accept-Language, en-US,en;q=0.9], [Content-Type, application/json], [Origin, https://localhost:7282], [Referer, https://localhost:7282/], [Content-Length, 51], [sec-ch-ua-platform, "Windows"], [X-Requested-With, XMLHttpRequest], [sec-ch-ua, "Google Chrome";v="141", "Not?A_Brand";v="8", "Chromium";v="141"], [sec-ch-ua-mobile, ?0], [sec-fetch-site, same-origin], [sec-fetch-mode, cors], [sec-fetch-dest, empty], [priority, u=1, i] | BodyPreview={"Email":"nidhi.lad@genxai.com","Password":"12345"}
+------------------------------------------------------------
+[2025-10-14 12:15:42.781] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: POST /api/auth/login, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-14 12:15:42.879] [AUDIT]
+Event: General Audit
+Details: Unhandled exception POST /api/auth/login 23e4702f-10c9-4a03-a3a9-e74581d0062a. Exception Details: System.InvalidOperationException - Unable to resolve service for type 'GenxAi_Solutions.Services.Interfaces.IEmailSender' while attempting to activate 'GenxAi_Solutions.Controllers.ApiController'. Stack Trace:    at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method25(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at GenxAi_Solutions.Utils.Middleware.ErrorHandlingMiddleware.Invoke(HttpContext context) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Utils\Middleware\ErrorHandlingMiddleware.cs:line 66
+------------------------------------------------------------
+[2025-10-14 12:15:42.892] [AUDIT]
+Event: General Audit
+Details: HTTP POST /api/auth/login -> 500 in 111 ms | CorrelationId=23e4702f-10c9-4a03-a3a9-e74581d0062a | Ip=::1 | User=nidhi.lad@genxai.com | Headers=[Accept, */*], [Host, localhost:7282], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36], [Accept-Encoding, gzip, deflate, br, zstd], [Accept-Language, en-US,en;q=0.9], [Content-Type, application/json], [Origin, https://localhost:7282], [Referer, https://localhost:7282/], [Content-Length, 51], [sec-ch-ua-platform, "Windows"], [X-Requested-With, XMLHttpRequest], [sec-ch-ua, "Google Chrome";v="141", "Not?A_Brand";v="8", "Chromium";v="141"], [sec-ch-ua-mobile, ?0], [sec-fetch-site, same-origin], [sec-fetch-mode, cors], [sec-fetch-dest, empty], [priority, u=1, i] | BodyPreview={"Email":"nidhi.lad@genxai.com","Password":"12345"}
+------------------------------------------------------------
+[2025-10-14 12:15:43.522] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: POST /api/auth/login, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-14 12:15:43.605] [AUDIT]
+Event: General Audit
+Details: Unhandled exception POST /api/auth/login 4add531e-0db5-46a7-90a1-bdb4ebc063a2. Exception Details: System.InvalidOperationException - Unable to resolve service for type 'GenxAi_Solutions.Services.Interfaces.IEmailSender' while attempting to activate 'GenxAi_Solutions.Controllers.ApiController'. Stack Trace:    at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method25(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at GenxAi_Solutions.Utils.Middleware.ErrorHandlingMiddleware.Invoke(HttpContext context) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Utils\Middleware\ErrorHandlingMiddleware.cs:line 66
+------------------------------------------------------------
+[2025-10-14 12:15:43.618] [AUDIT]
+Event: General Audit
+Details: HTTP POST /api/auth/login -> 500 in 96 ms | CorrelationId=4add531e-0db5-46a7-90a1-bdb4ebc063a2 | Ip=::1 | User=nidhi.lad@genxai.com | Headers=[Accept, */*], [Host, localhost:7282], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36], [Accept-Encoding, gzip, deflate, br, zstd], [Accept-Language, en-US,en;q=0.9], [Content-Type, application/json], [Origin, https://localhost:7282], [Referer, https://localhost:7282/], [Content-Length, 51], [sec-ch-ua-platform, "Windows"], [X-Requested-With, XMLHttpRequest], [sec-ch-ua, "Google Chrome";v="141", "Not?A_Brand";v="8", "Chromium";v="141"], [sec-ch-ua-mobile, ?0], [sec-fetch-site, same-origin], [sec-fetch-mode, cors], [sec-fetch-dest, empty], [priority, u=1, i] | BodyPreview={"Email":"nidhi.lad@genxai.com","Password":"12345"}
+------------------------------------------------------------
+[2025-10-14 12:15:44.113] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: POST /api/auth/login, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-14 12:15:44.196] [AUDIT]
+Event: General Audit
+Details: Unhandled exception POST /api/auth/login da082959-c750-4139-830b-0a72c3081b0e. Exception Details: System.InvalidOperationException - Unable to resolve service for type 'GenxAi_Solutions.Services.Interfaces.IEmailSender' while attempting to activate 'GenxAi_Solutions.Controllers.ApiController'. Stack Trace:    at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method25(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at GenxAi_Solutions.Utils.Middleware.ErrorHandlingMiddleware.Invoke(HttpContext context) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Utils\Middleware\ErrorHandlingMiddleware.cs:line 66
+------------------------------------------------------------
+[2025-10-14 12:15:44.207] [AUDIT]
+Event: General Audit
+Details: HTTP POST /api/auth/login -> 500 in 93 ms | CorrelationId=da082959-c750-4139-830b-0a72c3081b0e | Ip=::1 | User=nidhi.lad@genxai.com | Headers=[Accept, */*], [Host, localhost:7282], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36], [Accept-Encoding, gzip, deflate, br, zstd], [Accept-Language, en-US,en;q=0.9], [Content-Type, application/json], [Origin, https://localhost:7282], [Referer, https://localhost:7282/], [Content-Length, 51], [sec-ch-ua-platform, "Windows"], [X-Requested-With, XMLHttpRequest], [sec-ch-ua, "Google Chrome";v="141", "Not?A_Brand";v="8", "Chromium";v="141"], [sec-ch-ua-mobile, ?0], [sec-fetch-site, same-origin], [sec-fetch-mode, cors], [sec-fetch-dest, empty], [priority, u=1, i] | BodyPreview={"Email":"nidhi.lad@genxai.com","Password":"12345"}
+------------------------------------------------------------
+[2025-10-14 12:15:44.681] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: POST /api/auth/login, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-14 12:15:44.759] [AUDIT]
+Event: General Audit
+Details: Unhandled exception POST /api/auth/login c188b75f-f4bf-4098-899a-891781e2418b. Exception Details: System.InvalidOperationException - Unable to resolve service for type 'GenxAi_Solutions.Services.Interfaces.IEmailSender' while attempting to activate 'GenxAi_Solutions.Controllers.ApiController'. Stack Trace:    at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method25(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at GenxAi_Solutions.Utils.Middleware.ErrorHandlingMiddleware.Invoke(HttpContext context) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Utils\Middleware\ErrorHandlingMiddleware.cs:line 66
+------------------------------------------------------------
+[2025-10-14 12:15:44.771] [AUDIT]
+Event: General Audit
+Details: HTTP POST /api/auth/login -> 500 in 90 ms | CorrelationId=c188b75f-f4bf-4098-899a-891781e2418b | Ip=::1 | User=nidhi.lad@genxai.com | Headers=[Accept, */*], [Host, localhost:7282], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36], [Accept-Encoding, gzip, deflate, br, zstd], [Accept-Language, en-US,en;q=0.9], [Content-Type, application/json], [Origin, https://localhost:7282], [Referer, https://localhost:7282/], [Content-Length, 51], [sec-ch-ua-platform, "Windows"], [X-Requested-With, XMLHttpRequest], [sec-ch-ua, "Google Chrome";v="141", "Not?A_Brand";v="8", "Chromium";v="141"], [sec-ch-ua-mobile, ?0], [sec-fetch-site, same-origin], [sec-fetch-mode, cors], [sec-fetch-dest, empty], [priority, u=1, i] | BodyPreview={"Email":"nidhi.lad@genxai.com","Password":"12345"}
+------------------------------------------------------------
+[2025-10-14 15:35:33.086] [AUDIT]
+Event: General Audit
+Details: QueuedWorker started.
+------------------------------------------------------------
+[2025-10-14 15:35:33.247] [AUDIT]
+Event: ListeningOnAddress
+Details: Now listening on: https://localhost:7282
+------------------------------------------------------------
+[2025-10-14 15:35:33.250] [AUDIT]
+Event: ListeningOnAddress
+Details: Now listening on: http://localhost:5072
+------------------------------------------------------------
+[2025-10-14 15:35:33.326] [AUDIT]
+Event: General Audit
+Details: Application started. Press Ctrl+C to shut down.
+------------------------------------------------------------
+[2025-10-14 15:35:33.328] [AUDIT]
+Event: General Audit
+Details: Hosting environment: Development
+------------------------------------------------------------
+[2025-10-14 15:35:33.330] [AUDIT]
+Event: General Audit
+Details: Content root path: D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions
+------------------------------------------------------------
+[2025-10-14 15:35:34.515] [AUDIT]
+Event: ErrorUnprotectingCookie
+Details: Error unprotecting the session cookie.
+------------------------------------------------------------
+[2025-10-14 15:35:34.941] [AUDIT]
+Event: General Audit
+Details: HTTP GET / -> 200 in 520 ms | CorrelationId=bb56bde8-f109-4157-957e-8e5db08c5827 | Ip=::1 | User=anonymous | Headers=[Accept, text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7], [Host, localhost:7282], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36], [Accept-Encoding, gzip, deflate, br, zstd], [Accept-Language, en-US,en;q=0.9], [Upgrade-Insecure-Requests, 1], [sec-ch-ua, "Google Chrome";v="141", "Not?A_Brand";v="8", "Chromium";v="141"], [sec-ch-ua-mobile, ?0], [sec-ch-ua-platform, "Windows"], [sec-fetch-site, none], [sec-fetch-mode, navigate], [sec-fetch-user, ?1], [sec-fetch-dest, document], [priority, u=0, i] | BodyPreview=
+------------------------------------------------------------
+[2025-10-14 15:35:35.015] [AUDIT]
+Event: General Audit
+Details: HTTP GET /css/styles_custom.css -> 200 in 49 ms | CorrelationId=95ece2e6-e6d0-4f17-a6e1-7906cbdf6bf5 | Ip=::1 | User=anonymous | Headers=[Accept, text/css,*/*;q=0.1], [Host, localhost:7282], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36], [Accept-Encoding, gzip, deflate, br, zstd], [Accept-Language, en-US,en;q=0.9], [If-Modified-Since, Tue, 14 Oct 2025 07:08:35 GMT], [If-None-Match, "1dc3cd95b340390"], [Referer, https://localhost:7282/], [sec-ch-ua-platform, "Windows"], [sec-ch-ua, "Google Chrome";v="141", "Not?A_Brand";v="8", "Chromium";v="141"], [sec-ch-ua-mobile, ?0], [sec-fetch-site, same-origin], [sec-fetch-mode, no-cors], [sec-fetch-dest, style], [priority, u=0] | BodyPreview=
+------------------------------------------------------------
+[2025-10-14 15:35:35.035] [AUDIT]
+Event: General Audit
+Details: HTTP GET /css/styles.css -> 200 in 73 ms | CorrelationId=1dbe52a2-f055-43a3-9c38-a225e7a07eed | Ip=::1 | User=anonymous | Headers=[Accept, text/css,*/*;q=0.1], [Host, localhost:7282], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36], [Accept-Encoding, gzip, deflate, br, zstd], [Accept-Language, en-US,en;q=0.9], [If-Modified-Since, Tue, 14 Oct 2025 07:09:41 GMT], [If-None-Match, "1dc3cd9828f6a13"], [Referer, https://localhost:7282/], [sec-ch-ua-platform, "Windows"], [sec-ch-ua, "Google Chrome";v="141", "Not?A_Brand";v="8", "Chromium";v="141"], [sec-ch-ua-mobile, ?0], [sec-fetch-site, same-origin], [sec-fetch-mode, no-cors], [sec-fetch-dest, style], [priority, u=0] | BodyPreview=
+------------------------------------------------------------
+[2025-10-14 15:38:13.137] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: POST /api/auth/login, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-14 15:38:39.948] [AUDIT]
+Event: ErrorUnprotectingCookie
+Details: Error unprotecting the session cookie.
+------------------------------------------------------------
+[2025-10-14 15:49:13.388] [AUDIT]
+Event: General Audit
+Details: Unhandled exception POST /api/auth/login 492ea0b7-01fb-4478-8d37-866ea705b564. Exception Details: System.InvalidOperationException - Unable to resolve service for type 'GenxAi_Solutions.Services.Interfaces.IEmailSender' while attempting to activate 'GenxAi_Solutions.Controllers.ApiController'. Stack Trace:    at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method25(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at GenxAi_Solutions.Utils.Middleware.ErrorHandlingMiddleware.Invoke(HttpContext context) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Utils\Middleware\ErrorHandlingMiddleware.cs:line 66
+------------------------------------------------------------
+[2025-10-14 15:49:13.443] [AUDIT]
+Event: General Audit
+Details: HTTP POST /api/auth/login -> 500 in 769935 ms | CorrelationId=492ea0b7-01fb-4478-8d37-866ea705b564 | Ip=::1 | User=anonymous | Headers=[Accept, */*], [Host, localhost:7282], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36], [Accept-Encoding, gzip, deflate, br, zstd], [Accept-Language, en-US,en;q=0.9], [Content-Type, application/json], [Origin, https://localhost:7282], [Referer, https://localhost:7282/], [Content-Length, 54], [sec-ch-ua-platform, "Windows"], [X-Requested-With, XMLHttpRequest], [sec-ch-ua, "Google Chrome";v="141", "Not?A_Brand";v="8", "Chromium";v="141"], [sec-ch-ua-mobile, ?0], [sec-fetch-site, same-origin], [sec-fetch-mode, cors], [sec-fetch-dest, empty], [priority, u=1, i] | BodyPreview={"Email":"suchita.gome@genxai.com","Password":"12345"}
+------------------------------------------------------------
+[2025-10-14 16:07:33.710] [AUDIT]
+Event: General Audit
+Details: QueuedWorker started.
+------------------------------------------------------------
+[2025-10-14 16:07:33.902] [AUDIT]
+Event: ListeningOnAddress
+Details: Now listening on: https://localhost:7282
+------------------------------------------------------------
+[2025-10-14 16:07:33.905] [AUDIT]
+Event: ListeningOnAddress
+Details: Now listening on: http://localhost:5072
+------------------------------------------------------------
+[2025-10-14 16:07:34.003] [AUDIT]
+Event: General Audit
+Details: Application started. Press Ctrl+C to shut down.
+------------------------------------------------------------
+[2025-10-14 16:07:34.008] [AUDIT]
+Event: General Audit
+Details: Hosting environment: Development
+------------------------------------------------------------
+[2025-10-14 16:07:34.015] [AUDIT]
+Event: General Audit
+Details: Content root path: D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions
+------------------------------------------------------------
+[2025-10-14 16:07:38.241] [AUDIT]
+Event: ErrorUnprotectingCookie
+Details: Error unprotecting the session cookie.
+------------------------------------------------------------
+[2025-10-14 16:07:38.541] [AUDIT]
+Event: General Audit
+Details: HTTP GET / -> 200 in 3641 ms | CorrelationId=3ec2c01f-b9cf-47b0-bdb4-f7143836952d | Ip=::1 | User=anonymous | Headers=[Accept, text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7], [Host, localhost:7282], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36], [Accept-Encoding, gzip, deflate, br, zstd], [Accept-Language, en-US,en;q=0.9], [Upgrade-Insecure-Requests, 1], [sec-ch-ua, "Google Chrome";v="141", "Not?A_Brand";v="8", "Chromium";v="141"], [sec-ch-ua-mobile, ?0], [sec-ch-ua-platform, "Windows"], [sec-fetch-site, none], [sec-fetch-mode, navigate], [sec-fetch-user, ?1], [sec-fetch-dest, document], [priority, u=0, i] | BodyPreview=
+------------------------------------------------------------
+[2025-10-14 16:07:58.838] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: POST /api/auth/login, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-14 16:08:01.394] [AUDIT]
+Event: ErrorUnprotectingCookie
+Details: Error unprotecting the session cookie.
+------------------------------------------------------------
+[2025-10-14 16:08:01.497] [AUDIT]
+Event: General Audit
+Details: Unhandled exception POST /api/auth/login 2d57e8dc-3b06-4ea5-8f78-4642009b67d9. Exception Details: System.InvalidOperationException - Unable to resolve service for type 'GenxAi_Solutions.Services.Interfaces.IEmailSender' while attempting to activate 'GenxAi_Solutions.Controllers.ApiController'. Stack Trace:    at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method25(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at GenxAi_Solutions.Utils.Middleware.ErrorHandlingMiddleware.Invoke(HttpContext context) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Utils\Middleware\ErrorHandlingMiddleware.cs:line 66
+------------------------------------------------------------
+[2025-10-14 16:08:01.546] [AUDIT]
+Event: General Audit
+Details: HTTP POST /api/auth/login -> 500 in 4476 ms | CorrelationId=2d57e8dc-3b06-4ea5-8f78-4642009b67d9 | Ip=::1 | User=anonymous | Headers=[Accept, */*], [Host, localhost:7282], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36], [Accept-Encoding, gzip, deflate, br, zstd], [Accept-Language, en-US,en;q=0.9], [Content-Type, application/json], [Origin, https://localhost:7282], [Referer, https://localhost:7282/], [Content-Length, 54], [sec-ch-ua-platform, "Windows"], [X-Requested-With, XMLHttpRequest], [sec-ch-ua, "Google Chrome";v="141", "Not?A_Brand";v="8", "Chromium";v="141"], [sec-ch-ua-mobile, ?0], [sec-fetch-site, same-origin], [sec-fetch-mode, cors], [sec-fetch-dest, empty], [priority, u=1, i] | BodyPreview={"Email":"suchita.gome@genxai.com","Password":"12345"}
+------------------------------------------------------------
+[2025-10-14 16:08:34.165] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: POST /api/auth/login, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-14 16:09:34.969] [AUDIT]
+Event: ErrorUnprotectingCookie
+Details: Error unprotecting the session cookie.
+------------------------------------------------------------
+[2025-10-14 17:04:04.991] [AUDIT]
+Event: General Audit
+Details: QueuedWorker started.
+------------------------------------------------------------
+[2025-10-14 17:04:05.170] [AUDIT]
+Event: ListeningOnAddress
+Details: Now listening on: https://localhost:7282
+------------------------------------------------------------
+[2025-10-14 17:04:05.174] [AUDIT]
+Event: ListeningOnAddress
+Details: Now listening on: http://localhost:5072
+------------------------------------------------------------
+[2025-10-14 17:04:05.253] [AUDIT]
+Event: General Audit
+Details: Application started. Press Ctrl+C to shut down.
+------------------------------------------------------------
+[2025-10-14 17:04:05.256] [AUDIT]
+Event: General Audit
+Details: Hosting environment: Development
+------------------------------------------------------------
+[2025-10-14 17:04:05.259] [AUDIT]
+Event: General Audit
+Details: Content root path: D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions
+------------------------------------------------------------
+[2025-10-14 17:04:15.244] [AUDIT]
+Event: ErrorUnprotectingCookie
+Details: Error unprotecting the session cookie.
+------------------------------------------------------------
+[2025-10-14 17:04:16.411] [AUDIT]
+Event: General Audit
+Details: HTTP GET / -> 200 in 10343 ms | CorrelationId=3b3ecce6-6313-463e-9fcb-85d2be5a1772 | Ip=::1 | User=anonymous | Headers=[Accept, text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7], [Host, localhost:7282], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36], [Accept-Encoding, gzip, deflate, br, zstd], [Accept-Language, en-US,en;q=0.9], [Upgrade-Insecure-Requests, 1], [sec-ch-ua, "Google Chrome";v="141", "Not?A_Brand";v="8", "Chromium";v="141"], [sec-ch-ua-mobile, ?0], [sec-ch-ua-platform, "Windows"], [sec-fetch-site, none], [sec-fetch-mode, navigate], [sec-fetch-user, ?1], [sec-fetch-dest, document], [priority, u=0, i] | BodyPreview=
+------------------------------------------------------------
+[2025-10-14 17:04:30.899] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: POST /api/auth/login, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-14 17:04:32.343] [AUDIT]
+Event: ErrorUnprotectingCookie
+Details: Error unprotecting the session cookie.
+------------------------------------------------------------
+[2025-10-14 17:04:38.227] [AUDIT]
+Event: General Audit
+Details: USER_LOGIN: User: suchita.gome@genxai.com, IP: ::1, Status: SUCCESS
+------------------------------------------------------------
+[2025-10-14 17:04:38.261] [AUDIT]
+Event: General Audit
+Details: HTTP POST /api/auth/login -> 200 in 12382 ms | CorrelationId=5b56ddc8-92ac-4145-ba82-c3dd54447ef1 | Ip=::1 | User=anonymous | Headers=[Accept, */*], [Host, localhost:7282], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36], [Accept-Encoding, gzip, deflate, br, zstd], [Accept-Language, en-US,en;q=0.9], [Content-Type, application/json], [Origin, https://localhost:7282], [Referer, https://localhost:7282/], [Content-Length, 54], [sec-ch-ua-platform, "Windows"], [X-Requested-With, XMLHttpRequest], [sec-ch-ua, "Google Chrome";v="141", "Not?A_Brand";v="8", "Chromium";v="141"], [sec-ch-ua-mobile, ?0], [sec-fetch-site, same-origin], [sec-fetch-mode, cors], [sec-fetch-dest, empty], [priority, u=1, i] | BodyPreview={"Email":"suchita.gome@genxai.com","Password":"12345"}
+------------------------------------------------------------
+[2025-10-14 17:04:43.074] [AUDIT]
+Event: General Audit
+Details: HTTP GET /Home/Index -> 200 in 4768 ms | CorrelationId=b0063541-4f3a-45cf-ba33-406b32edd335 | Ip=::1 | User=suchita.gome@genxai.com | Headers=[Accept, text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7], [Host, localhost:7282], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36], [Accept-Encoding, gzip, deflate, br, zstd], [Accept-Language, en-US,en;q=0.9], [Referer, https://localhost:7282/], [Upgrade-Insecure-Requests, 1], [sec-ch-ua, "Google Chrome";v="141", "Not?A_Brand";v="8", "Chromium";v="141"], [sec-ch-ua-mobile, ?0], [sec-ch-ua-platform, "Windows"], [sec-fetch-site, same-origin], [sec-fetch-mode, navigate], [sec-fetch-dest, document], [priority, u=0, i] | BodyPreview=
+------------------------------------------------------------
+[2025-10-14 17:04:49.250] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-14 17:04:52.171] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: POST /api/auth/getmenu, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-14 17:04:53.072] [AUDIT]
+Event: General Audit
+Details: HTTP POST /hubs/notifications/negotiate?negotiateVersion=1 -> 200 in 9826 ms | CorrelationId=e82a8013-b23a-43a1-8f60-8330efae2438 | Ip=::1 | User=suchita.gome@genxai.com | Headers=[Accept, */*], [Host, localhost:7282], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36], [Accept-Encoding, gzip, deflate, br, zstd], [Accept-Language, en-US,en;q=0.9], [Cache-Control, max-age=0], [Origin, https://localhost:7282], [Referer, https://localhost:7282/Home/Index], [Content-Length, 0], [sec-ch-ua-platform, "Windows"], [X-Requested-With, XMLHttpRequest], [sec-ch-ua, "Google Chrome";v="141", "Not?A_Brand";v="8", "Chromium";v="141"], [sec-ch-ua-mobile, ?0], [x-signalr-user-agent, Microsoft SignalR/7.0 (7.0.12; Unknown OS; Browser; Unknown Runtime Version)], [sec-fetch-site, same-origin], [sec-fetch-mode, cors], [sec-fetch-dest, empty], [priority, u=1, i] | BodyPreview=
+------------------------------------------------------------
+[2025-10-14 17:04:59.225] [AUDIT]
+Event: General Audit
+Details: HTTP GET /api/notifications/unread -> 200 in 14112 ms | CorrelationId=b8c030a1-88a5-480f-84c3-f95a3e22d987 | Ip=::1 | User=suchita.gome@genxai.com | Headers=[Accept, application/json], [Host, localhost:7282], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36], [Accept-Encoding, gzip, deflate, br, zstd], [Accept-Language, en-US,en;q=0.9], [Referer, https://localhost:7282/Home/Index], [sec-ch-ua-platform, "Windows"], [sec-ch-ua, "Google Chrome";v="141", "Not?A_Brand";v="8", "Chromium";v="141"], [sec-ch-ua-mobile, ?0], [sec-fetch-site, same-origin], [sec-fetch-mode, cors], [sec-fetch-dest, empty], [priority, u=1, i] | BodyPreview=
+------------------------------------------------------------
+[2025-10-14 17:04:59.232] [AUDIT]
+Event: General Audit
+Details: HTTP POST /api/auth/getmenu -> 200 in 8265 ms | CorrelationId=3f686283-b5cc-42a0-83d9-edf7991abf73 | Ip=::1 | User=suchita.gome@genxai.com | Headers=[Accept, */*], [Host, localhost:7282], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36], [Accept-Encoding, gzip, deflate, br, zstd], [Accept-Language, en-US,en;q=0.9], [Content-Type, application/json], [Origin, https://localhost:7282], [Referer, https://localhost:7282/Home/Index], [Content-Length, 13], [sec-ch-ua-platform, "Windows"], [X-Requested-With, XMLHttpRequest], [sec-ch-ua, "Google Chrome";v="141", "Not?A_Brand";v="8", "Chromium";v="141"], [sec-ch-ua-mobile, ?0], [sec-fetch-site, same-origin], [sec-fetch-mode, cors], [sec-fetch-dest, empty], [priority, u=1, i] | BodyPreview={"GroupId":2}
+------------------------------------------------------------
+[2025-10-14 17:05:29.752] [AUDIT]
+Event: General Audit
+Details: HTTP GET /Screen/Add -> 200 in 16966 ms | CorrelationId=d38c07fe-008d-40cf-bc2c-c6a60999bcb3 | Ip=::1 | User=suchita.gome@genxai.com | Headers=[Accept, text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7], [Host, localhost:7282], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36], [Accept-Encoding, gzip, deflate, br, zstd], [Accept-Language, en-US,en;q=0.9], [Referer, https://localhost:7282/Home/Index], [Upgrade-Insecure-Requests, 1], [sec-ch-ua, "Google Chrome";v="141", "Not?A_Brand";v="8", "Chromium";v="141"], [sec-ch-ua-mobile, ?0], [sec-ch-ua-platform, "Windows"], [sec-fetch-site, same-origin], [sec-fetch-mode, navigate], [sec-fetch-user, ?1], [sec-fetch-dest, document], [priority, u=0, i] | BodyPreview=
+------------------------------------------------------------
+[2025-10-14 17:05:29.860] [AUDIT]
+Event: General Audit
+Details: HTTP GET /Screen/css/table-card.css -> 404 in 34 ms | CorrelationId=25dff4f4-5e86-4d24-a62c-8bca9bdda011 | Ip=::1 | User=suchita.gome@genxai.com | Headers=[Accept, text/css,*/*;q=0.1], [Host, localhost:7282], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36], [Accept-Encoding, gzip, deflate, br, zstd], [Accept-Language, en-US,en;q=0.9], [Referer, https://localhost:7282/Screen/Add], [sec-ch-ua-platform, "Windows"], [sec-ch-ua, "Google Chrome";v="141", "Not?A_Brand";v="8", "Chromium";v="141"], [sec-ch-ua-mobile, ?0], [sec-fetch-site, same-origin], [sec-fetch-mode, no-cors], [sec-fetch-dest, style], [priority, u=2] | BodyPreview=
+------------------------------------------------------------
+[2025-10-14 17:05:29.967] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-14 17:05:30.048] [AUDIT]
+Event: General Audit
+Details: HTTP POST /hubs/notifications/negotiate?negotiateVersion=1 -> 200 in 8 ms | CorrelationId=ab636057-0a05-4910-bca2-48a6382588f9 | Ip=::1 | User=suchita.gome@genxai.com | Headers=[Accept, */*], [Host, localhost:7282], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36], [Accept-Encoding, gzip, deflate, br, zstd], [Accept-Language, en-US,en;q=0.9], [Cache-Control, max-age=0], [Origin, https://localhost:7282], [Referer, https://localhost:7282/Screen/Add], [Content-Length, 0], [sec-ch-ua-platform, "Windows"], [X-Requested-With, XMLHttpRequest], [sec-ch-ua, "Google Chrome";v="141", "Not?A_Brand";v="8", "Chromium";v="141"], [sec-ch-ua-mobile, ?0], [x-signalr-user-agent, Microsoft SignalR/7.0 (7.0.12; Unknown OS; Browser; Unknown Runtime Version)], [sec-fetch-site, same-origin], [sec-fetch-mode, cors], [sec-fetch-dest, empty], [priority, u=1, i] | BodyPreview=
+------------------------------------------------------------
+[2025-10-14 17:05:30.052] [AUDIT]
+Event: General Audit
+Details: HTTP CONNECT /hubs/notifications?id=cB-zwDwREdEZ1YM0uqGdRA -> 200 in 36874 ms | CorrelationId=7e7dac48-76c1-4fe5-8380-1095dbb69b7e | Ip=::1 | User=suchita.gome@genxai.com | Headers=[Host, localhost:7282], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36], [Accept-Encoding, gzip, deflate, br, zstd], [Accept-Language, en-US,en;q=0.9], [Cache-Control, no-cache], [Origin, https://localhost:7282], [Pragma, no-cache], [Sec-WebSocket-Version, 13], [Sec-WebSocket-Extensions, permessage-deflate; client_max_window_bits] | BodyPreview=
+------------------------------------------------------------
+[2025-10-14 17:09:27.134] [AUDIT]
+Event: General Audit
+Details: QueuedWorker started.
+------------------------------------------------------------
+[2025-10-14 17:09:27.274] [AUDIT]
+Event: ListeningOnAddress
+Details: Now listening on: https://localhost:7282
+------------------------------------------------------------
+[2025-10-14 17:09:27.277] [AUDIT]
+Event: ListeningOnAddress
+Details: Now listening on: http://localhost:5072
+------------------------------------------------------------
+[2025-10-14 17:09:27.338] [AUDIT]
+Event: General Audit
+Details: Application started. Press Ctrl+C to shut down.
+------------------------------------------------------------
+[2025-10-14 17:09:27.341] [AUDIT]
+Event: General Audit
+Details: Hosting environment: Development
+------------------------------------------------------------
+[2025-10-14 17:09:27.343] [AUDIT]
+Event: General Audit
+Details: Content root path: D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions
+------------------------------------------------------------
+[2025-10-14 17:09:28.335] [AUDIT]
+Event: General Audit
+Details: HTTP GET / -> 200 in 326 ms | CorrelationId=2c1e2085-9beb-4f03-b1da-52228f2b2f2e | Ip=::1 | User=suchita.gome@genxai.com | Headers=[Accept, text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7], [Host, localhost:7282], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36], [Accept-Encoding, gzip, deflate, br, zstd], [Accept-Language, en-US,en;q=0.9], [Upgrade-Insecure-Requests, 1], [sec-ch-ua, "Google Chrome";v="141", "Not?A_Brand";v="8", "Chromium";v="141"], [sec-ch-ua-mobile, ?0], [sec-ch-ua-platform, "Windows"], [sec-fetch-site, none], [sec-fetch-mode, navigate], [sec-fetch-user, ?1], [sec-fetch-dest, document], [priority, u=0, i] | BodyPreview=
+------------------------------------------------------------
+[2025-10-14 17:09:45.805] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: POST /api/auth/login, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-14 17:09:51.916] [AUDIT]
+Event: General Audit
+Details: USER_LOGIN: User: suchita.gome@genxai.com, IP: ::1, Status: SUCCESS
+------------------------------------------------------------
+[2025-10-14 17:09:51.956] [AUDIT]
+Event: General Audit
+Details: HTTP POST /api/auth/login -> 200 in 6228 ms | CorrelationId=3613a686-f31e-4d19-bbc4-7e6aef7e84d3 | Ip=::1 | User=suchita.gome@genxai.com | Headers=[Accept, */*], [Host, localhost:7282], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36], [Accept-Encoding, gzip, deflate, br, zstd], [Accept-Language, en-US,en;q=0.9], [Content-Type, application/json], [Origin, https://localhost:7282], [Referer, https://localhost:7282/], [Content-Length, 54], [sec-ch-ua-platform, "Windows"], [X-Requested-With, XMLHttpRequest], [sec-ch-ua, "Google Chrome";v="141", "Not?A_Brand";v="8", "Chromium";v="141"], [sec-ch-ua-mobile, ?0], [sec-fetch-site, same-origin], [sec-fetch-mode, cors], [sec-fetch-dest, empty], [priority, u=1, i] | BodyPreview={"Email":"suchita.gome@genxai.com","Password":"12345"}
+------------------------------------------------------------
+[2025-10-14 17:09:52.239] [AUDIT]
+Event: General Audit
+Details: HTTP GET /Home/Index -> 200 in 228 ms | CorrelationId=d5868849-9fc3-4366-87e0-2f08a08a4938 | Ip=::1 | User=suchita.gome@genxai.com | Headers=[Accept, text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7], [Host, localhost:7282], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36], [Accept-Encoding, gzip, deflate, br, zstd], [Accept-Language, en-US,en;q=0.9], [Referer, https://localhost:7282/], [Upgrade-Insecure-Requests, 1], [sec-ch-ua, "Google Chrome";v="141", "Not?A_Brand";v="8", "Chromium";v="141"], [sec-ch-ua-mobile, ?0], [sec-ch-ua-platform, "Windows"], [sec-fetch-site, same-origin], [sec-fetch-mode, navigate], [sec-fetch-dest, document], [priority, u=0, i] | BodyPreview=
+------------------------------------------------------------
+[2025-10-14 17:09:52.300] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-14 17:09:52.333] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: POST /api/auth/getmenu, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-14 17:09:52.492] [AUDIT]
+Event: General Audit
+Details: HTTP POST /hubs/notifications/negotiate?negotiateVersion=1 -> 200 in 199 ms | CorrelationId=e6dca024-f4d8-4a43-b105-dd839044bed9 | Ip=::1 | User=suchita.gome@genxai.com | Headers=[Accept, */*], [Host, localhost:7282], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36], [Accept-Encoding, gzip, deflate, br, zstd], [Accept-Language, en-US,en;q=0.9], [Cache-Control, max-age=0], [Origin, https://localhost:7282], [Referer, https://localhost:7282/Home/Index], [Content-Length, 0], [sec-ch-ua-platform, "Windows"], [X-Requested-With, XMLHttpRequest], [sec-ch-ua, "Google Chrome";v="141", "Not?A_Brand";v="8", "Chromium";v="141"], [sec-ch-ua-mobile, ?0], [x-signalr-user-agent, Microsoft SignalR/7.0 (7.0.12; Unknown OS; Browser; Unknown Runtime Version)], [sec-fetch-site, same-origin], [sec-fetch-mode, cors], [sec-fetch-dest, empty], [priority, u=1, i] | BodyPreview=
+------------------------------------------------------------
+[2025-10-14 17:09:57.635] [AUDIT]
+Event: General Audit
+Details: HTTP POST /api/auth/getmenu -> 200 in 5305 ms | CorrelationId=a4bc76e0-04b2-4fd0-9da6-f78a959eb7c9 | Ip=::1 | User=suchita.gome@genxai.com | Headers=[Accept, */*], [Host, localhost:7282], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36], [Accept-Encoding, gzip, deflate, br, zstd], [Accept-Language, en-US,en;q=0.9], [Content-Type, application/json], [Origin, https://localhost:7282], [Referer, https://localhost:7282/Home/Index], [Content-Length, 13], [sec-ch-ua-platform, "Windows"], [X-Requested-With, XMLHttpRequest], [sec-ch-ua, "Google Chrome";v="141", "Not?A_Brand";v="8", "Chromium";v="141"], [sec-ch-ua-mobile, ?0], [sec-fetch-site, same-origin], [sec-fetch-mode, cors], [sec-fetch-dest, empty], [priority, u=1, i] | BodyPreview={"GroupId":2}
+------------------------------------------------------------
+[2025-10-14 17:09:57.673] [AUDIT]
+Event: General Audit
+Details: HTTP GET /api/notifications/unread -> 200 in 5394 ms | CorrelationId=f157607c-a8f2-4ecf-ad77-ac55bc8bcafa | Ip=::1 | User=suchita.gome@genxai.com | Headers=[Accept, application/json], [Host, localhost:7282], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36], [Accept-Encoding, gzip, deflate, br, zstd], [Accept-Language, en-US,en;q=0.9], [Referer, https://localhost:7282/Home/Index], [sec-ch-ua-platform, "Windows"], [sec-ch-ua, "Google Chrome";v="141", "Not?A_Brand";v="8", "Chromium";v="141"], [sec-ch-ua-mobile, ?0], [sec-fetch-site, same-origin], [sec-fetch-mode, cors], [sec-fetch-dest, empty], [priority, u=1, i] | BodyPreview=
+------------------------------------------------------------
+[2025-10-14 17:10:11.694] [AUDIT]
+Event: General Audit
+Details: HTTP GET /Screen/Add -> 200 in 9371 ms | CorrelationId=0cb5c07f-2f90-4f5e-b6aa-2d2f0824c9a6 | Ip=::1 | User=suchita.gome@genxai.com | Headers=[Accept, text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7], [Host, localhost:7282], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36], [Accept-Encoding, gzip, deflate, br, zstd], [Accept-Language, en-US,en;q=0.9], [Referer, https://localhost:7282/Home/Index], [Upgrade-Insecure-Requests, 1], [sec-ch-ua, "Google Chrome";v="141", "Not?A_Brand";v="8", "Chromium";v="141"], [sec-ch-ua-mobile, ?0], [sec-ch-ua-platform, "Windows"], [sec-fetch-site, same-origin], [sec-fetch-mode, navigate], [sec-fetch-user, ?1], [sec-fetch-dest, document], [priority, u=0, i] | BodyPreview=
+------------------------------------------------------------
+[2025-10-14 17:10:11.817] [AUDIT]
+Event: General Audit
+Details: HTTP CONNECT /hubs/notifications?id=5ChbsY4GrHKdBG-qM97zPg -> 200 in 19202 ms | CorrelationId=49b6186a-a1fb-40a7-885e-dea19f6befac | Ip=::1 | User=suchita.gome@genxai.com | Headers=[Host, localhost:7282], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36], [Accept-Encoding, gzip, deflate, br, zstd], [Accept-Language, en-US,en;q=0.9], [Cache-Control, no-cache], [Origin, https://localhost:7282], [Pragma, no-cache], [Sec-WebSocket-Version, 13], [Sec-WebSocket-Extensions, permessage-deflate; client_max_window_bits] | BodyPreview=
+------------------------------------------------------------
+[2025-10-14 17:10:11.819] [AUDIT]
+Event: General Audit
+Details: HTTP GET /Screen/css/table-card.css -> 404 in 13 ms | CorrelationId=37b0ac45-4f4a-4b83-8f82-704d6e7b3e82 | Ip=::1 | User=suchita.gome@genxai.com | Headers=[Accept, text/css,*/*;q=0.1], [Host, localhost:7282], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36], [Accept-Encoding, gzip, deflate, br, zstd], [Accept-Language, en-US,en;q=0.9], [Referer, https://localhost:7282/Screen/Add], [sec-ch-ua-platform, "Windows"], [sec-ch-ua, "Google Chrome";v="141", "Not?A_Brand";v="8", "Chromium";v="141"], [sec-ch-ua-mobile, ?0], [sec-fetch-site, same-origin], [sec-fetch-mode, no-cors], [sec-fetch-dest, style], [priority, u=2] | BodyPreview=
+------------------------------------------------------------
+[2025-10-14 17:10:11.948] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-14 17:10:12.098] [AUDIT]
+Event: General Audit
+Details: HTTP POST /hubs/notifications/negotiate?negotiateVersion=1 -> 200 in 8 ms | CorrelationId=0e82df3a-4daa-4456-ab69-0ec05f4f150a | Ip=::1 | User=suchita.gome@genxai.com | Headers=[Accept, */*], [Host, localhost:7282], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36], [Accept-Encoding, gzip, deflate, br, zstd], [Accept-Language, en-US,en;q=0.9], [Cache-Control, max-age=0], [Origin, https://localhost:7282], [Referer, https://localhost:7282/Screen/Add], [Content-Length, 0], [sec-ch-ua-platform, "Windows"], [X-Requested-With, XMLHttpRequest], [sec-ch-ua, "Google Chrome";v="141", "Not?A_Brand";v="8", "Chromium";v="141"], [sec-ch-ua-mobile, ?0], [x-signalr-user-agent, Microsoft SignalR/7.0 (7.0.12; Unknown OS; Browser; Unknown Runtime Version)], [sec-fetch-site, same-origin], [sec-fetch-mode, cors], [sec-fetch-dest, empty], [priority, u=1, i] | BodyPreview=
+------------------------------------------------------------
+[2025-10-14 17:10:12.123] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: POST /api/auth/getmenu, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-14 17:10:16.832] [AUDIT]
+Event: General Audit
+Details: HTTP GET /api/notifications/unread -> 200 in 4880 ms | CorrelationId=b8ed7409-26b3-4c37-a939-95834ff03c4a | Ip=::1 | User=suchita.gome@genxai.com | Headers=[Accept, application/json], [Host, localhost:7282], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36], [Accept-Encoding, gzip, deflate, br, zstd], [Accept-Language, en-US,en;q=0.9], [Referer, https://localhost:7282/Screen/Add], [sec-ch-ua-platform, "Windows"], [sec-ch-ua, "Google Chrome";v="141", "Not?A_Brand";v="8", "Chromium";v="141"], [sec-ch-ua-mobile, ?0], [sec-fetch-site, same-origin], [sec-fetch-mode, cors], [sec-fetch-dest, empty], [priority, u=1, i] | BodyPreview=
+------------------------------------------------------------
+[2025-10-14 17:10:16.878] [AUDIT]
+Event: General Audit
+Details: HTTP POST /api/auth/getmenu -> 200 in 4913 ms | CorrelationId=4288e40e-e1e2-40df-9b99-6aaab3879d89 | Ip=::1 | User=suchita.gome@genxai.com | Headers=[Accept, */*], [Host, localhost:7282], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36], [Accept-Encoding, gzip, deflate, br, zstd], [Accept-Language, en-US,en;q=0.9], [Content-Type, application/json], [Origin, https://localhost:7282], [Referer, https://localhost:7282/Screen/Add], [Content-Length, 13], [sec-ch-ua-platform, "Windows"], [X-Requested-With, XMLHttpRequest], [sec-ch-ua, "Google Chrome";v="141", "Not?A_Brand";v="8", "Chromium";v="141"], [sec-ch-ua-mobile, ?0], [sec-fetch-site, same-origin], [sec-fetch-mode, cors], [sec-fetch-dest, empty], [priority, u=1, i] | BodyPreview={"GroupId":2}
+------------------------------------------------------------
+[2025-10-14 17:10:34.095] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/auth/GetScreens, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-14 17:10:38.736] [AUDIT]
+Event: General Audit
+Details: HTTP GET /api/auth/GetScreens -> 200 in 4648 ms | CorrelationId=f529925c-3927-4b16-8166-b0cd34cfb404 | Ip=::1 | User=suchita.gome@genxai.com | Headers=[Accept, */*], [Host, localhost:7282], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36], [Accept-Encoding, gzip, deflate, br, zstd], [Accept-Language, en-US,en;q=0.9], [Referer, https://localhost:7282/Screen/Add], [sec-ch-ua-platform, "Windows"], [X-Requested-With, XMLHttpRequest], [sec-ch-ua, "Google Chrome";v="141", "Not?A_Brand";v="8", "Chromium";v="141"], [sec-ch-ua-mobile, ?0], [sec-fetch-site, same-origin], [sec-fetch-mode, cors], [sec-fetch-dest, empty], [priority, u=1, i] | BodyPreview=
+------------------------------------------------------------
+[2025-10-14 17:13:10.750] [AUDIT]
+Event: General Audit
+Details: QueuedWorker started.
+------------------------------------------------------------
+[2025-10-14 17:13:10.896] [AUDIT]
+Event: ListeningOnAddress
+Details: Now listening on: https://localhost:7282
+------------------------------------------------------------
+[2025-10-14 17:13:10.900] [AUDIT]
+Event: ListeningOnAddress
+Details: Now listening on: http://localhost:5072
+------------------------------------------------------------
+[2025-10-14 17:13:10.972] [AUDIT]
+Event: General Audit
+Details: Application started. Press Ctrl+C to shut down.
+------------------------------------------------------------
+[2025-10-14 17:13:10.975] [AUDIT]
+Event: General Audit
+Details: Hosting environment: Development
+------------------------------------------------------------
+[2025-10-14 17:13:10.979] [AUDIT]
+Event: General Audit
+Details: Content root path: D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions
+------------------------------------------------------------
+[2025-10-14 17:13:11.846] [AUDIT]
+Event: General Audit
+Details: HTTP GET / -> 200 in 267 ms | CorrelationId=4a1b4905-559a-4cc9-87e5-51c61a90d4c2 | Ip=::1 | User=suchita.gome@genxai.com | Headers=[Accept, text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7], [Host, localhost:7282], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36], [Accept-Encoding, gzip, deflate, br, zstd], [Accept-Language, en-US,en;q=0.9], [Upgrade-Insecure-Requests, 1], [sec-ch-ua, "Google Chrome";v="141", "Not?A_Brand";v="8", "Chromium";v="141"], [sec-ch-ua-mobile, ?0], [sec-ch-ua-platform, "Windows"], [sec-fetch-site, none], [sec-fetch-mode, navigate], [sec-fetch-user, ?1], [sec-fetch-dest, document], [priority, u=0, i] | BodyPreview=
+------------------------------------------------------------
+[2025-10-14 17:14:25.806] [AUDIT]
+Event: General Audit
+Details: QueuedWorker started.
+------------------------------------------------------------
+[2025-10-14 17:14:25.981] [AUDIT]
+Event: ListeningOnAddress
+Details: Now listening on: https://localhost:7282
+------------------------------------------------------------
+[2025-10-14 17:14:25.983] [AUDIT]
+Event: ListeningOnAddress
+Details: Now listening on: http://localhost:5072
+------------------------------------------------------------
+[2025-10-14 17:14:26.059] [AUDIT]
+Event: General Audit
+Details: Application started. Press Ctrl+C to shut down.
+------------------------------------------------------------
+[2025-10-14 17:14:26.063] [AUDIT]
+Event: General Audit
+Details: Hosting environment: Development
+------------------------------------------------------------
+[2025-10-14 17:14:26.066] [AUDIT]
+Event: General Audit
+Details: Content root path: D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions
+------------------------------------------------------------
+[2025-10-14 17:14:48.130] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: POST /api/auth/login, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-14 17:14:53.445] [AUDIT]
+Event: General Audit
+Details: USER_LOGIN: User: admin@acgindia.co.in, IP: ::1, Status: SUCCESS
+------------------------------------------------------------
+[2025-10-14 17:14:53.622] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-14 17:14:53.742] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: POST /api/auth/getmenu, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-14 17:14:53.749] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/CompanyOnboard/History/me, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-14 17:15:02.317] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: POST /api/CompanyOnboard/Start1, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-14 17:15:11.648] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/CompanyOnboard/History/me, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-14 17:15:51.226] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: POST /api/CompanyOnboard/Ask2, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-14 17:38:14.558] [AUDIT]
+Event: General Audit
+Details: QueuedWorker started.
+------------------------------------------------------------
+[2025-10-14 17:38:14.732] [AUDIT]
+Event: ListeningOnAddress
+Details: Now listening on: https://localhost:7282
+------------------------------------------------------------
+[2025-10-14 17:38:14.736] [AUDIT]
+Event: ListeningOnAddress
+Details: Now listening on: http://localhost:5072
+------------------------------------------------------------
+[2025-10-14 17:38:14.825] [AUDIT]
+Event: General Audit
+Details: Application started. Press Ctrl+C to shut down.
+------------------------------------------------------------
+[2025-10-14 17:38:14.829] [AUDIT]
+Event: General Audit
+Details: Hosting environment: Development
+------------------------------------------------------------
+[2025-10-14 17:38:14.832] [AUDIT]
+Event: General Audit
+Details: Content root path: D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions
+------------------------------------------------------------
+[2025-10-14 17:38:31.426] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: POST /api/auth/login, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-14 17:38:37.271] [AUDIT]
+Event: General Audit
+Details: USER_LOGIN: User: nidhi.lad@genxai.com, IP: ::1, Status: SUCCESS
+------------------------------------------------------------
+[2025-10-14 17:38:44.357] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-14 17:38:44.441] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/CompanyOnboard/History/me, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-14 17:38:44.447] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: POST /api/auth/getmenu, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-14 17:39:12.005] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-14 17:41:00.708] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/CompanyOnboard/History/me, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-14 17:41:35.530] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: POST /api/auth/getmenu, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-14 17:42:06.386] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: POST /api/auth/login, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-14 17:42:11.385] [AUDIT]
+Event: General Audit
+Details: USER_LOGIN: User: nidhi.lad@genxai.com, IP: ::1, Status: SUCCESS
+------------------------------------------------------------
+[2025-10-14 17:42:25.124] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-14 17:46:25.458] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/CompanyOnboard/History/me, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-14 17:47:52.000] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: POST /api/auth/getmenu, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-14 17:59:22.899] [AUDIT]
+Event: General Audit
+Details: QueuedWorker started.
+------------------------------------------------------------
+[2025-10-14 17:59:23.136] [AUDIT]
+Event: ListeningOnAddress
+Details: Now listening on: https://localhost:7282
+------------------------------------------------------------
+[2025-10-14 17:59:23.166] [AUDIT]
+Event: ListeningOnAddress
+Details: Now listening on: http://localhost:5072
+------------------------------------------------------------
+[2025-10-14 17:59:23.239] [AUDIT]
+Event: General Audit
+Details: Application started. Press Ctrl+C to shut down.
+------------------------------------------------------------
+[2025-10-14 17:59:23.244] [AUDIT]
+Event: General Audit
+Details: Hosting environment: Development
+------------------------------------------------------------
+[2025-10-14 17:59:23.249] [AUDIT]
+Event: General Audit
+Details: Content root path: D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions
+------------------------------------------------------------
+[2025-10-14 17:59:36.633] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: POST /api/auth/login, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-14 17:59:42.500] [AUDIT]
+Event: General Audit
+Details: USER_LOGIN: User: nidhi.lad@genxai.com, IP: ::1, Status: SUCCESS
+------------------------------------------------------------
+[2025-10-14 17:59:42.827] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-14 17:59:42.898] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/CompanyOnboard/History/me, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-14 17:59:42.900] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: POST /api/auth/getmenu, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-14 18:00:33.143] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: POST /api/CompanyOnboard/Ask2, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-14 18:06:36.464] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: POST /api/CompanyOnboard/Ask2, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------

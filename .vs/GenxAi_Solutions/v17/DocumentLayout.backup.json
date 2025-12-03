@@ -1,0 +1,167 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\GENXAI_ProductSVN\\GenxAi_WEB\\GenxAi_Solutions\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B3E3ED0A-0CD7-DAA2-E99C-2FC8C4915BEC}|GenxAi_Solutions_V1\\GenxAi_Solutions_V1.csproj|d:\\genxai_productsvn\\genxai_web\\genxai_solutions\\genxai_solutions_v1\\services\\semanticseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3E3ED0A-0CD7-DAA2-E99C-2FC8C4915BEC}|GenxAi_Solutions_V1\\GenxAi_Solutions_V1.csproj|solutionrelative:genxai_solutions_v1\\services\\semanticseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3E3ED0A-0CD7-DAA2-E99C-2FC8C4915BEC}|GenxAi_Solutions_V1\\GenxAi_Solutions_V1.csproj|d:\\genxai_productsvn\\genxai_web\\genxai_solutions\\genxai_solutions_v1\\views\\companyonboard\\chatbot.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B3E3ED0A-0CD7-DAA2-E99C-2FC8C4915BEC}|GenxAi_Solutions_V1\\GenxAi_Solutions_V1.csproj|solutionrelative:genxai_solutions_v1\\views\\companyonboard\\chatbot.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3E3ED0A-0CD7-DAA2-E99C-2FC8C4915BEC}|GenxAi_Solutions_V1\\GenxAi_Solutions_V1.csproj|d:\\genxai_productsvn\\genxai_web\\genxai_solutions\\genxai_solutions_v1\\utils\\depandancyinjectionregister.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3E3ED0A-0CD7-DAA2-E99C-2FC8C4915BEC}|GenxAi_Solutions_V1\\GenxAi_Solutions_V1.csproj|solutionrelative:genxai_solutions_v1\\utils\\depandancyinjectionregister.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3E3ED0A-0CD7-DAA2-E99C-2FC8C4915BEC}|GenxAi_Solutions_V1\\GenxAi_Solutions_V1.csproj|d:\\genxai_productsvn\\genxai_web\\genxai_solutions\\genxai_solutions_v1\\api\\chatbotcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3E3ED0A-0CD7-DAA2-E99C-2FC8C4915BEC}|GenxAi_Solutions_V1\\GenxAi_Solutions_V1.csproj|solutionrelative:genxai_solutions_v1\\api\\chatbotcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3E3ED0A-0CD7-DAA2-E99C-2FC8C4915BEC}|GenxAi_Solutions_V1\\GenxAi_Solutions_V1.csproj|d:\\genxai_productsvn\\genxai_web\\genxai_solutions\\genxai_solutions_v1\\services\\vectorstoreseedservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3E3ED0A-0CD7-DAA2-E99C-2FC8C4915BEC}|GenxAi_Solutions_V1\\GenxAi_Solutions_V1.csproj|solutionrelative:genxai_solutions_v1\\services\\vectorstoreseedservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3E3ED0A-0CD7-DAA2-E99C-2FC8C4915BEC}|GenxAi_Solutions_V1\\GenxAi_Solutions_V1.csproj|d:\\genxai_productsvn\\genxai_web\\genxai_solutions\\genxai_solutions_v1\\utils\\promptservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3E3ED0A-0CD7-DAA2-E99C-2FC8C4915BEC}|GenxAi_Solutions_V1\\GenxAi_Solutions_V1.csproj|solutionrelative:genxai_solutions_v1\\utils\\promptservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3E3ED0A-0CD7-DAA2-E99C-2FC8C4915BEC}|GenxAi_Solutions_V1\\GenxAi_Solutions_V1.csproj|d:\\genxai_productsvn\\genxai_web\\genxai_solutions\\genxai_solutions_v1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3E3ED0A-0CD7-DAA2-E99C-2FC8C4915BEC}|GenxAi_Solutions_V1\\GenxAi_Solutions_V1.csproj|solutionrelative:genxai_solutions_v1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3E3ED0A-0CD7-DAA2-E99C-2FC8C4915BEC}|GenxAi_Solutions_V1\\GenxAi_Solutions_V1.csproj|d:\\genxai_productsvn\\genxai_web\\genxai_solutions\\genxai_solutions_v1\\utils\\applicationbuilderextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3E3ED0A-0CD7-DAA2-E99C-2FC8C4915BEC}|GenxAi_Solutions_V1\\GenxAi_Solutions_V1.csproj|solutionrelative:genxai_solutions_v1\\utils\\applicationbuilderextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3E3ED0A-0CD7-DAA2-E99C-2FC8C4915BEC}|GenxAi_Solutions_V1\\GenxAi_Solutions_V1.csproj|d:\\genxai_productsvn\\genxai_web\\genxai_solutions\\genxai_solutions_v1\\utils\\middleware\\performancemonitoringmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3E3ED0A-0CD7-DAA2-E99C-2FC8C4915BEC}|GenxAi_Solutions_V1\\GenxAi_Solutions_V1.csproj|solutionrelative:genxai_solutions_v1\\utils\\middleware\\performancemonitoringmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DepandancyInjectionRegister.cs",
+              "DocumentMoniker": "D:\\GENXAI_ProductSVN\\GenxAi_WEB\\GenxAi_Solutions\\GenxAi_Solutions_V1\\Utils\\DepandancyInjectionRegister.cs",
+              "RelativeDocumentMoniker": "GenxAi_Solutions_V1\\Utils\\DepandancyInjectionRegister.cs",
+              "ToolTip": "D:\\GENXAI_ProductSVN\\GenxAi_WEB\\GenxAi_Solutions\\GenxAi_Solutions_V1\\Utils\\DepandancyInjectionRegister.cs",
+              "RelativeToolTip": "GenxAi_Solutions_V1\\Utils\\DepandancyInjectionRegister.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAuwCQAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T11:27:41.186Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SemanticSeeder.cs",
+              "DocumentMoniker": "D:\\GENXAI_ProductSVN\\GenxAi_WEB\\GenxAi_Solutions\\GenxAi_Solutions_V1\\Services\\SemanticSeeder.cs",
+              "RelativeDocumentMoniker": "GenxAi_Solutions_V1\\Services\\SemanticSeeder.cs",
+              "ToolTip": "D:\\GENXAI_ProductSVN\\GenxAi_WEB\\GenxAi_Solutions\\GenxAi_Solutions_V1\\Services\\SemanticSeeder.cs",
+              "RelativeToolTip": "GenxAi_Solutions_V1\\Services\\SemanticSeeder.cs",
+              "ViewState": "AgIAAPEAAAAAAAAAAAA0wP4AAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T11:16:44.027Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "VectorStoreSeedService.cs",
+              "DocumentMoniker": "D:\\GENXAI_ProductSVN\\GenxAi_WEB\\GenxAi_Solutions\\GenxAi_Solutions_V1\\Services\\VectorStoreSeedService.cs",
+              "RelativeDocumentMoniker": "GenxAi_Solutions_V1\\Services\\VectorStoreSeedService.cs",
+              "ToolTip": "D:\\GENXAI_ProductSVN\\GenxAi_WEB\\GenxAi_Solutions\\GenxAi_Solutions_V1\\Services\\VectorStoreSeedService.cs",
+              "RelativeToolTip": "GenxAi_Solutions_V1\\Services\\VectorStoreSeedService.cs",
+              "ViewState": "AgIAAOABAAAAAAAAAAAQwPkBAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T11:16:02.21Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PromptService.cs",
+              "DocumentMoniker": "D:\\GENXAI_ProductSVN\\GenxAi_WEB\\GenxAi_Solutions\\GenxAi_Solutions_V1\\Utils\\PromptService.cs",
+              "RelativeDocumentMoniker": "GenxAi_Solutions_V1\\Utils\\PromptService.cs",
+              "ToolTip": "D:\\GENXAI_ProductSVN\\GenxAi_WEB\\GenxAi_Solutions\\GenxAi_Solutions_V1\\Utils\\PromptService.cs",
+              "RelativeToolTip": "GenxAi_Solutions_V1\\Utils\\PromptService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIMAAABiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T11:05:39.142Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ApplicationBuilderExtensions.cs",
+              "DocumentMoniker": "D:\\GENXAI_ProductSVN\\GenxAi_WEB\\GenxAi_Solutions\\GenxAi_Solutions_V1\\Utils\\ApplicationBuilderExtensions.cs",
+              "RelativeDocumentMoniker": "GenxAi_Solutions_V1\\Utils\\ApplicationBuilderExtensions.cs",
+              "ToolTip": "D:\\GENXAI_ProductSVN\\GenxAi_WEB\\GenxAi_Solutions\\GenxAi_Solutions_V1\\Utils\\ApplicationBuilderExtensions.cs",
+              "RelativeToolTip": "GenxAi_Solutions_V1\\Utils\\ApplicationBuilderExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T09:55:28.452Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\GENXAI_ProductSVN\\GenxAi_WEB\\GenxAi_Solutions\\GenxAi_Solutions_V1\\Program.cs",
+              "RelativeDocumentMoniker": "GenxAi_Solutions_V1\\Program.cs",
+              "ToolTip": "D:\\GENXAI_ProductSVN\\GenxAi_WEB\\GenxAi_Solutions\\GenxAi_Solutions_V1\\Program.cs",
+              "RelativeToolTip": "GenxAi_Solutions_V1\\Program.cs",
+              "ViewState": "AgIAAGMAAAAAAAAAAAAAAEYAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T09:54:13.294Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PerformanceMonitoringMiddleware.cs",
+              "DocumentMoniker": "D:\\GENXAI_ProductSVN\\GenxAi_WEB\\GenxAi_Solutions\\GenxAi_Solutions_V1\\Utils\\Middleware\\PerformanceMonitoringMiddleware.cs",
+              "RelativeDocumentMoniker": "GenxAi_Solutions_V1\\Utils\\Middleware\\PerformanceMonitoringMiddleware.cs",
+              "ToolTip": "D:\\GENXAI_ProductSVN\\GenxAi_WEB\\GenxAi_Solutions\\GenxAi_Solutions_V1\\Utils\\Middleware\\PerformanceMonitoringMiddleware.cs",
+              "RelativeToolTip": "GenxAi_Solutions_V1\\Utils\\Middleware\\PerformanceMonitoringMiddleware.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T09:53:05.437Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ChatBotController.cs",
+              "DocumentMoniker": "D:\\GENXAI_ProductSVN\\GenxAi_WEB\\GenxAi_Solutions\\GenxAi_Solutions_V1\\Api\\ChatBotController.cs",
+              "RelativeDocumentMoniker": "GenxAi_Solutions_V1\\Api\\ChatBotController.cs",
+              "ToolTip": "D:\\GENXAI_ProductSVN\\GenxAi_WEB\\GenxAi_Solutions\\GenxAi_Solutions_V1\\Api\\ChatBotController.cs",
+              "RelativeToolTip": "GenxAi_Solutions_V1\\Api\\ChatBotController.cs",
+              "ViewState": "AgIAAJsGAAAAAAAAAIAwwKcGAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T09:19:54.708Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Chatbot.cshtml",
+              "DocumentMoniker": "D:\\GENXAI_ProductSVN\\GenxAi_WEB\\GenxAi_Solutions\\GenxAi_Solutions_V1\\Views\\CompanyOnboard\\Chatbot.cshtml",
+              "RelativeDocumentMoniker": "GenxAi_Solutions_V1\\Views\\CompanyOnboard\\Chatbot.cshtml",
+              "ToolTip": "D:\\GENXAI_ProductSVN\\GenxAi_WEB\\GenxAi_Solutions\\GenxAi_Solutions_V1\\Views\\CompanyOnboard\\Chatbot.cshtml",
+              "RelativeToolTip": "GenxAi_Solutions_V1\\Views\\CompanyOnboard\\Chatbot.cshtml",
+              "ViewState": "AgIAAIcCAAAAAAAAAAArwJYCAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-02T09:15:30.662Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

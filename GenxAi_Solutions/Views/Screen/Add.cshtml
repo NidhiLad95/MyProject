@@ -1,0 +1,642 @@
+﻿@model ScreenViewModel
+@{
+    ViewData["Title"] = "Screen Master";
+}
+@* <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet" />
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<link href="https://cdn.jsdelivr.net/npm/simple-datatables@7.1.2/dist/style.min.css" rel="stylesheet" />
+<link href="~/css/styles.css" rel="stylesheet" />
+<link href="~/css/styles_custom.css" rel="stylesheet" />
+<link href="css/table-card.css" rel="stylesheet" />
+<script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        crossorigin="anonymous"></script>
+<script src="~/js/scripts.js"></script>
+<script src="~/js/custom.js"></script> *@
+
+
+<style>
+    .btn-loading {
+        position: relative;
+        color: transparent !important;
+    }
+
+        .btn-loading:after {
+            content: '';
+            position: absolute;
+            width: 20px;
+            height: 20px;
+            top: 50%;
+            left: 50%;
+            margin-left: -10px;
+            margin-top: -10px;
+            border: 2px solid #ffffff;
+            border-radius: 50%;
+            border-top-color: transparent;
+            animation: spin 1s ease-in-out infinite;
+        }
+
+    @@keyframes spin {
+        to {
+            transform: rotate(360deg);
+        }
+    }
+
+    .loader-overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.5);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 9999;
+    }
+
+    .spinner-border {
+        width: 3rem;
+        height: 3rem;
+    }
+
+</style>
+
+<div class="container-fluid p-4">
+    <div class="row">
+        <div class="col-md-12 p-0 border">
+            <div class="bg-white shadow custom-tabs">
+                <ul class="nav bg-light nav-pills border-bottom" id="myTab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link active" id="tab1-tab" data-bs-toggle="pill" @* data-bs-toggle="tab" *@
+                                data-bs-target="#tab1" type="button" role="tab"
+                                aria-controls="tab1" aria-selected="true">
+                            Add Screen
+                        </button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="tab2-tab" @* data-bs-toggle="pill" *@ data-bs-toggle="tab"
+                                data-bs-target="#tab2" type="button" role="tab"
+                                aria-controls="tab2" aria-selected="false">
+                            Screen List
+                        </button>
+                    </li>
+                    
+                </ul>
+                
+                <div class="tab-content m2 p-3 border bg-white" id="myTabContent">
+                    <div class="tab-pane fade show active" id="tab1" role="tabpanel"
+                         aria-labelledby="tab1-tab">
+                        <div class="card bg-light border rounded-0 shadoww">
+                            <div class="card-body bg-white text-dark roundedd p-3">
+                                <div class="border-bottom pb-2 mb-3 d-flex align-items-center">
+                                    @* <div> <img height="50" src="~/assets/img/user.png" /></div> *@
+
+                                    <div class="px-3">
+                                        <h5>
+                                            Screen Master
+                                        </h5>
+                                    </div>
+                                </div>
+
+                                <form id="screenForm">
+                                    <input type="hidden" id="ScreenId" value="0" />
+
+                                    <div class="row mb-3">
+                                        <div class="col-md-3">
+                                            <label class="form-label">Parent Screen</label>
+                                            <select asp-for="ParentScreenId" asp-items="Model.ParentScreens" class="form-control" id="ParentScreenId">
+                                                <option value="">--Select--</option>
+                                            </select>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <label class="form-label">Screen Name</label>
+                                            <input asp-for="ScreenName" class="form-control" id="ScreenName" placeholder="Enter Screen Name" />
+                                        </div>
+                                        <div class="col-md-3">
+                                            <label class="form-label">Screen URL</label>
+                                            <input asp-for="ScreenURL" class="form-control" id="ScreenURL" placeholder="Enter Screen URL" />
+                                        </div>
+                                    </div>
+
+                                    <!-- Save/Update button -->
+                                    <div class="text-end">
+                                        <button type="button" id="btnSave" class="btn btn-outline-success btn-block rounded shadow-sm">
+                                            <i class="fa fa-save"></i> <span>Save</span>
+                                        </button>
+                                        <button type="button" id="btnUpdate" class="btn btn-outline-primary btn-block rounded shadow-sm" style="display:none;">
+                                            <i class="bi bi-pencil-square me-1"></i> <span>Update</span>
+                                        </button>
+                                    </div>
+                                </form>
+                            </div>
+                        
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="tab2" role="tabpanel"
+                         aria-labelledby="tab2-tab">
+                        <div class="card border rounded-0">
+                            <div class="card-body p-0 border-0 rounded-0">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="wrap">
+                                            <div class="table-wrapper">
+                                                <table class="table table-bordered table-striped">
+                                                    <thead class="table-light">
+                                                        <tr>
+                                                            <th>Sr.No</th>
+                                                            <th>Parent Screen</th>
+                                                            <th>Screen Name</th>
+                                                            <th>Screen URL</th>
+                                                            <th>Action</th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody id="screenList">
+                                                        <tr>
+                                                            <td colspan="5">Loading...</td>
+                                                        </tr>
+                                                        <tr>
+
+                                                            <td>
+                                                                <button class="btn-edit border-0 bg-transparent me-1">
+                                                                    <i class="bi bi-pencil-square text-success fs-5"></i>
+                                                                </button>
+                                                                <button class="btn-delete border-0 bg-transparent">
+                                                                    <i class="bi bi-trash-fill text-danger fs-5"></i>
+                                                                </button>
+                                                            </td>
+                                                        </tr>
+                                                        @*  <tr>
+                              
+                                <td>
+                                    
+                                    <button class="btn-edit border-0 bg-transparent me-1">
+                                    <i class="bi bi-pencil-square text-success fs-5"></i>
+                                    </button>
+                                    <button class="btn-delete border-0 bg-transparent">
+                                        <i class="bi bi-trash-fill text-danger fs-5"></i>
+                                    </button>
+                                </td>
+                            </tr> *@
+                                                    </tbody>
+                                                </table>
+                                                <!-- Pagination -->
+                                                <nav aria-label="Page navigation">
+                                                    <ul class="pagination justify-content-center" id="pagination">
+                                                        <!-- Pagination will be dynamically generated here -->
+                                                    </ul>
+                                                </nav>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@* <div class="toast-container position-fixed top-50 start-50 translate-middle" style="z-index: 1100"></div> *@
+<div class="toast-container position-fixed top-0 end-0 p-3" style="z-index: 1100"></div>
+
+
+<script>
+    // function showMessage(message, type) {
+    //     var alertHtml = `
+    //         <div class="alert alert-${type} alert-dismissible fade show" role="alert">
+    //             ${message}
+    //             <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    //         </div>`;
+    //     $("#alertPlaceholder").html(alertHtml);
+    // }
+
+      // Global variables for pagination
+        let currentPage = 1;
+        const recordsPerPage = 10;
+        let totalRecords = 0;
+        let allScreens = [];
+
+           function showMessage(message, type) {
+        // type = success, danger, warning, info
+        var bgClass = "bg-" + type;
+
+        var toastHtml = `
+            <div class="toast align-items-center text-white ${bgClass} border-0 mb-2" role="alert" aria-live="assertive" aria-atomic="true">
+                <div class="d-flex">
+                    <div class="toast-body">
+                        ${message}
+                    </div>
+                    <button type="button" class="btn-close btn-close-white me-2 m-auto" data-bs-dismiss="toast" aria-label="Close"></button>
+                </div>
+            </div>`;
+
+        var $toast = $(toastHtml);
+        $(".toast-container").append($toast);
+
+         var toast = new bootstrap.Toast($toast[0], {
+        autohide: true,
+        delay: 3000
+    });
+        toast.show();
+
+        // auto remove after hide
+        $toast.on('hidden.bs.toast', function () {
+            $(this).remove();
+        });
+    }
+
+
+     // Show Loader
+        function showLoader() {
+            if ($('#loaderOverlay').length === 0) {
+                $('body').append(`
+                    <div class="loader-overlay" id="loaderOverlay">
+                        <div class="spinner-border text-light" role="status">
+                            <span class="visually-hidden">Loading...</span>
+                        </div>
+                    </div>
+                `);
+            }
+        }
+
+        // Hide Loader
+        function hideLoader() {
+            $('#loaderOverlay').remove();
+        }
+
+        // Show Button Loader
+        function showButtonLoader($btn, text) {
+            $btn.prop('disabled', true);
+            $btn.addClass('btn-loading');
+            $btn.find('span').text(text);
+        }
+
+        // Hide Button Loader
+        function hideButtonLoader($btn, originalText) {
+            $btn.prop('disabled', false);
+            $btn.removeClass('btn-loading');
+            $btn.find('span').text(originalText);
+        }
+
+
+    $("#btnSave").on("click", function (e) {
+        e.preventDefault();
+         const $btn = $(this);
+        const originalText = $btn.find('span').text();
+
+        var data = {
+            parentScreenId: parseInt($("#ParentScreenId").val() || 0),
+            screenName: $("#ScreenName").val(),
+            screenUrl: $("#ScreenURL").val()
+        };
+         showButtonLoader($btn, "Saving...");
+            showLoader();
+
+        $.ajax({
+            url: "/api/auth/InsertScreen",
+            type: "POST",
+            contentType: "application/json",
+            data: JSON.stringify(data),
+            success: function (response, status, xhr) {
+                if (xhr.status === 201) {
+                    showMessage("Screen saved successfully!", "success");
+                     resetForm();
+                    // switch to Tab2 automatically after save
+                    //var tabTrigger = document.querySelector('#tab2-tab');
+                    //var tab = new bootstrap.Tab(tabTrigger);
+                    //tab.show();
+                }
+            },
+            error: function (xhr) {
+                if (xhr.status === 409) {
+                    showMessage("Record already exists!", "warning");
+                } else {
+                    showMessage("Something went wrong, please try again.", "danger");
+                }
+            },
+                 complete: function () {
+                    hideButtonLoader($btn, originalText);
+                    hideLoader();
+                }
+        });
+    });
+
+    // load screens via API and render table
+      // Load table rows dynamically
+    function loadScreens() {
+        //$("#screenList").html('<tr><td colspan="5">Loading...</td></tr>');
+        //AppLoader.show();
+        $.ajax({
+            url: '/api/auth/GetScreens',   // API endpoint
+            type: 'GET',
+            success: function (data) {
+                debugger;
+                if (!data || data.length === 0) {
+                    $("#screenList").html('<tr><td colspan="5">No records found</td></tr>');
+                    return;
+                }
+
+                  allScreens = data;
+                    totalRecords = data.length;
+                    setupPagination();
+                    displayUsersForCurrentPage(1);
+
+                var html = '';
+                let srNo = 1;
+                data.forEach(function (s) {
+                    var id = s.screenId || s.ScreenId || 0;
+                    var parentid = s.ParentScreenid || s.ParentScreenid || 0;
+                    var name = s.screenName || s.ScreenName || '';
+                    var url = s.screenURL || s.ScreenURL || '';
+                    var parentscreen = s.parentScreen  || s.parentScreen  || '';
+
+                    // var id = s.ScreenId || 0;
+                    // var parentid = s.ParentId || 0;
+                    // var parentscreen = s.ParentScreen || 'NA';
+                    // var name = s.ScreenName || '';
+                    // var url = s.ScreenURL || '';
+
+                    html += `<tr>
+                                <td>${srNo++}</td>
+                                <td>${parentscreen}</td>
+                                 <td>${name}</td>
+                                 <td>${url}</td>
+                                <td>
+
+        <button class="btn-edit border-0 bg-transparent me-1 btn-edit" data-id="${id}" data-parentid="${parentid}">
+                <i class="bi bi-pencil-square text-success fs-5"></i>
+            </button>
+            <button class="btn-delete border-0 bg-transparent btn-delete" data-id="${id}" data-parentid="${parentid}">
+                <i class="bi bi-trash-fill text-danger fs-5"></i>
+            </button>
+    </td>
+
+
+                             </tr>`;
+                });
+
+                $("#screenList").html(html);
+                //AppLoader.Hide();
+            },
+            error: function () {
+                $("#screenList").html('<tr><td colspan="5">Error loading data</td></tr>');
+            }
+        });
+    }
+
+    // Load when Tab2 is shown
+    $('#tab2-tab').on('shown.bs.tab', function () {
+        loadScreens();
+    });
+
+    //update button click
+
+        $("#btnUpdate").on("click", function () {
+             const $btn = $(this);
+            const originalText = $btn.find('span').text();
+            showButtonLoader($btn, "Updating...");
+            showLoader();
+        var data = {
+            screenId: parseInt($("#ScreenId").val() || 0),
+            parentScreenId: parseInt($("#ParentScreenId").val() || 0),
+            screenName: $("#ScreenName").val(),
+            screenUrl: $("#ScreenURL").val()
+        };
+        
+        $.ajax({
+            url: "/api/auth/UpdateScreen",
+            type: "PUT",
+            contentType: "application/json",
+            data: JSON.stringify(data),
+            success: function () {
+                //AppLoader.hide();
+                showMessage("Screen updated successfully!", "success");
+                resetForm();
+                //loadScreens();
+            },
+            error: function () {
+                showMessage("Error updating screen.", "danger");
+            },
+                complete: function () {
+                    hideButtonLoader($btn, originalText);
+                    hideLoader();
+                }
+        });
+    });
+
+
+    // 🔹 Delete button click
+    debugger
+     $(document).on("click", ".btn-delete", function () {
+         var id = $(this).data("id");
+          var data = {
+            screenId: parseInt(id)
+        };
+
+
+         if (!confirm("Are you sure you want to delete this screen?")) return;
+                const $btn = $(this);
+              // Store original content and show loading
+                const originalContent = $btn.html();
+                $btn.prop('disabled', true);
+
+                showLoader();
+             $.ajax({
+                 url: '/api/auth/DeleteScreen',
+                 type: 'DELETE',
+                 contentType: "application/json",
+                 data: JSON.stringify(data),
+                 success: function (result) {
+                     //AppLoader.hide();
+                     showMessage("Screen deleted successfully!", "success");
+                     loadScreens(); // refresh Tab2
+                 },
+                 error: function () {
+                    showMessage("Error deleting screen.", "danger");
+                 },
+                complete: function () {
+                    hideLoader();
+                }
+             });
+         
+     });
+
+
+      $(document).on("click", ".btn-edit", function () {
+          debugger
+        var id = $(this).data("id");
+        var parentId = $(this).data("parentid");
+        showLoader();
+         var data = {
+             ScreenId: id
+         };
+         //AppLoader.show();
+        // Fetch details for the selected screen (or pass values directly if already in table)
+        $.ajax({
+            url: "/api/auth/GetById",
+            type: 'POST',
+            contentType: "application/json",
+            data: JSON.stringify(data),
+            success: function (screen) {
+                debugger
+                //AppLoader.hide();
+                // Fill form fields in Tab1 for editing
+                $("#ScreenId").val(screen.data.ScreenId);
+                $("#ParentScreenId").val(screen.data.parentScreenId);
+                $("#ScreenName").val(screen.data.screenName);
+                $("#ScreenURL").val(screen.data.screenURL);
+
+                // Store ScreenId in hidden field for update
+                if ($("#ScreenId").length === 0) {
+                    $("#screenForm").append('<input type="hidden" id="ScreenId" value="' + id + '">');
+                } else {
+                    $("#ScreenId").val(id);
+                }
+
+                // Show Update, hide Save
+            $("#btnSave").hide();
+            $("#btnUpdate").show();
+
+                // Switch to Tab1 (edit mode)
+                var tabTrigger = document.querySelector('#tab1-tab');
+                var tab = new bootstrap.Tab(tabTrigger);
+                tab.show();
+            },
+            error: function () {
+                alert("Error fetching screen details.");
+            },
+              complete: function () {
+                  hideLoader();
+              }
+        });
+    });
+
+     function setupPagination() {
+            const totalPages = Math.ceil(totalRecords / recordsPerPage);
+            const pagination = $("#pagination");
+            pagination.empty();
+
+            // Previous button
+            const prevDisabled = currentPage === 1 ? 'disabled' : '';
+            pagination.append(`
+                <li class="page-item ${prevDisabled}">
+                    <a class="page-link" href="#" onclick="changePage(${currentPage - 1})" aria-label="Previous">
+                        <span aria-hidden="true">&laquo;</span>
+                    </a>
+                </li>
+            `);
+
+            // Page numbers
+            const maxVisiblePages = 5;
+            let startPage = Math.max(1, currentPage - Math.floor(maxVisiblePages / 2));
+            let endPage = Math.min(totalPages, startPage + maxVisiblePages - 1);
+
+            if (endPage - startPage + 1 < maxVisiblePages) {
+                startPage = Math.max(1, endPage - maxVisiblePages + 1);
+            }
+
+            for (let i = startPage; i <= endPage; i++) {
+                const active = i === currentPage ? 'active' : '';
+                pagination.append(`
+                    <li class="page-item ${active}">
+                        <a class="page-link" href="#" onclick="changePage(${i})">${i}</a>
+                    </li>
+                `);
+            }
+
+            // Next button
+            const nextDisabled = currentPage === totalPages ? 'disabled' : '';
+            pagination.append(`
+                <li class="page-item ${nextDisabled}">
+                    <a class="page-link" href="#" onclick="changePage(${currentPage + 1})" aria-label="Next">
+                        <span aria-hidden="true">&raquo;</span>
+                    </a>
+                </li>
+            `);
+
+            // Page info
+            const startRecord = (currentPage - 1) * recordsPerPage + 1;
+            const endRecord = Math.min(currentPage * recordsPerPage, totalRecords);
+            // pagination.after(`
+            //     <div class="text-center mt-2 text-muted small">
+            //         Showing ${startRecord} to ${endRecord} of ${totalRecords} entries
+            //     </div>
+            // `);
+        }
+
+        function changePage(page) {
+            if (page < 1 || page > Math.ceil(totalRecords / recordsPerPage)) return;
+            currentPage = page;
+            displayUsersForCurrentPage(currentPage);
+            setupPagination();
+        }
+
+        // Display users for current page
+        function displayUsersForCurrentPage() {
+    //          if (allScreens.length === 0) {
+    //         $("#screenList").html('<tr><td colspan="13">No users found</td></tr>');
+    //         $('#paginationInfo').text(`Showing 0 to 0 of 0 entries`);
+    //          return;
+    // }
+
+            const startIndex = (currentPage - 1) * recordsPerPage;
+            const endIndex = Math.min(startIndex + recordsPerPage, totalRecords);
+            const usersToDisplay = allScreens.slice(startIndex, endIndex);
+
+            if (usersToDisplay.length === 0) {
+                $("#screenList").html('<tr><td colspan="5">No users found</td></tr>');
+                return;
+            }
+
+            let html = "";
+            let srNo = startIndex + 1;
+
+            usersToDisplay.forEach(function (u) {
+                html += `<tr>
+                            <td>${u.id}</td>
+                            <td>${u.parentscreen}</td>
+                            <td>${u.name}</td>
+                            <td>${u.url}</td>
+                           
+                            <td>
+                                <input type="hidden" class="hiddenUser" value="${u.id}" />
+                                <button class="btn-edit border-0 bg-transparent me-1">
+                                    <i class="bi bi-pencil-square text-success fs-5"></i>
+                                </button>
+                                <button class="btn-delete border-0 bg-transparent">
+                                    <i class="bi bi-trash-fill text-danger fs-5"></i>
+                                </button>
+                            </td>
+                        </tr>`;
+            });
+
+            $("#screenList").html(html);
+            //setupPagination();
+        }
+
+
+        // Reset form helper
+    function resetForm() {
+        
+        $("#screenForm")[0].reset();
+        $("#ScreenId").val(0);
+
+        // Show Save, hide Update
+        $("#btnSave").show();
+        $("#btnUpdate").hide();
+        
+    }
+
+
+
+</script>

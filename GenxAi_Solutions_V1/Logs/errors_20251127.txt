@@ -1,0 +1,336 @@
+﻿[2025-11-27 11:17:15.361] [Error]
+Category: GenxAi_Solutions_V1.Utils.Middleware.ErrorHandlingMiddleware
+Message: Unhandled exception POST /api/chat/AskAgent 1cb0d6ed-d849-4e18-acd2-526964da53e1. Exception Details: System.InvalidOperationException - Unable to resolve service for type 'GenxAi_Solutions_V1.Services.Interfaces.IVectorSemanticService' while attempting to activate 'GenxAi_Solutions_V1.Api.ChatBotController'. Stack Trace:    at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method33(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at GenxAi_Solutions_V1.Utils.Middleware.ErrorHandlingMiddleware.Invoke(HttpContext context) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions_V1\Utils\Middleware\ErrorHandlingMiddleware.cs:line 139
+Exception Type: System.InvalidOperationException
+Exception Message: Unable to resolve service for type 'GenxAi_Solutions_V1.Services.Interfaces.IVectorSemanticService' while attempting to activate 'GenxAi_Solutions_V1.Api.ChatBotController'.
+Stack Trace:    at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method33(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at GenxAi_Solutions_V1.Utils.Middleware.ErrorHandlingMiddleware.Invoke(HttpContext context) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions_V1\Utils\Middleware\ErrorHandlingMiddleware.cs:line 139
+--------------------------------------------------------------------------------
+[2025-11-27 11:17:15.363] [Error]
+Category: GenxAi_Solutions_V1.Utils.Middleware.ErrorHandlingMiddleware
+Message: Unhandled exception POST /api/chat/AskAgent 1cb0d6ed-d849-4e18-acd2-526964da53e1. Exception Details: System.InvalidOperationException - Unable to resolve service for type 'GenxAi_Solutions_V1.Services.Interfaces.IVectorSemanticService' while attempting to activate 'GenxAi_Solutions_V1.Api.ChatBotController'. Stack Trace:    at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method33(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at GenxAi_Solutions_V1.Utils.Middleware.ErrorHandlingMiddleware.Invoke(HttpContext context) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions_V1\Utils\Middleware\ErrorHandlingMiddleware.cs:line 139
+Exception Type: System.InvalidOperationException
+Exception Message: Unable to resolve service for type 'GenxAi_Solutions_V1.Services.Interfaces.IVectorSemanticService' while attempting to activate 'GenxAi_Solutions_V1.Api.ChatBotController'.
+Stack Trace:    at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method33(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at GenxAi_Solutions_V1.Utils.Middleware.ErrorHandlingMiddleware.Invoke(HttpContext context) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions_V1\Utils\Middleware\ErrorHandlingMiddleware.cs:line 139
+--------------------------------------------------------------------------------
+[2025-11-27 11:19:59.797] [Error]
+Category: GenxAi_Solutions_V1.Utils.Middleware.ErrorHandlingMiddleware
+Message: Unhandled exception POST /api/chat/AskAgent 5c89f0f9-57d2-43ff-871d-e704f4940866. Exception Details: System.InvalidOperationException - Unable to resolve service for type 'GenxAi_Solutions_V1.Services.Interfaces.IVectorSemanticService' while attempting to activate 'GenxAi_Solutions_V1.Api.ChatBotController'. Stack Trace:    at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method31(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at GenxAi_Solutions_V1.Utils.Middleware.ErrorHandlingMiddleware.Invoke(HttpContext context) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions_V1\Utils\Middleware\ErrorHandlingMiddleware.cs:line 139
+Exception Type: System.InvalidOperationException
+Exception Message: Unable to resolve service for type 'GenxAi_Solutions_V1.Services.Interfaces.IVectorSemanticService' while attempting to activate 'GenxAi_Solutions_V1.Api.ChatBotController'.
+Stack Trace:    at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method31(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at GenxAi_Solutions_V1.Utils.Middleware.ErrorHandlingMiddleware.Invoke(HttpContext context) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions_V1\Utils\Middleware\ErrorHandlingMiddleware.cs:line 139
+--------------------------------------------------------------------------------
+[2025-11-27 11:19:59.801] [Error]
+Category: GenxAi_Solutions_V1.Utils.Middleware.ErrorHandlingMiddleware
+Message: Unhandled exception POST /api/chat/AskAgent 5c89f0f9-57d2-43ff-871d-e704f4940866. Exception Details: System.InvalidOperationException - Unable to resolve service for type 'GenxAi_Solutions_V1.Services.Interfaces.IVectorSemanticService' while attempting to activate 'GenxAi_Solutions_V1.Api.ChatBotController'. Stack Trace:    at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method31(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at GenxAi_Solutions_V1.Utils.Middleware.ErrorHandlingMiddleware.Invoke(HttpContext context) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions_V1\Utils\Middleware\ErrorHandlingMiddleware.cs:line 139
+Exception Type: System.InvalidOperationException
+Exception Message: Unable to resolve service for type 'GenxAi_Solutions_V1.Services.Interfaces.IVectorSemanticService' while attempting to activate 'GenxAi_Solutions_V1.Api.ChatBotController'.
+Stack Trace:    at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method31(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at GenxAi_Solutions_V1.Utils.Middleware.ErrorHandlingMiddleware.Invoke(HttpContext context) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions_V1\Utils\Middleware\ErrorHandlingMiddleware.cs:line 139
+--------------------------------------------------------------------------------
+[2025-11-27 11:30:25.095] [Error]
+Category: GenxAi_Solutions_V1.Services.AuthEventsService
+Message: JWT authentication failed on /api/chat/AskAgent
+Exception Type: Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException
+Exception Message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '11/27/2025 5:58:15 AM', Current time (UTC): '11/27/2025 6:00:25 AM'.
+Stack Trace:    at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+--------------------------------------------------------------------------------
+[2025-11-27 11:30:25.122] [Error]
+Category: GenxAi_Solutions_V1.Services.AuthEventsService
+Message: JWT authentication failed on /api/chat/AskAgent
+Exception Type: Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException
+Exception Message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '11/27/2025 5:58:15 AM', Current time (UTC): '11/27/2025 6:00:25 AM'.
+Stack Trace:    at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+--------------------------------------------------------------------------------
+[2025-11-27 12:02:10.006] [Error]
+Category: GenxAi_Solutions_V1.Services.AuthEventsService
+Message: JWT authentication failed on /api/chat/AskAgent
+Exception Type: Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException
+Exception Message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '11/27/2025 6:15:42 AM', Current time (UTC): '11/27/2025 6:32:09 AM'.
+Stack Trace:    at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+--------------------------------------------------------------------------------
+[2025-11-27 12:02:10.040] [Error]
+Category: GenxAi_Solutions_V1.Services.AuthEventsService
+Message: JWT authentication failed on /api/chat/AskAgent
+Exception Type: Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException
+Exception Message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '11/27/2025 6:15:42 AM', Current time (UTC): '11/27/2025 6:32:09 AM'.
+Stack Trace:    at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+--------------------------------------------------------------------------------
+[2025-11-27 16:42:50.591] [Error]
+Category: GenxAi_Solutions_V1.Services.AuthEventsService
+Message: JWT authentication failed on /api/auth/login
+Exception Type: Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException
+Exception Message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '27-11-2025 10:37:28 AM', Current time (UTC): '27-11-2025 11:12:50 AM'.
+Stack Trace:    at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+--------------------------------------------------------------------------------
+[2025-11-27 16:42:50.653] [Error]
+Category: GenxAi_Solutions_V1.Services.AuthEventsService
+Message: JWT authentication failed on /api/auth/login
+Exception Type: Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException
+Exception Message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '27-11-2025 10:37:28 AM', Current time (UTC): '27-11-2025 11:12:50 AM'.
+Stack Trace:    at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+--------------------------------------------------------------------------------
+[2025-11-27 17:12:26.876] [Error]
+Category: GenxAi_Solutions_V1.Api.SemanticController
+Message: StartAllSeed queued work failed for company 6249
+Exception Type: System.InvalidOperationException
+Exception Message: Vector property 'Embedding' has type 'string' which isn't supported by your provider, and no embedding generator is configured. Configure a generator that supports converting 'string' to vector type supported by your provider.
+Stack Trace:    at Microsoft.Extensions.VectorData.ProviderServices.CollectionModelBuilder.ValidateProperty(PropertyModel propertyModel, VectorStoreCollectionDefinition definition)
+   at Microsoft.Extensions.VectorData.ProviderServices.CollectionModelBuilder.Validate(Type type, VectorStoreCollectionDefinition definition)
+   at Microsoft.Extensions.VectorData.ProviderServices.CollectionModelBuilder.Build(Type type, VectorStoreCollectionDefinition definition, IEmbeddingGenerator defaultEmbeddingGenerator)
+   at Microsoft.SemanticKernel.Connectors.SqliteVec.SqliteCollection`2.<>c.<.ctor>b__12_0(SqliteCollectionOptions options)
+   at Microsoft.SemanticKernel.Connectors.SqliteVec.SqliteCollection`2..ctor(String connectionString, String name, Func`2 modelFactory, SqliteCollectionOptions options)
+   at Microsoft.SemanticKernel.Connectors.SqliteVec.SqliteCollection`2..ctor(String connectionString, String name, SqliteCollectionOptions options)
+   at GenxAi_Solutions_V1.Services.VectorStoreFactory.PdfCreate_New(String dbName) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions_V1\Services\VectorStoreFactory.cs:line 112
+   at GenxAi_Solutions_V1.Services.VectorStoreSeedService.IngestPdfAsyncNew(String filePath, String sqliteDbPath, String collectionPrefix) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions_V1\Services\VectorStoreSeedService.cs:line 453
+   at GenxAi_Solutions_V1.Services.SemanticSeeder.RunSeedPDFAsync_New(Int32 companyId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions_V1\Services\SemanticSeeder.cs:line 378
+   at GenxAi_Solutions_V1.Services.SemanticSeeder.RunSeedPDFAsync_New(Int32 companyId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions_V1\Services\SemanticSeeder.cs:line 441
+   at GenxAi_Solutions_V1.Api.SemanticController.<>c__DisplayClass7_0.<<StartAllSeed>b__0>d.MoveNext() in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions_V1\Api\SemanticController.cs:line 81
+--------------------------------------------------------------------------------
+[2025-11-27 17:12:26.942] [Error]
+Category: GenxAi_Solutions_V1.Api.SemanticController
+Message: StartAllSeed queued work failed for company 6249
+Exception Type: System.InvalidOperationException
+Exception Message: Vector property 'Embedding' has type 'string' which isn't supported by your provider, and no embedding generator is configured. Configure a generator that supports converting 'string' to vector type supported by your provider.
+Stack Trace:    at Microsoft.Extensions.VectorData.ProviderServices.CollectionModelBuilder.ValidateProperty(PropertyModel propertyModel, VectorStoreCollectionDefinition definition)
+   at Microsoft.Extensions.VectorData.ProviderServices.CollectionModelBuilder.Validate(Type type, VectorStoreCollectionDefinition definition)
+   at Microsoft.Extensions.VectorData.ProviderServices.CollectionModelBuilder.Build(Type type, VectorStoreCollectionDefinition definition, IEmbeddingGenerator defaultEmbeddingGenerator)
+   at Microsoft.SemanticKernel.Connectors.SqliteVec.SqliteCollection`2.<>c.<.ctor>b__12_0(SqliteCollectionOptions options)
+   at Microsoft.SemanticKernel.Connectors.SqliteVec.SqliteCollection`2..ctor(String connectionString, String name, Func`2 modelFactory, SqliteCollectionOptions options)
+   at Microsoft.SemanticKernel.Connectors.SqliteVec.SqliteCollection`2..ctor(String connectionString, String name, SqliteCollectionOptions options)
+   at GenxAi_Solutions_V1.Services.VectorStoreFactory.PdfCreate_New(String dbName) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions_V1\Services\VectorStoreFactory.cs:line 112
+   at GenxAi_Solutions_V1.Services.VectorStoreSeedService.IngestPdfAsyncNew(String filePath, String sqliteDbPath, String collectionPrefix) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions_V1\Services\VectorStoreSeedService.cs:line 453
+   at GenxAi_Solutions_V1.Services.SemanticSeeder.RunSeedPDFAsync_New(Int32 companyId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions_V1\Services\SemanticSeeder.cs:line 378
+   at GenxAi_Solutions_V1.Services.SemanticSeeder.RunSeedPDFAsync_New(Int32 companyId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions_V1\Services\SemanticSeeder.cs:line 441
+   at GenxAi_Solutions_V1.Api.SemanticController.<>c__DisplayClass7_0.<<StartAllSeed>b__0>d.MoveNext() in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions_V1\Api\SemanticController.cs:line 81
+--------------------------------------------------------------------------------
+[2025-11-27 17:12:27.030] [Error]
+Category: GenxAi_Solutions_V1.Services.Background.QueuedWorker
+Message: Job 728b52f2-7da6-4b96-9391-5fc1b4c0ca25 failed for company 6249.
+Exception Type: System.InvalidOperationException
+Exception Message: Vector property 'Embedding' has type 'string' which isn't supported by your provider, and no embedding generator is configured. Configure a generator that supports converting 'string' to vector type supported by your provider.
+Stack Trace:    at Microsoft.Extensions.VectorData.ProviderServices.CollectionModelBuilder.ValidateProperty(PropertyModel propertyModel, VectorStoreCollectionDefinition definition)
+   at Microsoft.Extensions.VectorData.ProviderServices.CollectionModelBuilder.Validate(Type type, VectorStoreCollectionDefinition definition)
+   at Microsoft.Extensions.VectorData.ProviderServices.CollectionModelBuilder.Build(Type type, VectorStoreCollectionDefinition definition, IEmbeddingGenerator defaultEmbeddingGenerator)
+   at Microsoft.SemanticKernel.Connectors.SqliteVec.SqliteCollection`2.<>c.<.ctor>b__12_0(SqliteCollectionOptions options)
+   at Microsoft.SemanticKernel.Connectors.SqliteVec.SqliteCollection`2..ctor(String connectionString, String name, Func`2 modelFactory, SqliteCollectionOptions options)
+   at Microsoft.SemanticKernel.Connectors.SqliteVec.SqliteCollection`2..ctor(String connectionString, String name, SqliteCollectionOptions options)
+   at GenxAi_Solutions_V1.Services.VectorStoreFactory.PdfCreate_New(String dbName) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions_V1\Services\VectorStoreFactory.cs:line 112
+   at GenxAi_Solutions_V1.Services.VectorStoreSeedService.IngestPdfAsyncNew(String filePath, String sqliteDbPath, String collectionPrefix) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions_V1\Services\VectorStoreSeedService.cs:line 453
+   at GenxAi_Solutions_V1.Services.SemanticSeeder.RunSeedPDFAsync_New(Int32 companyId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions_V1\Services\SemanticSeeder.cs:line 378
+   at GenxAi_Solutions_V1.Services.SemanticSeeder.RunSeedPDFAsync_New(Int32 companyId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions_V1\Services\SemanticSeeder.cs:line 441
+   at GenxAi_Solutions_V1.Api.SemanticController.<>c__DisplayClass7_0.<<StartAllSeed>b__0>d.MoveNext() in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions_V1\Api\SemanticController.cs:line 81
+--- End of stack trace from previous location ---
+   at GenxAi_Solutions_V1.Services.Background.QueuedWorker.ExecuteAsync(CancellationToken stoppingToken) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions_V1\Services\Background\QueuedWorker.cs:line 201
+--------------------------------------------------------------------------------
+[2025-11-27 17:12:27.049] [Error]
+Category: GenxAi_Solutions_V1.Services.Background.QueuedWorker
+Message: Job 728b52f2-7da6-4b96-9391-5fc1b4c0ca25 failed for company 6249.
+Exception Type: System.InvalidOperationException
+Exception Message: Vector property 'Embedding' has type 'string' which isn't supported by your provider, and no embedding generator is configured. Configure a generator that supports converting 'string' to vector type supported by your provider.
+Stack Trace:    at Microsoft.Extensions.VectorData.ProviderServices.CollectionModelBuilder.ValidateProperty(PropertyModel propertyModel, VectorStoreCollectionDefinition definition)
+   at Microsoft.Extensions.VectorData.ProviderServices.CollectionModelBuilder.Validate(Type type, VectorStoreCollectionDefinition definition)
+   at Microsoft.Extensions.VectorData.ProviderServices.CollectionModelBuilder.Build(Type type, VectorStoreCollectionDefinition definition, IEmbeddingGenerator defaultEmbeddingGenerator)
+   at Microsoft.SemanticKernel.Connectors.SqliteVec.SqliteCollection`2.<>c.<.ctor>b__12_0(SqliteCollectionOptions options)
+   at Microsoft.SemanticKernel.Connectors.SqliteVec.SqliteCollection`2..ctor(String connectionString, String name, Func`2 modelFactory, SqliteCollectionOptions options)
+   at Microsoft.SemanticKernel.Connectors.SqliteVec.SqliteCollection`2..ctor(String connectionString, String name, SqliteCollectionOptions options)
+   at GenxAi_Solutions_V1.Services.VectorStoreFactory.PdfCreate_New(String dbName) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions_V1\Services\VectorStoreFactory.cs:line 112
+   at GenxAi_Solutions_V1.Services.VectorStoreSeedService.IngestPdfAsyncNew(String filePath, String sqliteDbPath, String collectionPrefix) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions_V1\Services\VectorStoreSeedService.cs:line 453
+   at GenxAi_Solutions_V1.Services.SemanticSeeder.RunSeedPDFAsync_New(Int32 companyId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions_V1\Services\SemanticSeeder.cs:line 378
+   at GenxAi_Solutions_V1.Services.SemanticSeeder.RunSeedPDFAsync_New(Int32 companyId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions_V1\Services\SemanticSeeder.cs:line 441
+   at GenxAi_Solutions_V1.Api.SemanticController.<>c__DisplayClass7_0.<<StartAllSeed>b__0>d.MoveNext() in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions_V1\Api\SemanticController.cs:line 81
+--- End of stack trace from previous location ---
+   at GenxAi_Solutions_V1.Services.Background.QueuedWorker.ExecuteAsync(CancellationToken stoppingToken) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions_V1\Services\Background\QueuedWorker.cs:line 201
+--------------------------------------------------------------------------------
+[2025-11-27 17:21:25.558] [Error]
+Category: GenxAi_Solutions_V1.Services.Background.QueuedWorker
+Message: Job 113cb5ca-e4d8-4228-b499-b81e61d3867c failed for company 6250.
+Exception Type: System.ClientModel.ClientResultException
+Exception Message: HTTP 400 (invalid_request_error: )
+
+This model's maximum context length is 8192 tokens, however you requested 13949 tokens (13949 in your prompt; 0 for the completion). Please reduce your prompt; or completion length.
+Stack Trace:    at OpenAI.ClientPipelineExtensions.ProcessMessageAsync(ClientPipeline pipeline, PipelineMessage message, RequestOptions options)
+   at OpenAI.Embeddings.EmbeddingClient.GenerateEmbeddingsAsync(BinaryContent content, RequestOptions options)
+   at OpenAI.Embeddings.EmbeddingClient.GenerateEmbeddingsAsync(IEnumerable`1 inputs, EmbeddingGenerationOptions options, RequestOptions requestOptions)
+   at Microsoft.Extensions.AI.OpenAIEmbeddingGenerator.GenerateAsync(IEnumerable`1 values, EmbeddingGenerationOptions options, CancellationToken cancellationToken)
+   at Microsoft.Extensions.AI.EmbeddingGeneratorExtensions.GenerateAsync[TInput,TEmbedding](IEmbeddingGenerator`2 generator, TInput value, EmbeddingGenerationOptions options, CancellationToken cancellationToken)
+   at Microsoft.SemanticKernel.Connectors.SqliteVec.SqliteCollection`2.UpsertAsync(TRecord record, CancellationToken cancellationToken)
+   at GenxAi_Solutions_V1.Services.VectorStoreSeedService.IngestPdfAsyncNew(String filePath, String sqliteDbPath, String collectionPrefix) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions_V1\Services\VectorStoreSeedService.cs:line 483
+   at GenxAi_Solutions_V1.Services.SemanticSeeder.RunSeedPDFAsync_New(Int32 companyId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions_V1\Services\SemanticSeeder.cs:line 378
+   at GenxAi_Solutions_V1.Services.SemanticSeeder.RunSeedPDFAsync_New(Int32 companyId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions_V1\Services\SemanticSeeder.cs:line 441
+   at GenxAi_Solutions_V1.Services.Background.QueuedWorker.ExecuteAsync(CancellationToken stoppingToken) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions_V1\Services\Background\QueuedWorker.cs:line 201
+--------------------------------------------------------------------------------
+[2025-11-27 17:21:25.611] [Error]
+Category: GenxAi_Solutions_V1.Services.Background.QueuedWorker
+Message: Job 113cb5ca-e4d8-4228-b499-b81e61d3867c failed for company 6250.
+Exception Type: System.ClientModel.ClientResultException
+Exception Message: HTTP 400 (invalid_request_error: )
+
+This model's maximum context length is 8192 tokens, however you requested 13949 tokens (13949 in your prompt; 0 for the completion). Please reduce your prompt; or completion length.
+Stack Trace:    at OpenAI.ClientPipelineExtensions.ProcessMessageAsync(ClientPipeline pipeline, PipelineMessage message, RequestOptions options)
+   at OpenAI.Embeddings.EmbeddingClient.GenerateEmbeddingsAsync(BinaryContent content, RequestOptions options)
+   at OpenAI.Embeddings.EmbeddingClient.GenerateEmbeddingsAsync(IEnumerable`1 inputs, EmbeddingGenerationOptions options, RequestOptions requestOptions)
+   at Microsoft.Extensions.AI.OpenAIEmbeddingGenerator.GenerateAsync(IEnumerable`1 values, EmbeddingGenerationOptions options, CancellationToken cancellationToken)
+   at Microsoft.Extensions.AI.EmbeddingGeneratorExtensions.GenerateAsync[TInput,TEmbedding](IEmbeddingGenerator`2 generator, TInput value, EmbeddingGenerationOptions options, CancellationToken cancellationToken)
+   at Microsoft.SemanticKernel.Connectors.SqliteVec.SqliteCollection`2.UpsertAsync(TRecord record, CancellationToken cancellationToken)
+   at GenxAi_Solutions_V1.Services.VectorStoreSeedService.IngestPdfAsyncNew(String filePath, String sqliteDbPath, String collectionPrefix) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions_V1\Services\VectorStoreSeedService.cs:line 483
+   at GenxAi_Solutions_V1.Services.SemanticSeeder.RunSeedPDFAsync_New(Int32 companyId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions_V1\Services\SemanticSeeder.cs:line 378
+   at GenxAi_Solutions_V1.Services.SemanticSeeder.RunSeedPDFAsync_New(Int32 companyId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions_V1\Services\SemanticSeeder.cs:line 441
+   at GenxAi_Solutions_V1.Services.Background.QueuedWorker.ExecuteAsync(CancellationToken stoppingToken) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions_V1\Services\Background\QueuedWorker.cs:line 201
+--------------------------------------------------------------------------------
+[2025-11-27 17:34:32.720] [Error]
+Category: GenxAi_Solutions_V1.Services.AuthEventsService
+Message: JWT authentication failed on /api/auth/login
+Exception Type: Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException
+Exception Message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '27-11-2025 12:02:07 PM', Current time (UTC): '27-11-2025 12:04:32 PM'.
+Stack Trace:    at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+--------------------------------------------------------------------------------
+[2025-11-27 17:34:32.753] [Error]
+Category: GenxAi_Solutions_V1.Services.AuthEventsService
+Message: JWT authentication failed on /api/auth/login
+Exception Type: Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException
+Exception Message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '27-11-2025 12:02:07 PM', Current time (UTC): '27-11-2025 12:04:32 PM'.
+Stack Trace:    at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+--------------------------------------------------------------------------------

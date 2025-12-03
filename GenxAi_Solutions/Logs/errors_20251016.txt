@@ -1,0 +1,598 @@
+﻿[2025-10-16 12:38:23.089] [Error]
+Category: GenxAi_Solutions.Api.NotificationsController
+Message: GetUnread failed. afterId=(null)
+Exception Type: System.Threading.Tasks.TaskCanceledException
+Exception Message: A task was canceled.
+Stack Trace:    at GenxAi_Solutions.Services.NotificationStore.GetUnreadAfterIdAllAsync(Int32 userId, IReadOnlyList`1 companyIds, Nullable`1 afterId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Services\NotificationStore.cs:line 77
+   at GenxAi_Solutions.Services.NotificationStore.GetUnreadAfterIdAllAsync(Int32 userId, IReadOnlyList`1 companyIds, Nullable`1 afterId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Services\NotificationStore.cs:line 131
+   at GenxAi_Solutions.Api.NotificationsController.GetUnread(Nullable`1 afterId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Api\NotificationsController.cs:line 27
+--------------------------------------------------------------------------------
+[2025-10-16 12:38:23.212] [Error]
+Category: GenxAi_Solutions.Api.NotificationsController
+Message: GetUnread failed. afterId=(null)
+Exception Type: System.Threading.Tasks.TaskCanceledException
+Exception Message: A task was canceled.
+Stack Trace:    at GenxAi_Solutions.Services.NotificationStore.GetUnreadAfterIdAllAsync(Int32 userId, IReadOnlyList`1 companyIds, Nullable`1 afterId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Services\NotificationStore.cs:line 77
+   at GenxAi_Solutions.Services.NotificationStore.GetUnreadAfterIdAllAsync(Int32 userId, IReadOnlyList`1 companyIds, Nullable`1 afterId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Services\NotificationStore.cs:line 131
+   at GenxAi_Solutions.Api.NotificationsController.GetUnread(Nullable`1 afterId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Api\NotificationsController.cs:line 27
+--------------------------------------------------------------------------------
+[2025-10-16 13:36:46.088] [Error]
+Category: GenxAi_Solutions.Api.NotificationsController
+Message: GetUnread failed. afterId=(null)
+Exception Type: System.Threading.Tasks.TaskCanceledException
+Exception Message: A task was canceled.
+Stack Trace:    at GenxAi_Solutions.Services.NotificationStore.GetUnreadAfterIdAllAsync(Int32 userId, IReadOnlyList`1 companyIds, Nullable`1 afterId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Services\NotificationStore.cs:line 77
+   at GenxAi_Solutions.Services.NotificationStore.GetUnreadAfterIdAllAsync(Int32 userId, IReadOnlyList`1 companyIds, Nullable`1 afterId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Services\NotificationStore.cs:line 131
+   at GenxAi_Solutions.Api.NotificationsController.GetUnread(Nullable`1 afterId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Api\NotificationsController.cs:line 27
+--------------------------------------------------------------------------------
+[2025-10-16 13:36:46.102] [Error]
+Category: GenxAi_Solutions.Api.NotificationsController
+Message: GetUnread failed. afterId=(null)
+Exception Type: System.Threading.Tasks.TaskCanceledException
+Exception Message: A task was canceled.
+Stack Trace:    at GenxAi_Solutions.Services.NotificationStore.GetUnreadAfterIdAllAsync(Int32 userId, IReadOnlyList`1 companyIds, Nullable`1 afterId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Services\NotificationStore.cs:line 77
+   at GenxAi_Solutions.Services.NotificationStore.GetUnreadAfterIdAllAsync(Int32 userId, IReadOnlyList`1 companyIds, Nullable`1 afterId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Services\NotificationStore.cs:line 131
+   at GenxAi_Solutions.Api.NotificationsController.GetUnread(Nullable`1 afterId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Api\NotificationsController.cs:line 27
+--------------------------------------------------------------------------------
+[2025-10-16 14:05:16.128] [Error]
+Category: GenxAi_Solutions.Api.NotificationsController
+Message: GetUnread failed. afterId=(null)
+Exception Type: System.Threading.Tasks.TaskCanceledException
+Exception Message: A task was canceled.
+Stack Trace:    at GenxAi_Solutions.Services.NotificationStore.GetUnreadAfterIdAllAsync(Int32 userId, IReadOnlyList`1 companyIds, Nullable`1 afterId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Services\NotificationStore.cs:line 77
+   at GenxAi_Solutions.Services.NotificationStore.GetUnreadAfterIdAllAsync(Int32 userId, IReadOnlyList`1 companyIds, Nullable`1 afterId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Services\NotificationStore.cs:line 131
+   at GenxAi_Solutions.Api.NotificationsController.GetUnread(Nullable`1 afterId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Api\NotificationsController.cs:line 27
+--------------------------------------------------------------------------------
+[2025-10-16 14:05:16.194] [Error]
+Category: GenxAi_Solutions.Api.NotificationsController
+Message: GetUnread failed. afterId=(null)
+Exception Type: System.Threading.Tasks.TaskCanceledException
+Exception Message: A task was canceled.
+Stack Trace:    at GenxAi_Solutions.Services.NotificationStore.GetUnreadAfterIdAllAsync(Int32 userId, IReadOnlyList`1 companyIds, Nullable`1 afterId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Services\NotificationStore.cs:line 77
+   at GenxAi_Solutions.Services.NotificationStore.GetUnreadAfterIdAllAsync(Int32 userId, IReadOnlyList`1 companyIds, Nullable`1 afterId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Services\NotificationStore.cs:line 131
+   at GenxAi_Solutions.Api.NotificationsController.GetUnread(Nullable`1 afterId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Api\NotificationsController.cs:line 27
+--------------------------------------------------------------------------------
+[2025-10-16 14:06:48.795] [Error]
+Category: GenxAi_Solutions.Api.NotificationsController
+Message: GetUnread failed. afterId=(null)
+Exception Type: System.Threading.Tasks.TaskCanceledException
+Exception Message: A task was canceled.
+Stack Trace:    at GenxAi_Solutions.Services.NotificationStore.GetUnreadAfterIdAllAsync(Int32 userId, IReadOnlyList`1 companyIds, Nullable`1 afterId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Services\NotificationStore.cs:line 77
+   at GenxAi_Solutions.Services.NotificationStore.GetUnreadAfterIdAllAsync(Int32 userId, IReadOnlyList`1 companyIds, Nullable`1 afterId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Services\NotificationStore.cs:line 131
+   at GenxAi_Solutions.Api.NotificationsController.GetUnread(Nullable`1 afterId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Api\NotificationsController.cs:line 27
+--------------------------------------------------------------------------------
+[2025-10-16 14:06:48.801] [Error]
+Category: GenxAi_Solutions.Api.NotificationsController
+Message: GetUnread failed. afterId=(null)
+Exception Type: System.Threading.Tasks.TaskCanceledException
+Exception Message: A task was canceled.
+Stack Trace:    at GenxAi_Solutions.Services.NotificationStore.GetUnreadAfterIdAllAsync(Int32 userId, IReadOnlyList`1 companyIds, Nullable`1 afterId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Services\NotificationStore.cs:line 77
+   at GenxAi_Solutions.Services.NotificationStore.GetUnreadAfterIdAllAsync(Int32 userId, IReadOnlyList`1 companyIds, Nullable`1 afterId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Services\NotificationStore.cs:line 131
+   at GenxAi_Solutions.Api.NotificationsController.GetUnread(Nullable`1 afterId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Api\NotificationsController.cs:line 27
+--------------------------------------------------------------------------------
+[2025-10-16 15:35:59.780] [Error]
+Category: GenxAi_Solutions.Api.NotificationsController
+Message: GetUnread failed. afterId=(null)
+Exception Type: System.Threading.Tasks.TaskCanceledException
+Exception Message: A task was canceled.
+Stack Trace:    at GenxAi_Solutions.Services.NotificationStore.GetUnreadAfterIdAllAsync(Int32 userId, IReadOnlyList`1 companyIds, Nullable`1 afterId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Services\NotificationStore.cs:line 77
+   at GenxAi_Solutions.Services.NotificationStore.GetUnreadAfterIdAllAsync(Int32 userId, IReadOnlyList`1 companyIds, Nullable`1 afterId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Services\NotificationStore.cs:line 131
+   at GenxAi_Solutions.Api.NotificationsController.GetUnread(Nullable`1 afterId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Api\NotificationsController.cs:line 27
+--------------------------------------------------------------------------------
+[2025-10-16 15:35:59.781] [Error]
+Category: GenxAi_Solutions.Api.NotificationsController
+Message: GetUnread failed. afterId=(null)
+Exception Type: System.Threading.Tasks.TaskCanceledException
+Exception Message: A task was canceled.
+Stack Trace:    at GenxAi_Solutions.Services.NotificationStore.GetUnreadAfterIdAllAsync(Int32 userId, IReadOnlyList`1 companyIds, Nullable`1 afterId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Services\NotificationStore.cs:line 77
+   at GenxAi_Solutions.Services.NotificationStore.GetUnreadAfterIdAllAsync(Int32 userId, IReadOnlyList`1 companyIds, Nullable`1 afterId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Services\NotificationStore.cs:line 131
+   at GenxAi_Solutions.Api.NotificationsController.GetUnread(Nullable`1 afterId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Api\NotificationsController.cs:line 27
+--------------------------------------------------------------------------------
+[2025-10-16 15:42:50.928] [Error]
+Category: GenxAi_Solutions.Api.NotificationsController
+Message: GetUnread failed. afterId=(null)
+Exception Type: System.Threading.Tasks.TaskCanceledException
+Exception Message: A task was canceled.
+Stack Trace:    at GenxAi_Solutions.Services.NotificationStore.GetUnreadAfterIdAllAsync(Int32 userId, IReadOnlyList`1 companyIds, Nullable`1 afterId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Services\NotificationStore.cs:line 77
+   at GenxAi_Solutions.Services.NotificationStore.GetUnreadAfterIdAllAsync(Int32 userId, IReadOnlyList`1 companyIds, Nullable`1 afterId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Services\NotificationStore.cs:line 131
+   at GenxAi_Solutions.Api.NotificationsController.GetUnread(Nullable`1 afterId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Api\NotificationsController.cs:line 27
+--------------------------------------------------------------------------------
+[2025-10-16 15:42:50.930] [Error]
+Category: GenxAi_Solutions.Api.NotificationsController
+Message: GetUnread failed. afterId=(null)
+Exception Type: System.Threading.Tasks.TaskCanceledException
+Exception Message: A task was canceled.
+Stack Trace:    at GenxAi_Solutions.Services.NotificationStore.GetUnreadAfterIdAllAsync(Int32 userId, IReadOnlyList`1 companyIds, Nullable`1 afterId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Services\NotificationStore.cs:line 77
+   at GenxAi_Solutions.Services.NotificationStore.GetUnreadAfterIdAllAsync(Int32 userId, IReadOnlyList`1 companyIds, Nullable`1 afterId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Services\NotificationStore.cs:line 131
+   at GenxAi_Solutions.Api.NotificationsController.GetUnread(Nullable`1 afterId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Api\NotificationsController.cs:line 27
+--------------------------------------------------------------------------------
+[2025-10-16 16:09:23.653] [Error]
+Category: GenxAi_Solutions.Api.NotificationsController
+Message: GetUnread failed. afterId=(null)
+Exception Type: Microsoft.Data.SqlClient.SqlException
+Exception Message: Connection Timeout Expired.  The timeout period elapsed while attempting to consume the pre-login handshake acknowledgement.  This could be because the pre-login handshake failed or the server was unable to respond back in time.  The duration spent while attempting to connect to this server was - [Pre-Login] initialization=4550; handshake=10484; 
+Stack Trace:    at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, SqlCommand command, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParserStateObject.ThrowExceptionAndWarning(Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParserStateObject.ReadSniError(TdsParserStateObject stateObj, UInt32 error)
+   at Microsoft.Data.SqlClient.TdsParserStateObject.ReadSniSyncOverAsync()
+   at Microsoft.Data.SqlClient.TdsParser.ConsumePreLoginHandshake(SqlConnectionEncryptOption encrypt, Boolean trustServerCert, Boolean integratedSecurity, Boolean& marsCapable, Boolean& fedAuthRequired, Boolean tlsFirst, String serverCertificateFilename)
+   at Microsoft.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, TimeoutTimer timeout, SqlConnectionString connectionOptions, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, IDbConnectionPool pool, Func`3 accessTokenCallback)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionPoolGroupProviderInfo poolGroupProviderInfo, IDbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.<>c__DisplayClass28_0.<CreateReplaceConnectionContinuation>b__0(Task`1 _)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at GenxAi_Solutions.Services.NotificationStore.GetUnreadAfterIdAllAsync(Int32 userId, IReadOnlyList`1 companyIds, Nullable`1 afterId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Services\NotificationStore.cs:line 77
+   at GenxAi_Solutions.Services.NotificationStore.GetUnreadAfterIdAllAsync(Int32 userId, IReadOnlyList`1 companyIds, Nullable`1 afterId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Services\NotificationStore.cs:line 131
+   at GenxAi_Solutions.Api.NotificationsController.GetUnread(Nullable`1 afterId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Api\NotificationsController.cs:line 27
+Inner Exception: System.ComponentModel.Win32Exception (258): The wait operation timed out.
+--------------------------------------------------------------------------------
+[2025-10-16 16:09:23.659] [Error]
+Category: GenxAi_Solutions.Api.NotificationsController
+Message: GetUnread failed. afterId=(null)
+Exception Type: Microsoft.Data.SqlClient.SqlException
+Exception Message: Connection Timeout Expired.  The timeout period elapsed while attempting to consume the pre-login handshake acknowledgement.  This could be because the pre-login handshake failed or the server was unable to respond back in time.  The duration spent while attempting to connect to this server was - [Pre-Login] initialization=4550; handshake=10484; 
+Stack Trace:    at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, SqlCommand command, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParserStateObject.ThrowExceptionAndWarning(Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParserStateObject.ReadSniError(TdsParserStateObject stateObj, UInt32 error)
+   at Microsoft.Data.SqlClient.TdsParserStateObject.ReadSniSyncOverAsync()
+   at Microsoft.Data.SqlClient.TdsParser.ConsumePreLoginHandshake(SqlConnectionEncryptOption encrypt, Boolean trustServerCert, Boolean integratedSecurity, Boolean& marsCapable, Boolean& fedAuthRequired, Boolean tlsFirst, String serverCertificateFilename)
+   at Microsoft.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, TimeoutTimer timeout, SqlConnectionString connectionOptions, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, IDbConnectionPool pool, Func`3 accessTokenCallback)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionPoolGroupProviderInfo poolGroupProviderInfo, IDbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.<>c__DisplayClass28_0.<CreateReplaceConnectionContinuation>b__0(Task`1 _)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at GenxAi_Solutions.Services.NotificationStore.GetUnreadAfterIdAllAsync(Int32 userId, IReadOnlyList`1 companyIds, Nullable`1 afterId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Services\NotificationStore.cs:line 77
+   at GenxAi_Solutions.Services.NotificationStore.GetUnreadAfterIdAllAsync(Int32 userId, IReadOnlyList`1 companyIds, Nullable`1 afterId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Services\NotificationStore.cs:line 131
+   at GenxAi_Solutions.Api.NotificationsController.GetUnread(Nullable`1 afterId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Api\NotificationsController.cs:line 27
+Inner Exception: System.ComponentModel.Win32Exception (258): The wait operation timed out.
+--------------------------------------------------------------------------------
+[2025-10-16 16:09:36.977] [Error]
+Category: GenxAi_Solutions.Api.NotificationsController
+Message: GetUnread failed. afterId=(null)
+Exception Type: System.Threading.Tasks.TaskCanceledException
+Exception Message: A task was canceled.
+Stack Trace:    at GenxAi_Solutions.Services.NotificationStore.GetUnreadAfterIdAllAsync(Int32 userId, IReadOnlyList`1 companyIds, Nullable`1 afterId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Services\NotificationStore.cs:line 77
+   at GenxAi_Solutions.Services.NotificationStore.GetUnreadAfterIdAllAsync(Int32 userId, IReadOnlyList`1 companyIds, Nullable`1 afterId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Services\NotificationStore.cs:line 131
+   at GenxAi_Solutions.Api.NotificationsController.GetUnread(Nullable`1 afterId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Api\NotificationsController.cs:line 27
+--------------------------------------------------------------------------------
+[2025-10-16 16:09:36.978] [Error]
+Category: GenxAi_Solutions.Api.NotificationsController
+Message: GetUnread failed. afterId=(null)
+Exception Type: System.Threading.Tasks.TaskCanceledException
+Exception Message: A task was canceled.
+Stack Trace:    at GenxAi_Solutions.Services.NotificationStore.GetUnreadAfterIdAllAsync(Int32 userId, IReadOnlyList`1 companyIds, Nullable`1 afterId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Services\NotificationStore.cs:line 77
+   at GenxAi_Solutions.Services.NotificationStore.GetUnreadAfterIdAllAsync(Int32 userId, IReadOnlyList`1 companyIds, Nullable`1 afterId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Services\NotificationStore.cs:line 131
+   at GenxAi_Solutions.Api.NotificationsController.GetUnread(Nullable`1 afterId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Api\NotificationsController.cs:line 27
+--------------------------------------------------------------------------------
+[2025-10-16 16:09:52.309] [Error]
+Category: GenxAi_Solutions.Api.NotificationsController
+Message: GetUnread failed. afterId=(null)
+Exception Type: Microsoft.Data.SqlClient.SqlException
+Exception Message: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 0 - The wait operation timed out.)
+Stack Trace:    at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, SqlCommand command, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, TimeoutTimer timeout, SqlConnectionString connectionOptions, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, IDbConnectionPool pool, Func`3 accessTokenCallback)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionPoolGroupProviderInfo poolGroupProviderInfo, IDbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.<>c__DisplayClass28_0.<CreateReplaceConnectionContinuation>b__0(Task`1 _)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at GenxAi_Solutions.Services.NotificationStore.GetUnreadAfterIdAllAsync(Int32 userId, IReadOnlyList`1 companyIds, Nullable`1 afterId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Services\NotificationStore.cs:line 77
+   at GenxAi_Solutions.Services.NotificationStore.GetUnreadAfterIdAllAsync(Int32 userId, IReadOnlyList`1 companyIds, Nullable`1 afterId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Services\NotificationStore.cs:line 131
+   at GenxAi_Solutions.Api.NotificationsController.GetUnread(Nullable`1 afterId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Api\NotificationsController.cs:line 27
+Inner Exception: System.ComponentModel.Win32Exception (258): The wait operation timed out.
+--------------------------------------------------------------------------------
+[2025-10-16 16:09:52.343] [Error]
+Category: GenxAi_Solutions.Api.NotificationsController
+Message: GetUnread failed. afterId=(null)
+Exception Type: Microsoft.Data.SqlClient.SqlException
+Exception Message: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 0 - The wait operation timed out.)
+Stack Trace:    at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, SqlCommand command, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, TimeoutTimer timeout, SqlConnectionString connectionOptions, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, IDbConnectionPool pool, Func`3 accessTokenCallback)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionPoolGroupProviderInfo poolGroupProviderInfo, IDbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.<>c__DisplayClass28_0.<CreateReplaceConnectionContinuation>b__0(Task`1 _)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at GenxAi_Solutions.Services.NotificationStore.GetUnreadAfterIdAllAsync(Int32 userId, IReadOnlyList`1 companyIds, Nullable`1 afterId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Services\NotificationStore.cs:line 77
+   at GenxAi_Solutions.Services.NotificationStore.GetUnreadAfterIdAllAsync(Int32 userId, IReadOnlyList`1 companyIds, Nullable`1 afterId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Services\NotificationStore.cs:line 131
+   at GenxAi_Solutions.Api.NotificationsController.GetUnread(Nullable`1 afterId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Api\NotificationsController.cs:line 27
+Inner Exception: System.ComponentModel.Win32Exception (258): The wait operation timed out.
+--------------------------------------------------------------------------------
+[2025-10-16 16:09:52.569] [Error]
+Category: GenxAi_Solutions.Api.CompanyOnboardController
+Message: Error in GetAllCompanyList API - User: suchita.gome@genxai.com, CorrelationId: eeb686b9-379b-474f-833f-0f1853fad702, Error: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 0 - The wait operation timed out.)
+Exception Type: Microsoft.Data.SqlClient.SqlException
+Exception Message: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 0 - The wait operation timed out.)
+Stack Trace:    at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, SqlCommand command, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, TimeoutTimer timeout, SqlConnectionString connectionOptions, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, IDbConnectionPool pool, Func`3 accessTokenCallback)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionPoolGroupProviderInfo poolGroupProviderInfo, IDbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.<>c__DisplayClass28_0.<CreateReplaceConnectionContinuation>b__0(Task`1 _)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Dapper.SqlMapper.QueryMultipleAsync(IDbConnection cnn, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 1040
+   at DAL.CrudOperations.CRUDOperations.GetListddl[T](String storedProcedureName, Object parameters) in D:\SG_IMP\GenxAi_Solutions\DAL\CrudOperations\CRUDOperations.cs:line 308
+   at DAL.CompanyProfileDAL.GetAllCompanyList() in D:\SG_IMP\GenxAi_Solutions\DAL\CompanyProfileDAL.cs:line 142
+   at BAL.CompanyProfileBAL.GetAllCompanyList() in D:\SG_IMP\GenxAi_Solutions\BAL\CompanyProfileBAL.cs:line 163
+   at GenxAi_Solutions.Api.CompanyOnboardController.GetAllCompanyList() in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Api\CompanyOnboardController.cs:line 1987
+Inner Exception: System.ComponentModel.Win32Exception (258): The wait operation timed out.
+--------------------------------------------------------------------------------
+[2025-10-16 16:09:52.693] [Error]
+Category: GenxAi_Solutions.Api.CompanyOnboardController
+Message: Error in GetAllCompanyList API - User: suchita.gome@genxai.com, CorrelationId: eeb686b9-379b-474f-833f-0f1853fad702, Error: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 0 - The wait operation timed out.)
+Exception Type: Microsoft.Data.SqlClient.SqlException
+Exception Message: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 0 - The wait operation timed out.)
+Stack Trace:    at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, SqlCommand command, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, TimeoutTimer timeout, SqlConnectionString connectionOptions, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, IDbConnectionPool pool, Func`3 accessTokenCallback)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionPoolGroupProviderInfo poolGroupProviderInfo, IDbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.<>c__DisplayClass28_0.<CreateReplaceConnectionContinuation>b__0(Task`1 _)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Dapper.SqlMapper.QueryMultipleAsync(IDbConnection cnn, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 1040
+   at DAL.CrudOperations.CRUDOperations.GetListddl[T](String storedProcedureName, Object parameters) in D:\SG_IMP\GenxAi_Solutions\DAL\CrudOperations\CRUDOperations.cs:line 308
+   at DAL.CompanyProfileDAL.GetAllCompanyList() in D:\SG_IMP\GenxAi_Solutions\DAL\CompanyProfileDAL.cs:line 142
+   at BAL.CompanyProfileBAL.GetAllCompanyList() in D:\SG_IMP\GenxAi_Solutions\BAL\CompanyProfileBAL.cs:line 163
+   at GenxAi_Solutions.Api.CompanyOnboardController.GetAllCompanyList() in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Api\CompanyOnboardController.cs:line 1987
+Inner Exception: System.ComponentModel.Win32Exception (258): The wait operation timed out.
+--------------------------------------------------------------------------------
+[2025-10-16 16:09:52.709] [Error]
+Category: GenxAi_Solutions.Utils.Middleware.ErrorHandlingMiddleware
+Message: Unhandled exception POST /api/auth/getmenu 79a87503-c179-424b-843e-628c4e92f6da. Exception Details: Microsoft.Data.SqlClient.SqlException - A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 0 - The wait operation timed out.) Stack Trace:    at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, SqlCommand command, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, TimeoutTimer timeout, SqlConnectionString connectionOptions, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, IDbConnectionPool pool, Func`3 accessTokenCallback)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionPoolGroupProviderInfo poolGroupProviderInfo, IDbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.<>c__DisplayClass28_0.<CreateReplaceConnectionContinuation>b__0(Task`1 _)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Dapper.SqlMapper.QueryMultipleAsync(IDbConnection cnn, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 1040
+   at DAL.CrudOperations.CRUDOperations.GetList[T](String storedProcedureName, Object parameters) in D:\SG_IMP\GenxAi_Solutions\DAL\CrudOperations\CRUDOperations.cs:line 256
+   at DAL.Screen.Get(ScreenAccess screenaccess) in D:\SG_IMP\GenxAi_Solutions\DAL\Screen.cs:line 30
+   at BAL.ScreenBAL.Get(ScreenAccess screenacccess) in D:\SG_IMP\GenxAi_Solutions\BAL\ScreenBAL.cs:line 27
+   at GenxAi_Solutions.Controllers.ApiController.GetAllMenu(ScreenAccess screenaccess) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Api\ApiController.cs:line 235
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at GenxAi_Solutions.Utils.Middleware.ErrorHandlingMiddleware.Invoke(HttpContext context) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Utils\Middleware\ErrorHandlingMiddleware.cs:line 139
+Exception Type: Microsoft.Data.SqlClient.SqlException
+Exception Message: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 0 - The wait operation timed out.)
+Stack Trace:    at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, SqlCommand command, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, TimeoutTimer timeout, SqlConnectionString connectionOptions, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, IDbConnectionPool pool, Func`3 accessTokenCallback)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionPoolGroupProviderInfo poolGroupProviderInfo, IDbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.<>c__DisplayClass28_0.<CreateReplaceConnectionContinuation>b__0(Task`1 _)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Dapper.SqlMapper.QueryMultipleAsync(IDbConnection cnn, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 1040
+   at DAL.CrudOperations.CRUDOperations.GetList[T](String storedProcedureName, Object parameters) in D:\SG_IMP\GenxAi_Solutions\DAL\CrudOperations\CRUDOperations.cs:line 256
+   at DAL.Screen.Get(ScreenAccess screenaccess) in D:\SG_IMP\GenxAi_Solutions\DAL\Screen.cs:line 30
+   at BAL.ScreenBAL.Get(ScreenAccess screenacccess) in D:\SG_IMP\GenxAi_Solutions\BAL\ScreenBAL.cs:line 27
+   at GenxAi_Solutions.Controllers.ApiController.GetAllMenu(ScreenAccess screenaccess) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Api\ApiController.cs:line 235
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at GenxAi_Solutions.Utils.Middleware.ErrorHandlingMiddleware.Invoke(HttpContext context) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Utils\Middleware\ErrorHandlingMiddleware.cs:line 139
+Inner Exception: System.ComponentModel.Win32Exception (258): The wait operation timed out.
+--------------------------------------------------------------------------------
+[2025-10-16 16:09:52.714] [Error]
+Category: GenxAi_Solutions.Utils.Middleware.ErrorHandlingMiddleware
+Message: Unhandled exception POST /api/auth/getmenu 79a87503-c179-424b-843e-628c4e92f6da. Exception Details: Microsoft.Data.SqlClient.SqlException - A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 0 - The wait operation timed out.) Stack Trace:    at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, SqlCommand command, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, TimeoutTimer timeout, SqlConnectionString connectionOptions, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, IDbConnectionPool pool, Func`3 accessTokenCallback)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionPoolGroupProviderInfo poolGroupProviderInfo, IDbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.<>c__DisplayClass28_0.<CreateReplaceConnectionContinuation>b__0(Task`1 _)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Dapper.SqlMapper.QueryMultipleAsync(IDbConnection cnn, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 1040
+   at DAL.CrudOperations.CRUDOperations.GetList[T](String storedProcedureName, Object parameters) in D:\SG_IMP\GenxAi_Solutions\DAL\CrudOperations\CRUDOperations.cs:line 256
+   at DAL.Screen.Get(ScreenAccess screenaccess) in D:\SG_IMP\GenxAi_Solutions\DAL\Screen.cs:line 30
+   at BAL.ScreenBAL.Get(ScreenAccess screenacccess) in D:\SG_IMP\GenxAi_Solutions\BAL\ScreenBAL.cs:line 27
+   at GenxAi_Solutions.Controllers.ApiController.GetAllMenu(ScreenAccess screenaccess) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Api\ApiController.cs:line 235
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at GenxAi_Solutions.Utils.Middleware.ErrorHandlingMiddleware.Invoke(HttpContext context) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Utils\Middleware\ErrorHandlingMiddleware.cs:line 139
+Exception Type: Microsoft.Data.SqlClient.SqlException
+Exception Message: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 0 - The wait operation timed out.)
+Stack Trace:    at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, SqlCommand command, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, TimeoutTimer timeout, SqlConnectionString connectionOptions, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, IDbConnectionPool pool, Func`3 accessTokenCallback)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionPoolGroupProviderInfo poolGroupProviderInfo, IDbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.<>c__DisplayClass28_0.<CreateReplaceConnectionContinuation>b__0(Task`1 _)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Dapper.SqlMapper.QueryMultipleAsync(IDbConnection cnn, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 1040
+   at DAL.CrudOperations.CRUDOperations.GetList[T](String storedProcedureName, Object parameters) in D:\SG_IMP\GenxAi_Solutions\DAL\CrudOperations\CRUDOperations.cs:line 256
+   at DAL.Screen.Get(ScreenAccess screenaccess) in D:\SG_IMP\GenxAi_Solutions\DAL\Screen.cs:line 30
+   at BAL.ScreenBAL.Get(ScreenAccess screenacccess) in D:\SG_IMP\GenxAi_Solutions\BAL\ScreenBAL.cs:line 27
+   at GenxAi_Solutions.Controllers.ApiController.GetAllMenu(ScreenAccess screenaccess) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Api\ApiController.cs:line 235
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at GenxAi_Solutions.Utils.Middleware.ErrorHandlingMiddleware.Invoke(HttpContext context) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Utils\Middleware\ErrorHandlingMiddleware.cs:line 139
+Inner Exception: System.ComponentModel.Win32Exception (258): The wait operation timed out.
+--------------------------------------------------------------------------------
+[2025-10-16 16:09:52.851] [Error]
+Category: GenxAi_Solutions.Utils.Middleware.ErrorHandlingMiddleware
+Message: Unhandled exception GET /api/CompanyOnboard/GetAllCompanyList eeb686b9-379b-474f-833f-0f1853fad702. Exception Details: Microsoft.Data.SqlClient.SqlException - A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 0 - The wait operation timed out.) Stack Trace:    at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, SqlCommand command, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, TimeoutTimer timeout, SqlConnectionString connectionOptions, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, IDbConnectionPool pool, Func`3 accessTokenCallback)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionPoolGroupProviderInfo poolGroupProviderInfo, IDbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.<>c__DisplayClass28_0.<CreateReplaceConnectionContinuation>b__0(Task`1 _)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Dapper.SqlMapper.QueryMultipleAsync(IDbConnection cnn, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 1040
+   at DAL.CrudOperations.CRUDOperations.GetListddl[T](String storedProcedureName, Object parameters) in D:\SG_IMP\GenxAi_Solutions\DAL\CrudOperations\CRUDOperations.cs:line 308
+   at DAL.CompanyProfileDAL.GetAllCompanyList() in D:\SG_IMP\GenxAi_Solutions\DAL\CompanyProfileDAL.cs:line 142
+   at BAL.CompanyProfileBAL.GetAllCompanyList() in D:\SG_IMP\GenxAi_Solutions\BAL\CompanyProfileBAL.cs:line 163
+   at GenxAi_Solutions.Api.CompanyOnboardController.GetAllCompanyList() in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Api\CompanyOnboardController.cs:line 1987
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at GenxAi_Solutions.Utils.Middleware.ErrorHandlingMiddleware.Invoke(HttpContext context) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Utils\Middleware\ErrorHandlingMiddleware.cs:line 139
+Exception Type: Microsoft.Data.SqlClient.SqlException
+Exception Message: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 0 - The wait operation timed out.)
+Stack Trace:    at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, SqlCommand command, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, TimeoutTimer timeout, SqlConnectionString connectionOptions, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, IDbConnectionPool pool, Func`3 accessTokenCallback)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionPoolGroupProviderInfo poolGroupProviderInfo, IDbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.<>c__DisplayClass28_0.<CreateReplaceConnectionContinuation>b__0(Task`1 _)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Dapper.SqlMapper.QueryMultipleAsync(IDbConnection cnn, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 1040
+   at DAL.CrudOperations.CRUDOperations.GetListddl[T](String storedProcedureName, Object parameters) in D:\SG_IMP\GenxAi_Solutions\DAL\CrudOperations\CRUDOperations.cs:line 308
+   at DAL.CompanyProfileDAL.GetAllCompanyList() in D:\SG_IMP\GenxAi_Solutions\DAL\CompanyProfileDAL.cs:line 142
+   at BAL.CompanyProfileBAL.GetAllCompanyList() in D:\SG_IMP\GenxAi_Solutions\BAL\CompanyProfileBAL.cs:line 163
+   at GenxAi_Solutions.Api.CompanyOnboardController.GetAllCompanyList() in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Api\CompanyOnboardController.cs:line 1987
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at GenxAi_Solutions.Utils.Middleware.ErrorHandlingMiddleware.Invoke(HttpContext context) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Utils\Middleware\ErrorHandlingMiddleware.cs:line 139
+Inner Exception: System.ComponentModel.Win32Exception (258): The wait operation timed out.
+--------------------------------------------------------------------------------
+[2025-10-16 16:09:52.856] [Error]
+Category: GenxAi_Solutions.Utils.Middleware.ErrorHandlingMiddleware
+Message: Unhandled exception GET /api/CompanyOnboard/GetAllCompanyList eeb686b9-379b-474f-833f-0f1853fad702. Exception Details: Microsoft.Data.SqlClient.SqlException - A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 0 - The wait operation timed out.) Stack Trace:    at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, SqlCommand command, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, TimeoutTimer timeout, SqlConnectionString connectionOptions, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, IDbConnectionPool pool, Func`3 accessTokenCallback)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionPoolGroupProviderInfo poolGroupProviderInfo, IDbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.<>c__DisplayClass28_0.<CreateReplaceConnectionContinuation>b__0(Task`1 _)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Dapper.SqlMapper.QueryMultipleAsync(IDbConnection cnn, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 1040
+   at DAL.CrudOperations.CRUDOperations.GetListddl[T](String storedProcedureName, Object parameters) in D:\SG_IMP\GenxAi_Solutions\DAL\CrudOperations\CRUDOperations.cs:line 308
+   at DAL.CompanyProfileDAL.GetAllCompanyList() in D:\SG_IMP\GenxAi_Solutions\DAL\CompanyProfileDAL.cs:line 142
+   at BAL.CompanyProfileBAL.GetAllCompanyList() in D:\SG_IMP\GenxAi_Solutions\BAL\CompanyProfileBAL.cs:line 163
+   at GenxAi_Solutions.Api.CompanyOnboardController.GetAllCompanyList() in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Api\CompanyOnboardController.cs:line 1987
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at GenxAi_Solutions.Utils.Middleware.ErrorHandlingMiddleware.Invoke(HttpContext context) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Utils\Middleware\ErrorHandlingMiddleware.cs:line 139
+Exception Type: Microsoft.Data.SqlClient.SqlException
+Exception Message: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 0 - The wait operation timed out.)
+Stack Trace:    at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, SqlCommand command, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, TimeoutTimer timeout, SqlConnectionString connectionOptions, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, IDbConnectionPool pool, Func`3 accessTokenCallback)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionPoolGroupProviderInfo poolGroupProviderInfo, IDbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.<>c__DisplayClass28_0.<CreateReplaceConnectionContinuation>b__0(Task`1 _)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Dapper.SqlMapper.QueryMultipleAsync(IDbConnection cnn, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 1040
+   at DAL.CrudOperations.CRUDOperations.GetListddl[T](String storedProcedureName, Object parameters) in D:\SG_IMP\GenxAi_Solutions\DAL\CrudOperations\CRUDOperations.cs:line 308
+   at DAL.CompanyProfileDAL.GetAllCompanyList() in D:\SG_IMP\GenxAi_Solutions\DAL\CompanyProfileDAL.cs:line 142
+   at BAL.CompanyProfileBAL.GetAllCompanyList() in D:\SG_IMP\GenxAi_Solutions\BAL\CompanyProfileBAL.cs:line 163
+   at GenxAi_Solutions.Api.CompanyOnboardController.GetAllCompanyList() in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Api\CompanyOnboardController.cs:line 1987
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at GenxAi_Solutions.Utils.Middleware.ErrorHandlingMiddleware.Invoke(HttpContext context) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Utils\Middleware\ErrorHandlingMiddleware.cs:line 139
+Inner Exception: System.ComponentModel.Win32Exception (258): The wait operation timed out.
+--------------------------------------------------------------------------------
+[2025-10-16 16:11:49.663] [Error]
+Category: GenxAi_Solutions.Api.NotificationsController
+Message: GetUnread failed. afterId=(null)
+Exception Type: System.Threading.Tasks.TaskCanceledException
+Exception Message: A task was canceled.
+Stack Trace:    at GenxAi_Solutions.Services.NotificationStore.GetUnreadAfterIdAllAsync(Int32 userId, IReadOnlyList`1 companyIds, Nullable`1 afterId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Services\NotificationStore.cs:line 77
+   at GenxAi_Solutions.Services.NotificationStore.GetUnreadAfterIdAllAsync(Int32 userId, IReadOnlyList`1 companyIds, Nullable`1 afterId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Services\NotificationStore.cs:line 131
+   at GenxAi_Solutions.Api.NotificationsController.GetUnread(Nullable`1 afterId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Api\NotificationsController.cs:line 27
+--------------------------------------------------------------------------------
+[2025-10-16 16:11:49.668] [Error]
+Category: GenxAi_Solutions.Api.NotificationsController
+Message: GetUnread failed. afterId=(null)
+Exception Type: System.Threading.Tasks.TaskCanceledException
+Exception Message: A task was canceled.
+Stack Trace:    at GenxAi_Solutions.Services.NotificationStore.GetUnreadAfterIdAllAsync(Int32 userId, IReadOnlyList`1 companyIds, Nullable`1 afterId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Services\NotificationStore.cs:line 77
+   at GenxAi_Solutions.Services.NotificationStore.GetUnreadAfterIdAllAsync(Int32 userId, IReadOnlyList`1 companyIds, Nullable`1 afterId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Services\NotificationStore.cs:line 131
+   at GenxAi_Solutions.Api.NotificationsController.GetUnread(Nullable`1 afterId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Api\NotificationsController.cs:line 27
+--------------------------------------------------------------------------------

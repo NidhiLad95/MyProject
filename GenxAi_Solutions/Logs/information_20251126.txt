@@ -1,0 +1,56 @@
+﻿[2025-11-26 17:52:52.387] [Information]
+Category: GenxAi_Solutions.Services.Background.QueuedWorker
+Message: QueuedWorker started.
+------------------------------------------------------------
+[2025-11-26 17:52:52.392] [Information]
+Category: GenxAi_Solutions.Services.Background.QueuedWorker
+Message: QueuedWorker started.
+--------------------------------------------------------------------------------
+[2025-11-26 17:52:52.606] [Information]
+Category: Microsoft.Hosting.Lifetime
+Message: Now listening on: https://localhost:7282
+------------------------------------------------------------
+[2025-11-26 17:52:52.607] [Information]
+Category: Microsoft.Hosting.Lifetime
+Message: Now listening on: https://localhost:7282
+--------------------------------------------------------------------------------
+[2025-11-26 17:52:52.607] [Information]
+Category: Microsoft.Hosting.Lifetime
+Message: Now listening on: http://localhost:5072
+------------------------------------------------------------
+[2025-11-26 17:52:52.608] [Information]
+Category: Microsoft.Hosting.Lifetime
+Message: Now listening on: http://localhost:5072
+--------------------------------------------------------------------------------
+[2025-11-26 17:52:52.660] [Information]
+Category: Microsoft.Hosting.Lifetime
+Message: Application started. Press Ctrl+C to shut down.
+------------------------------------------------------------
+[2025-11-26 17:52:52.661] [Information]
+Category: Microsoft.Hosting.Lifetime
+Message: Application started. Press Ctrl+C to shut down.
+--------------------------------------------------------------------------------
+[2025-11-26 17:52:52.662] [Information]
+Category: Microsoft.Hosting.Lifetime
+Message: Hosting environment: Development
+------------------------------------------------------------
+[2025-11-26 17:52:52.663] [Information]
+Category: Microsoft.Hosting.Lifetime
+Message: Hosting environment: Development
+--------------------------------------------------------------------------------
+[2025-11-26 17:52:52.664] [Information]
+Category: Microsoft.Hosting.Lifetime
+Message: Content root path: D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions
+------------------------------------------------------------
+[2025-11-26 17:52:52.664] [Information]
+Category: Microsoft.Hosting.Lifetime
+Message: Content root path: D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions
+--------------------------------------------------------------------------------
+[2025-11-26 17:52:54.010] [Information]
+Category: GenxAi_Solutions.Services.AuthEventsService
+Message: No JWT present on /
+------------------------------------------------------------
+[2025-11-26 17:52:54.011] [Information]
+Category: GenxAi_Solutions.Services.AuthEventsService
+Message: No JWT present on /
+--------------------------------------------------------------------------------

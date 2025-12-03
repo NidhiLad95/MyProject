@@ -1,0 +1,1576 @@
+﻿@* Chatbot.cshtml *@
+<link href="~/css/styles_custom.css" rel="stylesheet" />
+@* <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/microsoft-signalr/7.0.12/signalr.min.js" referrerpolicy="no-referrer"></script>
+ *@
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+@* <script src="~/js/bootstrap4.min.js"></script> *@
+@* <script src="~/js/scripts.js"></script> *@
+<style>
+    /* #chatBox {
+        max-height: calc(100vh - 220px);
+        overflow-y: auto;
+    } */
+
+    .send-box {
+        position: sticky;
+        bottom: 0;
+        z-index: 10;
+        background: #f8f9fa;
+    }
+
+    .chat-box canvas {
+        display: block;
+    }
+
+    .chart-container {
+        position: relative;
+        height: 300px;
+        width: 100%;
+        margin: 1rem 0;
+    }
+
+        .chart-container canvas {
+            max-width: 100%;
+            height: 100% !important;
+        }
+
+    .chat-table-container {
+        max-height: 400px;
+        overflow-y: auto;
+        margin: 1rem 0;
+    }
+
+        .chat-table-container table {
+            font-size: 0.875rem;
+            width: 100%;
+        }
+
+        .chat-table-container th {
+            background-color: #f8f9fa;
+            position: sticky;
+            top: 0;
+            z-index: 10;
+        }
+
+</style>
+<div class="container-fluid p-4 h-100">
+    <div class="row bg-white overflow-hidden shadow chat-row m-0">
+        @* <div class="d-flex justify-content-end align-items-center gap-2 p-2"> *@
+        <div class="col-12 d-flex bg-light text-right chat-bot-top justify-content-between">
+            @* <button class="btn btn-sm btn-outline-dark btn-block rounded shadow-sm" id="btnNewChat">
+                <i class="fa fa-plus"></i>
+                <span>New Chat</span>
+            </button> *@
+
+            @* <select id="serviceSelect" class="form-select form-select-sm w-auto ms-2">
+                <option value="SQLAnalytics">SQLAnalytics</option>
+                <option value="FileAnalytics">FileAnalytics</option>
+            </select> *@
+            <div class="wrapper-dropdown" id="myDropdown">
+                <span>Please Select</span>
+                <ul class="dropdown">
+                    <li>SQLAnalytics</li>
+                    <li>FileAnalytics</li>
+                </ul>
+            </div>
+            <span id="tokenBadge" class="badge bg-success ms-2">Tokens used: 0</span>
+        </div>
+
+
+
+        <div class="col-md-12 px-0 border-left-light">
+            <div class="px-4 py-5 chat-box bg-white" id="chatBox"></div>
+
+            <form action="#" id="chatForm" class="bg-light border-top send-box">
+                <div class="input-group align-items-center">
+                    <input type="text" placeholder="Type a message" id="userInput" 
+                        @* aria-describedby="sendBtn" *@
+                           aria-label="sendBtn"
+                           class="form-control rounded-0 border-0 py-4 bg-light">
+
+                    <button id="sendBtn" type="button" class="btn btn-link">
+                        @* type="button" *@
+                        <i class="fa fa-paper-plane"></i>
+                    </button>
+                    @* <div class="input-group-append">
+                        
+                    </div> *@
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<script>
+
+    window.elService = { value: "SQLAnalytics" };
+
+    if (!window.__CHAT_SCRIPT_LOADED__) {
+        window.__CHAT_SCRIPT_LOADED__ = true;
+        window.COMPANY_ID = window.COMPANY_ID || 0;
+
+        const API_COMPANY = `${window.location.origin}/api/CompanyOnboard`;
+        const API_COMPANY_ASK = `${window.location.origin}/api/chat`;
+        const ROUTES = {
+            history: () => `${API_COMPANY}/History/me`,      // GET list
+            messages: (id) => `${API_COMPANY}/Messages/${id}`, // GET messages
+            newChat: () => `${API_COMPANY}/Start1`,           // POST create (optional)
+            svcSelect: () => `${API_COMPANY}/Services?companyId=${window.COMPANY_ID}`            // POST create (optional)
+        };
+
+        const elHistory = document.getElementById("chatHistory");
+        const elMsgs = document.getElementById("chatMessages") || document.getElementById("chatBox");
+        const elTitle = document.getElementById("chatTitle");
+        const elNewBtn = document.getElementById("btnNewChat");
+        const elSendBtn = document.getElementById("sendBtn");
+        const elInput = document.getElementById("userInput");
+        const elForm = document.getElementById("chatForm"); // make sure your form has id="chatForm"
+        const elToken = document.getElementById("tokenBadge");
+        // const elService = document.getElementById("serviceSelect");//old
+        const elService = {
+        value: "SQLAnalytics", // default value
+        placeholder: document.querySelector('#myDropdown span')
+    };
+
+        // Ensure Send button does not behave like submit
+        if (elSendBtn) elSendBtn.setAttribute("type", "button");
+        if (elNewBtn) elNewBtn.setAttribute("type", "button"); // <-- important
+
+        let CURRENT_CONV_ID = null;
+        let HISTORY = [];
+        let __typingNode = null;
+        let __busyCount = 0;
+        let tokensUsed = 0;
+
+        // async function jsonFetch(url, opts = {}) {
+        //     const res = await fetch(url, { credentials: "include", ...opts });
+        //     if (!res.ok) throw new Error(`${res.status} ${res.statusText}`);
+        //     return res.status === 204 ? null : res.json();
+        // }
+
+
+            
+        async function jsonFetch(url, opts = {}) 
+        {
+          const { auth = true, headers = {}, ...rest } = opts;
+
+          const hdrs = new Headers(headers);
+          hdrs.set('Accept', hdrs.get('Accept') || 'application/json');
+
+          // Add JWT if requested and available
+          if (auth !== false) {
+            const token = getAccessToken();
+            if (token) hdrs.set('Authorization', `Bearer ${token}`);
+          }
+
+          // Default `Content-Type` for JSON bodies
+          if (rest.body && !hdrs.has('Content-Type')) {
+            hdrs.set('Content-Type', 'application/json');
+          }
+
+          let res = await fetch(url, { credentials: 'include', headers: hdrs, ...rest });
+
+          // If unauthorized, try one refresh then retry once
+          if (res.status === 401 && auth !== false) {
+            const newToken = await refreshAccessToken();
+            if (newToken) {
+              hdrs.set('Authorization', `Bearer ${newToken}`);
+              res = await fetch(url, { credentials: 'include', headers: hdrs, ...rest });
+            }
+          }
+
+          if (!res.ok) throw new Error(`${res.status} ${res.statusText}`);
+          return res.status === 204 ? null : res.json();
+        }
+
+
+        const fmtDate = (ts) => (ts ? new Date(ts).toLocaleString() : "");
+        //old
+        // async function initServices() {
+        //     try {
+        //         const r = await jsonFetch(ROUTES.svcSelect());
+        //         const sel = document.getElementById('serviceSelect');
+        //         if (r.hasSql && r.hasFile) sel.classList.remove('d-none');
+        //         else sel.value = r.hasSql ? 'SQLAnalytics' : 'FileAnalytics';
+                
+        //     } catch { }
+        // }
+
+    //         async function initServices() {
+    //     try {
+    //         debugger;
+    //         const r = await jsonFetch(ROUTES.svcSelect());
+    //         const dropdown = document.getElementById('myDropdown');
+    //         if (r.hasSql && r.hasFile) {
+    //             dropdown.classList.remove('d-none');
+    //         } else {
+    //             const service = r.hasSql ? 'SQLAnalytics' : 'FileAnalytics';
+    //             elService.value = service;
+    //             if (elService.placeholder) {
+    //                 elService.placeholder.textContent = service;
+    //             }
+    //         }
+    //     } catch { }
+    // }
+
+        async function initServices() {
+        try {
+            const r = await jsonFetch(ROUTES.svcSelect());
+            const dropdown = document.getElementById('myDropdown');
+
+            if (r.hasSql && r.hasFile) {
+                dropdown.classList.remove('d-none');
+                // Set default value to SQLAnalytics
+                elService.value = "SQLAnalytics";
+                if (elService.placeholder) {
+                    elService.placeholder.textContent = "SQLAnalytics";
+                }
+            } else {
+                const service = r.hasSql ? 'SQLAnalytics' : 'FileAnalytics';
+                elService.value = service;
+                if (elService.placeholder) {
+                    elService.placeholder.textContent = service;
+                }
+            }
+        } catch { }
+    }
+        
+
+        async function loadHistory(selectConvId = null) {
+        try {
+            const resp = await jsonFetch(ROUTES.history());
+            const items = Array.isArray(resp) ? resp : (resp?.data || []);
+            items.sort((a, b) => (new Date(b.LastUpdatedAt || 0)) - (new Date(a.LastUpdatedAt || 0)));
+            HISTORY = items;
+            renderHistory(items);
+
+            const last = selectConvId || localStorage.getItem("lastConvId");
+            const pick = (last && items.find(x => (x.ConversationId ?? x.Id) == last))
+                ? last
+                : (items[0] && (items[0].ConversationId ?? items[0].Id));
+
+            if (pick) await openConversation(pick);
+            else renderMessages([]);
+        } catch (err) {
+            console.error("loadHistory failed:", err);
+            if (typeof showMessage === "function") showMessage("Failed to load chat history.", "danger");
+            renderHistory([]);
+        }
+    }
+
+    function renderHistory(list) {
+            //if (!$("#sidenavAccordionh1")) return;
+            if (!$("#sidenavAccordionh1").length) return;
+        if (!list || !list.length) {
+                $("#sidenavAccordionh1").html('<div class="p-2 text-muted">(no conversations)</div>');
+            return;
+        }
+
+        // Normalize API shapes
+        const norm = (x) => ({
+            id: x.conversationId ?? x.ConversationId ?? x.Id ?? x.id,
+            title: x.title ?? x.Title ?? '(no title)',
+            date: new Date(x.lastUpdatedAt ?? x.LastUpdatedAt ?? x.StartedAt ?? new Date())
+        });
+
+        // Group by date (Today, Yesterday, or dd/MM/yyyy)
+        const groups = {};
+        const today = new Date(); today.setHours(0,0,0,0);
+        const yesterday = new Date(today); yesterday.setDate(today.getDate()-1);
+
+        list.forEach(raw => {
+            const it = norm(raw);
+            let label;
+            const d = new Date(it.date); d.setHours(0,0,0,0);
+
+            if (d.getTime() === today.getTime()) {
+                label = `Today (${it.date.toLocaleDateString("en-GB")})`;
+            } else if (d.getTime() === yesterday.getTime()) {
+                label = `Yesterday (${it.date.toLocaleDateString("en-GB")})`;
+            } else {
+                label = it.date.toLocaleDateString("en-GB");
+            }
+            if (!groups[label]) groups[label] = [];
+            groups[label].push(it);
+        });
+
+        // Build HTML with collapsibles
+        let html = "";
+        let idx = 0;
+        for (let label in groups) {
+            const collapseId = "pagesCollapse_" + idx++;
+            html += `
+            <a class="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#${collapseId}">
+                ${label}
+                <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+            </a>
+            <div class="collapse" id="${collapseId}" data-bs-parent="#sidenavAccordionh1">
+              <nav class="sb-sidenav-menu-nested nav">`;
+
+            groups[label].forEach(it => {
+                html += `<a class="nav-link ww" href="javascript:void(0);" data-conv-id="${it.id}">${safeHtml(it.title)}</a>`;
+            });
+
+            html += `</nav></div>`;
+        }
+
+            $("#sidenavAccordionh1").html(html);
+
+        // Delegate click handler (safe, no duplicates)
+            $("#sidenavAccordionh1").off("click", "a[data-conv-id]").on("click", "a[data-conv-id]", function(e){
+            e.preventDefault();
+            const convId = $(this).data("conv-id");
+            openConversation(convId);
+        });
+    }
+
+
+
+    
+
+        function setActiveTile(convId) {
+            CURRENT_CONV_ID = convId;
+            localStorage.setItem("lastConvId", convId || "");
+            if (!elHistory) return;
+            [...elHistory.querySelectorAll("li[data-conv-id]")].forEach(li => {
+                li.classList.toggle("active", li.dataset.convId == convId);
+            });
+        }
+
+        function setConversationTitle(text) {
+            if (elTitle) elTitle.textContent = text || "";
+        }
+
+            function renderMessage(m) {
+        const role = (m.senderType || "").toLowerCase(); // "user" | "assistant"
+        const isUser = role === "user";
+
+        
+
+           // setBusy(true, "Loading…");
+
+        // If JSON exists, try to render table/chart
+        if (m.messageJSON && m.messageJSON.trim() !== "") {
+            try {
+                const payload = JSON.parse(m.messageJSON);
+
+                if (payload.mode === "table") {
+                    const cols = payload.data.columns;
+                    const rows = payload.data.rows;
+                                let html=renderTableHis(rows,cols);
+                    
+                                    appendMessageHistory(role, "Here are the results:" + "<br/>" +html,m.createdAt);
+                                 
+                }
+                else if (payload.mode === "chart") {
+                    
+
+                                    appendMessageHistory(role, "Chart:",m.createdAt);
+                            renderChartHis(payload);
+                }
+                else {
+                    
+                                    appendMessageHistory(role, safeHtml(m.messageText || ""),m.createdAt);
+                       
+                }
+            } catch (err) {
+                console.error("Failed to parse MessageJSON", err);
+                
+                            appendMessageHistory(role, safeHtml(m.messageText || ""),m.createdAt);
+            }
+        } else {
+            // Fallback text only
+           
+           appendMessageHistory(role, safeHtml(m.messageText || ""),m.createdAt);
+        }
+
+            
+    }
+
+        function renderMessages(messages) {
+            if (!elMsgs) return;
+                elMsgs.innerHTML = "";
+                if (!messages?.length) {
+                    elMsgs.innerHTML = '<div class="text-muted text-center my-4">No messages yet.</div>';
+                    return;
+                }
+
+        messages.forEach(m => {
+            renderMessage(m);
+        });
+
+        elMsgs.scrollTop = elMsgs.scrollHeight;
+    }
+
+        function renderAllChartsFromHistory(messages) {
+        messages.forEach(m => {
+            if (m.MessageJSON) {
+                try {
+                    const msg = JSON.parse(m.MessageJSON);
+                    if (msg.mode === "chart" && msg.spec && msg.data) {
+                        // simulate the existing call you do after AI reply
+                        renderChartHis(msg);
+                    }
+                } catch (e) {
+                    console.error("Failed to render saved chart:", e);
+                }
+            }
+        });
+    }
+
+       
+
+        async function openConversation(convId) {
+            try {
+                setActiveTile(convId);
+                const header = HISTORY.find(x => (x.conversationId ?? x.Id) == convId);
+                setConversationTitle(header?.Title || "(no title)");
+
+                if (elMsgs) elMsgs.innerHTML = '<div class="text-muted text-center my-4">Loading messages…</div>';
+
+                const resp = await jsonFetch(ROUTES.messages(convId));
+                const msgs = Array.isArray(resp) ? resp : (resp?.data || []);
+                debugger;
+                renderMessages(msgs);
+            } catch (err) {
+                console.error("openConversation failed:", err);
+                if (typeof showMessage === "function") showMessage("Failed to load conversation.", "danger");
+                renderMessages([]);
+            }
+        }
+
+        
+        async function createNewChat(service = "SQLAnalytics") {
+            try {
+                // Optional UX: disable button during call
+                elNewBtn?.setAttribute("disabled", "disabled");
+                    if (elMsgs) elMsgs.innerHTML = '<div class="text-muted text-center my-4">Loading messages…</div>';
+                     const token = getAccessToken();
+           
+                const res = await fetch(ROUTES.newChat(), {
+                    method: "POST",
+                    headers: { "Content-Type": "application/json","Authorization":`Bearer ${token}` },
+                    credentials: "include",
+                    body: JSON.stringify({ userId: 0, service })
+                });
+
+                if (!res.ok) throw new Error(`${res.status} ${res.statusText}`);
+                const json = await res.json();
+                debugger;
+                const newId = json?.conversationId ?? json?.ConversationId ?? json?.id;
+                if (newId) {
+                    CURRENT_CONV_ID=newId
+                    // refresh sidebar and open the new convo
+                    await loadHistory(newId);
+                        elMsgs.innerHTML = '';
+                } else {
+                    appendMessage("bot", "Could not start a new chat (no conversation id).");
+                }
+            } catch (err) {
+                console.error("createNewChat failed:", err);
+                appendMessage("bot", "Could not start a new chat.");
+            } finally {
+                elNewBtn?.removeAttribute("disabled");
+            }
+        }
+        // ✅ Run init now, even if DOMContentLoaded already happened
+        function init() {
+            loadHistory(); // fills sidebar and opens last/pinned
+
+            if (elNewBtn) {
+                //old
+                // elNewBtn.addEventListener("click", (e) => {
+                //     e.preventDefault();    // stop any default submit/navigation
+                //     createNewChat(elService?.value || "SQLAnalytics");
+                // });
+                elNewBtn.addEventListener("click", (e) => {
+                    e.preventDefault();    // stop any default submit/navigation
+                    createNewChat(elService.value || "SQLAnalytics");
+                });
+            }
+            if (elService) {
+                //old
+                // elService.addEventListener("change", (e) => {
+                //     e.preventDefault();    // stop any default submit/navigation
+                        
+                //     createNewChat(elService?.value || "SQLAnalytics");
+                // });
+
+                document.querySelectorAll('#myDropdown .dropdown li').forEach(item => {
+                item.addEventListener('click', (e) => {
+                    const service = e.target.textContent;
+                    elService.value = service;
+                    if (elService.placeholder) {
+                        elService.placeholder.textContent = service;
+                    }
+                    createNewChat(service);
+                });
+    });
+            }
+
+            if (elSendBtn) elSendBtn.addEventListener("click", () => sendMessage());
+
+            if (elForm) {
+                elForm.addEventListener("submit", (e) => {
+                    e.preventDefault();
+                    sendMessage();
+                });
+            }
+
+            if (elInput) {
+                elInput.addEventListener("keydown", (e) => {
+                    if (e.key === "Enter" && !e.shiftKey) {
+                        e.preventDefault();
+                        sendMessage();
+                    }
+                });
+            }
+
+            var historypan=$("#historyPan");
+            var chatbtn=$("#btnNewChat");
+            if (historypan.hasClass("d-none"))  historypan.removeClass("d-none");
+            if (chatbtn.hasClass("d-none"))  chatbtn.removeClass("d-none");
+    
+        }
+
+        if (document.readyState === "loading") {
+            document.addEventListener("DOMContentLoaded", init);
+        } else {
+            init(); // DOM is already ready; bind immediately
+            
+        }
+
+        
+        function showTypingBubble(text = "Thinking…") {
+            if (!elMsgs) return;
+            if (__typingNode && document.body.contains(__typingNode)) return;
+
+            // const timestamp = new Date().toLocaleTimeString([], { hour: 'numeric', minute: '2-digit' });
+            const timestamp = getFormattedDateTime();
+            const html = `
+              <div id="__typingBubble" class="media w-50 ml-auto mb-3">
+                <div class="media-body ai-reply">
+                  <div class="bg-primary rounded py-2 px-3 mb-2">
+                    <div class="d-flex align-items-center">
+                      <div class="spinner-border spinner-border-sm text-light me-2" role="status"></div>
+                      <div class="text-small mb-0 text-white">${text}</div>
+                    </div>
+                  </div>
+                  <p class="small text-muted">${timestamp}</p>
+                </div>
+              </div>`;
+            elMsgs.insertAdjacentHTML('beforeend', html);
+            __typingNode = document.getElementById("__typingBubble");
+            elMsgs.scrollTop = elMsgs.scrollHeight;
+        }
+
+        function hideTypingBubble() {
+            if (__typingNode && __typingNode.parentNode) {
+                __typingNode.parentNode.removeChild(__typingNode);
+            }
+            __typingNode = null;
+        }
+
+        function setBusy(isBusy, label = "Thinking…") {
+            const btn = elSendBtn;
+            const input = elInput;
+
+            if (isBusy) {
+                __busyCount++;
+                btn?.setAttribute("disabled", "disabled");
+                input?.setAttribute("disabled", "disabled");
+
+                if (!btn?.querySelector(".spinner-border")) {
+                    const old = btn?.innerHTML ?? "";
+                    if (btn) {
+                        btn.dataset._oldHtml = old;
+                        btn.innerHTML = `<span class="spinner-border spinner-border-sm me-1" role="status" aria-hidden="true"></span>Sending`;
+                    }
+                }
+                showTypingBubble(label);
+            } else {
+                __busyCount = Math.max(0, __busyCount - 1);
+                if (__busyCount === 0) {
+                    btn?.removeAttribute("disabled");
+                    input?.removeAttribute("disabled");
+                    if (btn && btn.dataset._oldHtml) btn.innerHTML = btn.dataset._oldHtml;
+                    hideTypingBubble();
+                }
+            }
+        }
+
+        function getFormattedDateTime() {
+            const now = new Date();
+            const time = now.toLocaleString("en-US", { hour: "numeric", minute: "2-digit", hour12: true });
+            const date = now.toLocaleDateString("en-US", { month: "short", day: "numeric" });
+            return `${time} | ${date}`;
+        }
+
+                function getFormattedDateTimeHis(dtstmp) {
+                    if (!dtstmp) return "";
+
+        const d = new Date(dtstmp); // use the timestamp passed in
+                    const time = d.toLocaleString("en-US", { hour: "numeric", minute: "2-digit", hour12: true });
+                    const date = d.toLocaleDateString("en-US", { month: "short", day: "numeric" });
+                return `${time} | ${date}`;
+            }
+
+        function appendMessage(sender, messageHtml) {
+            const box = document.getElementById("chatBox") || elMsgs;
+            if (!box) return;
+            const timestamp = getFormattedDateTime();
+
+            const content = `
+                      <div class="media ${sender === 'bot' ? 'w-75 ml-auto' : 'w-50 '} mb-3">
+                ${sender !== 'bot' ? `
+                  <img src="https://res.cloudinary.com/mhmd/image/upload/v1564960395/avatar_usae7z.svg"
+                       alt="user" width="50" class="rounded-circle">` : ''}
+
+                <div class="media-body ${sender !== 'bot' ? 'ml-3' : 'ai-reply'}">
+                  <div class="${sender === 'bot' ? 'bg-primary' : 'bg-light'} rounded py-2 px-3 mb-2">
+                    <div class="text-small mb-0 ${sender === 'bot' ? 'text-white' : 'text-muted'}">
+                      ${messageHtml}
+                    </div>
+                  </div>
+                  <p class="small text-muted">${timestamp}</p>
+                </div>
+              </div>`;
+
+            box.insertAdjacentHTML('beforeend', content);
+            box.scrollTop = box.scrollHeight;
+        }
+
+            function appendMessageHistory(sender, messageHtml,dtstmp) {
+                const box = document.getElementById("chatBox") || elMsgs;
+                if (!box) return;
+                        const timestamp = getFormattedDateTimeHis(dtstmp);
+                        if(sender!=='system'){
+                const content = `
+                              <div class="media ${sender === 'assistant' ? 'w-75 ml-auto' : 'w-50 '} mb-3">
+                        ${sender !== 'assistant' ? `
+                      <img src="https://res.cloudinary.com/mhmd/image/upload/v1564960395/avatar_usae7z.svg"
+                           alt="user" width="50" class="rounded-circle">` : ''}
+
+                        <div class="media-body ${sender !== 'assistant' ? 'ml-3' : 'ai-reply'}">
+                          <div class="${sender === 'assistant' ? 'bg-primary' : 'bg-light'} rounded py-2 px-3 mb-2">
+                            <div class="text-small mb-0 ${sender === 'assistant' ? 'text-white' : 'text-muted'}">
+                          ${messageHtml}
+                        </div>
+                      </div>
+                      <p class="small text-muted">${timestamp}</p>
+                    </div>
+                  </div>`;
+
+                box.insertAdjacentHTML('beforeend', content);
+                box.scrollTop = box.scrollHeight;
+                }
+            }
+
+        function safeHtml(s) {
+            if (!s) return '';
+            const looksHtml = /<\/?[a-z][\s\S]*>/i.test(s);
+            if (looksHtml) return s;
+            return s.replace(/[&<>"'`=\/]/g, c => ({
+                '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;',
+                "'": '&#39;', '`': '&#96;', '=': '&#61;', '/': '&#47;'
+            }[c]));
+        }
+
+        /**
+       * Convert any JSON-like extraction result into paragraph text.
+       * - Accepts object or JSON string (also strips ```json fences).
+       * - Produces one paragraph per top-level key (section).
+       *
+       * Options:
+       *   includeHeadings: true  -> produce "Section Name: <paragraph>"
+       *   mergeIntoOne: false    -> if true, all sections merged into a single paragraph
+       */
+        function jsonToParagraph(input, options = {}) {
+            const opt = Object.assign({
+                includeHeadings: true,
+                mergeIntoOne: false,
+                sectionSeparator: "\n\n"
+            }, options);
+
+            // If input is a string, try to parse JSON and strip markdown fences
+            function parseIfString(x) {
+                if (typeof x !== "string") return x;
+                // strip ```json ... ``` or ``` ... ```
+                const fenced = x.match(/```(?:json)?\s*([\s\S]*?)\s*```/i);
+                const raw = fenced ? fenced[1] : x;
+                try {
+                    return JSON.parse(raw);
+                } catch (err) {
+                    // If it's not valid JSON, throw a descriptive error for debugging
+                    throw new Error("jsonToParagraph: input is a string but not valid JSON. Parse error: " + err.message);
+                }
+            }
+
+            const root = parseIfString(input);
+
+            // normalize text into sentence (trim whitespace, collapse multiples, ensure trailing punctuation)
+            function toSentence(t) {
+                if (t === null || t === undefined) return null;
+                let s = String(t).replace(/\s+/g, " ").trim();
+                if (!s) return null;
+                if (!/[.?!]$/.test(s)) s += ".";
+                return s;
+            }
+
+            // recursively extract sentences from any value
+            function extract(value) {
+                const out = [];
+                if (value === null || value === undefined) return out;
+
+                const t = typeof value;
+                if (t === "string" || t === "number" || t === "boolean") {
+                    const s = toSentence(value);
+                    if (s) out.push(s);
+                    return out;
+                }
+
+                if (Array.isArray(value)) {
+                    for (const item of value) {
+                        if (typeof item === "string" || typeof item === "number" || typeof item === "boolean") {
+                            const s = toSentence(item);
+                            if (s) out.push(s);
+                            continue;
+                        }
+                        if (typeof item === "object" && item !== null) {
+                            // common pattern: array of objects with single text-like key (rule/example/text/definition)
+                            const keys = Object.keys(item);
+                            if (keys.length === 1 && (typeof item[keys[0]] === "string" || typeof item[keys[0]] === "number")) {
+                                const s = toSentence(item[keys[0]]);
+                                if (s) out.push(s);
+                            } else {
+                                out.push(...extract(item));
+                            }
+                        }
+                    }
+                    return out;
+                }
+
+                if (t === "object") {
+                    // prefer definition/description/summary/text fields (common)
+                    const prefer = ["definition", "description", "summary", "text"];
+                    for (const p of prefer) {
+                        if (value[p]) {
+                            const s = toSentence(value[p]);
+                            if (s) out.push(s);
+                        }
+                    }
+
+                    // handle other properties generically
+                    for (const [k, v] of Object.entries(value)) {
+                        if (prefer.includes(k)) continue;
+                        // If property is an array of simple strings/numbers, extract them
+                        if (Array.isArray(v)) {
+                            const arr = [];
+                            for (const it of v) {
+                                if (typeof it === "string" || typeof it === "number" || typeof it === "boolean") {
+                                    const s = toSentence(it);
+                                    if (s) arr.push(s);
+                                } else if (typeof it === "object" && it !== null) {
+                                    // common keys inside array items
+                                    const candidate = it.rule || it.example || it.text || it.definition;
+                                    if (candidate) {
+                                        const s = toSentence(candidate);
+                                        if (s) arr.push(s);
+                                    } else {
+                                        arr.push(...extract(it));
+                                    }
+                                }
+                            }
+                            if (arr.length) {
+                                out.push(arr.join(" "));
+                            }
+                            continue;
+                        }
+
+                        // if property is primitive or nested object, recurse
+                        const nested = extract(v);
+                        if (nested.length) {
+                            // if key looks meaningful (not generic like id/value), prefix label for clarity
+                            if (!/^(id|value|name)$/i.test(k) && (typeof v === "string" || typeof v === "number")) {
+                                out.push(`${k.replace(/_/g, " ")}: ${nested.join(" ")}`);
+                            } else {
+                                out.push(...nested);
+                            }
+                        }
+                    }
+                    return out;
+                }
+
+                return out;
+            }
+
+            if (!root || typeof root !== "object") {
+                throw new Error("jsonToParagraph: parsed input is not an object.");
+            }
+
+            const sectionParagraphs = [];
+
+            for (const [sectionName, content] of Object.entries(root)) {
+                const sentences = extract(content);
+                if (sentences.length === 0) continue;
+                const paragraph = sentences.join(" ");
+                if (opt.includeHeadings) {
+                    sectionParagraphs.push(`${sectionName.replace(/_/g, " ")}: ${paragraph}`);
+                } else {
+                    sectionParagraphs.push(paragraph);
+                }
+            }
+
+            if (opt.mergeIntoOne) {
+                return sectionParagraphs.join(" ").replace(/\s+/g, " ").trim();
+            }
+            return sectionParagraphs.join(opt.sectionSeparator).trim();
+        }
+
+            
+                function renderTableHis(rows, colsH) {
+      if (!rows || !colsH || !colsH.length) return "<em>No data found</em>";
+
+      // If rows came as a JSON string, parse it
+      if (typeof rows === "string") {
+        try { rows = JSON.parse(rows); } catch { return "<em>Bad data</em>"; }
+      }
+
+      // If rows are arrays, convert to objects keyed by colsH
+      if (Array.isArray(rows) && rows.length && Array.isArray(rows[0])) {
+        rows = rows.map(r =>
+          Object.fromEntries(colsH.map((col, i) => [col, r[i]]))
+        );
+      }
+
+      let html = "<div class='chat-table-container'><table class='table'><thead><tr>";
+      colsH.forEach(c => { html += "<th>" + c + "</th>"; });
+      html += "</tr></thead><tbody>";
+
+      rows.forEach(r => {
+        html += "<tr>";
+        colsH.forEach(c => { html += "<td>" + (r?.[c] ?? "") + "</td>"; });
+        html += "</tr>";
+      });
+
+      html += "</tbody></table></div>";
+      return html;
+    }
+
+        function renderTable(rows) {
+            if (!rows || !rows.length) return "<em>No data found</em>";
+            const cols = Object.keys(rows[0]);
+            let html = "<div class='chat-table-container'><table class='table'><thead><tr>";
+            cols.forEach(c => html += "<th>" + c + "</th>");
+            html += "</tr></thead><tbody>";
+            rows.forEach(r => {
+                html += "<tr>";
+                cols.forEach(c => html += "<td>" + r[c] + "</td>");
+                html += "</tr>";
+            });
+            html += "</tbody></table></div>";
+            return html;
+        }
+
+        function renderChart1(chartPayload) {
+            const holder = document.createElement('div'); holder.className = 'my-3';
+            const canvas = document.createElement('canvas'); holder.appendChild(canvas);
+            (document.getElementById('chatBox') || elMsgs)?.appendChild(holder);
+
+            try {
+                const spec = JSON.parse(chartPayload.spec);
+                const cols = chartPayload.data.columns;
+                const rows = chartPayload.data.rows;
+                const xIndex = cols.indexOf(spec.xKey);
+                const yIdxs = (spec.yKeys || []).map(k => cols.indexOf(k)).filter(i => i >= 0);
+
+                const labels = rows.map(r => r[xIndex]);
+                const datasets = yIdxs.map(idx => ({
+                    label: cols[idx],
+                    data: rows.map(r => Number(r[idx]))
+                }));
+
+                // if (window.__lastChart) window.__lastChart.destroy();
+                // window.__lastChart = new Chart(canvas, {
+                //     type: spec.type || 'bar',
+                //     data: { labels, datasets },
+                //     options: { responsive: true, plugins: { title: { display: true, text: spec.title || 'Chart' } } }
+                // });
+
+                 // ✅ keep older charts; do NOT destroy previous
+    window.__allCharts = window.__allCharts || [];
+    const chartInstance = new Chart(canvas, {
+      type: spec.type || 'bar',
+      data: { labels, datasets },
+      options: { responsive: true, plugins: { title: { display: true, text: spec.title || 'Chart' } } }
+    });
+    window.__allCharts.push(chartInstance);
+            } catch (e) {
+                const err = document.createElement('div'); err.className = 'text-danger';
+                err.innerText = 'Unable to render chart';
+                holder.appendChild(err);
+                console.error(e);
+            }
+        }
+
+            
+
+            function renderChartHis1(chartPayload) {
+      const elHost = document.createElement('div'); elHost.className = 'my-3';
+      const canvas = document.createElement('canvas'); elHost.appendChild(canvas);
+      (document.getElementById('chatBox') || elMsgs)?.appendChild(elHost);
+
+      // helper: parse only if it's a JSON string
+      const asObj = (v) => (typeof v === 'string' ? JSON.parse(v) : v);
+
+      try {
+        const payload = asObj(chartPayload);
+        const spec = asObj(payload.spec) || {};
+        const data = asObj(payload.data) || {};
+
+        // columns can be strings or objects ({name|field|key|title})
+        let cols = asObj(data.columns) || [];
+        if (cols.length && typeof cols[0] === 'object') {
+          cols = cols.map(c => c.name ?? c.field ?? c.key ?? c.title ?? String(c));
+        }
+
+        // rows can be JSON string, array of arrays, or array of objects
+        let rows = asObj(data.rows) || [];
+        if (rows.length && !Array.isArray(rows[0]) && typeof rows[0] === 'object') {
+          // convert object-rows to array-rows using column order
+          rows = rows.map(r => cols.map(col => r[col]));
+        }
+
+        if (!cols.length || !rows.length) throw new Error('Empty columns/rows');
+
+        const xIndex = cols.indexOf(spec.xKey);
+        if (xIndex < 0) throw new Error(`xKey "${spec.xKey}" not found in columns`);
+
+        const yIdxs = (spec.yKeys || [])
+          .map(k => cols.indexOf(k))
+          .filter(i => i >= 0);
+
+        if (!yIdxs.length) throw new Error('No valid yKeys found');
+
+        const labels = rows.map(r => r[xIndex]);
+        const datasets = yIdxs.map(idx => ({
+          label: cols[idx],
+          data: rows.map(r => Number(r[idx]))
+        }));
+
+        // if (window.__lastChart) window.__lastChart.destroy();
+        // window.__lastChart = new Chart(canvas, {
+        //   type: spec.type || 'bar',
+        //   data: { labels, datasets },
+        //   options: {
+        //     responsive: true,
+        //     plugins: { title: { display: true, text: spec.title || 'Chart' } }
+        //   }
+        // });
+
+            // Instead, track all charts (optional)
+            window.__allCharts = window.__allCharts || [];
+            const chartInstance = new Chart(canvas, {
+                type: spec.type || 'bar',
+                data: { labels, datasets },
+                options: { responsive: true, plugins: { title: { display: true, text: spec.title || '' } } }
+            });
+    window.__allCharts.push(chartInstance);
+      } catch (e) {
+        const err = document.createElement('div');
+        err.className = 'text-danger';
+        err.innerText = `Unable to render chart: ${e.message}`;
+        elHost.appendChild(err);
+        console.error(e);
+      }
+    }
+
+                function renderChart(chartPayload) {
+        const elHost = document.createElement('div');
+        elHost.className = 'my-3 chart-container';
+        elHost.style.position = 'relative';
+        elHost.style.height = '300px'; // Fixed height for consistency
+
+        const canvas = document.createElement('canvas');
+        elHost.appendChild(canvas);
+
+        const chatBox = document.getElementById('chatBox') || elMsgs;
+        if (chatBox) {
+            chatBox.appendChild(elHost);
+        }
+
+        try {
+            // Parse the payload if it's a string
+            const payload = typeof chartPayload === 'string'
+                ? JSON.parse(chartPayload)
+                : chartPayload;
+
+            if (!payload) {
+                throw new Error('Invalid chart payload');
+            }
+
+            // Handle different payload structures
+            let spec, data;
+
+            if (payload.spec && payload.data) {
+                // Standard structure: { spec: {...}, data: {...} }
+                spec = typeof payload.spec === 'string' ? JSON.parse(payload.spec) : payload.spec;
+                data = typeof payload.data === 'string' ? JSON.parse(payload.data) : payload.data;
+            } else if (payload.mode === 'chart' && payload.spec && payload.data) {
+                // Alternative structure with mode
+                spec = typeof payload.spec === 'string' ? JSON.parse(payload.spec) : payload.spec;
+                data = typeof payload.data === 'string' ? JSON.parse(payload.data) : payload.data;
+            } else {
+                // Assume the payload itself is the spec with embedded data
+                spec = payload;
+                data = payload.data || {};
+            }
+
+            // Extract columns and rows
+            let columns = data.columns || [];
+            let rows = data.rows || [];
+
+            // If columns is a string, parse it
+            if (typeof columns === 'string') {
+                columns = JSON.parse(columns);
+            }
+
+            // If rows is a string, parse it
+            if (typeof rows === 'string') {
+                rows = JSON.parse(rows);
+            }
+
+            // Handle object-based columns (array of objects with name/field properties)
+            if (columns.length > 0 && typeof columns[0] === 'object') {
+                columns = columns.map(col => col.name || col.field || col.key || col.title || Object.values(col)[0]);
+            }
+
+            // Handle object-based rows - convert to array format
+            if (rows.length > 0 && !Array.isArray(rows[0]) && typeof rows[0] === 'object') {
+                rows = rows.map(row => {
+                    return columns.map(colName => {
+                        // Handle nested property access if colName contains dots
+                        if (colName.includes('.')) {
+                            return colName.split('.').reduce((obj, key) => obj?.[key], row);
+                        }
+                        return row[colName];
+                    });
+                });
+            }
+
+            if (!columns.length || !rows.length) {
+                throw new Error('No data available for chart');
+            }
+
+            // Find x-axis column index
+            const xKey = spec.xKey || 'x';
+            const xIndex = columns.findIndex(col =>
+                col.toLowerCase() === xKey.toLowerCase() ||
+                col === xKey
+            );
+
+            if (xIndex === -1) {
+                // If xKey not found, use first column as default
+                console.warn(`xKey "${xKey}" not found in columns, using first column`);
+                xIndex = 0;
+            }
+
+            // Find y-axis columns
+            const yKeys = spec.yKeys || [];
+            const yIndices = yKeys.length > 0
+                ? yKeys.map(key => columns.findIndex(col =>
+                    col.toLowerCase() === key.toLowerCase() ||
+                    col === key
+                )).filter(idx => idx !== -1)
+                : // If no yKeys specified, use all columns except x-axis
+                  columns.map((_, idx) => idx).filter(idx => idx !== xIndex);
+
+            if (yIndices.length === 0) {
+                throw new Error('No valid y-axis columns found');
+            }
+
+            // Extract labels and datasets
+            const labels = rows.map(row => {
+                const value = row[xIndex];
+                return value !== null && value !== undefined ? String(value) : '';
+            }).filter(label => label !== '');
+
+            const datasets = yIndices.map((yIdx, datasetIndex) => {
+                const dataValues = rows.map(row => {
+                    const value = row[yIdx];
+                    const numValue = parseFloat(value);
+                    return isNaN(numValue) ? 0 : numValue;
+                });
+
+                // Generate distinct colors for each dataset
+                const colors = [
+                    '#3366CC', '#DC3912', '#FF9900', '#109618', '#990099',
+                    '#3B3EAC', '#0099C6', '#DD4477', '#66AA00', '#B82E2E'
+                ];
+
+                return {
+                    label: columns[yIdx],
+                    data: dataValues,
+                    backgroundColor: colors[datasetIndex % colors.length] + '80', // 80 = 50% opacity
+                    borderColor: colors[datasetIndex % colors.length],
+                    borderWidth: 2,
+                    fill: spec.type === 'line' || spec.type === 'area'
+                };
+            });
+
+            // Chart configuration
+            const chartType = spec.type || 'bar';
+            const chartTitle = spec.title || 'Chart';
+
+            const chartConfig = {
+                type: chartType,
+                data: {
+                    labels: labels,
+                    datasets: datasets
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: {
+                        title: {
+                            display: true,
+                            text: chartTitle,
+                            font: {
+                                size: 16
+                            }
+                        },
+                        legend: {
+                            display: datasets.length > 1,
+                            position: 'top'
+                        }
+                    },
+                    scales: {
+                        x: {
+                            title: {
+                                display: true,
+                                text: columns[xIndex]
+                            }
+                        },
+                        y: {
+                            title: {
+                                display: true,
+                                text: 'Value'
+                            },
+                            beginAtZero: true
+                        }
+                    }
+                }
+            };
+
+            // Add specific options for different chart types
+            if (chartType === 'line' || chartType === 'area') {
+                chartConfig.options.elements = {
+                    line: {
+                        tension: 0.4 // Smooth lines
+                    }
+                };
+            }
+
+            if (chartType === 'area') {
+                chartConfig.type = 'line';
+                chartConfig.options.elements.line.fill = true;
+            }
+
+            // Initialize and store the chart
+            const chartInstance = new Chart(canvas, chartConfig);
+
+            // Store chart reference for potential cleanup
+            window.__allCharts = window.__allCharts || [];
+            window.__allCharts.push(chartInstance);
+
+            // Force a redraw after a short delay to ensure proper rendering
+            setTimeout(() => {
+                chartInstance.update();
+            }, 100);
+
+        } catch (error) {
+            console.error('Chart rendering error:', error);
+
+            const errorDiv = document.createElement('div');
+            errorDiv.className = 'alert alert-warning';
+            errorDiv.innerHTML = `
+                <strong>Chart Error:</strong> ${error.message}
+                <br><small>Check console for details</small>
+            `;
+            elHost.innerHTML = '';
+            elHost.appendChild(errorDiv);
+        }
+    }
+
+    // Alias for history rendering - use the same function
+    function renderChartHis(chartPayload) {
+        renderChart(chartPayload);
+    }
+
+
+            async function sendMessage1() {
+
+            // prevent double sends while busy
+            if (__busyCount > 0) return;
+
+            const input = elInput;
+            const msg = (input?.value || "").trim();
+            if (!msg) return;
+
+            appendMessage("user", safeHtml(msg));
+            if (input) input.value = "";
+
+            setBusy(true, "Thinking…");
+
+            const form = new URLSearchParams();
+            form.set("message", msg);
+            // form.set("service", elService?.value || "SQLAnalytics");
+            form.set("service", elService.value || "SQLAnalytics");
+            if (CURRENT_CONV_ID) form.set("conversationId", String(CURRENT_CONV_ID));
+
+            const token = getAccessToken();
+            //if (token) hdrs.set('Authorization', `Bearer ${token}`);
+            // fetch(`${API_COMPANY}/Ask1`, {
+            fetch(`${API_COMPANY_ASK}/AskAgent`, {
+                method: "POST",
+                headers: { "Content-Type": "application/x-www-form-urlencoded;charset=UTF-8" ,"Authorization":`Bearer ${token}`},
+                body: form.toString(),
+                credentials: "include"
+            })
+                .then(r => r.json())
+                .then(async data => {
+                    debugger;
+
+                    if (data.error) {
+                        appendMessage("bot", safeHtml(data.error));
+                    }
+                    // else if (elService?.value != "SQLAnalytics" && elService?.value != "FileAnalytics") {
+                    else if (elService.value != "SQLAnalytics" && elService.value != "FileAnalytics") {
+                        appendMessage("bot", jsonToParagraph(data.message || "(no answer)"));
+                    // } else if (elService?.value == "FileAnalytics") {
+                    } else if (elService.value == "FileAnalytics") {
+                        appendMessage("bot", safeHtml(data.message || "(no answer)"));
+                    }else if (data.chart) {
+                        appendMessage("bot", safeHtml(data.message || "Chart:"));
+                        renderChart(data.chart);
+                    } else if (data.data && data.data.length > 0) {
+                        const tableHtml = renderTable(data.data);
+                        appendMessage("bot", safeHtml(data.message || "Here are the results:") + "<br/>" + tableHtml);
+                    }
+                    else {
+                        appendMessage("bot", safeHtml(data.message || "(no answer)"));
+                    }
+
+                    if (typeof data.tokensUsed === "number") {
+                        tokensUsed += data.tokensUsed;
+                        if (elToken) elToken.innerText = `Tokens used: ${tokensUsed}`;
+                    }
+
+                    if (data.conversationId && !CURRENT_CONV_ID) {
+                        CURRENT_CONV_ID = data.conversationId;
+                        // await loadHistory(CURRENT_CONV_ID);
+                    }
+
+                    if (data.newTitle && data.conversationId) {
+                        const li = document.querySelector(`#chatHistory li[data-conv-id="${data.conversationId}"] .text-truncate`);
+                        if (li) li.textContent = data.newTitle;
+                        if (elTitle) elTitle.textContent = data.newTitle;
+                    }
+                })
+                .catch(err => appendMessage("bot", "Error: " + safeHtml(err.message)))
+                .finally(() => {
+                    setBusy(false);
+                    elInput?.focus();
+                });
+        }
+
+            async function sendMessage() {
+        if (__busyCount > 0) return;
+
+        const input = elInput;
+        const msg = (input?.value || "").trim();
+        if (!msg) return;
+
+        // Immediate UI update
+        appendMessage("user", safeHtml(msg));
+        if (input) input.value = "";
+
+        // Show typing indicator immediately
+        showTypingBubble("Thinking…");
+
+        // Start timing
+        const startTime = Date.now();
+
+        // Set a timeout for the request
+        const controller = new AbortController();
+        const timeoutId = setTimeout(() => controller.abort(), 120000); // 2 minute timeout
+
+        try {
+            const response = await fetch(`${API_COMPANY_ASK}/AskAgent`, {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/x-www-form-urlencoded;charset=UTF-8",
+                    "Authorization": `Bearer ${getAccessToken()}`
+                },
+                body: new URLSearchParams({
+                    message: msg,
+                    service: elService.value || "SQLAnalytics",
+                    conversationId: CURRENT_CONV_ID ? String(CURRENT_CONV_ID) : ""
+                }),
+                credentials: "include",
+                signal: controller.signal
+            });
+
+            clearTimeout(timeoutId);
+
+            const data = await response.json();
+            const elapsed = Date.now() - startTime;
+            console.log(`Request completed in ${elapsed}ms`);
+
+            // Process response...
+            if (data.error) {
+                        appendMessage("bot", safeHtml(data.error));
+                    }
+                    else if (elService.value != "SQLAnalytics" && elService.value != "FileAnalytics") {
+                        appendMessage("bot", jsonToParagraph(data.message || "(no answer)"));
+                    } else if (elService.value == "FileAnalytics") {
+                        appendMessage("bot", safeHtml(data.message || "(no answer)"));
+                    }else if (data.chart) {
+                        appendMessage("bot", safeHtml(data.message || "Chart:"));
+                        renderChart(data.chart);
+                    } else if (data.data && data.data.length > 0) {
+                        const tableHtml = renderTable(data.data);
+                        appendMessage("bot", safeHtml(data.message || "Here are the results:") + "<br/>" + tableHtml);
+                    }
+                    else {
+                        appendMessage("bot", safeHtml(data.message || "(no answer)"));
+                    }
+
+                    if (typeof data.tokensUsed === "number") {
+                        tokensUsed += data.tokensUsed;
+                        if (elToken) elToken.innerText = `Tokens used: ${tokensUsed}`;
+                    }
+
+                    if (data.conversationId && !CURRENT_CONV_ID) {
+                        CURRENT_CONV_ID = data.conversationId;
+                        
+                    }
+
+                    if (data.newTitle && data.conversationId) {
+                        const li = document.querySelector(`#chatHistory li[data-conv-id="${data.conversationId}"] .text-truncate`);
+                        if (li) li.textContent = data.newTitle;
+                        if (elTitle) elTitle.textContent = data.newTitle;
+                    }
+
+        } catch (error) {
+            clearTimeout(timeoutId);
+            if (error.name === 'AbortError') {
+                appendMessage("bot", "Request timed out. Please try again.");
+            } else {
+                appendMessage("bot", "Error: " + safeHtml(error.message));
+            }
+        } finally {
+            hideTypingBubble();
+            setBusy(false);
+            elInput?.focus();
+        }
+    }
+
+
+    }
+</script>
+<script>
+    (function() {
+      // id of the <div> where messages should render
+      const CHAT_BOX_SEL = "#chatBox";
+
+      // Safely ensure container exists
+      if (!document.querySelector(CHAT_BOX_SEL)) {
+          const host = document.createElement("div");
+          host.id = "chatBox";
+          host.className = "p-3";
+          document.body.appendChild(host);
+      }
+
+      // Basic bubble templates
+      function bubble(html, who) {
+          const cls = who === "user" ? "bg-primary text-white" : "bg-light";
+          return `<div class="my-2">
+                    <div class="rounded px-3 py-2 shadow-sm ${cls}" style="max-width: 100%; overflow-x:auto;">
+                      ${html}
+                    </div>
+                  </div>`;
+      }
+
+      // // Renders a single message (text / table / chart)
+      // window.renderMessage = function(msg) {
+      //     try {
+      //         // Prefer JSON rendering when present
+      //         if (msg.messageJSON && msg.messageJSON.trim() !== "") {
+      //             const payload = JSON.parse(msg.messageJSON);
+
+      //             if (payload.mode === "table" && payload.data) {
+      //                 const cols = payload.data.columns || [];
+      //                 const rows = payload.data.rows || [];
+      //                 let t = "<div class='table-responsive'><table class='table table-sm table-bordered mb-0'><thead><tr>";
+      //                 cols.forEach(c => t += `<th>${escapeHtml(c)}</th>`);
+      //                 t += "</tr></thead><tbody>";
+      //                 rows.forEach(r => {
+      //                     t += "<tr>";
+      //                     (Array.isArray(r) ? r : cols.map(c => r[c])).forEach(cell => {
+      //                         t += `<td>${escapeHtml(cell)}</td>`;
+      //                     });
+      //                     t += "</tr>";
+      //                 });
+      //                 t += "</tbody></table></div>";
+      //                 $(CHAT_BOX_SEL).append(bubble(t, "assistant"));
+      //                 return;
+      //             }
+
+      //             if (payload.mode === "chart" && (payload.data || payload.spec)) {
+      //                 const chartId = "chart_" + (msg.messageId || Math.floor(Math.random()*1e9));
+      //                 const canvas = `<canvas id="${chartId}" height="240"></canvas>`;
+      //                 $(CHAT_BOX_SEL).append(bubble(canvas, "assistant"));
+
+      //                 // Build Chart.js dataset from common {label,value} array
+      //                 const dataArr = payload.data || [];
+      //                 const labels = dataArr.map(d => d.label ?? "");
+      //                 const values = dataArr.map(d => +d.value ?? 0);
+
+      //                 const cfg = {
+      //                     type: (payload.spec && payload.spec.type) || "bar",
+      //                     data: {
+      //                         labels: labels,
+      //                         datasets: [{
+      //                             label: (payload.spec && payload.spec.label) || "Data",
+      //                             data: values
+      //                         }]
+      //                     },
+      //                     options: (payload.spec && payload.spec.options) || { responsive: true, maintainAspectRatio: false }
+      //                 };
+      //                 new Chart(document.getElementById(chartId), cfg);
+      //                 return;
+      //             }
+      //         }
+
+      //         // Fallback to plain text
+      //         const clean = escapeHtml(msg.messageText || "");
+      //         $(CHAT_BOX_SEL).append(bubble(clean, msg.senderType || "assistant"));
+      //     } catch (e) {
+      //         const clean = escapeHtml(msg.messageText || "");
+      //         $(CHAT_BOX_SEL).append(bubble(clean, msg.senderType || "assistant"));
+      //         console.error("renderMessage error:", e);
+      //     }
+      // };
+
+      // Escape helper (simple)
+      
+      function escapeHtml(v) {
+          if (v === null || v === undefined) return "";
+          return String(v)
+            .replace(/&/g,"&amp;")
+            .replace(/</g,"&lt;")
+            .replace(/>/g,"&gt;")
+            .replace(/"/g,"&quot;")
+            .replace(/'/g,"&#39;");
+      }
+
+      // Load & render a conversation by id
+      window.loadConversation = function(conversationId) {
+          if (!conversationId) return;
+          $(CHAT_BOX_SEL).empty();
+
+          $.ajax({
+              url: "/Chat/GetMessages",   // <-- change if your route differs
+              method: "GET",
+              data: { conversationId },
+              success: function(resp) {
+                  // shape expected: { status:true, data:[{ messageId, senderType, messageText, messageJSON, createdAt }, ...] }
+                  const list = (resp && resp.data) || resp || [];
+                  list.forEach(renderMessage);
+
+                  // auto-scroll to bottom
+                  const el = document.querySelector(CHAT_BOX_SEL);
+                  el.scrollTop = el.scrollHeight;
+              },
+              error: function(xhr) {
+                  console.error("loadConversation failed", xhr.responseText || xhr.statusText);
+              }
+          });
+      };
+
+    })();
+</script>
+
+
+<script>
+
+               $(function() {
+        var dd1 = new dropDown($('#myDropdown'));
+
+        // Set default value after initialization
+        setTimeout(() => {
+            dd1.setValue("SQLAnalytics");
+        }, 100);
+
+        $(document).click(function() {
+            $('.wrapper-dropdown').removeClass('active');                                               
+        });
+    });
+
+    function dropDown(el) {
+
+      this.dd = el;
+
+      this.placeholder = this.dd.children('span');
+
+      this.opts = this.dd.find('ul.dropdown > li');
+
+      this.val = '';
+
+      this.index = -1;
+
+      this.initEvents();
+
+    }
+
+        dropDown.prototype = {
+        initEvents: function() {
+            var obj = this;
+            obj.dd.on('click', function() {
+                $(this).toggleClass('active');
+                return false;
+            });
+
+            obj.opts.on('click', function() {
+                var opt = $(this);
+                obj.val = opt.text();
+                obj.index = opt.index();
+                obj.placeholder.text(obj.val);
+                // Update the global service value
+                //elService.value = obj.val;
+                window.elService.value = obj.val;
+
+                // const service = opt.text();                    
+                //     createNewChat(service);
+            });
+        },
+
+        // Add this method to set value programmatically
+        setValue: function(value) {
+            var obj = this;
+            obj.val = value;
+            obj.placeholder.text(value);
+            // Also update the clicked state for the option
+            obj.opts.removeClass('selected');
+            obj.opts.filter(function() {
+                return $(this).text() === value;
+            }).addClass('selected');
+            //elService.value = value;
+            window.elService.value = value;
+        }
+    };
+</script>
+

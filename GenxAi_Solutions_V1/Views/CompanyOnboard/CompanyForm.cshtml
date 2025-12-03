@@ -1,0 +1,3930 @@
+﻿@using GenxAi_Solutions_V1
+@using GenxAi_Solutions_V1.Models
+@using Newtonsoft.Json
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@* <p> this is company related form</p> *@
+@* <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> *@
+@*< script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        crossorigin="anonymous"></script> *@
+@* <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script> *@
+@* <script src="https://cdnjs.cloudflare.com/ajax/libs/microsoft-signalr/7.0.12/signalr.min.js" referrerpolicy="no-referrer"></script> *@
+@* <script src="~/js/bootstrap4.min.js"></script>
+<script src="~/js/scripts.js"></script> *@
+@* <script src="~/js/custom.js"></script> *@
+<style>
+    .ms-dd .dropdown-menu {
+        width: 100%;
+        max-height: 320px;
+        overflow: auto;
+    }
+
+    .ms-dd .dd-btn {
+        text-align: left;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    .ms-dd .form-check {
+        margin-bottom: .25rem;
+    }
+</style>
+<div class="container-fluid p-4 h-100">
+    <div class="row bg-white overflow-hidden shadow">
+        <!-- Users box-->
+        <!-- Chat Box-->
+        <div class="col-md-12 p-0">
+            <section class="signup-step-container p-3">
+                <div class="container-fluid">
+                    <div class="row d-flex justify-content-center">
+                        <div class="col-md-12">
+                            <div class="wizard">
+                                <div class="wizard-inner">
+                                    <div class="connecting-line"></div>
+                                    <ul class="nav nav-tabs" role="tablist">
+                                        <li role="presentation" class="active">
+                                            <a href="#step1" data-bs-toggle="tab" aria-controls="step1"
+                                               role="tab" aria-expanded="true">
+                                                <span class="round-tab">1 </span> <i>
+                                                    Company
+                                                    Profile
+                                                </i>
+                                            </a>
+                                        </li>
+                                        <li role="presentation" class="disabled">
+                                            <a href="#step2" data-bs-toggle="tab" aria-controls="step2"
+                                               role="tab" aria-expanded="false">
+                                                <span class="round-tab">2</span> <i>
+                                                    SQL Analytics
+                                                    Configuration
+                                                </i>
+                                            </a>
+                                        </li>
+                                        <li role="presentation" class="disabled">
+                                            <a href="#step3" data-bs-toggle="tab" aria-controls="step3"
+                                               role="tab">
+                                                <span class="round-tab">3</span> <i>
+                                                    File
+                                                    Analytics Configuration
+                                                </i>
+                                            </a>
+                                        </li>
+                                        <li role="presentation" class="disabled">
+                                            <a href="#step4" data-bs-toggle="tab" aria-controls="step4"
+                                               role="tab">
+                                                <span class="round-tab">4</span>
+                                                <i>Summary</i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <form role="form" action="index.html" class="login-box">
+                                    <div class="tab-content" id="main_form">
+                                        <div class="tab-pane active" role="tabpanel" id="step1">
+                                            <h4 class="text-center">Company Profile</h4>
+                                            <div class="row form-fields">
+                                                <div class="col-md-4">
+                                                    <div class="form-group">
+                                                        <label>Company Name</label>
+                                                        <input id="CompanyName" class="form-control" type="text" />
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-4">
+                                                    <div class="form-group">
+                                                        <label>Business/Trade Name</label>
+                                                        <input id="BusinessTradeName" class="form-control" type="text" />
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-4">
+                                                    <div class="form-group">
+                                                        <label>Industry / Business Type</label>
+                                                        <input id="IndustryType" class="form-control" type="text" />
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-md-4">
+                                                    <div class="form-group">
+                                                        <label>Company Registration Number</label>
+                                                        <input id="CompanyRegistrationNumber" class="form-control" type="text" />
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-4">
+                                                    <div class="form-group">
+                                                        <label>Date of Incorporation</label>
+                                                        <input id="DateOfIncorporation" class="form-control" type="date" />
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-4">
+                                                    <div class="form-group">
+                                                        <label>Company Size</label>
+                                                        <input id="CompanySize" class="form-control" type="text" />
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-md-4">
+                                                    <div class="form-group">
+                                                        <label>Description / About</label>
+                                                        <input id="Description" class="form-control" type="text" />
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-4">
+                                                    <div class="form-group">
+                                                        <label>Registered Address</label>
+                                                        <input id="RegisteredAddress" class="form-control" type="text" />
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-4">
+                                                    <div class="form-group">
+                                                        <label>Corporate Address</label>
+                                                        <input id="CorporateAddress" class="form-control" type="text" />
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-md-4">
+                                                    <div class="form-group">
+                                                        <label>Primary Phone</label>
+                                                        <input id="PrimaryPhone" class="form-control" type="text" />
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-4">
+                                                    <div class="form-group">
+                                                        <label>Official Email Address</label>
+                                                        <input id="OfficialEmail" class="form-control" type="email" />
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-4">
+                                                    <div class="form-group">
+                                                        <label>Company Website</label>
+                                                        <input id="CompanyWebsite" class="form-control" type="text" />
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-md-4">
+                                                    <div class="form-group">
+                                                        <label>Contact Person Name</label>
+                                                        <input id="ContactPersonName" class="form-control" type="text" />
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-4">
+                                                    <div class="form-group">
+                                                        <label>Designation / Role</label>
+                                                        <input id="DesignationRole" class="form-control" type="text" />
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-4">
+                                                    <div class="form-group">
+                                                        <label>Work Email</label>
+                                                        <input id="WorkEmail" class="form-control" type="email" />
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-md-4">
+                                                    <div class="form-group">
+                                                        <label>Mobile Number</label>
+                                                        <input id="MobileNumber" class="form-control" type="text" />
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-4">
+                                                    <div class="form-group">
+                                                        <label>Alternate Contact</label>
+                                                        <input id="AlternateContact" class="form-control" type="text" />
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-4">
+                                                    <div class="form-group">
+                                                        <label>GST No</label>
+                                                        <input id="GSTNo" class="form-control" type="text" />
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-md-4">
+                                                    <div class="form-group">
+                                                        <label>Pan No</label>
+                                                        <input id="PanNo" class="form-control" type="text" />
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-4">
+                                                    <div class="form-group">
+                                                        <label>TAN No</label>
+                                                        <input id="TANNo" class="form-control" type="text" />
+                                                    </div>
+                                                </div>
+                                                <input type="hidden" id="CompanyIDHidden" />
+                                            </div>
+                                            <ul class="list-inline pull-right">
+                                                <li>
+                                                    <button type="button" id="btnStep1Next"
+                                                            class="default-btn next-step">
+                                                        Next
+                                                    </button>
+                                                    <button type="button" id="btnUpdatestep1" style="display:none" class="default-btn next-step">
+                                                        Next
+                                                    </button>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="tab-pane" role="tabpanel" id="step2">
+                                            <h4 class="text-center">SQL Analytics Configuration</h4>
+                                            <div class="row form-fields">
+                                                <div class="col-md-4">
+                                                    <div class="form-group">
+                                                        <label>Database Type</label>
+                                                        <select class="form-control" id="ddlDatabaseType">
+                                                            <option selected disabled>Please Select</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-4">
+                                                    <div class="form-group">
+                                                        <label>Server Name / IP Address / Host Name</label>
+                                                        <input class="form-control connection-str" type="text" id="txtServerName" placeholder="">
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-4">
+                                                    <div class="form-group">
+                                                        <label>Database User Name</label>
+                                                        <input class="form-control connection-str" type="text" id="dbUserName" placeholder="">
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-4">
+                                                    <div class="form-group">
+                                                        <label>Database Password</label>
+                                                        <input class="form-control connection-str" type="text" id="dbPassword" placeholder="">
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-1">
+                                                    <div class="form-group">
+                                                        <label>Port Number</label>
+                                                        <input class="form-control connection-str" type="text" id="dbPortNum" placeholder="">
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-7">
+                                                    <div class="form-group">
+
+                                                        <input type="hidden" class="form-control" id="txtConnStr">
+                                                        <button type="button" id="btntestconn" class="default-btn">Test Connection</button>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-4">
+                                                    <div class="form-group">
+                                                        <label>Database</label>
+
+                                                        <select class="form-control" id="ddlDatabses">
+                                                            <option selected disabled>Please Select</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-4">
+                                                    <div class="form-group">
+                                                        <label>Schema</label>
+
+                                                        <select class="form-control" id="ddlSchema">
+                                                            <option selected disabled>Please Select</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-4">
+                                                    <div class="form-group">
+                                                        <label>Description</label>
+                                                        <input class="form-control" type="text" id="sqlDesc"
+                                                               name="name" placeholder="">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row form-fields">
+                                                <div class="col-md-4" id="tablesdiv">
+
+                                                    <div class="form-group ms-dd">
+                                                        <label class="d-block mb-2">Tables</label>
+                                                        <div class="dropdown w-100">
+                                                            <button class="btn btn-outline-secondary w-100 dd-btn dropdown-toggle" type="button"
+                                                                    id="tablesDropdownBtn" data-bs-toggle="dropdown" aria-expanded="false">
+                                                                <span id="tablesLabel">Select tables…</span>
+                                                            </button>
+                                                            <div class="dropdown-menu p-3" aria-labelledby="tablesDropdownBtn">
+                                                                <div class="d-flex align-items-center mb-2">
+                                                                    <input class="form-check-input me-2" type="checkbox" id="tablesSelectAll">
+                                                                    <label class="form-check-label" for="tablesSelectAll"><strong>Select all</strong></label>
+                                                                </div>
+                                                                <input type="text" id="tablesFilter" class="form-control form-control-sm mb-2" placeholder="Filter tables…">
+                                                                <div id="tablesOptions"><!-- JS binds checkbox items here --></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+                                                <div class="col-md-4" id="viewsdiv">
+                                                    <div class="form-group ms-dd">
+                                                        <label class="d-block mb-2">Views</label>
+                                                        <div class="dropdown w-100">
+                                                            <button class="btn btn-outline-secondary w-100 dd-btn dropdown-toggle" type="button"
+                                                                    id="viewsDropdownBtn" data-bs-toggle="dropdown" aria-expanded="false">
+                                                                <span id="viewsLabel">Select views…</span>
+                                                            </button>
+                                                            <div class="dropdown-menu p-3" aria-labelledby="viewsDropdownBtn">
+                                                                <div class="d-flex align-items-center mb-2">
+                                                                    <input class="form-check-input me-2" type="checkbox" id="viewsSelectAll">
+                                                                    <label class="form-check-label" for="viewsSelectAll"><strong>Select all</strong></label>
+                                                                </div>
+                                                                <input type="text" id="viewsFilter" class="form-control form-control-sm mb-2" placeholder="Filter views…">
+                                                                <div id="viewsOptions"><!-- JS binds checkbox items here --></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                            <div class="row form-fields">
+                                                <div class="col-md-12">
+                                                    <div class="form-group">
+                                                        <label>Prompt Configuration</label>
+                                                        <textarea class="form-control" id="SqlPrompt" rows="3"></textarea>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <input type="hidden" id="sqlconfigHidden" />
+                                            <ul class="list-inline pull-right">
+                                                <li>
+                                                    <button type="button"
+                                                            class="default-btn prev-step">
+                                                        Prev
+                                                    </button>
+                                                </li>
+                                                <li>
+                                                    <button type="button" id="btnstep2skip"
+                                                            class="default-btn next-step skip-btn">
+                                                        Skip
+                                                    </button>
+                                                    <button type="button" id="btnUpdatestep2Skip" style="display:none"
+                                                            class="default-btn next-step skip-btn">
+                                                        Skip
+                                                    </button>
+                                                </li>
+                                                <li>
+                                                    <button type="button" id="btnStep2Next"
+                                                            class="default-btn next-step">
+                                                        Next
+                                                    </button>
+                                                    <button type="button" id="btnUpdatestep2" style="display:none" class="default-btn next-step">
+                                                        Next
+                                                    </button>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="tab-pane" role="tabpanel" id="step3">
+                                            <h4 class="text-center">File Analytics Configuration</h4>
+                                            <!-- Dynamic rows live here -->
+                                            <div id="uploadRows">
+                                                <!-- One starter row -->
+                                                <div class="row form-fields align-items-end upload-row">
+                                                    <div class="col-md-5">
+                                                        <div class="form-group">
+                                                            <label>File Upload</label>
+                                                            <div class="custom-file">
+
+                                                                <input type="file" class="custom-file-input file-input">
+                                                                <label class="custom-file-label">Select file</label>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-5">
+                                                        <div class="form-group">
+                                                            <label>Description</label>
+                                                            <input class="form-control desc-input" type="text"
+                                                                   name="name" placeholder="File description">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-2 ">
+
+                                                        <div class="form-group pull-right d-flex gap-2">
+                                                            <button type="button" class="btn btn-success" id="btnAddUploader">
+                                                                <i class="fa fa-plus"></i>
+                                                            </button>
+                                                            <button type="button" class="btn btn-outline-danger btnRemoveUploader" title="Remove this row">
+                                                                <i class="fa fa-trash"></i>
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="row form-fields">
+                                                <div class="col-md-12">
+                                                    <div class="form-group">
+                                                        <label>Prompt Configuration</label>
+                                                        <textarea class="form-control" id="txtPrompt" rows="5"></textarea>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <input type="hidden" id="fileconfigHidden" />
+                                            <ul class="list-inline pull-right">
+                                                <li>
+                                                    <button type="button"
+                                                            class="default-btn prev-step">
+                                                        Prev
+                                                    </button>
+                                                </li>
+                                                <li>
+                                                    <button type="button" id="btnstep3skip"
+                                                            class="default-btn next-step skip-btn">
+                                                        Skip
+                                                    </button>
+                                                    <button type="button" id="btnUpdatestep3skip" style="display:none"
+                                                            class="default-btn next-step skip-btn">
+                                                        Skip
+                                                    </button>
+                                                </li>
+                                                <li>
+                                                    <button type="button" id="btnStep3Upload"
+                                                            class="default-btn next-step">
+                                                        Next
+                                                    </button>
+                                                    <button type="button" id="btnUpdatestep3" style="display:none" class="default-btn next-step">
+                                                        Next
+                                                    </button>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="tab-pane" role="tabpanel" id="step4">
+                                            <h4 class="text-center">Summary</h4>
+                                            <div class="row form-fields">
+                                                <div class="col-md-12">
+                                                    <div class="form-group row">
+                                                        <label for="staticEmail" class="col-sm-3 col-form-label">SQL analytics</label>
+                                                        <div class="col-sm-3">
+                                                            <input type="text" readonly class="form-control-plaintext" id="txtsqlconfig">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-12">
+                                                    <div class="form-group row">
+                                                        <label for="staticEmail" class="col-sm-3 col-form-label">File Analytics Configuration</label>
+                                                        <div class="col-sm-3">
+                                                            <input type="text" readonly class="form-control-plaintext" id="txtfileconfig">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <ul class="list-inline pull-right">
+                                                <li>
+                                                    <button type="button" id="btnSaveLater"
+                                                            class="default-btn prev-step">
+                                                        Save For Later
+                                                    </button>
+                                                </li>
+                                                <li>
+                                                    <button type="button" id="btnSavePermanent"
+                                                            class="default-btn next-step">
+                                                        Save
+                                                    </button>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="clearfix"></div>
+                                    </div>
+
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+</div>
+@* <!-- Toast for seeding status -->
+<div id="seed_toast" class="alert d-none" role="alert"
+     style="position:fixed; right:16px; bottom:16px; z-index:1050; min-width:300px;"></div> *@
+
+@* <div class="toast-container position-fixed top-50 start-50 translate-middle" style="z-index: 1100"></div> *@
+<div class="toast-container position-fixed top-0 end-0 p-3" style="z-index: 1100"></div>
+
+<script>
+        // ====== CONFIG ======
+        const API_COMPANY = `${window.location.origin}/api/CompanyOnboard`;
+        const API_SEMANTIC = `${window.location.origin}/api/semantic`;
+        const HUB_URL = "/semanticHub";
+
+    //     // ====== TOAST ======
+    //          function showMessage(message, type) {
+    //             // type = success, danger, warning, info
+    //             var bgClass = "bg-" + type;
+
+    //             var toastHtml = `
+    //                 <div class="toast align-items-center text-white ${bgClass} border-0 mb-2" role="alert" aria-live="assertive" aria-atomic="true">
+    //                     <div class="d-flex">
+    //                         <div class="toast-body">
+    //                             ${message}
+    //                         </div>
+    //                         <button type="button" class="btn-close btn-close-white me-2 m-auto" data-bs-dismiss="toast" aria-label="Close"></button>
+    //                     </div>
+    //                 </div>`;
+
+    //             var $toast = $(toastHtml);
+    //             $(".toast-container").append($toast);
+
+    //              var toast = new bootstrap.Toast($toast[0], {
+    //             autohide: true,
+    //             delay: 3000
+    //         });
+    //             toast.show();
+
+    //             // auto remove after hide
+    //             $toast.on('hidden.bs.toast', function () {
+    //                 $(this).remove();
+    //             });
+    //         }
+    //     function showSeedToast(text, type = "info")
+    // {
+    //       const el = $("#seed_toast");
+    //       el.removeClass("d-none alert-info alert-success alert-danger");
+    //       if (type === "success") el.addClass("alert-success");
+    //       else if (type === "error") el.addClass("alert-danger");
+    //       else el.addClass("alert-info");
+
+    //       el.text(text);
+    //       // auto-hide after 5s
+    //       clearTimeout(el.data("t"));
+    //       el.data("t", setTimeout(() => el.addClass("d-none"), 5000));
+    //     }
+
+        // ====== SIGNALR HUB ======
+            // ====== TOAST (updated) ======
+          function ensureToastContainer() {
+            let c = document.querySelector(".toast-container");
+            if (!c) {
+              c = document.createElement("div");
+              c.className = "toast-container position-fixed top-0 end-0 p-3";
+              c.style.zIndex = 1080; // above navbars/modals
+              document.body.appendChild(c);
+            }
+            return c;
+          }
+
+          function showMessage(message, type) {
+            // type = success, danger, warning, info
+            const bgClass = "bg-" + (type || "info");
+            const toastHtml = `
+              <div class="toast align-items-center text-white ${bgClass} border-0 mb-2" role="alert" aria-live="assertive" aria-atomic="true">
+                <div class="d-flex">
+                  <div class="toast-body">
+                    ${message}
+                  </div>
+                  <button type="button" class="btn-close btn-close-white me-2 m-auto" data-bs-dismiss="toast" aria-label="Close"></button>
+                </div>
+              </div>`;
+
+            const $toast = $(toastHtml);
+            $(ensureToastContainer()).append($toast);
+
+            const toast = new bootstrap.Toast($toast[0], { autohide: true, delay: 5000 });
+            toast.show();
+
+            $toast.on("hidden.bs.toast", function () {
+              $(this).remove();
+              const container = document.querySelector(".toast-container");
+              if (container && !container.children.length) container.remove();
+            });
+          }
+
+           function wireRowEvents($row) {
+        // Update custom-file label on file choose
+        $row.find('.file-input').off('change').on('change', function () {
+            const fileName = this.files && this.files.length ? this.files[0].name : 'Select file';
+            $(this).next('.custom-file-label').text(fileName);
+
+            // Remove existing file note when new file is selected
+            $(this).closest('.form-group').find('.form-text').remove();
+        });
+
+        // Remove row
+        $row.find('.btnRemoveUploader').off('click').on('click', function () {
+            const $row = $(this).closest('.upload-row');
+            const fileId = $row.data('fileid');
+
+            if (fileId) {
+                // Mark existing file for deletion
+                if (!removedExistingIds) removedExistingIds = new Set();
+                removedExistingIds.add(fileId);
+                updateExistingBadge();
+            }
+
+            const $all = $('#uploadRows .upload-row');
+            if ($all.length > 1) {
+                $row.remove();
+            } else {
+                // If it's the only row, just reset it
+                $row.find('.file-input').val('').prop('disabled', false);
+                $row.find('.custom-file-label').text('Select file');
+                $row.find('.desc-input').val('');
+                $row.find('.form-text').remove();
+                $row.removeData('fileid');
+            }
+        });
+    }
+
+          function showSeedToast(text, type = "info") {
+            const el = $("#seed_toast");
+            el.removeClass("d-none alert-info alert-success alert-danger");
+            if (type === "success") el.addClass("alert-success");
+            else if (type === "error") el.addClass("alert-danger");
+            else el.addClass("alert-info");
+
+            el.text(text);
+            clearTimeout(el.data("t"));
+            el.data("t", setTimeout(() => el.addClass("d-none"), 5000));
+          }
+
+        let seedHub = null;
+        let hubStarted = false;
+
+      
+
+        async function ensureHub() {
+          if (!seedHub) {
+            seedHub = new signalR.HubConnectionBuilder()
+              .withUrl(HUB_URL,{ accessTokenFactory: () => localStorage.getItem("accessToken") })
+              .withAutomaticReconnect()
+              .build();
+
+            seedHub.on("SeedStatus", function (msg) {
+              // msg: { jobId, companyId, type, status: Running|Succeeded|Failed, error?, at }
+              console.log("SeedStatus:", msg);
+              // if (msg.status === "Running")   showSeedToast(`Seeding started for Company ${msg.companyId}…`, "info");
+              // if (msg.status === "Succeeded") showSeedToast(`Seeding completed for Company ${msg.companyId}.`, "success");
+              // if (msg.status === "Failed")    showSeedToast(`Seeding failed: ${msg.error || "Unknown error"}`, "error");
+                          //if (msg.status === "Running")   showMessage(`Seeding started for Company…`, "info");
+                //               if (msg.status === "Succeeded") {
+                //   showMessage("Seeding completed for Company.", "success");
+                // } else if (msg.status === "Failed") {
+                //   showMessage(`Seeding failed: ${msg.error || "Unknown error"}`, "danger");
+                // }
+
+                if (msg.status === "Running") {
+                  showMessage("Seeding started./n You can check updates on notification", "info");
+                }
+            });
+          }
+          if (!hubStarted) {
+            await seedHub.start();
+            hubStarted = true;
+          }
+        }
+
+        async function joinCompanyGroup(companyId) {
+          await ensureHub();
+          try {
+            await seedHub.invoke("JoinCompanyGroup", `company-${companyId}`);
+          } catch (e) {
+            console.warn("JoinCompanyGroup failed:", e);
+          }
+        }
+
+        // ====== ENQUEUE SEEDING ======
+        async function queueAllSeeding(companyId,type) {
+          // You can split into two calls if you want them as separate jobs:
+          if(type==1)
+          {
+                return await $.post(`${API_SEMANTIC}/start-db-seed?companyId=${companyId}`);
+          }
+          if(type==2)
+          {
+                return await $.post(`${API_SEMANTIC}/start-pdf-seed?companyId=${companyId}`);
+          }
+          if(type==0)
+          {
+                return await $.post(`${API_SEMANTIC}/start-all-seed?companyId=${companyId}`);
+          }
+
+
+
+          //return $.post(`${API_SEMANTIC}/start-all-seed?companyId=${companyId}`);
+        }
+
+        // // ====== SAVE PAYLOAD BUILDER ======
+        // // IMPORTANT: If you already have a function that builds the payload for SavePermanent,
+        // // keep using it. Replace buildSavePayload() with your existing one if needed.
+        // function buildSavePayload() {
+        //   // Minimal example: adapt to your actual model fields.
+        //   // Collect whatever your SaveProfilePermanent needs (IDs, strings, etc.)
+        //   const companyIdExisting = $("#CompanyIDHidden").val();
+        //   return {
+        //     // Example fields — extend/replace with your real fields.
+        //     CompanyID: companyIdExisting ? parseInt(companyIdExisting) : 0,
+        //     CompanyName: $("#CompanyName").val() || "",
+        //     BusinessTradeName: $("#BusinessTradeName").val() || "",
+        //     IndustryType: $("#IndustryType").val() || "",
+        //     // ... add all other fields your API expects from the wizard ...
+        //   };
+        // }
+
+        // ====== WIZARD HELPERS ======
+        function resetWizardToFirstStep() {
+          // Optional: jump back to step 1 after save
+          const nextTabTrigger = document.querySelector('a[href="#step1"]');
+          if (nextTabTrigger && window.bootstrap && window.bootstrap.Tab) {
+            new bootstrap.Tab(nextTabTrigger).show();
+          } else {
+            // fallback for older bootstrap
+            $('a[href="#step1"]').tab("show");
+          }
+        }
+
+        // // ====== SAVE -> QUEUE SEEDING FLOW ======
+        // $(document).on("click", "#btnSavePermanent", function () {
+        //   const $btn = $(this).prop("disabled", true).text("Saving...");
+        //   const payload = buildSavePayload();
+
+        //   $.ajax({
+        //     url: `${API_COMPANY}/SavePermanent`,
+        //     method: "POST",
+        //     data: JSON.stringify(payload),
+        //     contentType: "application/json; charset=utf-8",
+        //     timeout: 0
+        //   })
+        //   .done(async function (res) {
+        //     // Expected response: { message, CompanyId }
+        //     const cid = res?.CompanyId || payload.CompanyID || $("#CompanyIDHidden").val();
+        //     if (!cid) {
+        //       showSeedToast("Saved, but CompanyId is missing in response.", "error");
+        //       return;
+        //     }
+
+        //     // Persist CompanyId locally if needed
+        //     $("#CompanyIDHidden").val(cid);
+
+        //     // Connect to hub & join company group for live updates
+        //     try {
+        //       await joinCompanyGroup(cid);
+        //     } catch (e) {
+        //       console.warn("Hub join warning:", e);
+        //     }
+
+        //     // Queue background seeding (DB + PDF)
+        //     try {
+        //       await queueAllSeeding(cid);
+        //       showSeedToast(`Seeding queued for Company ${cid}…`, "info");
+        //     } catch (e) {
+        //       console.error("Queue seeding failed:", e);
+        //       showSeedToast("Unable to queue seeding.", "error");
+        //     }
+
+        //     // Optional success UI
+        //     if (res?.message) {
+        //       // You can replace alert with your custom modal/toast
+        //       alert(res.message);
+        //     } else {
+        //       alert("Saved successfully.");
+        //     }
+
+        //     // Optional: reset wizard
+        //     resetWizardToFirstStep();
+        //   })
+        //   .fail(function (xhr) {
+        //     const msg = xhr?.responseJSON?.message || "Save failed.";
+        //     showSeedToast(msg, "error");
+        //     console.error("SavePermanent failed:", xhr);
+        //   })
+        //   .always(function () {
+        //     $btn.prop("disabled", false).text("Save");
+        //   });
+        // });
+</script>
+<script>
+
+     const BASE_URL = window.location.origin; // same site API
+
+     const ddlDatabaseType = document.getElementById('ddlDatabaseType');
+     const ddlDatabase = document.getElementById('ddlDatabses');
+     const ddlSchema = document.getElementById('ddlSchema');
+      const tableDiv = document.getElementById('tablesdiv');
+      const viewDiv = document.getElementById('viewsdiv');
+     const API_BASE = `${BASE_URL}/api/CompanyOnboard`; // API URL Initial
+
+     //suchita
+      const editFlg=@Html.Raw(Newtonsoft.Json.JsonConvert.SerializeObject(ViewBag.Flgedit));
+         const itemTbl='';
+         const itemVw='';
+          var dbselName='';
+           var scmselName='';
+
+         $(document).ready(function ()
+         {
+             //Suchita
+              if(editFlg==1){
+                       LoadEditDataform1();
+                          $("#btnUpdatestep1").removeAttr("style"); // removes inline style="display:none"
+                           $("#btnStep1Next").attr("style", "display:none"); // adds inline display:none
+                             $("#btnUpdatestep2").removeAttr("style"); // removes inline style="display:none"
+                             $("#btnStep2Next").attr("style", "display:none");
+                             $("#btnUpdatestep3").removeAttr("style"); // removes inline style="display:none"
+                             $("#btnStep3Upload").attr("style", "display:none");
+
+                             $("#btnUpdatestep2Skip").removeAttr("style"); // removes inline style="display:none"
+                           $("#btnstep2skip").attr("style", "display:none");
+                           $("#btnUpdatestep3skip").removeAttr("style");
+                           $("#btnstep3skip").attr("style", "display:none");
+              }
+
+             //Attach one event listener to all with class 'watch'
+             $(".connection-str").on("change", function () {
+                CreateConnectionstring();
+             });
+
+                 $("#ddlDatabaseType").on("change", function () {
+                 var servername=$("#txtServerName").val().trim();
+                 var port=$("#dbPortNum").val().trim();
+                 var dbusername=$("#dbUserName").val().trim();
+                 var dbpassword=$("#dbPassword").val().trim();
+
+                 if(servername || dbusername || dbpassword || port)
+                 {
+                     CreateConnectionstring();
+                 }
+             });
+
+              $("#btntestconn").on("click",function()
+              {
+                   loadDatabases();
+              });
+              //loadDatabasetype();
+
+             $("#ddlDatabses").on("change",function()
+             {
+                 //call logic for getting all infos
+                  loadSchemaAndInfo();
+             });
+
+
+         });
+
+         //function loadschemaby
+
+       // Build payload from Step-1 fields
+      function getCompanyPayload() {
+        return {
+          CompanyName:               $('#CompanyName').val()?.trim(),
+          BusinessTradeName:         $('#BusinessTradeName').val()?.trim(),
+          IndustryType:              $('#IndustryType').val()?.trim(),
+          CompanyRegistrationNumber: $('#CompanyRegistrationNumber').val()?.trim(),
+          DateOfIncorporation:       $('#DateOfIncorporation').val() || null, // "yyyy-mm-dd"
+          CompanySize:               $('#CompanySize').val()?.trim(),
+          Description:               $('#Description').val()?.trim(),
+          RegisteredAddress:         $('#RegisteredAddress').val()?.trim(),
+          CorporateAddress:          $('#CorporateAddress').val()?.trim(),
+          PrimaryPhone:              $('#PrimaryPhone').val()?.trim(),
+          OfficialEmail:             $('#OfficialEmail').val()?.trim(),
+          CompanyWebsite:            $('#CompanyWebsite').val()?.trim(),
+          ContactPersonName:         $('#ContactPersonName').val()?.trim(),
+          DesignationRole:           $('#DesignationRole').val()?.trim(),
+          WorkEmail:                 $('#WorkEmail').val()?.trim(),
+          MobileNumber:              $('#MobileNumber').val()?.trim(),
+          AlternateContact:          $('#AlternateContact').val()?.trim(),
+          GSTNo:                     $('#GSTNo').val()?.trim(),
+          PanNo:                     $('#PanNo').val()?.trim(),
+          TANNo:                     $('#TANNo').val()?.trim(),
+          flgSave:                   1,
+          CreatedBy:                 101   // TODO: set from your auth/session/user
+        };
+      }
+
+      //Suchita Update related
+       function getCompanyUpdatePayload() {
+        return {
+          CompanyID:                   $('#CompanyIDHidden').val(), // Required for update
+          CompanyName:                 $('#CompanyName').val()?.trim(),
+          BusinessTradeName:           $('#BusinessTradeName').val()?.trim(),
+          IndustryType:                $('#IndustryType').val()?.trim(),
+          CompanyRegistrationNumber:   $('#CompanyRegistrationNumber').val()?.trim(),
+          DateOfIncorporation:         $('#DateOfIncorporation').val() || null,
+          CompanySize:                 $('#CompanySize').val()?.trim(),
+          Description:                 $('#Description').val()?.trim(),
+          RegisteredAddress:           $('#RegisteredAddress').val()?.trim(),
+          CorporateAddress:            $('#CorporateAddress').val()?.trim(),
+          PrimaryPhone:                $('#PrimaryPhone').val()?.trim(),
+          OfficialEmail:               $('#OfficialEmail').val()?.trim(),
+          CompanyWebsite:              $('#CompanyWebsite').val()?.trim(),
+          ContactPersonName:           $('#ContactPersonName').val()?.trim(),
+          DesignationRole:             $('#DesignationRole').val()?.trim(),
+          WorkEmail:                   $('#WorkEmail').val()?.trim(),
+          MobileNumber:                $('#MobileNumber').val()?.trim(),
+          AlternateContact:            $('#AlternateContact').val()?.trim(),
+          GSTNo:                       $('#GSTNo').val()?.trim(),
+          PanNo:                       $('#PanNo').val()?.trim(),
+          TANNo:                       $('#TANNo').val()?.trim(),
+          UpdatedBy:                   101   // TODO: set from your auth/session/user
+        };
+      }
+
+      //For saving Company details
+      function saveCompanyProfile(payload) {
+        const url = `${BASE_URL}/api/CompanyOnboard/CreateProfile`;
+        console.log('POST ->', url, payload);
+        return $.ajax(
+            {
+          url: url,
+          method: 'POST',
+          contentType: 'application/json; charset=utf-8',
+          data: JSON.stringify(payload)
+        });
+      }
+
+       //Suchita For updating Company details
+         function updateCompanyProfile(payload) {
+            const url = `${BASE_URL}/api/CompanyOnboard/UpdateCompanyList`;
+           console.log('POST ->', url, payload);
+           return $.ajax(
+               {
+             url: url,
+             method: 'POST',
+             contentType: 'application/json; charset=utf-8',
+             data: JSON.stringify(payload)
+           });
+         }
+
+    //For loading ddl
+     function setLoading(selectEl, isLoading) {
+       selectEl.disabled = isLoading;
+       selectEl.innerHTML = '';
+       const opt = document.createElement('option');
+       opt.disabled = true;
+       opt.selected = true;
+       opt.textContent = isLoading ? 'Loading...' : 'Please Select';
+       selectEl.appendChild(opt);
+     }
+
+          // For loading checkboxlist
+     function setLoadingDiv(div, isLoading) {
+         // clear existing content
+         div.innerHTML = '';
+
+         // create label element
+         const lbl = document.createElement('label');
+         lbl.textContent = isLoading ? 'Loading...' : '';
+         lbl.style.color = isLoading ? 'gray' : 'black';
+
+         // append into container
+         div.appendChild(lbl);
+     }
+
+     //Bind options in ddl
+     function fillSelect(selectEl, items) {
+         const current = selectEl.value;
+       selectEl.innerHTML = '';
+       const first = document.createElement('option');
+       first.disabled = true;
+       first.selected = true;
+       first.textContent = 'Please Select';
+
+
+       items.forEach(({ value, text }) => {
+       const o = document.createElement('option');
+       o.value = String(value);      // HTML option values are strings
+       o.textContent = String(text);
+       selectEl.appendChild(o);
+        selectEl.appendChild(first);
+     });
+     // try to keep previous selection if still present
+     if (current && items.some(i => String(i.value) === String(current))) {
+       selectEl.value = String(current);
+       first.selected = false;
+     }
+       selectEl.disabled = false;
+     }
+
+     // Safely handle common shapes your API might return
+     function normalizeDbNames(payload) {
+
+       const toPair = (x) => {
+       if (x == null) return null;
+       if (typeof x === 'string') return { value: String(x), text: x };
+       // your exact shape:
+       if ('value' in x && 'text' in x) return { value: String(x.value), text: String(x.text) };
+       // common alternates:
+       if ('id' in x && 'name' in x)   return { value: String(x.id),    text: String(x.name) };
+       if ('name' in x)                return { value: String(x.name),  text: String(x.name) };
+       return null;
+     };
+     const arr = Array.isArray(payload) ? payload
+               : Array.isArray(payload?.data) ? payload.data
+               : [];
+
+     return arr.map(toPair).filter(Boolean);
+     }
+
+
+
+     //for database type Binding
+     //  async function loadDatabasetype() {
+     //   setLoading(ddlDatabaseType, true);
+     //   try {
+     //     const res = await fetch(`${API_BASE}/databasetype`, {
+     //       method: 'GET',
+     //       headers: { 'Accept': 'application/json' }
+     //     });
+     //     if (!res.ok) throw new Error(await res.text());
+     //     const json =  await res.json();
+     //     const dbs = normalizeDbNames(json);
+     //     fillSelect(ddlDatabaseType, dbs);
+     //   } catch (err) {
+     //     console.error(err);
+     //     setLoading(ddlDatabaseType, false);
+     //     //alert('Failed to load databases.');
+     //   }
+     // }
+
+         //for database type Binding
+    async function loadDatabasetype() {
+      setLoading(ddlDatabaseType, true);
+      try {
+          debugger;
+        const token = localStorage.getItem("accessToken");
+
+        const res = await fetch(`${API_BASE}/databasetype`, {
+          method: 'GET',
+          headers: {
+            'Accept': 'application/json',
+            ...(token && { 'Authorization': `Bearer ${token}` }) // Add conditionally
+          }
+        });
+
+        if (!res.ok) throw new Error(await res.text());
+        const json = await res.json();
+        const dbs = normalizeDbNames(json);
+        fillSelect(ddlDatabaseType, dbs);
+      } catch (err) {
+        console.error(err);
+        setLoading(ddlDatabaseType, false);
+      }
+    }
+
+     //for getting selected database type
+       function getSelectedDbType() {
+       const val = ddlDatabaseType.value;
+       const txt = ddlDatabaseType.options[ddlDatabaseType.selectedIndex]?.text ?? '';
+       return { value: val, text: txt };
+     }
+
+     //for creating connection string
+      function CreateConnectionstringold()
+      {
+
+             var dbtype=getSelectedDbType();
+             //var conn=$("#txtConnStr");
+             var connstr="";
+             var servername=$("#txtServerName").val().trim();
+             var port=$("#dbPortNum").val().trim();
+             var dbusername=$("#dbUserName").val().trim();
+             var dbpassword=$("#dbPassword").val().trim();
+             if(dbtype.text=='SQL Server')
+             {
+                 if(port){
+                     // SQL Server Authentication
+                   connstr = `Server=${servername},${port};Initial Catalog=master;Persist Security Info=False;User Id=${dbusername};Password=${dbpassword};Pooling=False;Multiple Active Result Sets=False;Encrypt=True;Trust Server Certificate=True;`;
+                   // connstr = `Server=${servername},${port};User Id=${dbusername};Password=${dbpassword};`;
+
+                 }
+                 else
+                 {
+                     // SQL Server Authentication
+                    connstr = `Server=${servername};Initial Catalog=master;Persist Security Info=False;User Id=${dbusername};Password=${dbpassword};Pooling=False;Multiple Active Result Sets=False;Encrypt=True;Trust Server Certificate=True;`;
+                    //connstr = `Server=${servername};User Id=${dbusername};Password=${dbpassword};`;
+
+                 }
+
+
+             }
+             if(dbtype.text=='MySQL')
+             {
+                 // MySQL Authentication
+                 if(port){
+
+                    connstr = `Server=${servername};Database=mysql;User=${dbusername};Password=${dbpassword};Port=${port};`;
+                 }
+                 else
+                 {
+                     connstr = `Server=${servername};Database=mysql;User=${dbusername};Password=${dbpassword};Port=3306`;
+                 }
+
+
+             }
+             if(dbtype.text=='PostgreSQL')
+             {
+                  // postgreSQL Authentication
+                  if(port){
+
+                    connstr = `Host=${servername};Port=${port};Database=postgres;Username=${dbusername};Password=${dbpassword};`;
+                 }
+                 else
+                 {
+                     connstr = `Host=${servername};Port=5432;Database=postgres;Username=${dbusername};Password=${dbpassword};`;
+                 }
+
+             }
+
+             //conn.val(connstr);
+             $("#txtConnStr").val(connstr);
+             //$("#txtConnStr").text(connstr); // need to check
+
+      }
+
+          function CreateConnectionstring()
+    {
+        var dbtype = getSelectedDbType();
+        var connstr = "";
+        var servername = $("#txtServerName").val().trim();
+        var port = $("#dbPortNum").val().trim();
+        var dbusername = $("#dbUserName").val().trim();
+        var dbpassword = $("#dbPassword").val().trim();
+        // Performance-optimized connection string parameters
+        var poolingEnabled = true;
+        var maxPoolSize = 100;
+        var minPoolSize = 5;
+        var connectionLifetime = 300; // seconds
+        var connectionTimeout = 30; // seconds
+        var commandTimeout = 30; // seconds
+        if(dbtype.text == 'SQL Server')
+        {
+            var serverPart = port ? `${servername},${port}` : servername;
+            // Enhanced SQL Server connection string with performance optimizations
+            connstr = `Server=${serverPart};Initial Catalog=master;` +
+                      `User Id=${dbusername};Password=${dbpassword};` +
+                      `Pooling=${poolingEnabled};` +
+                      `Max Pool Size=${maxPoolSize};` +
+                      `Min Pool Size=${minPoolSize};` +
+                      `Connection Lifetime=${connectionLifetime};` +
+                      `Connection Timeout=${connectionTimeout};` +
+                      `Command Timeout=${commandTimeout};` +
+                      `MultipleActiveResultSets=True;` + // Enable MARS for better performance
+                      `Persist Security Info=False;` +
+                      `Encrypt=True;` +
+                      `TrustServerCertificate=True;` +
+                      `Application Name=GenXAI-ChatBot;` + // For monitoring
+                      `Workstation ID=${servername};`;
+            // Alternative for older SQL Server versions
+            // connstr = `Server=${serverPart};Initial Catalog=master;User Id=${dbusername};Password=${dbpassword};`;
+        }
+        if(dbtype.text == 'MySQL')
+        {
+            var mysqlPort = port || "3306";
+            // Enhanced MySQL connection string with performance optimizations
+            connstr = `Server=${servername};` +
+                      `Database=mysql;` +
+                      `User=${dbusername};` +
+                      `Password=${dbpassword};` +
+                      `Port=${mysqlPort};` +
+                      `Pooling=${poolingEnabled};` +
+                      `MaximumPoolsize=${maxPoolSize};` +
+                      `MinimumPoolSize=${minPoolSize};` +
+                      `ConnectionLifeTime=${connectionLifetime};` +
+                      `ConnectionTimeout=${connectionTimeout};` +
+                      `DefaultCommandTimeout=${commandTimeout};` +
+                      `AllowUserVariables=True;` +
+                      `UseCompression=True;` + // Compress data for faster network transfer
+                      `IgnorePrepare=False;` +
+                      `UseAffectedRows=False;`;
+            // Alternative basic connection string
+            // connstr = `Server=${servername};Database=mysql;User=${dbusername};Password=${dbpassword};Port=${mysqlPort};`;
+        }
+        if(dbtype.text == 'PostgreSQL')
+        {
+            var pgPort = port || "5432";
+            // Enhanced PostgreSQL connection string with performance optimizations
+            connstr = `Host=${servername};` +
+                      `Port=${pgPort};` +
+                      `Database=postgres;` +
+                      `Username=${dbusername};` +
+                      `Password=${dbpassword};` +
+                      `Pooling=${poolingEnabled};` +
+                      `Maximum Pool Size=${maxPoolSize};` +
+                      `Minimum Pool Size=${minPoolSize};` +
+                      `Connection Idle Lifetime=${connectionLifetime};` +
+                      `Connection Pruning Interval=10;` + // Check for idle connections every 10 seconds
+                      `Timeout=${connectionTimeout};` +
+                      `Command Timeout=${commandTimeout};` +
+                      `Keepalive=60;` + // Send keepalive packets every 60 seconds
+                      `Tcp Keepalive=True;` +
+                      `No Reset On Close=True;` + // Better connection reuse
+                      `Server Compatibility Mode=Redshift;` +
+                      `Application Name=GenXAI-ChatBot;`; // For monitoring
+            // Alternative basic connection string
+            // connstr = `Host=${servername};Port=${pgPort};Database=postgres;Username=${dbusername};Password=${dbpassword};`;
+        }
+        $("#txtConnStr").val(connstr);
+    }
+
+       //get Databases
+       //  async function loadDatabases() {
+       //   setLoading(ddlDatabase, true);
+       //   try {
+
+       //       const payload = { ConnectionString: $('#txtConnStr').val()?.trim(),DatabaseType: getSelectedDbType().text.trim() }; // use the exact key your API expects
+       //      const res = await  fetch(`${API_BASE}/getdatabase`, {
+       //      method: 'POST',
+       //      headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
+       //      body: JSON.stringify(payload)
+       //      });
+       //     if (!res.ok) throw new Error(await res.text());
+       //      const json = await res.json();
+       //     const dbs = normalizeDbNames(json);
+       //     fillSelect(ddlDatabase, dbs);
+       //   } catch (err) {
+       //     console.error(err);
+       //     setLoading(ddlDatabase, false);
+       //     //alert('Failed to load Schemas.');
+       //   }
+       // }
+
+           async function loadDatabases() {
+      setLoading(ddlDatabase, true);
+      try {
+        const token = localStorage.getItem("accessToken");
+        const payload = {
+          ConnectionString: $('#txtConnStr').val()?.trim(),
+          DatabaseType: getSelectedDbType().text.trim()
+        };
+
+        const res = await fetch(`${API_BASE}/getdatabase`, {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+            'Accept': 'application/json',
+            ...(token && { 'Authorization': `Bearer ${token}` })
+          },
+          body: JSON.stringify(payload)
+        });
+
+        if (!res.ok) throw new Error(await res.text());
+        const json = await res.json();
+        const dbs = normalizeDbNames(json);
+        fillSelect(ddlDatabase, dbs);
+      } catch (err) {
+        console.error(err);
+        setLoading(ddlDatabase, false);
+      }
+    }
+
+       //get selected database
+       function getSelectedDb() {
+         const val = ddlDatabase.value;
+         const txt = ddlDatabase.options[ddlDatabase.selectedIndex]?.text ?? '';
+         return { value: val, text: txt };
+       }
+
+
+
+
+     //Suchita
+      function fillCheckboxOptions(containerSel, itemClass, items) {
+          if (!Array.isArray(items) || items.length === 0) {
+              $(containerSel).html('<div class="text-muted small">No items found</div>');
+              return;
+          }
+
+          console.log(`Filling ${containerSel} with ${items.length} items`);
+
+          const rows = items.map((it, i) => {
+              const name = String(it.name || '');
+              const schema = it.schema ? ` <span class="text-muted">(${it.schema})</span>` : '';
+              const safeName = name.replace(/"/g, '&quot;');
+
+              return `
+                  <div class="form-check" data-name="${name.toLowerCase()}">
+                      <input class="form-check-input ${itemClass}" type="checkbox"
+                             id="${itemClass}_${i}" data-name="${name}" value="${name}">
+                      <label class="form-check-label" for="${itemClass}_${i}">${name}${schema}</label>
+                  </div>`;
+          });
+
+          $(containerSel).html(rows.join(''));
+          console.log(`Added ${rows.length} items to ${containerSel}`);
+      }
+
+
+
+     //suchita
+       // Enhanced updateDdState function with better logging
+           function updateDdState(prefix) {
+          let itemSel, optionsSel, labelSel, selectAllSel, noun;
+
+          if (prefix === 'tables') {
+              itemSel = '.tbl-item';
+              optionsSel = '#tablesOptions';
+              labelSel = '#tablesLabel';
+              selectAllSel = '#tablesSelectAll';
+              noun = 'tables';
+          } else {
+              itemSel = '.view-item';
+              optionsSel = '#viewsOptions';
+              labelSel = '#viewsLabel';
+              selectAllSel = '#viewsSelectAll';
+              noun = 'views';
+          }
+
+          const total = $(`${optionsSel} ${itemSel}`).length;
+          const $checked = $(`${optionsSel} ${itemSel}:checked`);
+          const count = $checked.length;
+
+          console.log(`${noun}: ${count} of ${total} selected`);
+
+          if (count === 0) {
+              $(labelSel).text(`Select ${noun}…`);
+          } else if (count <= 3) {
+              const names = $checked.map((_, el) => $(el).data('name')).get();
+              $(labelSel).text(names.join(', '));
+          } else {
+              $(labelSel).text(`${count} ${noun} selected`);
+          }
+
+          const $all = $(selectAllSel);
+          $all.prop('indeterminate', count > 0 && count < total);
+          $all.prop('checked', count > 0 && count === total);
+      }
+     // //Nidhi
+     // // ---- one-time wiring for each dropdown ----
+     // function wireDropdown(prefix) {
+     //   if (prefix === 'tables') {
+     //     // changes
+     //     $(document).off('change.tbl').on('change.tbl', '#tablesOptions .tbl-item', () => updateDdState('tables'));
+     //     // select all
+     //     $('#tablesSelectAll').off('change').on('change', function () {
+     //       const checked = $(this).is(':checked');
+     //       $('#tablesOptions .tbl-item:visible').prop('checked', checked);
+     //       updateDdState('tables');
+     //     });
+     //     // filter
+     //     $('#tablesFilter').off('input').on('input', function () {
+     //       const q = $(this).val().toString().toLowerCase().trim();
+     //       $('#tablesOptions .form-check').each(function () {
+     //         const n = ($(this).data('name') || '');
+     //         $(this).toggle(!q || n.indexOf(q) !== -1);
+     //       });
+     //     });
+     //   } else {
+     //     $(document).off('change.view').on('change.view', '#viewsOptions .view-item', () => updateDdState('views'));
+     //     $('#viewsSelectAll').off('change').on('change', function () {
+     //       const checked = $(this).is(':checked');
+     //       $('#viewsOptions .view-item:visible').prop('checked', checked);
+     //       updateDdState('views');
+     //     });
+     //     $('#viewsFilter').off('input').on('input', function () {
+     //       const q = $(this).val().toString().toLowerCase().trim();
+     //       $('#viewsOptions .form-check').each(function () {
+     //         const n = ($(this).data('name') || '');
+     //         $(this).toggle(!q || n.indexOf(q) !== -1);
+     //       });
+     //     });
+     //   }
+     // }
+
+     // ====== called by your existing loadSchemaAndInfo() ======
+
+     //Suchita
+      // ---- one-time wiring for each dropdown ----
+       function wireDropdown(prefix) {
+         if (prefix === 'tables') {
+           // changes
+           $(document).off('change.tbl').on('change.tbl', '#tablesOptions .tbl-item', () => updateDdState('tables'));
+           // select all
+           $('#tablesSelectAll').off('change').on('change', function () {
+             const checked = $(this).is(':checked');
+             $('#tablesOptions .tbl-item:visible').prop('checked', checked);
+             updateDdState('tables');
+           });
+           // filter
+           $('#tablesFilter').off('input').on('input', function () {
+             const q = $(this).val().toString().toLowerCase().trim();
+             $('#tablesOptions .form-check').each(function () {
+               const n = ($(this).data('name') || '');
+               $(this).toggle(!q || n.indexOf(q) !== -1);
+             });
+           });
+         } else {
+           $(document).off('change.view').on('change.view', '#viewsOptions .view-item', () => updateDdState('views'));
+           $('#viewsSelectAll').off('change').on('change', function () {
+             const checked = $(this).is(':checked');
+             $('#viewsOptions .view-item:visible').prop('checked', checked);
+             updateDdState('views');
+           });
+           $('#viewsFilter').off('input').on('input', function () {
+             const q = $(this).val().toString().toLowerCase().trim();
+             $('#viewsOptions .form-check').each(function () {
+               const n = ($(this).data('name') || '');
+               $(this).toggle(!q || n.indexOf(q) !== -1);
+             });
+           });
+         }
+       }
+
+     function bindtables(tableList) {
+       const items = (tableList || []).map(t => ({ name: t.objectName, schema: t.schemaName }));
+       fillCheckboxOptions('#tablesOptions', 'tbl-item', items);
+       wireDropdown('tables');
+       updateDdState('tables');
+     }
+
+     function bindviews(viewList) {
+       const items = (viewList || []).map(v => ({ name: v.objectName, schema: v.schemaName }));
+       fillCheckboxOptions('#viewsOptions', 'view-item', items);
+       wireDropdown('views');
+       updateDdState('views');
+     }
+
+     //Suchita
+      // Enhanced function to bind tables with proper selection
+      function bindtables1(tableList, selectedCsv) {
+          const items = (tableList || []).map(t => ({ name: t.objectName, schema: t.schemaName }));
+          fillCheckboxOptions('#tablesOptions', 'tbl-item', items);
+          wireDropdown('tables');
+
+          // Wait a bit for DOM to update before preselecting
+          setTimeout(() => {
+              preselectCheckboxes('#tablesOptions', selectedCsv);
+              updateDdState('tables');
+          }, 100);
+      }
+
+       //Suchita
+       // Enhanced function to bind views with proper selection
+          function bindviews1(viewList, selectedCsv) {
+          const items = (viewList || []).map(v => ({ name: v.objectName, schema: v.schemaName }));
+          fillCheckboxOptions('#viewsOptions', 'view-item', items);
+          wireDropdown('views');
+
+          // Wait a bit for DOM to update before preselecting
+          setTimeout(() => {
+              preselectCheckboxes('#viewsOptions', selectedCsv);
+              updateDdState('views');
+          }, 100);
+      }
+
+      //Suchita
+      //Load pre selected checkbox drop down
+       function preselectCheckboxes(containerSel, values) {
+          if (!values) return;
+
+          const arr = values.split(',').map(v => v.trim().toLowerCase());
+          console.log("Preselecting values:", arr);
+
+          // Try multiple times with delay to ensure checkboxes are rendered
+          let attempts = 0;
+          const trySelect = () => {
+              const checkboxes = $(`${containerSel} input[type=checkbox]`);
+              console.log(`Found ${checkboxes.length} checkboxes in ${containerSel}`);
+
+              if (checkboxes.length > 0) {
+                  checkboxes.each(function() {
+                      const checkbox = $(this);
+                      const value = checkbox.val()?.toLowerCase() || '';
+                      const dataName = checkbox.data('name')?.toLowerCase() || '';
+
+                      // Check if this checkbox matches any of our values
+                      const shouldBeChecked = arr.some(selectedValue =>
+                          value.includes(selectedValue) || dataName.includes(selectedValue)
+                      );
+
+                      if (shouldBeChecked) {
+                          checkbox.prop("checked", true);
+                          console.log("Selected:", checkbox.val() || checkbox.data('name'));
+                      }
+                  });
+
+                  // Update the dropdown state after selection
+                  if (containerSel === '#tablesOptions') {
+                      updateDdState('tables');
+                  } else if (containerSel === '#viewsOptions') {
+                      updateDdState('views');
+                  }
+              } else if (attempts < 5) {
+                  // Retry after a short delay if checkboxes aren't rendered yet
+                  attempts++;
+                  setTimeout(trySelect, 200);
+              }
+          };
+
+          trySelect();
+      }
+
+     // ===== getters used in your payload =====
+     function getSelectedTableNames() {
+       return $('#tablesOptions .tbl-item:checked').map((_, el) => $(el).data('name')).get().join(',');
+     }
+     function getSelectedViewNames() {
+       return $('#viewsOptions .view-item:checked').map((_, el) => $(el).data('name')).get().join(',');
+     }
+
+       //get Schema,Tables /Views
+      //  async function loadSchemaAndInfo() {
+      //   setLoading(ddlSchema, true);
+      //   try {
+
+      //        const payload = { ConnectionString: $('#txtConnStr').val()?.trim(),Database:getSelectedDb().text,DatabaseType: getSelectedDbType().text.trim() }; // use the exact key your API expects
+      //      const res = await fetch(`${API_BASE}/databaseinfo`, {
+      //      method: 'POST',
+      //      headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
+      //      body: JSON.stringify(payload)
+      //      });
+      //     if (!res.ok) throw new Error(await  res.text());
+      //     const json = await res.json();
+      //     //debugger;
+      //     const dbs = normalizeDbNames(json.schemaList);
+      //     fillSelect(ddlSchema, dbs);
+      //     bindtables(json.tableList);
+      //     bindviews(json.viewList);
+
+      //   } catch (err) {
+      //     console.error(err);
+      //     setLoading(ddlSchema, false);
+      //     //alert('Failed to load Schemas.');
+      //   }
+      // }
+
+          async function loadSchemaAndInfo() {
+      setLoading(ddlSchema, true);
+      try {
+        const token = localStorage.getItem("accessToken");
+        const payload = {
+          ConnectionString: $('#txtConnStr').val()?.trim(),
+          Database: getSelectedDb().text,
+          DatabaseType: getSelectedDbType().text.trim()
+        };
+
+        const res = await fetch(`${API_BASE}/databaseinfo`, {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+            'Accept': 'application/json',
+            ...(token && { 'Authorization': `Bearer ${token}` })
+          },
+          body: JSON.stringify(payload)
+        });
+
+        if (!res.ok) throw new Error(await res.text());
+        const json = await res.json();
+        const dbs = normalizeDbNames(json.schemaList);
+        fillSelect(ddlSchema, dbs);
+        bindtables(json.tableList);
+        bindviews(json.viewList);
+      } catch (err) {
+        console.error(err);
+        setLoading(ddlSchema, false);
+      }
+    }
+
+       //get selected database
+        function getSelectedschema() {
+           const val = ddlSchema.value;
+            const txt = ddlSchema.options[ddlSchema.selectedIndex]?.text ?? '';
+          return { value: val, text: txt };
+        }
+
+
+
+       // Build payload from Step-2 fields
+       function getSQLConfigPayload() {
+         return {
+             DatabaseType:               getSelectedDbType().text?.trim(),
+             DatabaseName:         getSelectedDb().text?.trim(),
+             Connectionstring:              $('#txtConnStr').val()?.trim(),
+             ServerName: $('#txtServerName').val()?.trim(),
+            DbUserName:       $('#dbUserName').val() || null,
+            DbPassword:               $('#dbPassword').val()?.trim(),
+            PortNum:               $('#dbPortNum').val()?.trim(),
+            SchemaName:        getSelectedschema().text?.trim(),
+            TablesSelected:          getSelectedTableNames(),
+            ViewsSelected:              getSelectedViewNames(),
+             Description:             $('#sqlDesc').val()?.trim(),
+             PromptConfiguration:            $('#SqlPrompt').val()?.trim(),
+             CompanyID:        parseInt($('#CompanyIDHidden').val()?.trim()),
+            flgSave:           1
+         };
+       }
+
+       //For saving SQL details
+       function saveSQLConfig(payload) {
+           const url = `${API_BASE}/SQLAnalytics`;
+         console.log('POST ->', url, payload);
+         return $.ajax({
+           url: url,
+           method: 'POST',
+           contentType: 'application/json; charset=utf-8',
+           data: JSON.stringify(payload)
+         });
+       }
+
+
+     //wizard related function
+
+      // Call this after Save / Save for later / Cancel, etc.
+
+
+      function resetWizard() {
+        // 1) Reset step/tab to Step 1
+        // const firstTab = document.querySelector('a[href="#step1"]');
+        // if (firstTab && window.bootstrap && bootstrap.Tab) {
+        //   new bootstrap.Tab(firstTab).show();
+        // } else {
+        //   // fallback: show pane directly
+        //   $('.tab-pane').removeClass('active show');
+        //   $('#step1').addClass('active show');
+        // }
+
+        showStep('#step1')
+
+        // 2) Clear all text/number/email/date inputs (but not buttons)
+        $('#main_form').find('input[type="text"], input[type="email"], input[type="date"], input[type="number"], input[type="password"]').val('');
+
+        // // 3) Reset selects to the first disabled "Please Select" if present
+        // $('#main_form').find('select').each(function () {
+        //   // If first option is disabled, select it; else empty
+        //   const $first = $(this).find('option:disabled').first();
+        //   if ($first.length) {
+        //     $(this).val($first.val()).trigger('change');
+        //   } else {
+        //     $(this).prop('selectedIndex', 0).trigger('change');
+        //   }
+        // });
+
+        // 4) Clear textareas
+        $('#main_form').find('textarea').val('');
+
+        // 5) Hidden fields
+        $('#CompanyIDHidden').val('');
+        $('#sqlconfigHidden').val('');
+         $('#fileconfigHidden').val('');
+         $('#txtsqlconfig').val('');
+         $('#txtfileconfig').val('');
+        $('#txtConnStr').val('');
+
+        // 6) Connection fields (explicit—if you want)
+        $('.connection-str').val('');
+         $('#ddlDatabaseType').empty().append('<option selected disabled>Please Select</option>');
+        $('#ddlDatabses').empty().append('<option selected disabled>Please Select</option>');
+        $('#ddlSchema').empty().append('<option selected disabled>Please Select</option>');
+
+        // 7) Tables & Views containers (clear generated checkboxes)
+        $('#tablesdiv').empty();
+        $('#viewsdiv').empty();
+
+        // 8) Dynamic file upload rows
+        resetUploadRows();
+
+        // 9) Any checkboxes/radios (in case you add later)
+       // $('#main_form').find('input[type="checkbox"], input[type="radio"]').prop('checked', false);
+
+        // // 10) Remove any validation messages / borders (optional)
+        // $('.is-invalid, .is-valid').removeClass('is-invalid is-valid');
+        // $('.field-validation-error').remove();
+      }
+
+      /* Helper: reset the dynamic file upload section to a single empty row */
+      function resetUploadRows() {
+        const $rows = $('#uploadRows .upload-row');
+        if ($rows.length === 0) {
+          // If somehow removed, rebuild a default row
+          $('#uploadRows').html(`
+            <div class="row form-fields align-items-end upload-row">
+              <div class="col-md-5">
+                <div class="form-group">
+                  <label>File Upload</label>
+                  <div class="custom-file">
+                    <input type="file" class="custom-file-input file-input">
+                    <label class="custom-file-label">Select file</label>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-5">
+                <div class="form-group">
+                  <label>Description</label>
+                  <input class="form-control desc-input" type="text" placeholder="">
+                </div>
+              </div>
+              <div class="col-md-2">
+                <div class="form-group pull-right d-flex gap-2">
+                  <button type="button" class="btn btn-success" id="btnAddUploader">
+                    <i class="fa fa-plus"></i>
+                  </button>
+                  <button type="button" class="btn btn-outline-danger btnRemoveUploader" title="Remove this row">
+                    <i class="fa fa-trash"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+          `);
+          // re-wire file label change if you use that logic elsewhere
+        } else {
+          // Keep the first row, remove others, clear first
+          $rows.slice(1).remove();
+          const $first = $rows.first();
+          $first.find('.file-input').val('');
+          $first.find('.custom-file-label').text('Select file');
+          $first.find('.desc-input').val('');
+        }
+      }
+
+      // function showStep(hash)
+      // {
+      //  const link = document.querySelector(`.wizard .nav-tabs a[href="${hash}"]`);
+
+      //  if (link)
+      //  {
+      //      // $('.tab-pane').removeClass('active show');
+      //      //$('.nav-tabs li.active').removeClass('active');
+      //     // $(hash).addClass('active show');
+      //    // $(hash).addClass('active');
+      //      new bootstrap.Tab(link).show();
+
+      //  }
+      // }
+
+             function showStep(hash) {
+        debugger;
+        const link = document.querySelector(`.wizard .nav-tabs a[href="${hash}"]`);
+        const companyId = parseInt($('#CompanyIDHidden').val()?.trim());
+
+        // Separate company edit mode from SQL config edit mode
+        const isCompanyEditMode = companyId > 0;
+        const hasExistingSqlConfig = $('#sqlconfigHidden').val() && $('#sqlconfigHidden').val() !== 'No' && $('#sqlconfigHidden').val() !== '0';
+
+        if (link) {
+            // Remove active class from all tabs and panes
+            $('.nav-tabs li').removeClass('active');
+            $('.tab-pane').removeClass('active show');
+
+            // Add active class to target tab
+            $(`a[href="${hash}"]`).closest('li').addClass('active');
+            $(hash).addClass('active show');
+
+            // Trigger Bootstrap tab show event
+            new bootstrap.Tab(link).show();
+
+            // Handle button states for ALL steps
+            if (isCompanyEditMode) {
+                if (editFlg == 1) {
+                    // From ViewBag edit - use separate update buttons
+                    if (hash === '#step1') {
+                        $("#btnUpdatestep1").show();
+                        $("#btnStep1Next").hide();
+                    } else if (hash === '#step2') {
+                        $("#btnUpdatestep2").show();
+                        $("#btnStep2Next").hide();
+                        // 🔥 FIX: Load database types when navigating to step 2
+                    loadDatabasetype();
+                    } else if (hash === '#step3') {
+                        $("#btnUpdatestep3").show();
+                        $("#btnStep3Upload").hide();
+                    }
+                } else {
+                    // Normal edit mode (navigated back after save) - update the main buttons
+                    if (hash === '#step1') {
+                        $("#btnStep1Next").show().text('Next');
+                        $("#btnUpdatestep1").hide();
+                    } else if (hash === '#step2') {
+                        // SQL Configuration step - check if we have existing SQL config
+                        if (hasExistingSqlConfig) {
+                            $("#btnStep2Next").show().text('Next');
+                        } else {
+                            $("#btnStep2Next").show().text('Next');
+                        }
+                        $("#btnUpdatestep2").hide();
+
+                        // 🔥 FIX: Load database types when navigating to step 2
+                    loadDatabasetype();
+                    } else if (hash === '#step3') {
+                       // $("#btnStep3Upload").show().text('Update & Next');
+                         $("#btnStep3Upload").show().text('Next');
+                        $("#btnUpdatestep3").hide();
+                    }
+                }
+            } else {
+                // Create mode - show normal next buttons
+                if (hash === '#step1') {
+                    $("#btnStep1Next").show().text('Next');
+                    $("#btnUpdatestep1").hide();
+                } else if (hash === '#step2') {
+                    $("#btnStep2Next").show().text('Next');
+                    $("#btnUpdatestep2").hide();
+                    // 🔥 FIX: Load database types when navigating to step 2
+                loadDatabasetype();
+                } else if (hash === '#step3') {
+                    $("#btnStep3Upload").show().text('Next');
+                    $("#btnUpdatestep3").hide();
+                }
+            }
+
+            // Additional: Load SQL config data when navigating to step 2 in edit mode
+            if (hash === '#step2' && isCompanyEditMode && hasExistingSqlConfig) {
+                setTimeout(() => {
+                    LoadEditDataform2();
+                }, 300);
+            }
+        }
+    }
+
+
+
+     //Suchita for set drop down value selected
+      function setSelectedByText(selectElement, text) {
+           if (!selectElement || !text) return;  // <-- protect against null/undefined
+
+           text = text.trim();
+
+           for (let i = 0; i < selectElement.options.length; i++) {
+               if (selectElement.options[i].text.trim() === text) {
+                   selectElement.selectedIndex = i;
+                   $(selectElement).trigger("change");
+                   break;
+               }
+           }
+       }
+
+        //Suchita for set drop down value selected
+           function setSelectedByTextOrValue(selectElement, value) {
+          if (!selectElement || !value) return;
+
+          value = value.trim().toLowerCase();
+
+          // Wait for options to be populated if empty
+          if (selectElement.options.length <= 1) {
+              setTimeout(() => setSelectedByTextOrValue(selectElement, value), 200);
+              return;
+          }
+
+          for (let i = 0; i < selectElement.options.length; i++) {
+              let opt = selectElement.options[i];
+              let text = opt.text ? opt.text.trim().toLowerCase() : "";
+              let val = opt.value ? opt.value.trim().toLowerCase() : "";
+
+              if (text === value || val === value) {
+                  selectElement.selectedIndex = i;
+                  $(selectElement).trigger("change");
+                  console.log("Matched schema:", opt.text);
+                  return true; // Found and selected
+              }
+          }
+
+          console.warn("Schema not found in dropdown:", value);
+          return false; // Not found
+      }
+
+        //Suchita
+        //File config update related
+          const removedExistingIds = new Set();
+
+           function esc(s){ return (s ?? '').toString().replace(/[&<>"']/g,c=>({ '&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;' }[c])); }
+
+           function ensureExistingContainer(){
+             if (!$('#existingFiles').length)
+             {
+               // insert an "Existing files" block just ABOVE your dynamic uploader (#uploadRows)
+               $('#uploadRows').before(`
+                 <div id="existingFiles" class="mb-3">
+                   <label class="d-block mb-1">Existing files <span class="text-muted small">(you can remove any)</span></label>
+                   <div id="existingFilesList" class="border rounded p-2"></div>
+                 </div>
+               `);
+             }
+           }
+
+                             $(document).on('click', '.btnRemoveExisting', function ()
+                   {
+                       const $row = $(this).closest('.existing-file-row');
+                       const fileId = $row.attr('data-fileid');
+                       console.log("FileId:", fileId);
+
+               var data = {
+                     FileId: parseInt(fileId),
+                     DeletedBy: 1
+
+                    };
+               if (!fileId) {
+                console.error("No fileId found on row");
+                return;
+                   }
+
+            if (confirm("Are you sure you want to delete this file?")) {
+                $.ajax({
+                    //url: `/api/FileAnalytics/DeleteFileConfig/${fileId}?deletedBy=1`, // pass logged-in userId instead of 1
+                    url: "/api/CompanyOnboard/DeleteFileConfig",
+                    type: "DELETE",
+                    contentType: "application/json",
+                    //data: JSON.stringify({ FileId: fileId }),
+                     data: JSON.stringify(data),
+                    success: function (res) {
+                        //console.log("Delete successful", res);
+                        showMessage("file deleted successfully", "success");
+
+                        // Remove row from DOM
+                        $row.fadeOut(300, function () {
+                            $(this).remove();
+                            updateExistingBadge();
+                        });
+                    },
+                    error: function (xhr) {
+                        console.error("Delete failed:", xhr.responseText);
+                        alert("Failed to delete file. Please try again.");
+                    }
+                });
+            }
+        });
+
+
+            // Simplified wireExistingEvents - no longer needed for click events
+        function wireExistingEvents(){
+          // Other event wiring if needed
+        }
+
+       function updateExistingBadge(){
+           const n = removedExistingIds.size;
+           $('#existingFiles .remove-count').remove();
+           if (n > 0){
+             $('#existingFiles label').append(` <span class="badge bg-danger remove-count">${n} to remove</span>`);
+           }
+         }
+
+         function renderExistingFiles(fileConfig){
+           ensureExistingContainer();
+           const $list = $('#existingFilesList').empty();
+           (fileConfig || []).forEach(f=>{
+               console.log("Rendering file row:", f);
+             const fileConfigID = f.FileConfigID ?? f.FileId ?? f.Id ?? f.id;
+             //const fileConfigID   = f.FileId ?? f.Id ?? f.fileId ?? f.id;
+             //const id   = f.FileId ?? f.Id ?? f.fileId ?? f.id;
+             const name = esc(f.FileName ?? f.OriginalFileName ?? f.Name ?? '(file)');
+             const url  = esc(f.DownloadUrl ?? f.Url ?? '#');
+             const desc = esc(f.Description ?? '');
+
+             $list.append(`
+               <div class="row align-items-center existing-file-row py-2 border-bottom" data-fileid="${fileConfigID}">
+                 <div class="col-md-7">
+                   <a href="${url}" target="_blank" class="text-truncate d-inline-block" style="max-width:100%">${name}</a>
+                 </div>
+                 <div class="col-md-3">
+                   <input type="text" class="form-control form-control-sm" value="${desc}" disabled>
+                 </div>
+                 <div class="col-md-2 text-end">
+                   <button type="button" class="btn btn-sm btn-outline-danger btnRemoveExisting" title="Remove this file">
+                     <i class="fa fa-trash"></i>
+                   </button>
+                 </div>
+               </div>
+             `);
+           });
+           wireExistingEvents();
+           updateExistingBadge();
+         }
+
+         ///Suchita file config update related
+
+         //Suchita
+         // Enhanced LoadEditDataform2 with better error handling
+      async function LoadEditDataform2() {
+          debugger;
+          var sqlConfig = @Html.Raw(Newtonsoft.Json.JsonConvert.SerializeObject(ViewBag.SqlConfig));
+         // await loadDatabasetype();
+          // if (!sqlConfig) return;
+           if (!sqlConfig) {
+        // NEW: If no SQL config, set summary accordingly
+        $('#sqlconfigHidden').val('No');
+        $('#txtsqlconfig').val('No');
+        return;
+    }
+
+          // Normalize property names
+          sqlConfig.DatabaseName = sqlConfig.DatabaseName || sqlConfig.DataBaseName || sqlConfig.DBName || sqlConfig.DbName || "";
+          sqlConfig.SchemaName = sqlConfig.SchemaName || sqlConfig.Schema || "";
+          sqlConfig.DatabaseType = sqlConfig.DatabaseType || "";
+          sqlConfig.ServerName = sqlConfig.ServerName || "";
+          sqlConfig.DbUserName = sqlConfig.DbUserName || "";
+          sqlConfig.DbPassword = sqlConfig.DbPassword || "";
+          sqlConfig.PortNum = sqlConfig.PortNum || "";
+          sqlConfig.Description = sqlConfig.Description || "";
+          sqlConfig.PromptConfiguration = sqlConfig.PromptConfiguration || "";
+
+          try {
+              // Load database types first
+             await loadDatabasetype();
+             if (sqlConfig.SQLConfigID || sqlConfig.SqlConfigId) {
+            $('#sqlconfigHidden').val(sqlConfig.SQLConfigID || sqlConfig.SqlConfigId);
+            $('#txtsqlconfig').val('Yes');
+        }
+
+              // Set database type and wait for it to apply
+              if (sqlConfig.DatabaseType) {
+                  setSelectedByTextOrValue(document.getElementById("ddlDatabaseType"), sqlConfig.DatabaseType);
+
+                  // Wait for database type change to take effect
+                  await new Promise(resolve => setTimeout(resolve, 500));
+              }
+
+              // Set connection details
+              $("#txtServerName").val(sqlConfig.ServerName || "");
+              $("#dbUserName").val(sqlConfig.DbUserName || "");
+              $("#dbPassword").val(sqlConfig.DbPassword || "");
+              $("#dbPortNum").val(sqlConfig.PortNum || "");
+              $("#sqlDesc").val(sqlConfig.Description || "");
+              $("#SqlPrompt").val(sqlConfig.PromptConfiguration || "");
+
+              // Store names for later selection
+              dbselName = sqlConfig.DatabaseName;
+              scmselName = sqlConfig.SchemaName;
+
+              // Create connection string
+              CreateConnectionstring();
+
+              // Wait a bit then load databases
+              setTimeout(() => {
+                  loadDatabasesEdit(sqlConfig);
+              }, 800);
+
+          } catch (error) {
+              console.error("Error in LoadEditDataform2:", error);
+          }
+      }
+      //suchita for dropdown loading for edit
+       function fillSelectEdit(selectEl, items) {
+          const current = selectEl.value;
+          selectEl.innerHTML = '';
+
+          // Add placeholder
+          const first = document.createElement('option');
+          first.disabled = true;
+          first.selected = true;
+          first.textContent = 'Please Select';
+          selectEl.appendChild(first);
+
+          // Add real items
+          items.forEach(({ value, text }) => {
+              const o = document.createElement('option');
+              o.value = String(value);
+              o.textContent = String(text);
+              selectEl.appendChild(o);
+          });
+
+          selectEl.disabled = false;
+
+          // Return the select element for chaining
+          return selectEl;
+      }
+
+        //suchita for dropdown with checkboxes loading for edit
+       // Corrected function to load schema and info in edit mode
+      // async function loadSchemaAndInfoEdit(csvTbl, csvVw) {
+      //     setLoading(ddlSchema, true);
+      //     try {
+      //         const payload = {
+      //             ConnectionString: $('#txtConnStr').val()?.trim(),
+      //             Database: dbselName,
+      //             DatabaseType: getSelectedDbType().text.trim()
+      //         };
+
+      //         const res = await fetch(`${API_BASE}/databaseinfo`, {
+      //             method: 'POST',
+      //             headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
+      //             body: JSON.stringify(payload)
+      //         });
+
+      //         if (!res.ok) throw new Error(await res.text());
+
+      //         const json = await res.json();
+
+      //         // FIX: Properly extract schemaList from the response
+      //         const schemaList = json.schemaList || json.SchemaList || [];
+      //         const dbs = normalizeDbNames(schemaList);
+
+      //         fillSelectEdit(ddlSchema, dbs);
+
+      //         // FIX: Wait for DOM to update before selecting the schema
+      //         setTimeout(() => {
+      //         if (scmselName) {
+      //             setSelectedByTextOrValue(ddlSchema, scmselName);
+      //             console.log("Attempting to select schema:", scmselName);
+      //         }
+
+      //         // Bind tables and views with their selections
+      //         bindtables1(json.tableList || json.TableList || [], csvTbl);
+      //         bindviews1(json.viewList || json.ViewList || [], csvVw);
+      //     }, 200);
+
+
+      //     } catch (err) {
+      //         console.error('Error loading schema info:', err);
+      //         setLoading(ddlSchema, false);
+      //     }
+      // }
+
+          async function loadSchemaAndInfoEdit(csvTbl, csvVw) {
+        setLoading(ddlSchema, true);
+        try {
+            const token = localStorage.getItem("accessToken");
+            const payload = {
+                ConnectionString: $('#txtConnStr').val()?.trim(),
+                Database: dbselName,
+                DatabaseType: getSelectedDbType().text.trim()
+            };
+
+            const res = await fetch(`${API_BASE}/databaseinfo`, {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                    'Accept': 'application/json',
+                    ...(token && { 'Authorization': `Bearer ${token}` })
+                },
+                body: JSON.stringify(payload)
+            });
+
+            if (!res.ok) throw new Error(await res.text());
+
+            const json = await res.json();
+
+            // FIX: Properly extract schemaList from the response
+            const schemaList = json.schemaList || json.SchemaList || [];
+            const dbs = normalizeDbNames(schemaList);
+
+            fillSelectEdit(ddlSchema, dbs);
+
+            // FIX: Wait for DOM to update before selecting the schema
+            setTimeout(() => {
+                if (scmselName) {
+                    setSelectedByTextOrValue(ddlSchema, scmselName);
+                    console.log("Attempting to select schema:", scmselName);
+                }
+
+                // Bind tables and views with their selections
+                bindtables1(json.tableList || json.TableList || [], csvTbl);
+                bindviews1(json.viewList || json.ViewList || [], csvVw);
+            }, 200);
+
+        } catch (err) {
+            console.error('Error loading schema info:', err);
+            setLoading(ddlSchema, false);
+        }
+    }
+
+
+
+       //suchita for database  loading for edit
+       // async function loadDatabasesEdit(sqlConfig) {
+       //   setLoading(ddlDatabase, true);
+       //   try {
+       //     const payload = {
+       //       ConnectionString: $('#txtConnStr').val()?.trim(),
+       //       DatabaseType: getSelectedDbType().text.trim()
+       //     };
+
+       //     const res  = await fetch(`${API_BASE}/getdatabase`, {
+       //       method: 'POST',
+       //       headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
+       //       body: JSON.stringify(payload)
+       //     });
+       //     if (!res.ok) throw new Error(await res.text());
+
+       //     const json = await res.json();
+       //     const dbs  = normalizeDbNames(json);
+       //      fillSelectEdit(ddlDatabase, dbs);
+
+       //    setTimeout(() => {
+       //        if (dbselName) {
+       //            setSelectedByTextOrValue(ddlDatabase, dbselName);
+       //            console.log("Database selected:", dbselName);
+
+       //            // After database is selected, load schemas
+       //            setTimeout(() => {
+       //                loadSchemaAndInfoEdit(sqlConfig.TablesSelected, sqlConfig.ViewsSelected);
+       //            }, 500);
+       //        }
+       //    }, 200);
+       //   } catch (err) {
+       //     console.error(err);
+       //     setLoading(ddlDatabase, false);
+       //   }
+       // }
+
+      async function loadDatabasesEdit(sqlConfig) {
+      setLoading(ddlDatabase, true);
+      try {
+        const token = localStorage.getItem("accessToken");
+        const payload = {
+          ConnectionString: $('#txtConnStr').val()?.trim(),
+          DatabaseType: getSelectedDbType().text.trim()
+        };
+
+        const res = await fetch(`${API_BASE}/getdatabase`, {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+            'Accept': 'application/json',
+            ...(token && { 'Authorization': `Bearer ${token}` })
+          },
+          body: JSON.stringify(payload)
+        });
+        if (!res.ok) throw new Error(await res.text());
+
+        const json = await res.json();
+        const dbs = normalizeDbNames(json);
+        fillSelectEdit(ddlDatabase, dbs);
+
+        setTimeout(() => {
+          if (dbselName) {
+            setSelectedByTextOrValue(ddlDatabase, dbselName);
+            console.log("Database selected:", dbselName);
+
+            // After database is selected, load schemas
+            setTimeout(() => {
+              loadSchemaAndInfoEdit(sqlConfig.TablesSelected, sqlConfig.ViewsSelected);
+            }, 500);
+          }
+        }, 200);
+      } catch (err) {
+        console.error(err);
+        setLoading(ddlDatabase, false);
+      }
+    }
+
+        // Suchita for update related logic
+           function applySelections( el) {
+
+           if(el=='db')
+           {
+                const $db     = $("#ddlDatabses");
+              //loadDatabasesEdit()
+              setSelectedByTextOrValue(document.getElementById("ddlDatabses"), dbselName);
+           // const $schema = $("#ddlSchema");
+            if ($db.length === 0) {
+                console.warn("#ddlDatabses not found");
+                return;
+            }
+           }
+            if(el=='scm')
+            {
+                 const $sc     = $("#ddlSchema");
+               //loadDatabasesEdit()
+                setSelectedByTextOrValue(document.getElementById("ddlSchema"), scmselName);
+            // const $schema = $("#ddlSchema");
+             if ($sc.length === 0) {
+                 console.warn("#ddlSchema not found");
+                 return;
+             }
+            }
+
+
+
+       }
+
+       //Suchita Related to Update
+        // Function to add a file row with pre-filled data
+      function addFileRow(fileData, isFirstRow) {
+          const fileName = fileData.FileName || fileData.OriginalFileName || '';
+          const description = fileData.Description || '';
+          const fileId = fileData.FileId || fileData.Id || fileData.fileId || fileData.id || '';
+
+          const rowHtml = `
+              <div class="row form-fields align-items-end upload-row" data-fileid="${fileId}">
+                  <div class="col-md-5">
+                      <div class="form-group">
+                          <label>File Upload</label>
+                          <div class="custom-file">
+                              <input type="file" class="custom-file-input file-input" ${fileName ? 'disabled' : ''}>
+                              <label class="custom-file-label">${fileName || 'Select file'}</label>
+                          </div>
+                          ${fileName ? `<small class="form-text text-muted">Existing file: ${fileName}</small>` : ''}
+                      </div>
+                  </div>
+                  <div class="col-md-5">
+                      <div class="form-group">
+                          <label>Description</label>
+                          <input class="form-control desc-input" type="text" value="${description}" placeholder="File description">
+                      </div>
+                  </div>
+                  <div class="col-md-2">
+                      <div class="form-group pull-right d-flex gap-2">
+                          ${isFirstRow ?
+                              `<button type="button" class="btn btn-success" id="btnAddUploader">
+                                  <i class="fa fa-plus"></i>
+                              </button>` :
+                              `<button type="button" class="btn btn-success btnAddUploaderRow">
+                                  <i class="fa fa-plus"></i>
+                              </button>`
+                          }
+                          <button type="button" class="btn btn-outline-danger btnRemoveUploader" title="Remove this row">
+                              <i class="fa fa-trash"></i>
+                          </button>
+                      </div>
+                  </div>
+              </div>
+          `;
+
+          $('#uploadRows').append(rowHtml);
+
+          // $const1 = $('#uploadRows .upload-row').last();
+          // wireRowEvents($const1);
+          wireRowEvents($('#uploadRows .upload-row').last());
+      }
+
+
+       //Suchita Related to Update
+              // Add this function to properly handle file configuration loading
+      function initializeFileSection() {
+          if (editFlg == 1) {
+              // Load existing file configuration data
+              LoadEditDataform3();
+
+              // // Show update button, hide regular next button
+              // $("#btnUpdatestep3").show();
+              // $("#btnStep3Upload").hide();
+          } else {
+              // Add mode - ensure buttons are in correct state
+              $("#btnUpdatestep3").hide();
+              $("#btnStep3Upload").show();
+          }
+      }
+
+
+
+       //Suchita Related to Update Form 3
+      function LoadEditDataform3() {
+          var fileConfig = @Html.Raw(Newtonsoft.Json.JsonConvert.SerializeObject(ViewBag.FileConfig));
+
+          if (!fileConfig || fileConfig.length === 0) {
+              console.log("No file configuration data found");
+              // Even if no files, still pre-fill the prompt configuration if available
+              var fileAnalytics = @Html.Raw(Newtonsoft.Json.JsonConvert.SerializeObject(ViewBag.FileAnalytics));
+              if (fileAnalytics && fileAnalytics.PromptConfiguration) {
+                  $('#txtPrompt').val(fileAnalytics.PromptConfiguration);
+              }
+              return;
+          }
+
+          console.log("Loading file configuration:", fileConfig);
+
+
+          // Set the prompt configuration - prioritize from fileConfig, then fallback to FileAnalytics
+          let promptConfig = '';
+          if (fileConfig.length > 0 && fileConfig[0].PromptConfiguration) {
+              promptConfig = fileConfig[0].PromptConfiguration;
+          } else {
+              var fileAnalytics = @Html.Raw(Newtonsoft.Json.JsonConvert.SerializeObject(ViewBag.FileAnalytics));
+              if (fileAnalytics && fileAnalytics.PromptConfiguration) {
+                  promptConfig = fileAnalytics.PromptConfiguration;
+              }
+          }
+
+          if (promptConfig) {
+              $('#txtPrompt').val(promptConfig);
+          }
+
+          // Show the existing files section
+          renderExistingFiles(fileConfig);
+      }
+
+       //Suchita Related to Update Form 1
+      function LoadEditDataform1() {
+
+                var company = @Html.Raw(Newtonsoft.Json.JsonConvert.SerializeObject(ViewBag.CompanyData));
+
+
+            if (company && company.CompanyID > 0) {
+                // Fill form fields
+                 $("#CompanyIDHidden").val(company.CompanyID);
+                $("#CompanyName").val(company.CompanyName);
+                $("#BusinessTradeName").val(company.BusinessTradeName);
+                $("#IndustryType").val(company.IndustryType);
+                $("#CompanyRegistrationNumber").val(company.CompanyRegistrationNumber);
+                $("#DateOfIncorporation").val(company.DateOfIncorporation ? company.DateOfIncorporation.split('T')[0] : "");
+                $("#CompanySize").val(company.CompanySize);
+                $("#Description").val(company.Description);
+                $("#RegisteredAddress").val(company.RegisteredAddress);
+                $("#CorporateAddress").val(company.CorporateAddress);
+                $("#PrimaryPhone").val(company.PrimaryPhone);
+                $("#OfficialEmail").val(company.OfficialEmail);
+                $("#CompanyWebsite").val(company.CompanyWebsite);
+                $("#ContactPersonName").val(company.ContactPersonName);
+                $("#DesignationRole").val(company.DesignationRole);
+                $("#WorkEmail").val(company.WorkEmail);
+                $("#MobileNumber").val(company.MobileNumber);
+                $("#AlternateContact").val(company.AlternateContact);
+                $("#GSTNo").val(company.GSTNo);
+                $("#PanNo").val(company.PanNo);
+                $("#TANNo").val(company.TANNo);
+
+
+
+            }
+            else {
+
+            }
+        }
+
+          //Suchita Function to update SQL configuration
+      // function updateSQLConfig(payload) {
+      //     debugger;
+      //     const url = `${API_BASE}/UpdateSQLAnalyticsConfiguration`; // Your update endpoint
+      //    // console.log('PUT ->', url, payload);
+      //     return $.ajax({
+      //         url: url,
+      //         method: 'POST', // or 'POST' if your API uses POST for updates
+      //         contentType: 'application/json; charset=utf-8',
+      //         data: JSON.stringify(payload)
+      //     });
+      // }
+
+          function updateSQLConfig(payload) {
+        debugger;
+        const token = localStorage.getItem("accessToken");
+        // const url = payload.flgSave === 2
+        // ? `${API_BASE}/UpdateSQLAnalyticsConfiguration`
+        // : `${API_BASE}/SQLAnalytics`;
+        const url = `${API_BASE}/UpdateSQLAnalyticsConfiguration`;
+
+        return $.ajax({
+            url: url,
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json; charset=utf-8',
+                ...(token && { 'Authorization': `Bearer ${token}` })
+            },
+            data: JSON.stringify(payload)
+        });
+    }
+
+      //Suchita for Sql payload for update
+          function getSQLConfigPayloadUpdate() {
+          const sqlConfigId = $('#sqlconfigHidden').val();
+
+          // Get the actual SQL Config ID from ViewBag for more reliable ID detection
+          var sqlConfig = @Html.Raw(Newtonsoft.Json.JsonConvert.SerializeObject(ViewBag.SqlConfig));
+          const actualSqlConfigId = sqlConfig?.SQLConfigID || sqlConfig?.SqlConfigId || sqlConfig?.Id || 0;
+
+          // Determine if we're in update mode
+          const isUpdateMode = editFlg == 1 && actualSqlConfigId > 0;
+
+          // Use the actual ID from ViewBag if available, otherwise fall back to hidden field
+          const finalSqlConfigId = actualSqlConfigId > 0 ? actualSqlConfigId :
+                                 (sqlConfigId && sqlConfigId !== 'Yes' && sqlConfigId !== 'No') ? parseInt(sqlConfigId) : 0;
+
+          console.log('SQL Config Payload Debug:');
+          console.log('- Edit Flag:', editFlg);
+          console.log('- Actual SQLConfigID from ViewBag:', actualSqlConfigId);
+          console.log('- Hidden field value:', sqlConfigId);
+          console.log('- Final SQLConfigID:', finalSqlConfigId);
+          console.log('- Is Update Mode:', isUpdateMode);
+
+          return {
+              SQLConfigID: finalSqlConfigId,
+              DatabaseType: getSelectedDbType().text?.trim() || '',
+              DatabaseName: getSelectedDb().text?.trim() || '',
+              Connectionstring: $('#txtConnStr').val()?.trim() || '',
+              ServerName: $('#txtServerName').val()?.trim() || '',
+              DbUserName: $('#dbUserName').val() || null,
+              DbPassword: $('#dbPassword').val()?.trim() || '',
+              PortNum: $('#dbPortNum').val()?.trim() || '',
+              SchemaName: getSelectedschema().text?.trim() || '',
+              TablesSelected: getSelectedTableNames() || '',
+              ViewsSelected: getSelectedViewNames() || '',
+              Description: $('#sqlDesc').val()?.trim() || '',
+              PromptConfiguration: $('#SqlPrompt').val()?.trim() || '',
+              CompanyID: parseInt($('#CompanyIDHidden').val()?.trim()) || 0,
+              flgSave: isUpdateMode ? 2 : 1 // Use 2 for update, 1 for create
+          };
+      }
+          //Suchita for Sql payload for update added by 25-11-2025
+              
+    // function getSQLConfigPayloadUpdate() {
+    //     // Get the actual SQL Config ID from ViewBag for reliable ID detection
+    //     var sqlConfig = @Html.Raw(Newtonsoft.Json.JsonConvert.SerializeObject(ViewBag.SqlConfig ?? new { }));
+
+    //     // Extract the actual SQL Config ID from ViewBag
+    //     const actualSqlConfigId = sqlConfig?.SQLConfigID || sqlConfig?.SqlConfigId || sqlConfig?.Id || 0;
+
+    //     // Get values from form
+    //     const databaseType = getSelectedDbType().text?.trim() || '';
+    //     const databaseName = getSelectedDb().text?.trim() || '';
+    //     const schemaName = getSelectedschema().text?.trim() || '';
+    //     const companyId = parseInt($('#CompanyIDHidden').val()?.trim()) || 0;
+
+    //     console.log('SQL Config Payload Debug:');
+    //     console.log('- Edit Flag:', editFlg);
+    //     console.log('- Actual SQLConfigID from ViewBag:', actualSqlConfigId);
+    //     console.log('- CompanyID:', companyId);
+    //     console.log('- Database Type:', databaseType);
+    //     console.log('- Database Name:', databaseName);
+    //     console.log('- Schema Name:', schemaName);
+
+    //     // If we don't have a valid SQL Config ID but we're in edit mode with a CompanyID,
+    //     // this might be a create scenario instead of update
+    //     const isUpdateMode = actualSqlConfigId > 0;
+
+    //     const payload = {
+    //         SQLConfigID: actualSqlConfigId,
+    //         DatabaseType: databaseType,
+    //         DatabaseName: databaseName,
+    //         Connectionstring: $('#txtConnStr').val()?.trim() || '',
+    //         ServerName: $('#txtServerName').val()?.trim() || '',
+    //         DbUserName: $('#dbUserName').val() || null,
+    //         DbPassword: $('#dbPassword').val()?.trim() || '',
+    //         PortNum: $('#dbPortNum').val()?.trim() || '',
+    //         SchemaName: schemaName,
+    //         TablesSelected: getSelectedTableNames() || '',
+    //         ViewsSelected: getSelectedViewNames() || '',
+    //         Description: $('#sqlDesc').val()?.trim() || '',
+    //         PromptConfiguration: $('#SqlPrompt').val()?.trim() || '',
+    //         CompanyID: companyId,
+    //         flgSave: isUpdateMode ? 2 : 1 // Use 2 for update, 1 for create
+    //     };
+
+    //     console.log('Final Payload:', payload);
+    //     return payload;
+    // }
+   
+
+      $(function () {
+               $('#btnStep1Next').off('click').on('click', function (e) {
+            e.preventDefault();
+
+            const $btn = $(this);
+            const companyId = parseInt($('#CompanyIDHidden').val()?.trim());
+            const isEditMode = companyId > 0; // Check if we're updating existing company
+
+            let payload;
+            if (isEditMode) {
+                payload = getCompanyUpdatePayload(); // Use update payload
+            } else {
+                payload = getCompanyPayload(); // Use create payload
+            }
+
+            // If nothing meaningful is filled, just move on
+            if (!payload.CompanyName) {
+                showStep('#step2');
+                return;
+            }
+
+            $btn.prop('disabled', true).text(isEditMode ? 'Updating...' : 'Saving...');
+
+            if (isEditMode) {
+                // 🔹 UPDATE existing company (when going back and making changes)
+                updateCompanyProfile(payload)
+                    .done(function (res) {
+                        console.log('UpdateProfile response:', res);
+                        showMessage(res.message || "Company updated successfully.", "success");
+                        loadDatabasetype();
+                        showStep('#step2');
+                    })
+                    .fail(function (xhr) {
+                        console.error('UpdateProfile failed:', xhr);
+                        showMessage(xhr.responseJSON?.message || "Error updating company.", "danger");
+                    })
+                    .always(function () {
+                        $btn.prop('disabled', false).text('Next');
+                    });
+
+            } else {
+                // 🔹 CREATE new company (first time)
+                saveCompanyProfile(payload)
+                    .done(function (res) {
+                        console.log('CreateProfile response:', res);
+
+                        const newCompanyId = (res && (res.companyId ?? res.CompanyId ?? res.Data ?? res.data)) || null;
+                        if (!newCompanyId) {
+                            alert((res && (res.message || res.Message)) || 'Saved, but no CompanyID returned.');
+                        }
+
+                        // store new ID in hidden field for future updates
+                        $('#CompanyIDHidden').val(newCompanyId);
+
+                        showMessage(res.message || "Company created successfully.", "success");
+                        loadDatabasetype();
+                        showStep('#step2');
+                    })
+                    .fail(function (xhr) {
+                        console.error('CreateProfile failed:', xhr);
+                        showMessage(xhr.responseJSON?.message || "Error creating company.", "danger");
+                    })
+                    .always(function () {
+                        $btn.prop('disabled', false).text('Next');
+                    });
+            }
+        });
+    //});
+          //next button click on 1st tab
+       //  $('#btnStep1Next').off('click').on('click', function (e) {
+       //   e.preventDefault();
+
+       //   const $btn = $(this);
+       //   const payload = getCompanyPayload();
+
+       //     // If nothing meaningful is filled, just move on
+       //    if (!payload.CompanyName) {
+
+       //      showStep('#step2');
+       //      return;
+       //    }
+
+       //   $btn.prop('disabled', true).text('Saving...');
+
+       //   saveCompanyProfile(payload)
+       //     .done(function (res, status, xhr) {
+       //       console.log('CreateProfile response:', res);
+
+       //       const companyId = (res && (res.companyId ?? res.CompanyId ?? res.Data ?? res.data)) || null;
+       //       if (!companyId) {
+       //         alert((res && (res.message || res.Message)) || 'Saved, but no CompanyID returned.');
+       //       }
+       //       $('#CompanyIDHidden').val(companyId);
+       //        loadDatabasetype();
+       //       // Move to next tab (BS5)
+
+       //        showStep('#step2');
+
+
+       //     })
+       //     .fail(function (xhr) {
+       //       console.error('CreateProfile failed:', xhr);
+
+       //     })
+       //     .always(function () {
+       //       $btn.prop('disabled', false).text('Next');
+       //     });
+
+       //   // //Temp
+       //   // showStep('#step2');
+       // });
+
+
+       //Suchita Step 1 update click
+        $('#btnUpdatestep1').off('click').on('click', function (e) {
+            e.preventDefault();
+
+            const $btn = $(this);
+            const payload = getCompanyUpdatePayload();
+
+              // MINIMAL: skip API if no changes in Step 1
+     const __origCompany = @Html.Raw(Newtonsoft.Json.JsonConvert.SerializeObject(ViewBag.CompanyData ?? new { }));
+     function __normCompany(c) {
+       if (!c) return {};
+       return {
+         CompanyName: (c.CompanyName||'').trim(),
+         BusinessTradeName: (c.BusinessTradeName||'').trim(),
+         IndustryType: (c.IndustryType||'').trim(),
+         CompanyRegistrationNumber: (c.CompanyRegistrationNumber||'').trim(),
+         DateOfIncorporation: (c.DateOfIncorporation ? c.DateOfIncorporation.split('T')[0] : '').trim(),
+         CompanySize: (c.CompanySize??'').toString().trim(),
+         Description: (c.Description||'').trim(),
+         RegisteredAddress: (c.RegisteredAddress||'').trim(),
+         CorporateAddress: (c.CorporateAddress||'').trim(),
+         PrimaryPhone: (c.PrimaryPhone||'').trim(),
+         OfficialEmail: (c.OfficialEmail||'').trim(),
+         CompanyWebsite: (c.CompanyWebsite||'').trim(),
+         ContactPersonName: (c.ContactPersonName||'').trim(),
+         DesignationRole: (c.DesignationRole||'').trim(),
+         WorkEmail: (c.WorkEmail||'').trim(),
+         MobileNumber: (c.MobileNumber||'').trim(),
+         AlternateContact: (c.AlternateContact||'').trim(),
+         GSTNo: (c.GSTNo||'').trim(),
+         PanNo: (c.PanNo||'').trim(),
+         TANNo: (c.TANNo||'').trim()
+       };
+     }
+     if (JSON.stringify(__normCompany(__origCompany)) === JSON.stringify(__normCompany(payload))) {
+       // No changes → just move to next step (as your UI already does)
+        LoadEditDataform2();
+       showStep('#step2');
+       // $('.nav-tabs li.active').removeClass('active');
+       //    $('#step2').addClass('active');
+       return;
+     }
+              // If nothing meaningful is filled, just move on
+             if (!payload.CompanyName) {
+               showStep('#step2');
+          //      $('.nav-tabs li.active').removeClass('active');
+          // $('#step2').addClass('active');
+               return;
+             }
+
+            $btn.prop('disabled', true).text('Saving...');
+
+            updateCompanyProfile(payload)
+              .done(function (res, status, xhr) {
+                console.log('UpdateProfile response:', res);
+                debugger;
+                const companyId = (res && (res.companyId ?? res.CompanyId ?? res.Data ?? res.data)) || null;
+                if (!companyId) {
+                  alert((res && (res.message || res.Message)) || 'Saved, but no CompanyID returned.');
+                }
+                $('#CompanyIDHidden').val(companyId);
+                 //loadDatabasetype();
+                  LoadEditDataform2();
+                // Move to next tab (BS5)
+        //           $("#btnUpdatestep2").removeAttr("style"); // removes inline style="display:none"
+        // $("#btnStep2Next").attr("style", "display:none"); // adds inline display:none
+                 showStep('#step2');
+          //        $('.nav-tabs li.active').removeClass('active');
+          // $('#step2').addClass('active');
+                // const nextTabTrigger = document.querySelector('a[href="#step2"]');
+                // if (nextTabTrigger) new bootstrap.Tab(nextTabTrigger).show();
+
+              })
+              .fail(function (xhr) {
+                console.error('UpdateProfile failed:', xhr);
+                const msg = (xhr.responseJSON && (xhr.responseJSON.message || xhr.responseJSON.Message)) ||
+                   xhr.responseText || `HTTP ${xhr.status}`;
+                   alert(msg || 'Update failed. Please check your data.');
+                 // Don’t block the user — still move forward
+
+                 // loadDatabasetype();
+                   //LoadEditDataform2();
+                 // Move to next tab (BS5)
+         //           $("#btnUpdatestep2").removeAttr("style"); // removes inline style="display:none"
+         // $("#btnStep2Next").attr("style", "display:none"); // adds inline display:none
+                    //showStep('#step2');
+          //           $('.nav-tabs li.active').removeClass('active');
+          // $('#step2').addClass('active');
+              })
+              .always(function () {
+                $btn.prop('disabled', false).text('Next');
+              });
+
+
+     // //Temp
+     // showStep('#step2');
+          });
+
+        //next button click on 2nd tab
+     //     $('#btnStep2Next').off('click').on('click', function (e) {
+     //      e.preventDefault();
+
+     //      const $btn = $(this);
+     //       const payload = getSQLConfigPayload();
+
+     //       //if (!payload.DatabaseType) { alert('Please select database type'); return; }
+
+     //         if (!payload.DatabaseType) {
+     //   $('#sqlconfigHidden').val('No');
+     //   $('#txtsqlconfig').val('No');
+     //   showStep('#step3');
+
+     //   return;
+     // }
+
+     //      $btn.prop('disabled', true).text('Saving...');
+
+     //      saveSQLConfig(payload)
+     //        .done(function (res, status, xhr) {
+     //          console.log('SQLConfig response:', res);
+
+     //            const sqlId = (res && (res.sqlCofigId ?? res.sqlCofigId ?? res.Data ?? res.data)) || null;
+     //           if (!sqlId) {
+     //            alert((res && (res.message || res.Message)) || 'Saved, but no Config Id returned.');
+     //          }
+     //            $('#sqlconfigHidden').val('Yes');
+     //             $('#txtsqlconfig').val('Yes');
+
+     //          // Move to next tab (BS5)
+     //           showStep('#step3');
+
+
+     //        })
+     //        .fail(function (xhr) {
+     //          console.error('Sql Config failed:', xhr);
+
+     //           // Don’t block the user
+     //    $('#sqlconfigHidden').val('No');
+     //    $('#txtsqlconfig').val('No');
+     //    showStep('#step3');
+     //        })
+     //        .always(function () {
+     //          $btn.prop('disabled', false).text('Next');
+     //        });
+
+     //  //showStep('#step3');
+     //    });
+
+
+
+            $('#btnStep2Next').off('click').on('click', function (e) {
+        e.preventDefault();
+
+        const $btn = $(this);
+
+        // 🔹 Get hidden SQL config value
+        const sqlConfigId = $('#sqlconfigHidden').val();
+
+        // ✅ BETTER edit mode detection - check multiple sources
+        const companyId = parseInt($('#CompanyIDHidden').val()?.trim());
+        const sqlConfigFromViewBag = @Html.Raw(Newtonsoft.Json.JsonConvert.SerializeObject(ViewBag.SqlConfig ?? new { }));
+        const hasExistingSqlConfig = sqlConfigFromViewBag && (sqlConfigFromViewBag.SQLConfigID > 0 || sqlConfigFromViewBag.SqlConfigId > 0);
+
+        // More reliable edit mode detection
+        const isEditMode = editFlg == 1 || hasExistingSqlConfig || (!isNaN(sqlConfigId) && parseInt(sqlConfigId) > 0);
+
+        console.log('Edit Mode Debug:', {
+            sqlConfigId: sqlConfigId,
+            companyId: companyId,
+            hasExistingSqlConfig: hasExistingSqlConfig,
+            isEditMode: isEditMode
+        });
+
+        // ✅ Choose payload function based on mode
+        const payload = isEditMode ? getSQLConfigPayloadUpdate() : getSQLConfigPayload();
+
+        // ✅ If no DB type selected, skip this step
+        if (!payload.DatabaseType) {
+            $('#sqlconfigHidden').val('0'); // Store as string '0'
+            $('#txtsqlconfig').val('No');
+            showStep('#step3');
+            return;
+        }
+
+        $btn.prop('disabled', true).text(isEditMode ? 'Updating...' : 'Saving...');
+
+        if (isEditMode) {
+            console.log('UPDATE MODE - Updating existing SQL config');
+            // 🔹 UPDATE existing SQL configuration
+            payload.flgSave = 2;
+
+            // ✅ Ensure the SQLConfigID is set in payload
+            if (!payload.SQLConfigID || payload.SQLConfigID === 0) {
+                var sqlConfig = @Html.Raw(Newtonsoft.Json.JsonConvert.SerializeObject(ViewBag.SqlConfig ?? new { }));
+                const actualSqlConfigId = sqlConfig?.SQLConfigID || sqlConfig?.SqlConfigId || sqlConfig?.Id || 0;
+                if (actualSqlConfigId > 0) {
+                    payload.SQLConfigID = actualSqlConfigId;
+                    console.log('Using SQLConfigID from ViewBag:', actualSqlConfigId);
+                } else if (!isNaN(sqlConfigId) && parseInt(sqlConfigId) > 0) {
+                    payload.SQLConfigID = parseInt(sqlConfigId);
+                    console.log('Using SQLConfigID from hidden field:', sqlConfigId);
+                } else {
+                    console.warn('No valid SQLConfigID found for update');
+                }
+            }
+
+            updateSQLConfig(payload)
+                .done(function (res, status, xhr) {
+                    console.log('SQLConfig update response:', res);
+
+                    // ✅ Extract returned ID safely
+                    const sqlId = (res && (res.sqlConfigId ?? res.SQLConfigID ?? res.Data ?? res.data)) ||
+                                 (payload.SQLConfigID > 0 ? payload.SQLConfigID : 0);
+
+                    // ✅ Store the ACTUAL numeric ID (not 'Yes')
+                    $('#sqlconfigHidden').val(sqlId > 0 ? sqlId.toString() : '0');
+                    $('#txtsqlconfig').val(sqlId > 0 ? 'Yes' : 'No');
+
+                    console.log('Stored SQLConfigID:', sqlId);
+
+                    showMessage(res.message || "SQL configuration updated successfully.", "success");
+                    showStep('#step3');
+                })
+                .fail(function (xhr) {
+                    console.error('SQL Config update failed:', xhr);
+                    const msg = xhr?.responseJSON?.message || 'Update failed. Please check your data.';
+                    showMessage(msg, "danger");
+                    showStep('#step3');
+                })
+                .always(function () {
+                    $btn.prop('disabled', false).text('Next');
+                });
+
+        } else {
+            console.log('CREATE MODE - Creating new SQL config');
+            // 🔹 CREATE new SQL configuration
+            payload.flgSave = 1;
+
+            saveSQLConfig(payload)
+                .done(function (res, status, xhr) {
+                    console.log('SQLConfig create response:', res);
+
+                    // ✅ Extract returned ID
+                    const sqlId = (res && (res.sqlCofigId ?? res.SQLCofigID ?? res.Data ?? res.data)) || 0;
+
+                    // ✅ Store the ACTUAL numeric ID (important!)
+                    $('#sqlconfigHidden').val(sqlId > 0 ? sqlId.toString() : '0');
+                    $('#txtsqlconfig').val(sqlId > 0 ? 'Yes' : 'No');
+
+                    console.log('Created SQLConfigID:', sqlId);
+
+                    showMessage(res.message || "SQL configuration created successfully.", "success");
+                    showStep('#step3');
+                })
+                .fail(function (xhr) {
+                    console.error('SQL Config create failed:', xhr);
+                    const msg = xhr?.responseJSON?.message || 'Save failed. Please try again.';
+                    showMessage(msg, "danger");
+                    showStep('#step3');
+                })
+                .always(function () {
+                    $btn.prop('disabled', false).text('Next');
+                });
+        }
+    });
+
+
+
+
+         //Suchita  Update button click on 2nd tab
+      $('#btnUpdatestep2').off('click').on('click', function (e) {
+          e.preventDefault();
+
+          const $btn = $(this);
+          const payload = getSQLConfigPayloadUpdate();
+
+            // MINIMAL: skip API if no changes in Step 2
+     const __origSql = @Html.Raw(Newtonsoft.Json.JsonConvert.SerializeObject(ViewBag.SqlConfig ?? new { }));
+         // normalize anything (array / JSON-string / comma-string / object) → array<string>
+     function __toList(x) {
+       if (Array.isArray(x)) return x.map(String);
+       if (x == null) return [];
+       if (typeof x === 'string') {
+         const s = x.trim();
+         if (!s) return [];
+         // Try JSON array first
+         try {
+           const j = JSON.parse(s);
+           if (Array.isArray(j)) return j.map(String);
+         } catch {}
+         // Fallback: comma-separated list
+         return s.split(',').map(t => t.trim()).filter(Boolean);
+       }
+       if (typeof x === 'object') {
+         // If it's an object/map, use its values
+         try { return Object.values(x).map(String).filter(Boolean); } catch { return []; }
+       }
+       // Anything else → single-value array
+       return [String(x)];
+     }
+
+     function __normSqlBase(c) {
+       if (!c) return {};
+       return {
+         DatabaseType: (c.DatabaseType||'').trim(),
+         DatabaseName: (c.DatabaseName || c.DataBaseName || c.DBName || c.DbName || '').trim(),
+         Connectionstring: (c.Connectionstring || c.ConnectionString || '').trim(),
+         ServerName: (c.ServerName||'').trim(),
+         DbUserName: (c.DbUserName||'').trim(),
+         DbPassword: (c.DbPassword||'').trim(),
+         PortNum: (c.PortNum??'').toString().trim(),
+         SchemaName: (c.SchemaName || c.Schema || '').trim(),
+         PromptConfiguration: (c.PromptConfiguration||'').trim(),
+         Description: (c.Description||'').trim(),
+          TablesSelected: __toList(c.TablesSelected).sort(),
+      ViewsSelected: __toList(c.ViewsSelected).sort()
+       };
+     }
+     function __normSqlPayload(p) {
+       return {
+         DatabaseType: (p.DatabaseType||'').trim(),
+         DatabaseName: (p.DatabaseName||'').trim(),
+         Connectionstring: (p.Connectionstring||'').trim(),
+         ServerName: (p.ServerName||'').trim(),
+         DbUserName: (p.DbUserName||'').trim(),
+         DbPassword: (p.DbPassword||'').trim(),
+         PortNum: (p.PortNum??'').toString().trim(),
+         SchemaName: (p.SchemaName||'').trim(),
+         PromptConfiguration: (p.PromptConfiguration||'').trim(),
+         Description: (p.Description||'').trim(),
+          TablesSelected: __toList(p.TablesSelected).sort(),
+      ViewsSelected: __toList(p.ViewsSelected).sort()
+       };
+     }
+     if (JSON.stringify(__normSqlBase(__origSql)) === JSON.stringify(__normSqlPayload(payload))) {
+       // No changes → go forward (keep your existing UX; if you route to step3 here, keep it)
+        $('#sqlconfigHidden').val('Done');
+                $('#txtsqlconfig').val('Done');
+                 LoadEditDataform3();
+       showStep('#step3'); // use '#step3' if that's what your current flow shows on Next
+       return;
+     }
+
+          // If no database type selected, skip SQL config
+          if (!payload.DatabaseType) {
+              $('#sqlconfigHidden').val('No');
+              $('#txtsqlconfig').val('No');
+              showStep('#step3');
+              return;
+          }
+
+          // Add the SQL Config ID for update
+          const sqlConfigId = $('#sqlconfigHidden').val(); // Assuming you store the ID in this hidden field
+          if (sqlConfigId && sqlConfigId !== 'Yes' && sqlConfigId !== 'No') {
+              payload.SQLConfigID = parseInt(sqlConfigId);
+          }
+
+          payload.flgSave = 2; // Use 2 for update instead of 1 for create
+
+          $btn.prop('disabled', true).text('Updating...');
+
+          updateSQLConfig(payload)
+              .done(function (res, status, xhr) {
+                  console.log('SQLConfig update response:', res);
+
+                  const sqlId = (res && (res.sqlConfigId ?? res.SQLConfigID ?? res.Data ?? res.data)) || null;
+                  if (!sqlId) {
+                      alert((res && (res.message || res.Message)) || 'Updated, but no Config Id returned.');
+                  }
+
+                  $('#sqlconfigHidden').val('Yes');
+                  $('#txtsqlconfig').val('Yes');
+
+                  // Move to next tab (BS5)
+                  showStep('#step3');
+              })
+              .fail(function (xhr) {
+                  console.error('SQL Config update failed:', xhr);
+                  const msg = xhr?.responseJSON?.message || 'Update failed.';
+                  alert(msg);
+
+                  $('#sqlconfigHidden').val('No');
+                  $('#txtsqlconfig').val('No');
+                  showStep('#step3');
+              })
+              .always(function () {
+                  $btn.prop('disabled', false).text('Next');
+                  LoadEditDataform3();
+              });
+
+      // showStep('#step3');
+      });
+          //skip button click on 2nd tab
+           $('#btnstep2skip').on('click', function (e) {
+               $('#sqlconfigHidden').val('No');
+                  $('#txtsqlconfig').val('No');
+              // // Move to next tab (BS5)
+              showStep('#step3');
+              //   const nextTabTrigger = document.querySelector('a[href="#step3"]');
+              //   if (nextTabTrigger) new bootstrap.Tab(nextTabTrigger).show();
+
+              // showStep('#step3');
+          });
+
+          //Suchita
+             $('#btnUpdatestep2Skip').on('click', function (e) {
+                 $('#sqlconfigHidden').val('No');
+                    $('#txtsqlconfig').val('No');
+                // Move to next tab (BS5)
+                showStep('#step3');
+                  // const nextTabTrigger = document.querySelector('a[href="#step3"]');
+                  // if (nextTabTrigger) new bootstrap.Tab(nextTabTrigger).show();
+
+                 // showStep('#step3');
+            });
+
+         //next button click on 3rd tab
+           $('#btnStep3Upload').off('click').on('click', function () {
+
+            const formData = new FormData();
+            const rows = $('#uploadRows .upload-row');
+            let anyFile = false;
+
+            rows.each(function () {
+              const fileInput = $(this).find('.file-input')[0];
+              const desc = ($(this).find('.desc-input').val() || '').trim();
+
+              if (fileInput && fileInput.files && fileInput.files.length > 0) {
+                anyFile = true;
+                // Repeat the same key for ASP.NET Core binder to build List<IFormFile> and List<string>
+                formData.append('files', fileInput.files[0]);          // NOT 'files[]'
+                formData.append('descriptions', desc);                 // NOT 'descriptions[]'
+              }
+            });
+
+              // 👉 If user didn’t select files, just move on
+             if (!anyFile) {
+               $('#fileconfigHidden').val('No');
+               $('#txtfileconfig').val('No');
+               showStep('#step4');
+               return;
+             }
+
+            // Bind to FileAnalyticsCreate_req (all via [FromForm])
+            formData.append('PromptConfiguration', $('#txtPrompt').val() || '');
+             formData.append('CompanyID',  parseInt($('#CompanyIDHidden').val()?.trim()) || '');   // adapt selector
+               formData.append('CompanyName',   $('#CompanyName').val()?.trim());   // adapt selector
+
+
+        const $btn = $(this).prop('disabled', true).text('Uploading...');
+
+        $.ajax({
+           url: `${API_BASE}/FileAnalytics`,   // <-- matches controller route
+          method: 'POST',
+          data: formData,
+          processData: false,
+          contentType: false,
+          success: function (res) {
+            // const next = document.querySelector('a[href="#step4"]');
+            // if (next && window.bootstrap && bootstrap.Tab) new bootstrap.Tab(next).show();
+             $('#fileconfigHidden').val('Yes');
+              $('#txtfileconfig').val('Yes');
+             // Move to next tab (BS5)
+              showStep('#step4');
+               // const nextTabTrigger = document.querySelector('a[href="#step4"]');
+               // if (nextTabTrigger) new bootstrap.Tab(nextTabTrigger).show();
+            console.log('Upload success', res);
+          },
+          error: function (xhr) {
+            console.error('Upload error', xhr);
+             showStep('#step4');
+            // const msg = xhr?.responseJSON?.message || 'Upload failed. Please try again.';
+            // alert(msg);
+          },
+          complete: function () {
+            $btn.prop('disabled', false).text('Next');
+          }
+        });
+
+         //showStep('#step4');
+      });
+
+          // Modified file upload function to handle both new and existing files
+              // Modified file upload function to handle both new and existing files
+    $('#btnUpdatestep3').off('click').on('click', function () {
+        const __fileAnalytics = @Html.Raw(Newtonsoft.Json.JsonConvert.SerializeObject(ViewBag.FileConfig ?? new { }));
+        const __origPrompt = (__fileAnalytics.length > 0 && __fileAnalytics[0].PromptConfiguration) ? (__fileAnalytics[0].PromptConfiguration || '').trim() : '';
+        const currentPrompt = ($('#txtPrompt').val() || '').trim();
+
+        // If no new files selected AND prompt unchanged → move on without upload call
+        const anyNewFile = $('#uploadRows .file-input').toArray().some(f => f.files && f.files.length > 0);
+        if (!anyNewFile && currentPrompt === __origPrompt) {
+            $('#fileconfigHidden').val('Done');
+            $('#txtfileconfig').val('Done');
+            showStep('#step4');
+            return;
+        }
+
+        // Proceed with file upload logic
+        const formData = new FormData();
+        const rows = $('#uploadRows .upload-row');
+        let anyFile = false;
+
+        // Add removed existing file IDs
+        if (removedExistingIds && removedExistingIds.size > 0) {
+            removedExistingIds.forEach(id => {
+                formData.append('RemovedFileIds', id);
+            });
+        }
+
+        // Process all rows - both existing and new files
+        rows.each(function (index) {
+            const $row = $(this);
+            const fileInput = $row.find('.file-input')[0];
+            const desc = ($row.find('.desc-input').val() || '').trim();
+            const existingFileId = $row.data('fileid');
+
+            if (existingFileId) {
+                // Existing file - update description
+                formData.append('ExistingFileIds', existingFileId);
+                formData.append('ExistingDescriptions', desc);
+                anyFile = true;
+            } else if (fileInput && fileInput.files && fileInput.files.length > 0) {
+                // New file
+                anyFile = true;
+                formData.append('files', fileInput.files[0]);
+                formData.append('descriptions', desc);
+            } else if (desc) {
+                // Row with description but no file (might be an error case)
+                console.warn('Row has description but no file selected');
+            }
+        });
+
+        // If user didn't select any files and has no existing files, just move on
+        if (!anyFile && (!removedExistingIds || removedExistingIds.size === 0)) {
+            $('#fileconfigHidden').val('No');
+            $('#txtfileconfig').val('No');
+            showStep('#step4');
+            return;
+        }
+
+        // Add other form data - these will bind to your FileAnalyticsUpdate_req object
+        formData.append('PromptConfiguration', $('#txtPrompt').val() || '');
+        formData.append('CompanyID', parseInt($('#CompanyIDHidden').val()?.trim()) || '');
+        formData.append('CompanyName', $('#CompanyName').val()?.trim());
+        formData.append('flgSave', editFlg === 1 ? '2' : '1'); // 2 for update, 1 for create
+
+        const $btn = $(this).prop('disabled', true).text('Uploading...');
+        const token = localStorage.getItem("accessToken"); // Get token
+
+        // $.ajax({
+        //     url: `${API_BASE}/FileAnalyticsUpdate`,
+        //     method: 'PUT',
+        //     data: formData,
+        //     processData: false,
+        //     contentType: false,
+        //     success: function (res) {
+        //         $('#fileconfigHidden').val('Yes');
+        //         $('#txtfileconfig').val('Yes');
+        //         showStep('#step4');
+        //         console.log('Upload success', res);
+
+        //         // Show success message
+        //         showMessage('File configuration saved successfully!', 'success');
+        //     },
+        //     error: function (xhr) {
+        //         console.error('Upload error', xhr);
+        //         const msg = xhr?.responseJSON?.message || 'Upload failed. Please try again.';
+        //         showMessage(msg, 'danger');
+        //         // Still move to next step but mark as not configured
+        //         $('#fileconfigHidden').val('No');
+        //         $('#txtfileconfig').val('No');
+        //         showStep('#step4');
+        //     },
+        //     complete: function () {
+        //         $btn.prop('disabled', false).text('Next');
+        //     }
+        // });
+
+            $.ajax({
+            url: `${API_BASE}/FileAnalyticsUpdate`,
+            method: 'PUT',
+            headers: {
+                ...(token && { 'Authorization': `Bearer ${token}` })
+            },
+            data: formData,
+            processData: false,
+            contentType: false,
+            success: function (res) {
+                $('#fileconfigHidden').val('Yes');
+                $('#txtfileconfig').val('Yes');
+                showStep('#step4');
+                console.log('Upload success', res);
+
+                // Show success message
+                showMessage('File configuration saved successfully!', 'success');
+            },
+            error: function (xhr) {
+                console.error('Upload error', xhr);
+                const msg = xhr?.responseJSON?.message || 'Upload failed. Please try again.';
+                showMessage(msg, 'danger');
+                // Still move to next step but mark as not configured
+                $('#fileconfigHidden').val('No');
+                $('#txtfileconfig').val('No');
+                showStep('#step4');
+            },
+            complete: function () {
+                $btn.prop('disabled', false).text('Next');
+            }
+        });
+
+        // showStep('#step4');
+    });
+    // $('#btnUpdatestep3').off('click').on('click', function () {
+    //     const __fileAnalytics = @Html.Raw(Newtonsoft.Json.JsonConvert.SerializeObject(ViewBag.FileConfig ?? new { }));
+    //     const __origPrompt = (__fileAnalytics.length > 0 && __fileAnalytics[0].PromptConfiguration) ? (__fileAnalytics[0].PromptConfiguration || '').trim() : '';
+    //     const currentPrompt = ($('#txtPrompt').val() || '').trim();
+
+    //     // If no new files selected AND prompt unchanged → move on without upload call
+    //     const anyNewFile = $('#uploadRows .file-input').toArray().some(f => f.files && f.files.length > 0);
+    //     if (!anyNewFile && currentPrompt === __origPrompt) {
+    //         $('#fileconfigHidden').val('Done');
+    //         $('#txtfileconfig').val('Done');
+    //         showStep('#step4');
+    //         return;
+    //     }
+
+    //     // Proceed with file upload logic
+    //     const formData = new FormData();
+    //     const rows = $('#uploadRows .upload-row');
+    //     let anyFile = false;
+
+    //     // Add removed existing file IDs
+    //     if (removedExistingIds && removedExistingIds.size > 0) {
+    //         removedExistingIds.forEach(id => {
+    //             formData.append('RemovedFileIds', id);
+    //         });
+    //     }
+
+    //     rows.each(function (index) {
+    //         const $row = $(this);
+    //         const fileInput = $row.find('.file-input')[0];
+    //         const desc = ($row.find('.desc-input').val() || '').trim();
+    //         const existingFileId = $row.data('fileid');
+
+    //         if (existingFileId) {
+    //             // Existing file - only update description if changed
+    //             formData.append('ExistingFileIds', existingFileId);
+    //             formData.append('ExistingDescriptions', desc);
+    //             anyFile = true;
+    //         } else if (fileInput && fileInput.files && fileInput.files.length > 0) {
+    //             // New file
+    //             anyFile = true;
+    //             formData.append('files', fileInput.files[0]);
+    //             formData.append('descriptions', desc);
+    //         } else if (desc) {
+    //             // Row with description but no file (might be an error case)
+    //             console.warn('Row has description but no file selected');
+    //         }
+    //     });
+
+    //     // If user didn't select any files and has no existing files, just move on
+    //     if (!anyFile && (!removedExistingIds || removedExistingIds.size === 0)) {
+    //         $('#fileconfigHidden').val('No');
+    //         $('#txtfileconfig').val('No');
+    //         showStep('#step4');
+    //         return;
+    //     }
+
+    //     // Add other form data
+    //     formData.append('PromptConfiguration', $('#txtPrompt').val() || '');
+    //     formData.append('CompanyID', parseInt($('#CompanyIDHidden').val()?.trim()) || '');
+    //     formData.append('CompanyName', $('#CompanyName').val()?.trim());
+    //     formData.append('flgSave', editFlg === 1 ? '2' : '1'); // 2 for update, 1 for create
+
+    //     const $btn = $(this).prop('disabled', true).text('Uploading...');
+
+    //     $.ajax({
+    //         url: `${API_BASE}/FileAnalyticsUpdate`,
+    //         method: 'PUT',
+    //         data: formData,
+    //         processData: false,
+    //         contentType: false,
+    //         success: function (res) {
+    //             $('#fileconfigHidden').val('Yes');
+    //             $('#txtfileconfig').val('Yes');
+    //             showStep('#step4');
+    //             console.log('Upload success', res);
+
+    //             // Show success message
+    //             showMessage('File configuration saved successfully!', 'success');
+    //         },
+    //         error: function (xhr) {
+    //             console.error('Upload error', xhr);
+    //             const msg = xhr?.responseJSON?.message || 'Upload failed. Please try again.';
+    //             showMessage(msg, 'danger');
+    //             // Still move to next step but mark as not configured
+    //             $('#fileconfigHidden').val('No');
+    //             $('#txtfileconfig').val('No');
+    //             showStep('#step4');
+    //         },
+    //         complete: function () {
+    //             $btn.prop('disabled', false).text('Next');
+    //         }
+    //     });
+    // });
+
+       //skip button click on 3rd tab
+            $('#btnstep3skip').on('click', function (e) {
+                $('#fileconfigHidden').val('No');
+                    $('#txtfileconfig').val('No');
+               // Move to next tab (BS5
+                showStep('#step4');
+                 // const nextTabTrigger = document.querySelector('a[href="#step3"]');
+                 // if (nextTabTrigger) new bootstrap.Tab(nextTabTrigger).show();
+               // showStep('#step4');
+           });
+
+           //Suchita
+            //skip button click on 3nd tab
+              $('#btnUpdatestep3skip').on('click', function (e) {
+                  $('#fileconfigHidden').val('No');
+                      $('#txtfileconfig').val('No');
+                 // Move to next tab (BS5
+                  showStep('#step4');
+                   // const nextTabTrigger = document.querySelector('a[href="#step3"]');
+                   // if (nextTabTrigger) new bootstrap.Tab(nextTabTrigger).show();
+
+                 // showStep('#step4');
+             });
+
+               // SAVE (permanent) — no background call from client anymore
+     $('#btnSavePermanent').on('click', function () {
+       const companyId = parseInt($('#CompanyIDHidden').val()?.trim());
+       const payload = { companyID: companyId };
+
+       const $btn = $(this).prop('disabled', true).text('Saving...');
+        var cfg= 5
+           //if($('#fileconfigHidden').val()=='No' && $('#sqlconfigHidden').val()=='Yes')
+            // if (($('#fileconfigHidden').val() == 'No' || $('#fileconfigHidden').val() == 'Done')
+      //&& $('#sqlconfigHidden').val() == 'Yes')
+      if (($('#txtfileconfig').val() == 'No' || $('#txtfileconfig').val() == 'Done')
+      && $('#txtsqlconfig').val() == 'Yes')
+         {
+             cfg=1;
+         }
+           // // if ($('#fileconfigHidden').val()=='Yes' && $('#sqlconfigHidden').val()=='No')
+           //  if ($('#fileconfigHidden').val() == 'Yes' &&
+     // ($('#sqlconfigHidden').val() == 'No' || $('#sqlconfigHidden').val() == 'Done'))
+     if ($('#txtfileconfig').val() == 'Yes' &&
+      ($('#txtsqlconfig').val() == 'No' || $('#txtsqlconfig').val() == 'Done'))
+         // Nidhi working
+         {
+              cfg=2
+          }
+             if ($('#txtfileconfig').val()=='Yes' && $('#txtsqlconfig').val()=='Yes')
+          // Nidhi working
+          {
+               cfg=0
+           }
+             // if ($('#fileconfigHidden').val()=='No' && $('#sqlconfigHidden').val()=='No')
+                 // if ( ($('#fileconfigHidden').val() == 'No' || $('#fileconfigHidden').val() == 'Done') &&
+                 //      ($('#sqlconfigHidden').val() == 'No' || $('#sqlconfigHidden').val() == 'Done')
+                 //     )
+                 if ( ($('#txtfileconfig').val() == 'No' || $('#txtfileconfig').val() == 'Done') &&
+                      ($('#txtsqlconfig').val() == 'No' || $('#txtsqlconfig').val() == 'Done')
+                     )
+
+           {
+                // Nidhi working
+                cfg=5
+            }
+
+                $.ajax({
+       url: `${API_BASE}/SavePermanent`,
+       method: 'POST',
+       data: JSON.stringify(payload),
+       contentType: 'application/json; charset=utf-8',
+       timeout: 0, // no timeout
+       success: function (res) {
+           debugger;
+         console.log('Saved:', res);
+
+         // 🔧 Use the key you actually sent: payload.companyID (lowercase d)
+         const cid = res?.CompanyId || payload.companyID || $("#CompanyIDHidden").val();
+         if (!cid) {
+           showMessage("Something went wrong. Try again later.", "danger");
+           return;
+         }
+
+         // persist for later
+         $("#CompanyIDHidden").val(cid);
+
+         // Make sure cfg is defined in this scope before this block runs
+         // e.g. let cfg = 0|1|2|5;  // computed earlier based on your flags
+
+         // 🚀 Fire-and-forget, with proper error capture (no async/await needed)
+         joinCompanyGroup(cid)
+           .catch(e => console.warn("Hub join warning:", e));
+
+         queueAllSeeding(cid, cfg)
+           // .then(() => showMessage(`Seeding queued for Company ${cid}…`, "info"))
+           .catch(e => console.error("Queue seeding failed:", e));
+
+         // (optional) reset UI/wizard here if you want
+         if(editFlg==1)
+         {
+             window.location.href = '/CompanyOnboard/CompanyMaster';
+         }
+         else{
+             resetWizard();
+         }
+
+         // const nextTabTrigger = document.querySelector('a[href="#step1"]');
+         // if (nextTabTrigger) new bootstrap.Tab(nextTabTrigger).show();
+       },
+       error: function (xhr) {
+         const msg = xhr?.responseJSON?.message || 'Save failed.';
+         alert(msg);
+         console.error('Save error', xhr);
+       },
+       complete: function () {
+
+          //$btn.prop('disabled', true).text('Configuring...');
+           $btn.prop('disabled', false).text('Save');
+
+       }
+
+
+     });
+
+
+      // showStep('#step1');
+
+     });
+
+
+
+
+     $('#btnSaveLater').on('click', function () {
+       // Example: if you later add /api/files/SaveTemporary
+       // post the same payload there (or include a flag)
+        alert('Saved for later ');
+        resetWizard();
+             const nextTabTrigger = document.querySelector('a[href="#step1"]');
+               if (nextTabTrigger) new bootstrap.Tab(nextTabTrigger).show();
+
+        // showStep('#step1');
+     });
+
+
+       //common prev button click
+              $(document).off('click.prev').on('click.prev', '.prev-step', function () {
+                  debugger;
+                  const activeHref = $('.wizard .nav-tabs a.active').attr('href');
+                  const current = document.querySelector(`.wizard .nav-tabs a[href="${activeHref}"]`);
+                   const prev = current && current.closest('li')?.previousElementSibling?.querySelector('a');
+
+                   //if (prev) showStep($(prev).attr('href')); //new bootstrap.Tab(prev).show();
+
+                   if (prev) {
+        const prevHref = $(prev).attr('href');
+        showStep(prevHref);
+
+        // 🔥 FIX: Load database types when navigating back to step 2
+        if (prevHref === '#step2') {
+            setTimeout(() => {
+                loadDatabasetype();
+            }, 100);
+        }
+    }
+             });
+
+
+     });
+
+
+     function preSelectFileAnalyticsFields() {
+           // Add visual indication that these fields are pre-selected
+           setTimeout(() => {
+               // Highlight the file upload section
+               $('#uploadRows').closest('.tab-pane').find('.form-group').first().addClass('field-selected');
+
+               // Highlight description fields
+               $('.desc-input').closest('.form-group').addClass('field-selected');
+
+               // Highlight prompt configuration
+               $('#txtPrompt').closest('.form-group').addClass('field-selected');
+
+               console.log('File Analytics fields pre-selected and pre-filled');
+           }, 500);
+       }
+
+     $(function () {
+
+
+          // Enhanced wireRowEvents function to handle existing files
+      function wireRowEvents($row) {
+          // Update custom-file label on file choose
+          $row.find('.file-input').off('change').on('change', function () {
+              const fileName = this.files && this.files.length ? this.files[0].name : 'Select file';
+              $(this).next('.custom-file-label').text(fileName);
+
+              // Remove existing file note when new file is selected
+              $(this).closest('.form-group').find('.form-text').remove();
+          });
+
+          // Remove row
+          $row.find('.btnRemoveUploader').off('click').on('click', function () {
+              const $row = $(this).closest('.upload-row');
+              const fileId = $row.data('fileid');
+
+              if (fileId) {
+                  // Mark existing file for deletion
+                  if (!removedExistingIds) removedExistingIds = new Set();
+                  removedExistingIds.add(fileId);
+                  updateExistingBadge();
+              }
+
+              const $all = $('#uploadRows .upload-row');
+              if ($all.length > 1) {
+                  $row.remove();
+              } else {
+                  // If it's the only row, just reset it
+                  $row.find('.file-input').val('').prop('disabled', false);
+                  $row.find('.custom-file-label').text('Select file');
+                  $row.find('.desc-input').val('');
+                  $row.find('.form-text').remove();
+                  $row.removeData('fileid');
+              }
+          });
+      }
+       // Wire initial row
+        wireRowEvents($('#uploadRows .upload-row'));
+
+
+
+
+
+
+         // Function to create a new empty row
+      function createRow() {
+          const $template = $(`
+              <div class="row form-fields align-items-end upload-row">
+                  <div class="col-md-5">
+                      <div class="form-group">
+                          <label>File Upload</label>
+                          <div class="custom-file">
+                              <input type="file" class="custom-file-input file-input">
+                              <label class="custom-file-label">Select file</label>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-md-5">
+                      <div class="form-group">
+                          <label>Description</label>
+                          <input class="form-control desc-input" type="text">
+                      </div>
+                  </div>
+                  <div class="col-md-2">
+                      <div class="form-group pull-right d-flex gap-2">
+                          <button type="button" class="btn btn-success btnAddUploaderRow" title="Add another">
+                              <i class="fa fa-plus"></i>
+                          </button>
+                          <button type="button" class="btn btn-outline-danger btnRemoveUploader" title="Remove this row">
+                              <i class="fa fa-trash"></i>
+                          </button>
+                      </div>
+                  </div>
+              </div>
+          `);
+          wireRowEvents($template);
+          return $template;
+      }
+
+
+
+         // Add button (first row has fixed id; subsequent rows use class)
+         $('#btnAddUploader').on('click', function () {
+           $('#uploadRows').append(createRow());
+         });
+
+
+         // Delegate for plus on subsequent rows
+         $(document).on('click', '.btnAddUploaderRow', function () {
+           $('#uploadRows').append(createRow());
+         });
+
+       });
+
+
+      //  // Modified file upload function to handle both new and existing files
+      // $('#btnStep3Upload').off('click').on('click', function () {
+      //   //   if (editFlg == 1) {
+      //   //   // Use the update functionality instead
+      //   //  $('#btnUpdatestep3').click();
+      //   //   return;
+      //   // }
+      //     const formData = new FormData();
+      //     const rows = $('#uploadRows .upload-row');
+      //     let anyFile = false;
+
+      //     // Add removed existing file IDs
+      //     if (removedExistingIds && removedExistingIds.size > 0) {
+      //         removedExistingIds.forEach(id => {
+      //             formData.append('RemovedFileIds', id);
+      //         });
+      //     }
+
+      //     rows.each(function (index) {
+      //         const $row = $(this);
+      //         const fileInput = $row.find('.file-input')[0];
+      //         const desc = ($row.find('.desc-input').val() || '').trim();
+      //         const existingFileId = $row.data('fileid');
+
+      //         if (existingFileId) {
+      //             // Existing file - only update description if changed
+      //             formData.append('ExistingFileIds', existingFileId);
+      //             formData.append('ExistingDescriptions', desc);
+      //             anyFile = true;
+      //         } else if (fileInput && fileInput.files && fileInput.files.length > 0) {
+      //             // New file
+      //             anyFile = true;
+      //             formData.append('files', fileInput.files[0]);
+      //             formData.append('descriptions', desc);
+      //         } else if (desc) {
+      //             // Row with description but no file (might be an error case)
+      //             console.warn('Row has description but no file selected');
+      //         }
+      //     });
+
+      //     // If user didn't select any files and has no existing files, just move on
+      //     if (!anyFile && (!removedExistingIds || removedExistingIds.size === 0)) {
+      //         $('#fileconfigHidden').val('No');
+      //         $('#txtfileconfig').val('No');
+      //         showStep('#step4');
+      //     }
+      //         return;
+
+
+
+      //     formData.append('PromptConfiguration', $('#txtPrompt').val() || '');
+      //     formData.append('CompanyID', parseInt($('#CompanyIDHidden').val()?.trim()) || '');
+      //     formData.append('CompanyName', $('#CompanyName').val()?.trim());
+      //     formData.append('flgSave', editFlg === 1 ? '2' : '1'); // 2 for update, 1 for create
+
+      //     const $btn = $(this).prop('disabled', true).text('Uploading...');
+
+      //     $.ajax({
+      //          url: `${API_BASE}/FileAnalyticsUpdate`,
+      //         method: 'PUT',
+      //         data: formData,
+      //         processData: false,
+      //         contentType: false,
+      //         success: function (res) {
+      //             $('#fileconfigHidden').val('Yes');
+      //             $('#txtfileconfig').val('Yes');
+      //             showStep('#step4');
+      //             console.log('Upload success', res);
+
+      //             // Show success message
+      //             showMessage('File configuration saved successfully!', 'success');
+      //         },
+      //         error: function (xhr) {
+      //             console.error('Upload error', xhr);
+      //             const msg = xhr?.responseJSON?.message || 'Upload failed. Please try again.';
+      //             showMessage(msg, 'danger');
+      //             // Still move to next step but mark as not configured
+      //             $('#fileconfigHidden').val('No');
+      //             $('#txtfileconfig').val('No');
+      //             showStep('#step4');
+      //         },
+      //         complete: function () {
+      //             $btn.prop('disabled', false).text('Next');
+      //         }
+      //     });
+      // });
+
+      // // Update button for step 3 (edit mode)
+      // $('#btnUpdatestep3').off('click').on('click', function () {
+      //     // Reuse the same functionality as btnStep3Upload but with update flags
+      //     $('#btnStep3Upload').click();
+      // });
+
+     //  // Modified file upload function to handle both new and existing files
+     //  $('#btnUpdatestep3').off('click').on('click', function () {
+
+     //      const __fileAnalytics = @Html.Raw(Newtonsoft.Json.JsonConvert.SerializeObject(ViewBag.FileConfig ?? new { }));
+     //   const __origPrompt = (__fileAnalytics.length > 0 && __fileAnalytics[0].PromptConfiguration) ? (__fileAnalytics[0].PromptConfiguration || '').trim() : '';
+     //   const currentPrompt = ($('#txtPrompt').val() || '').trim();
+
+     //   // If no new files selected AND prompt unchanged → move on without upload call
+     //   const anyNewFile = $('#uploadRows .file-input').toArray().some(f => f.files && f.files.length > 0);
+     //   if (anyNewFile==false && currentPrompt === __origPrompt) {
+     //      $('#fileconfigHidden').val('Done');
+     //           $('#txtfileconfig').val('Done');
+     //     showStep('#step4');
+     //     return;
+     //   }
+
+
+
+
+     //      // Add removed existing file IDs
+     //      if (removedExistingIds && removedExistingIds.size > 0) {
+     //          removedExistingIds.forEach(id => {
+     //              formData.append('RemovedFileIds', id);
+     //          });
+     //      }
+
+     //      rows.each(function (index) {
+     //          const $row = $(this);
+     //          const fileInput = $row.find('.file-input')[0];
+     //          const desc = ($row.find('.desc-input').val() || '').trim();
+     //          const existingFileId = $row.data('fileid');
+
+     //          if (existingFileId) {
+     //              // Existing file - only update description if changed
+     //              formData.append('ExistingFileIds', existingFileId);
+     //              formData.append('ExistingDescriptions', desc);
+     //              anyFile = true;
+     //          } else if (fileInput && fileInput.files && fileInput.files.length > 0) {
+     //              // New file
+     //              anyFile = true;
+     //              formData.append('files', fileInput.files[0]);
+     //              formData.append('descriptions', desc);
+     //          } else if (desc) {
+     //              // Row with description but no file (might be an error case)
+     //              console.warn('Row has description but no file selected');
+     //          }
+     //      });
+
+     //      // If user didn't select any files and has no existing files, just move on
+     //      if (!anyFile && (!removedExistingIds || removedExistingIds.size === 0)) {
+     //          $('#fileconfigHidden').val('No');
+     //          $('#txtfileconfig').val('No');
+     //          showStep('#step4');
+     //      }
+     //          return;
+
+
+
+     //      formData.append('PromptConfiguration', $('#txtPrompt').val() || '');
+     //      formData.append('CompanyID', parseInt($('#CompanyIDHidden').val()?.trim()) || '');
+     //      formData.append('CompanyName', $('#CompanyName').val()?.trim());
+     //      formData.append('flgSave', editFlg === 1 ? '2' : '1'); // 2 for update, 1 for create
+
+     //      const $btn = $(this).prop('disabled', true).text('Uploading...');
+
+     //      $.ajax({
+     //           url: `${API_BASE}/FileAnalyticsUpdate`,
+     //          method: 'PUT',
+     //          data: formData,
+     //          processData: false,
+     //          contentType: false,
+     //          success: function (res) {
+     //              $('#fileconfigHidden').val('Yes');
+     //              $('#txtfileconfig').val('Yes');
+     //              showStep('#step4');
+     //              console.log('Upload success', res);
+
+     //              // Show success message
+     //              showMessage('File configuration saved successfully!', 'success');
+     //          },
+     //          error: function (xhr) {
+     //              console.error('Upload error', xhr);
+     //              const msg = xhr?.responseJSON?.message || 'Upload failed. Please try again.';
+     //              showMessage(msg, 'danger');
+     //              // Still move to next step but mark as not configured
+     //              $('#fileconfigHidden').val('No');
+     //              $('#txtfileconfig').val('No');
+     //              showStep('#step4');
+     //          },
+     //          complete: function () {
+     //              $btn.prop('disabled', false).text('Next');
+     //          }
+     //      });
+     //  });
+
+     //      $('#btnUpdatestep3').off('click').on('click', function () {
+     //   // MINIMAL: skip API if no changes in Step 3
+     //   // const __fileAnalytics = Html.Raw(Newtonsoft.Json.JsonConvert.SerializeObject(ViewBag.FileAnalytics ?? new { }));
+     //    const __fileAnalytics = @Html.Raw(Newtonsoft.Json.JsonConvert.SerializeObject(ViewBag.FileConfig ?? new { }));
+     //   const __origPrompt = (__fileAnalytics.length > 0 && __fileAnalytics[0].PromptConfiguration) ? (__fileAnalytics[0].PromptConfiguration || '').trim() : '';
+     //   const currentPrompt = ($('#txtPrompt').val() || '').trim();
+
+     //   // If no new files selected AND prompt unchanged → move on without upload call
+     //   const anyNewFile = $('#uploadRows .file-input').toArray().some(f => f.files && f.files.length > 0);
+     //   if (anyNewFile==false && currentPrompt === __origPrompt) {
+     //      $('#fileconfigHidden').val('Done');
+     //           $('#txtfileconfig').val('Done');
+     //     showStep('#step4');
+     //     return;
+     //   }
+
+     //   // Otherwise proceed with existing upload logic
+     //   $('#btnStep3Upload').click();
+     // });
+
+      // Initialize file section when document is ready
+          $(document).ready(function () {
+          if (editFlg == 1) {
+              // Load existing file configuration data
+              LoadEditDataform3();
+
+              // Show update button, hide regular next button
+              $("#btnUpdatestep3").show();
+              $("#btnStep3Upload").hide();
+
+              // Ensure the fields are pre-selected/active
+              preSelectFileAnalyticsFields();
+          } else {
+              // Add mode - ensure buttons are in correct state
+              $("#btnUpdatestep3").hide();
+              $("#btnStep3Upload").show();
+          }
+
+          // Wire initial events
+          wireRowEvents($('#uploadRows .upload-row'));
+
+          // Add button handlers
+          $('#btnAddUploader').on('click', function () {
+              $('#uploadRows').append(createRow());
+          });
+
+          $(document).on('click', '.btnAddUploaderRow', function () {
+              $('#uploadRows').append(createRow());
+          });
+      });
+
+       function resetCompanyForm() {
+            //$("#CompanyIDHidden").val(0); // hidden field for company id
+           $("#CompanyName").val("");
+           $("#BusinessTradeName").val("");
+           $("#IndustryType").val("");
+           $("#CompanyRegistrationNumber").val("");
+           $("#DateOfIncorporation").val("");
+           $("#CompanySize").val("");
+           $("#Description").val("");
+           $("#RegisteredAddress").val("");
+           $("#CorporateAddress").val("");
+           $("#PrimaryPhone").val("");
+           $("#OfficialEmail").val("");
+           $("#CompanyWebsite").val("");
+           $("#ContactPersonName").val("");
+           $("#DesignationRole").val("");
+           $("#WorkEmail").val("");
+           $("#MobileNumber").val("");
+           $("#AlternateContact").val("");
+           $("#GSTNo").val("");
+           $("#PanNo").val("");
+           $("#TANNo").val("");
+
+           // toggle buttons for add mode
+           $("#btnStep1Next").show();
+           $("#btnUpdate").hide();
+       }
+
+
+
+
+
+
+</script>
+
+
+
+
+
+

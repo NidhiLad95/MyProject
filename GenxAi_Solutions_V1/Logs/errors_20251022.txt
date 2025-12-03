@@ -1,0 +1,208 @@
+﻿[2025-10-22 11:00:43.119] [Error]
+Category: GenxAi_Solutions.Api.NotificationsController
+Message: GetUnread failed. afterId=(null)
+Exception Type: System.Threading.Tasks.TaskCanceledException
+Exception Message: A task was canceled.
+Stack Trace:    at GenxAi_Solutions.Services.NotificationStore.GetUnreadAfterIdAllAsync(Int32 userId, IReadOnlyList`1 companyIds, Nullable`1 afterId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Services\NotificationStore.cs:line 77
+   at GenxAi_Solutions.Services.NotificationStore.GetUnreadAfterIdAllAsync(Int32 userId, IReadOnlyList`1 companyIds, Nullable`1 afterId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Services\NotificationStore.cs:line 131
+   at GenxAi_Solutions.Api.NotificationsController.GetUnread(Nullable`1 afterId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Api\NotificationsController.cs:line 27
+--------------------------------------------------------------------------------
+[2025-10-22 11:00:43.207] [Error]
+Category: GenxAi_Solutions.Api.NotificationsController
+Message: GetUnread failed. afterId=(null)
+Exception Type: System.Threading.Tasks.TaskCanceledException
+Exception Message: A task was canceled.
+Stack Trace:    at GenxAi_Solutions.Services.NotificationStore.GetUnreadAfterIdAllAsync(Int32 userId, IReadOnlyList`1 companyIds, Nullable`1 afterId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Services\NotificationStore.cs:line 77
+   at GenxAi_Solutions.Services.NotificationStore.GetUnreadAfterIdAllAsync(Int32 userId, IReadOnlyList`1 companyIds, Nullable`1 afterId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Services\NotificationStore.cs:line 131
+   at GenxAi_Solutions.Api.NotificationsController.GetUnread(Nullable`1 afterId, CancellationToken ct) in D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions\Api\NotificationsController.cs:line 27
+--------------------------------------------------------------------------------
+[2025-10-22 12:39:36.230] [Error]
+Category: GenxAi_Solutions.Api.NotificationsController
+Message: GetUnread failed. afterId=(null)
+Exception Type: System.NullReferenceException
+Exception Message: Object reference not set to an instance of an object.
+Stack Trace:    at GenxAi_Solutions.Api.NotificationsController.GetUnread(Nullable`1 afterId, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Api\NotificationsController.cs:line 24
+File: NotificationsController.cs
+Line: 24
+--------------------------------------------------------------------------------
+[2025-10-22 12:39:36.269] [Error]
+Category: GenxAi_Solutions.Api.NotificationsController
+Message: GetUnread failed. afterId=(null)
+Exception Type: System.NullReferenceException
+Exception Message: Object reference not set to an instance of an object.
+Stack Trace:    at GenxAi_Solutions.Api.NotificationsController.GetUnread(Nullable`1 afterId, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Api\NotificationsController.cs:line 24
+File: NotificationsController.cs
+Line: 24
+--------------------------------------------------------------------------------
+[2025-10-22 13:02:31.269] [Error]
+Category: GenxAi_Solutions.Api.NotificationsController
+Message: GetUnread failed. afterId=20015
+Exception Type: System.Threading.Tasks.TaskCanceledException
+Exception Message: A task was canceled.
+Stack Trace:    at GenxAi_Solutions.Services.NotificationStore.GetUnreadAfterIdAllAsync(Int32 userId, IReadOnlyList`1 companyIds, Nullable`1 afterId, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Services\NotificationStore.cs:line 77
+   at GenxAi_Solutions.Services.NotificationStore.GetUnreadAfterIdAllAsync(Int32 userId, IReadOnlyList`1 companyIds, Nullable`1 afterId, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Services\NotificationStore.cs:line 131
+   at GenxAi_Solutions.Api.NotificationsController.GetUnread(Nullable`1 afterId, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Api\NotificationsController.cs:line 27
+--------------------------------------------------------------------------------
+[2025-10-22 13:02:31.307] [Error]
+Category: GenxAi_Solutions.Api.NotificationsController
+Message: GetUnread failed. afterId=20015
+Exception Type: System.Threading.Tasks.TaskCanceledException
+Exception Message: A task was canceled.
+Stack Trace:    at GenxAi_Solutions.Services.NotificationStore.GetUnreadAfterIdAllAsync(Int32 userId, IReadOnlyList`1 companyIds, Nullable`1 afterId, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Services\NotificationStore.cs:line 77
+   at GenxAi_Solutions.Services.NotificationStore.GetUnreadAfterIdAllAsync(Int32 userId, IReadOnlyList`1 companyIds, Nullable`1 afterId, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Services\NotificationStore.cs:line 131
+   at GenxAi_Solutions.Api.NotificationsController.GetUnread(Nullable`1 afterId, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Api\NotificationsController.cs:line 27
+--------------------------------------------------------------------------------
+[2025-10-22 14:58:08.425] [Error]
+Category: GenxAi_Solutions.Utils.Middleware.ErrorHandlingMiddleware
+Message: Unhandled exception POST /api/CompanyOnboard/databaseinfo 77e5a2b4-7df6-4802-9423-a59e30b84a94. Exception Details: Microsoft.Data.SqlClient.SqlException - The server principal "developer2" is not able to access the database "aspnetdb" under the current security context. Stack Trace:    at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, SqlCommand command, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.ChangeDatabaseInternal(String database)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.ChangeDatabase(String database)
+   at Microsoft.Data.SqlClient.SqlConnection.ChangeDatabase(String database)
+   at GenxAi_Solutions.Utils.DatabaseReading.GetDatabseInfoAsync(String connectionString, String databaseName) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Utils\DatabaseReading.cs:line 183
+   at GenxAi_Solutions.Api.CompanyOnboardController.DatabaseInfo(ConnectionDto dto) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Api\CompanyOnboardController.cs:line 525
+   at lambda_method140(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at GenxAi_Solutions.Utils.Middleware.ErrorHandlingMiddleware.Invoke(HttpContext context) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Utils\Middleware\ErrorHandlingMiddleware.cs:line 139
+Exception Type: Microsoft.Data.SqlClient.SqlException
+Exception Message: The server principal "developer2" is not able to access the database "aspnetdb" under the current security context.
+Stack Trace:    at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, SqlCommand command, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.ChangeDatabaseInternal(String database)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.ChangeDatabase(String database)
+   at Microsoft.Data.SqlClient.SqlConnection.ChangeDatabase(String database)
+   at GenxAi_Solutions.Utils.DatabaseReading.GetDatabseInfoAsync(String connectionString, String databaseName) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Utils\DatabaseReading.cs:line 183
+   at GenxAi_Solutions.Api.CompanyOnboardController.DatabaseInfo(ConnectionDto dto) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Api\CompanyOnboardController.cs:line 525
+   at lambda_method140(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at GenxAi_Solutions.Utils.Middleware.ErrorHandlingMiddleware.Invoke(HttpContext context) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Utils\Middleware\ErrorHandlingMiddleware.cs:line 139
+--------------------------------------------------------------------------------
+[2025-10-22 14:58:08.427] [Error]
+Category: GenxAi_Solutions.Utils.Middleware.ErrorHandlingMiddleware
+Message: Unhandled exception POST /api/CompanyOnboard/databaseinfo 77e5a2b4-7df6-4802-9423-a59e30b84a94. Exception Details: Microsoft.Data.SqlClient.SqlException - The server principal "developer2" is not able to access the database "aspnetdb" under the current security context. Stack Trace:    at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, SqlCommand command, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.ChangeDatabaseInternal(String database)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.ChangeDatabase(String database)
+   at Microsoft.Data.SqlClient.SqlConnection.ChangeDatabase(String database)
+   at GenxAi_Solutions.Utils.DatabaseReading.GetDatabseInfoAsync(String connectionString, String databaseName) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Utils\DatabaseReading.cs:line 183
+   at GenxAi_Solutions.Api.CompanyOnboardController.DatabaseInfo(ConnectionDto dto) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Api\CompanyOnboardController.cs:line 525
+   at lambda_method140(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at GenxAi_Solutions.Utils.Middleware.ErrorHandlingMiddleware.Invoke(HttpContext context) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Utils\Middleware\ErrorHandlingMiddleware.cs:line 139
+Exception Type: Microsoft.Data.SqlClient.SqlException
+Exception Message: The server principal "developer2" is not able to access the database "aspnetdb" under the current security context.
+Stack Trace:    at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, SqlCommand command, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.ChangeDatabaseInternal(String database)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.ChangeDatabase(String database)
+   at Microsoft.Data.SqlClient.SqlConnection.ChangeDatabase(String database)
+   at GenxAi_Solutions.Utils.DatabaseReading.GetDatabseInfoAsync(String connectionString, String databaseName) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Utils\DatabaseReading.cs:line 183
+   at GenxAi_Solutions.Api.CompanyOnboardController.DatabaseInfo(ConnectionDto dto) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Api\CompanyOnboardController.cs:line 525
+   at lambda_method140(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at GenxAi_Solutions.Utils.Middleware.ErrorHandlingMiddleware.Invoke(HttpContext context) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Utils\Middleware\ErrorHandlingMiddleware.cs:line 139
+--------------------------------------------------------------------------------
+[2025-10-22 15:02:30.116] [Error]
+Category: GenxAi_Solutions.Api.NotificationsController
+Message: GetUnread failed. afterId=(null)
+Exception Type: System.Threading.Tasks.TaskCanceledException
+Exception Message: A task was canceled.
+Stack Trace:    at GenxAi_Solutions.Services.NotificationStore.GetUnreadAfterIdAllAsync(Int32 userId, IReadOnlyList`1 companyIds, Nullable`1 afterId, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Services\NotificationStore.cs:line 77
+   at GenxAi_Solutions.Services.NotificationStore.GetUnreadAfterIdAllAsync(Int32 userId, IReadOnlyList`1 companyIds, Nullable`1 afterId, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Services\NotificationStore.cs:line 131
+   at GenxAi_Solutions.Api.NotificationsController.GetUnread(Nullable`1 afterId, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Api\NotificationsController.cs:line 27
+--------------------------------------------------------------------------------
+[2025-10-22 15:02:30.118] [Error]
+Category: GenxAi_Solutions.Api.NotificationsController
+Message: GetUnread failed. afterId=(null)
+Exception Type: System.Threading.Tasks.TaskCanceledException
+Exception Message: A task was canceled.
+Stack Trace:    at GenxAi_Solutions.Services.NotificationStore.GetUnreadAfterIdAllAsync(Int32 userId, IReadOnlyList`1 companyIds, Nullable`1 afterId, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Services\NotificationStore.cs:line 77
+   at GenxAi_Solutions.Services.NotificationStore.GetUnreadAfterIdAllAsync(Int32 userId, IReadOnlyList`1 companyIds, Nullable`1 afterId, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Services\NotificationStore.cs:line 131
+   at GenxAi_Solutions.Api.NotificationsController.GetUnread(Nullable`1 afterId, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Api\NotificationsController.cs:line 27
+--------------------------------------------------------------------------------
+[2025-10-22 15:04:25.842] [Error]
+Category: GenxAi_Solutions.Api.NotificationsController
+Message: GetUnread failed. afterId=(null)
+Exception Type: System.Threading.Tasks.TaskCanceledException
+Exception Message: A task was canceled.
+Stack Trace:    at GenxAi_Solutions.Services.NotificationStore.GetUnreadAfterIdAllAsync(Int32 userId, IReadOnlyList`1 companyIds, Nullable`1 afterId, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Services\NotificationStore.cs:line 77
+   at GenxAi_Solutions.Services.NotificationStore.GetUnreadAfterIdAllAsync(Int32 userId, IReadOnlyList`1 companyIds, Nullable`1 afterId, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Services\NotificationStore.cs:line 131
+   at GenxAi_Solutions.Api.NotificationsController.GetUnread(Nullable`1 afterId, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Api\NotificationsController.cs:line 27
+--------------------------------------------------------------------------------
+[2025-10-22 15:04:25.848] [Error]
+Category: GenxAi_Solutions.Api.NotificationsController
+Message: GetUnread failed. afterId=(null)
+Exception Type: System.Threading.Tasks.TaskCanceledException
+Exception Message: A task was canceled.
+Stack Trace:    at GenxAi_Solutions.Services.NotificationStore.GetUnreadAfterIdAllAsync(Int32 userId, IReadOnlyList`1 companyIds, Nullable`1 afterId, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Services\NotificationStore.cs:line 77
+   at GenxAi_Solutions.Services.NotificationStore.GetUnreadAfterIdAllAsync(Int32 userId, IReadOnlyList`1 companyIds, Nullable`1 afterId, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Services\NotificationStore.cs:line 131
+   at GenxAi_Solutions.Api.NotificationsController.GetUnread(Nullable`1 afterId, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Api\NotificationsController.cs:line 27
+--------------------------------------------------------------------------------

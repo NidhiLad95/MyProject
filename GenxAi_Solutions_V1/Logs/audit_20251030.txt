@@ -1,0 +1,1074 @@
+﻿[2025-10-30 13:15:53.616] [AUDIT]
+Event: General Audit
+Details: QueuedWorker started.
+------------------------------------------------------------
+[2025-10-30 13:15:53.782] [AUDIT]
+Event: ListeningOnAddress
+Details: Now listening on: https://localhost:7282
+------------------------------------------------------------
+[2025-10-30 13:15:53.783] [AUDIT]
+Event: ListeningOnAddress
+Details: Now listening on: http://localhost:5072
+------------------------------------------------------------
+[2025-10-30 13:15:53.836] [AUDIT]
+Event: General Audit
+Details: Application started. Press Ctrl+C to shut down.
+------------------------------------------------------------
+[2025-10-30 13:15:53.837] [AUDIT]
+Event: General Audit
+Details: Hosting environment: Development
+------------------------------------------------------------
+[2025-10-30 13:15:53.839] [AUDIT]
+Event: General Audit
+Details: Content root path: D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions
+------------------------------------------------------------
+[2025-10-30 13:17:13.538] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: POST /api/auth/login, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-30 13:17:40.278] [AUDIT]
+Event: General Audit
+Details: USER_LOGIN: User: nidhi.lad@genxai.com, IP: ::1, Status: SUCCESS
+------------------------------------------------------------
+[2025-10-30 13:19:05.496] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-30 13:19:05.595] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=2 companies=0 afterId=(null)
+------------------------------------------------------------
+[2025-10-30 13:19:07.567] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/CompanyOnboard/History/me, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-30 13:19:10.190] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-30 13:19:38.482] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: POST /api/auth/getmenu, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-30 15:31:20.023] [AUDIT]
+Event: General Audit
+Details: QueuedWorker started.
+------------------------------------------------------------
+[2025-10-30 15:31:20.191] [AUDIT]
+Event: ListeningOnAddress
+Details: Now listening on: https://localhost:7282
+------------------------------------------------------------
+[2025-10-30 15:31:20.191] [AUDIT]
+Event: ListeningOnAddress
+Details: Now listening on: http://localhost:5072
+------------------------------------------------------------
+[2025-10-30 15:31:20.253] [AUDIT]
+Event: General Audit
+Details: Application started. Press Ctrl+C to shut down.
+------------------------------------------------------------
+[2025-10-30 15:31:20.254] [AUDIT]
+Event: General Audit
+Details: Hosting environment: Development
+------------------------------------------------------------
+[2025-10-30 15:31:20.254] [AUDIT]
+Event: General Audit
+Details: Content root path: D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions
+------------------------------------------------------------
+[2025-10-30 15:36:23.836] [AUDIT]
+Event: General Audit
+Details: QueuedWorker started.
+------------------------------------------------------------
+[2025-10-30 15:36:24.225] [AUDIT]
+Event: ListeningOnAddress
+Details: Now listening on: https://localhost:7282
+------------------------------------------------------------
+[2025-10-30 15:36:24.226] [AUDIT]
+Event: ListeningOnAddress
+Details: Now listening on: http://localhost:5072
+------------------------------------------------------------
+[2025-10-30 15:36:24.333] [AUDIT]
+Event: General Audit
+Details: Application started. Press Ctrl+C to shut down.
+------------------------------------------------------------
+[2025-10-30 15:36:24.335] [AUDIT]
+Event: General Audit
+Details: Hosting environment: Development
+------------------------------------------------------------
+[2025-10-30 15:36:24.335] [AUDIT]
+Event: General Audit
+Details: Content root path: D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions
+------------------------------------------------------------
+[2025-10-30 15:36:46.023] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: POST /api/auth/login, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-30 15:36:55.243] [AUDIT]
+Event: General Audit
+Details: USER_LOGIN: User: nidhi.lad@genxai.com, IP: ::1, Status: SUCCESS
+------------------------------------------------------------
+[2025-10-30 15:47:44.042] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: POST /api/auth/login, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-30 15:47:53.099] [AUDIT]
+Event: General Audit
+Details: Unhandled exception GET / 963490d5-8d1e-4635-a374-ac483ec7a1ef. Exception Details: System.InvalidCastException - Unable to cast object of type 'Microsoft.AspNetCore.Html.HtmlString' to type 'System.String'. Stack Trace:    at AspNetCoreGeneratedDocument.Views_User_Login.<ExecuteAsync>b__26_0()
+   at Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext.SetOutputContentAsync()
+   at AspNetCoreGeneratedDocument.Views_User_Login.ExecuteAsync()
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at GenxAi_Solutions.Utils.Middleware.ErrorHandlingMiddleware.Invoke(HttpContext context)
+------------------------------------------------------------
+[2025-10-30 15:47:56.432] [AUDIT]
+Event: General Audit
+Details: USER_LOGIN: User: nidhi.lad@genxai.com, IP: ::1, Status: SUCCESS
+------------------------------------------------------------
+[2025-10-30 15:49:06.141] [AUDIT]
+Event: General Audit
+Details: Unhandled exception GET / 38616b70-5c60-4cfd-b370-68157cb634b8. Exception Details: System.InvalidCastException - Unable to cast object of type 'Microsoft.AspNetCore.Html.HtmlString' to type 'System.String'. Stack Trace:    at AspNetCoreGeneratedDocument.Views_User_Login.<ExecuteAsync>b__26_0()
+   at Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext.SetOutputContentAsync()
+   at AspNetCoreGeneratedDocument.Views_User_Login.ExecuteAsync()
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at GenxAi_Solutions.Utils.Middleware.ErrorHandlingMiddleware.Invoke(HttpContext context)
+------------------------------------------------------------
+[2025-10-30 15:49:30.020] [AUDIT]
+Event: General Audit
+Details: QueuedWorker started.
+------------------------------------------------------------
+[2025-10-30 15:49:30.150] [AUDIT]
+Event: ListeningOnAddress
+Details: Now listening on: https://localhost:7282
+------------------------------------------------------------
+[2025-10-30 15:49:30.151] [AUDIT]
+Event: ListeningOnAddress
+Details: Now listening on: http://localhost:5072
+------------------------------------------------------------
+[2025-10-30 15:49:30.212] [AUDIT]
+Event: General Audit
+Details: Application started. Press Ctrl+C to shut down.
+------------------------------------------------------------
+[2025-10-30 15:49:30.215] [AUDIT]
+Event: General Audit
+Details: Hosting environment: Development
+------------------------------------------------------------
+[2025-10-30 15:49:30.216] [AUDIT]
+Event: General Audit
+Details: Content root path: D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions
+------------------------------------------------------------
+[2025-10-30 15:49:48.234] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: POST /api/auth/login, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-30 15:50:20.186] [AUDIT]
+Event: General Audit
+Details: USER_LOGIN: User: nidhi.lad@genxai.com, IP: ::1, Status: SUCCESS
+------------------------------------------------------------
+[2025-10-30 15:57:15.641] [AUDIT]
+Event: General Audit
+Details: QueuedWorker started.
+------------------------------------------------------------
+[2025-10-30 15:57:15.768] [AUDIT]
+Event: ListeningOnAddress
+Details: Now listening on: https://localhost:7282
+------------------------------------------------------------
+[2025-10-30 15:57:15.768] [AUDIT]
+Event: ListeningOnAddress
+Details: Now listening on: http://localhost:5072
+------------------------------------------------------------
+[2025-10-30 15:57:15.826] [AUDIT]
+Event: General Audit
+Details: Application started. Press Ctrl+C to shut down.
+------------------------------------------------------------
+[2025-10-30 15:57:15.827] [AUDIT]
+Event: General Audit
+Details: Hosting environment: Development
+------------------------------------------------------------
+[2025-10-30 15:57:15.828] [AUDIT]
+Event: General Audit
+Details: Content root path: D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions
+------------------------------------------------------------
+[2025-10-30 15:58:14.224] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: POST /api/auth/login, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-30 15:58:22.788] [AUDIT]
+Event: General Audit
+Details: USER_LOGIN: User: nidhi.lad@genxai.com, IP: ::1, Status: SUCCESS
+------------------------------------------------------------
+[2025-10-30 15:58:23.183] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-30 15:58:23.319] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: POST /api/auth/getmenu, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-30 15:58:23.320] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/CompanyOnboard/History/me, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-30 15:58:23.725] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=2 companies=0 afterId=(null)
+------------------------------------------------------------
+[2025-10-30 15:58:28.655] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-30 16:01:11.011] [AUDIT]
+Event: General Audit
+Details: QueuedWorker started.
+------------------------------------------------------------
+[2025-10-30 16:01:11.131] [AUDIT]
+Event: ListeningOnAddress
+Details: Now listening on: https://localhost:7282
+------------------------------------------------------------
+[2025-10-30 16:01:11.132] [AUDIT]
+Event: ListeningOnAddress
+Details: Now listening on: http://localhost:5072
+------------------------------------------------------------
+[2025-10-30 16:01:11.186] [AUDIT]
+Event: General Audit
+Details: Application started. Press Ctrl+C to shut down.
+------------------------------------------------------------
+[2025-10-30 16:01:11.187] [AUDIT]
+Event: General Audit
+Details: Hosting environment: Development
+------------------------------------------------------------
+[2025-10-30 16:01:11.188] [AUDIT]
+Event: General Audit
+Details: Content root path: D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions
+------------------------------------------------------------
+[2025-10-30 16:01:54.951] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: POST /api/auth/login, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-30 16:02:03.346] [AUDIT]
+Event: General Audit
+Details: USER_LOGIN: User: nidhi.lad@genxai.com, IP: ::1, Status: SUCCESS
+------------------------------------------------------------
+[2025-10-30 16:02:03.699] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-30 16:02:03.719] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/CompanyOnboard/History/me, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-30 16:02:03.749] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: POST /api/auth/getmenu, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-30 16:02:04.077] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=2 companies=0 afterId=(null)
+------------------------------------------------------------
+[2025-10-30 16:02:08.841] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-30 16:05:00.207] [AUDIT]
+Event: General Audit
+Details: QueuedWorker started.
+------------------------------------------------------------
+[2025-10-30 16:05:00.371] [AUDIT]
+Event: ListeningOnAddress
+Details: Now listening on: https://localhost:7282
+------------------------------------------------------------
+[2025-10-30 16:05:00.372] [AUDIT]
+Event: ListeningOnAddress
+Details: Now listening on: http://localhost:5072
+------------------------------------------------------------
+[2025-10-30 16:05:00.429] [AUDIT]
+Event: General Audit
+Details: Application started. Press Ctrl+C to shut down.
+------------------------------------------------------------
+[2025-10-30 16:05:00.431] [AUDIT]
+Event: General Audit
+Details: Hosting environment: Development
+------------------------------------------------------------
+[2025-10-30 16:05:00.433] [AUDIT]
+Event: General Audit
+Details: Content root path: D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions
+------------------------------------------------------------
+[2025-10-30 16:05:13.982] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: POST /api/auth/login, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-30 16:05:29.185] [AUDIT]
+Event: General Audit
+Details: USER_LOGIN: User: nidhi.lad@genxai.com, IP: ::1, Status: SUCCESS
+------------------------------------------------------------
+[2025-10-30 16:05:29.566] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-30 16:05:29.579] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/CompanyOnboard/History/me, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-30 16:05:29.629] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: POST /api/auth/getmenu, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-30 16:05:29.707] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=2 companies=0 afterId=(null)
+------------------------------------------------------------
+[2025-10-30 16:05:34.357] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-30 16:07:42.436] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: POST /api/auth/login, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-30 16:07:50.755] [AUDIT]
+Event: General Audit
+Details: USER_LOGIN: User: nidhi.lad@genxai.com, IP: ::1, Status: SUCCESS
+------------------------------------------------------------
+[2025-10-30 16:14:21.118] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: POST /api/auth/login, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-30 16:14:28.905] [AUDIT]
+Event: General Audit
+Details: USER_LOGIN: User: nidhi.lad@genxai.com, IP: ::1, Status: SUCCESS
+------------------------------------------------------------
+[2025-10-30 16:14:44.361] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-30 16:14:44.528] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=2 companies=0 afterId=(null)
+------------------------------------------------------------
+[2025-10-30 16:14:47.327] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/CompanyOnboard/History/me, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-30 16:14:49.127] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-30 16:14:49.297] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: POST /api/auth/getmenu, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-30 16:16:01.993] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: POST /api/auth/login, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-30 16:16:13.573] [AUDIT]
+Event: General Audit
+Details: USER_LOGIN: User: nidhi.lad@genxai.com, IP: ::1, Status: SUCCESS
+------------------------------------------------------------
+[2025-10-30 16:16:19.416] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-30 16:16:19.515] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=2 companies=0 afterId=(null)
+------------------------------------------------------------
+[2025-10-30 16:16:20.951] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/CompanyOnboard/History/me, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-30 16:16:22.785] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: POST /api/auth/getmenu, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-30 16:16:24.145] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-30 16:17:07.582] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: POST /api/auth/login, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-30 16:17:33.286] [AUDIT]
+Event: General Audit
+Details: USER_LOGIN: User: nidhi.lad@genxai.com, IP: ::1, Status: SUCCESS
+------------------------------------------------------------
+[2025-10-30 16:17:41.051] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-30 16:17:41.204] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=2 companies=0 afterId=(null)
+------------------------------------------------------------
+[2025-10-30 16:17:45.839] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-30 16:17:46.985] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/CompanyOnboard/History/me, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-30 16:17:48.709] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: POST /api/auth/getmenu, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-30 16:19:23.460] [AUDIT]
+Event: General Audit
+Details: QueuedWorker started.
+------------------------------------------------------------
+[2025-10-30 16:19:23.589] [AUDIT]
+Event: ListeningOnAddress
+Details: Now listening on: https://localhost:7282
+------------------------------------------------------------
+[2025-10-30 16:19:23.589] [AUDIT]
+Event: ListeningOnAddress
+Details: Now listening on: http://localhost:5072
+------------------------------------------------------------
+[2025-10-30 16:19:23.645] [AUDIT]
+Event: General Audit
+Details: Application started. Press Ctrl+C to shut down.
+------------------------------------------------------------
+[2025-10-30 16:19:23.646] [AUDIT]
+Event: General Audit
+Details: Hosting environment: Development
+------------------------------------------------------------
+[2025-10-30 16:19:23.648] [AUDIT]
+Event: General Audit
+Details: Content root path: D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions
+------------------------------------------------------------
+[2025-10-30 16:19:44.294] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: POST /api/auth/login, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-30 16:19:58.432] [AUDIT]
+Event: General Audit
+Details: USER_LOGIN: User: nidhi.lad@genxai.com, IP: ::1, Status: SUCCESS
+------------------------------------------------------------
+[2025-10-30 16:20:05.020] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-30 16:20:05.220] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=2 companies=0 afterId=(null)
+------------------------------------------------------------
+[2025-10-30 16:20:06.935] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/CompanyOnboard/History/me, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-30 16:20:08.320] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: POST /api/auth/getmenu, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-30 16:20:09.823] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-30 16:32:01.933] [AUDIT]
+Event: General Audit
+Details: QueuedWorker started.
+------------------------------------------------------------
+[2025-10-30 16:32:02.078] [AUDIT]
+Event: ListeningOnAddress
+Details: Now listening on: https://localhost:7282
+------------------------------------------------------------
+[2025-10-30 16:32:02.078] [AUDIT]
+Event: ListeningOnAddress
+Details: Now listening on: http://localhost:5072
+------------------------------------------------------------
+[2025-10-30 16:32:02.132] [AUDIT]
+Event: General Audit
+Details: Application started. Press Ctrl+C to shut down.
+------------------------------------------------------------
+[2025-10-30 16:32:02.134] [AUDIT]
+Event: General Audit
+Details: Hosting environment: Development
+------------------------------------------------------------
+[2025-10-30 16:32:02.136] [AUDIT]
+Event: General Audit
+Details: Content root path: D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions
+------------------------------------------------------------
+[2025-10-30 16:32:31.536] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: POST /api/auth/login, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-30 16:32:40.892] [AUDIT]
+Event: General Audit
+Details: USER_LOGIN: User: nidhi.lad@genxai.com, IP: ::1, Status: SUCCESS
+------------------------------------------------------------
+[2025-10-30 16:32:41.254] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-30 16:32:41.326] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/CompanyOnboard/History/me, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-30 16:32:41.380] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: POST /api/auth/getmenu, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-30 16:32:41.752] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=2 companies=0 afterId=(null)
+------------------------------------------------------------
+[2025-10-30 16:32:46.508] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-30 16:41:39.211] [AUDIT]
+Event: General Audit
+Details: QueuedWorker started.
+------------------------------------------------------------
+[2025-10-30 16:41:39.335] [AUDIT]
+Event: ListeningOnAddress
+Details: Now listening on: https://localhost:7282
+------------------------------------------------------------
+[2025-10-30 16:41:39.336] [AUDIT]
+Event: ListeningOnAddress
+Details: Now listening on: http://localhost:5072
+------------------------------------------------------------
+[2025-10-30 16:41:39.390] [AUDIT]
+Event: General Audit
+Details: Application started. Press Ctrl+C to shut down.
+------------------------------------------------------------
+[2025-10-30 16:41:39.392] [AUDIT]
+Event: General Audit
+Details: Hosting environment: Development
+------------------------------------------------------------
+[2025-10-30 16:41:39.394] [AUDIT]
+Event: General Audit
+Details: Content root path: D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions
+------------------------------------------------------------
+[2025-10-30 16:42:13.397] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: POST /api/auth/login, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-30 16:42:22.006] [AUDIT]
+Event: General Audit
+Details: USER_LOGIN: User: nidhi.lad@genxai.com, IP: ::1, Status: SUCCESS
+------------------------------------------------------------
+[2025-10-30 16:42:22.333] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-30 16:42:22.386] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/CompanyOnboard/History/me, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-30 16:42:22.434] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: POST /api/auth/getmenu, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-30 16:42:22.646] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=2 companies=0 afterId=(null)
+------------------------------------------------------------
+[2025-10-30 16:42:27.296] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-30 16:45:33.723] [AUDIT]
+Event: General Audit
+Details: QueuedWorker started.
+------------------------------------------------------------
+[2025-10-30 16:45:33.850] [AUDIT]
+Event: ListeningOnAddress
+Details: Now listening on: https://localhost:7282
+------------------------------------------------------------
+[2025-10-30 16:45:33.851] [AUDIT]
+Event: ListeningOnAddress
+Details: Now listening on: http://localhost:5072
+------------------------------------------------------------
+[2025-10-30 16:45:33.929] [AUDIT]
+Event: General Audit
+Details: Application started. Press Ctrl+C to shut down.
+------------------------------------------------------------
+[2025-10-30 16:45:33.932] [AUDIT]
+Event: General Audit
+Details: Hosting environment: Development
+------------------------------------------------------------
+[2025-10-30 16:45:33.933] [AUDIT]
+Event: General Audit
+Details: Content root path: D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions
+------------------------------------------------------------
+[2025-10-30 16:45:49.316] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: POST /api/auth/login, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-30 16:45:57.477] [AUDIT]
+Event: General Audit
+Details: USER_LOGIN: User: nidhi.lad@genxai.com, IP: ::1, Status: SUCCESS
+------------------------------------------------------------
+[2025-10-30 16:45:58.012] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-30 16:45:58.038] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: POST /api/auth/getmenu, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-30 16:45:58.032] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/CompanyOnboard/History/me, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-30 16:45:58.493] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=2 companies=0 afterId=(null)
+------------------------------------------------------------
+[2025-10-30 16:46:03.230] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-30 16:47:18.357] [AUDIT]
+Event: General Audit
+Details: QueuedWorker started.
+------------------------------------------------------------
+[2025-10-30 16:47:18.862] [AUDIT]
+Event: ListeningOnAddress
+Details: Now listening on: https://localhost:7282
+------------------------------------------------------------
+[2025-10-30 16:47:18.863] [AUDIT]
+Event: ListeningOnAddress
+Details: Now listening on: http://localhost:5072
+------------------------------------------------------------
+[2025-10-30 16:47:18.929] [AUDIT]
+Event: General Audit
+Details: Application started. Press Ctrl+C to shut down.
+------------------------------------------------------------
+[2025-10-30 16:47:18.931] [AUDIT]
+Event: General Audit
+Details: Hosting environment: Development
+------------------------------------------------------------
+[2025-10-30 16:47:18.932] [AUDIT]
+Event: General Audit
+Details: Content root path: D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions
+------------------------------------------------------------
+[2025-10-30 16:47:58.550] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: POST /api/auth/login, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-30 16:48:06.723] [AUDIT]
+Event: General Audit
+Details: USER_LOGIN: User: nidhi.lad@genxai.com, IP: ::1, Status: SUCCESS
+------------------------------------------------------------
+[2025-10-30 16:48:07.536] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-30 16:48:07.606] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/CompanyOnboard/History/me, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-30 16:48:07.612] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: POST /api/auth/getmenu, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-30 16:48:07.874] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=2 companies=0 afterId=(null)
+------------------------------------------------------------
+[2025-10-30 16:48:12.526] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-30 16:54:31.347] [AUDIT]
+Event: General Audit
+Details: QueuedWorker started.
+------------------------------------------------------------
+[2025-10-30 16:54:31.532] [AUDIT]
+Event: ListeningOnAddress
+Details: Now listening on: https://localhost:7282
+------------------------------------------------------------
+[2025-10-30 16:54:31.533] [AUDIT]
+Event: ListeningOnAddress
+Details: Now listening on: http://localhost:5072
+------------------------------------------------------------
+[2025-10-30 16:54:31.621] [AUDIT]
+Event: General Audit
+Details: Application started. Press Ctrl+C to shut down.
+------------------------------------------------------------
+[2025-10-30 16:54:31.623] [AUDIT]
+Event: General Audit
+Details: Hosting environment: Development
+------------------------------------------------------------
+[2025-10-30 16:54:31.625] [AUDIT]
+Event: General Audit
+Details: Content root path: D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions
+------------------------------------------------------------
+[2025-10-30 16:55:37.332] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: POST /api/auth/login, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-30 16:55:45.214] [AUDIT]
+Event: General Audit
+Details: USER_LOGIN: User: nidhi.lad@genxai.com, IP: ::1, Status: SUCCESS
+------------------------------------------------------------
+[2025-10-30 16:55:45.616] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-30 16:55:45.622] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/CompanyOnboard/History/me, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-30 16:55:45.659] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: POST /api/auth/getmenu, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-30 16:55:45.797] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=2 companies=0 afterId=(null)
+------------------------------------------------------------
+[2025-10-30 16:55:50.408] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-30 17:07:53.948] [AUDIT]
+Event: General Audit
+Details: QueuedWorker started.
+------------------------------------------------------------
+[2025-10-30 17:07:54.069] [AUDIT]
+Event: ListeningOnAddress
+Details: Now listening on: https://localhost:7282
+------------------------------------------------------------
+[2025-10-30 17:07:54.070] [AUDIT]
+Event: ListeningOnAddress
+Details: Now listening on: http://localhost:5072
+------------------------------------------------------------
+[2025-10-30 17:07:54.119] [AUDIT]
+Event: General Audit
+Details: Application started. Press Ctrl+C to shut down.
+------------------------------------------------------------
+[2025-10-30 17:07:54.121] [AUDIT]
+Event: General Audit
+Details: Hosting environment: Development
+------------------------------------------------------------
+[2025-10-30 17:07:54.122] [AUDIT]
+Event: General Audit
+Details: Content root path: D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions
+------------------------------------------------------------
+[2025-10-30 17:08:11.362] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: POST /api/auth/login, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-30 17:08:19.143] [AUDIT]
+Event: General Audit
+Details: USER_LOGIN: User: nidhi.lad@genxai.com, IP: ::1, Status: SUCCESS
+------------------------------------------------------------
+[2025-10-30 17:08:19.429] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-30 17:08:19.474] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/CompanyOnboard/History/me, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-30 17:08:19.485] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: POST /api/auth/getmenu, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-30 17:08:19.630] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=2 companies=0 afterId=(null)
+------------------------------------------------------------
+[2025-10-30 17:08:24.251] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-30 17:12:52.353] [AUDIT]
+Event: General Audit
+Details: QueuedWorker started.
+------------------------------------------------------------
+[2025-10-30 17:12:52.471] [AUDIT]
+Event: ListeningOnAddress
+Details: Now listening on: https://localhost:7282
+------------------------------------------------------------
+[2025-10-30 17:12:52.471] [AUDIT]
+Event: ListeningOnAddress
+Details: Now listening on: http://localhost:5072
+------------------------------------------------------------
+[2025-10-30 17:12:52.516] [AUDIT]
+Event: General Audit
+Details: Application started. Press Ctrl+C to shut down.
+------------------------------------------------------------
+[2025-10-30 17:12:52.517] [AUDIT]
+Event: General Audit
+Details: Hosting environment: Development
+------------------------------------------------------------
+[2025-10-30 17:12:52.518] [AUDIT]
+Event: General Audit
+Details: Content root path: D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions
+------------------------------------------------------------
+[2025-10-30 17:13:15.204] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: POST /api/auth/login, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-30 17:13:23.115] [AUDIT]
+Event: General Audit
+Details: USER_LOGIN: User: nidhi.lad@genxai.com, IP: ::1, Status: SUCCESS
+------------------------------------------------------------
+[2025-10-30 17:13:23.436] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-30 17:13:23.458] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/CompanyOnboard/History/me, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-30 17:13:23.465] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: POST /api/auth/getmenu, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-30 17:13:23.636] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=2 companies=0 afterId=(null)
+------------------------------------------------------------
+[2025-10-30 17:13:28.245] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-30 17:15:24.612] [AUDIT]
+Event: General Audit
+Details: QueuedWorker started.
+------------------------------------------------------------
+[2025-10-30 17:15:24.729] [AUDIT]
+Event: ListeningOnAddress
+Details: Now listening on: https://localhost:7282
+------------------------------------------------------------
+[2025-10-30 17:15:24.730] [AUDIT]
+Event: ListeningOnAddress
+Details: Now listening on: http://localhost:5072
+------------------------------------------------------------
+[2025-10-30 17:15:24.779] [AUDIT]
+Event: General Audit
+Details: Application started. Press Ctrl+C to shut down.
+------------------------------------------------------------
+[2025-10-30 17:15:24.781] [AUDIT]
+Event: General Audit
+Details: Hosting environment: Development
+------------------------------------------------------------
+[2025-10-30 17:15:24.782] [AUDIT]
+Event: General Audit
+Details: Content root path: D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions
+------------------------------------------------------------
+[2025-10-30 17:16:01.388] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: POST /api/auth/login, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-30 17:16:08.757] [AUDIT]
+Event: General Audit
+Details: USER_LOGIN: User: nidhi.lad@genxai.com, IP: ::1, Status: SUCCESS
+------------------------------------------------------------
+[2025-10-30 17:16:08.940] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-30 17:16:08.955] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/CompanyOnboard/History/me, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-30 17:16:09.069] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: POST /api/auth/getmenu, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-30 17:16:09.082] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=2 companies=0 afterId=(null)
+------------------------------------------------------------
+[2025-10-30 17:16:13.651] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-30 17:16:28.975] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: POST /api/auth/logout, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-30 17:16:28.991] [AUDIT]
+Event: General Audit
+Details: USER_LOGOUT: User: nidhi.lad@genxai.com, IP: ::1
+------------------------------------------------------------
+[2025-10-30 17:18:08.251] [AUDIT]
+Event: General Audit
+Details: QueuedWorker started.
+------------------------------------------------------------
+[2025-10-30 17:18:08.381] [AUDIT]
+Event: ListeningOnAddress
+Details: Now listening on: https://localhost:7282
+------------------------------------------------------------
+[2025-10-30 17:18:08.382] [AUDIT]
+Event: ListeningOnAddress
+Details: Now listening on: http://localhost:5072
+------------------------------------------------------------
+[2025-10-30 17:18:08.437] [AUDIT]
+Event: General Audit
+Details: Application started. Press Ctrl+C to shut down.
+------------------------------------------------------------
+[2025-10-30 17:18:08.439] [AUDIT]
+Event: General Audit
+Details: Hosting environment: Development
+------------------------------------------------------------
+[2025-10-30 17:18:08.440] [AUDIT]
+Event: General Audit
+Details: Content root path: D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions
+------------------------------------------------------------
+[2025-10-30 17:18:34.319] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: POST /api/auth/login, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-30 17:18:41.479] [AUDIT]
+Event: General Audit
+Details: USER_LOGIN: User: nidhi.lad@genxai.com, IP: ::1, Status: SUCCESS
+------------------------------------------------------------
+[2025-10-30 17:18:46.885] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-30 17:18:46.976] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=2 companies=0 afterId=(null)
+------------------------------------------------------------
+[2025-10-30 17:18:47.924] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/CompanyOnboard/History/me, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-30 17:18:47.981] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: POST /api/auth/getmenu, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-30 17:18:51.553] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-30 17:19:02.927] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: POST /api/auth/logout, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-30 17:19:02.969] [AUDIT]
+Event: General Audit
+Details: USER_LOGOUT: User: nidhi.lad@genxai.com, IP: ::1
+------------------------------------------------------------
+[2025-10-30 17:19:02.997] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /User/Login, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-30 17:57:38.573] [AUDIT]
+Event: General Audit
+Details: QueuedWorker started.
+------------------------------------------------------------
+[2025-10-30 17:57:38.707] [AUDIT]
+Event: ListeningOnAddress
+Details: Now listening on: https://localhost:7282
+------------------------------------------------------------
+[2025-10-30 17:57:38.708] [AUDIT]
+Event: ListeningOnAddress
+Details: Now listening on: http://localhost:5072
+------------------------------------------------------------
+[2025-10-30 17:57:38.751] [AUDIT]
+Event: General Audit
+Details: Application started. Press Ctrl+C to shut down.
+------------------------------------------------------------
+[2025-10-30 17:57:38.752] [AUDIT]
+Event: General Audit
+Details: Hosting environment: Development
+------------------------------------------------------------
+[2025-10-30 17:57:38.752] [AUDIT]
+Event: General Audit
+Details: Content root path: D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions
+------------------------------------------------------------
+[2025-10-30 17:59:11.775] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: POST /api/auth/login, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-30 17:59:19.060] [AUDIT]
+Event: General Audit
+Details: USER_LOGIN: User: nidhi.lad@genxai.com, IP: ::1, Status: SUCCESS
+------------------------------------------------------------
+[2025-10-30 17:59:19.259] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-30 17:59:19.271] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/CompanyOnboard/History/me, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-30 17:59:19.393] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: POST /api/auth/getmenu, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-30 17:59:19.406] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=2 companies=0 afterId=(null)
+------------------------------------------------------------
+[2025-10-30 17:59:23.991] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-30 17:59:35.287] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-30 17:59:35.350] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: POST /api/auth/getmenu, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-30 17:59:35.352] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=2 companies=0 afterId=(null)
+------------------------------------------------------------
+[2025-10-30 17:59:39.978] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-30 18:00:07.738] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: POST /api/auth/logout, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-30 18:00:07.781] [AUDIT]
+Event: General Audit
+Details: USER_LOGOUT: User: nidhi.lad@genxai.com, IP: ::1
+------------------------------------------------------------
+[2025-10-30 18:00:07.812] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /User/Login, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------

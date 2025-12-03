@@ -1,0 +1,184 @@
+﻿[2025-11-07 11:53:01.988] [Information]
+Category: GenxAi_Solutions.Services.Background.QueuedWorker
+Message: QueuedWorker started.
+------------------------------------------------------------
+[2025-11-07 11:53:01.992] [Information]
+Category: GenxAi_Solutions.Services.Background.QueuedWorker
+Message: QueuedWorker started.
+--------------------------------------------------------------------------------
+[2025-11-07 11:53:02.165] [Information]
+Category: Microsoft.Hosting.Lifetime
+Message: Now listening on: https://localhost:7282
+------------------------------------------------------------
+[2025-11-07 11:53:02.165] [Information]
+Category: Microsoft.Hosting.Lifetime
+Message: Now listening on: https://localhost:7282
+--------------------------------------------------------------------------------
+[2025-11-07 11:53:02.166] [Information]
+Category: Microsoft.Hosting.Lifetime
+Message: Now listening on: http://localhost:5072
+------------------------------------------------------------
+[2025-11-07 11:53:02.166] [Information]
+Category: Microsoft.Hosting.Lifetime
+Message: Now listening on: http://localhost:5072
+--------------------------------------------------------------------------------
+[2025-11-07 11:53:02.224] [Information]
+Category: Microsoft.Hosting.Lifetime
+Message: Application started. Press Ctrl+C to shut down.
+------------------------------------------------------------
+[2025-11-07 11:53:02.224] [Information]
+Category: Microsoft.Hosting.Lifetime
+Message: Application started. Press Ctrl+C to shut down.
+--------------------------------------------------------------------------------
+[2025-11-07 11:53:02.224] [Information]
+Category: Microsoft.Hosting.Lifetime
+Message: Hosting environment: Development
+------------------------------------------------------------
+[2025-11-07 11:53:02.224] [Information]
+Category: Microsoft.Hosting.Lifetime
+Message: Hosting environment: Development
+--------------------------------------------------------------------------------
+[2025-11-07 11:53:02.225] [Information]
+Category: Microsoft.Hosting.Lifetime
+Message: Content root path: D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions
+------------------------------------------------------------
+[2025-11-07 11:53:02.225] [Information]
+Category: Microsoft.Hosting.Lifetime
+Message: Content root path: D:\SG_IMP\GenxAi_Solutions\GenxAi_Solutions
+--------------------------------------------------------------------------------
+[2025-11-07 11:53:03.418] [Information]
+Category: GenxAi_Solutions.Services.AuthEventsService
+Message: No JWT present on /
+------------------------------------------------------------
+[2025-11-07 11:53:03.418] [Information]
+Category: GenxAi_Solutions.Services.AuthEventsService
+Message: No JWT present on /
+--------------------------------------------------------------------------------
+[2025-11-07 11:53:13.422] [Information]
+Category: GenxAi_Solutions.Services.AuditLogger
+Message: SECURITY_EVENT: Type: JWT_PRESENT, User: anonymous, IP: ::1, Details: Bearer token found; masked=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxIiwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvbmFtZWlkZW50aWZpZXIiOlsiMSIsIjEiXSwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvbmFtZSI6WyJzdWNoaXRhLmdvbWVAZ2VueGFpLmNvbSIsInN1Y2hpdGEuZ29tZUBnZW54YWkuY29tIl0sImp0aSI6Ijg1MDM1OGZkLTRkZmQtNDZiNy04M2U2LTIyODIwNzdkZTA0YSIsIkNvbXBhbnlJZCI6IiIsImNvbXBhbmllcyI6IjExMjUsMTEyNywxMTMxLDIxMjAsMjEyMCw0LDMxMjAsMzEyMCw1LDMxMjgsMzEyOCw0LDMxMzUsMzEzNSw5LDMxNTcsMzE1NywzMTY5LDMxNjksMywzMTc4LDMxNzksMzE4MCwzMTgxLDMxODEsMzE4MCwzMTgwLDIsMiwzMTgyLDMxODIsMzE4MywzMTg2LDMxODYsMzE4NywzMTg4LDMxODgsMzE4NywzMTg5LDMxODksMiwyLDMxOTAsMzE4OSwzMTg5LDMxOTEsMzE5MSwzMTk5LDMxOTksMzE5OSwzMTk5LDQxOTQsNDE5NCIsIkRhdGFiYXNlTmFtZSI6IiIsIlNRTGl0ZWRiTmFtZSI6IiIsIlNRTGl0ZWRiTmFtZV9GaWxlIjoiIiwiQ29ubnN0ciI6IiIsImRiVHlwZSI6IiIsImdyb3VwSWQiOiIyIiwibmJmIjoxNzYyNDMxMzAyLCJleHAiOjE3NjI0MzIyMDIsImlzcyI6IkdlbnhBaSIsImF1ZCI6IkdlbnhBaS5DbGllbnRzIn0.8hSetBhBWMh3mS4SGyl3gTDUo1IW3oSV0bzt6Oz7Ek5FJHhFlY_iJ6-4k3TuU_kqgkyHzhZvOREdQymYVoqhjQ , /api/auth/login
+------------------------------------------------------------
+[2025-11-07 11:53:13.423] [Information]
+Category: GenxAi_Solutions.Services.AuditLogger
+Message: SECURITY_EVENT: Type: JWT_PRESENT, User: anonymous, IP: ::1, Details: Bearer token found; masked=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxIiwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvbmFtZWlkZW50aWZpZXIiOlsiMSIsIjEiXSwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvbmFtZSI6WyJzdWNoaXRhLmdvbWVAZ2VueGFpLmNvbSIsInN1Y2hpdGEuZ29tZUBnZW54YWkuY29tIl0sImp0aSI6Ijg1MDM1OGZkLTRkZmQtNDZiNy04M2U2LTIyODIwNzdkZTA0YSIsIkNvbXBhbnlJZCI6IiIsImNvbXBhbmllcyI6IjExMjUsMTEyNywxMTMxLDIxMjAsMjEyMCw0LDMxMjAsMzEyMCw1LDMxMjgsMzEyOCw0LDMxMzUsMzEzNSw5LDMxNTcsMzE1NywzMTY5LDMxNjksMywzMTc4LDMxNzksMzE4MCwzMTgxLDMxODEsMzE4MCwzMTgwLDIsMiwzMTgyLDMxODIsMzE4MywzMTg2LDMxODYsMzE4NywzMTg4LDMxODgsMzE4NywzMTg5LDMxODksMiwyLDMxOTAsMzE4OSwzMTg5LDMxOTEsMzE5MSwzMTk5LDMxOTksMzE5OSwzMTk5LDQxOTQsNDE5NCIsIkRhdGFiYXNlTmFtZSI6IiIsIlNRTGl0ZWRiTmFtZSI6IiIsIlNRTGl0ZWRiTmFtZV9GaWxlIjoiIiwiQ29ubnN0ciI6IiIsImRiVHlwZSI6IiIsImdyb3VwSWQiOiIyIiwibmJmIjoxNzYyNDMxMzAyLCJleHAiOjE3NjI0MzIyMDIsImlzcyI6IkdlbnhBaSIsImF1ZCI6IkdlbnhBaS5DbGllbnRzIn0.8hSetBhBWMh3mS4SGyl3gTDUo1IW3oSV0bzt6Oz7Ek5FJHhFlY_iJ6-4k3TuU_kqgkyHzhZvOREdQymYVoqhjQ , /api/auth/login
+--------------------------------------------------------------------------------
+[2025-11-07 11:53:13.425] [Information]
+Category: GenxAi_Solutions.Services.AuditLogger
+Message: GENERAL_AUDIT: Action: POST /api/auth/login, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-11-07 11:53:13.426] [Information]
+Category: GenxAi_Solutions.Services.AuditLogger
+Message: GENERAL_AUDIT: Action: POST /api/auth/login, User: anonymous, IP: ::1, Details: Sensitive action accessed
+--------------------------------------------------------------------------------
+[2025-11-07 11:53:13.445] [Information]
+Category: GenxAi_Solutions.Services.AuthEventsService
+Message: JWT received on /api/auth/login. TokenHash=D1EC7EFB883D8DFD739019E0277DAED4BCE7B184CE854FBE9E58B4BBE08F961C
+------------------------------------------------------------
+[2025-11-07 11:53:13.446] [Information]
+Category: GenxAi_Solutions.Services.AuthEventsService
+Message: JWT received on /api/auth/login. TokenHash=D1EC7EFB883D8DFD739019E0277DAED4BCE7B184CE854FBE9E58B4BBE08F961C
+--------------------------------------------------------------------------------
+[2025-11-07 11:53:21.768] [Information]
+Category: GenxAi_Solutions.Services.AuthEventsService
+Message: No JWT present on /UserMaster/Add
+------------------------------------------------------------
+[2025-11-07 11:53:21.769] [Information]
+Category: GenxAi_Solutions.Services.AuthEventsService
+Message: No JWT present on /UserMaster/Add
+--------------------------------------------------------------------------------
+[2025-11-07 11:53:31.230] [Information]
+Category: GenxAi_Solutions.Services.AuthEventsService
+Message: JWT received on /hubs/notifications/negotiate. TokenHash=05B8C4909EAA60DDA847CBD98EF05424961E116D82268FFA46950E900B5A5F73
+------------------------------------------------------------
+[2025-11-07 11:53:31.231] [Information]
+Category: GenxAi_Solutions.Services.AuthEventsService
+Message: JWT received on /hubs/notifications/negotiate. TokenHash=05B8C4909EAA60DDA847CBD98EF05424961E116D82268FFA46950E900B5A5F73
+--------------------------------------------------------------------------------
+[2025-11-07 11:53:31.255] [Information]
+Category: GenxAi_Solutions.Services.AuditLogger
+Message: SECURITY_EVENT: Type: JWT_PRESENT, User: anonymous, IP: ::1, Details: Bearer token found; masked=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxIiwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvbmFtZWlkZW50aWZpZXIiOlsiMSIsIjEiXSwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvbmFtZSI6WyJzdWNoaXRhLmdvbWVAZ2VueGFpLmNvbSIsInN1Y2hpdGEuZ29tZUBnZW54YWkuY29tIl0sImp0aSI6IjA5YjJiY2MxLTYyNTEtNGJiMC04ODA1LTIyNTQ2NWE3ZmE2NCIsIkNvbXBhbnlJZCI6IiIsImNvbXBhbmllcyI6IjExMjUsMTEyNywxMTMxLDIxMjAsMjEyMCw0LDMxMjAsMzEyMCw1LDMxMjgsMzEyOCw0LDMxMzUsMzEzNSw5LDMxNTcsMzE1NywzMTY5LDMxNjksMywzMTc4LDMxNzksMzE4MCwzMTgxLDMxODEsMzE4MCwzMTgwLDIsMiwzMTgyLDMxODIsMzE4MywzMTg2LDMxODYsMzE4NywzMTg4LDMxODgsMzE4NywzMTg5LDMxODksMiwyLDMxOTAsMzE4OSwzMTg5LDMxOTEsMzE5MSwzMTk5LDMxOTksMzE5OSwzMTk5LDQxOTQsNDE5NCw0MjAwIiwiRGF0YWJhc2VOYW1lIjoiIiwiU1FMaXRlZGJOYW1lIjoiIiwiU1FMaXRlZGJOYW1lX0ZpbGUiOiIiLCJDb25uc3RyIjoiIiwiZGJUeXBlIjoiIiwiZ3JvdXBJZCI6IjIiLCJuYmYiOjE3NjI0OTY2MDEsImV4cCI6MTc2MjQ5NzUwMSwiaXNzIjoiR2VueEFpIiwiYXVkIjoiR2VueEFpLkNsaWVudHMifQ.DMkmI23q8XZ5bAjO_VfWpwg5yWIlJQqGfoJR4UCs7O46NK8LrpOHiRyI9XDoIL4xYZM9L43Xl_uMPg7xhECeoQ , /api/auth/getmenu
+------------------------------------------------------------
+[2025-11-07 11:53:31.255] [Information]
+Category: GenxAi_Solutions.Services.AuthEventsService
+Message: JWT validated. sub=1 jti=09b2bcc1-6251-4bb0-8805-225465a7fa64 exp=(null)
+------------------------------------------------------------
+[2025-11-07 11:53:31.255] [Information]
+Category: GenxAi_Solutions.Services.AuditLogger
+Message: SECURITY_EVENT: Type: JWT_PRESENT, User: anonymous, IP: ::1, Details: Bearer token found; masked=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxIiwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvbmFtZWlkZW50aWZpZXIiOlsiMSIsIjEiXSwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvbmFtZSI6WyJzdWNoaXRhLmdvbWVAZ2VueGFpLmNvbSIsInN1Y2hpdGEuZ29tZUBnZW54YWkuY29tIl0sImp0aSI6IjA5YjJiY2MxLTYyNTEtNGJiMC04ODA1LTIyNTQ2NWE3ZmE2NCIsIkNvbXBhbnlJZCI6IiIsImNvbXBhbmllcyI6IjExMjUsMTEyNywxMTMxLDIxMjAsMjEyMCw0LDMxMjAsMzEyMCw1LDMxMjgsMzEyOCw0LDMxMzUsMzEzNSw5LDMxNTcsMzE1NywzMTY5LDMxNjksMywzMTc4LDMxNzksMzE4MCwzMTgxLDMxODEsMzE4MCwzMTgwLDIsMiwzMTgyLDMxODIsMzE4MywzMTg2LDMxODYsMzE4NywzMTg4LDMxODgsMzE4NywzMTg5LDMxODksMiwyLDMxOTAsMzE4OSwzMTg5LDMxOTEsMzE5MSwzMTk5LDMxOTksMzE5OSwzMTk5LDQxOTQsNDE5NCw0MjAwIiwiRGF0YWJhc2VOYW1lIjoiIiwiU1FMaXRlZGJOYW1lIjoiIiwiU1FMaXRlZGJOYW1lX0ZpbGUiOiIiLCJDb25uc3RyIjoiIiwiZGJUeXBlIjoiIiwiZ3JvdXBJZCI6IjIiLCJuYmYiOjE3NjI0OTY2MDEsImV4cCI6MTc2MjQ5NzUwMSwiaXNzIjoiR2VueEFpIiwiYXVkIjoiR2VueEFpLkNsaWVudHMifQ.DMkmI23q8XZ5bAjO_VfWpwg5yWIlJQqGfoJR4UCs7O46NK8LrpOHiRyI9XDoIL4xYZM9L43Xl_uMPg7xhECeoQ , /api/auth/getmenu
+--------------------------------------------------------------------------------
+[2025-11-07 11:53:31.256] [Information]
+Category: GenxAi_Solutions.Services.AuthEventsService
+Message: JWT validated. sub=1 jti=09b2bcc1-6251-4bb0-8805-225465a7fa64 exp=(null)
+--------------------------------------------------------------------------------
+[2025-11-07 11:53:31.257] [Information]
+Category: GenxAi_Solutions.Services.AuditLogger
+Message: GENERAL_AUDIT: Action: POST /api/auth/getmenu, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-11-07 11:53:31.257] [Information]
+Category: GenxAi_Solutions.Services.AuditLogger
+Message: GENERAL_AUDIT: Action: POST /api/auth/getmenu, User: anonymous, IP: ::1, Details: Sensitive action accessed
+--------------------------------------------------------------------------------
+[2025-11-07 11:53:31.266] [Information]
+Category: GenxAi_Solutions.Services.AuthEventsService
+Message: JWT received on /api/auth/getmenu. TokenHash=05B8C4909EAA60DDA847CBD98EF05424961E116D82268FFA46950E900B5A5F73
+------------------------------------------------------------
+[2025-11-07 11:53:31.267] [Information]
+Category: GenxAi_Solutions.Services.AuthEventsService
+Message: JWT received on /api/auth/getmenu. TokenHash=05B8C4909EAA60DDA847CBD98EF05424961E116D82268FFA46950E900B5A5F73
+--------------------------------------------------------------------------------
+[2025-11-07 11:53:31.268] [Information]
+Category: GenxAi_Solutions.Services.AuthEventsService
+Message: JWT validated. sub=1 jti=09b2bcc1-6251-4bb0-8805-225465a7fa64 exp=(null)
+------------------------------------------------------------
+[2025-11-07 11:53:31.268] [Information]
+Category: GenxAi_Solutions.Services.AuthEventsService
+Message: JWT validated. sub=1 jti=09b2bcc1-6251-4bb0-8805-225465a7fa64 exp=(null)
+--------------------------------------------------------------------------------
+[2025-11-07 11:53:31.281] [Information]
+Category: GenxAi_Solutions.Services.AuthEventsService
+Message: JWT received on /hubs/notifications. TokenHash=05B8C4909EAA60DDA847CBD98EF05424961E116D82268FFA46950E900B5A5F73
+------------------------------------------------------------
+[2025-11-07 11:53:31.282] [Information]
+Category: GenxAi_Solutions.Services.AuthEventsService
+Message: JWT received on /hubs/notifications. TokenHash=05B8C4909EAA60DDA847CBD98EF05424961E116D82268FFA46950E900B5A5F73
+--------------------------------------------------------------------------------
+[2025-11-07 11:53:31.284] [Information]
+Category: GenxAi_Solutions.Services.AuthEventsService
+Message: JWT validated. sub=1 jti=09b2bcc1-6251-4bb0-8805-225465a7fa64 exp=(null)
+------------------------------------------------------------
+[2025-11-07 11:53:31.285] [Information]
+Category: GenxAi_Solutions.Services.AuthEventsService
+Message: JWT validated. sub=1 jti=09b2bcc1-6251-4bb0-8805-225465a7fa64 exp=(null)
+--------------------------------------------------------------------------------
+[2025-11-07 11:53:31.393] [Information]
+Category: GenxAi_Solutions.Services.AuditLogger
+Message: SECURITY_EVENT: Type: JWT_PRESENT, User: anonymous, IP: ::1, Details: Bearer token found; masked=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxIiwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvbmFtZWlkZW50aWZpZXIiOlsiMSIsIjEiXSwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvbmFtZSI6WyJzdWNoaXRhLmdvbWVAZ2VueGFpLmNvbSIsInN1Y2hpdGEuZ29tZUBnZW54YWkuY29tIl0sImp0aSI6IjA5YjJiY2MxLTYyNTEtNGJiMC04ODA1LTIyNTQ2NWE3ZmE2NCIsIkNvbXBhbnlJZCI6IiIsImNvbXBhbmllcyI6IjExMjUsMTEyNywxMTMxLDIxMjAsMjEyMCw0LDMxMjAsMzEyMCw1LDMxMjgsMzEyOCw0LDMxMzUsMzEzNSw5LDMxNTcsMzE1NywzMTY5LDMxNjksMywzMTc4LDMxNzksMzE4MCwzMTgxLDMxODEsMzE4MCwzMTgwLDIsMiwzMTgyLDMxODIsMzE4MywzMTg2LDMxODYsMzE4NywzMTg4LDMxODgsMzE4NywzMTg5LDMxODksMiwyLDMxOTAsMzE4OSwzMTg5LDMxOTEsMzE5MSwzMTk5LDMxOTksMzE5OSwzMTk5LDQxOTQsNDE5NCw0MjAwIiwiRGF0YWJhc2VOYW1lIjoiIiwiU1FMaXRlZGJOYW1lIjoiIiwiU1FMaXRlZGJOYW1lX0ZpbGUiOiIiLCJDb25uc3RyIjoiIiwiZGJUeXBlIjoiIiwiZ3JvdXBJZCI6IjIiLCJuYmYiOjE3NjI0OTY2MDEsImV4cCI6MTc2MjQ5NzUwMSwiaXNzIjoiR2VueEFpIiwiYXVkIjoiR2VueEFpLkNsaWVudHMifQ.DMkmI23q8XZ5bAjO_VfWpwg5yWIlJQqGfoJR4UCs7O46NK8LrpOHiRyI9XDoIL4xYZM9L43Xl_uMPg7xhECeoQ , /api/auth/GetAllUserMaster
+------------------------------------------------------------
+[2025-11-07 11:53:31.395] [Information]
+Category: GenxAi_Solutions.Services.AuditLogger
+Message: SECURITY_EVENT: Type: JWT_PRESENT, User: anonymous, IP: ::1, Details: Bearer token found; masked=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxIiwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvbmFtZWlkZW50aWZpZXIiOlsiMSIsIjEiXSwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvbmFtZSI6WyJzdWNoaXRhLmdvbWVAZ2VueGFpLmNvbSIsInN1Y2hpdGEuZ29tZUBnZW54YWkuY29tIl0sImp0aSI6IjA5YjJiY2MxLTYyNTEtNGJiMC04ODA1LTIyNTQ2NWE3ZmE2NCIsIkNvbXBhbnlJZCI6IiIsImNvbXBhbmllcyI6IjExMjUsMTEyNywxMTMxLDIxMjAsMjEyMCw0LDMxMjAsMzEyMCw1LDMxMjgsMzEyOCw0LDMxMzUsMzEzNSw5LDMxNTcsMzE1NywzMTY5LDMxNjksMywzMTc4LDMxNzksMzE4MCwzMTgxLDMxODEsMzE4MCwzMTgwLDIsMiwzMTgyLDMxODIsMzE4MywzMTg2LDMxODYsMzE4NywzMTg4LDMxODgsMzE4NywzMTg5LDMxODksMiwyLDMxOTAsMzE4OSwzMTg5LDMxOTEsMzE5MSwzMTk5LDMxOTksMzE5OSwzMTk5LDQxOTQsNDE5NCw0MjAwIiwiRGF0YWJhc2VOYW1lIjoiIiwiU1FMaXRlZGJOYW1lIjoiIiwiU1FMaXRlZGJOYW1lX0ZpbGUiOiIiLCJDb25uc3RyIjoiIiwiZGJUeXBlIjoiIiwiZ3JvdXBJZCI6IjIiLCJuYmYiOjE3NjI0OTY2MDEsImV4cCI6MTc2MjQ5NzUwMSwiaXNzIjoiR2VueEFpIiwiYXVkIjoiR2VueEFpLkNsaWVudHMifQ.DMkmI23q8XZ5bAjO_VfWpwg5yWIlJQqGfoJR4UCs7O46NK8LrpOHiRyI9XDoIL4xYZM9L43Xl_uMPg7xhECeoQ , /api/auth/GetAllUserMaster
+--------------------------------------------------------------------------------
+[2025-11-07 11:53:31.399] [Information]
+Category: GenxAi_Solutions.Services.AuditLogger
+Message: GENERAL_AUDIT: Action: GET /api/auth/GetAllUserMaster, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-11-07 11:53:31.404] [Information]
+Category: GenxAi_Solutions.Services.AuditLogger
+Message: GENERAL_AUDIT: Action: GET /api/auth/GetAllUserMaster, User: anonymous, IP: ::1, Details: Sensitive action accessed
+--------------------------------------------------------------------------------
+[2025-11-07 11:53:31.406] [Information]
+Category: GenxAi_Solutions.Services.AuthEventsService
+Message: JWT received on /api/auth/GetAllUserMaster. TokenHash=05B8C4909EAA60DDA847CBD98EF05424961E116D82268FFA46950E900B5A5F73
+------------------------------------------------------------
+[2025-11-07 11:53:31.407] [Information]
+Category: GenxAi_Solutions.Services.AuthEventsService
+Message: JWT received on /api/auth/GetAllUserMaster. TokenHash=05B8C4909EAA60DDA847CBD98EF05424961E116D82268FFA46950E900B5A5F73
+--------------------------------------------------------------------------------
+[2025-11-07 11:53:31.410] [Information]
+Category: GenxAi_Solutions.Services.AuthEventsService
+Message: JWT validated. sub=1 jti=09b2bcc1-6251-4bb0-8805-225465a7fa64 exp=(null)
+------------------------------------------------------------
+[2025-11-07 11:53:31.411] [Information]
+Category: GenxAi_Solutions.Services.AuthEventsService
+Message: JWT validated. sub=1 jti=09b2bcc1-6251-4bb0-8805-225465a7fa64 exp=(null)
+--------------------------------------------------------------------------------

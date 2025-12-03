@@ -1,0 +1,820 @@
+﻿[2025-12-02 11:34:27.072] [Error]
+Category: GenxAi_Solutions_V1.Services.AuthEventsService
+Message: JWT authentication failed on /api/auth/login
+Exception Type: Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException
+Exception Message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '12/1/2025 6:29:04 AM', Current time (UTC): '12/2/2025 6:04:27 AM'.
+Stack Trace:    at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+--------------------------------------------------------------------------------
+[2025-12-02 11:34:27.186] [Error]
+Category: GenxAi_Solutions_V1.Services.AuthEventsService
+Message: JWT authentication failed on /api/auth/login
+Exception Type: Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException
+Exception Message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '12/1/2025 6:29:04 AM', Current time (UTC): '12/2/2025 6:04:27 AM'.
+Stack Trace:    at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+--------------------------------------------------------------------------------
+[2025-12-02 14:50:31.343] [Error]
+Category: GenxAi_Solutions_V1.Services.AuthEventsService
+Message: JWT authentication failed on /api/auth/login
+Exception Type: Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException
+Exception Message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '12/1/2025 7:24:54 AM', Current time (UTC): '12/2/2025 9:20:31 AM'.
+Stack Trace:    at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+--------------------------------------------------------------------------------
+[2025-12-02 14:50:31.415] [Error]
+Category: GenxAi_Solutions_V1.Services.AuthEventsService
+Message: JWT authentication failed on /api/auth/login
+Exception Type: Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException
+Exception Message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '12/1/2025 7:24:54 AM', Current time (UTC): '12/2/2025 9:20:31 AM'.
+Stack Trace:    at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+--------------------------------------------------------------------------------
+[2025-12-02 14:51:30.631] [Error]
+Category: GenxAi_Solutions_V1.Api.ChatBotController
+Message: QuerySqlWithAgent failed after 10189ms - ConversationId=51608, Message=hi my name is nidhi
+Exception Type: System.InvalidOperationException
+Exception Message: Cache entry must specify a value for Size when SizeLimit is set.
+Stack Trace:    at Microsoft.Extensions.Caching.Memory.MemoryCache.SetEntry(CacheEntry entry)
+   at Microsoft.Extensions.Caching.Memory.CacheEntry.Dispose()
+   at Microsoft.Extensions.Caching.Memory.CacheExtensions.Set[TItem](IMemoryCache cache, Object key, TItem value, TimeSpan absoluteExpirationRelativeToNow)
+   at GenxAi_Solutions_V1.Api.ChatBotController.GetLimitedHistoryAsync_up(Int64 conversationId, Int32 maxHistory, String userMessage, String assistantMessage, String chosenService, String context, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions_V1\Api\ChatBotController.cs:line 1787
+   at GenxAi_Solutions_V1.Api.ChatBotController.HandleGreetingResponse(String message, Int64 convId, Int32 companyId, SqlVectorStores stores, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions_V1\Api\ChatBotController.cs:line 1919
+   at GenxAi_Solutions_V1.Api.ChatBotController.QuerySqlWithAgent(String message, String dbPathSql, String connStr, String databaseName, String dbType, Int64 convId, Int32 companyId, Int32 userId, Boolean wantsChart, Boolean sqlGreets, Int64 userMsgId, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions_V1\Api\ChatBotController.cs:line 1005
+--------------------------------------------------------------------------------
+[2025-12-02 14:51:30.669] [Error]
+Category: GenxAi_Solutions_V1.Api.ChatBotController
+Message: QuerySqlWithAgent failed after 10189ms - ConversationId=51608, Message=hi my name is nidhi
+Exception Type: System.InvalidOperationException
+Exception Message: Cache entry must specify a value for Size when SizeLimit is set.
+Stack Trace:    at Microsoft.Extensions.Caching.Memory.MemoryCache.SetEntry(CacheEntry entry)
+   at Microsoft.Extensions.Caching.Memory.CacheEntry.Dispose()
+   at Microsoft.Extensions.Caching.Memory.CacheExtensions.Set[TItem](IMemoryCache cache, Object key, TItem value, TimeSpan absoluteExpirationRelativeToNow)
+   at GenxAi_Solutions_V1.Api.ChatBotController.GetLimitedHistoryAsync_up(Int64 conversationId, Int32 maxHistory, String userMessage, String assistantMessage, String chosenService, String context, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions_V1\Api\ChatBotController.cs:line 1787
+   at GenxAi_Solutions_V1.Api.ChatBotController.HandleGreetingResponse(String message, Int64 convId, Int32 companyId, SqlVectorStores stores, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions_V1\Api\ChatBotController.cs:line 1919
+   at GenxAi_Solutions_V1.Api.ChatBotController.QuerySqlWithAgent(String message, String dbPathSql, String connStr, String databaseName, String dbType, Int64 convId, Int32 companyId, Int32 userId, Boolean wantsChart, Boolean sqlGreets, Int64 userMsgId, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions_V1\Api\ChatBotController.cs:line 1005
+--------------------------------------------------------------------------------
+[2025-12-02 14:51:30.931] [Error]
+Category: GenxAi_Solutions_V1.Api.ChatBotController
+Message: Error in AskAgent API - User: nidhi.lad@genxai.com, Service: SQLAnalytics, Message: hi my name is nidhi, CorrelationId: 0d51307a-3b33-4c41-ada5-3d3eb4a23312, Error: Cache entry must specify a value for Size when SizeLimit is set.
+Exception Type: System.InvalidOperationException
+Exception Message: Cache entry must specify a value for Size when SizeLimit is set.
+Stack Trace:    at Microsoft.Extensions.Caching.Memory.MemoryCache.SetEntry(CacheEntry entry)
+   at Microsoft.Extensions.Caching.Memory.CacheEntry.Dispose()
+   at Microsoft.Extensions.Caching.Memory.CacheExtensions.Set[TItem](IMemoryCache cache, Object key, TItem value, TimeSpan absoluteExpirationRelativeToNow)
+   at GenxAi_Solutions_V1.Api.ChatBotController.GetLimitedHistoryAsync_up(Int64 conversationId, Int32 maxHistory, String userMessage, String assistantMessage, String chosenService, String context, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions_V1\Api\ChatBotController.cs:line 1787
+   at GenxAi_Solutions_V1.Api.ChatBotController.HandleGreetingResponse(String message, Int64 convId, Int32 companyId, SqlVectorStores stores, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions_V1\Api\ChatBotController.cs:line 1919
+   at GenxAi_Solutions_V1.Api.ChatBotController.QuerySqlWithAgent(String message, String dbPathSql, String connStr, String databaseName, String dbType, Int64 convId, Int32 companyId, Int32 userId, Boolean wantsChart, Boolean sqlGreets, Int64 userMsgId, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions_V1\Api\ChatBotController.cs:line 1005
+   at GenxAi_Solutions_V1.Api.ChatBotController.AskAgent(String message, String service, Nullable`1 conversationId, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions_V1\Api\ChatBotController.cs:line 176
+--------------------------------------------------------------------------------
+[2025-12-02 14:51:30.935] [Error]
+Category: GenxAi_Solutions_V1.Api.ChatBotController
+Message: Error in AskAgent API - User: nidhi.lad@genxai.com, Service: SQLAnalytics, Message: hi my name is nidhi, CorrelationId: 0d51307a-3b33-4c41-ada5-3d3eb4a23312, Error: Cache entry must specify a value for Size when SizeLimit is set.
+Exception Type: System.InvalidOperationException
+Exception Message: Cache entry must specify a value for Size when SizeLimit is set.
+Stack Trace:    at Microsoft.Extensions.Caching.Memory.MemoryCache.SetEntry(CacheEntry entry)
+   at Microsoft.Extensions.Caching.Memory.CacheEntry.Dispose()
+   at Microsoft.Extensions.Caching.Memory.CacheExtensions.Set[TItem](IMemoryCache cache, Object key, TItem value, TimeSpan absoluteExpirationRelativeToNow)
+   at GenxAi_Solutions_V1.Api.ChatBotController.GetLimitedHistoryAsync_up(Int64 conversationId, Int32 maxHistory, String userMessage, String assistantMessage, String chosenService, String context, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions_V1\Api\ChatBotController.cs:line 1787
+   at GenxAi_Solutions_V1.Api.ChatBotController.HandleGreetingResponse(String message, Int64 convId, Int32 companyId, SqlVectorStores stores, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions_V1\Api\ChatBotController.cs:line 1919
+   at GenxAi_Solutions_V1.Api.ChatBotController.QuerySqlWithAgent(String message, String dbPathSql, String connStr, String databaseName, String dbType, Int64 convId, Int32 companyId, Int32 userId, Boolean wantsChart, Boolean sqlGreets, Int64 userMsgId, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions_V1\Api\ChatBotController.cs:line 1005
+   at GenxAi_Solutions_V1.Api.ChatBotController.AskAgent(String message, String service, Nullable`1 conversationId, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions_V1\Api\ChatBotController.cs:line 176
+--------------------------------------------------------------------------------
+[2025-12-02 14:51:31.444] [Error]
+Category: GenxAi_Solutions_V1.Utils.Middleware.ErrorHandlingMiddleware
+Message: Unhandled exception POST /api/chat/AskAgent 0d51307a-3b33-4c41-ada5-3d3eb4a23312. Exception Details: System.InvalidOperationException - Cache entry must specify a value for Size when SizeLimit is set. Stack Trace:    at Microsoft.Extensions.Caching.Memory.MemoryCache.SetEntry(CacheEntry entry)
+   at Microsoft.Extensions.Caching.Memory.CacheEntry.Dispose()
+   at Microsoft.Extensions.Caching.Memory.CacheExtensions.Set[TItem](IMemoryCache cache, Object key, TItem value, TimeSpan absoluteExpirationRelativeToNow)
+   at GenxAi_Solutions_V1.Api.ChatBotController.GetLimitedHistoryAsync_up(Int64 conversationId, Int32 maxHistory, String userMessage, String assistantMessage, String chosenService, String context, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions_V1\Api\ChatBotController.cs:line 1787
+   at GenxAi_Solutions_V1.Api.ChatBotController.HandleGreetingResponse(String message, Int64 convId, Int32 companyId, SqlVectorStores stores, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions_V1\Api\ChatBotController.cs:line 1919
+   at GenxAi_Solutions_V1.Api.ChatBotController.QuerySqlWithAgent(String message, String dbPathSql, String connStr, String databaseName, String dbType, Int64 convId, Int32 companyId, Int32 userId, Boolean wantsChart, Boolean sqlGreets, Int64 userMsgId, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions_V1\Api\ChatBotController.cs:line 1005
+   at GenxAi_Solutions_V1.Api.ChatBotController.AskAgent(String message, String service, Nullable`1 conversationId, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions_V1\Api\ChatBotController.cs:line 176
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at GenxAi_Solutions_V1.Utils.Middleware.ErrorHandlingMiddleware.Invoke(HttpContext context) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions_V1\Utils\Middleware\ErrorHandlingMiddleware.cs:line 139
+Exception Type: System.InvalidOperationException
+Exception Message: Cache entry must specify a value for Size when SizeLimit is set.
+Stack Trace:    at Microsoft.Extensions.Caching.Memory.MemoryCache.SetEntry(CacheEntry entry)
+   at Microsoft.Extensions.Caching.Memory.CacheEntry.Dispose()
+   at Microsoft.Extensions.Caching.Memory.CacheExtensions.Set[TItem](IMemoryCache cache, Object key, TItem value, TimeSpan absoluteExpirationRelativeToNow)
+   at GenxAi_Solutions_V1.Api.ChatBotController.GetLimitedHistoryAsync_up(Int64 conversationId, Int32 maxHistory, String userMessage, String assistantMessage, String chosenService, String context, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions_V1\Api\ChatBotController.cs:line 1787
+   at GenxAi_Solutions_V1.Api.ChatBotController.HandleGreetingResponse(String message, Int64 convId, Int32 companyId, SqlVectorStores stores, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions_V1\Api\ChatBotController.cs:line 1919
+   at GenxAi_Solutions_V1.Api.ChatBotController.QuerySqlWithAgent(String message, String dbPathSql, String connStr, String databaseName, String dbType, Int64 convId, Int32 companyId, Int32 userId, Boolean wantsChart, Boolean sqlGreets, Int64 userMsgId, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions_V1\Api\ChatBotController.cs:line 1005
+   at GenxAi_Solutions_V1.Api.ChatBotController.AskAgent(String message, String service, Nullable`1 conversationId, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions_V1\Api\ChatBotController.cs:line 176
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at GenxAi_Solutions_V1.Utils.Middleware.ErrorHandlingMiddleware.Invoke(HttpContext context) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions_V1\Utils\Middleware\ErrorHandlingMiddleware.cs:line 139
+--------------------------------------------------------------------------------
+[2025-12-02 14:51:31.449] [Error]
+Category: GenxAi_Solutions_V1.Utils.Middleware.ErrorHandlingMiddleware
+Message: Unhandled exception POST /api/chat/AskAgent 0d51307a-3b33-4c41-ada5-3d3eb4a23312. Exception Details: System.InvalidOperationException - Cache entry must specify a value for Size when SizeLimit is set. Stack Trace:    at Microsoft.Extensions.Caching.Memory.MemoryCache.SetEntry(CacheEntry entry)
+   at Microsoft.Extensions.Caching.Memory.CacheEntry.Dispose()
+   at Microsoft.Extensions.Caching.Memory.CacheExtensions.Set[TItem](IMemoryCache cache, Object key, TItem value, TimeSpan absoluteExpirationRelativeToNow)
+   at GenxAi_Solutions_V1.Api.ChatBotController.GetLimitedHistoryAsync_up(Int64 conversationId, Int32 maxHistory, String userMessage, String assistantMessage, String chosenService, String context, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions_V1\Api\ChatBotController.cs:line 1787
+   at GenxAi_Solutions_V1.Api.ChatBotController.HandleGreetingResponse(String message, Int64 convId, Int32 companyId, SqlVectorStores stores, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions_V1\Api\ChatBotController.cs:line 1919
+   at GenxAi_Solutions_V1.Api.ChatBotController.QuerySqlWithAgent(String message, String dbPathSql, String connStr, String databaseName, String dbType, Int64 convId, Int32 companyId, Int32 userId, Boolean wantsChart, Boolean sqlGreets, Int64 userMsgId, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions_V1\Api\ChatBotController.cs:line 1005
+   at GenxAi_Solutions_V1.Api.ChatBotController.AskAgent(String message, String service, Nullable`1 conversationId, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions_V1\Api\ChatBotController.cs:line 176
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at GenxAi_Solutions_V1.Utils.Middleware.ErrorHandlingMiddleware.Invoke(HttpContext context) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions_V1\Utils\Middleware\ErrorHandlingMiddleware.cs:line 139
+Exception Type: System.InvalidOperationException
+Exception Message: Cache entry must specify a value for Size when SizeLimit is set.
+Stack Trace:    at Microsoft.Extensions.Caching.Memory.MemoryCache.SetEntry(CacheEntry entry)
+   at Microsoft.Extensions.Caching.Memory.CacheEntry.Dispose()
+   at Microsoft.Extensions.Caching.Memory.CacheExtensions.Set[TItem](IMemoryCache cache, Object key, TItem value, TimeSpan absoluteExpirationRelativeToNow)
+   at GenxAi_Solutions_V1.Api.ChatBotController.GetLimitedHistoryAsync_up(Int64 conversationId, Int32 maxHistory, String userMessage, String assistantMessage, String chosenService, String context, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions_V1\Api\ChatBotController.cs:line 1787
+   at GenxAi_Solutions_V1.Api.ChatBotController.HandleGreetingResponse(String message, Int64 convId, Int32 companyId, SqlVectorStores stores, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions_V1\Api\ChatBotController.cs:line 1919
+   at GenxAi_Solutions_V1.Api.ChatBotController.QuerySqlWithAgent(String message, String dbPathSql, String connStr, String databaseName, String dbType, Int64 convId, Int32 companyId, Int32 userId, Boolean wantsChart, Boolean sqlGreets, Int64 userMsgId, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions_V1\Api\ChatBotController.cs:line 1005
+   at GenxAi_Solutions_V1.Api.ChatBotController.AskAgent(String message, String service, Nullable`1 conversationId, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions_V1\Api\ChatBotController.cs:line 176
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at GenxAi_Solutions_V1.Utils.Middleware.ErrorHandlingMiddleware.Invoke(HttpContext context) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions_V1\Utils\Middleware\ErrorHandlingMiddleware.cs:line 139
+--------------------------------------------------------------------------------
+[2025-12-02 14:54:04.548] [Error]
+Category: GenxAi_Solutions_V1.Api.ChatBotController
+Message: QuerySqlWithAgent failed after 42261ms - ConversationId=51609, Message=hi my name is nidhi
+Exception Type: System.InvalidOperationException
+Exception Message: Cache entry must specify a value for Size when SizeLimit is set.
+Stack Trace:    at Microsoft.Extensions.Caching.Memory.MemoryCache.SetEntry(CacheEntry entry)
+   at Microsoft.Extensions.Caching.Memory.CacheEntry.Dispose()
+   at Microsoft.Extensions.Caching.Memory.CacheExtensions.Set[TItem](IMemoryCache cache, Object key, TItem value, TimeSpan absoluteExpirationRelativeToNow)
+   at GenxAi_Solutions_V1.Api.ChatBotController.GetLimitedHistoryAsync_up(Int64 conversationId, Int32 maxHistory, String userMessage, String assistantMessage, String chosenService, String context, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions_V1\Api\ChatBotController.cs:line 1787
+   at GenxAi_Solutions_V1.Api.ChatBotController.HandleGreetingResponse(String message, Int64 convId, Int32 companyId, SqlVectorStores stores, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions_V1\Api\ChatBotController.cs:line 1919
+   at GenxAi_Solutions_V1.Api.ChatBotController.QuerySqlWithAgent(String message, String dbPathSql, String connStr, String databaseName, String dbType, Int64 convId, Int32 companyId, Int32 userId, Boolean wantsChart, Boolean sqlGreets, Int64 userMsgId, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions_V1\Api\ChatBotController.cs:line 1005
+--------------------------------------------------------------------------------
+[2025-12-02 14:54:04.569] [Error]
+Category: GenxAi_Solutions_V1.Api.ChatBotController
+Message: QuerySqlWithAgent failed after 42261ms - ConversationId=51609, Message=hi my name is nidhi
+Exception Type: System.InvalidOperationException
+Exception Message: Cache entry must specify a value for Size when SizeLimit is set.
+Stack Trace:    at Microsoft.Extensions.Caching.Memory.MemoryCache.SetEntry(CacheEntry entry)
+   at Microsoft.Extensions.Caching.Memory.CacheEntry.Dispose()
+   at Microsoft.Extensions.Caching.Memory.CacheExtensions.Set[TItem](IMemoryCache cache, Object key, TItem value, TimeSpan absoluteExpirationRelativeToNow)
+   at GenxAi_Solutions_V1.Api.ChatBotController.GetLimitedHistoryAsync_up(Int64 conversationId, Int32 maxHistory, String userMessage, String assistantMessage, String chosenService, String context, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions_V1\Api\ChatBotController.cs:line 1787
+   at GenxAi_Solutions_V1.Api.ChatBotController.HandleGreetingResponse(String message, Int64 convId, Int32 companyId, SqlVectorStores stores, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions_V1\Api\ChatBotController.cs:line 1919
+   at GenxAi_Solutions_V1.Api.ChatBotController.QuerySqlWithAgent(String message, String dbPathSql, String connStr, String databaseName, String dbType, Int64 convId, Int32 companyId, Int32 userId, Boolean wantsChart, Boolean sqlGreets, Int64 userMsgId, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions_V1\Api\ChatBotController.cs:line 1005
+--------------------------------------------------------------------------------
+[2025-12-02 14:54:04.696] [Error]
+Category: GenxAi_Solutions_V1.Api.ChatBotController
+Message: Error in AskAgent API - User: nidhi.lad@genxai.com, Service: SQLAnalytics, Message: hi my name is nidhi, CorrelationId: 03306d48-1726-42c2-b390-91a9c6be64f0, Error: Cache entry must specify a value for Size when SizeLimit is set.
+Exception Type: System.InvalidOperationException
+Exception Message: Cache entry must specify a value for Size when SizeLimit is set.
+Stack Trace:    at Microsoft.Extensions.Caching.Memory.MemoryCache.SetEntry(CacheEntry entry)
+   at Microsoft.Extensions.Caching.Memory.CacheEntry.Dispose()
+   at Microsoft.Extensions.Caching.Memory.CacheExtensions.Set[TItem](IMemoryCache cache, Object key, TItem value, TimeSpan absoluteExpirationRelativeToNow)
+   at GenxAi_Solutions_V1.Api.ChatBotController.GetLimitedHistoryAsync_up(Int64 conversationId, Int32 maxHistory, String userMessage, String assistantMessage, String chosenService, String context, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions_V1\Api\ChatBotController.cs:line 1787
+   at GenxAi_Solutions_V1.Api.ChatBotController.HandleGreetingResponse(String message, Int64 convId, Int32 companyId, SqlVectorStores stores, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions_V1\Api\ChatBotController.cs:line 1919
+   at GenxAi_Solutions_V1.Api.ChatBotController.QuerySqlWithAgent(String message, String dbPathSql, String connStr, String databaseName, String dbType, Int64 convId, Int32 companyId, Int32 userId, Boolean wantsChart, Boolean sqlGreets, Int64 userMsgId, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions_V1\Api\ChatBotController.cs:line 1005
+   at GenxAi_Solutions_V1.Api.ChatBotController.AskAgent(String message, String service, Nullable`1 conversationId, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions_V1\Api\ChatBotController.cs:line 176
+--------------------------------------------------------------------------------
+[2025-12-02 14:54:04.702] [Error]
+Category: GenxAi_Solutions_V1.Api.ChatBotController
+Message: Error in AskAgent API - User: nidhi.lad@genxai.com, Service: SQLAnalytics, Message: hi my name is nidhi, CorrelationId: 03306d48-1726-42c2-b390-91a9c6be64f0, Error: Cache entry must specify a value for Size when SizeLimit is set.
+Exception Type: System.InvalidOperationException
+Exception Message: Cache entry must specify a value for Size when SizeLimit is set.
+Stack Trace:    at Microsoft.Extensions.Caching.Memory.MemoryCache.SetEntry(CacheEntry entry)
+   at Microsoft.Extensions.Caching.Memory.CacheEntry.Dispose()
+   at Microsoft.Extensions.Caching.Memory.CacheExtensions.Set[TItem](IMemoryCache cache, Object key, TItem value, TimeSpan absoluteExpirationRelativeToNow)
+   at GenxAi_Solutions_V1.Api.ChatBotController.GetLimitedHistoryAsync_up(Int64 conversationId, Int32 maxHistory, String userMessage, String assistantMessage, String chosenService, String context, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions_V1\Api\ChatBotController.cs:line 1787
+   at GenxAi_Solutions_V1.Api.ChatBotController.HandleGreetingResponse(String message, Int64 convId, Int32 companyId, SqlVectorStores stores, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions_V1\Api\ChatBotController.cs:line 1919
+   at GenxAi_Solutions_V1.Api.ChatBotController.QuerySqlWithAgent(String message, String dbPathSql, String connStr, String databaseName, String dbType, Int64 convId, Int32 companyId, Int32 userId, Boolean wantsChart, Boolean sqlGreets, Int64 userMsgId, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions_V1\Api\ChatBotController.cs:line 1005
+   at GenxAi_Solutions_V1.Api.ChatBotController.AskAgent(String message, String service, Nullable`1 conversationId, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions_V1\Api\ChatBotController.cs:line 176
+--------------------------------------------------------------------------------
+[2025-12-02 14:54:04.849] [Error]
+Category: GenxAi_Solutions_V1.Utils.Middleware.ErrorHandlingMiddleware
+Message: Unhandled exception POST /api/chat/AskAgent 03306d48-1726-42c2-b390-91a9c6be64f0. Exception Details: System.InvalidOperationException - Cache entry must specify a value for Size when SizeLimit is set. Stack Trace:    at Microsoft.Extensions.Caching.Memory.MemoryCache.SetEntry(CacheEntry entry)
+   at Microsoft.Extensions.Caching.Memory.CacheEntry.Dispose()
+   at Microsoft.Extensions.Caching.Memory.CacheExtensions.Set[TItem](IMemoryCache cache, Object key, TItem value, TimeSpan absoluteExpirationRelativeToNow)
+   at GenxAi_Solutions_V1.Api.ChatBotController.GetLimitedHistoryAsync_up(Int64 conversationId, Int32 maxHistory, String userMessage, String assistantMessage, String chosenService, String context, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions_V1\Api\ChatBotController.cs:line 1787
+   at GenxAi_Solutions_V1.Api.ChatBotController.HandleGreetingResponse(String message, Int64 convId, Int32 companyId, SqlVectorStores stores, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions_V1\Api\ChatBotController.cs:line 1919
+   at GenxAi_Solutions_V1.Api.ChatBotController.QuerySqlWithAgent(String message, String dbPathSql, String connStr, String databaseName, String dbType, Int64 convId, Int32 companyId, Int32 userId, Boolean wantsChart, Boolean sqlGreets, Int64 userMsgId, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions_V1\Api\ChatBotController.cs:line 1005
+   at GenxAi_Solutions_V1.Api.ChatBotController.AskAgent(String message, String service, Nullable`1 conversationId, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions_V1\Api\ChatBotController.cs:line 176
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at GenxAi_Solutions_V1.Utils.Middleware.ErrorHandlingMiddleware.Invoke(HttpContext context) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions_V1\Utils\Middleware\ErrorHandlingMiddleware.cs:line 139
+Exception Type: System.InvalidOperationException
+Exception Message: Cache entry must specify a value for Size when SizeLimit is set.
+Stack Trace:    at Microsoft.Extensions.Caching.Memory.MemoryCache.SetEntry(CacheEntry entry)
+   at Microsoft.Extensions.Caching.Memory.CacheEntry.Dispose()
+   at Microsoft.Extensions.Caching.Memory.CacheExtensions.Set[TItem](IMemoryCache cache, Object key, TItem value, TimeSpan absoluteExpirationRelativeToNow)
+   at GenxAi_Solutions_V1.Api.ChatBotController.GetLimitedHistoryAsync_up(Int64 conversationId, Int32 maxHistory, String userMessage, String assistantMessage, String chosenService, String context, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions_V1\Api\ChatBotController.cs:line 1787
+   at GenxAi_Solutions_V1.Api.ChatBotController.HandleGreetingResponse(String message, Int64 convId, Int32 companyId, SqlVectorStores stores, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions_V1\Api\ChatBotController.cs:line 1919
+   at GenxAi_Solutions_V1.Api.ChatBotController.QuerySqlWithAgent(String message, String dbPathSql, String connStr, String databaseName, String dbType, Int64 convId, Int32 companyId, Int32 userId, Boolean wantsChart, Boolean sqlGreets, Int64 userMsgId, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions_V1\Api\ChatBotController.cs:line 1005
+   at GenxAi_Solutions_V1.Api.ChatBotController.AskAgent(String message, String service, Nullable`1 conversationId, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions_V1\Api\ChatBotController.cs:line 176
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at GenxAi_Solutions_V1.Utils.Middleware.ErrorHandlingMiddleware.Invoke(HttpContext context) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions_V1\Utils\Middleware\ErrorHandlingMiddleware.cs:line 139
+--------------------------------------------------------------------------------
+[2025-12-02 14:54:04.868] [Error]
+Category: GenxAi_Solutions_V1.Utils.Middleware.ErrorHandlingMiddleware
+Message: Unhandled exception POST /api/chat/AskAgent 03306d48-1726-42c2-b390-91a9c6be64f0. Exception Details: System.InvalidOperationException - Cache entry must specify a value for Size when SizeLimit is set. Stack Trace:    at Microsoft.Extensions.Caching.Memory.MemoryCache.SetEntry(CacheEntry entry)
+   at Microsoft.Extensions.Caching.Memory.CacheEntry.Dispose()
+   at Microsoft.Extensions.Caching.Memory.CacheExtensions.Set[TItem](IMemoryCache cache, Object key, TItem value, TimeSpan absoluteExpirationRelativeToNow)
+   at GenxAi_Solutions_V1.Api.ChatBotController.GetLimitedHistoryAsync_up(Int64 conversationId, Int32 maxHistory, String userMessage, String assistantMessage, String chosenService, String context, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions_V1\Api\ChatBotController.cs:line 1787
+   at GenxAi_Solutions_V1.Api.ChatBotController.HandleGreetingResponse(String message, Int64 convId, Int32 companyId, SqlVectorStores stores, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions_V1\Api\ChatBotController.cs:line 1919
+   at GenxAi_Solutions_V1.Api.ChatBotController.QuerySqlWithAgent(String message, String dbPathSql, String connStr, String databaseName, String dbType, Int64 convId, Int32 companyId, Int32 userId, Boolean wantsChart, Boolean sqlGreets, Int64 userMsgId, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions_V1\Api\ChatBotController.cs:line 1005
+   at GenxAi_Solutions_V1.Api.ChatBotController.AskAgent(String message, String service, Nullable`1 conversationId, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions_V1\Api\ChatBotController.cs:line 176
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at GenxAi_Solutions_V1.Utils.Middleware.ErrorHandlingMiddleware.Invoke(HttpContext context) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions_V1\Utils\Middleware\ErrorHandlingMiddleware.cs:line 139
+Exception Type: System.InvalidOperationException
+Exception Message: Cache entry must specify a value for Size when SizeLimit is set.
+Stack Trace:    at Microsoft.Extensions.Caching.Memory.MemoryCache.SetEntry(CacheEntry entry)
+   at Microsoft.Extensions.Caching.Memory.CacheEntry.Dispose()
+   at Microsoft.Extensions.Caching.Memory.CacheExtensions.Set[TItem](IMemoryCache cache, Object key, TItem value, TimeSpan absoluteExpirationRelativeToNow)
+   at GenxAi_Solutions_V1.Api.ChatBotController.GetLimitedHistoryAsync_up(Int64 conversationId, Int32 maxHistory, String userMessage, String assistantMessage, String chosenService, String context, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions_V1\Api\ChatBotController.cs:line 1787
+   at GenxAi_Solutions_V1.Api.ChatBotController.HandleGreetingResponse(String message, Int64 convId, Int32 companyId, SqlVectorStores stores, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions_V1\Api\ChatBotController.cs:line 1919
+   at GenxAi_Solutions_V1.Api.ChatBotController.QuerySqlWithAgent(String message, String dbPathSql, String connStr, String databaseName, String dbType, Int64 convId, Int32 companyId, Int32 userId, Boolean wantsChart, Boolean sqlGreets, Int64 userMsgId, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions_V1\Api\ChatBotController.cs:line 1005
+   at GenxAi_Solutions_V1.Api.ChatBotController.AskAgent(String message, String service, Nullable`1 conversationId, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions_V1\Api\ChatBotController.cs:line 176
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at GenxAi_Solutions_V1.Utils.Middleware.ErrorHandlingMiddleware.Invoke(HttpContext context) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions_V1\Utils\Middleware\ErrorHandlingMiddleware.cs:line 139
+--------------------------------------------------------------------------------
+[2025-12-02 15:07:54.405] [Error]
+Category: GenxAi_Solutions_V1.Api.ChatBotController
+Message: QuerySqlWithAgent failed after 104308ms - ConversationId=51611, Message=hi
+Exception Type: System.InvalidOperationException
+Exception Message: Cache entry must specify a value for Size when SizeLimit is set.
+Stack Trace:    at Microsoft.Extensions.Caching.Memory.MemoryCache.SetEntry(CacheEntry entry)
+   at Microsoft.Extensions.Caching.Memory.CacheEntry.Dispose()
+   at Microsoft.Extensions.Caching.Memory.CacheExtensions.Set[TItem](IMemoryCache cache, Object key, TItem value, TimeSpan absoluteExpirationRelativeToNow)
+   at GenxAi_Solutions_V1.Api.ChatBotController.GetLimitedHistoryAsync_up(Int64 conversationId, Int32 maxHistory, String userMessage, String assistantMessage, String chosenService, String context, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions_V1\Api\ChatBotController.cs:line 1787
+   at GenxAi_Solutions_V1.Api.ChatBotController.HandleGreetingResponse(String message, Int64 convId, Int32 companyId, SqlVectorStores stores, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions_V1\Api\ChatBotController.cs:line 1919
+   at GenxAi_Solutions_V1.Api.ChatBotController.QuerySqlWithAgent(String message, String dbPathSql, String connStr, String databaseName, String dbType, Int64 convId, Int32 companyId, Int32 userId, Boolean wantsChart, Boolean sqlGreets, Int64 userMsgId, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions_V1\Api\ChatBotController.cs:line 1005
+--------------------------------------------------------------------------------
+[2025-12-02 15:07:54.408] [Error]
+Category: GenxAi_Solutions_V1.Api.ChatBotController
+Message: QuerySqlWithAgent failed after 104308ms - ConversationId=51611, Message=hi
+Exception Type: System.InvalidOperationException
+Exception Message: Cache entry must specify a value for Size when SizeLimit is set.
+Stack Trace:    at Microsoft.Extensions.Caching.Memory.MemoryCache.SetEntry(CacheEntry entry)
+   at Microsoft.Extensions.Caching.Memory.CacheEntry.Dispose()
+   at Microsoft.Extensions.Caching.Memory.CacheExtensions.Set[TItem](IMemoryCache cache, Object key, TItem value, TimeSpan absoluteExpirationRelativeToNow)
+   at GenxAi_Solutions_V1.Api.ChatBotController.GetLimitedHistoryAsync_up(Int64 conversationId, Int32 maxHistory, String userMessage, String assistantMessage, String chosenService, String context, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions_V1\Api\ChatBotController.cs:line 1787
+   at GenxAi_Solutions_V1.Api.ChatBotController.HandleGreetingResponse(String message, Int64 convId, Int32 companyId, SqlVectorStores stores, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions_V1\Api\ChatBotController.cs:line 1919
+   at GenxAi_Solutions_V1.Api.ChatBotController.QuerySqlWithAgent(String message, String dbPathSql, String connStr, String databaseName, String dbType, Int64 convId, Int32 companyId, Int32 userId, Boolean wantsChart, Boolean sqlGreets, Int64 userMsgId, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions_V1\Api\ChatBotController.cs:line 1005
+--------------------------------------------------------------------------------
+[2025-12-02 15:07:54.479] [Error]
+Category: GenxAi_Solutions_V1.Api.ChatBotController
+Message: Error in AskAgent API - User: nidhi.lad@genxai.com, Service: SQLAnalytics, Message: hi, CorrelationId: 8f156ee6-30a8-43e8-befb-e4aff6473fae, Error: Cache entry must specify a value for Size when SizeLimit is set.
+Exception Type: System.InvalidOperationException
+Exception Message: Cache entry must specify a value for Size when SizeLimit is set.
+Stack Trace:    at Microsoft.Extensions.Caching.Memory.MemoryCache.SetEntry(CacheEntry entry)
+   at Microsoft.Extensions.Caching.Memory.CacheEntry.Dispose()
+   at Microsoft.Extensions.Caching.Memory.CacheExtensions.Set[TItem](IMemoryCache cache, Object key, TItem value, TimeSpan absoluteExpirationRelativeToNow)
+   at GenxAi_Solutions_V1.Api.ChatBotController.GetLimitedHistoryAsync_up(Int64 conversationId, Int32 maxHistory, String userMessage, String assistantMessage, String chosenService, String context, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions_V1\Api\ChatBotController.cs:line 1787
+   at GenxAi_Solutions_V1.Api.ChatBotController.HandleGreetingResponse(String message, Int64 convId, Int32 companyId, SqlVectorStores stores, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions_V1\Api\ChatBotController.cs:line 1919
+   at GenxAi_Solutions_V1.Api.ChatBotController.QuerySqlWithAgent(String message, String dbPathSql, String connStr, String databaseName, String dbType, Int64 convId, Int32 companyId, Int32 userId, Boolean wantsChart, Boolean sqlGreets, Int64 userMsgId, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions_V1\Api\ChatBotController.cs:line 1005
+   at GenxAi_Solutions_V1.Api.ChatBotController.AskAgent(String message, String service, Nullable`1 conversationId, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions_V1\Api\ChatBotController.cs:line 176
+--------------------------------------------------------------------------------
+[2025-12-02 15:07:54.483] [Error]
+Category: GenxAi_Solutions_V1.Api.ChatBotController
+Message: Error in AskAgent API - User: nidhi.lad@genxai.com, Service: SQLAnalytics, Message: hi, CorrelationId: 8f156ee6-30a8-43e8-befb-e4aff6473fae, Error: Cache entry must specify a value for Size when SizeLimit is set.
+Exception Type: System.InvalidOperationException
+Exception Message: Cache entry must specify a value for Size when SizeLimit is set.
+Stack Trace:    at Microsoft.Extensions.Caching.Memory.MemoryCache.SetEntry(CacheEntry entry)
+   at Microsoft.Extensions.Caching.Memory.CacheEntry.Dispose()
+   at Microsoft.Extensions.Caching.Memory.CacheExtensions.Set[TItem](IMemoryCache cache, Object key, TItem value, TimeSpan absoluteExpirationRelativeToNow)
+   at GenxAi_Solutions_V1.Api.ChatBotController.GetLimitedHistoryAsync_up(Int64 conversationId, Int32 maxHistory, String userMessage, String assistantMessage, String chosenService, String context, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions_V1\Api\ChatBotController.cs:line 1787
+   at GenxAi_Solutions_V1.Api.ChatBotController.HandleGreetingResponse(String message, Int64 convId, Int32 companyId, SqlVectorStores stores, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions_V1\Api\ChatBotController.cs:line 1919
+   at GenxAi_Solutions_V1.Api.ChatBotController.QuerySqlWithAgent(String message, String dbPathSql, String connStr, String databaseName, String dbType, Int64 convId, Int32 companyId, Int32 userId, Boolean wantsChart, Boolean sqlGreets, Int64 userMsgId, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions_V1\Api\ChatBotController.cs:line 1005
+   at GenxAi_Solutions_V1.Api.ChatBotController.AskAgent(String message, String service, Nullable`1 conversationId, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions_V1\Api\ChatBotController.cs:line 176
+--------------------------------------------------------------------------------
+[2025-12-02 15:07:54.581] [Error]
+Category: GenxAi_Solutions_V1.Utils.Middleware.ErrorHandlingMiddleware
+Message: Unhandled exception POST /api/chat/AskAgent 8f156ee6-30a8-43e8-befb-e4aff6473fae. Exception Details: System.InvalidOperationException - Cache entry must specify a value for Size when SizeLimit is set. Stack Trace:    at Microsoft.Extensions.Caching.Memory.MemoryCache.SetEntry(CacheEntry entry)
+   at Microsoft.Extensions.Caching.Memory.CacheEntry.Dispose()
+   at Microsoft.Extensions.Caching.Memory.CacheExtensions.Set[TItem](IMemoryCache cache, Object key, TItem value, TimeSpan absoluteExpirationRelativeToNow)
+   at GenxAi_Solutions_V1.Api.ChatBotController.GetLimitedHistoryAsync_up(Int64 conversationId, Int32 maxHistory, String userMessage, String assistantMessage, String chosenService, String context, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions_V1\Api\ChatBotController.cs:line 1787
+   at GenxAi_Solutions_V1.Api.ChatBotController.HandleGreetingResponse(String message, Int64 convId, Int32 companyId, SqlVectorStores stores, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions_V1\Api\ChatBotController.cs:line 1919
+   at GenxAi_Solutions_V1.Api.ChatBotController.QuerySqlWithAgent(String message, String dbPathSql, String connStr, String databaseName, String dbType, Int64 convId, Int32 companyId, Int32 userId, Boolean wantsChart, Boolean sqlGreets, Int64 userMsgId, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions_V1\Api\ChatBotController.cs:line 1005
+   at GenxAi_Solutions_V1.Api.ChatBotController.AskAgent(String message, String service, Nullable`1 conversationId, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions_V1\Api\ChatBotController.cs:line 176
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at GenxAi_Solutions_V1.Utils.Middleware.ErrorHandlingMiddleware.Invoke(HttpContext context) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions_V1\Utils\Middleware\ErrorHandlingMiddleware.cs:line 139
+Exception Type: System.InvalidOperationException
+Exception Message: Cache entry must specify a value for Size when SizeLimit is set.
+Stack Trace:    at Microsoft.Extensions.Caching.Memory.MemoryCache.SetEntry(CacheEntry entry)
+   at Microsoft.Extensions.Caching.Memory.CacheEntry.Dispose()
+   at Microsoft.Extensions.Caching.Memory.CacheExtensions.Set[TItem](IMemoryCache cache, Object key, TItem value, TimeSpan absoluteExpirationRelativeToNow)
+   at GenxAi_Solutions_V1.Api.ChatBotController.GetLimitedHistoryAsync_up(Int64 conversationId, Int32 maxHistory, String userMessage, String assistantMessage, String chosenService, String context, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions_V1\Api\ChatBotController.cs:line 1787
+   at GenxAi_Solutions_V1.Api.ChatBotController.HandleGreetingResponse(String message, Int64 convId, Int32 companyId, SqlVectorStores stores, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions_V1\Api\ChatBotController.cs:line 1919
+   at GenxAi_Solutions_V1.Api.ChatBotController.QuerySqlWithAgent(String message, String dbPathSql, String connStr, String databaseName, String dbType, Int64 convId, Int32 companyId, Int32 userId, Boolean wantsChart, Boolean sqlGreets, Int64 userMsgId, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions_V1\Api\ChatBotController.cs:line 1005
+   at GenxAi_Solutions_V1.Api.ChatBotController.AskAgent(String message, String service, Nullable`1 conversationId, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions_V1\Api\ChatBotController.cs:line 176
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at GenxAi_Solutions_V1.Utils.Middleware.ErrorHandlingMiddleware.Invoke(HttpContext context) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions_V1\Utils\Middleware\ErrorHandlingMiddleware.cs:line 139
+--------------------------------------------------------------------------------
+[2025-12-02 15:07:54.586] [Error]
+Category: GenxAi_Solutions_V1.Utils.Middleware.ErrorHandlingMiddleware
+Message: Unhandled exception POST /api/chat/AskAgent 8f156ee6-30a8-43e8-befb-e4aff6473fae. Exception Details: System.InvalidOperationException - Cache entry must specify a value for Size when SizeLimit is set. Stack Trace:    at Microsoft.Extensions.Caching.Memory.MemoryCache.SetEntry(CacheEntry entry)
+   at Microsoft.Extensions.Caching.Memory.CacheEntry.Dispose()
+   at Microsoft.Extensions.Caching.Memory.CacheExtensions.Set[TItem](IMemoryCache cache, Object key, TItem value, TimeSpan absoluteExpirationRelativeToNow)
+   at GenxAi_Solutions_V1.Api.ChatBotController.GetLimitedHistoryAsync_up(Int64 conversationId, Int32 maxHistory, String userMessage, String assistantMessage, String chosenService, String context, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions_V1\Api\ChatBotController.cs:line 1787
+   at GenxAi_Solutions_V1.Api.ChatBotController.HandleGreetingResponse(String message, Int64 convId, Int32 companyId, SqlVectorStores stores, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions_V1\Api\ChatBotController.cs:line 1919
+   at GenxAi_Solutions_V1.Api.ChatBotController.QuerySqlWithAgent(String message, String dbPathSql, String connStr, String databaseName, String dbType, Int64 convId, Int32 companyId, Int32 userId, Boolean wantsChart, Boolean sqlGreets, Int64 userMsgId, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions_V1\Api\ChatBotController.cs:line 1005
+   at GenxAi_Solutions_V1.Api.ChatBotController.AskAgent(String message, String service, Nullable`1 conversationId, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions_V1\Api\ChatBotController.cs:line 176
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at GenxAi_Solutions_V1.Utils.Middleware.ErrorHandlingMiddleware.Invoke(HttpContext context) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions_V1\Utils\Middleware\ErrorHandlingMiddleware.cs:line 139
+Exception Type: System.InvalidOperationException
+Exception Message: Cache entry must specify a value for Size when SizeLimit is set.
+Stack Trace:    at Microsoft.Extensions.Caching.Memory.MemoryCache.SetEntry(CacheEntry entry)
+   at Microsoft.Extensions.Caching.Memory.CacheEntry.Dispose()
+   at Microsoft.Extensions.Caching.Memory.CacheExtensions.Set[TItem](IMemoryCache cache, Object key, TItem value, TimeSpan absoluteExpirationRelativeToNow)
+   at GenxAi_Solutions_V1.Api.ChatBotController.GetLimitedHistoryAsync_up(Int64 conversationId, Int32 maxHistory, String userMessage, String assistantMessage, String chosenService, String context, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions_V1\Api\ChatBotController.cs:line 1787
+   at GenxAi_Solutions_V1.Api.ChatBotController.HandleGreetingResponse(String message, Int64 convId, Int32 companyId, SqlVectorStores stores, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions_V1\Api\ChatBotController.cs:line 1919
+   at GenxAi_Solutions_V1.Api.ChatBotController.QuerySqlWithAgent(String message, String dbPathSql, String connStr, String databaseName, String dbType, Int64 convId, Int32 companyId, Int32 userId, Boolean wantsChart, Boolean sqlGreets, Int64 userMsgId, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions_V1\Api\ChatBotController.cs:line 1005
+   at GenxAi_Solutions_V1.Api.ChatBotController.AskAgent(String message, String service, Nullable`1 conversationId, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions_V1\Api\ChatBotController.cs:line 176
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at GenxAi_Solutions_V1.Utils.Middleware.ErrorHandlingMiddleware.Invoke(HttpContext context) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions_V1\Utils\Middleware\ErrorHandlingMiddleware.cs:line 139
+--------------------------------------------------------------------------------
+[2025-12-02 15:28:42.446] [Error]
+Category: GenxAi_Solutions_V1.Services.AuthEventsService
+Message: JWT authentication failed on /api/auth/login
+Exception Type: Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException
+Exception Message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '12/2/2025 9:35:37 AM', Current time (UTC): '12/2/2025 9:58:42 AM'.
+Stack Trace:    at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+--------------------------------------------------------------------------------
+[2025-12-02 15:28:42.525] [Error]
+Category: GenxAi_Solutions_V1.Services.AuthEventsService
+Message: JWT authentication failed on /api/auth/login
+Exception Type: Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException
+Exception Message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '12/2/2025 9:35:37 AM', Current time (UTC): '12/2/2025 9:58:42 AM'.
+Stack Trace:    at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+--------------------------------------------------------------------------------
+[2025-12-02 15:29:48.009] [Error]
+Category: GenxAi_Solutions_V1.Api.ChatBotController
+Message: QuerySqlWithAgent failed after 17785ms - ConversationId=51614, Message=hi
+Exception Type: System.InvalidOperationException
+Exception Message: Cache entry must specify a value for Size when SizeLimit is set.
+Stack Trace:    at Microsoft.Extensions.Caching.Memory.MemoryCache.SetEntry(CacheEntry entry)
+   at Microsoft.Extensions.Caching.Memory.CacheEntry.Dispose()
+   at Microsoft.Extensions.Caching.Memory.CacheExtensions.Set[TItem](IMemoryCache cache, Object key, TItem value, TimeSpan absoluteExpirationRelativeToNow)
+   at GenxAi_Solutions_V1.Api.ChatBotController.GetLimitedHistoryAsync_up(Int64 conversationId, Int32 maxHistory, String userMessage, String assistantMessage, String chosenService, String context, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions_V1\Api\ChatBotController.cs:line 1787
+   at GenxAi_Solutions_V1.Api.ChatBotController.HandleGreetingResponse(String message, Int64 convId, Int32 companyId, SqlVectorStores stores, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions_V1\Api\ChatBotController.cs:line 1919
+   at GenxAi_Solutions_V1.Api.ChatBotController.QuerySqlWithAgent(String message, String dbPathSql, String connStr, String databaseName, String dbType, Int64 convId, Int32 companyId, Int32 userId, Boolean wantsChart, Boolean sqlGreets, Int64 userMsgId, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions_V1\Api\ChatBotController.cs:line 1005
+--------------------------------------------------------------------------------
+[2025-12-02 15:29:48.037] [Error]
+Category: GenxAi_Solutions_V1.Api.ChatBotController
+Message: QuerySqlWithAgent failed after 17785ms - ConversationId=51614, Message=hi
+Exception Type: System.InvalidOperationException
+Exception Message: Cache entry must specify a value for Size when SizeLimit is set.
+Stack Trace:    at Microsoft.Extensions.Caching.Memory.MemoryCache.SetEntry(CacheEntry entry)
+   at Microsoft.Extensions.Caching.Memory.CacheEntry.Dispose()
+   at Microsoft.Extensions.Caching.Memory.CacheExtensions.Set[TItem](IMemoryCache cache, Object key, TItem value, TimeSpan absoluteExpirationRelativeToNow)
+   at GenxAi_Solutions_V1.Api.ChatBotController.GetLimitedHistoryAsync_up(Int64 conversationId, Int32 maxHistory, String userMessage, String assistantMessage, String chosenService, String context, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions_V1\Api\ChatBotController.cs:line 1787
+   at GenxAi_Solutions_V1.Api.ChatBotController.HandleGreetingResponse(String message, Int64 convId, Int32 companyId, SqlVectorStores stores, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions_V1\Api\ChatBotController.cs:line 1919
+   at GenxAi_Solutions_V1.Api.ChatBotController.QuerySqlWithAgent(String message, String dbPathSql, String connStr, String databaseName, String dbType, Int64 convId, Int32 companyId, Int32 userId, Boolean wantsChart, Boolean sqlGreets, Int64 userMsgId, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions_V1\Api\ChatBotController.cs:line 1005
+--------------------------------------------------------------------------------
+[2025-12-02 15:29:48.306] [Error]
+Category: GenxAi_Solutions_V1.Api.ChatBotController
+Message: Error in AskAgent API - User: nidhi.lad@genxai.com, Service: SQLAnalytics, Message: hi, CorrelationId: 48cec529-1d7e-4e61-a778-f679f0c7d973, Error: Cache entry must specify a value for Size when SizeLimit is set.
+Exception Type: System.InvalidOperationException
+Exception Message: Cache entry must specify a value for Size when SizeLimit is set.
+Stack Trace:    at Microsoft.Extensions.Caching.Memory.MemoryCache.SetEntry(CacheEntry entry)
+   at Microsoft.Extensions.Caching.Memory.CacheEntry.Dispose()
+   at Microsoft.Extensions.Caching.Memory.CacheExtensions.Set[TItem](IMemoryCache cache, Object key, TItem value, TimeSpan absoluteExpirationRelativeToNow)
+   at GenxAi_Solutions_V1.Api.ChatBotController.GetLimitedHistoryAsync_up(Int64 conversationId, Int32 maxHistory, String userMessage, String assistantMessage, String chosenService, String context, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions_V1\Api\ChatBotController.cs:line 1787
+   at GenxAi_Solutions_V1.Api.ChatBotController.HandleGreetingResponse(String message, Int64 convId, Int32 companyId, SqlVectorStores stores, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions_V1\Api\ChatBotController.cs:line 1919
+   at GenxAi_Solutions_V1.Api.ChatBotController.QuerySqlWithAgent(String message, String dbPathSql, String connStr, String databaseName, String dbType, Int64 convId, Int32 companyId, Int32 userId, Boolean wantsChart, Boolean sqlGreets, Int64 userMsgId, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions_V1\Api\ChatBotController.cs:line 1005
+   at GenxAi_Solutions_V1.Api.ChatBotController.AskAgent(String message, String service, Nullable`1 conversationId, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions_V1\Api\ChatBotController.cs:line 176
+--------------------------------------------------------------------------------
+[2025-12-02 15:29:48.310] [Error]
+Category: GenxAi_Solutions_V1.Api.ChatBotController
+Message: Error in AskAgent API - User: nidhi.lad@genxai.com, Service: SQLAnalytics, Message: hi, CorrelationId: 48cec529-1d7e-4e61-a778-f679f0c7d973, Error: Cache entry must specify a value for Size when SizeLimit is set.
+Exception Type: System.InvalidOperationException
+Exception Message: Cache entry must specify a value for Size when SizeLimit is set.
+Stack Trace:    at Microsoft.Extensions.Caching.Memory.MemoryCache.SetEntry(CacheEntry entry)
+   at Microsoft.Extensions.Caching.Memory.CacheEntry.Dispose()
+   at Microsoft.Extensions.Caching.Memory.CacheExtensions.Set[TItem](IMemoryCache cache, Object key, TItem value, TimeSpan absoluteExpirationRelativeToNow)
+   at GenxAi_Solutions_V1.Api.ChatBotController.GetLimitedHistoryAsync_up(Int64 conversationId, Int32 maxHistory, String userMessage, String assistantMessage, String chosenService, String context, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions_V1\Api\ChatBotController.cs:line 1787
+   at GenxAi_Solutions_V1.Api.ChatBotController.HandleGreetingResponse(String message, Int64 convId, Int32 companyId, SqlVectorStores stores, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions_V1\Api\ChatBotController.cs:line 1919
+   at GenxAi_Solutions_V1.Api.ChatBotController.QuerySqlWithAgent(String message, String dbPathSql, String connStr, String databaseName, String dbType, Int64 convId, Int32 companyId, Int32 userId, Boolean wantsChart, Boolean sqlGreets, Int64 userMsgId, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions_V1\Api\ChatBotController.cs:line 1005
+   at GenxAi_Solutions_V1.Api.ChatBotController.AskAgent(String message, String service, Nullable`1 conversationId, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions_V1\Api\ChatBotController.cs:line 176
+--------------------------------------------------------------------------------
+[2025-12-02 15:29:48.770] [Error]
+Category: GenxAi_Solutions_V1.Utils.Middleware.ErrorHandlingMiddleware
+Message: Unhandled exception POST /api/chat/AskAgent 48cec529-1d7e-4e61-a778-f679f0c7d973. Exception Details: System.InvalidOperationException - Cache entry must specify a value for Size when SizeLimit is set. Stack Trace:    at Microsoft.Extensions.Caching.Memory.MemoryCache.SetEntry(CacheEntry entry)
+   at Microsoft.Extensions.Caching.Memory.CacheEntry.Dispose()
+   at Microsoft.Extensions.Caching.Memory.CacheExtensions.Set[TItem](IMemoryCache cache, Object key, TItem value, TimeSpan absoluteExpirationRelativeToNow)
+   at GenxAi_Solutions_V1.Api.ChatBotController.GetLimitedHistoryAsync_up(Int64 conversationId, Int32 maxHistory, String userMessage, String assistantMessage, String chosenService, String context, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions_V1\Api\ChatBotController.cs:line 1787
+   at GenxAi_Solutions_V1.Api.ChatBotController.HandleGreetingResponse(String message, Int64 convId, Int32 companyId, SqlVectorStores stores, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions_V1\Api\ChatBotController.cs:line 1919
+   at GenxAi_Solutions_V1.Api.ChatBotController.QuerySqlWithAgent(String message, String dbPathSql, String connStr, String databaseName, String dbType, Int64 convId, Int32 companyId, Int32 userId, Boolean wantsChart, Boolean sqlGreets, Int64 userMsgId, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions_V1\Api\ChatBotController.cs:line 1005
+   at GenxAi_Solutions_V1.Api.ChatBotController.AskAgent(String message, String service, Nullable`1 conversationId, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions_V1\Api\ChatBotController.cs:line 176
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at GenxAi_Solutions_V1.Utils.Middleware.ErrorHandlingMiddleware.Invoke(HttpContext context) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions_V1\Utils\Middleware\ErrorHandlingMiddleware.cs:line 139
+Exception Type: System.InvalidOperationException
+Exception Message: Cache entry must specify a value for Size when SizeLimit is set.
+Stack Trace:    at Microsoft.Extensions.Caching.Memory.MemoryCache.SetEntry(CacheEntry entry)
+   at Microsoft.Extensions.Caching.Memory.CacheEntry.Dispose()
+   at Microsoft.Extensions.Caching.Memory.CacheExtensions.Set[TItem](IMemoryCache cache, Object key, TItem value, TimeSpan absoluteExpirationRelativeToNow)
+   at GenxAi_Solutions_V1.Api.ChatBotController.GetLimitedHistoryAsync_up(Int64 conversationId, Int32 maxHistory, String userMessage, String assistantMessage, String chosenService, String context, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions_V1\Api\ChatBotController.cs:line 1787
+   at GenxAi_Solutions_V1.Api.ChatBotController.HandleGreetingResponse(String message, Int64 convId, Int32 companyId, SqlVectorStores stores, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions_V1\Api\ChatBotController.cs:line 1919
+   at GenxAi_Solutions_V1.Api.ChatBotController.QuerySqlWithAgent(String message, String dbPathSql, String connStr, String databaseName, String dbType, Int64 convId, Int32 companyId, Int32 userId, Boolean wantsChart, Boolean sqlGreets, Int64 userMsgId, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions_V1\Api\ChatBotController.cs:line 1005
+   at GenxAi_Solutions_V1.Api.ChatBotController.AskAgent(String message, String service, Nullable`1 conversationId, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions_V1\Api\ChatBotController.cs:line 176
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at GenxAi_Solutions_V1.Utils.Middleware.ErrorHandlingMiddleware.Invoke(HttpContext context) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions_V1\Utils\Middleware\ErrorHandlingMiddleware.cs:line 139
+--------------------------------------------------------------------------------
+[2025-12-02 15:29:48.775] [Error]
+Category: GenxAi_Solutions_V1.Utils.Middleware.ErrorHandlingMiddleware
+Message: Unhandled exception POST /api/chat/AskAgent 48cec529-1d7e-4e61-a778-f679f0c7d973. Exception Details: System.InvalidOperationException - Cache entry must specify a value for Size when SizeLimit is set. Stack Trace:    at Microsoft.Extensions.Caching.Memory.MemoryCache.SetEntry(CacheEntry entry)
+   at Microsoft.Extensions.Caching.Memory.CacheEntry.Dispose()
+   at Microsoft.Extensions.Caching.Memory.CacheExtensions.Set[TItem](IMemoryCache cache, Object key, TItem value, TimeSpan absoluteExpirationRelativeToNow)
+   at GenxAi_Solutions_V1.Api.ChatBotController.GetLimitedHistoryAsync_up(Int64 conversationId, Int32 maxHistory, String userMessage, String assistantMessage, String chosenService, String context, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions_V1\Api\ChatBotController.cs:line 1787
+   at GenxAi_Solutions_V1.Api.ChatBotController.HandleGreetingResponse(String message, Int64 convId, Int32 companyId, SqlVectorStores stores, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions_V1\Api\ChatBotController.cs:line 1919
+   at GenxAi_Solutions_V1.Api.ChatBotController.QuerySqlWithAgent(String message, String dbPathSql, String connStr, String databaseName, String dbType, Int64 convId, Int32 companyId, Int32 userId, Boolean wantsChart, Boolean sqlGreets, Int64 userMsgId, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions_V1\Api\ChatBotController.cs:line 1005
+   at GenxAi_Solutions_V1.Api.ChatBotController.AskAgent(String message, String service, Nullable`1 conversationId, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions_V1\Api\ChatBotController.cs:line 176
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at GenxAi_Solutions_V1.Utils.Middleware.ErrorHandlingMiddleware.Invoke(HttpContext context) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions_V1\Utils\Middleware\ErrorHandlingMiddleware.cs:line 139
+Exception Type: System.InvalidOperationException
+Exception Message: Cache entry must specify a value for Size when SizeLimit is set.
+Stack Trace:    at Microsoft.Extensions.Caching.Memory.MemoryCache.SetEntry(CacheEntry entry)
+   at Microsoft.Extensions.Caching.Memory.CacheEntry.Dispose()
+   at Microsoft.Extensions.Caching.Memory.CacheExtensions.Set[TItem](IMemoryCache cache, Object key, TItem value, TimeSpan absoluteExpirationRelativeToNow)
+   at GenxAi_Solutions_V1.Api.ChatBotController.GetLimitedHistoryAsync_up(Int64 conversationId, Int32 maxHistory, String userMessage, String assistantMessage, String chosenService, String context, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions_V1\Api\ChatBotController.cs:line 1787
+   at GenxAi_Solutions_V1.Api.ChatBotController.HandleGreetingResponse(String message, Int64 convId, Int32 companyId, SqlVectorStores stores, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions_V1\Api\ChatBotController.cs:line 1919
+   at GenxAi_Solutions_V1.Api.ChatBotController.QuerySqlWithAgent(String message, String dbPathSql, String connStr, String databaseName, String dbType, Int64 convId, Int32 companyId, Int32 userId, Boolean wantsChart, Boolean sqlGreets, Int64 userMsgId, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions_V1\Api\ChatBotController.cs:line 1005
+   at GenxAi_Solutions_V1.Api.ChatBotController.AskAgent(String message, String service, Nullable`1 conversationId, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions_V1\Api\ChatBotController.cs:line 176
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at GenxAi_Solutions_V1.Utils.Middleware.ErrorHandlingMiddleware.Invoke(HttpContext context) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions_V1\Utils\Middleware\ErrorHandlingMiddleware.cs:line 139
+--------------------------------------------------------------------------------
+[2025-12-02 15:30:37.398] [Error]
+Category: GenxAi_Solutions_V1.Api.ChatBotController
+Message: QuerySqlWithAgent failed after 14055ms - ConversationId=51615, Message=hi
+Exception Type: System.InvalidOperationException
+Exception Message: Cache entry must specify a value for Size when SizeLimit is set.
+Stack Trace:    at Microsoft.Extensions.Caching.Memory.MemoryCache.SetEntry(CacheEntry entry)
+   at Microsoft.Extensions.Caching.Memory.CacheEntry.Dispose()
+   at Microsoft.Extensions.Caching.Memory.CacheExtensions.Set[TItem](IMemoryCache cache, Object key, TItem value, TimeSpan absoluteExpirationRelativeToNow)
+   at GenxAi_Solutions_V1.Api.ChatBotController.GetLimitedHistoryAsync_up(Int64 conversationId, Int32 maxHistory, String userMessage, String assistantMessage, String chosenService, String context, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions_V1\Api\ChatBotController.cs:line 1787
+   at GenxAi_Solutions_V1.Api.ChatBotController.HandleGreetingResponse(String message, Int64 convId, Int32 companyId, SqlVectorStores stores, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions_V1\Api\ChatBotController.cs:line 1919
+   at GenxAi_Solutions_V1.Api.ChatBotController.QuerySqlWithAgent(String message, String dbPathSql, String connStr, String databaseName, String dbType, Int64 convId, Int32 companyId, Int32 userId, Boolean wantsChart, Boolean sqlGreets, Int64 userMsgId, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions_V1\Api\ChatBotController.cs:line 1005
+--------------------------------------------------------------------------------
+[2025-12-02 15:30:37.402] [Error]
+Category: GenxAi_Solutions_V1.Api.ChatBotController
+Message: QuerySqlWithAgent failed after 14055ms - ConversationId=51615, Message=hi
+Exception Type: System.InvalidOperationException
+Exception Message: Cache entry must specify a value for Size when SizeLimit is set.
+Stack Trace:    at Microsoft.Extensions.Caching.Memory.MemoryCache.SetEntry(CacheEntry entry)
+   at Microsoft.Extensions.Caching.Memory.CacheEntry.Dispose()
+   at Microsoft.Extensions.Caching.Memory.CacheExtensions.Set[TItem](IMemoryCache cache, Object key, TItem value, TimeSpan absoluteExpirationRelativeToNow)
+   at GenxAi_Solutions_V1.Api.ChatBotController.GetLimitedHistoryAsync_up(Int64 conversationId, Int32 maxHistory, String userMessage, String assistantMessage, String chosenService, String context, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions_V1\Api\ChatBotController.cs:line 1787
+   at GenxAi_Solutions_V1.Api.ChatBotController.HandleGreetingResponse(String message, Int64 convId, Int32 companyId, SqlVectorStores stores, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions_V1\Api\ChatBotController.cs:line 1919
+   at GenxAi_Solutions_V1.Api.ChatBotController.QuerySqlWithAgent(String message, String dbPathSql, String connStr, String databaseName, String dbType, Int64 convId, Int32 companyId, Int32 userId, Boolean wantsChart, Boolean sqlGreets, Int64 userMsgId, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions_V1\Api\ChatBotController.cs:line 1005
+--------------------------------------------------------------------------------
+[2025-12-02 15:30:37.693] [Error]
+Category: GenxAi_Solutions_V1.Api.ChatBotController
+Message: Error in AskAgent API - User: nidhi.lad@genxai.com, Service: SQLAnalytics, Message: hi, CorrelationId: 04b11b38-c5ad-4de4-b60a-1e760fd6ef9f, Error: Cache entry must specify a value for Size when SizeLimit is set.
+Exception Type: System.InvalidOperationException
+Exception Message: Cache entry must specify a value for Size when SizeLimit is set.
+Stack Trace:    at Microsoft.Extensions.Caching.Memory.MemoryCache.SetEntry(CacheEntry entry)
+   at Microsoft.Extensions.Caching.Memory.CacheEntry.Dispose()
+   at Microsoft.Extensions.Caching.Memory.CacheExtensions.Set[TItem](IMemoryCache cache, Object key, TItem value, TimeSpan absoluteExpirationRelativeToNow)
+   at GenxAi_Solutions_V1.Api.ChatBotController.GetLimitedHistoryAsync_up(Int64 conversationId, Int32 maxHistory, String userMessage, String assistantMessage, String chosenService, String context, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions_V1\Api\ChatBotController.cs:line 1787
+   at GenxAi_Solutions_V1.Api.ChatBotController.HandleGreetingResponse(String message, Int64 convId, Int32 companyId, SqlVectorStores stores, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions_V1\Api\ChatBotController.cs:line 1919
+   at GenxAi_Solutions_V1.Api.ChatBotController.QuerySqlWithAgent(String message, String dbPathSql, String connStr, String databaseName, String dbType, Int64 convId, Int32 companyId, Int32 userId, Boolean wantsChart, Boolean sqlGreets, Int64 userMsgId, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions_V1\Api\ChatBotController.cs:line 1005
+   at GenxAi_Solutions_V1.Api.ChatBotController.AskAgent(String message, String service, Nullable`1 conversationId, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions_V1\Api\ChatBotController.cs:line 176
+--------------------------------------------------------------------------------
+[2025-12-02 15:30:37.697] [Error]
+Category: GenxAi_Solutions_V1.Api.ChatBotController
+Message: Error in AskAgent API - User: nidhi.lad@genxai.com, Service: SQLAnalytics, Message: hi, CorrelationId: 04b11b38-c5ad-4de4-b60a-1e760fd6ef9f, Error: Cache entry must specify a value for Size when SizeLimit is set.
+Exception Type: System.InvalidOperationException
+Exception Message: Cache entry must specify a value for Size when SizeLimit is set.
+Stack Trace:    at Microsoft.Extensions.Caching.Memory.MemoryCache.SetEntry(CacheEntry entry)
+   at Microsoft.Extensions.Caching.Memory.CacheEntry.Dispose()
+   at Microsoft.Extensions.Caching.Memory.CacheExtensions.Set[TItem](IMemoryCache cache, Object key, TItem value, TimeSpan absoluteExpirationRelativeToNow)
+   at GenxAi_Solutions_V1.Api.ChatBotController.GetLimitedHistoryAsync_up(Int64 conversationId, Int32 maxHistory, String userMessage, String assistantMessage, String chosenService, String context, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions_V1\Api\ChatBotController.cs:line 1787
+   at GenxAi_Solutions_V1.Api.ChatBotController.HandleGreetingResponse(String message, Int64 convId, Int32 companyId, SqlVectorStores stores, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions_V1\Api\ChatBotController.cs:line 1919
+   at GenxAi_Solutions_V1.Api.ChatBotController.QuerySqlWithAgent(String message, String dbPathSql, String connStr, String databaseName, String dbType, Int64 convId, Int32 companyId, Int32 userId, Boolean wantsChart, Boolean sqlGreets, Int64 userMsgId, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions_V1\Api\ChatBotController.cs:line 1005
+   at GenxAi_Solutions_V1.Api.ChatBotController.AskAgent(String message, String service, Nullable`1 conversationId, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions_V1\Api\ChatBotController.cs:line 176
+--------------------------------------------------------------------------------
+[2025-12-02 15:30:38.071] [Error]
+Category: GenxAi_Solutions_V1.Utils.Middleware.ErrorHandlingMiddleware
+Message: Unhandled exception POST /api/chat/AskAgent 04b11b38-c5ad-4de4-b60a-1e760fd6ef9f. Exception Details: System.InvalidOperationException - Cache entry must specify a value for Size when SizeLimit is set. Stack Trace:    at Microsoft.Extensions.Caching.Memory.MemoryCache.SetEntry(CacheEntry entry)
+   at Microsoft.Extensions.Caching.Memory.CacheEntry.Dispose()
+   at Microsoft.Extensions.Caching.Memory.CacheExtensions.Set[TItem](IMemoryCache cache, Object key, TItem value, TimeSpan absoluteExpirationRelativeToNow)
+   at GenxAi_Solutions_V1.Api.ChatBotController.GetLimitedHistoryAsync_up(Int64 conversationId, Int32 maxHistory, String userMessage, String assistantMessage, String chosenService, String context, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions_V1\Api\ChatBotController.cs:line 1787
+   at GenxAi_Solutions_V1.Api.ChatBotController.HandleGreetingResponse(String message, Int64 convId, Int32 companyId, SqlVectorStores stores, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions_V1\Api\ChatBotController.cs:line 1919
+   at GenxAi_Solutions_V1.Api.ChatBotController.QuerySqlWithAgent(String message, String dbPathSql, String connStr, String databaseName, String dbType, Int64 convId, Int32 companyId, Int32 userId, Boolean wantsChart, Boolean sqlGreets, Int64 userMsgId, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions_V1\Api\ChatBotController.cs:line 1005
+   at GenxAi_Solutions_V1.Api.ChatBotController.AskAgent(String message, String service, Nullable`1 conversationId, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions_V1\Api\ChatBotController.cs:line 176
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at GenxAi_Solutions_V1.Utils.Middleware.ErrorHandlingMiddleware.Invoke(HttpContext context) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions_V1\Utils\Middleware\ErrorHandlingMiddleware.cs:line 139
+Exception Type: System.InvalidOperationException
+Exception Message: Cache entry must specify a value for Size when SizeLimit is set.
+Stack Trace:    at Microsoft.Extensions.Caching.Memory.MemoryCache.SetEntry(CacheEntry entry)
+   at Microsoft.Extensions.Caching.Memory.CacheEntry.Dispose()
+   at Microsoft.Extensions.Caching.Memory.CacheExtensions.Set[TItem](IMemoryCache cache, Object key, TItem value, TimeSpan absoluteExpirationRelativeToNow)
+   at GenxAi_Solutions_V1.Api.ChatBotController.GetLimitedHistoryAsync_up(Int64 conversationId, Int32 maxHistory, String userMessage, String assistantMessage, String chosenService, String context, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions_V1\Api\ChatBotController.cs:line 1787
+   at GenxAi_Solutions_V1.Api.ChatBotController.HandleGreetingResponse(String message, Int64 convId, Int32 companyId, SqlVectorStores stores, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions_V1\Api\ChatBotController.cs:line 1919
+   at GenxAi_Solutions_V1.Api.ChatBotController.QuerySqlWithAgent(String message, String dbPathSql, String connStr, String databaseName, String dbType, Int64 convId, Int32 companyId, Int32 userId, Boolean wantsChart, Boolean sqlGreets, Int64 userMsgId, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions_V1\Api\ChatBotController.cs:line 1005
+   at GenxAi_Solutions_V1.Api.ChatBotController.AskAgent(String message, String service, Nullable`1 conversationId, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions_V1\Api\ChatBotController.cs:line 176
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at GenxAi_Solutions_V1.Utils.Middleware.ErrorHandlingMiddleware.Invoke(HttpContext context) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions_V1\Utils\Middleware\ErrorHandlingMiddleware.cs:line 139
+--------------------------------------------------------------------------------
+[2025-12-02 15:30:38.078] [Error]
+Category: GenxAi_Solutions_V1.Utils.Middleware.ErrorHandlingMiddleware
+Message: Unhandled exception POST /api/chat/AskAgent 04b11b38-c5ad-4de4-b60a-1e760fd6ef9f. Exception Details: System.InvalidOperationException - Cache entry must specify a value for Size when SizeLimit is set. Stack Trace:    at Microsoft.Extensions.Caching.Memory.MemoryCache.SetEntry(CacheEntry entry)
+   at Microsoft.Extensions.Caching.Memory.CacheEntry.Dispose()
+   at Microsoft.Extensions.Caching.Memory.CacheExtensions.Set[TItem](IMemoryCache cache, Object key, TItem value, TimeSpan absoluteExpirationRelativeToNow)
+   at GenxAi_Solutions_V1.Api.ChatBotController.GetLimitedHistoryAsync_up(Int64 conversationId, Int32 maxHistory, String userMessage, String assistantMessage, String chosenService, String context, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions_V1\Api\ChatBotController.cs:line 1787
+   at GenxAi_Solutions_V1.Api.ChatBotController.HandleGreetingResponse(String message, Int64 convId, Int32 companyId, SqlVectorStores stores, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions_V1\Api\ChatBotController.cs:line 1919
+   at GenxAi_Solutions_V1.Api.ChatBotController.QuerySqlWithAgent(String message, String dbPathSql, String connStr, String databaseName, String dbType, Int64 convId, Int32 companyId, Int32 userId, Boolean wantsChart, Boolean sqlGreets, Int64 userMsgId, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions_V1\Api\ChatBotController.cs:line 1005
+   at GenxAi_Solutions_V1.Api.ChatBotController.AskAgent(String message, String service, Nullable`1 conversationId, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions_V1\Api\ChatBotController.cs:line 176
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at GenxAi_Solutions_V1.Utils.Middleware.ErrorHandlingMiddleware.Invoke(HttpContext context) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions_V1\Utils\Middleware\ErrorHandlingMiddleware.cs:line 139
+Exception Type: System.InvalidOperationException
+Exception Message: Cache entry must specify a value for Size when SizeLimit is set.
+Stack Trace:    at Microsoft.Extensions.Caching.Memory.MemoryCache.SetEntry(CacheEntry entry)
+   at Microsoft.Extensions.Caching.Memory.CacheEntry.Dispose()
+   at Microsoft.Extensions.Caching.Memory.CacheExtensions.Set[TItem](IMemoryCache cache, Object key, TItem value, TimeSpan absoluteExpirationRelativeToNow)
+   at GenxAi_Solutions_V1.Api.ChatBotController.GetLimitedHistoryAsync_up(Int64 conversationId, Int32 maxHistory, String userMessage, String assistantMessage, String chosenService, String context, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions_V1\Api\ChatBotController.cs:line 1787
+   at GenxAi_Solutions_V1.Api.ChatBotController.HandleGreetingResponse(String message, Int64 convId, Int32 companyId, SqlVectorStores stores, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions_V1\Api\ChatBotController.cs:line 1919
+   at GenxAi_Solutions_V1.Api.ChatBotController.QuerySqlWithAgent(String message, String dbPathSql, String connStr, String databaseName, String dbType, Int64 convId, Int32 companyId, Int32 userId, Boolean wantsChart, Boolean sqlGreets, Int64 userMsgId, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions_V1\Api\ChatBotController.cs:line 1005
+   at GenxAi_Solutions_V1.Api.ChatBotController.AskAgent(String message, String service, Nullable`1 conversationId, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions_V1\Api\ChatBotController.cs:line 176
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at GenxAi_Solutions_V1.Utils.Middleware.ErrorHandlingMiddleware.Invoke(HttpContext context) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions_V1\Utils\Middleware\ErrorHandlingMiddleware.cs:line 139
+--------------------------------------------------------------------------------
+[2025-12-02 17:02:26.020] [Error]
+Category: GenxAi_Solutions_V1.Services.AuthEventsService
+Message: JWT authentication failed on /api/auth/login
+Exception Type: Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException
+Exception Message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '12/2/2025 10:13:48 AM', Current time (UTC): '12/2/2025 11:32:26 AM'.
+Stack Trace:    at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+--------------------------------------------------------------------------------
+[2025-12-02 17:02:26.164] [Error]
+Category: GenxAi_Solutions_V1.Services.AuthEventsService
+Message: JWT authentication failed on /api/auth/login
+Exception Type: Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException
+Exception Message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '12/2/2025 10:13:48 AM', Current time (UTC): '12/2/2025 11:32:26 AM'.
+Stack Trace:    at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+--------------------------------------------------------------------------------

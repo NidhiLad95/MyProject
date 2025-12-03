@@ -1,0 +1,998 @@
+﻿[2025-10-17 09:39:32.999] [Information]
+Category: GenxAi_Solutions.Services.Background.QueuedWorker
+Message: QueuedWorker started.
+------------------------------------------------------------
+[2025-10-17 09:39:33.008] [Information]
+Category: GenxAi_Solutions.Services.Background.QueuedWorker
+Message: QueuedWorker started.
+--------------------------------------------------------------------------------
+[2025-10-17 09:39:33.428] [Information]
+Category: Microsoft.Hosting.Lifetime
+Message: Now listening on: https://localhost:7282
+------------------------------------------------------------
+[2025-10-17 09:39:33.430] [Information]
+Category: Microsoft.Hosting.Lifetime
+Message: Now listening on: https://localhost:7282
+--------------------------------------------------------------------------------
+[2025-10-17 09:39:33.431] [Information]
+Category: Microsoft.Hosting.Lifetime
+Message: Now listening on: http://localhost:5072
+------------------------------------------------------------
+[2025-10-17 09:39:33.432] [Information]
+Category: Microsoft.Hosting.Lifetime
+Message: Now listening on: http://localhost:5072
+--------------------------------------------------------------------------------
+[2025-10-17 09:39:33.595] [Information]
+Category: Microsoft.Hosting.Lifetime
+Message: Application started. Press Ctrl+C to shut down.
+------------------------------------------------------------
+[2025-10-17 09:39:33.596] [Information]
+Category: Microsoft.Hosting.Lifetime
+Message: Application started. Press Ctrl+C to shut down.
+--------------------------------------------------------------------------------
+[2025-10-17 09:39:33.597] [Information]
+Category: Microsoft.Hosting.Lifetime
+Message: Hosting environment: Development
+------------------------------------------------------------
+[2025-10-17 09:39:33.597] [Information]
+Category: Microsoft.Hosting.Lifetime
+Message: Hosting environment: Development
+--------------------------------------------------------------------------------
+[2025-10-17 09:39:33.598] [Information]
+Category: Microsoft.Hosting.Lifetime
+Message: Content root path: D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions
+------------------------------------------------------------
+[2025-10-17 09:39:33.598] [Information]
+Category: Microsoft.Hosting.Lifetime
+Message: Content root path: D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions
+--------------------------------------------------------------------------------
+[2025-10-17 09:39:50.079] [Information]
+Category: GenxAi_Solutions.Services.AuditLogger
+Message: GENERAL_AUDIT: Action: POST /api/auth/login, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-17 09:39:50.082] [Information]
+Category: GenxAi_Solutions.Services.AuditLogger
+Message: GENERAL_AUDIT: Action: POST /api/auth/login, User: anonymous, IP: ::1, Details: Sensitive action accessed
+--------------------------------------------------------------------------------
+[2025-10-17 09:39:55.411] [Information]
+Category: GenxAi_Solutions.Services.AuditLogger
+Message: USER_LOGIN: User: nidhi.lad@genxai.com, IP: ::1, Status: SUCCESS
+------------------------------------------------------------
+[2025-10-17 09:39:55.412] [Information]
+Category: GenxAi_Solutions.Services.AuditLogger
+Message: USER_LOGIN: User: nidhi.lad@genxai.com, IP: ::1, Status: SUCCESS
+--------------------------------------------------------------------------------
+[2025-10-17 09:39:55.603] [Information]
+Category: GenxAi_Solutions.Services.AuditLogger
+Message: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-17 09:39:55.606] [Information]
+Category: GenxAi_Solutions.Services.AuditLogger
+Message: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+--------------------------------------------------------------------------------
+[2025-10-17 09:39:55.640] [Information]
+Category: GenxAi_Solutions.Services.AuditLogger
+Message: GENERAL_AUDIT: Action: GET /api/CompanyOnboard/History/me, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-17 09:39:55.641] [Information]
+Category: GenxAi_Solutions.Services.AuditLogger
+Message: GENERAL_AUDIT: Action: GET /api/CompanyOnboard/History/me, User: anonymous, IP: ::1, Details: Sensitive action accessed
+--------------------------------------------------------------------------------
+[2025-10-17 09:39:55.686] [Information]
+Category: GenxAi_Solutions.Services.AuditLogger
+Message: GENERAL_AUDIT: Action: POST /api/auth/getmenu, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-17 09:39:55.688] [Information]
+Category: GenxAi_Solutions.Services.AuditLogger
+Message: GENERAL_AUDIT: Action: POST /api/auth/getmenu, User: anonymous, IP: ::1, Details: Sensitive action accessed
+--------------------------------------------------------------------------------
+[2025-10-17 09:39:55.808] [Information]
+Category: GenxAi_Solutions.Services.NotificationStore
+Message: GetUnreadAsync user=2 companies=0 afterId=(null)
+------------------------------------------------------------
+[2025-10-17 09:39:55.809] [Information]
+Category: GenxAi_Solutions.Services.NotificationStore
+Message: GetUnreadAsync user=2 companies=0 afterId=(null)
+--------------------------------------------------------------------------------
+[2025-10-17 09:40:00.406] [Information]
+Category: GenxAi_Solutions.Services.NotificationStore
+Message: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-17 09:40:00.409] [Information]
+Category: GenxAi_Solutions.Services.NotificationStore
+Message: GetUnreadAsync returned 0 items
+--------------------------------------------------------------------------------
+[2025-10-17 09:40:59.514] [Information]
+Category: GenxAi_Solutions.Services.AuditLogger
+Message: GENERAL_AUDIT: Action: POST /api/CompanyOnboard/Start1, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-17 09:40:59.517] [Information]
+Category: GenxAi_Solutions.Services.AuditLogger
+Message: GENERAL_AUDIT: Action: POST /api/CompanyOnboard/Start1, User: anonymous, IP: ::1, Details: Sensitive action accessed
+--------------------------------------------------------------------------------
+[2025-10-17 09:41:08.815] [Information]
+Category: GenxAi_Solutions.Services.AuditLogger
+Message: GENERAL_AUDIT: Action: GET /api/CompanyOnboard/History/me, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-17 09:41:08.817] [Information]
+Category: GenxAi_Solutions.Services.AuditLogger
+Message: GENERAL_AUDIT: Action: GET /api/CompanyOnboard/History/me, User: anonymous, IP: ::1, Details: Sensitive action accessed
+--------------------------------------------------------------------------------
+[2025-10-17 09:44:35.055] [Information]
+Category: GenxAi_Solutions.Services.AuditLogger
+Message: GENERAL_AUDIT: Action: POST /api/CompanyOnboard/Ask2, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-17 09:44:35.070] [Information]
+Category: GenxAi_Solutions.Services.AuditLogger
+Message: GENERAL_AUDIT: Action: POST /api/CompanyOnboard/Ask2, User: anonymous, IP: ::1, Details: Sensitive action accessed
+--------------------------------------------------------------------------------
+[2025-10-17 09:46:05.509] [Information]
+Category: GenxAi_Solutions.Utils.SQLiteVectorStore
+Message: SQLiteVectorStore DB: D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\bin\Debug\net8.0\PDFdb_ai_company_3128.db Exists=False
+------------------------------------------------------------
+[2025-10-17 09:46:05.516] [Information]
+Category: GenxAi_Solutions.Utils.SQLiteVectorStore
+Message: SQLiteVectorStore DB: D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\bin\Debug\net8.0\PDFdb_ai_company_3128.db Exists=False
+--------------------------------------------------------------------------------
+[2025-10-17 09:46:05.565] [Information]
+Category: GenxAi_Solutions.Services.AuditLogger
+Message: GENERAL_AUDIT: Action: POST /api/CompanyOnboard/Ask2, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-17 09:46:05.567] [Information]
+Category: GenxAi_Solutions.Services.AuditLogger
+Message: GENERAL_AUDIT: Action: POST /api/CompanyOnboard/Ask2, User: anonymous, IP: ::1, Details: Sensitive action accessed
+--------------------------------------------------------------------------------
+[2025-10-17 09:46:18.469] [Information]
+Category: GenxAi_Solutions.Services.VectorStoreFactory
+Message: PdfCreate DataSource=D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\bin\Debug\net8.0\PDFdb_ai_company_3128.db Exists=True
+------------------------------------------------------------
+[2025-10-17 09:46:18.470] [Information]
+Category: GenxAi_Solutions.Services.VectorStoreFactory
+Message: PdfCreate DataSource=D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\bin\Debug\net8.0\PDFdb_ai_company_3128.db Exists=True
+--------------------------------------------------------------------------------
+[2025-10-17 09:50:13.200] [Information]
+Category: GenxAi_Solutions.Services.AuditLogger
+Message: SECURITY_EVENT: Type: CHAT_PROCESSING_ERROR, User: nidhi.lad@genxai.com, IP: ::1, Details: Error in chat processing: One or more errors occurred. (The client was unable to establish a connection because of an error during connection initialization process before login. Possible causes include the following:  the client tried to connect to an unsupported version of SQL Server; the server was too busy to accept new connections; or there was a resource limitation (insufficient memory or maximum allowed connections) on the server. (provider: TCP Provider, error: 0 - An existing connection was forcibly closed by the remote host.)), CorrelationId: 042fd830-5cee-41d7-87c6-539a2d42a56a
+------------------------------------------------------------
+[2025-10-17 09:50:13.200] [Information]
+Category: GenxAi_Solutions.Services.AuditLogger
+Message: SECURITY_EVENT: Type: CHAT_PROCESSING_ERROR, User: nidhi.lad@genxai.com, IP: ::1, Details: Error in chat processing: One or more errors occurred. (The client was unable to establish a connection because of an error during connection initialization process before login. Possible causes include the following:  the client tried to connect to an unsupported version of SQL Server; the server was too busy to accept new connections; or there was a resource limitation (insufficient memory or maximum allowed connections) on the server. (provider: TCP Provider, error: 0 - An existing connection was forcibly closed by the remote host.)), CorrelationId: 042fd830-5cee-41d7-87c6-539a2d42a56a
+--------------------------------------------------------------------------------
+[2025-10-17 09:50:13.203] [Information]
+Category: GenxAi_Solutions.Services.AuditLogger
+Message: SECURITY_EVENT: Type: CHAT_PROCESSING_ERROR, User: nidhi.lad@genxai.com, IP: ::1, Details: Error in chat processing: Call to vector store failed., CorrelationId: 32ef4981-539a-4c8e-9999-0161755984ad
+------------------------------------------------------------
+[2025-10-17 09:50:13.203] [Information]
+Category: GenxAi_Solutions.Services.AuditLogger
+Message: SECURITY_EVENT: Type: CHAT_PROCESSING_ERROR, User: nidhi.lad@genxai.com, IP: ::1, Details: Error in chat processing: Call to vector store failed., CorrelationId: 32ef4981-539a-4c8e-9999-0161755984ad
+--------------------------------------------------------------------------------
+[2025-10-17 09:50:46.261] [Information]
+Category: GenxAi_Solutions.Services.AuditLogger
+Message: GENERAL_AUDIT: Action: POST /api/CompanyOnboard/Ask2, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-17 09:50:46.272] [Information]
+Category: GenxAi_Solutions.Services.AuditLogger
+Message: GENERAL_AUDIT: Action: POST /api/CompanyOnboard/Ask2, User: anonymous, IP: ::1, Details: Sensitive action accessed
+--------------------------------------------------------------------------------
+[2025-10-17 09:51:56.095] [Information]
+Category: GenxAi_Solutions.Utils.SQLiteVectorStore
+Message: SQLiteVectorStore DB: D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\bin\Debug\net8.0\PDFdb_ai_company_3128.db Exists=True
+------------------------------------------------------------
+[2025-10-17 09:51:56.096] [Information]
+Category: GenxAi_Solutions.Utils.SQLiteVectorStore
+Message: SQLiteVectorStore DB: D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\bin\Debug\net8.0\PDFdb_ai_company_3128.db Exists=True
+--------------------------------------------------------------------------------
+[2025-10-17 09:53:41.379] [Information]
+Category: GenxAi_Solutions.Services.VectorStoreFactory
+Message: PdfCreate DataSource=D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\bin\Debug\net8.0\PDFdb_ai_company_3128.db Exists=True
+------------------------------------------------------------
+[2025-10-17 09:53:41.380] [Information]
+Category: GenxAi_Solutions.Services.VectorStoreFactory
+Message: PdfCreate DataSource=D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\bin\Debug\net8.0\PDFdb_ai_company_3128.db Exists=True
+--------------------------------------------------------------------------------
+[2025-10-17 09:54:32.370] [Information]
+Category: GenxAi_Solutions.Services.AuditLogger
+Message: SECURITY_EVENT: Type: CHAT_PROCESSING_ERROR, User: nidhi.lad@genxai.com, IP: ::1, Details: Error in chat processing: Call to vector store failed., CorrelationId: 777c5de7-4c19-4d27-8ba4-5f2cf0953b79
+------------------------------------------------------------
+[2025-10-17 09:54:32.370] [Information]
+Category: GenxAi_Solutions.Services.AuditLogger
+Message: SECURITY_EVENT: Type: CHAT_PROCESSING_ERROR, User: nidhi.lad@genxai.com, IP: ::1, Details: Error in chat processing: Call to vector store failed., CorrelationId: 777c5de7-4c19-4d27-8ba4-5f2cf0953b79
+--------------------------------------------------------------------------------
+[2025-10-17 09:55:47.971] [Information]
+Category: GenxAi_Solutions.Services.AuditLogger
+Message: GENERAL_AUDIT: Action: POST /api/CompanyOnboard/Ask2, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-17 09:55:47.975] [Information]
+Category: GenxAi_Solutions.Services.AuditLogger
+Message: GENERAL_AUDIT: Action: POST /api/CompanyOnboard/Ask2, User: anonymous, IP: ::1, Details: Sensitive action accessed
+--------------------------------------------------------------------------------
+[2025-10-17 10:00:04.957] [Information]
+Category: GenxAi_Solutions.Services.Background.QueuedWorker
+Message: QueuedWorker started.
+------------------------------------------------------------
+[2025-10-17 10:00:04.962] [Information]
+Category: GenxAi_Solutions.Services.Background.QueuedWorker
+Message: QueuedWorker started.
+--------------------------------------------------------------------------------
+[2025-10-17 10:00:05.101] [Information]
+Category: Microsoft.Hosting.Lifetime
+Message: Now listening on: https://localhost:7282
+------------------------------------------------------------
+[2025-10-17 10:00:05.101] [Information]
+Category: Microsoft.Hosting.Lifetime
+Message: Now listening on: https://localhost:7282
+--------------------------------------------------------------------------------
+[2025-10-17 10:00:05.102] [Information]
+Category: Microsoft.Hosting.Lifetime
+Message: Now listening on: http://localhost:5072
+------------------------------------------------------------
+[2025-10-17 10:00:05.102] [Information]
+Category: Microsoft.Hosting.Lifetime
+Message: Now listening on: http://localhost:5072
+--------------------------------------------------------------------------------
+[2025-10-17 10:00:05.159] [Information]
+Category: Microsoft.Hosting.Lifetime
+Message: Application started. Press Ctrl+C to shut down.
+------------------------------------------------------------
+[2025-10-17 10:00:05.159] [Information]
+Category: Microsoft.Hosting.Lifetime
+Message: Application started. Press Ctrl+C to shut down.
+--------------------------------------------------------------------------------
+[2025-10-17 10:00:05.160] [Information]
+Category: Microsoft.Hosting.Lifetime
+Message: Hosting environment: Development
+------------------------------------------------------------
+[2025-10-17 10:00:05.161] [Information]
+Category: Microsoft.Hosting.Lifetime
+Message: Hosting environment: Development
+--------------------------------------------------------------------------------
+[2025-10-17 10:00:05.161] [Information]
+Category: Microsoft.Hosting.Lifetime
+Message: Content root path: D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions
+------------------------------------------------------------
+[2025-10-17 10:00:05.161] [Information]
+Category: Microsoft.Hosting.Lifetime
+Message: Content root path: D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions
+--------------------------------------------------------------------------------
+[2025-10-17 10:00:19.198] [Information]
+Category: GenxAi_Solutions.Services.AuditLogger
+Message: GENERAL_AUDIT: Action: POST /api/auth/login, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-17 10:00:19.199] [Information]
+Category: GenxAi_Solutions.Services.AuditLogger
+Message: GENERAL_AUDIT: Action: POST /api/auth/login, User: anonymous, IP: ::1, Details: Sensitive action accessed
+--------------------------------------------------------------------------------
+[2025-10-17 10:00:24.488] [Information]
+Category: GenxAi_Solutions.Services.AuditLogger
+Message: USER_LOGIN: User: nidhi.lad@genxai.com, IP: ::1, Status: SUCCESS
+------------------------------------------------------------
+[2025-10-17 10:00:24.491] [Information]
+Category: GenxAi_Solutions.Services.AuditLogger
+Message: USER_LOGIN: User: nidhi.lad@genxai.com, IP: ::1, Status: SUCCESS
+--------------------------------------------------------------------------------
+[2025-10-17 10:00:24.690] [Information]
+Category: GenxAi_Solutions.Services.AuditLogger
+Message: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-17 10:00:24.693] [Information]
+Category: GenxAi_Solutions.Services.AuditLogger
+Message: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+--------------------------------------------------------------------------------
+[2025-10-17 10:00:24.813] [Information]
+Category: GenxAi_Solutions.Services.AuditLogger
+Message: GENERAL_AUDIT: Action: POST /api/auth/getmenu, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-17 10:00:24.814] [Information]
+Category: GenxAi_Solutions.Services.AuditLogger
+Message: GENERAL_AUDIT: Action: POST /api/auth/getmenu, User: anonymous, IP: ::1, Details: Sensitive action accessed
+--------------------------------------------------------------------------------
+[2025-10-17 10:00:24.818] [Information]
+Category: GenxAi_Solutions.Services.NotificationStore
+Message: GetUnreadAsync user=2 companies=0 afterId=(null)
+------------------------------------------------------------
+[2025-10-17 10:00:24.818] [Information]
+Category: GenxAi_Solutions.Services.NotificationStore
+Message: GetUnreadAsync user=2 companies=0 afterId=(null)
+--------------------------------------------------------------------------------
+[2025-10-17 10:00:24.819] [Information]
+Category: GenxAi_Solutions.Services.AuditLogger
+Message: GENERAL_AUDIT: Action: GET /api/CompanyOnboard/History/me, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-17 10:00:24.820] [Information]
+Category: GenxAi_Solutions.Services.AuditLogger
+Message: GENERAL_AUDIT: Action: GET /api/CompanyOnboard/History/me, User: anonymous, IP: ::1, Details: Sensitive action accessed
+--------------------------------------------------------------------------------
+[2025-10-17 10:00:29.452] [Information]
+Category: GenxAi_Solutions.Services.NotificationStore
+Message: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-17 10:00:29.453] [Information]
+Category: GenxAi_Solutions.Services.NotificationStore
+Message: GetUnreadAsync returned 0 items
+--------------------------------------------------------------------------------
+[2025-10-17 10:00:32.517] [Information]
+Category: GenxAi_Solutions.Services.AuditLogger
+Message: GENERAL_AUDIT: Action: POST /api/CompanyOnboard/Start1, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-17 10:00:32.519] [Information]
+Category: GenxAi_Solutions.Services.AuditLogger
+Message: GENERAL_AUDIT: Action: POST /api/CompanyOnboard/Start1, User: anonymous, IP: ::1, Details: Sensitive action accessed
+--------------------------------------------------------------------------------
+[2025-10-17 10:00:41.750] [Information]
+Category: GenxAi_Solutions.Services.AuditLogger
+Message: GENERAL_AUDIT: Action: GET /api/CompanyOnboard/History/me, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-17 10:00:41.753] [Information]
+Category: GenxAi_Solutions.Services.AuditLogger
+Message: GENERAL_AUDIT: Action: GET /api/CompanyOnboard/History/me, User: anonymous, IP: ::1, Details: Sensitive action accessed
+--------------------------------------------------------------------------------
+[2025-10-17 10:01:02.214] [Information]
+Category: GenxAi_Solutions.Services.AuditLogger
+Message: GENERAL_AUDIT: Action: POST /api/CompanyOnboard/Ask2, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-17 10:01:02.215] [Information]
+Category: GenxAi_Solutions.Services.AuditLogger
+Message: GENERAL_AUDIT: Action: POST /api/CompanyOnboard/Ask2, User: anonymous, IP: ::1, Details: Sensitive action accessed
+--------------------------------------------------------------------------------
+[2025-10-17 10:01:38.138] [Information]
+Category: GenxAi_Solutions.Utils.SQLiteVectorStore
+Message: SQLiteVectorStore DB: D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\bin\Debug\net8.0\PDFdb_ai_company_3128.db Exists=True
+------------------------------------------------------------
+[2025-10-17 10:01:38.140] [Information]
+Category: GenxAi_Solutions.Utils.SQLiteVectorStore
+Message: SQLiteVectorStore DB: D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\bin\Debug\net8.0\PDFdb_ai_company_3128.db Exists=True
+--------------------------------------------------------------------------------
+[2025-10-17 10:01:39.533] [Information]
+Category: GenxAi_Solutions.Services.VectorStoreFactory
+Message: PdfCreate DataSource=D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\bin\Debug\net8.0\PDFdb_ai_company_3128.db Exists=True
+------------------------------------------------------------
+[2025-10-17 10:01:39.534] [Information]
+Category: GenxAi_Solutions.Services.VectorStoreFactory
+Message: PdfCreate DataSource=D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\bin\Debug\net8.0\PDFdb_ai_company_3128.db Exists=True
+--------------------------------------------------------------------------------
+[2025-10-17 10:01:53.629] [Information]
+Category: GenxAi_Solutions.Services.AuditLogger
+Message: SECURITY_EVENT: Type: CHAT_PROCESSING_ERROR, User: nidhi.lad@genxai.com, IP: ::1, Details: Error in chat processing: Call to vector store failed., CorrelationId: 496a0938-c367-4cc3-994c-8c3d74cf76de
+------------------------------------------------------------
+[2025-10-17 10:01:53.630] [Information]
+Category: GenxAi_Solutions.Services.AuditLogger
+Message: SECURITY_EVENT: Type: CHAT_PROCESSING_ERROR, User: nidhi.lad@genxai.com, IP: ::1, Details: Error in chat processing: Call to vector store failed., CorrelationId: 496a0938-c367-4cc3-994c-8c3d74cf76de
+--------------------------------------------------------------------------------
+[2025-10-17 10:02:01.751] [Information]
+Category: GenxAi_Solutions.Services.AuditLogger
+Message: GENERAL_AUDIT: Action: POST /api/CompanyOnboard/Ask2, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-17 10:02:01.751] [Information]
+Category: GenxAi_Solutions.Services.AuditLogger
+Message: GENERAL_AUDIT: Action: POST /api/CompanyOnboard/Ask2, User: anonymous, IP: ::1, Details: Sensitive action accessed
+--------------------------------------------------------------------------------
+[2025-10-17 10:02:33.494] [Information]
+Category: GenxAi_Solutions.Utils.SQLiteVectorStore
+Message: SQLiteVectorStore DB: D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\bin\Debug\net8.0\PDFdb_ai_company_3128.db Exists=True
+------------------------------------------------------------
+[2025-10-17 10:02:33.495] [Information]
+Category: GenxAi_Solutions.Utils.SQLiteVectorStore
+Message: SQLiteVectorStore DB: D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\bin\Debug\net8.0\PDFdb_ai_company_3128.db Exists=True
+--------------------------------------------------------------------------------
+[2025-10-17 10:02:42.520] [Information]
+Category: GenxAi_Solutions.Services.VectorStoreFactory
+Message: PdfCreate DataSource=D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\bin\Debug\net8.0\PDFdb_ai_company_3128.db Exists=True
+------------------------------------------------------------
+[2025-10-17 10:02:42.521] [Information]
+Category: GenxAi_Solutions.Services.VectorStoreFactory
+Message: PdfCreate DataSource=D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\bin\Debug\net8.0\PDFdb_ai_company_3128.db Exists=True
+--------------------------------------------------------------------------------
+[2025-10-17 10:03:33.516] [Information]
+Category: GenxAi_Solutions.Services.AuditLogger
+Message: GENERAL_AUDIT: Action: POST /api/CompanyOnboard/Ask2, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-17 10:03:33.517] [Information]
+Category: GenxAi_Solutions.Services.AuditLogger
+Message: GENERAL_AUDIT: Action: POST /api/CompanyOnboard/Ask2, User: anonymous, IP: ::1, Details: Sensitive action accessed
+--------------------------------------------------------------------------------
+[2025-10-17 10:03:55.732] [Information]
+Category: GenxAi_Solutions.Services.AuditLogger
+Message: SECURITY_EVENT: Type: CHAT_PROCESSING_ERROR, User: nidhi.lad@genxai.com, IP: ::1, Details: Error in chat processing: Call to vector store failed., CorrelationId: 4825e3d5-dd17-4478-a6b0-cbbfaa401b8e
+------------------------------------------------------------
+[2025-10-17 10:03:55.732] [Information]
+Category: GenxAi_Solutions.Services.AuditLogger
+Message: SECURITY_EVENT: Type: CHAT_PROCESSING_ERROR, User: nidhi.lad@genxai.com, IP: ::1, Details: Error in chat processing: Call to vector store failed., CorrelationId: 4825e3d5-dd17-4478-a6b0-cbbfaa401b8e
+--------------------------------------------------------------------------------
+[2025-10-17 10:06:07.384] [Information]
+Category: GenxAi_Solutions.Services.AuditLogger
+Message: GENERAL_AUDIT: Action: POST /api/CompanyOnboard/Ask2, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-17 10:06:07.385] [Information]
+Category: GenxAi_Solutions.Services.AuditLogger
+Message: GENERAL_AUDIT: Action: POST /api/CompanyOnboard/Ask2, User: anonymous, IP: ::1, Details: Sensitive action accessed
+--------------------------------------------------------------------------------
+[2025-10-17 10:06:46.912] [Information]
+Category: GenxAi_Solutions.Utils.SQLiteVectorStore
+Message: SQLiteVectorStore DB: D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\bin\Debug\net8.0\PDFdb_ai_company_3128.db Exists=True
+------------------------------------------------------------
+[2025-10-17 10:06:46.915] [Information]
+Category: GenxAi_Solutions.Utils.SQLiteVectorStore
+Message: SQLiteVectorStore DB: D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\bin\Debug\net8.0\PDFdb_ai_company_3128.db Exists=True
+--------------------------------------------------------------------------------
+[2025-10-17 10:06:50.932] [Information]
+Category: GenxAi_Solutions.Services.VectorStoreFactory
+Message: PdfCreate DataSource=D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\bin\Debug\net8.0\PDFdb_ai_company_3128.db Exists=True
+------------------------------------------------------------
+[2025-10-17 10:06:50.933] [Information]
+Category: GenxAi_Solutions.Services.VectorStoreFactory
+Message: PdfCreate DataSource=D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\bin\Debug\net8.0\PDFdb_ai_company_3128.db Exists=True
+--------------------------------------------------------------------------------
+[2025-10-17 10:07:09.726] [Information]
+Category: GenxAi_Solutions.Services.AuditLogger
+Message: SECURITY_EVENT: Type: CHAT_PROCESSING_ERROR, User: nidhi.lad@genxai.com, IP: ::1, Details: Error in chat processing: Call to vector store failed., CorrelationId: fbfaacb1-c22f-4ff1-bfdf-c604703170e8
+------------------------------------------------------------
+[2025-10-17 10:07:09.726] [Information]
+Category: GenxAi_Solutions.Services.AuditLogger
+Message: SECURITY_EVENT: Type: CHAT_PROCESSING_ERROR, User: nidhi.lad@genxai.com, IP: ::1, Details: Error in chat processing: Call to vector store failed., CorrelationId: fbfaacb1-c22f-4ff1-bfdf-c604703170e8
+--------------------------------------------------------------------------------
+[2025-10-17 10:07:09.869] [Information]
+Category: GenxAi_Solutions.Services.AuditLogger
+Message: SECURITY_EVENT: Type: CHAT_PROCESSING_ERROR, User: nidhi.lad@genxai.com, IP: ::1, Details: Error in chat processing: Connection Timeout Expired.  The timeout period elapsed while attempting to consume the pre-login handshake acknowledgement.  This could be because the pre-login handshake failed or the server was unable to respond back in time.  The duration spent while attempting to connect to this server was - [Pre-Login] initialization=18767; handshake=2; , CorrelationId: 7f5bff47-2557-4b55-810b-87afe187364e
+------------------------------------------------------------
+[2025-10-17 10:07:09.870] [Information]
+Category: GenxAi_Solutions.Services.AuditLogger
+Message: SECURITY_EVENT: Type: CHAT_PROCESSING_ERROR, User: nidhi.lad@genxai.com, IP: ::1, Details: Error in chat processing: Connection Timeout Expired.  The timeout period elapsed while attempting to consume the pre-login handshake acknowledgement.  This could be because the pre-login handshake failed or the server was unable to respond back in time.  The duration spent while attempting to connect to this server was - [Pre-Login] initialization=18767; handshake=2; , CorrelationId: 7f5bff47-2557-4b55-810b-87afe187364e
+--------------------------------------------------------------------------------
+[2025-10-17 10:07:30.635] [Information]
+Category: GenxAi_Solutions.Services.AuditLogger
+Message: GENERAL_AUDIT: Action: POST /api/CompanyOnboard/Ask2, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-17 10:07:30.636] [Information]
+Category: GenxAi_Solutions.Services.AuditLogger
+Message: GENERAL_AUDIT: Action: POST /api/CompanyOnboard/Ask2, User: anonymous, IP: ::1, Details: Sensitive action accessed
+--------------------------------------------------------------------------------
+[2025-10-17 10:08:18.888] [Information]
+Category: GenxAi_Solutions.Utils.SQLiteVectorStore
+Message: SQLiteVectorStore DB: D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\bin\Debug\net8.0\PDFdb_ai_company_3128.db Exists=True
+------------------------------------------------------------
+[2025-10-17 10:08:18.890] [Information]
+Category: GenxAi_Solutions.Utils.SQLiteVectorStore
+Message: SQLiteVectorStore DB: D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\bin\Debug\net8.0\PDFdb_ai_company_3128.db Exists=True
+--------------------------------------------------------------------------------
+[2025-10-17 10:08:29.375] [Information]
+Category: GenxAi_Solutions.Services.VectorStoreFactory
+Message: PdfCreate DataSource=D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\bin\Debug\net8.0\PDFdb_ai_company_3128.db Exists=True
+------------------------------------------------------------
+[2025-10-17 10:08:29.378] [Information]
+Category: GenxAi_Solutions.Services.VectorStoreFactory
+Message: PdfCreate DataSource=D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\bin\Debug\net8.0\PDFdb_ai_company_3128.db Exists=True
+--------------------------------------------------------------------------------
+[2025-10-17 10:11:05.897] [Information]
+Category: GenxAi_Solutions.Services.AuditLogger
+Message: SECURITY_EVENT: Type: CHAT_PROCESSING_ERROR, User: nidhi.lad@genxai.com, IP: ::1, Details: Error in chat processing: Call to vector store failed., CorrelationId: 352f7923-529a-4646-9d2e-2222c061fe82
+------------------------------------------------------------
+[2025-10-17 10:11:05.898] [Information]
+Category: GenxAi_Solutions.Services.AuditLogger
+Message: SECURITY_EVENT: Type: CHAT_PROCESSING_ERROR, User: nidhi.lad@genxai.com, IP: ::1, Details: Error in chat processing: Call to vector store failed., CorrelationId: 352f7923-529a-4646-9d2e-2222c061fe82
+--------------------------------------------------------------------------------
+[2025-10-17 10:30:06.170] [Information]
+Category: GenxAi_Solutions.Services.Background.QueuedWorker
+Message: QueuedWorker started.
+------------------------------------------------------------
+[2025-10-17 10:30:06.177] [Information]
+Category: GenxAi_Solutions.Services.Background.QueuedWorker
+Message: QueuedWorker started.
+--------------------------------------------------------------------------------
+[2025-10-17 10:30:06.343] [Information]
+Category: Microsoft.Hosting.Lifetime
+Message: Now listening on: https://localhost:7282
+------------------------------------------------------------
+[2025-10-17 10:30:06.343] [Information]
+Category: Microsoft.Hosting.Lifetime
+Message: Now listening on: https://localhost:7282
+--------------------------------------------------------------------------------
+[2025-10-17 10:30:06.345] [Information]
+Category: Microsoft.Hosting.Lifetime
+Message: Now listening on: http://localhost:5072
+------------------------------------------------------------
+[2025-10-17 10:30:06.371] [Information]
+Category: Microsoft.Hosting.Lifetime
+Message: Now listening on: http://localhost:5072
+--------------------------------------------------------------------------------
+[2025-10-17 10:30:06.474] [Information]
+Category: Microsoft.Hosting.Lifetime
+Message: Application started. Press Ctrl+C to shut down.
+------------------------------------------------------------
+[2025-10-17 10:30:06.474] [Information]
+Category: Microsoft.Hosting.Lifetime
+Message: Application started. Press Ctrl+C to shut down.
+--------------------------------------------------------------------------------
+[2025-10-17 10:30:06.478] [Information]
+Category: Microsoft.Hosting.Lifetime
+Message: Hosting environment: Development
+------------------------------------------------------------
+[2025-10-17 10:30:06.479] [Information]
+Category: Microsoft.Hosting.Lifetime
+Message: Hosting environment: Development
+--------------------------------------------------------------------------------
+[2025-10-17 10:30:06.482] [Information]
+Category: Microsoft.Hosting.Lifetime
+Message: Content root path: D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions
+------------------------------------------------------------
+[2025-10-17 10:30:06.487] [Information]
+Category: Microsoft.Hosting.Lifetime
+Message: Content root path: D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions
+--------------------------------------------------------------------------------
+[2025-10-17 10:30:20.478] [Information]
+Category: GenxAi_Solutions.Services.AuditLogger
+Message: GENERAL_AUDIT: Action: POST /api/auth/login, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-17 10:30:20.485] [Information]
+Category: GenxAi_Solutions.Services.AuditLogger
+Message: GENERAL_AUDIT: Action: POST /api/auth/login, User: anonymous, IP: ::1, Details: Sensitive action accessed
+--------------------------------------------------------------------------------
+[2025-10-17 10:30:25.804] [Information]
+Category: GenxAi_Solutions.Services.AuditLogger
+Message: USER_LOGIN: User: nidhi.lad@genxai.com, IP: ::1, Status: SUCCESS
+------------------------------------------------------------
+[2025-10-17 10:30:25.805] [Information]
+Category: GenxAi_Solutions.Services.AuditLogger
+Message: USER_LOGIN: User: nidhi.lad@genxai.com, IP: ::1, Status: SUCCESS
+--------------------------------------------------------------------------------
+[2025-10-17 10:30:25.950] [Information]
+Category: GenxAi_Solutions.Services.AuditLogger
+Message: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-17 10:30:25.952] [Information]
+Category: GenxAi_Solutions.Services.AuditLogger
+Message: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+--------------------------------------------------------------------------------
+[2025-10-17 10:30:25.990] [Information]
+Category: GenxAi_Solutions.Services.AuditLogger
+Message: GENERAL_AUDIT: Action: GET /api/CompanyOnboard/History/me, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-17 10:30:25.991] [Information]
+Category: GenxAi_Solutions.Services.AuditLogger
+Message: GENERAL_AUDIT: Action: GET /api/CompanyOnboard/History/me, User: anonymous, IP: ::1, Details: Sensitive action accessed
+--------------------------------------------------------------------------------
+[2025-10-17 10:30:25.998] [Information]
+Category: GenxAi_Solutions.Services.AuditLogger
+Message: GENERAL_AUDIT: Action: POST /api/auth/getmenu, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-17 10:30:26.002] [Information]
+Category: GenxAi_Solutions.Services.AuditLogger
+Message: GENERAL_AUDIT: Action: POST /api/auth/getmenu, User: anonymous, IP: ::1, Details: Sensitive action accessed
+--------------------------------------------------------------------------------
+[2025-10-17 10:30:26.123] [Information]
+Category: GenxAi_Solutions.Services.NotificationStore
+Message: GetUnreadAsync user=2 companies=0 afterId=(null)
+------------------------------------------------------------
+[2025-10-17 10:30:26.124] [Information]
+Category: GenxAi_Solutions.Services.NotificationStore
+Message: GetUnreadAsync user=2 companies=0 afterId=(null)
+--------------------------------------------------------------------------------
+[2025-10-17 10:30:30.784] [Information]
+Category: GenxAi_Solutions.Services.NotificationStore
+Message: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-17 10:30:30.784] [Information]
+Category: GenxAi_Solutions.Services.NotificationStore
+Message: GetUnreadAsync returned 0 items
+--------------------------------------------------------------------------------
+[2025-10-17 10:30:32.503] [Information]
+Category: GenxAi_Solutions.Services.AuditLogger
+Message: GENERAL_AUDIT: Action: POST /api/CompanyOnboard/Start1, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-17 10:30:32.514] [Information]
+Category: GenxAi_Solutions.Services.AuditLogger
+Message: GENERAL_AUDIT: Action: POST /api/CompanyOnboard/Start1, User: anonymous, IP: ::1, Details: Sensitive action accessed
+--------------------------------------------------------------------------------
+[2025-10-17 10:30:41.766] [Information]
+Category: GenxAi_Solutions.Services.AuditLogger
+Message: GENERAL_AUDIT: Action: GET /api/CompanyOnboard/History/me, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-17 10:30:41.768] [Information]
+Category: GenxAi_Solutions.Services.AuditLogger
+Message: GENERAL_AUDIT: Action: GET /api/CompanyOnboard/History/me, User: anonymous, IP: ::1, Details: Sensitive action accessed
+--------------------------------------------------------------------------------
+[2025-10-17 10:30:48.810] [Information]
+Category: GenxAi_Solutions.Services.AuditLogger
+Message: GENERAL_AUDIT: Action: POST /api/CompanyOnboard/Ask2, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-17 10:30:48.824] [Information]
+Category: GenxAi_Solutions.Services.AuditLogger
+Message: GENERAL_AUDIT: Action: POST /api/CompanyOnboard/Ask2, User: anonymous, IP: ::1, Details: Sensitive action accessed
+--------------------------------------------------------------------------------
+[2025-10-17 10:31:34.723] [Information]
+Category: GenxAi_Solutions.Utils.SQLiteVectorStore
+Message: SQLiteVectorStore DB: D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\bin\Debug\net8.0\PDFdb_ai_company_3128.db Exists=True
+------------------------------------------------------------
+[2025-10-17 10:31:34.725] [Information]
+Category: GenxAi_Solutions.Utils.SQLiteVectorStore
+Message: SQLiteVectorStore DB: D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\bin\Debug\net8.0\PDFdb_ai_company_3128.db Exists=True
+--------------------------------------------------------------------------------
+[2025-10-17 10:31:42.926] [Information]
+Category: GenxAi_Solutions.Services.VectorStoreFactory
+Message: PdfCreate DataSource=D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\bin\Debug\net8.0\PDFdb_ai_company_3128.db Exists=True
+------------------------------------------------------------
+[2025-10-17 10:31:42.927] [Information]
+Category: GenxAi_Solutions.Services.VectorStoreFactory
+Message: PdfCreate DataSource=D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\bin\Debug\net8.0\PDFdb_ai_company_3128.db Exists=True
+--------------------------------------------------------------------------------
+[2025-10-17 10:35:24.478] [Information]
+Category: GenxAi_Solutions.Services.AuditLogger
+Message: SECURITY_EVENT: Type: CHAT_PROCESSING_ERROR, User: nidhi.lad@genxai.com, IP: ::1, Details: Error in chat processing: Call to vector store failed., CorrelationId: 8863e1f5-a966-43aa-809d-1d68fe3c7825
+------------------------------------------------------------
+[2025-10-17 10:35:24.478] [Information]
+Category: GenxAi_Solutions.Services.AuditLogger
+Message: SECURITY_EVENT: Type: CHAT_PROCESSING_ERROR, User: nidhi.lad@genxai.com, IP: ::1, Details: Error in chat processing: Call to vector store failed., CorrelationId: 8863e1f5-a966-43aa-809d-1d68fe3c7825
+--------------------------------------------------------------------------------
+[2025-10-17 10:50:41.516] [Information]
+Category: GenxAi_Solutions.Services.Background.QueuedWorker
+Message: QueuedWorker started.
+------------------------------------------------------------
+[2025-10-17 10:50:41.522] [Information]
+Category: GenxAi_Solutions.Services.Background.QueuedWorker
+Message: QueuedWorker started.
+--------------------------------------------------------------------------------
+[2025-10-17 10:50:41.700] [Information]
+Category: Microsoft.Hosting.Lifetime
+Message: Now listening on: https://localhost:7282
+------------------------------------------------------------
+[2025-10-17 10:50:41.700] [Information]
+Category: Microsoft.Hosting.Lifetime
+Message: Now listening on: https://localhost:7282
+--------------------------------------------------------------------------------
+[2025-10-17 10:50:41.700] [Information]
+Category: Microsoft.Hosting.Lifetime
+Message: Now listening on: http://localhost:5072
+------------------------------------------------------------
+[2025-10-17 10:50:41.700] [Information]
+Category: Microsoft.Hosting.Lifetime
+Message: Now listening on: http://localhost:5072
+--------------------------------------------------------------------------------
+[2025-10-17 10:50:41.771] [Information]
+Category: Microsoft.Hosting.Lifetime
+Message: Application started. Press Ctrl+C to shut down.
+------------------------------------------------------------
+[2025-10-17 10:50:41.773] [Information]
+Category: Microsoft.Hosting.Lifetime
+Message: Application started. Press Ctrl+C to shut down.
+--------------------------------------------------------------------------------
+[2025-10-17 10:50:41.777] [Information]
+Category: Microsoft.Hosting.Lifetime
+Message: Hosting environment: Development
+------------------------------------------------------------
+[2025-10-17 10:50:41.780] [Information]
+Category: Microsoft.Hosting.Lifetime
+Message: Hosting environment: Development
+--------------------------------------------------------------------------------
+[2025-10-17 10:50:41.782] [Information]
+Category: Microsoft.Hosting.Lifetime
+Message: Content root path: D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions
+------------------------------------------------------------
+[2025-10-17 10:50:41.784] [Information]
+Category: Microsoft.Hosting.Lifetime
+Message: Content root path: D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions
+--------------------------------------------------------------------------------
+[2025-10-17 10:50:42.493] [Warning]
+Category: Microsoft.AspNetCore.Session.SessionMiddleware
+Message: Error unprotecting the session cookie.
+------------------------------------------------------------
+[2025-10-17 10:50:42.493] [Warning]
+Category: Microsoft.AspNetCore.Session.SessionMiddleware
+Message: Error unprotecting the session cookie.
+Exception Type: System.Security.Cryptography.CryptographicException
+Exception Message: The payload was invalid. For more information go to https://aka.ms/aspnet/dataprotectionwarning
+Stack Trace:    at Microsoft.AspNetCore.DataProtection.Cng.CbcAuthenticatedEncryptor.DecryptImpl(Byte* pbCiphertext, UInt32 cbCiphertext, Byte* pbAdditionalAuthenticatedData, UInt32 cbAdditionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.Decrypt(ArraySegment`1 ciphertext, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+--------------------------------------------------------------------------------
+[2025-10-17 10:51:01.466] [Information]
+Category: GenxAi_Solutions.Services.AuditLogger
+Message: GENERAL_AUDIT: Action: POST /api/auth/login, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-17 10:51:01.473] [Information]
+Category: GenxAi_Solutions.Services.AuditLogger
+Message: GENERAL_AUDIT: Action: POST /api/auth/login, User: anonymous, IP: ::1, Details: Sensitive action accessed
+--------------------------------------------------------------------------------
+[2025-10-17 10:51:01.480] [Warning]
+Category: Microsoft.AspNetCore.Session.SessionMiddleware
+Message: Error unprotecting the session cookie.
+------------------------------------------------------------
+[2025-10-17 10:51:01.480] [Warning]
+Category: Microsoft.AspNetCore.Session.SessionMiddleware
+Message: Error unprotecting the session cookie.
+Exception Type: System.Security.Cryptography.CryptographicException
+Exception Message: The payload was invalid. For more information go to https://aka.ms/aspnet/dataprotectionwarning
+Stack Trace:    at Microsoft.AspNetCore.DataProtection.Cng.CbcAuthenticatedEncryptor.DecryptImpl(Byte* pbCiphertext, UInt32 cbCiphertext, Byte* pbAdditionalAuthenticatedData, UInt32 cbAdditionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.Decrypt(ArraySegment`1 ciphertext, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+--------------------------------------------------------------------------------
+[2025-10-17 10:51:06.800] [Information]
+Category: GenxAi_Solutions.Services.AuditLogger
+Message: USER_LOGIN: User: admin@acgindia.co.in, IP: ::1, Status: SUCCESS
+------------------------------------------------------------
+[2025-10-17 10:51:06.800] [Information]
+Category: GenxAi_Solutions.Services.AuditLogger
+Message: USER_LOGIN: User: admin@acgindia.co.in, IP: ::1, Status: SUCCESS
+--------------------------------------------------------------------------------
+[2025-10-17 10:51:06.978] [Information]
+Category: GenxAi_Solutions.Services.AuditLogger
+Message: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-17 10:51:06.983] [Information]
+Category: GenxAi_Solutions.Services.AuditLogger
+Message: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+--------------------------------------------------------------------------------
+[2025-10-17 10:51:07.000] [Information]
+Category: GenxAi_Solutions.Services.AuditLogger
+Message: GENERAL_AUDIT: Action: GET /api/CompanyOnboard/History/me, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-17 10:51:07.001] [Information]
+Category: GenxAi_Solutions.Services.AuditLogger
+Message: GENERAL_AUDIT: Action: GET /api/CompanyOnboard/History/me, User: anonymous, IP: ::1, Details: Sensitive action accessed
+--------------------------------------------------------------------------------
+[2025-10-17 10:51:07.011] [Information]
+Category: GenxAi_Solutions.Services.AuditLogger
+Message: GENERAL_AUDIT: Action: POST /api/auth/getmenu, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-17 10:51:07.023] [Information]
+Category: GenxAi_Solutions.Services.AuditLogger
+Message: GENERAL_AUDIT: Action: POST /api/auth/getmenu, User: anonymous, IP: ::1, Details: Sensitive action accessed
+--------------------------------------------------------------------------------
+[2025-10-17 10:51:07.188] [Information]
+Category: GenxAi_Solutions.Services.NotificationStore
+Message: GetUnreadAsync user=11 companies=0 afterId=(null)
+------------------------------------------------------------
+[2025-10-17 10:51:07.188] [Information]
+Category: GenxAi_Solutions.Services.NotificationStore
+Message: GetUnreadAsync user=11 companies=0 afterId=(null)
+--------------------------------------------------------------------------------
+[2025-10-17 10:51:11.805] [Information]
+Category: GenxAi_Solutions.Services.NotificationStore
+Message: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-17 10:51:11.806] [Information]
+Category: GenxAi_Solutions.Services.NotificationStore
+Message: GetUnreadAsync returned 0 items
+--------------------------------------------------------------------------------
+[2025-10-17 10:51:17.384] [Information]
+Category: GenxAi_Solutions.Services.AuditLogger
+Message: GENERAL_AUDIT: Action: POST /api/CompanyOnboard/Ask2, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-17 10:51:17.389] [Information]
+Category: GenxAi_Solutions.Services.AuditLogger
+Message: GENERAL_AUDIT: Action: POST /api/CompanyOnboard/Ask2, User: anonymous, IP: ::1, Details: Sensitive action accessed
+--------------------------------------------------------------------------------
+[2025-10-17 10:51:53.450] [Information]
+Category: GenxAi_Solutions.Utils.SQLiteVectorStore
+Message: SQLiteVectorStore DB: D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\bin\Debug\net8.0\db_ai_company_85.db Exists=False
+------------------------------------------------------------
+[2025-10-17 10:51:53.452] [Information]
+Category: GenxAi_Solutions.Utils.SQLiteVectorStore
+Message: SQLiteVectorStore DB: D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\bin\Debug\net8.0\db_ai_company_85.db Exists=False
+--------------------------------------------------------------------------------
+[2025-10-17 10:52:12.002] [Information]
+Category: GenxAi_Solutions.Services.AuditLogger
+Message: GENERAL_AUDIT: Action: POST /api/CompanyOnboard/Start1, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-17 10:52:12.006] [Information]
+Category: GenxAi_Solutions.Services.AuditLogger
+Message: GENERAL_AUDIT: Action: POST /api/CompanyOnboard/Start1, User: anonymous, IP: ::1, Details: Sensitive action accessed
+--------------------------------------------------------------------------------
+[2025-10-17 10:52:17.600] [Information]
+Category: GenxAi_Solutions.Services.AuditLogger
+Message: GENERAL_AUDIT: Action: POST /api/CompanyOnboard/Ask2, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-17 10:52:17.614] [Information]
+Category: GenxAi_Solutions.Services.AuditLogger
+Message: GENERAL_AUDIT: Action: POST /api/CompanyOnboard/Ask2, User: anonymous, IP: ::1, Details: Sensitive action accessed
+--------------------------------------------------------------------------------
+[2025-10-17 10:52:21.245] [Information]
+Category: GenxAi_Solutions.Services.AuditLogger
+Message: GENERAL_AUDIT: Action: GET /api/CompanyOnboard/History/me, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-17 10:52:21.248] [Information]
+Category: GenxAi_Solutions.Services.AuditLogger
+Message: GENERAL_AUDIT: Action: GET /api/CompanyOnboard/History/me, User: anonymous, IP: ::1, Details: Sensitive action accessed
+--------------------------------------------------------------------------------
+[2025-10-17 10:52:34.109] [Information]
+Category: GenxAi_Solutions.Utils.SQLiteVectorStore
+Message: SQLiteVectorStore DB: D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\bin\Debug\net8.0\PDFdb_ai_company_85.db Exists=True
+------------------------------------------------------------
+[2025-10-17 10:52:34.110] [Information]
+Category: GenxAi_Solutions.Utils.SQLiteVectorStore
+Message: SQLiteVectorStore DB: D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\bin\Debug\net8.0\PDFdb_ai_company_85.db Exists=True
+--------------------------------------------------------------------------------
+[2025-10-17 10:52:41.516] [Information]
+Category: GenxAi_Solutions.Services.VectorStoreFactory
+Message: PdfCreate DataSource=D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\bin\Debug\net8.0\PDFdb_ai_company_85.db Exists=True
+------------------------------------------------------------
+[2025-10-17 10:52:41.516] [Information]
+Category: GenxAi_Solutions.Services.VectorStoreFactory
+Message: PdfCreate DataSource=D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\bin\Debug\net8.0\PDFdb_ai_company_85.db Exists=True
+--------------------------------------------------------------------------------
+[2025-10-17 10:56:01.883] [Information]
+Category: GenxAi_Solutions.Services.AuditLogger
+Message: SECURITY_EVENT: Type: CHAT_PROCESSING_ERROR, User: admin@acgindia.co.in, IP: ::1, Details: Error in chat processing: The operation was canceled., CorrelationId: ba4257a1-5d17-4164-857a-2f4af5cd6d0f
+------------------------------------------------------------
+[2025-10-17 10:56:01.883] [Information]
+Category: GenxAi_Solutions.Services.AuditLogger
+Message: SECURITY_EVENT: Type: CHAT_PROCESSING_ERROR, User: admin@acgindia.co.in, IP: ::1, Details: Error in chat processing: The operation was canceled., CorrelationId: ba4257a1-5d17-4164-857a-2f4af5cd6d0f
+--------------------------------------------------------------------------------
+[2025-10-17 10:56:01.950] [Information]
+Category: GenxAi_Solutions.Utils.Middleware.ErrorHandlingMiddleware
+Message: Request aborted by client: POST /api/CompanyOnboard/Ask2
+------------------------------------------------------------
+[2025-10-17 10:56:01.951] [Information]
+Category: GenxAi_Solutions.Utils.Middleware.ErrorHandlingMiddleware
+Message: Request aborted by client: POST /api/CompanyOnboard/Ask2
+--------------------------------------------------------------------------------
+[2025-10-17 10:56:12.298] [Information]
+Category: GenxAi_Solutions.Services.AuditLogger
+Message: GENERAL_AUDIT: Action: POST /api/CompanyOnboard/Ask2, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-17 10:56:12.298] [Information]
+Category: GenxAi_Solutions.Services.AuditLogger
+Message: GENERAL_AUDIT: Action: POST /api/CompanyOnboard/Ask2, User: anonymous, IP: ::1, Details: Sensitive action accessed
+--------------------------------------------------------------------------------
+[2025-10-17 10:56:23.957] [Information]
+Category: GenxAi_Solutions.Utils.SQLiteVectorStore
+Message: SQLiteVectorStore DB: D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\bin\Debug\net8.0\PDFdb_ai_company_85.db Exists=True
+------------------------------------------------------------
+[2025-10-17 10:56:23.959] [Information]
+Category: GenxAi_Solutions.Utils.SQLiteVectorStore
+Message: SQLiteVectorStore DB: D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\bin\Debug\net8.0\PDFdb_ai_company_85.db Exists=True
+--------------------------------------------------------------------------------
+[2025-10-17 10:56:23.967] [Information]
+Category: GenxAi_Solutions.Services.VectorStoreFactory
+Message: PdfCreate DataSource=D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\bin\Debug\net8.0\PDFdb_ai_company_85.db Exists=True
+------------------------------------------------------------
+[2025-10-17 10:56:23.969] [Information]
+Category: GenxAi_Solutions.Services.VectorStoreFactory
+Message: PdfCreate DataSource=D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\bin\Debug\net8.0\PDFdb_ai_company_85.db Exists=True
+--------------------------------------------------------------------------------
+[2025-10-17 11:13:16.129] [Information]
+Category: GenxAi_Solutions.Services.Background.QueuedWorker
+Message: QueuedWorker started.
+------------------------------------------------------------
+[2025-10-17 11:13:16.134] [Information]
+Category: GenxAi_Solutions.Services.Background.QueuedWorker
+Message: QueuedWorker started.
+--------------------------------------------------------------------------------
+[2025-10-17 11:13:16.267] [Information]
+Category: Microsoft.Hosting.Lifetime
+Message: Now listening on: https://localhost:7282
+------------------------------------------------------------
+[2025-10-17 11:13:16.267] [Information]
+Category: Microsoft.Hosting.Lifetime
+Message: Now listening on: https://localhost:7282
+--------------------------------------------------------------------------------
+[2025-10-17 11:13:16.267] [Information]
+Category: Microsoft.Hosting.Lifetime
+Message: Now listening on: http://localhost:5072
+------------------------------------------------------------
+[2025-10-17 11:13:16.267] [Information]
+Category: Microsoft.Hosting.Lifetime
+Message: Now listening on: http://localhost:5072
+--------------------------------------------------------------------------------
+[2025-10-17 11:13:16.345] [Information]
+Category: Microsoft.Hosting.Lifetime
+Message: Application started. Press Ctrl+C to shut down.
+------------------------------------------------------------
+[2025-10-17 11:13:16.347] [Information]
+Category: Microsoft.Hosting.Lifetime
+Message: Application started. Press Ctrl+C to shut down.
+--------------------------------------------------------------------------------
+[2025-10-17 11:13:16.352] [Information]
+Category: Microsoft.Hosting.Lifetime
+Message: Hosting environment: Development
+------------------------------------------------------------
+[2025-10-17 11:13:16.352] [Information]
+Category: Microsoft.Hosting.Lifetime
+Message: Hosting environment: Development
+--------------------------------------------------------------------------------
+[2025-10-17 11:13:16.356] [Information]
+Category: Microsoft.Hosting.Lifetime
+Message: Content root path: D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions
+------------------------------------------------------------
+[2025-10-17 11:13:16.358] [Information]
+Category: Microsoft.Hosting.Lifetime
+Message: Content root path: D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions
+--------------------------------------------------------------------------------
+[2025-10-17 11:13:59.239] [Information]
+Category: GenxAi_Solutions.Services.Background.QueuedWorker
+Message: QueuedWorker started.
+------------------------------------------------------------
+[2025-10-17 11:13:59.244] [Information]
+Category: GenxAi_Solutions.Services.Background.QueuedWorker
+Message: QueuedWorker started.
+--------------------------------------------------------------------------------
+[2025-10-17 11:13:59.415] [Information]
+Category: Microsoft.Hosting.Lifetime
+Message: Now listening on: https://localhost:7282
+------------------------------------------------------------
+[2025-10-17 11:13:59.415] [Information]
+Category: Microsoft.Hosting.Lifetime
+Message: Now listening on: https://localhost:7282
+--------------------------------------------------------------------------------
+[2025-10-17 11:13:59.416] [Information]
+Category: Microsoft.Hosting.Lifetime
+Message: Now listening on: http://localhost:5072
+------------------------------------------------------------
+[2025-10-17 11:13:59.416] [Information]
+Category: Microsoft.Hosting.Lifetime
+Message: Now listening on: http://localhost:5072
+--------------------------------------------------------------------------------
+[2025-10-17 11:13:59.510] [Information]
+Category: Microsoft.Hosting.Lifetime
+Message: Application started. Press Ctrl+C to shut down.
+------------------------------------------------------------
+[2025-10-17 11:13:59.511] [Information]
+Category: Microsoft.Hosting.Lifetime
+Message: Application started. Press Ctrl+C to shut down.
+--------------------------------------------------------------------------------
+[2025-10-17 11:13:59.514] [Information]
+Category: Microsoft.Hosting.Lifetime
+Message: Hosting environment: Development
+------------------------------------------------------------
+[2025-10-17 11:13:59.514] [Information]
+Category: Microsoft.Hosting.Lifetime
+Message: Hosting environment: Development
+--------------------------------------------------------------------------------
+[2025-10-17 11:13:59.515] [Information]
+Category: Microsoft.Hosting.Lifetime
+Message: Content root path: D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions
+------------------------------------------------------------
+[2025-10-17 11:13:59.515] [Information]
+Category: Microsoft.Hosting.Lifetime
+Message: Content root path: D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions
+--------------------------------------------------------------------------------
+[2025-10-17 11:57:02.206] [Information]
+Category: GenxAi_Solutions.Services.Background.QueuedWorker
+Message: QueuedWorker started.
+------------------------------------------------------------
+[2025-10-17 11:57:02.218] [Information]
+Category: GenxAi_Solutions.Services.Background.QueuedWorker
+Message: QueuedWorker started.
+--------------------------------------------------------------------------------
+[2025-10-17 11:57:02.573] [Information]
+Category: Microsoft.Hosting.Lifetime
+Message: Now listening on: https://localhost:7282
+------------------------------------------------------------
+[2025-10-17 11:57:02.575] [Information]
+Category: Microsoft.Hosting.Lifetime
+Message: Now listening on: https://localhost:7282
+--------------------------------------------------------------------------------
+[2025-10-17 11:57:02.577] [Information]
+Category: Microsoft.Hosting.Lifetime
+Message: Now listening on: http://localhost:5072
+------------------------------------------------------------
+[2025-10-17 11:57:02.579] [Information]
+Category: Microsoft.Hosting.Lifetime
+Message: Now listening on: http://localhost:5072
+--------------------------------------------------------------------------------
+[2025-10-17 11:57:02.770] [Information]
+Category: Microsoft.Hosting.Lifetime
+Message: Application started. Press Ctrl+C to shut down.
+------------------------------------------------------------
+[2025-10-17 11:57:02.778] [Information]
+Category: Microsoft.Hosting.Lifetime
+Message: Application started. Press Ctrl+C to shut down.
+--------------------------------------------------------------------------------
+[2025-10-17 11:57:02.783] [Information]
+Category: Microsoft.Hosting.Lifetime
+Message: Hosting environment: Development
+------------------------------------------------------------
+[2025-10-17 11:57:02.788] [Information]
+Category: Microsoft.Hosting.Lifetime
+Message: Hosting environment: Development
+--------------------------------------------------------------------------------
+[2025-10-17 11:57:02.793] [Information]
+Category: Microsoft.Hosting.Lifetime
+Message: Content root path: D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions
+------------------------------------------------------------
+[2025-10-17 11:57:02.796] [Information]
+Category: Microsoft.Hosting.Lifetime
+Message: Content root path: D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions
+--------------------------------------------------------------------------------

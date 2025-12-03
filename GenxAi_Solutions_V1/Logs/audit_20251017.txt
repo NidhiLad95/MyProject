@@ -1,0 +1,803 @@
+﻿[2025-10-17 09:39:33.008] [AUDIT]
+Event: General Audit
+Details: QueuedWorker started.
+------------------------------------------------------------
+[2025-10-17 09:39:33.431] [AUDIT]
+Event: ListeningOnAddress
+Details: Now listening on: https://localhost:7282
+------------------------------------------------------------
+[2025-10-17 09:39:33.432] [AUDIT]
+Event: ListeningOnAddress
+Details: Now listening on: http://localhost:5072
+------------------------------------------------------------
+[2025-10-17 09:39:33.596] [AUDIT]
+Event: General Audit
+Details: Application started. Press Ctrl+C to shut down.
+------------------------------------------------------------
+[2025-10-17 09:39:33.598] [AUDIT]
+Event: General Audit
+Details: Hosting environment: Development
+------------------------------------------------------------
+[2025-10-17 09:39:33.599] [AUDIT]
+Event: General Audit
+Details: Content root path: D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions
+------------------------------------------------------------
+[2025-10-17 09:39:50.085] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: POST /api/auth/login, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-17 09:39:55.413] [AUDIT]
+Event: General Audit
+Details: USER_LOGIN: User: nidhi.lad@genxai.com, IP: ::1, Status: SUCCESS
+------------------------------------------------------------
+[2025-10-17 09:39:55.607] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-17 09:39:55.641] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/CompanyOnboard/History/me, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-17 09:39:55.697] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: POST /api/auth/getmenu, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-17 09:39:55.809] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=2 companies=0 afterId=(null)
+------------------------------------------------------------
+[2025-10-17 09:40:00.411] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-17 09:40:59.518] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: POST /api/CompanyOnboard/Start1, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-17 09:41:08.818] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/CompanyOnboard/History/me, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-17 09:44:35.070] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: POST /api/CompanyOnboard/Ask2, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-17 09:46:05.518] [AUDIT]
+Event: General Audit
+Details: SQLiteVectorStore DB: D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\bin\Debug\net8.0\PDFdb_ai_company_3128.db Exists=False
+------------------------------------------------------------
+[2025-10-17 09:46:05.577] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: POST /api/CompanyOnboard/Ask2, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-17 09:46:18.471] [AUDIT]
+Event: General Audit
+Details: PdfCreate DataSource=D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\bin\Debug\net8.0\PDFdb_ai_company_3128.db Exists=True
+------------------------------------------------------------
+[2025-10-17 09:50:13.199] [AUDIT]
+Event: General Audit
+Details: Error in AskChat_up API - User: nidhi.lad@genxai.com, Service: FileAnalytics, Message: hi, CorrelationId: 042fd830-5cee-41d7-87c6-539a2d42a56a, Error: One or more errors occurred. (The client was unable to establish a connection because of an error during connection initialization process before login. Possible causes include the following:  the client tried to connect to an unsupported version of SQL Server; the server was too busy to accept new connections; or there was a resource limitation (insufficient memory or maximum allowed connections) on the server. (provider: TCP Provider, error: 0 - An existing connection was forcibly closed by the remote host.))
+------------------------------------------------------------
+[2025-10-17 09:50:13.200] [AUDIT]
+Event: General Audit
+Details: SECURITY_EVENT: Type: CHAT_PROCESSING_ERROR, User: nidhi.lad@genxai.com, IP: ::1, Details: Error in chat processing: One or more errors occurred. (The client was unable to establish a connection because of an error during connection initialization process before login. Possible causes include the following:  the client tried to connect to an unsupported version of SQL Server; the server was too busy to accept new connections; or there was a resource limitation (insufficient memory or maximum allowed connections) on the server. (provider: TCP Provider, error: 0 - An existing connection was forcibly closed by the remote host.)), CorrelationId: 042fd830-5cee-41d7-87c6-539a2d42a56a
+------------------------------------------------------------
+[2025-10-17 09:50:13.203] [AUDIT]
+Event: General Audit
+Details: Error in AskChat_up API - User: nidhi.lad@genxai.com, Service: FileAnalytics, Message: hi, CorrelationId: 32ef4981-539a-4c8e-9999-0161755984ad, Error: Call to vector store failed.
+------------------------------------------------------------
+[2025-10-17 09:50:13.203] [AUDIT]
+Event: General Audit
+Details: SECURITY_EVENT: Type: CHAT_PROCESSING_ERROR, User: nidhi.lad@genxai.com, IP: ::1, Details: Error in chat processing: Call to vector store failed., CorrelationId: 32ef4981-539a-4c8e-9999-0161755984ad
+------------------------------------------------------------
+[2025-10-17 09:50:13.402] [AUDIT]
+Event: General Audit
+Details: Unhandled exception POST /api/CompanyOnboard/Ask2 042fd830-5cee-41d7-87c6-539a2d42a56a. Exception Details: System.AggregateException - One or more errors occurred. (The client was unable to establish a connection because of an error during connection initialization process before login. Possible causes include the following:  the client tried to connect to an unsupported version of SQL Server; the server was too busy to accept new connections; or there was a resource limitation (insufficient memory or maximum allowed connections) on the server. (provider: TCP Provider, error: 0 - An existing connection was forcibly closed by the remote host.)) Stack Trace:    at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at GenxAi_Solutions.Api.CompanyOnboardController.GetPrompt(Int32 companyId, String chosenServices) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Api\CompanyOnboardController.cs:line 1564
+   at GenxAi_Solutions.Api.CompanyOnboardController.AskChat_up(String message, String service, Nullable`1 conversationId, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Api\CompanyOnboardController.cs:line 1106
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at GenxAi_Solutions.Utils.Middleware.ErrorHandlingMiddleware.Invoke(HttpContext context) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Utils\Middleware\ErrorHandlingMiddleware.cs:line 139
+------------------------------------------------------------
+[2025-10-17 09:50:13.404] [AUDIT]
+Event: General Audit
+Details: Unhandled exception POST /api/CompanyOnboard/Ask2 32ef4981-539a-4c8e-9999-0161755984ad. Exception Details: Microsoft.Extensions.VectorData.VectorStoreException - Call to vector store failed. Stack Trace:    at Microsoft.Extensions.VectorData.VectorStoreErrorHandler.ExecuteWithErrorHandlingAsync[TResult](DbConnection connection, VectorStoreCollectionMetadata metadata, String operationName, Func`1 operation, CancellationToken cancellationToken)
+   at Microsoft.SemanticKernel.Connectors.SqliteVec.SqliteCollection`2.EnumerateAndMapSearchResultsAsync(List`1 conditions, String extraWhereFilter, Dictionary`2 extraParameters, VectorSearchOptions`1 searchOptions, CancellationToken cancellationToken)+MoveNext()
+   at Microsoft.SemanticKernel.Connectors.SqliteVec.SqliteCollection`2.EnumerateAndMapSearchResultsAsync(List`1 conditions, String extraWhereFilter, Dictionary`2 extraParameters, VectorSearchOptions`1 searchOptions, CancellationToken cancellationToken)+System.Threading.Tasks.Sources.IValueTaskSource<System.Boolean>.GetResult()
+   at Microsoft.SemanticKernel.Connectors.SqliteVec.SqliteCollection`2.SearchAsync[TInput](TInput searchValue, Int32 top, VectorSearchOptions`1 options, CancellationToken cancellationToken)+MoveNext()
+   at Microsoft.SemanticKernel.Connectors.SqliteVec.SqliteCollection`2.SearchAsync[TInput](TInput searchValue, Int32 top, VectorSearchOptions`1 options, CancellationToken cancellationToken)+MoveNext()
+   at Microsoft.SemanticKernel.Connectors.SqliteVec.SqliteCollection`2.SearchAsync[TInput](TInput searchValue, Int32 top, VectorSearchOptions`1 options, CancellationToken cancellationToken)+System.Threading.Tasks.Sources.IValueTaskSource<System.Boolean>.GetResult()
+   at GenxAi_Solutions.Services.VectorStoreSeedService.QueryAsync(String question, String sqliteDbPath, Int32 topSections, Int32 topChunks) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Services\VectorStoreSeedService .cs:line 375
+   at GenxAi_Solutions.Services.VectorStoreSeedService.QueryAsync(String question, String sqliteDbPath, Int32 topSections, Int32 topChunks) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Services\VectorStoreSeedService .cs:line 375
+   at GenxAi_Solutions.Api.CompanyOnboardController.AskChat_up(String message, String service, Nullable`1 conversationId, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Api\CompanyOnboardController.cs:line 1164
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at GenxAi_Solutions.Utils.Middleware.ErrorHandlingMiddleware.Invoke(HttpContext context) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Utils\Middleware\ErrorHandlingMiddleware.cs:line 139
+------------------------------------------------------------
+[2025-10-17 09:50:46.276] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: POST /api/CompanyOnboard/Ask2, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-17 09:51:56.096] [AUDIT]
+Event: General Audit
+Details: SQLiteVectorStore DB: D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\bin\Debug\net8.0\PDFdb_ai_company_3128.db Exists=True
+------------------------------------------------------------
+[2025-10-17 09:53:41.380] [AUDIT]
+Event: General Audit
+Details: PdfCreate DataSource=D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\bin\Debug\net8.0\PDFdb_ai_company_3128.db Exists=True
+------------------------------------------------------------
+[2025-10-17 09:54:32.369] [AUDIT]
+Event: General Audit
+Details: Error in AskChat_up API - User: nidhi.lad@genxai.com, Service: FileAnalytics, Message: hi, CorrelationId: 777c5de7-4c19-4d27-8ba4-5f2cf0953b79, Error: Call to vector store failed.
+------------------------------------------------------------
+[2025-10-17 09:54:32.370] [AUDIT]
+Event: General Audit
+Details: SECURITY_EVENT: Type: CHAT_PROCESSING_ERROR, User: nidhi.lad@genxai.com, IP: ::1, Details: Error in chat processing: Call to vector store failed., CorrelationId: 777c5de7-4c19-4d27-8ba4-5f2cf0953b79
+------------------------------------------------------------
+[2025-10-17 09:54:32.473] [AUDIT]
+Event: General Audit
+Details: Unhandled exception POST /api/CompanyOnboard/Ask2 777c5de7-4c19-4d27-8ba4-5f2cf0953b79. Exception Details: Microsoft.Extensions.VectorData.VectorStoreException - Call to vector store failed. Stack Trace:    at Microsoft.Extensions.VectorData.VectorStoreErrorHandler.ExecuteWithErrorHandlingAsync[TResult](DbConnection connection, VectorStoreCollectionMetadata metadata, String operationName, Func`1 operation, CancellationToken cancellationToken)
+   at Microsoft.SemanticKernel.Connectors.SqliteVec.SqliteCollection`2.EnumerateAndMapSearchResultsAsync(List`1 conditions, String extraWhereFilter, Dictionary`2 extraParameters, VectorSearchOptions`1 searchOptions, CancellationToken cancellationToken)+MoveNext()
+   at Microsoft.SemanticKernel.Connectors.SqliteVec.SqliteCollection`2.EnumerateAndMapSearchResultsAsync(List`1 conditions, String extraWhereFilter, Dictionary`2 extraParameters, VectorSearchOptions`1 searchOptions, CancellationToken cancellationToken)+System.Threading.Tasks.Sources.IValueTaskSource<System.Boolean>.GetResult()
+   at Microsoft.SemanticKernel.Connectors.SqliteVec.SqliteCollection`2.SearchAsync[TInput](TInput searchValue, Int32 top, VectorSearchOptions`1 options, CancellationToken cancellationToken)+MoveNext()
+   at Microsoft.SemanticKernel.Connectors.SqliteVec.SqliteCollection`2.SearchAsync[TInput](TInput searchValue, Int32 top, VectorSearchOptions`1 options, CancellationToken cancellationToken)+MoveNext()
+   at Microsoft.SemanticKernel.Connectors.SqliteVec.SqliteCollection`2.SearchAsync[TInput](TInput searchValue, Int32 top, VectorSearchOptions`1 options, CancellationToken cancellationToken)+System.Threading.Tasks.Sources.IValueTaskSource<System.Boolean>.GetResult()
+   at GenxAi_Solutions.Services.VectorStoreSeedService.QueryAsync(String question, String sqliteDbPath, Int32 topSections, Int32 topChunks) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Services\VectorStoreSeedService .cs:line 375
+   at GenxAi_Solutions.Services.VectorStoreSeedService.QueryAsync(String question, String sqliteDbPath, Int32 topSections, Int32 topChunks) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Services\VectorStoreSeedService .cs:line 375
+   at GenxAi_Solutions.Api.CompanyOnboardController.AskChat_up(String message, String service, Nullable`1 conversationId, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Api\CompanyOnboardController.cs:line 1164
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at GenxAi_Solutions.Utils.Middleware.ErrorHandlingMiddleware.Invoke(HttpContext context) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Utils\Middleware\ErrorHandlingMiddleware.cs:line 139
+------------------------------------------------------------
+[2025-10-17 09:55:47.979] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: POST /api/CompanyOnboard/Ask2, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-17 10:00:04.962] [AUDIT]
+Event: General Audit
+Details: QueuedWorker started.
+------------------------------------------------------------
+[2025-10-17 10:00:05.101] [AUDIT]
+Event: ListeningOnAddress
+Details: Now listening on: https://localhost:7282
+------------------------------------------------------------
+[2025-10-17 10:00:05.102] [AUDIT]
+Event: ListeningOnAddress
+Details: Now listening on: http://localhost:5072
+------------------------------------------------------------
+[2025-10-17 10:00:05.160] [AUDIT]
+Event: General Audit
+Details: Application started. Press Ctrl+C to shut down.
+------------------------------------------------------------
+[2025-10-17 10:00:05.161] [AUDIT]
+Event: General Audit
+Details: Hosting environment: Development
+------------------------------------------------------------
+[2025-10-17 10:00:05.162] [AUDIT]
+Event: General Audit
+Details: Content root path: D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions
+------------------------------------------------------------
+[2025-10-17 10:00:19.200] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: POST /api/auth/login, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-17 10:00:24.492] [AUDIT]
+Event: General Audit
+Details: USER_LOGIN: User: nidhi.lad@genxai.com, IP: ::1, Status: SUCCESS
+------------------------------------------------------------
+[2025-10-17 10:00:24.696] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-17 10:00:24.814] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: POST /api/auth/getmenu, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-17 10:00:24.818] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=2 companies=0 afterId=(null)
+------------------------------------------------------------
+[2025-10-17 10:00:24.820] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/CompanyOnboard/History/me, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-17 10:00:29.455] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-17 10:00:32.521] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: POST /api/CompanyOnboard/Start1, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-17 10:00:41.756] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/CompanyOnboard/History/me, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-17 10:01:02.216] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: POST /api/CompanyOnboard/Ask2, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-17 10:01:38.141] [AUDIT]
+Event: General Audit
+Details: SQLiteVectorStore DB: D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\bin\Debug\net8.0\PDFdb_ai_company_3128.db Exists=True
+------------------------------------------------------------
+[2025-10-17 10:01:39.534] [AUDIT]
+Event: General Audit
+Details: PdfCreate DataSource=D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\bin\Debug\net8.0\PDFdb_ai_company_3128.db Exists=True
+------------------------------------------------------------
+[2025-10-17 10:01:53.629] [AUDIT]
+Event: General Audit
+Details: Error in AskChat_up API - User: nidhi.lad@genxai.com, Service: FileAnalytics, Message: hi, CorrelationId: 496a0938-c367-4cc3-994c-8c3d74cf76de, Error: Call to vector store failed.
+------------------------------------------------------------
+[2025-10-17 10:01:53.631] [AUDIT]
+Event: General Audit
+Details: SECURITY_EVENT: Type: CHAT_PROCESSING_ERROR, User: nidhi.lad@genxai.com, IP: ::1, Details: Error in chat processing: Call to vector store failed., CorrelationId: 496a0938-c367-4cc3-994c-8c3d74cf76de
+------------------------------------------------------------
+[2025-10-17 10:01:53.780] [AUDIT]
+Event: General Audit
+Details: Unhandled exception POST /api/CompanyOnboard/Ask2 496a0938-c367-4cc3-994c-8c3d74cf76de. Exception Details: Microsoft.Extensions.VectorData.VectorStoreException - Call to vector store failed. Stack Trace:    at Microsoft.Extensions.VectorData.VectorStoreErrorHandler.ExecuteWithErrorHandlingAsync[TResult](DbConnection connection, VectorStoreCollectionMetadata metadata, String operationName, Func`1 operation, CancellationToken cancellationToken)
+   at Microsoft.SemanticKernel.Connectors.SqliteVec.SqliteCollection`2.EnumerateAndMapSearchResultsAsync(List`1 conditions, String extraWhereFilter, Dictionary`2 extraParameters, VectorSearchOptions`1 searchOptions, CancellationToken cancellationToken)+MoveNext()
+   at Microsoft.SemanticKernel.Connectors.SqliteVec.SqliteCollection`2.EnumerateAndMapSearchResultsAsync(List`1 conditions, String extraWhereFilter, Dictionary`2 extraParameters, VectorSearchOptions`1 searchOptions, CancellationToken cancellationToken)+System.Threading.Tasks.Sources.IValueTaskSource<System.Boolean>.GetResult()
+   at Microsoft.SemanticKernel.Connectors.SqliteVec.SqliteCollection`2.SearchAsync[TInput](TInput searchValue, Int32 top, VectorSearchOptions`1 options, CancellationToken cancellationToken)+MoveNext()
+   at Microsoft.SemanticKernel.Connectors.SqliteVec.SqliteCollection`2.SearchAsync[TInput](TInput searchValue, Int32 top, VectorSearchOptions`1 options, CancellationToken cancellationToken)+MoveNext()
+   at Microsoft.SemanticKernel.Connectors.SqliteVec.SqliteCollection`2.SearchAsync[TInput](TInput searchValue, Int32 top, VectorSearchOptions`1 options, CancellationToken cancellationToken)+System.Threading.Tasks.Sources.IValueTaskSource<System.Boolean>.GetResult()
+   at GenxAi_Solutions.Services.VectorStoreSeedService.QueryAsync(String question, String sqliteDbPath, Int32 topSections, Int32 topChunks) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Services\VectorStoreSeedService .cs:line 375
+   at GenxAi_Solutions.Services.VectorStoreSeedService.QueryAsync(String question, String sqliteDbPath, Int32 topSections, Int32 topChunks) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Services\VectorStoreSeedService .cs:line 375
+   at GenxAi_Solutions.Api.CompanyOnboardController.AskChat_up(String message, String service, Nullable`1 conversationId, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Api\CompanyOnboardController.cs:line 1164
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at GenxAi_Solutions.Utils.Middleware.ErrorHandlingMiddleware.Invoke(HttpContext context) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Utils\Middleware\ErrorHandlingMiddleware.cs:line 139
+------------------------------------------------------------
+[2025-10-17 10:02:01.752] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: POST /api/CompanyOnboard/Ask2, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-17 10:02:33.496] [AUDIT]
+Event: General Audit
+Details: SQLiteVectorStore DB: D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\bin\Debug\net8.0\PDFdb_ai_company_3128.db Exists=True
+------------------------------------------------------------
+[2025-10-17 10:02:42.522] [AUDIT]
+Event: General Audit
+Details: PdfCreate DataSource=D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\bin\Debug\net8.0\PDFdb_ai_company_3128.db Exists=True
+------------------------------------------------------------
+[2025-10-17 10:03:33.517] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: POST /api/CompanyOnboard/Ask2, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-17 10:03:55.731] [AUDIT]
+Event: General Audit
+Details: Error in AskChat_up API - User: nidhi.lad@genxai.com, Service: FileAnalytics, Message: Hi, CorrelationId: 4825e3d5-dd17-4478-a6b0-cbbfaa401b8e, Error: Call to vector store failed.
+------------------------------------------------------------
+[2025-10-17 10:03:55.733] [AUDIT]
+Event: General Audit
+Details: SECURITY_EVENT: Type: CHAT_PROCESSING_ERROR, User: nidhi.lad@genxai.com, IP: ::1, Details: Error in chat processing: Call to vector store failed., CorrelationId: 4825e3d5-dd17-4478-a6b0-cbbfaa401b8e
+------------------------------------------------------------
+[2025-10-17 10:03:55.848] [AUDIT]
+Event: General Audit
+Details: Unhandled exception POST /api/CompanyOnboard/Ask2 4825e3d5-dd17-4478-a6b0-cbbfaa401b8e. Exception Details: Microsoft.Extensions.VectorData.VectorStoreException - Call to vector store failed. Stack Trace:    at Microsoft.Extensions.VectorData.VectorStoreErrorHandler.ExecuteWithErrorHandlingAsync[TResult](DbConnection connection, VectorStoreCollectionMetadata metadata, String operationName, Func`1 operation, CancellationToken cancellationToken)
+   at Microsoft.SemanticKernel.Connectors.SqliteVec.SqliteCollection`2.EnumerateAndMapSearchResultsAsync(List`1 conditions, String extraWhereFilter, Dictionary`2 extraParameters, VectorSearchOptions`1 searchOptions, CancellationToken cancellationToken)+MoveNext()
+   at Microsoft.SemanticKernel.Connectors.SqliteVec.SqliteCollection`2.EnumerateAndMapSearchResultsAsync(List`1 conditions, String extraWhereFilter, Dictionary`2 extraParameters, VectorSearchOptions`1 searchOptions, CancellationToken cancellationToken)+System.Threading.Tasks.Sources.IValueTaskSource<System.Boolean>.GetResult()
+   at Microsoft.SemanticKernel.Connectors.SqliteVec.SqliteCollection`2.SearchAsync[TInput](TInput searchValue, Int32 top, VectorSearchOptions`1 options, CancellationToken cancellationToken)+MoveNext()
+   at Microsoft.SemanticKernel.Connectors.SqliteVec.SqliteCollection`2.SearchAsync[TInput](TInput searchValue, Int32 top, VectorSearchOptions`1 options, CancellationToken cancellationToken)+MoveNext()
+   at Microsoft.SemanticKernel.Connectors.SqliteVec.SqliteCollection`2.SearchAsync[TInput](TInput searchValue, Int32 top, VectorSearchOptions`1 options, CancellationToken cancellationToken)+System.Threading.Tasks.Sources.IValueTaskSource<System.Boolean>.GetResult()
+   at GenxAi_Solutions.Services.VectorStoreSeedService.QueryAsync(String question, String sqliteDbPath, Int32 topSections, Int32 topChunks) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Services\VectorStoreSeedService .cs:line 375
+   at GenxAi_Solutions.Services.VectorStoreSeedService.QueryAsync(String question, String sqliteDbPath, Int32 topSections, Int32 topChunks) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Services\VectorStoreSeedService .cs:line 375
+   at GenxAi_Solutions.Api.CompanyOnboardController.AskChat_up(String message, String service, Nullable`1 conversationId, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Api\CompanyOnboardController.cs:line 1164
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at GenxAi_Solutions.Utils.Middleware.ErrorHandlingMiddleware.Invoke(HttpContext context) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Utils\Middleware\ErrorHandlingMiddleware.cs:line 139
+------------------------------------------------------------
+[2025-10-17 10:06:07.386] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: POST /api/CompanyOnboard/Ask2, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-17 10:06:46.921] [AUDIT]
+Event: General Audit
+Details: SQLiteVectorStore DB: D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\bin\Debug\net8.0\PDFdb_ai_company_3128.db Exists=True
+------------------------------------------------------------
+[2025-10-17 10:06:50.935] [AUDIT]
+Event: General Audit
+Details: PdfCreate DataSource=D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\bin\Debug\net8.0\PDFdb_ai_company_3128.db Exists=True
+------------------------------------------------------------
+[2025-10-17 10:07:09.726] [AUDIT]
+Event: General Audit
+Details: Error in AskChat_up API - User: nidhi.lad@genxai.com, Service: FileAnalytics, Message: Hi, CorrelationId: fbfaacb1-c22f-4ff1-bfdf-c604703170e8, Error: Call to vector store failed.
+------------------------------------------------------------
+[2025-10-17 10:07:09.726] [AUDIT]
+Event: General Audit
+Details: SECURITY_EVENT: Type: CHAT_PROCESSING_ERROR, User: nidhi.lad@genxai.com, IP: ::1, Details: Error in chat processing: Call to vector store failed., CorrelationId: fbfaacb1-c22f-4ff1-bfdf-c604703170e8
+------------------------------------------------------------
+[2025-10-17 10:07:09.869] [AUDIT]
+Event: General Audit
+Details: Error in AskChat_up API - User: nidhi.lad@genxai.com, Service: FileAnalytics, Message: Hi, CorrelationId: 7f5bff47-2557-4b55-810b-87afe187364e, Error: Connection Timeout Expired.  The timeout period elapsed while attempting to consume the pre-login handshake acknowledgement.  This could be because the pre-login handshake failed or the server was unable to respond back in time.  The duration spent while attempting to connect to this server was - [Pre-Login] initialization=18767; handshake=2; 
+------------------------------------------------------------
+[2025-10-17 10:07:09.871] [AUDIT]
+Event: General Audit
+Details: SECURITY_EVENT: Type: CHAT_PROCESSING_ERROR, User: nidhi.lad@genxai.com, IP: ::1, Details: Error in chat processing: Connection Timeout Expired.  The timeout period elapsed while attempting to consume the pre-login handshake acknowledgement.  This could be because the pre-login handshake failed or the server was unable to respond back in time.  The duration spent while attempting to connect to this server was - [Pre-Login] initialization=18767; handshake=2; , CorrelationId: 7f5bff47-2557-4b55-810b-87afe187364e
+------------------------------------------------------------
+[2025-10-17 10:07:09.886] [AUDIT]
+Event: General Audit
+Details: Unhandled exception POST /api/CompanyOnboard/Ask2 fbfaacb1-c22f-4ff1-bfdf-c604703170e8. Exception Details: Microsoft.Extensions.VectorData.VectorStoreException - Call to vector store failed. Stack Trace:    at Microsoft.Extensions.VectorData.VectorStoreErrorHandler.ExecuteWithErrorHandlingAsync[TResult](DbConnection connection, VectorStoreCollectionMetadata metadata, String operationName, Func`1 operation, CancellationToken cancellationToken)
+   at Microsoft.SemanticKernel.Connectors.SqliteVec.SqliteCollection`2.EnumerateAndMapSearchResultsAsync(List`1 conditions, String extraWhereFilter, Dictionary`2 extraParameters, VectorSearchOptions`1 searchOptions, CancellationToken cancellationToken)+MoveNext()
+   at Microsoft.SemanticKernel.Connectors.SqliteVec.SqliteCollection`2.EnumerateAndMapSearchResultsAsync(List`1 conditions, String extraWhereFilter, Dictionary`2 extraParameters, VectorSearchOptions`1 searchOptions, CancellationToken cancellationToken)+System.Threading.Tasks.Sources.IValueTaskSource<System.Boolean>.GetResult()
+   at Microsoft.SemanticKernel.Connectors.SqliteVec.SqliteCollection`2.SearchAsync[TInput](TInput searchValue, Int32 top, VectorSearchOptions`1 options, CancellationToken cancellationToken)+MoveNext()
+   at Microsoft.SemanticKernel.Connectors.SqliteVec.SqliteCollection`2.SearchAsync[TInput](TInput searchValue, Int32 top, VectorSearchOptions`1 options, CancellationToken cancellationToken)+MoveNext()
+   at Microsoft.SemanticKernel.Connectors.SqliteVec.SqliteCollection`2.SearchAsync[TInput](TInput searchValue, Int32 top, VectorSearchOptions`1 options, CancellationToken cancellationToken)+System.Threading.Tasks.Sources.IValueTaskSource<System.Boolean>.GetResult()
+   at GenxAi_Solutions.Services.VectorStoreSeedService.QueryAsync(String question, String sqliteDbPath, Int32 topSections, Int32 topChunks) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Services\VectorStoreSeedService .cs:line 375
+   at GenxAi_Solutions.Services.VectorStoreSeedService.QueryAsync(String question, String sqliteDbPath, Int32 topSections, Int32 topChunks) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Services\VectorStoreSeedService .cs:line 375
+   at GenxAi_Solutions.Api.CompanyOnboardController.AskChat_up(String message, String service, Nullable`1 conversationId, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Api\CompanyOnboardController.cs:line 1164
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at GenxAi_Solutions.Utils.Middleware.ErrorHandlingMiddleware.Invoke(HttpContext context) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Utils\Middleware\ErrorHandlingMiddleware.cs:line 139
+------------------------------------------------------------
+[2025-10-17 10:07:09.921] [AUDIT]
+Event: General Audit
+Details: Unhandled exception POST /api/CompanyOnboard/Ask2 7f5bff47-2557-4b55-810b-87afe187364e. Exception Details: Microsoft.Data.SqlClient.SqlException - Connection Timeout Expired.  The timeout period elapsed while attempting to consume the pre-login handshake acknowledgement.  This could be because the pre-login handshake failed or the server was unable to respond back in time.  The duration spent while attempting to connect to this server was - [Pre-Login] initialization=18767; handshake=2;  Stack Trace:    at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, SqlCommand command, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParserStateObject.ThrowExceptionAndWarning(Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParserStateObject.ReadSniError(TdsParserStateObject stateObj, UInt32 error)
+   at Microsoft.Data.SqlClient.TdsParserStateObject.ReadSniSyncOverAsync()
+   at Microsoft.Data.SqlClient.TdsParserStateObject.TryReadNetworkPacket()
+   at Microsoft.Data.SqlClient.TdsParser.ConsumePreLoginHandshake(SqlConnectionEncryptOption encrypt, Boolean trustServerCert, Boolean integratedSecurity, Boolean& marsCapable, Boolean& fedAuthRequired, Boolean tlsFirst, String serverCertificateFilename)
+   at Microsoft.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, TimeoutTimer timeout, SqlConnectionString connectionOptions, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, IDbConnectionPool pool, Func`3 accessTokenCallback)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionPoolGroupProviderInfo poolGroupProviderInfo, IDbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.<>c__DisplayClass28_0.<CreateReplaceConnectionContinuation>b__0(Task`1 _)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at DAL.ChatBotDAL.AddMetadataBulkAsync(Int64 messageId, IDictionary`2 items) in D:\SG_IMP\GenxAi_Solutions\DAL\ChatBotDAL.cs:line 199
+   at DAL.ChatBotDAL.AddMetadataBulkAsync(Int64 messageId, IDictionary`2 items) in D:\SG_IMP\GenxAi_Solutions\DAL\ChatBotDAL.cs:line 219
+   at GenxAi_Solutions.Api.CompanyOnboardController.AskChat_up(String message, String service, Nullable`1 conversationId, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Api\CompanyOnboardController.cs:line 1133
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at GenxAi_Solutions.Utils.Middleware.ErrorHandlingMiddleware.Invoke(HttpContext context) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Utils\Middleware\ErrorHandlingMiddleware.cs:line 139
+------------------------------------------------------------
+[2025-10-17 10:07:30.637] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: POST /api/CompanyOnboard/Ask2, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-17 10:08:18.891] [AUDIT]
+Event: General Audit
+Details: SQLiteVectorStore DB: D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\bin\Debug\net8.0\PDFdb_ai_company_3128.db Exists=True
+------------------------------------------------------------
+[2025-10-17 10:08:29.379] [AUDIT]
+Event: General Audit
+Details: PdfCreate DataSource=D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\bin\Debug\net8.0\PDFdb_ai_company_3128.db Exists=True
+------------------------------------------------------------
+[2025-10-17 10:11:05.896] [AUDIT]
+Event: General Audit
+Details: Error in AskChat_up API - User: nidhi.lad@genxai.com, Service: FileAnalytics, Message: hello, CorrelationId: 352f7923-529a-4646-9d2e-2222c061fe82, Error: Call to vector store failed.
+------------------------------------------------------------
+[2025-10-17 10:11:05.898] [AUDIT]
+Event: General Audit
+Details: SECURITY_EVENT: Type: CHAT_PROCESSING_ERROR, User: nidhi.lad@genxai.com, IP: ::1, Details: Error in chat processing: Call to vector store failed., CorrelationId: 352f7923-529a-4646-9d2e-2222c061fe82
+------------------------------------------------------------
+[2025-10-17 10:11:06.039] [AUDIT]
+Event: General Audit
+Details: Unhandled exception POST /api/CompanyOnboard/Ask2 352f7923-529a-4646-9d2e-2222c061fe82. Exception Details: Microsoft.Extensions.VectorData.VectorStoreException - Call to vector store failed. Stack Trace:    at Microsoft.Extensions.VectorData.VectorStoreErrorHandler.ExecuteWithErrorHandlingAsync[TResult](DbConnection connection, VectorStoreCollectionMetadata metadata, String operationName, Func`1 operation, CancellationToken cancellationToken)
+   at Microsoft.SemanticKernel.Connectors.SqliteVec.SqliteCollection`2.EnumerateAndMapSearchResultsAsync(List`1 conditions, String extraWhereFilter, Dictionary`2 extraParameters, VectorSearchOptions`1 searchOptions, CancellationToken cancellationToken)+MoveNext()
+   at Microsoft.SemanticKernel.Connectors.SqliteVec.SqliteCollection`2.EnumerateAndMapSearchResultsAsync(List`1 conditions, String extraWhereFilter, Dictionary`2 extraParameters, VectorSearchOptions`1 searchOptions, CancellationToken cancellationToken)+System.Threading.Tasks.Sources.IValueTaskSource<System.Boolean>.GetResult()
+   at Microsoft.SemanticKernel.Connectors.SqliteVec.SqliteCollection`2.SearchAsync[TInput](TInput searchValue, Int32 top, VectorSearchOptions`1 options, CancellationToken cancellationToken)+MoveNext()
+   at Microsoft.SemanticKernel.Connectors.SqliteVec.SqliteCollection`2.SearchAsync[TInput](TInput searchValue, Int32 top, VectorSearchOptions`1 options, CancellationToken cancellationToken)+MoveNext()
+   at Microsoft.SemanticKernel.Connectors.SqliteVec.SqliteCollection`2.SearchAsync[TInput](TInput searchValue, Int32 top, VectorSearchOptions`1 options, CancellationToken cancellationToken)+System.Threading.Tasks.Sources.IValueTaskSource<System.Boolean>.GetResult()
+   at GenxAi_Solutions.Services.VectorStoreSeedService.QueryAsync(String question, String sqliteDbPath, Int32 topSections, Int32 topChunks) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Services\VectorStoreSeedService .cs:line 375
+   at GenxAi_Solutions.Services.VectorStoreSeedService.QueryAsync(String question, String sqliteDbPath, Int32 topSections, Int32 topChunks) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Services\VectorStoreSeedService .cs:line 375
+   at GenxAi_Solutions.Api.CompanyOnboardController.AskChat_up(String message, String service, Nullable`1 conversationId, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Api\CompanyOnboardController.cs:line 1164
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at GenxAi_Solutions.Utils.Middleware.ErrorHandlingMiddleware.Invoke(HttpContext context) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Utils\Middleware\ErrorHandlingMiddleware.cs:line 139
+------------------------------------------------------------
+[2025-10-17 10:30:06.177] [AUDIT]
+Event: General Audit
+Details: QueuedWorker started.
+------------------------------------------------------------
+[2025-10-17 10:30:06.344] [AUDIT]
+Event: ListeningOnAddress
+Details: Now listening on: https://localhost:7282
+------------------------------------------------------------
+[2025-10-17 10:30:06.372] [AUDIT]
+Event: ListeningOnAddress
+Details: Now listening on: http://localhost:5072
+------------------------------------------------------------
+[2025-10-17 10:30:06.475] [AUDIT]
+Event: General Audit
+Details: Application started. Press Ctrl+C to shut down.
+------------------------------------------------------------
+[2025-10-17 10:30:06.480] [AUDIT]
+Event: General Audit
+Details: Hosting environment: Development
+------------------------------------------------------------
+[2025-10-17 10:30:06.488] [AUDIT]
+Event: General Audit
+Details: Content root path: D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions
+------------------------------------------------------------
+[2025-10-17 10:30:20.491] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: POST /api/auth/login, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-17 10:30:25.806] [AUDIT]
+Event: General Audit
+Details: USER_LOGIN: User: nidhi.lad@genxai.com, IP: ::1, Status: SUCCESS
+------------------------------------------------------------
+[2025-10-17 10:30:25.953] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-17 10:30:25.991] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/CompanyOnboard/History/me, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-17 10:30:26.002] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: POST /api/auth/getmenu, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-17 10:30:26.124] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=2 companies=0 afterId=(null)
+------------------------------------------------------------
+[2025-10-17 10:30:30.785] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-17 10:30:32.516] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: POST /api/CompanyOnboard/Start1, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-17 10:30:41.770] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/CompanyOnboard/History/me, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-17 10:30:48.827] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: POST /api/CompanyOnboard/Ask2, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-17 10:31:34.725] [AUDIT]
+Event: General Audit
+Details: SQLiteVectorStore DB: D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\bin\Debug\net8.0\PDFdb_ai_company_3128.db Exists=True
+------------------------------------------------------------
+[2025-10-17 10:31:42.927] [AUDIT]
+Event: General Audit
+Details: PdfCreate DataSource=D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\bin\Debug\net8.0\PDFdb_ai_company_3128.db Exists=True
+------------------------------------------------------------
+[2025-10-17 10:35:24.477] [AUDIT]
+Event: General Audit
+Details: Error in AskChat_up API - User: nidhi.lad@genxai.com, Service: FileAnalytics, Message: hi, CorrelationId: 8863e1f5-a966-43aa-809d-1d68fe3c7825, Error: Call to vector store failed.
+------------------------------------------------------------
+[2025-10-17 10:35:24.478] [AUDIT]
+Event: General Audit
+Details: SECURITY_EVENT: Type: CHAT_PROCESSING_ERROR, User: nidhi.lad@genxai.com, IP: ::1, Details: Error in chat processing: Call to vector store failed., CorrelationId: 8863e1f5-a966-43aa-809d-1d68fe3c7825
+------------------------------------------------------------
+[2025-10-17 10:35:24.605] [AUDIT]
+Event: General Audit
+Details: Unhandled exception POST /api/CompanyOnboard/Ask2 8863e1f5-a966-43aa-809d-1d68fe3c7825. Exception Details: Microsoft.Extensions.VectorData.VectorStoreException - Call to vector store failed. Stack Trace:    at Microsoft.Extensions.VectorData.VectorStoreErrorHandler.ExecuteWithErrorHandlingAsync[TResult](DbConnection connection, VectorStoreCollectionMetadata metadata, String operationName, Func`1 operation, CancellationToken cancellationToken)
+   at Microsoft.SemanticKernel.Connectors.SqliteVec.SqliteCollection`2.EnumerateAndMapSearchResultsAsync(List`1 conditions, String extraWhereFilter, Dictionary`2 extraParameters, VectorSearchOptions`1 searchOptions, CancellationToken cancellationToken)+MoveNext()
+   at Microsoft.SemanticKernel.Connectors.SqliteVec.SqliteCollection`2.EnumerateAndMapSearchResultsAsync(List`1 conditions, String extraWhereFilter, Dictionary`2 extraParameters, VectorSearchOptions`1 searchOptions, CancellationToken cancellationToken)+System.Threading.Tasks.Sources.IValueTaskSource<System.Boolean>.GetResult()
+   at Microsoft.SemanticKernel.Connectors.SqliteVec.SqliteCollection`2.SearchAsync[TInput](TInput searchValue, Int32 top, VectorSearchOptions`1 options, CancellationToken cancellationToken)+MoveNext()
+   at Microsoft.SemanticKernel.Connectors.SqliteVec.SqliteCollection`2.SearchAsync[TInput](TInput searchValue, Int32 top, VectorSearchOptions`1 options, CancellationToken cancellationToken)+MoveNext()
+   at Microsoft.SemanticKernel.Connectors.SqliteVec.SqliteCollection`2.SearchAsync[TInput](TInput searchValue, Int32 top, VectorSearchOptions`1 options, CancellationToken cancellationToken)+System.Threading.Tasks.Sources.IValueTaskSource<System.Boolean>.GetResult()
+   at GenxAi_Solutions.Services.VectorStoreSeedService.QueryAsync(String question, String sqliteDbPath, Int32 topSections, Int32 topChunks) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Services\VectorStoreSeedService.cs:line 375
+   at GenxAi_Solutions.Services.VectorStoreSeedService.QueryAsync(String question, String sqliteDbPath, Int32 topSections, Int32 topChunks) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Services\VectorStoreSeedService.cs:line 375
+   at GenxAi_Solutions.Api.CompanyOnboardController.AskChat_up(String message, String service, Nullable`1 conversationId, CancellationToken ct) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Api\CompanyOnboardController.cs:line 1164
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at GenxAi_Solutions.Utils.Middleware.ErrorHandlingMiddleware.Invoke(HttpContext context) in D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\Utils\Middleware\ErrorHandlingMiddleware.cs:line 139
+------------------------------------------------------------
+[2025-10-17 10:50:41.522] [AUDIT]
+Event: General Audit
+Details: QueuedWorker started.
+------------------------------------------------------------
+[2025-10-17 10:50:41.700] [AUDIT]
+Event: ListeningOnAddress
+Details: Now listening on: https://localhost:7282
+------------------------------------------------------------
+[2025-10-17 10:50:41.700] [AUDIT]
+Event: ListeningOnAddress
+Details: Now listening on: http://localhost:5072
+------------------------------------------------------------
+[2025-10-17 10:50:41.774] [AUDIT]
+Event: General Audit
+Details: Application started. Press Ctrl+C to shut down.
+------------------------------------------------------------
+[2025-10-17 10:50:41.780] [AUDIT]
+Event: General Audit
+Details: Hosting environment: Development
+------------------------------------------------------------
+[2025-10-17 10:50:41.785] [AUDIT]
+Event: General Audit
+Details: Content root path: D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions
+------------------------------------------------------------
+[2025-10-17 10:50:42.507] [AUDIT]
+Event: ErrorUnprotectingCookie
+Details: Error unprotecting the session cookie.
+------------------------------------------------------------
+[2025-10-17 10:51:01.476] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: POST /api/auth/login, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-17 10:51:01.482] [AUDIT]
+Event: ErrorUnprotectingCookie
+Details: Error unprotecting the session cookie.
+------------------------------------------------------------
+[2025-10-17 10:51:06.801] [AUDIT]
+Event: General Audit
+Details: USER_LOGIN: User: admin@acgindia.co.in, IP: ::1, Status: SUCCESS
+------------------------------------------------------------
+[2025-10-17 10:51:06.984] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/notifications/unread, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-17 10:51:07.001] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/CompanyOnboard/History/me, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-17 10:51:07.023] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: POST /api/auth/getmenu, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-17 10:51:07.188] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync user=11 companies=0 afterId=(null)
+------------------------------------------------------------
+[2025-10-17 10:51:11.808] [AUDIT]
+Event: General Audit
+Details: GetUnreadAsync returned 0 items
+------------------------------------------------------------
+[2025-10-17 10:51:17.390] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: POST /api/CompanyOnboard/Ask2, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-17 10:51:53.453] [AUDIT]
+Event: General Audit
+Details: SQLiteVectorStore DB: D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\bin\Debug\net8.0\db_ai_company_85.db Exists=False
+------------------------------------------------------------
+[2025-10-17 10:52:12.011] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: POST /api/CompanyOnboard/Start1, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-17 10:52:17.614] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: POST /api/CompanyOnboard/Ask2, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-17 10:52:21.254] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: GET /api/CompanyOnboard/History/me, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-17 10:52:34.112] [AUDIT]
+Event: General Audit
+Details: SQLiteVectorStore DB: D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\bin\Debug\net8.0\PDFdb_ai_company_85.db Exists=True
+------------------------------------------------------------
+[2025-10-17 10:52:41.517] [AUDIT]
+Event: General Audit
+Details: PdfCreate DataSource=D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\bin\Debug\net8.0\PDFdb_ai_company_85.db Exists=True
+------------------------------------------------------------
+[2025-10-17 10:56:01.882] [AUDIT]
+Event: General Audit
+Details: Error in AskChat_up API - User: admin@acgindia.co.in, Service: FileAnalytics, Message: hi, CorrelationId: ba4257a1-5d17-4164-857a-2f4af5cd6d0f, Error: The operation was canceled.
+------------------------------------------------------------
+[2025-10-17 10:56:01.884] [AUDIT]
+Event: General Audit
+Details: SECURITY_EVENT: Type: CHAT_PROCESSING_ERROR, User: admin@acgindia.co.in, IP: ::1, Details: Error in chat processing: The operation was canceled., CorrelationId: ba4257a1-5d17-4164-857a-2f4af5cd6d0f
+------------------------------------------------------------
+[2025-10-17 10:56:01.951] [AUDIT]
+Event: General Audit
+Details: Request aborted by client: POST /api/CompanyOnboard/Ask2
+------------------------------------------------------------
+[2025-10-17 10:56:12.301] [AUDIT]
+Event: General Audit
+Details: GENERAL_AUDIT: Action: POST /api/CompanyOnboard/Ask2, User: anonymous, IP: ::1, Details: Sensitive action accessed
+------------------------------------------------------------
+[2025-10-17 10:56:23.963] [AUDIT]
+Event: General Audit
+Details: SQLiteVectorStore DB: D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\bin\Debug\net8.0\PDFdb_ai_company_85.db Exists=True
+------------------------------------------------------------
+[2025-10-17 10:56:23.971] [AUDIT]
+Event: General Audit
+Details: PdfCreate DataSource=D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions\bin\Debug\net8.0\PDFdb_ai_company_85.db Exists=True
+------------------------------------------------------------
+[2025-10-17 11:13:16.134] [AUDIT]
+Event: General Audit
+Details: QueuedWorker started.
+------------------------------------------------------------
+[2025-10-17 11:13:16.267] [AUDIT]
+Event: ListeningOnAddress
+Details: Now listening on: https://localhost:7282
+------------------------------------------------------------
+[2025-10-17 11:13:16.267] [AUDIT]
+Event: ListeningOnAddress
+Details: Now listening on: http://localhost:5072
+------------------------------------------------------------
+[2025-10-17 11:13:16.348] [AUDIT]
+Event: General Audit
+Details: Application started. Press Ctrl+C to shut down.
+------------------------------------------------------------
+[2025-10-17 11:13:16.356] [AUDIT]
+Event: General Audit
+Details: Hosting environment: Development
+------------------------------------------------------------
+[2025-10-17 11:13:16.358] [AUDIT]
+Event: General Audit
+Details: Content root path: D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions
+------------------------------------------------------------
+[2025-10-17 11:13:59.245] [AUDIT]
+Event: General Audit
+Details: QueuedWorker started.
+------------------------------------------------------------
+[2025-10-17 11:13:59.415] [AUDIT]
+Event: ListeningOnAddress
+Details: Now listening on: https://localhost:7282
+------------------------------------------------------------
+[2025-10-17 11:13:59.416] [AUDIT]
+Event: ListeningOnAddress
+Details: Now listening on: http://localhost:5072
+------------------------------------------------------------
+[2025-10-17 11:13:59.513] [AUDIT]
+Event: General Audit
+Details: Application started. Press Ctrl+C to shut down.
+------------------------------------------------------------
+[2025-10-17 11:13:59.515] [AUDIT]
+Event: General Audit
+Details: Hosting environment: Development
+------------------------------------------------------------
+[2025-10-17 11:13:59.516] [AUDIT]
+Event: General Audit
+Details: Content root path: D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions
+------------------------------------------------------------
+[2025-10-17 11:57:02.219] [AUDIT]
+Event: General Audit
+Details: QueuedWorker started.
+------------------------------------------------------------
+[2025-10-17 11:57:02.576] [AUDIT]
+Event: ListeningOnAddress
+Details: Now listening on: https://localhost:7282
+------------------------------------------------------------
+[2025-10-17 11:57:02.580] [AUDIT]
+Event: ListeningOnAddress
+Details: Now listening on: http://localhost:5072
+------------------------------------------------------------
+[2025-10-17 11:57:02.780] [AUDIT]
+Event: General Audit
+Details: Application started. Press Ctrl+C to shut down.
+------------------------------------------------------------
+[2025-10-17 11:57:02.790] [AUDIT]
+Event: General Audit
+Details: Hosting environment: Development
+------------------------------------------------------------
+[2025-10-17 11:57:02.797] [AUDIT]
+Event: General Audit
+Details: Content root path: D:\GENXAI_ProductSVN\GenxAi_WEB\GenxAi_Solutions\GenxAi_Solutions
+------------------------------------------------------------
