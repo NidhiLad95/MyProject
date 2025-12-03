@@ -1715,11 +1715,7 @@ private static HashSet<string> ExtractCandidateNames(string text)
             return chatHistory;
         }
 
-        // Add a memory cache at the controller level
-        //private static readonly MemoryCache _historyCache = new(new MemoryCacheOptions
-        //{
-        //    SizeLimit = 1024
-        //});
+        // Add memory caches at the controller level to avoid repeated DB calls
         private static readonly MemoryCache _historyCache = new(new MemoryCacheOptions());
 
         private static string GetHistoryCacheKey(long conversationId) => $"history_{conversationId}";
