@@ -1705,12 +1705,9 @@ private static HashSet<string> ExtractCandidateNames(string text)
             return chatHistory;
         }
 
-        // Add a memory cache at the controller level
-        //private static readonly MemoryCache _historyCache = new(new MemoryCacheOptions
-        //{
-        //    SizeLimit = 1024
-        //});
+        // Add memory caches at the controller level to avoid repeated DB calls
         private static readonly MemoryCache _historyCache = new(new MemoryCacheOptions());
+        private static readonly MemoryCache _promptCache = new(new MemoryCacheOptions());
         private async Task<List<ChatMessage>> GetLimitedHistoryAsync_up(
    long conversationId,
    int maxHistory,
@@ -1792,8 +1789,22 @@ private static HashSet<string> ExtractCandidateNames(string text)
         private string GetPrompt(int companyId, string chosenServices)
         {
             var svc = (!string.IsNullOrEmpty(chosenServices) && chosenServices == "SQLAnalytics") ? 1 : 2;
+            var cacheKey = $"prompt_{companyId}_{svc}";
+
+            if (_promptCache.TryGetValue(cacheKey, out string cachedPrompt))
+            {
+                return cachedPrompt;
+            }
+
             var strData = _repo.GetPromptCompany(new GetPromptCompanyId { CompanyId = companyId, SvcType = svc });
-            return strData.Result.Data;
+            var prompt = strData.Result.Data;
+
+            _promptCache.Set(cacheKey, prompt, new MemoryCacheEntryOptions
+            {
+                AbsoluteExpirationRelativeToNow = TimeSpan.FromMinutes(30)
+            });
+
+            return prompt;
         }
        
         // Generic method to handle assistant responses for both services
